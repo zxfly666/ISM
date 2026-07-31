@@ -1,0 +1,40 @@
+{
+  "model": {
+    "samples": 32,
+    "lattice_size": 16,
+    "energy_mean": -1.44384765625,
+    "energy_std": 0.1237881895063706,
+    "magnetization_mean": -0.16552734375,
+    "abs_magnetization_mean": 0.63525390625,
+    "magnetization_std": 0.6840330169889631,
+    "binder_u4": 0.5481902676475947,
+    "xi_over_l": 0.5797731381330223
+  },
+  "reference": {
+    "samples": 32,
+    "lattice_size": 16,
+    "energy_mean": -1.50634765625,
+    "energy_std": 0.17694854915129707,
+    "magnetization_mean": 0.5009765625,
+    "abs_magnetization_mean": 0.75390625,
+    "magnetization_std": 0.6060241501807652,
+    "binder_u4": 0.6223478723999156,
+    "xi_over_l": 1.0550962562889872
+  },
+  "absolute_error": {
+    "energy_mean": 0.0625,
+    "abs_magnetization_mean": 0.11865234375,
+    "binder_u4": 0.07415760475232092,
+    "xi_over_l": 0.47532311815596484
+  },
+  "checkpoint": "C:\\Users\\zhangxiangfei\\Desktop\\ISM\\artifacts\\smoke\\best.pt",
+  "sampling": {
+    "steps": 12,
+    "temperature": 1.0,
+    "sampler": "confidence_corrector",
+    "corrector_steps": 4,
+    "corrector_mask_ratio": 0.2,
+    "selection_noise": 0.05,
+    "seed": 2345
+  }
+}

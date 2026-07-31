@@ -1,0 +1,41 @@
+{
+  "model": {
+    "samples": 512,
+    "lattice_size": 64,
+    "energy_mean": -1.3835124969482422,
+    "energy_std": 0.06354721753411216,
+    "magnetization_mean": 0.001827239990234375,
+    "abs_magnetization_mean": 0.5417041778564453,
+    "magnetization_std": 0.5747093210392793,
+    "binder_u4": 0.572064855018599,
+    "xi_over_l": 0.7474147735744613
+  },
+  "reference": {
+    "samples": 512,
+    "lattice_size": 64,
+    "energy_mean": -1.4255180358886719,
+    "energy_std": 0.050865319522198964,
+    "magnetization_mean": 0.02826976776123047,
+    "abs_magnetization_mean": 0.6039934158325195,
+    "magnetization_std": 0.6255844681172995,
+    "binder_u4": 0.6119602705031509,
+    "xi_over_l": 0.9149839144010141
+  },
+  "absolute_error": {
+    "energy_mean": 0.04200553894042969,
+    "abs_magnetization_mean": 0.06228923797607422,
+    "binder_u4": 0.03989541548455189,
+    "xi_over_l": 0.16756914082655283
+  },
+  "checkpoint": "/root/autodl-tmp/ISM/artifacts/pilot_l64/best.pt",
+  "sampling": {
+    "steps": 48,
+    "temperature": 1.0,
+    "sampler": "ancestral",
+    "corrector_steps": 4,
+    "corrector_mask_ratio": 0.1,
+    "selection_noise": 0.05,
+    "seed": 7711,
+    "reference_split": "val"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "configuration": {
+    "lattice_size": 64,
+    "model_samples": 4608,
+    "model_sampling_seeds": [
+      "s1234",
+      "s2345",
+      "s3456"
+    ],
+    "reference_samples": 10000,
+    "reference_chains": 8,
+    "sampler": "ancestral",
+    "reverse_steps": 128,
+    "sampling_logit_temperature": 1.0
+  },
+  "model": {
+    "energy_mean": -1.4157000647650824,
+    "magnetization_mean": -0.03071329328748915,
+    "abs_magnetization_mean": 0.5957197613186307,
+    "binder_u4": 0.6067999984556338,
+    "xi_over_l": 0.899136013764012
+  },
+  "reference": {
+    "energy_mean": -1.42296328125,
+    "magnetization_mean": -0.00214169921875,
+    "abs_magnetization_mean": 0.59892001953125,
+    "binder_u4": 0.6103215989893709,
+    "xi_over_l": 0.9011870921555587
+  },
+  "absolute_error": {
+    "energy_mean": 0.007263216484917567,
+    "abs_magnetization_mean": 0.003200258212619267,
+    "binder_u4": 0.003521600533737068,
+    "xi_over_l": 0.0020510783915467234
+  },
+  "mode_balance": {
+    "positive_fraction": 0.4819878472222222,
+    "negative_fraction": 0.5180121527777778
+  },
+  "correlation": {
+    "nrmse_r1_16": 0.004046729300171137,
+    "ratio_r8": 0.9974828362464905,
+    "ratio_r16": 0.9993741512298584,
+    "ratio_r32": 0.9977811574935913,
+    "scaling_fit_r2_16": {
+      "model": {
+        "eta": 0.19216268966196148,
+        "amplitude": 0.662068858226833,
+        "r_squared": 0.9964831543280475
+      },
+      "reference": {
+        "eta": 0.19544331944516294,
+        "amplitude": 0.6682739790215338,
+        "r_squared": 0.9965599767776373
+      }
+    }
+  },
+  "checks": {
+    "spin_flip_symmetry": true,
+    "energy": true,
+    "abs_magnetization": true,
+    "binder_u4": true,
+    "xi_over_l": true,
+    "correlation_nrmse_r1_16": true
+  },
+  "all_pilot_checks_passed": true,
+  "reference_metadata": {
+    "convergence": {
+      "energy_split_rhat": 1.0005481771887206,
+      "abs_magnetization_split_rhat": 1.0005783913495323,
+      "minimum_chain_ess": 823.2957453161074
+    },
+    "seed": 20260806
+  }
+}

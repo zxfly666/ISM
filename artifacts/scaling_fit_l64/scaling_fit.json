@@ -1,0 +1,338 @@
+{
+  "lattice_size": 64,
+  "samples_per_ensemble": {
+    "MC": 128,
+    "step 15k": 128,
+    "step 30k": 128
+  },
+  "estimator": "Raw periodic C(r)=<s_i s_{i+r}>, radial bins rounded to nearest integer. Ordinary least squares is performed in log-log space.",
+  "warning": "The 128-sample MC subset is a provisional finite-size target. Final uncertainties require the independent >=10k reference ensemble.",
+  "fits": {
+    "MC": {
+      "r2_8": {
+        "radial_power_law": {
+          "eta": 0.21675965810982636,
+          "amplitude": 0.6859608444865063,
+          "r_squared": 0.9992697427035163,
+          "eta_bootstrap_mean": 0.21722326531091887,
+          "eta_bootstrap_se": 0.010760998827632793,
+          "eta_ci95_low": 0.19678327476937368,
+          "eta_ci95_high": 0.23911864884397616
+        },
+        "chord_distance_power_law": {
+          "eta": 0.22045592091877783,
+          "amplitude": 0.6880377523309008,
+          "r_squared": 0.9992983466113862,
+          "eta_bootstrap_mean": 0.22092637085604422,
+          "eta_bootstrap_se": 0.010932838412092269,
+          "eta_ci95_low": 0.20015800590217056,
+          "eta_ci95_high": 0.24317580010327705
+        }
+      },
+      "r2_12": {
+        "radial_power_law": {
+          "eta": 0.21469718346741948,
+          "amplitude": 0.6840890232001138,
+          "r_squared": 0.999514461766447,
+          "eta_bootstrap_mean": 0.2153284288330234,
+          "eta_bootstrap_se": 0.013029880239806304,
+          "eta_ci95_low": 0.1910186747882335,
+          "eta_ci95_high": 0.24200226085368765
+        },
+        "chord_distance_power_law": {
+          "eta": 0.22144438199982594,
+          "amplitude": 0.6888756779503113,
+          "r_squared": 0.9996495981975727,
+          "eta_bootstrap_mean": 0.22209277679555886,
+          "eta_bootstrap_se": 0.013399679481588121,
+          "eta_ci95_low": 0.1970268237264554,
+          "eta_ci95_high": 0.24952526312978934
+        }
+      },
+      "r2_16": {
+        "radial_power_law": {
+          "eta": 0.2103714946139566,
+          "amplitude": 0.6796951938831329,
+          "r_squared": 0.9989898655670577,
+          "eta_bootstrap_mean": 0.21107745266867742,
+          "eta_bootstrap_se": 0.014657061599210135,
+          "eta_ci95_low": 0.18409038739296327,
+          "eta_ci95_high": 0.2413527787785932
+        },
+        "chord_distance_power_law": {
+          "eta": 0.2209939553232094,
+          "amplitude": 0.6884208003216616,
+          "r_squared": 0.999771071583772,
+          "eta_bootstrap_mean": 0.22173120827457796,
+          "eta_bootstrap_se": 0.015308647785360344,
+          "eta_ci95_low": 0.19350471995037022,
+          "eta_ci95_high": 0.25347774545390367
+        }
+      },
+      "r4_16": {
+        "radial_power_law": {
+          "eta": 0.20500615888490883,
+          "amplitude": 0.6711264950146459,
+          "r_squared": 0.9988720450923694,
+          "eta_bootstrap_mean": 0.20589195545945455,
+          "eta_bootstrap_se": 0.017772762411492258,
+          "eta_ci95_low": 0.17263503928522936,
+          "eta_ci95_high": 0.24223802871862307
+        },
+        "chord_distance_power_law": {
+          "eta": 0.2203355457031283,
+          "amplitude": 0.6873116574176514,
+          "r_squared": 0.9998383016888012,
+          "eta_bootstrap_mean": 0.221285564008035,
+          "eta_bootstrap_se": 0.019024827700927116,
+          "eta_ci95_low": 0.18576237325553555,
+          "eta_ci95_high": 0.26021540371615665
+        }
+      },
+      "r4_24": {
+        "radial_power_law": {
+          "eta": 0.19240264038787705,
+          "amplitude": 0.6541035412235695,
+          "r_squared": 0.9955104400063709,
+          "eta_bootstrap_mean": 0.1933152363370987,
+          "eta_bootstrap_se": 0.01967392269508135,
+          "eta_ci95_low": 0.15750398017937298,
+          "eta_ci95_high": 0.23296721772736578
+        },
+        "chord_distance_power_law": {
+          "eta": 0.22087953209000816,
+          "amplitude": 0.6880399799188167,
+          "r_squared": 0.9999094989233023,
+          "eta_bootstrap_mean": 0.2219196729508584,
+          "eta_bootstrap_se": 0.022319225550349778,
+          "eta_ci95_low": 0.18140779421913303,
+          "eta_ci95_high": 0.2669606353285539
+        }
+      }
+    },
+    "step 15k": {
+      "r2_8": {
+        "radial_power_law": {
+          "eta": 0.2399609399566665,
+          "amplitude": 0.6723334048742508,
+          "r_squared": 0.9992696615548456,
+          "eta_bootstrap_mean": 0.23945621110549753,
+          "eta_bootstrap_se": 0.012455376941242671,
+          "eta_ci95_low": 0.21569345162945558,
+          "eta_ci95_high": 0.2641319622092971
+        },
+        "chord_distance_power_law": {
+          "eta": 0.24403571441804325,
+          "amplitude": 0.6745699409640628,
+          "r_squared": 0.9991580315443029,
+          "eta_bootstrap_mean": 0.24352265508213047,
+          "eta_bootstrap_se": 0.012655465605352953,
+          "eta_ci95_low": 0.21938699556680552,
+          "eta_ci95_high": 0.26858708517584795
+        }
+      },
+      "r2_12": {
+        "radial_power_law": {
+          "eta": 0.23917065288420994,
+          "amplitude": 0.6715809569102864,
+          "r_squared": 0.9995920048351398,
+          "eta_bootstrap_mean": 0.23870801368367478,
+          "eta_bootstrap_se": 0.01477901525591483,
+          "eta_ci95_low": 0.2108205321401839,
+          "eta_ci95_high": 0.268386312445906
+        },
+        "chord_distance_power_law": {
+          "eta": 0.2466605304796473,
+          "amplitude": 0.6767857461144556,
+          "r_squared": 0.9995128738087029,
+          "eta_bootstrap_mean": 0.24618281693735616,
+          "eta_bootstrap_se": 0.015202064351882219,
+          "eta_ci95_low": 0.21749964029826005,
+          "eta_ci95_high": 0.2766869127229549
+        }
+      },
+      "r2_16": {
+        "radial_power_law": {
+          "eta": 0.23561971057286316,
+          "amplitude": 0.6680330497387889,
+          "r_squared": 0.9993569773527106,
+          "eta_bootstrap_mean": 0.23523078307556822,
+          "eta_bootstrap_se": 0.01667525983807446,
+          "eta_ci95_low": 0.2037699979296909,
+          "eta_ci95_high": 0.2694481334672465
+        },
+        "chord_distance_power_law": {
+          "eta": 0.24746031943060898,
+          "amplitude": 0.677568525545065,
+          "r_squared": 0.9996800606874876,
+          "eta_bootstrap_mean": 0.24704923696424516,
+          "eta_bootstrap_se": 0.01741607270393955,
+          "eta_ci95_low": 0.21415657769633795,
+          "eta_ci95_high": 0.2829182042136028
+        }
+      },
+      "r4_16": {
+        "radial_power_law": {
+          "eta": 0.23217450121545544,
+          "amplitude": 0.6625733796837714,
+          "r_squared": 0.9991543262939621,
+          "eta_bootstrap_mean": 0.2318519616283814,
+          "eta_bootstrap_se": 0.020110719353789018,
+          "eta_ci95_low": 0.19457564352090354,
+          "eta_ci95_high": 0.2724425977210909
+        },
+        "chord_distance_power_law": {
+          "eta": 0.24950884394399966,
+          "amplitude": 0.6806592560370899,
+          "r_squared": 0.9999079364262858,
+          "eta_bootstrap_mean": 0.249158238594787,
+          "eta_bootstrap_se": 0.02151925592126537,
+          "eta_ci95_low": 0.209349867091392,
+          "eta_ci95_high": 0.2926144256742155
+        }
+      },
+      "r4_24": {
+        "radial_power_law": {
+          "eta": 0.2228071726804763,
+          "amplitude": 0.6500705211479343,
+          "r_squared": 0.998076519426366,
+          "eta_bootstrap_mean": 0.2228035712930812,
+          "eta_bootstrap_se": 0.023563035418289583,
+          "eta_ci95_low": 0.1802166372179349,
+          "eta_ci95_high": 0.27164938109572534
+        },
+        "chord_distance_power_law": {
+          "eta": 0.2553735906058999,
+          "amplitude": 0.6885988037936184,
+          "r_squared": 0.9992713871835466,
+          "eta_bootstrap_mean": 0.25534625157998264,
+          "eta_bootstrap_se": 0.026646209779765777,
+          "eta_ci95_low": 0.20696668186168643,
+          "eta_ci95_high": 0.3102542083274421
+        }
+      }
+    },
+    "step 30k": {
+      "r2_8": {
+        "radial_power_law": {
+          "eta": 0.2445452567593557,
+          "amplitude": 0.6718552098165864,
+          "r_squared": 0.9990960452419267,
+          "eta_bootstrap_mean": 0.2448628817313491,
+          "eta_bootstrap_se": 0.013271668313093527,
+          "eta_ci95_low": 0.21982695122392884,
+          "eta_ci95_high": 0.2713888478403611
+        },
+        "chord_distance_power_law": {
+          "eta": 0.24869523681830283,
+          "amplitude": 0.674130248819892,
+          "r_squared": 0.9989632205560275,
+          "eta_bootstrap_mean": 0.24901790052720965,
+          "eta_bootstrap_se": 0.013484992517769445,
+          "eta_ci95_low": 0.22357780981904649,
+          "eta_ci95_high": 0.2759643513406547
+        }
+      },
+      "r2_12": {
+        "radial_power_law": {
+          "eta": 0.2418139822308915,
+          "amplitude": 0.6694132181200309,
+          "r_squared": 0.9993535449475038,
+          "eta_bootstrap_mean": 0.242178934551566,
+          "eta_bootstrap_se": 0.015430562532833057,
+          "eta_ci95_low": 0.21309690956702884,
+          "eta_ci95_high": 0.27327495173675703
+        },
+        "chord_distance_power_law": {
+          "eta": 0.24941307903460785,
+          "amplitude": 0.6746907568420137,
+          "r_squared": 0.9994863352371085,
+          "eta_bootstrap_mean": 0.249788578595851,
+          "eta_bootstrap_se": 0.01587608423065325,
+          "eta_ci95_low": 0.21987309447223385,
+          "eta_ci95_high": 0.2817751644768086
+        }
+      },
+      "r2_16": {
+        "radial_power_law": {
+          "eta": 0.23630569359240275,
+          "amplitude": 0.6639508625345801,
+          "r_squared": 0.9987094152335587,
+          "eta_bootstrap_mean": 0.23669630892060264,
+          "eta_bootstrap_se": 0.017135338382690293,
+          "eta_ci95_low": 0.2044618119038148,
+          "eta_ci95_high": 0.2716273848540779
+        },
+        "chord_distance_power_law": {
+          "eta": 0.2482559513785945,
+          "amplitude": 0.6735573350816182,
+          "r_squared": 0.9996376126234674,
+          "eta_bootstrap_mean": 0.24866461821101032,
+          "eta_bootstrap_se": 0.017906271677271032,
+          "eta_ci95_low": 0.21493905874515473,
+          "eta_ci95_high": 0.28508939152833723
+        }
+      },
+      "r4_16": {
+        "radial_power_law": {
+          "eta": 0.23067007306470713,
+          "amplitude": 0.6551402967018175,
+          "r_squared": 0.9981908743696726,
+          "eta_bootstrap_mean": 0.23111897232101702,
+          "eta_bootstrap_se": 0.020390469211743787,
+          "eta_ci95_low": 0.1934510957987006,
+          "eta_ci95_high": 0.27287676263827193
+        },
+        "chord_distance_power_law": {
+          "eta": 0.24798683954080306,
+          "amplitude": 0.6730445327306722,
+          "r_squared": 0.9997075064705947,
+          "eta_bootstrap_mean": 0.2484682583032839,
+          "eta_bootstrap_se": 0.021829300589060317,
+          "eta_ci95_low": 0.20805807657107617,
+          "eta_ci95_high": 0.29294748380130814
+        }
+      },
+      "r4_24": {
+        "radial_power_law": {
+          "eta": 0.21784223971965241,
+          "amplitude": 0.6382817880630682,
+          "r_squared": 0.9961972616794551,
+          "eta_bootstrap_mean": 0.2183857267883178,
+          "eta_bootstrap_se": 0.02316625788470738,
+          "eta_ci95_low": 0.17693138281449403,
+          "eta_ci95_high": 0.26886293239910997
+        },
+        "chord_distance_power_law": {
+          "eta": 0.24997553965868102,
+          "amplitude": 0.6757241333227122,
+          "r_squared": 0.9997287213434154,
+          "eta_bootstrap_mean": 0.2505894992676584,
+          "eta_bootstrap_se": 0.026247553485612186,
+          "eta_ci95_low": 0.20352406138270693,
+          "eta_ci95_high": 0.3076498946601987
+        }
+      }
+    }
+  },
+  "model_to_mc_ratio": {
+    "step 15k": {
+      "1": 0.9754302243131605,
+      "2": 0.9627770030781723,
+      "4": 0.9506603098658725,
+      "8": 0.9328668770293127,
+      "16": 0.9153924494069191,
+      "24": 0.8991293140559994,
+      "32": 0.8830098804786692
+    },
+    "step 30k": {
+      "1": 0.9716288309378833,
+      "2": 0.9584317297771023,
+      "4": 0.944708789547707,
+      "8": 0.9236096139649436,
+      "16": 0.9102685983419961,
+      "24": 0.8995662923818152,
+      "32": 0.886830405176219
+    }
+  }
+}

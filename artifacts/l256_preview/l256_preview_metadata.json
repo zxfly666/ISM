@@ -1,0 +1,23 @@
+{
+  "lattice_size": 256,
+  "beta": 0.44068679350977147,
+  "seed": 20260801,
+  "energy_density": -1.42755126953125,
+  "magnetization": 0.60003662109375,
+  "sampler": {
+    "backend": "numba",
+    "adaptation_sweeps": 3.0,
+    "adaptation_updated_spins": 197496,
+    "adaptation_cluster_steps": 3894,
+    "pilot_cluster_steps": 128,
+    "initial_pilot_mean_cluster_size": 383.6953125,
+    "burn_in_cluster_steps": 85402,
+    "burn_in_mean_cluster_size": 17894.392648884103,
+    "production_pilot_mean_cluster_size": 18255.34375,
+    "fixed_cluster_steps_per_gap": 18,
+    "mean_realized_gap_sweeps": 5.762237548828125,
+    "production_cluster_updates": 18,
+    "production_mean_cluster_size": 20979.666666666668,
+    "production_max_cluster_size": 40909
+  }
+}

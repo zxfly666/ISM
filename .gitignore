@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local/session-only material
+.codex-ssh/
+tmp/
+
+# Third-party reference checkouts are linked instead of republished.
+external/
+
+# The requested GitHub package excludes the final report in every rendered form.
+docs/L64_DISCRETE_DIFFUSION_FINAL_REPORT_ZH.md
+artifacts/final_l64/FINAL_REPORT_ZH.md
+output/
+
+# Large checkpoints are GitHub Release assets; all other artifacts are versioned.
+artifacts/**/*.pt

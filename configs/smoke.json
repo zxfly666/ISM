@@ -1,0 +1,33 @@
+{
+  "data_path": "data/ising_l16_smoke.npz",
+  "output_dir": "artifacts/smoke",
+  "seed": 17,
+  "device": "cpu",
+  "training_steps": 80,
+  "batch_size": 8,
+  "learning_rate": 0.001,
+  "minimum_learning_rate": 0.0001,
+  "warmup_steps": 8,
+  "adam_betas": [0.9, 0.95],
+  "weight_decay": 0.01,
+  "gradient_clip": 1.0,
+  "ema_decay": 0.99,
+  "precision": "float32",
+  "t_min": 0.05,
+  "t_max": 1.0,
+  "full_mask_probability": 0.1,
+  "validation_interval": 20,
+  "validation_samples": 32,
+  "validation_batch_size": 8,
+  "validation_t_grid": [0.05, 0.2, 0.5, 0.8, 0.95, 1.0],
+  "checkpoint_interval": 40,
+  "model": {
+    "d_model": 32,
+    "n_heads": 4,
+    "n_blocks": 2,
+    "mlp_ratio": 2.0,
+    "dropout": 0.0,
+    "vocab_size": 3,
+    "output_classes": 2
+  }
+}

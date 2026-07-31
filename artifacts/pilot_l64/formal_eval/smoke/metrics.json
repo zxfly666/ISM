@@ -1,0 +1,41 @@
+{
+  "model": {
+    "samples": 8,
+    "lattice_size": 64,
+    "energy_mean": -0.8350830078125,
+    "energy_std": 0.024970977831136734,
+    "magnetization_mean": 0.01348876953125,
+    "abs_magnetization_mean": 0.04595947265625,
+    "magnetization_std": 0.05560035214591956,
+    "binder_u4": 0.28587549043162985,
+    "xi_over_l": 0.0
+  },
+  "reference": {
+    "samples": 8,
+    "lattice_size": 64,
+    "energy_mean": -1.4093017578125,
+    "energy_std": 0.03887173529511085,
+    "magnetization_mean": -0.03985595703125,
+    "abs_magnetization_mean": 0.60064697265625,
+    "magnetization_std": 0.6518135853349433,
+    "binder_u4": 0.626622731456762,
+    "xi_over_l": 0.8268401189550874
+  },
+  "absolute_error": {
+    "energy_mean": 0.57421875,
+    "abs_magnetization_mean": 0.5546875,
+    "binder_u4": 0.3407472410251321,
+    "xi_over_l": 0.8268401189550874
+  },
+  "checkpoint": "/root/autodl-tmp/ISM/artifacts/pilot_l64/best.pt",
+  "sampling": {
+    "steps": 4,
+    "temperature": 1.0,
+    "sampler": "ancestral",
+    "corrector_steps": 4,
+    "corrector_mask_ratio": 0.1,
+    "selection_noise": 0.05,
+    "seed": 991,
+    "reference_split": "val"
+  }
+}

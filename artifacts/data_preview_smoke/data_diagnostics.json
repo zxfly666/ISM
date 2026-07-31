@@ -1,0 +1,165 @@
+{
+  "data_path": "C:\\Users\\zhangxiangfei\\Desktop\\ISM\\data\\ising_l16_smoke.npz",
+  "metadata": {
+    "lattice_size": 16,
+    "beta": 0.44068679350977147,
+    "critical_beta_exact": 0.44068679350977147,
+    "chains": 4,
+    "train_chains": 2,
+    "val_chains": 1,
+    "test_chains": 1,
+    "samples_per_chain": 48,
+    "burn_in_sweeps": 30,
+    "sweeps_between": 2,
+    "seed": 17,
+    "chain_seeds": [
+      3302413169,
+      2035845825,
+      1193624495,
+      3388839295
+    ],
+    "note": "Run an autocorrelation pilot before treating sweeps_between as an independence guarantee."
+  },
+  "chain_sets": {
+    "train": [
+      0,
+      1
+    ],
+    "val": [
+      2
+    ],
+    "test": [
+      3
+    ]
+  },
+  "chain_overlaps": {
+    "train_val": [],
+    "train_test": [],
+    "val_test": []
+  },
+  "split_summaries": {
+    "train": {
+      "samples": 96,
+      "lattice_size": 16,
+      "energy_mean": -1.4689127604166667,
+      "energy_std": 0.1571600928233604,
+      "magnetization_mean": -0.353271484375,
+      "abs_magnetization_mean": 0.7451985677083334,
+      "magnetization_std": 0.6773673944578978,
+      "binder_u4": 0.6296246619524022,
+      "xi_over_l": 1.0145409057470418
+    },
+    "val": {
+      "samples": 48,
+      "lattice_size": 16,
+      "energy_mean": -1.4973958333333333,
+      "energy_std": 0.15448919205236625,
+      "magnetization_mean": -0.37451171875,
+      "abs_magnetization_mean": 0.7560221354166666,
+      "magnetization_std": 0.6787007278382179,
+      "binder_u4": 0.6290695890423965,
+      "xi_over_l": 1.0470547316051306
+    },
+    "test": {
+      "samples": 48,
+      "lattice_size": 16,
+      "energy_mean": -1.4934895833333333,
+      "energy_std": 0.1688667264405835,
+      "magnetization_mean": 0.2041015625,
+      "abs_magnetization_mean": 0.7464192708333334,
+      "magnetization_std": 0.7482068424972741,
+      "binder_u4": 0.6221620547683604,
+      "xi_over_l": 1.0141013210922638
+    }
+  },
+  "chain_diagnostics": [
+    {
+      "chain_id": 0,
+      "samples": 48,
+      "energy_mean": -1.4677734375,
+      "abs_magnetization_mean": 0.7425130208333334,
+      "energy_tau_int": 0.7880077170345724,
+      "energy_ess": 30.456554525020017,
+      "abs_magnetization_tau_int": 0.6536734253243568,
+      "abs_magnetization_ess": 36.71558161950832
+    },
+    {
+      "chain_id": 1,
+      "samples": 48,
+      "energy_mean": -1.4700520833333333,
+      "abs_magnetization_mean": 0.7478841145833334,
+      "energy_tau_int": 0.5,
+      "energy_ess": 48.0,
+      "abs_magnetization_tau_int": 0.5565585450691058,
+      "abs_magnetization_ess": 43.12214808779911
+    }
+  ],
+  "convergence": {
+    "energy_split_rhat": 1.0232218282593966,
+    "abs_magnetization_split_rhat": 1.0205315101077093,
+    "minimum_chain_ess": 30.456554525020017
+  },
+  "local_gibbs_calibration": [
+    {
+      "neighbour_sum": -4.0,
+      "count": 12231.0,
+      "empirical_p_plus": 0.03172267189927234,
+      "exact_p_plus": 0.028595479208968325,
+      "absolute_error": 0.0031271926903040127,
+      "binomial_se": 0.0015847245217691457
+    },
+    {
+      "neighbour_sum": -2.0,
+      "count": 4147.0,
+      "empirical_p_plus": 0.14154810706534846,
+      "exact_p_plus": 0.14644660940672627,
+      "absolute_error": 0.004898502341377814,
+      "binomial_se": 0.0054130619393366036
+    },
+    {
+      "neighbour_sum": 0.0,
+      "count": 1667.0,
+      "empirical_p_plus": 0.4931013797240552,
+      "exact_p_plus": 0.5,
+      "absolute_error": 0.006898620275944789,
+      "binomial_se": 0.012245058478077869
+    },
+    {
+      "neighbour_sum": 2.0,
+      "count": 1817.0,
+      "empirical_p_plus": 0.8635112823335168,
+      "exact_p_plus": 0.8535533905932737,
+      "absolute_error": 0.009957891740243086,
+      "binomial_se": 0.008053875674644596
+    },
+    {
+      "neighbour_sum": 4.0,
+      "count": 4714.0,
+      "empirical_p_plus": 0.9717861688587187,
+      "exact_p_plus": 0.9714045207910317,
+      "absolute_error": 0.00038164806768703485,
+      "binomial_se": 0.0024116906468965916
+    }
+  ],
+  "exact_identity_errors": {
+    "g_zero_error": 0.0,
+    "energy_correlation_error": 1.1102230246251565e-16,
+    "structure_sum_rule_error": 0.0,
+    "max_local_gibbs_error": 0.009957891740243086
+  },
+  "checks": {
+    "chain_splits_disjoint": true,
+    "binary_spins_only": true,
+    "g_zero_identity": true,
+    "energy_correlation_identity": true,
+    "structure_sum_rule": true,
+    "critical_energy_sanity": true,
+    "spin_flip_symmetry": false,
+    "binder_sanity": true,
+    "xi_over_l_sanity": true,
+    "split_rhat": true,
+    "minimum_chain_ess": true,
+    "local_gibbs_calibration": true
+  },
+  "all_checks_passed": false
+}
