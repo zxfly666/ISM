@@ -1,5 +1,15 @@
 # 实验产物索引
 
+## L=128 零样本尺度外推
+
+- `final_l128_zero_shot/`：三 seed 聚合后的 JSON、CSV 和 6 组 PNG/PDF 图表；总体结论为 `PARTIAL`。
+- `l128_zero_shot/formal_s*/`：逐 seed 指标和快速对比图；原始 `samples.npz` 仅保存在本地，不进入 Git。
+- `l128_zero_shot/formal_*.log`：后台采样、补跑和自动分析的审计日志。
+- 正式合并样本 `model_samples_4608.npz` 仅保存在本地；可用仓库脚本和 `best.pt` 复现。
+
+建议首先阅读 `final_l128_zero_shot/final_summary.json`，然后查看
+`figures/03_correlation_and_structure.png` 与 `figures/06_cross_scale_scaling.png`。
+
 本目录按实验阶段保存原始数值、图像和日志。阅读时建议从“正式结果”开始，
 不要把早期 smoke test 当成最终模型表现。
 

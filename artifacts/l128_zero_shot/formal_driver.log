@@ -1,0 +1,183 @@
+Waiting for process 32405 before starting queued seeds.
+Starting L=128 zero-shot seed 2345
+Generated 32/1536
+Generated 64/1536
+Generated 96/1536
+Generated 128/1536
+Generated 160/1536
+Generated 192/1536
+Generated 224/1536
+Generated 256/1536
+Generated 288/1536
+Generated 320/1536
+Generated 352/1536
+Generated 384/1536
+Generated 416/1536
+Generated 448/1536
+Generated 480/1536
+Generated 512/1536
+Generated 544/1536
+Generated 576/1536
+Generated 608/1536
+Generated 640/1536
+Generated 672/1536
+Generated 704/1536
+Generated 736/1536
+Generated 768/1536
+Generated 800/1536
+Generated 832/1536
+Generated 864/1536
+Generated 896/1536
+Generated 928/1536
+Generated 960/1536
+Generated 992/1536
+Generated 1024/1536
+Generated 1056/1536
+Generated 1088/1536
+Generated 1120/1536
+Generated 1152/1536
+Generated 1184/1536
+Generated 1216/1536
+Generated 1248/1536
+Generated 1280/1536
+Generated 1312/1536
+Generated 1344/1536
+Generated 1376/1536
+Generated 1408/1536
+Generated 1440/1536
+Generated 1472/1536
+Generated 1504/1536
+Generated 1536/1536
+{
+  "model": {
+    "samples": 1536,
+    "lattice_size": 128,
+    "energy_mean": -1.4196648597717285,
+    "energy_std": 0.03387811107953524,
+    "magnetization_mean": -0.0548091729482015,
+    "abs_magnetization_mean": 0.6031335989634196,
+    "magnetization_std": 0.6193694277364334,
+    "binder_u4": 0.6226396197329909,
+    "xi_over_l": 1.149369003986623
+  },
+  "reference": {
+    "samples": 1536,
+    "lattice_size": 128,
+    "energy_mean": -1.4180148442586262,
+    "energy_std": 0.028372396600550975,
+    "magnetization_mean": -0.0172879695892334,
+    "abs_magnetization_mean": 0.5458343029022217,
+    "magnetization_std": 0.566985111242252,
+    "binder_u4": 0.6077944746950574,
+    "xi_over_l": 0.8911610396313511
+  },
+  "absolute_error": {
+    "energy_mean": 0.0016500155131022876,
+    "abs_magnetization_mean": 0.05729929606119788,
+    "binder_u4": 0.014845145037933438,
+    "xi_over_l": 0.2582079643552718
+  },
+  "checkpoint": "/root/autodl-tmp/ISM/artifacts/pilot_l64/best.pt",
+  "sampling": {
+    "steps": 128,
+    "temperature": 1.0,
+    "sampler": "ancestral",
+    "corrector_steps": 4,
+    "corrector_mask_ratio": 0.1,
+    "selection_noise": 0.05,
+    "seed": 2345,
+    "reference_split": "test"
+  }
+}
+Completed seed 2345
+Starting L=128 zero-shot seed 3456
+Generated 32/1536
+Generated 64/1536
+Generated 96/1536
+Generated 128/1536
+Generated 160/1536
+Generated 192/1536
+Generated 224/1536
+Generated 256/1536
+Generated 288/1536
+Generated 320/1536
+Generated 352/1536
+Generated 384/1536
+Generated 416/1536
+Generated 448/1536
+Generated 480/1536
+Generated 512/1536
+Generated 544/1536
+Generated 576/1536
+Generated 608/1536
+Generated 640/1536
+Generated 672/1536
+Generated 704/1536
+Generated 736/1536
+Generated 768/1536
+Generated 800/1536
+Generated 832/1536
+Generated 864/1536
+Generated 896/1536
+Generated 928/1536
+Generated 960/1536
+Generated 992/1536
+Generated 1024/1536
+Generated 1056/1536
+Generated 1088/1536
+Generated 1120/1536
+Generated 1152/1536
+Generated 1184/1536
+Generated 1216/1536
+Generated 1248/1536
+Generated 1280/1536
+Generated 1312/1536
+Generated 1344/1536
+Generated 1376/1536
+Generated 1408/1536
+Generated 1440/1536
+Generated 1472/1536
+Generated 1504/1536
+Generated 1536/1536
+{
+  "model": {
+    "samples": 1536,
+    "lattice_size": 128,
+    "energy_mean": -1.4216127395629883,
+    "energy_std": 0.03380379659210869,
+    "magnetization_mean": -0.07156093915303548,
+    "abs_magnetization_mean": 0.615714947382609,
+    "magnetization_std": 0.6277092632778921,
+    "binder_u4": 0.6299487432143931,
+    "xi_over_l": 1.2558930028995883
+  },
+  "reference": {
+    "samples": 1536,
+    "lattice_size": 128,
+    "energy_mean": -1.4180148442586262,
+    "energy_std": 0.028372396600550975,
+    "magnetization_mean": -0.0172879695892334,
+    "abs_magnetization_mean": 0.5458343029022217,
+    "magnetization_std": 0.566985111242252,
+    "binder_u4": 0.6077944746950574,
+    "xi_over_l": 0.8911610396313511
+  },
+  "absolute_error": {
+    "energy_mean": 0.003597895304362053,
+    "abs_magnetization_mean": 0.06988064448038733,
+    "binder_u4": 0.022154268519335663,
+    "xi_over_l": 0.3647319632682372
+  },
+  "checkpoint": "/root/autodl-tmp/ISM/artifacts/pilot_l64/best.pt",
+  "sampling": {
+    "steps": 128,
+    "temperature": 1.0,
+    "sampler": "ancestral",
+    "corrector_steps": 4,
+    "corrector_mask_ratio": 0.1,
+    "selection_noise": 0.05,
+    "seed": 3456,
+    "reference_split": "test"
+  }
+}
+Completed seed 3456

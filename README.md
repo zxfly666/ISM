@@ -1,5 +1,26 @@
 # ISM: Critical Ising masked discrete diffusion
 
+## L=64 → L=128 零样本尺度外推
+
+冻结仅在 `L=64` 临界 Ising 系综上训练的 `best.pt`，直接在 `L=128` 上使用
+ancestral sampler 生成 3×1536 张样本，并与 8 条独立 Wolff 链生成的 10,000 张
+`L=128` MC 参考样本比较。实验协议见
+[`docs/L128_ZERO_SHOT_PROTOCOL_ZH.md`](docs/L128_ZERO_SHOT_PROTOCOL_ZH.md)，机器可读结果见
+[`artifacts/final_l128_zero_shot/final_summary.json`](artifacts/final_l128_zero_shot/final_summary.json)。
+
+结论为 **PARTIAL**：
+
+- 局域能量、正负磁化模式平衡、平均绝对磁化和 Binder cumulant 通过 pilot 阈值；
+- `xi/L` 为 model `1.1959`、MC `0.9047`，模型的大尺度关联过强；
+- `G(r)` NRMSE 在 `r=1..32` 为 `12.17%`，在真正外推区间 `r=33..64` 为 `22.09%`；
+- `G_model/G_MC` 从 `r=8` 的 `1.0806` 增至 `r=64` 的 `1.2322`；
+- 三个 sampling seed 呈现一致偏差，故这不是单个随机种子的偶然失败。
+
+因此当前模型已经学到较好的局域临界纹理，但没有正确学会从 `L=64` 到 `L=128`
+的全局有限尺寸 scaling。核心诊断图见
+[`03_correlation_and_structure.png`](artifacts/final_l128_zero_shot/figures/03_correlation_and_structure.png)
+和 [`06_cross_scale_scaling.png`](artifacts/final_l128_zero_shot/figures/06_cross_scale_scaling.png)。
+
 本项目研究二维临界 Ising 构型的吸收态离散扩散模型。仓库保存了完整的
 `L=64` pilot：Monte Carlo 数据、训练代码与配置、训练日志、采样器消融、
 多 seed 评估、关联函数与 scaling 分析。最终书面报告按仓库所有者要求未上传。

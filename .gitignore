@@ -12,7 +12,13 @@ external/
 # The requested GitHub package excludes the final report in every rendered form.
 docs/L64_DISCRETE_DIFFUSION_FINAL_REPORT_ZH.md
 artifacts/final_l64/FINAL_REPORT_ZH.md
+artifacts/final_l128_zero_shot/FINAL_REPORT_ZH.md
 output/
+
+# L=128 raw generated ensembles stay in the verified local archive. GitHub keeps
+# the compact metrics, logs, figures, and scripts needed to reproduce them.
+artifacts/l128_zero_shot/formal_s*/samples.npz
+artifacts/final_l128_zero_shot/model_samples_*.npz
 
 # Only the best formal checkpoint is published. All other training weights stay
 # local because their learning curves and evaluations are already saved.

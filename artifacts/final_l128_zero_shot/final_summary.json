@@ -1,0 +1,103 @@
+{
+  "question": "Can a denoiser trained only on L=64 extrapolate zero-shot to L=128?",
+  "configuration": {
+    "training_lattice_size": 64,
+    "evaluation_lattice_size": 128,
+    "checkpoint_frozen": true,
+    "model_samples": 4608,
+    "sampling_seeds": [
+      "s1234",
+      "s2345",
+      "s3456"
+    ],
+    "samples_per_seed": [
+      1536,
+      1536,
+      1536
+    ],
+    "reference_samples": 10000,
+    "reference_chains": 8,
+    "sampler": "ancestral",
+    "reverse_steps": 128,
+    "sampling_logit_temperature": 1.0
+  },
+  "model": {
+    "energy_mean": -1.4204969935946994,
+    "magnetization_mean": -0.05746324857076009,
+    "abs_magnetization_mean": 0.608873552746243,
+    "binder_u4": 0.6261412281099035,
+    "xi_over_l": 1.1959436953062945
+  },
+  "reference": {
+    "energy_mean": -1.418609716796875,
+    "magnetization_mean": 0.00475718994140625,
+    "abs_magnetization_mean": 0.5498520141601563,
+    "binder_u4": 0.6111013664462699,
+    "xi_over_l": 0.9047244742404627
+  },
+  "absolute_error": {
+    "energy_mean": 0.001887276797824411,
+    "abs_magnetization_mean": 0.05902153858608672,
+    "binder_u4": 0.01503986166363358,
+    "xi_over_l": 0.29121922106583187
+  },
+  "mode_balance": {
+    "positive_fraction": 0.4615885416666667,
+    "negative_fraction": 0.5384114583333333
+  },
+  "correlation": {
+    "nrmse_r1_32": 0.12166735529899597,
+    "nrmse_r33_64": 0.22093316912651062,
+    "ratios": {
+      "r8": 1.0806463956832886,
+      "r16": 1.1372337341308594,
+      "r32": 1.1980605125427246,
+      "r48": 1.2232760190963745,
+      "r64": 1.2321515083312988
+    },
+    "scaling_fits": {
+      "short_to_mid_r4_32": {
+        "model": {
+          "eta": 0.12574874738266295,
+          "amplitude": 0.6057534921478473,
+          "r_squared": 0.9855160906208646
+        },
+        "reference": {
+          "eta": 0.1977929458251675,
+          "amplitude": 0.649361495540519,
+          "r_squared": 0.9962894242871929
+        }
+      },
+      "long_r16_48": {
+        "model": {
+          "eta": 0.08115783620716314,
+          "amplitude": 0.527251083863377,
+          "r_squared": 0.9904480617704486
+        },
+        "reference": {
+          "eta": 0.14733362056773341,
+          "amplitude": 0.5547214300257097,
+          "r_squared": 0.9909318976441895
+        }
+      }
+    }
+  },
+  "checks": {
+    "spin_flip_symmetry": true,
+    "energy_abs_error_lt_0.03": true,
+    "abs_m_abs_error_lt_0.06": true,
+    "binder_abs_error_lt_0.05": true,
+    "xi_over_l_abs_error_lt_0.12": false,
+    "correlation_nrmse_r1_32_lt_0.08": false,
+    "correlation_nrmse_r33_64_lt_0.12": false
+  },
+  "all_zero_shot_checks_passed": false,
+  "reference_metadata": {
+    "seed": 20260807,
+    "convergence": {
+      "energy_split_rhat": 0.9998862952244241,
+      "abs_magnetization_split_rhat": 1.0002644254434805,
+      "minimum_chain_ess": 624.9218712784286
+    }
+  }
+}
