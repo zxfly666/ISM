@@ -244,10 +244,10 @@ add bootstrap confidence intervals and aggregate at least three training seeds.
 ## Complete experiment artifacts
 
 The repository includes the training/evaluation code, configurations, Ising
-datasets, logs, plots, sampled lattices, and compact analysis artifacts from the
-L=64 pilot. The seven approximately 203 MB PyTorch checkpoints are published as
-assets in the `l64-pilot-checkpoints` GitHub Release; see
-[`CHECKPOINTS.md`](CHECKPOINTS.md) for paths and SHA-256 checksums.
+datasets, logs, plots, sampled lattices, and analysis artifacts from the L=64
+pilot. The approximately 203 MB best checkpoint is managed with Git LFS; see
+[`CHECKPOINTS.md`](CHECKPOINTS.md) for its path and SHA-256 checksum. Resume and
+milestone weights are intentionally kept out of the repository.
 
 The final written report is intentionally excluded from this repository at the
 owner's request. The peer `Hackathon-3` checkout used for comparison is also not

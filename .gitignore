@@ -14,5 +14,7 @@ docs/L64_DISCRETE_DIFFUSION_FINAL_REPORT_ZH.md
 artifacts/final_l64/FINAL_REPORT_ZH.md
 output/
 
-# Large checkpoints are GitHub Release assets; all other artifacts are versioned.
+# Only the best formal checkpoint is published. All other training weights stay
+# local because their learning curves and evaluations are already saved.
 artifacts/**/*.pt
+!artifacts/pilot_l64/best.pt

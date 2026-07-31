@@ -37,7 +37,6 @@
 
 ## 4. 大文件
 
-7 个约 203 MB 的 `.pt` 文件未作为普通 Git 对象提交，而是发布在 GitHub
-Release `l64-pilot-checkpoints`。恢复路径和 SHA-256 见根目录
+正式实验的 `best.pt` 使用 Git LFS 管理，clone 后会恢复到原始项目路径。
+`last.pt` 和里程碑权重不上传；路径和 SHA-256 说明见根目录
 [`CHECKPOINTS.md`](../CHECKPOINTS.md)。
-
