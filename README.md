@@ -1,5 +1,27 @@
 # ISM: Critical Ising masked discrete diffusion
 
+## 最新：尺度感知坐标与 Local--Global 因果实验
+
+仓库现已加入针对“模型能否根据 context 中的真实物理距离进行推断”的分阶段实验。
+训练时不只改变位置编号，而是同步改变 Ising 父场的物理采样几何与传入模型的二维
+坐标；随后用 data-only、随机位置编码和坐标置换对照，分离真实坐标的独立贡献。
+
+当前证据链为：
+
+- Level 1：dense scale-aware 模型改善长程关联，但污染局部 Markov 规律；
+- Stage 2A：Local--Global 架构显著修复局部污染并保留长程收益，标签为
+  `CONDITIONAL_GO`；
+- Stage 2B 单 seed 因果筛选：`LG-Gap-Matched` 同时优于 data-only、RandomPE 和
+  uniform-stride T3，并通过 unit/shuffled coordinate swap，标签为
+  **`GO_FULL_2B`**。
+
+这仍是进入多 seed 正式确认的依据，不是最终论文结论。实验说明、主要数值、图表和
+机器可读逐样本结果见
+[`results/scale_aware_context/README.md`](results/scale_aware_context/README.md)，执行设计见
+[`docs/LEVEL2_SCALE_COORDINATE_LOCAL_GLOBAL_PROTOCOL_ZH.md`](docs/LEVEL2_SCALE_COORDINATE_LOCAL_GLOBAL_PROTOCOL_ZH.md)，
+完整中文报告见
+[`docs/SCALE_AWARE_CONTEXT_EXPERIMENT_REPORT_ZH.md`](docs/SCALE_AWARE_CONTEXT_EXPERIMENT_REPORT_ZH.md)。
+
 ## L=64 → L=128 零样本尺度外推
 
 冻结仅在 `L=64` 临界 Ising 系综上训练的 `best.pt`，直接在 `L=128` 上使用
@@ -29,6 +51,8 @@ ancestral sampler 生成 3×1536 张样本，并与 8 条独立 Wolff 链生成�
 
 | 目标 | 入口 |
 |---|---|
+| 区分各阶段实验结果 | [`results/README.md`](results/README.md) |
+| 查看尺度感知坐标与 Local--Global 最新实验 | [`results/scale_aware_context/README.md`](results/scale_aware_context/README.md) |
 | 理解项目设计 | [`docs/TECHNICAL_DESIGN_ZH.md`](docs/TECHNICAL_DESIGN_ZH.md) |
 | 查看正式实验方案 | [`docs/L64_PILOT_EXPERIMENT_PLAN_ZH.md`](docs/L64_PILOT_EXPERIMENT_PLAN_ZH.md) |
 | 复现正式训练 | [`configs/pilot_l64.json`](configs/pilot_l64.json) 与 `train.py` |
@@ -73,6 +97,7 @@ ISM/
 ├── configs/         # smoke、benchmark 与正式 L=64 配置
 ├── data/            # 可直接加载的 MC 训练/参考数据
 ├── artifacts/       # 训练日志、采样结果、图表与消融实验
+├── results/         # 精选、可公开复核的阶段性实验结果
 ├── docs/            # 技术设计、实验方案、诊断与审计记录
 ├── scripts/         # 报告构建等辅助工具
 ├── tests/           # 核心单元测试

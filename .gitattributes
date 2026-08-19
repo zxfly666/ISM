@@ -1,1 +1,6 @@
 *.pt filter=lfs diff=lfs merge=lfs -text
+data/level1/parents_l1024.npz filter=lfs diff=lfs merge=lfs -text
+results/scale_aware_context/level1_rapid/raw/**/*.npz filter=lfs diff=lfs merge=lfs -text
+results/scale_aware_context/level1_rapid/raw/**/*.csv filter=lfs diff=lfs merge=lfs -text
+results/scale_aware_context/stage2a_screen/raw/**/*.npz filter=lfs diff=lfs merge=lfs -text
+results/scale_aware_context/stage2a_screen/raw/**/*.csv filter=lfs diff=lfs merge=lfs -text

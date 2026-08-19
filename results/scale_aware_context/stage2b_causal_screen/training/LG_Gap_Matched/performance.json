@@ -1,0 +1,8 @@
+{
+  "elapsed_seconds_total": 599.0870438679121,
+  "elapsed_seconds_this_run": 599.0870438679121,
+  "steps_this_run": 8000,
+  "steps_per_second_this_run": 13.353652164382067,
+  "peak_allocated_gib": 0.606269359588623,
+  "peak_reserved_gib": 1.263671875
+}

@@ -1,0 +1,56 @@
+{
+  "parent_data": "/tmp/level1_parent_smoke.npz",
+  "seed": 1234,
+  "device": "auto",
+  "widths": [16],
+  "strides": [1],
+  "batch_sizes": {
+    "16": 4
+  },
+  "gradient_accumulation": 1,
+  "training_steps": 3,
+  "validation_interval": 1,
+  "checkpoint_interval": 3,
+  "validation_batch_size": 2,
+  "validation_t_grid": [0.2, 0.8],
+  "validation_geometries": [
+    {
+      "name": "anchor_w48_s1",
+      "width": 16,
+      "spin_stride": 1,
+      "coordinate_stride": 1,
+      "samples": 4
+    },
+    {
+      "name": "held_w8_s3",
+      "width": 8,
+      "spin_stride": 3,
+      "coordinate_stride": 3,
+      "samples": 4
+    }
+  ],
+  "t_min": 0.01,
+  "t_max": 1.0,
+  "full_mask_probability": 0.02,
+  "learning_rate": 0.0003,
+  "minimum_learning_rate": 0.00003,
+  "warmup_steps": 1,
+  "adam_betas": [0.9, 0.95],
+  "weight_decay": 0.05,
+  "gradient_clip": 1.0,
+  "ema_decay": 0.999,
+  "precision": "bfloat16",
+  "fused_adamw": true,
+  "model": {
+    "d_model": 128,
+    "n_heads": 4,
+    "n_blocks": 6,
+    "mlp_ratio": 4,
+    "dropout": 0.0,
+    "vocab_size": 4,
+    "output_classes": 2,
+    "rope_base": 10000.0
+  },
+  "variant": "T0",
+  "output_dir": "artifacts/level1_rapid/env/train_smoke"
+}

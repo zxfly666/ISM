@@ -1,0 +1,149 @@
+{
+  "label": "CONDITIONAL_GO",
+  "checks": {
+    "sampler_frozen": true,
+    "id_noninferiority": true,
+    "coordinate_minimum_near_true": true,
+    "coordinate_correct_beats_unit": true,
+    "coordinate_independent_contribution": false,
+    "markov_mask_reduced_50pct": true,
+    "markov_visible_reduced_50pct": true,
+    "short_nrmse": true,
+    "energy_error": true,
+    "expanded_nrmse": true
+  },
+  "metrics": {
+    "id_nll_t0": 0.33351419366795054,
+    "id_nll_lg_t3": 0.32791425783353517,
+    "id_delta": -0.0055999358344153705,
+    "coordinate_correct_minus_unit": {
+      "mean": -0.03224663846049225,
+      "ci95": [
+        -0.03281668921335949,
+        -0.03168949924147455
+      ],
+      "samples": 4096
+    },
+    "lg_t3_minus_lg_punit": {
+      "mean": -0.0016442989726783708,
+      "ci95": [
+        -0.001777850457256136,
+        -0.0014972056062106276
+      ],
+      "samples": 4096
+    },
+    "markov_mask": {
+      "T0": {
+        "mean": 0.07126008265898254,
+        "ci95": [
+          0.06011988729811778,
+          0.08183277827507342
+        ],
+        "samples": 256
+      },
+      "T3": {
+        "mean": 0.1626971517610658,
+        "ci95": [
+          0.1520413409576619,
+          0.17304102248213324
+        ],
+        "samples": 256
+      },
+      "Dense-T3+": {
+        "mean": 0.18216507138869503,
+        "ci95": [
+          0.1711406267489252,
+          0.19250779099498527
+        ],
+        "samples": 256
+      },
+      "Dense-Punit+": {
+        "mean": 0.14731613098661983,
+        "ci95": [
+          0.1389745798889063,
+          0.1557195349708044
+        ],
+        "samples": 256
+      },
+      "LG-Punit": {
+        "mean": 0.17882899910633548,
+        "ci95": [
+          0.1681675068524487,
+          0.1894590520416949
+        ],
+        "samples": 256
+      },
+      "LG-T3": {
+        "mean": 0.01927271728782417,
+        "ci95": [
+          0.01757817067305293,
+          0.02094855933419243
+        ],
+        "samples": 256
+      }
+    },
+    "markov_visible": {
+      "T0": {
+        "mean": 0.003691640844725643,
+        "ci95": [
+          -0.003245459102154479,
+          0.01009720382407302
+        ],
+        "samples": 256
+      },
+      "T3": {
+        "mean": 0.017187886678273884,
+        "ci95": [
+          0.013160169674282154,
+          0.021813642092176403
+        ],
+        "samples": 256
+      },
+      "Dense-T3+": {
+        "mean": 0.011280907204795484,
+        "ci95": [
+          0.008434949980318896,
+          0.0145603816037976
+        ],
+        "samples": 256
+      },
+      "Dense-Punit+": {
+        "mean": 0.024902174759667904,
+        "ci95": [
+          0.020430895349408444,
+          0.029556459916155506
+        ],
+        "samples": 256
+      },
+      "LG-Punit": {
+        "mean": 0.01761314501024929,
+        "ci95": [
+          0.014533733258951576,
+          0.021241146017791684
+        ],
+        "samples": 256
+      },
+      "LG-T3": {
+        "mean": 7.662723159438313e-05,
+        "ci95": [
+          -8.721857780165768e-05,
+          0.00024633663312616407
+        ],
+        "samples": 256
+      }
+    },
+    "parameter_matched_dense_control": "Dense-T3+",
+    "short_nrmse": 0.016180501133547735,
+    "expanded_nrmse": 0.04918054637131317,
+    "energy_abs_error": 0.026649111793154767
+  },
+  "frozen_sampler": {
+    "method": "s0",
+    "steps": 256,
+    "temperature": 1.0,
+    "refinement_sweeps": 2
+  },
+  "stage2b_modifications": [
+    "Elevate Randomized-PE and data-only controls in Stage 2B because coordinate benefit is not practically separated."
+  ]
+}

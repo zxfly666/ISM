@@ -1,0 +1,42 @@
+{
+  "parent_data": "data/level1/parents_l1024.npz",
+  "seed": 1234,
+  "device": "auto",
+  "widths": [16, 24, 32, 48],
+  "strides": [1, 2, 4],
+  "batch_sizes": {"16": 32, "24": 14, "32": 8, "48": 4},
+  "gradient_accumulation": 2,
+  "training_steps": 8000,
+  "validation_interval": 500,
+  "checkpoint_interval": 1000,
+  "validation_batch_size": 4,
+  "validation_t_grid": [0.2, 0.5, 0.8, 0.95],
+  "validation_geometries": [
+    {"name": "anchor_w48_s1", "width": 48, "spin_stride": 1, "coordinate_stride": 1, "samples": 32},
+    {"name": "held_w24_s3", "width": 24, "spin_stride": 3, "coordinate_stride": 3, "samples": 64, "unit_for_punit": true}
+  ],
+  "t_min": 0.01,
+  "t_max": 1.0,
+  "full_mask_probability": 0.02,
+  "learning_rate": 0.0003,
+  "minimum_learning_rate": 0.00003,
+  "warmup_steps": 500,
+  "adam_betas": [0.9, 0.95],
+  "weight_decay": 0.05,
+  "gradient_clip": 1.0,
+  "ema_decay": 0.999,
+  "precision": "bfloat16",
+  "fused_adamw": true,
+  "model": {
+    "d_model": 128,
+    "n_heads": 4,
+    "n_blocks": 7,
+    "mlp_ratio": 4.0,
+    "dropout": 0.0,
+    "vocab_size": 4,
+    "output_classes": 2,
+    "rope_base": 10000.0
+  },
+  "variant": "T3",
+  "output_dir": "artifacts/stage2a/Dense_T3_plus"
+}

@@ -1,0 +1,289 @@
+{
+  "settings": {
+    "parent_data": "data/level1/parents_l1024.npz",
+    "checkpoint": [
+      [
+        "T0",
+        "artifacts/level1_rapid/T0/best_val.pt"
+      ],
+      [
+        "T3",
+        "artifacts/level1_rapid/T3/best_val.pt"
+      ]
+    ],
+    "output_dir": "artifacts/level1_rapid/generation",
+    "width": 64,
+    "samples": 128,
+    "reference_samples": 512,
+    "steps": 64,
+    "sensitivity_samples": 32,
+    "sensitivity_steps": 128,
+    "batch_size": 2,
+    "temperature": 1.0,
+    "seed": 123456,
+    "device": "cuda"
+  },
+  "reference": {
+    "target": {
+      "samples": 512,
+      "width": 64,
+      "energy_mean": -0.7068704272073412,
+      "energy_std": 0.025524298046075033,
+      "magnetization_mean": -0.03643512725830078,
+      "abs_magnetization_mean": 0.5208463668823242,
+      "magnetization_std": 0.5542056657628311,
+      "low_frequency_power_mean": 0.13271656875088272,
+      "low_frequency_power_std": 0.10778010064241927
+    },
+    "control": {
+      "samples": 512,
+      "width": 64,
+      "energy_mean": -0.7060658288380456,
+      "energy_std": 0.02572982382818231,
+      "magnetization_mean": 0.022810935974121094,
+      "abs_magnetization_mean": 0.5170354843139648,
+      "magnetization_std": 0.5551613256466771,
+      "low_frequency_power_mean": 0.12703342041842453,
+      "low_frequency_power_std": 0.10242727637276315
+    },
+    "target_control_scalar_difference": {
+      "energy_mean": 0.0008045983692955838,
+      "magnetization_mean": 0.059246063232421875,
+      "abs_magnetization_mean": -0.003810882568359375,
+      "low_frequency_power_mean": -0.005683148332458199
+    },
+    "target_control_correlation_error": {
+      "short": {
+        "start": 1,
+        "stop": 8,
+        "mae": 0.00021301272841017793,
+        "rmse": 0.0002585430857669096,
+        "nrmse": 0.000507425177303758
+      },
+      "medium": {
+        "start": 9,
+        "stop": 16,
+        "mae": 0.00048226659780126885,
+        "rmse": 0.0006772134264808916,
+        "nrmse": 0.001819678012382416
+      },
+      "expanded": {
+        "start": 17,
+        "stop": 32,
+        "mae": 0.003577176466151334,
+        "rmse": 0.0037612633176296213,
+        "nrmse": 0.012041318402376499
+      }
+    }
+  },
+  "models": {
+    "T0": {
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "step": 8000,
+      "variant": "T0",
+      "initialization_hash": "ab204250023590362f84a41f14ff3b9e8f92f3e24c13744034fef9c0fa959375",
+      "metrics": {
+        "samples": 128,
+        "width": 64,
+        "energy_mean": -0.6804160466269842,
+        "energy_std": 0.0367095257991283,
+        "magnetization_mean": 0.0167236328125,
+        "abs_magnetization_mean": 0.5626602172851562,
+        "magnetization_std": 0.6045969769288921,
+        "low_frequency_power_mean": 0.11214442518166956,
+        "low_frequency_power_std": 0.10152865152059587
+      },
+      "scalar_difference_from_target": {
+        "energy_mean": 0.026454380580356984,
+        "magnetization_mean": 0.05315876007080078,
+        "abs_magnetization_mean": 0.04181385040283203,
+        "low_frequency_power_mean": -0.020572143569213164
+      },
+      "connected_correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.016492713922076144,
+          "rmse": 0.018042691633332344,
+          "nrmse": 0.03541118097946236
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.036605352706051905,
+          "rmse": 0.03693174837029369,
+          "nrmse": 0.09923590974485766
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.05116391324116779,
+          "rmse": 0.05130745261785805,
+          "nrmse": 0.16425581545719137
+        }
+      },
+      "sampler_performance": {
+        "samples": 128,
+        "steps": 64,
+        "elapsed_seconds": 24.519166289363056,
+        "seconds_per_sample": 0.19155598663564888,
+        "peak_allocated_gib": 0.04717302322387695,
+        "peak_reserved_gib": 0.0546875
+      },
+      "sensitivity_128": {
+        "metrics": {
+          "samples": 32,
+          "width": 64,
+          "energy_mean": -0.7054268973214286,
+          "energy_std": 0.03359743231515071,
+          "magnetization_mean": -0.078399658203125,
+          "abs_magnetization_mean": 0.621795654296875,
+          "magnetization_std": 0.6671167995130994,
+          "low_frequency_power_mean": 0.09390375572104281,
+          "low_frequency_power_std": 0.11629049256468636
+        },
+        "difference_from_64": {
+          "energy_mean": -0.02501085069444442,
+          "magnetization_mean": -0.095123291015625,
+          "abs_magnetization_mean": 0.05913543701171875,
+          "low_frequency_power_mean": -0.018240669460626746
+        },
+        "connected_correlation_difference": {
+          "short": {
+            "start": 1,
+            "stop": 8,
+            "mae": 0.04487858955019779,
+            "rmse": 0.04671572593820454,
+            "nrmse": 0.09006500870751433
+          },
+          "medium": {
+            "start": 9,
+            "stop": 16,
+            "mae": 0.06849297504365294,
+            "rmse": 0.06854774594132894,
+            "nrmse": 0.16778682747588392
+          },
+          "expanded": {
+            "start": 17,
+            "stop": 32,
+            "mae": 0.07322524685063844,
+            "rmse": 0.0732282330624654,
+            "nrmse": 0.20154864643974552
+          }
+        },
+        "performance": {
+          "samples": 32,
+          "steps": 128,
+          "elapsed_seconds": 12.039202057290822,
+          "seconds_per_sample": 0.3762250642903382,
+          "peak_allocated_gib": 0.04717302322387695,
+          "peak_reserved_gib": 0.0546875
+        }
+      }
+    },
+    "T3": {
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "step": 7500,
+      "variant": "T3",
+      "initialization_hash": "ab204250023590362f84a41f14ff3b9e8f92f3e24c13744034fef9c0fa959375",
+      "metrics": {
+        "samples": 128,
+        "width": 64,
+        "energy_mean": -0.6575966486855158,
+        "energy_std": 0.033984990237868724,
+        "magnetization_mean": -0.0448150634765625,
+        "abs_magnetization_mean": 0.495208740234375,
+        "magnetization_std": 0.5368306885710584,
+        "low_frequency_power_mean": 0.11483730460067573,
+        "low_frequency_power_std": 0.08752225368400676
+      },
+      "scalar_difference_from_target": {
+        "energy_mean": 0.04927377852182535,
+        "magnetization_mean": -0.008379936218261719,
+        "abs_magnetization_mean": -0.02563762664794922,
+        "low_frequency_power_mean": -0.01787926415020699
+      },
+      "connected_correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.027323584986417022,
+          "rmse": 0.027576474368659294,
+          "nrmse": 0.05412249704695222
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.019623585755272184,
+          "rmse": 0.019900704300412162,
+          "nrmse": 0.05347335512020595
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.014536878709552632,
+          "rmse": 0.014547160720514755,
+          "nrmse": 0.04657131907389418
+        }
+      },
+      "sampler_performance": {
+        "samples": 128,
+        "steps": 64,
+        "elapsed_seconds": 24.186886145267636,
+        "seconds_per_sample": 0.1889600480099034,
+        "peak_allocated_gib": 0.04717302322387695,
+        "peak_reserved_gib": 0.0546875
+      },
+      "sensitivity_128": {
+        "metrics": {
+          "samples": 32,
+          "width": 64,
+          "energy_mean": -0.6661241319444444,
+          "energy_std": 0.030322228879853252,
+          "magnetization_mean": 0.1728057861328125,
+          "abs_magnetization_mean": 0.5243682861328125,
+          "magnetization_std": 0.5375554353007038,
+          "low_frequency_power_mean": 0.09788849094198494,
+          "low_frequency_power_std": 0.08285138004906291
+        },
+        "difference_from_64": {
+          "energy_mean": -0.008527483258928603,
+          "magnetization_mean": 0.217620849609375,
+          "abs_magnetization_mean": 0.0291595458984375,
+          "low_frequency_power_mean": -0.01694881365869079
+        },
+        "connected_correlation_difference": {
+          "short": {
+            "start": 1,
+            "stop": 8,
+            "mae": 0.018451151836277033,
+            "rmse": 0.018463186492383,
+            "nrmse": 0.03828598598062093
+          },
+          "medium": {
+            "start": 9,
+            "stop": 16,
+            "mae": 0.014481503006909903,
+            "rmse": 0.014589741619775486,
+            "nrmse": 0.04140013774345692
+          },
+          "expanded": {
+            "start": 17,
+            "stop": 32,
+            "mae": 0.0025437619863942114,
+            "rmse": 0.003811988451602792,
+            "nrmse": 0.012798928197279829
+          }
+        },
+        "performance": {
+          "samples": 32,
+          "steps": 128,
+          "elapsed_seconds": 12.227632616180927,
+          "seconds_per_sample": 0.38211351925565396,
+          "peak_allocated_gib": 0.04717302322387695,
+          "peak_reserved_gib": 0.0546875
+        }
+      }
+    }
+  }
+}

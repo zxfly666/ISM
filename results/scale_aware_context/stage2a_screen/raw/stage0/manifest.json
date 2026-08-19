@@ -1,0 +1,3741 @@
+{
+  "settings": {
+    "parent_data": "data/level1/parents_l1024.npz",
+    "checkpoint": [
+      [
+        "T0",
+        "artifacts/level1_rapid/T0/best_val.pt"
+      ],
+      [
+        "T3",
+        "artifacts/level1_rapid/T3/best_val.pt"
+      ],
+      [
+        "Punit",
+        "artifacts/level1_rapid/Punit/best_val.pt"
+      ]
+    ],
+    "output_dir": "/root/autodl-tmp/ISM/artifacts/stage2a/stage0",
+    "width": 64,
+    "samples": 64,
+    "reference_samples": 1024,
+    "batch_size": 16,
+    "methods": [
+      "s0",
+      "s1",
+      "s2"
+    ],
+    "steps": [
+      32,
+      64,
+      128,
+      256
+    ],
+    "seeds": [
+      1234,
+      2345
+    ],
+    "temperature": 1.0,
+    "refinement_sweeps": 2,
+    "device": "cuda",
+    "precision": "bfloat16"
+  },
+  "reference": {
+    "target": {
+      "samples": 1024,
+      "width": 64,
+      "energy_mean": -0.7075248597160219,
+      "energy_std": 0.024197132284521805,
+      "magnetization_mean": 0.020917415618896484,
+      "abs_magnetization_mean": 0.5251631736755371,
+      "magnetization_std": 0.5592870730290529,
+      "low_frequency_power_mean": 0.12635103439331768,
+      "low_frequency_power_std": 0.10149700484239191
+    },
+    "control": {
+      "samples": 1024,
+      "width": 64,
+      "energy_mean": -0.7060125441778273,
+      "energy_std": 0.024472575831492545,
+      "magnetization_mean": 0.019138336181640625,
+      "abs_magnetization_mean": 0.5097465515136719,
+      "magnetization_std": 0.5487665390050493,
+      "low_frequency_power_mean": 0.13156705056438944,
+      "low_frequency_power_std": 0.10336553481110801
+    }
+  },
+  "records": [
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 32,
+      "seed": 1234,
+      "run_seed": 1234,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6642097594246031,
+        "energy_std": 0.03369612096722359,
+        "magnetization_mean": 0.00310516357421875,
+        "abs_magnetization_mean": 0.5205459594726562,
+        "magnetization_std": 0.564081819599961,
+        "low_frequency_power_mean": 0.13102689739069487,
+        "low_frequency_power_std": 0.11322326660422628
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.022726088805234988,
+          "rmse": 0.023481908131259225,
+          "nrmse": 0.04575302855202663
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.023347274647493775,
+          "rmse": 0.023471525635241727,
+          "nrmse": 0.06173460283142314
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.029156399537334947,
+          "rmse": 0.0292601760623009,
+          "nrmse": 0.09056232772498722
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.3798611238598824,
+        "seconds_per_sample": 0.05281033006031066,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.427734375
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 32,
+      "seed": 2345,
+      "run_seed": 2345,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6561143663194444,
+        "energy_std": 0.039881534314221145,
+        "magnetization_mean": 0.001556396484375,
+        "abs_magnetization_mean": 0.460906982421875,
+        "magnetization_std": 0.5265871813807019,
+        "low_frequency_power_mean": 0.14227828234901513,
+        "low_frequency_power_std": 0.09150435496260771
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.04675939107676137,
+          "rmse": 0.04694929843949972,
+          "nrmse": 0.09147777003439195
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.06015949643423586,
+          "rmse": 0.06023179220560315,
+          "nrmse": 0.15842113663266455
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.0646728140701853,
+          "rmse": 0.06470514206713616,
+          "nrmse": 0.20026702057086146
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.0006652236916125,
+        "seconds_per_sample": 0.046885394120181445,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.427734375
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 64,
+      "seed": 1234,
+      "run_seed": 1234,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6919681609623016,
+        "energy_std": 0.036590657355423925,
+        "magnetization_mean": -0.0953826904296875,
+        "abs_magnetization_mean": 0.6137237548828125,
+        "magnetization_std": 0.637945108581716,
+        "low_frequency_power_mean": 0.1127205535591756,
+        "low_frequency_power_std": 0.09006321644914442
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.022469624156586432,
+          "rmse": 0.024771630487255943,
+          "nrmse": 0.048265971854941275
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.043230736887646025,
+          "rmse": 0.043331110694372295,
+          "nrmse": 0.11396911093606275
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.05920800541780466,
+          "rmse": 0.05984453096696713,
+          "nrmse": 0.18522308322544126
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.013995700050145,
+        "seconds_per_sample": 0.09396868281328352,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.427734375
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 64,
+      "seed": 2345,
+      "run_seed": 2345,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6934485057043651,
+        "energy_std": 0.03240926000734168,
+        "magnetization_mean": -0.15830230712890625,
+        "abs_magnetization_mean": 0.6429061889648438,
+        "magnetization_std": 0.6502005190924744,
+        "low_frequency_power_mean": 0.08017635285552561,
+        "low_frequency_power_std": 0.07676522278324648
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.02318946408653077,
+          "rmse": 0.025770122662922515,
+          "nrmse": 0.05021147137597181
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.05575549281870095,
+          "rmse": 0.05624989846398223,
+          "nrmse": 0.14794799430369698
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.08533709565268141,
+          "rmse": 0.08585337601247241,
+          "nrmse": 0.2657223100156111
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.021741455420852,
+        "seconds_per_sample": 0.09408971024095081,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.427734375
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 128,
+      "seed": 1234,
+      "run_seed": 1234,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6900034102182541,
+        "energy_std": 0.040186656009205436,
+        "magnetization_mean": 0.0973052978515625,
+        "abs_magnetization_mean": 0.5917510986328125,
+        "magnetization_std": 0.6251639890865018,
+        "low_frequency_power_mean": 0.10560517592826217,
+        "low_frequency_power_std": 0.10987630202982736
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.0162544182997457,
+          "rmse": 0.017803326374905993,
+          "nrmse": 0.03468866735185722
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.036631776611852275,
+          "rmse": 0.036903026771554485,
+          "nrmse": 0.09706202044227828
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.05539322412136406,
+          "rmse": 0.055817567317394054,
+          "nrmse": 0.17275934408071617
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 12.09323478769511,
+        "seconds_per_sample": 0.1889567935577361,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.427734375
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 128,
+      "seed": 2345,
+      "run_seed": 2345,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6942158048115079,
+        "energy_std": 0.03847106876594356,
+        "magnetization_mean": -0.06610870361328125,
+        "abs_magnetization_mean": 0.6399612426757812,
+        "magnetization_std": 0.6598869950086169,
+        "low_frequency_power_mean": 0.08410109931312741,
+        "low_frequency_power_std": 0.07017663948205033
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.03156262987521752,
+          "rmse": 0.035221280695650226,
+          "nrmse": 0.06862646137184307
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.06767079054917596,
+          "rmse": 0.0680764282957618,
+          "nrmse": 0.1790540303315664
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.10302165675736137,
+          "rmse": 0.10369177820899245,
+          "nrmse": 0.32093343459571194
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 12.128092258702964,
+        "seconds_per_sample": 0.1895014415422338,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.427734375
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 256,
+      "seed": 1234,
+      "run_seed": 1234,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7024429563492063,
+        "energy_std": 0.033229925549420364,
+        "magnetization_mean": 0.09774017333984375,
+        "abs_magnetization_mean": 0.6201705932617188,
+        "magnetization_std": 0.6480468959920214,
+        "low_frequency_power_mean": 0.1116784726566212,
+        "low_frequency_power_std": 0.1151554927475024
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.03400497713036016,
+          "rmse": 0.03772011659342543,
+          "nrmse": 0.07349528674747523
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.05917985985555845,
+          "rmse": 0.05925244227002846,
+          "nrmse": 0.15584525893961398
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.07077693207261274,
+          "rmse": 0.07095208750137738,
+          "nrmse": 0.2196017613629638
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 24.34702942473814,
+        "seconds_per_sample": 0.3804223347615334,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.427734375
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 256,
+      "seed": 2345,
+      "run_seed": 2345,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7026909722222222,
+        "energy_std": 0.032957520211629426,
+        "magnetization_mean": -0.0303192138671875,
+        "abs_magnetization_mean": 0.6250762939453125,
+        "magnetization_std": 0.6625675743827819,
+        "low_frequency_power_mean": 0.09675975423101114,
+        "low_frequency_power_std": 0.11372409354224709
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.049490565840289436,
+          "rmse": 0.05439942783987756,
+          "nrmse": 0.1059938809597225
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.08796744044455275,
+          "rmse": 0.08816269786311727,
+          "nrmse": 0.23188476206055741
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.10673554916032696,
+          "rmse": 0.10685821416690548,
+          "nrmse": 0.3307337792802461
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 24.530174913816154,
+        "seconds_per_sample": 0.3832839830283774,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.427734375
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 32,
+      "seed": 1234,
+      "run_seed": 11241,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.999635726686508,
+        "energy_std": 0.0005536442573661985,
+        "magnetization_mean": 0.99981689453125,
+        "abs_magnetization_mean": 0.99981689453125,
+        "magnetization_std": 0.00028190931112774694,
+        "low_frequency_power_mean": 0.0009741859717903513,
+        "low_frequency_power_std": 0.001473358790535797
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5070186623495885,
+          "rmse": 0.513264200004398,
+          "nrmse": 1.0000631748606974
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37994126529890754,
+          "rmse": 0.38031165839420317,
+          "nrmse": 1.0002924201856727
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3229036178422863,
+          "rmse": 0.32326889374763546,
+          "nrmse": 1.0005402372334629
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.287567251827568,
+        "seconds_per_sample": 0.05136823830980575,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 32,
+      "seed": 2345,
+      "run_seed": 12352,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9997364831349207,
+        "energy_std": 0.0004756845798645658,
+        "magnetization_mean": 0.9998703002929688,
+        "abs_magnetization_mean": 0.9998703002929688,
+        "magnetization_std": 0.00023412600415209178,
+        "low_frequency_power_mean": 0.0007066933171708057,
+        "low_frequency_power_std": 0.0012793191665098522
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5070084448206058,
+          "rmse": 0.5132550753739071,
+          "nrmse": 1.0000453960891835
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37990962640306464,
+          "rmse": 0.3802802746840393,
+          "nrmse": 1.0002098750238262
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3228650585864169,
+          "rmse": 0.32323069981990604,
+          "nrmse": 1.0004220243084014
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.2322397767566144,
+        "seconds_per_sample": 0.0505037465118221,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 64,
+      "seed": 1234,
+      "run_seed": 11241,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9999457465277778,
+        "energy_std": 0.0002518007296763574,
+        "magnetization_mean": 0.999969482421875,
+        "abs_magnetization_mean": 0.999969482421875,
+        "magnetization_std": 0.00014751415481363374,
+        "low_frequency_power_mean": 0.0001617086911069308,
+        "low_frequency_power_std": 0.0007808276747054911
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069884338811492,
+          "rmse": 0.5132367102689924,
+          "nrmse": 1.0000096128315017
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3798482115071379,
+          "rmse": 0.38021947221880265,
+          "nrmse": 1.0000499529079445
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32277133029832195,
+          "rmse": 0.3231376680055311,
+          "nrmse": 1.000134084220675
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.441786541137844,
+        "seconds_per_sample": 0.10065291470527882,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 64,
+      "seed": 2345,
+      "run_seed": 12352,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9998759920634921,
+        "energy_std": 0.00033068783068782953,
+        "magnetization_mean": 0.99993896484375,
+        "abs_magnetization_mean": 0.99993896484375,
+        "magnetization_std": 0.00016276041666666666,
+        "low_frequency_power_mean": 0.00032476106273756885,
+        "low_frequency_power_std": 0.0008660371066532526
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069950269264825,
+          "rmse": 0.5132429140928627,
+          "nrmse": 1.0000217005940923
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37986741202203467,
+          "rmse": 0.38023846626850183,
+          "nrmse": 1.0000999108924644
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32280916943762533,
+          "rmse": 0.3231754363657281,
+          "nrmse": 1.0002509799839305
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.4383899620734155,
+        "seconds_per_sample": 0.10059984315739712,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 128,
+      "seed": 1234,
+      "run_seed": 11241,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9999844990079365,
+        "energy_std": 0.0001240079365079361,
+        "magnetization_mean": 0.9999923706054688,
+        "abs_magnetization_mean": 0.9999923706054688,
+        "magnetization_std": 6.103515625e-05,
+        "low_frequency_power_mean": 4.404692763424812e-05,
+        "low_frequency_power_std": 0.0003523754210739851
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069843380300137,
+          "rmse": 0.5132331684281762,
+          "nrmse": 1.0000027117763113
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3798336005377976,
+          "rmse": 0.38020502926300886,
+          "nrmse": 1.0000119651710802
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32273090238978797,
+          "rmse": 0.3230976466419633,
+          "nrmse": 1.0000102152516122
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 12.904529543127865,
+        "seconds_per_sample": 0.20163327411137288,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 128,
+      "seed": 2345,
+      "run_seed": 12352,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.999937996031746,
+        "energy_std": 0.0002420387085685838,
+        "magnetization_mean": 0.999969482421875,
+        "abs_magnetization_mean": 0.999969482421875,
+        "magnetization_std": 0.00011912842687360024,
+        "low_frequency_power_mean": 0.0001825424759695282,
+        "low_frequency_power_std": 0.0007154802428313454
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069889182871512,
+          "rmse": 0.5132373444395555,
+          "nrmse": 1.000010848473159
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3798471539521654,
+          "rmse": 0.38021846836129525,
+          "nrmse": 1.000047312570649
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32273687300358217,
+          "rmse": 0.3231039628012178,
+          "nrmse": 1.000029764214105
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 12.924337070900947,
+        "seconds_per_sample": 0.2019427667328273,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 256,
+      "seed": 1234,
+      "run_seed": 11241,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.999937996031746,
+        "energy_std": 0.00024203870856858375,
+        "magnetization_mean": 0.999969482421875,
+        "abs_magnetization_mean": 0.999969482421875,
+        "magnetization_std": 0.00011912842687360024,
+        "low_frequency_power_mean": 0.00020411516192254562,
+        "low_frequency_power_std": 0.0007999942127392184
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069889182871512,
+          "rmse": 0.5132373444395555,
+          "nrmse": 1.000010848473159
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3798419151614966,
+          "rmse": 0.38021340903027695,
+          "nrmse": 1.0000340055621546
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3227307679686735,
+          "rmse": 0.32309758132436145,
+          "nrmse": 1.000010013088985
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 25.757202227134258,
+        "seconds_per_sample": 0.4024562847989728,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 256,
+      "seed": 2345,
+      "run_seed": 12352,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9999534970238095,
+        "energy_std": 0.00021135121608292253,
+        "magnetization_mean": 0.9999771118164062,
+        "abs_magnetization_mean": 0.9999771118164062,
+        "magnetization_std": 0.0001040244266658138,
+        "low_frequency_power_mean": 0.00015024379889251138,
+        "low_frequency_power_std": 0.0006907569811418057
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069873914183569,
+          "rmse": 0.5132359523187529,
+          "nrmse": 1.0000081360128905
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37984214230895086,
+          "rmse": 0.3802135214689222,
+          "nrmse": 1.0000343012973025
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.322731880711514,
+          "rmse": 0.3230987021359857,
+          "nrmse": 1.0000134820807443
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 25.82135725300759,
+        "seconds_per_sample": 0.4034587070782436,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 32,
+      "seed": 1234,
+      "run_seed": 21248,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7567274305555556,
+        "energy_std": 0.015646418790041406,
+        "magnetization_mean": 0.8396759033203125,
+        "abs_magnetization_mean": 0.8396759033203125,
+        "magnetization_std": 0.012587906904638818,
+        "low_frequency_power_mean": 0.007569898635156844,
+        "low_frequency_power_std": 0.004463439226347985
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5045845515135478,
+          "rmse": 0.5091871432236728,
+          "nrmse": 0.9921192848559308
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3852039743450876,
+          "rmse": 0.38557865171863714,
+          "nrmse": 1.0141456202738457
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3269234948478308,
+          "rmse": 0.32731953037777517,
+          "nrmse": 1.0130772459381434
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.6347734928131104,
+        "seconds_per_sample": 0.05679333582520485,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 32,
+      "seed": 2345,
+      "run_seed": 22359,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7568436879960317,
+        "energy_std": 0.014367786798030814,
+        "magnetization_mean": 0.8400650024414062,
+        "abs_magnetization_mean": 0.8400650024414062,
+        "magnetization_std": 0.010504193089196265,
+        "low_frequency_power_mean": 0.006439039723841819,
+        "low_frequency_power_std": 0.003743348377482596
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5045830638245762,
+          "rmse": 0.5092422147191336,
+          "nrmse": 0.9922265882185936
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.38440809537199316,
+          "rmse": 0.3847943350696154,
+          "nrmse": 1.0120827174368554
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32571406443605966,
+          "rmse": 0.32611239776056783,
+          "nrmse": 1.0093410845611823
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.6231267070397735,
+        "seconds_per_sample": 0.05661135479749646,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 64,
+      "seed": 1234,
+      "run_seed": 21248,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7534218439980158,
+        "energy_std": 0.015861889377203484,
+        "magnetization_mean": 0.8371353149414062,
+        "abs_magnetization_mean": 0.8371353149414062,
+        "magnetization_std": 0.012466072690595237,
+        "low_frequency_power_mean": 0.007194768754314308,
+        "low_frequency_power_std": 0.004035399952212071
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5048505826387701,
+          "rmse": 0.509446581281097,
+          "nrmse": 0.992624783675808
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.38542355601023437,
+          "rmse": 0.38579999660932973,
+          "nrmse": 1.0147277996825483
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3266636398310282,
+          "rmse": 0.32706931321046934,
+          "nrmse": 1.012302805994251
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.8632551659829915,
+        "seconds_per_sample": 0.10723836196848424,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 64,
+      "seed": 2345,
+      "run_seed": 22359,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7594091021825397,
+        "energy_std": 0.015706047960266117,
+        "magnetization_mean": 0.842742919921875,
+        "abs_magnetization_mean": 0.842742919921875,
+        "magnetization_std": 0.012809232973878194,
+        "low_frequency_power_mean": 0.006256222290718448,
+        "low_frequency_power_std": 0.004619497415179131
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5055239326425272,
+          "rmse": 0.5102030478052321,
+          "nrmse": 0.9940987113602167
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3845180048143681,
+          "rmse": 0.3849092451702227,
+          "nrmse": 1.0123849529852622
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32525456452000134,
+          "rmse": 0.3256427721560392,
+          "nrmse": 1.0078875598860466
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.85415805503726,
+        "seconds_per_sample": 0.10709621960995719,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 128,
+      "seed": 1234,
+      "run_seed": 21248,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7577272445436507,
+        "energy_std": 0.017245447298374718,
+        "magnetization_mean": 0.8404693603515625,
+        "abs_magnetization_mean": 0.8404693603515625,
+        "magnetization_std": 0.013738276326329582,
+        "low_frequency_power_mean": 0.0067250878520763654,
+        "low_frequency_power_std": 0.004444362901040911
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5046096972660594,
+          "rmse": 0.5092175350168461,
+          "nrmse": 0.9921785013630833
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3847592271584048,
+          "rmse": 0.38514129617370174,
+          "nrmse": 1.012995291518813
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3258501070862156,
+          "rmse": 0.3262407825651345,
+          "nrmse": 1.0097384446700661
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 13.331389409024268,
+        "seconds_per_sample": 0.2083029595160042,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 128,
+      "seed": 2345,
+      "run_seed": 22359,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7578086247519841,
+        "energy_std": 0.014149296131998128,
+        "magnetization_mean": 0.8404464721679688,
+        "abs_magnetization_mean": 0.8404464721679688,
+        "magnetization_std": 0.01153377852017081,
+        "low_frequency_power_mean": 0.00682960756025033,
+        "low_frequency_power_std": 0.0036504935910656074
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5049156278350679,
+          "rmse": 0.5095860727428673,
+          "nrmse": 0.9928965740600247
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3835426501591951,
+          "rmse": 0.3839204659746654,
+          "nrmse": 1.0097842745345162
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3247615394470837,
+          "rmse": 0.325145781676815,
+          "nrmse": 1.0063493389758282
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 13.34542975667864,
+        "seconds_per_sample": 0.20852233994810376,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 256,
+      "seed": 1234,
+      "run_seed": 21248,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7597191220238095,
+        "energy_std": 0.015587986547926804,
+        "magnetization_mean": 0.8426437377929688,
+        "abs_magnetization_mean": 0.8426437377929688,
+        "magnetization_std": 0.012704026488545217,
+        "low_frequency_power_mean": 0.005926826401743341,
+        "low_frequency_power_std": 0.0031794730548213835
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5045925884412171,
+          "rmse": 0.5093041209329557,
+          "nrmse": 0.9923472086022831
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3839758651691906,
+          "rmse": 0.38435180271994884,
+          "nrmse": 1.010918772694989
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3255281025054749,
+          "rmse": 0.32592293087876334,
+          "nrmse": 1.008754671075273
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 26.22479514684528,
+        "seconds_per_sample": 0.4097624241694575,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T0",
+      "variant": "T0",
+      "checkpoint": "artifacts/level1_rapid/T0/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 256,
+      "seed": 2345,
+      "run_seed": 22359,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.753355964781746,
+        "energy_std": 0.014055481077990787,
+        "magnetization_mean": 0.8372955322265625,
+        "abs_magnetization_mean": 0.8372955322265625,
+        "magnetization_std": 0.011618686532035053,
+        "low_frequency_power_mean": 0.006244505600910961,
+        "low_frequency_power_std": 0.003333678315670035
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5049837047030046,
+          "rmse": 0.5096101135094845,
+          "nrmse": 0.9929434159893646
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3849632153480064,
+          "rmse": 0.385347992428476,
+          "nrmse": 1.013538942212574
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32631185915267,
+          "rmse": 0.3267006955017032,
+          "nrmse": 1.0111619079464937
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 26.278815302066505,
+        "seconds_per_sample": 0.41060648909478914,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s0",
+      "steps": 32,
+      "seed": 1234,
+      "run_seed": 101237,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6317816840277778,
+        "energy_std": 0.0323940945706442,
+        "magnetization_mean": 0.02972412109375,
+        "abs_magnetization_mean": 0.379364013671875,
+        "magnetization_std": 0.4310920998420745,
+        "low_frequency_power_mean": 0.12686348478806275,
+        "low_frequency_power_std": 0.0805451607745693
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.08875312448054104,
+          "rmse": 0.0906615454725264,
+          "nrmse": 0.17664834797021756
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.12252711889320937,
+          "rmse": 0.1225462683536246,
+          "nrmse": 0.3223201304786466
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.1282186762360122,
+          "rmse": 0.1282319326914646,
+          "nrmse": 0.39688695954824416
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.0928885308094323,
+        "seconds_per_sample": 0.04832638329389738,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s0",
+      "steps": 32,
+      "seed": 2345,
+      "run_seed": 102348,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.637757316468254,
+        "energy_std": 0.0311245177041531,
+        "magnetization_mean": 0.11183929443359375,
+        "abs_magnetization_mean": 0.38974761962890625,
+        "magnetization_std": 0.4416703859781627,
+        "low_frequency_power_mean": 0.12130697362609563,
+        "low_frequency_power_std": 0.0832170386858641
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.08467600359121658,
+          "rmse": 0.08563763933488847,
+          "nrmse": 0.16685958124507816
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.10794116699013981,
+          "rmse": 0.10795853624035123,
+          "nrmse": 0.28395160419623255
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.1167617759911046,
+          "rmse": 0.11678105162706838,
+          "nrmse": 0.3614456675517204
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.0996296419762075,
+        "seconds_per_sample": 0.04843171315587824,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s0",
+      "steps": 64,
+      "seed": 1234,
+      "run_seed": 101237,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6558624751984128,
+        "energy_std": 0.0279853996872725,
+        "magnetization_mean": 0.10546875,
+        "abs_magnetization_mean": 0.4573211669921875,
+        "magnetization_std": 0.49685476695471725,
+        "low_frequency_power_mean": 0.1363105720864037,
+        "low_frequency_power_std": 0.09782321872535146
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.048544319362174404,
+          "rmse": 0.04887168384793205,
+          "nrmse": 0.09522341770443447
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.05970502706421327,
+          "rmse": 0.059746828246960336,
+          "nrmse": 0.15714558864146724
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.07014083032381802,
+          "rmse": 0.07019086836208621,
+          "nrmse": 0.2172457339413845
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.185101197101176,
+        "seconds_per_sample": 0.09664220620470587,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s0",
+      "steps": 64,
+      "seed": 2345,
+      "run_seed": 102348,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6592455667162699,
+        "energy_std": 0.031554221240488435,
+        "magnetization_mean": 0.0458831787109375,
+        "abs_magnetization_mean": 0.45184326171875,
+        "magnetization_std": 0.505658944338322,
+        "low_frequency_power_mean": 0.13668801551284482,
+        "low_frequency_power_std": 0.09622816665558748
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.03592881269143425,
+          "rmse": 0.03669790291245333,
+          "nrmse": 0.07150356735779204
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.05202175554706475,
+          "rmse": 0.05206560319668289,
+          "nrmse": 0.13694249724012839
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.06752243938238096,
+          "rmse": 0.06772652195749197,
+          "nrmse": 0.20961840640085402
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.174999493639916,
+        "seconds_per_sample": 0.09648436708812369,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s0",
+      "steps": 128,
+      "seed": 1234,
+      "run_seed": 101237,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6749674479166666,
+        "energy_std": 0.031939022037354985,
+        "magnetization_mean": 0.06008148193359375,
+        "abs_magnetization_mean": 0.5718002319335938,
+        "magnetization_std": 0.5978945646205093,
+        "low_frequency_power_mean": 0.10730920665524152,
+        "low_frequency_power_std": 0.09117996053395432
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.006501484784567059,
+          "rmse": 0.008580142423792793,
+          "nrmse": 0.01671787058793825
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.013508562226186106,
+          "rmse": 0.014036564520669073,
+          "nrmse": 0.03691885006827449
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.02821896928812951,
+          "rmse": 0.028547255682639595,
+          "nrmse": 0.08835578840248827
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 12.34910845104605,
+        "seconds_per_sample": 0.19295481954759452,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s0",
+      "steps": 128,
+      "seed": 2345,
+      "run_seed": 102348,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.666534908234127,
+        "energy_std": 0.03472050599854394,
+        "magnetization_mean": 0.0709075927734375,
+        "abs_magnetization_mean": 0.5240020751953125,
+        "magnetization_std": 0.5599656204125054,
+        "low_frequency_power_mean": 0.11253214529703831,
+        "low_frequency_power_std": 0.09168643419166048
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.01791375653856086,
+          "rmse": 0.018621697435382924,
+          "nrmse": 0.03628321215148997
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.010455096426880493,
+          "rmse": 0.010971407952344381,
+          "nrmse": 0.02885690188892241
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.005860814898486857,
+          "rmse": 0.005874383302379481,
+          "nrmse": 0.01818163447409035
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 12.35455867787823,
+        "seconds_per_sample": 0.19303997934184736,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s0",
+      "steps": 256,
+      "seed": 1234,
+      "run_seed": 101237,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6755564856150793,
+        "energy_std": 0.0306084470161374,
+        "magnetization_mean": 0.1734161376953125,
+        "abs_magnetization_mean": 0.57513427734375,
+        "magnetization_std": 0.578931537786211,
+        "low_frequency_power_mean": 0.09588238501218432,
+        "low_frequency_power_std": 0.08111266110006995
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.026687058725999087,
+          "rmse": 0.02800073945898868,
+          "nrmse": 0.05455768861643474
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.006278778219829834,
+          "rmse": 0.007938816481108007,
+          "nrmse": 0.020880606145042842
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.01547873444166754,
+          "rmse": 0.016305660778761735,
+          "nrmse": 0.050467180787789515
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 24.71817320305854,
+        "seconds_per_sample": 0.3862214562977897,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s0",
+      "steps": 256,
+      "seed": 2345,
+      "run_seed": 102348,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6655505952380951,
+        "energy_std": 0.03142929559516308,
+        "magnetization_mean": 0.08434295654296875,
+        "abs_magnetization_mean": 0.46369171142578125,
+        "magnetization_std": 0.5146443875350701,
+        "low_frequency_power_mean": 0.13019636961190145,
+        "low_frequency_power_std": 0.10568646625914173
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.02564434650674674,
+          "rmse": 0.026098843960906063,
+          "nrmse": 0.05085196425449897
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.030247497498321917,
+          "rmse": 0.030289681054424988,
+          "nrmse": 0.07966765598644268
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.04703784128054063,
+          "rmse": 0.0475788445077223,
+          "nrmse": 0.14725991053198484
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 24.748951313085854,
+        "seconds_per_sample": 0.38670236426696647,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s1",
+      "steps": 32,
+      "seed": 1234,
+      "run_seed": 111244,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9994419642857144,
+        "energy_std": 0.0006265016633538742,
+        "magnetization_mean": -0.9997024536132812,
+        "abs_magnetization_mean": 0.9997024536132812,
+        "magnetization_std": 0.00033261871370251394,
+        "low_frequency_power_mean": 0.28650739569347283,
+        "low_frequency_power_std": 0.28039283424734107
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5067996098912123,
+          "rmse": 0.5130665419020444,
+          "nrmse": 0.9996780504172333
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37949946461212375,
+          "rmse": 0.37987126454271,
+          "nrmse": 0.9991341001031249
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32244878822448353,
+          "rmse": 0.32281427824258285,
+          "nrmse": 0.9991331698846618
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.246524325106293,
+        "seconds_per_sample": 0.05072694257978583,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s1",
+      "steps": 32,
+      "seed": 2345,
+      "run_seed": 112355,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.999635726686508,
+        "energy_std": 0.0006074621106893449,
+        "magnetization_mean": -0.9998016357421875,
+        "abs_magnetization_mean": 0.9998016357421875,
+        "magnetization_std": 0.0003222345040814546,
+        "low_frequency_power_mean": 0.17660362645594913,
+        "low_frequency_power_std": 0.26373425911133064
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5068541291637205,
+          "rmse": 0.5131143353573145,
+          "nrmse": 0.999771172974027
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3796134261327696,
+          "rmse": 0.37998521947289543,
+          "nrmse": 0.9994338233705856
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32254234041204627,
+          "rmse": 0.3229082438859488,
+          "nrmse": 0.9994240002395878
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.243271010927856,
+        "seconds_per_sample": 0.05067610954574775,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s1",
+      "steps": 64,
+      "seed": 1234,
+      "run_seed": 111244,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9999651227678572,
+        "energy_std": 0.00015851341206220374,
+        "magnetization_mean": -0.9999771118164062,
+        "abs_magnetization_mean": 0.9999771118164062,
+        "magnetization_std": 0.0001040244266658138,
+        "low_frequency_power_mean": 0.026685556893022155,
+        "low_frequency_power_std": 0.12128309547519553
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069553126078016,
+          "rmse": 0.5132052428408989,
+          "nrmse": 0.9999483005170178
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37979977337400184,
+          "rmse": 0.3801712420329605,
+          "nrmse": 0.9999230982921126
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3227036922224532,
+          "rmse": 0.32307030389208685,
+          "nrmse": 0.9999255874944197
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.475491993129253,
+        "seconds_per_sample": 0.10117956239264458,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s1",
+      "steps": 64,
+      "seed": 2345,
+      "run_seed": 112355,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9999069940476191,
+        "energy_std": 0.0002557682330369945,
+        "magnetization_mean": -0.99993896484375,
+        "abs_magnetization_mean": 0.99993896484375,
+        "magnetization_std": 0.00016276041666666666,
+        "low_frequency_power_mean": 0.07116384402980916,
+        "low_frequency_power_std": 0.1897702511036295
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069127709563911,
+          "rmse": 0.5131645481846324,
+          "nrmse": 0.999869009525857
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37975180759258603,
+          "rmse": 0.38012328199079476,
+          "nrmse": 0.9997969542058315
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3226643051628102,
+          "rmse": 0.3230307517528622,
+          "nrmse": 0.9998031708080998
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.485543637070805,
+        "seconds_per_sample": 0.10133661932923133,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s1",
+      "steps": 128,
+      "seed": 1234,
+      "run_seed": 111244,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9999651227678572,
+        "energy_std": 0.0001645577700539168,
+        "magnetization_mean": -0.9999771118164062,
+        "abs_magnetization_mean": 0.9999771118164062,
+        "magnetization_std": 0.0001040244266658138,
+        "low_frequency_power_mean": 0.026685882434931238,
+        "low_frequency_power_std": 0.12128457504843203
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069555586552945,
+          "rmse": 0.5132055649719052,
+          "nrmse": 0.9999489281691254
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3797997733740019,
+          "rmse": 0.3801712420329605,
+          "nrmse": 0.9999230982921126
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32270369222245326,
+          "rmse": 0.32307030389208685,
+          "nrmse": 0.9999255874944197
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 12.936477772891521,
+        "seconds_per_sample": 0.20213246520143002,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s1",
+      "steps": 128,
+      "seed": 2345,
+      "run_seed": 112355,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9999922495039683,
+        "energy_std": 6.200396825396805e-05,
+        "magnetization_mean": -0.9999923706054688,
+        "abs_magnetization_mean": 0.9999923706054688,
+        "magnetization_std": 6.103515625e-05,
+        "low_frequency_power_mean": 0.008895185631007385,
+        "low_frequency_power_std": 0.0711614850480591
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069725694801707,
+          "rmse": 0.513221710295717,
+          "nrmse": 0.9999803863222368
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3798190155029278,
+          "rmse": 0.38019048210975903,
+          "nrmse": 0.9999737033749718
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32271948490063596,
+          "rmse": 0.3230861626946896,
+          "nrmse": 0.9999746716173442
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 12.946516281925142,
+        "seconds_per_sample": 0.20228931690508034,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s1",
+      "steps": 256,
+      "seed": 1234,
+      "run_seed": 111244,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9999767485119048,
+        "energy_std": 0.00010567560804146126,
+        "magnetization_mean": -0.9999771118164062,
+        "abs_magnetization_mean": 0.9999771118164062,
+        "magnetization_std": 0.0001040244266658138,
+        "low_frequency_power_mean": 0.026685556893022155,
+        "low_frequency_power_std": 0.12128309547519553
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069520857688272,
+          "rmse": 0.5132015779369602,
+          "nrmse": 0.9999411596810343
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3797990211482567,
+          "rmse": 0.38017048648008755,
+          "nrmse": 0.9999211110435096
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3227031856539383,
+          "rmse": 0.32306979613184655,
+          "nrmse": 0.9999240159403323
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 25.801717583090067,
+        "seconds_per_sample": 0.4031518372357823,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s1",
+      "steps": 256,
+      "seed": 2345,
+      "run_seed": 112355,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9999767485119048,
+        "energy_std": 0.00010567560804146125,
+        "magnetization_mean": -0.9999771118164062,
+        "abs_magnetization_mean": 0.9999771118164062,
+        "magnetization_std": 0.0001040244266658138,
+        "low_frequency_power_mean": 0.026685556893022155,
+        "low_frequency_power_std": 0.12128309547519553
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069520857688272,
+          "rmse": 0.5132015779369602,
+          "nrmse": 0.9999411596810343
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3797990211482567,
+          "rmse": 0.38017048648008755,
+          "nrmse": 0.9999211110435096
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3227031856539383,
+          "rmse": 0.32306979613184655,
+          "nrmse": 0.9999240159403323
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 25.81534988898784,
+        "seconds_per_sample": 0.403364842015435,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s2",
+      "steps": 32,
+      "seed": 1234,
+      "run_seed": 121251,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7419278583829365,
+        "energy_std": 0.01652257287873066,
+        "magnetization_mean": -0.8320388793945312,
+        "abs_magnetization_mean": 0.8320388793945312,
+        "magnetization_std": 0.012928515092854448,
+        "low_frequency_power_mean": 0.006454487821717305,
+        "low_frequency_power_std": 0.0036286406667242915
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5003339933697737,
+          "rmse": 0.5052520507264792,
+          "nrmse": 0.98445200337384
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37915374534659896,
+          "rmse": 0.3795164844948644,
+          "nrmse": 0.9982009607032142
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32254292047555333,
+          "rmse": 0.32291683518970354,
+          "nrmse": 0.9994505909362591
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.632478824350983,
+        "seconds_per_sample": 0.05675748163048411,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s2",
+      "steps": 32,
+      "seed": 2345,
+      "run_seed": 122362,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.743439205109127,
+        "energy_std": 0.015490094726320684,
+        "magnetization_mean": -0.8345489501953125,
+        "abs_magnetization_mean": 0.8345489501953125,
+        "magnetization_std": 0.013117035202907485,
+        "low_frequency_power_mean": 0.006610761025831238,
+        "low_frequency_power_std": 0.004168268790393568
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5009274177414944,
+          "rmse": 0.5058642286939791,
+          "nrmse": 0.9856447938348782
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3796770901219235,
+          "rmse": 0.38005418873195773,
+          "nrmse": 0.9996152257166434
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32196897770825106,
+          "rmse": 0.32233989922479733,
+          "nrmse": 0.9976649330571363
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.6284676557406783,
+        "seconds_per_sample": 0.0566948071209481,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s2",
+      "steps": 64,
+      "seed": 1234,
+      "run_seed": 121251,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7409745473710319,
+        "energy_std": 0.017270363170496916,
+        "magnetization_mean": -0.8303756713867188,
+        "abs_magnetization_mean": 0.8303756713867188,
+        "magnetization_std": 0.015142997146701415,
+        "low_frequency_power_mean": 0.007485318746638171,
+        "low_frequency_power_std": 0.004725007575074751
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.4996376036594893,
+          "rmse": 0.5044532295081297,
+          "nrmse": 0.9828955502182101
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3792182374761648,
+          "rmse": 0.37957960894287945,
+          "nrmse": 0.9983669900780286
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32325523590938854,
+          "rmse": 0.32362323690500494,
+          "nrmse": 1.0016369545285495
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.895389669109136,
+        "seconds_per_sample": 0.10774046357983025,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s2",
+      "steps": 64,
+      "seed": 2345,
+      "run_seed": 122362,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7400018601190477,
+        "energy_std": 0.016604506653220084,
+        "magnetization_mean": -0.831512451171875,
+        "abs_magnetization_mean": 0.831512451171875,
+        "magnetization_std": 0.013048669035267467,
+        "low_frequency_power_mean": 0.00642799453038387,
+        "low_frequency_power_std": 0.003840346628355071
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5003306618463281,
+          "rmse": 0.5052907291726236,
+          "nrmse": 0.9845273659057476
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3790525062376522,
+          "rmse": 0.379425330976934,
+          "nrmse": 0.9979612095121935
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32215053868250104,
+          "rmse": 0.32251858165654,
+          "nrmse": 0.9982179679024402
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.890461101662368,
+        "seconds_per_sample": 0.1076634547134745,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s2",
+      "steps": 128,
+      "seed": 1234,
+      "run_seed": 121251,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7420286148313492,
+        "energy_std": 0.014806088137801566,
+        "magnetization_mean": -0.8321533203125,
+        "abs_magnetization_mean": 0.8321533203125,
+        "magnetization_std": 0.012124129456205899,
+        "low_frequency_power_mean": 0.006745467928725656,
+        "low_frequency_power_std": 0.003925673002924745
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5000055216593154,
+          "rmse": 0.5049567576592823,
+          "nrmse": 0.9838766433111418
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3789330885058426,
+          "rmse": 0.37930163105674364,
+          "nrmse": 0.9976358550566755
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3216640475155482,
+          "rmse": 0.32203239845458353,
+          "nrmse": 0.9967131962846544
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 13.341323493048549,
+        "seconds_per_sample": 0.20845817957888357,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s2",
+      "steps": 128,
+      "seed": 2345,
+      "run_seed": 122362,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.74114505828373,
+        "energy_std": 0.017228706750288206,
+        "magnetization_mean": -0.8316574096679688,
+        "abs_magnetization_mean": 0.8316574096679688,
+        "magnetization_std": 0.01434740021639369,
+        "low_frequency_power_mean": 0.007077012042341865,
+        "low_frequency_power_std": 0.003991010987448284
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.49959063912736945,
+          "rmse": 0.5045229174295934,
+          "nrmse": 0.9830313327722785
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37812112840047735,
+          "rmse": 0.3784868856770646,
+          "nrmse": 0.9954929188366413
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32281517853575764,
+          "rmse": 0.32317241186948836,
+          "nrmse": 1.0002416189527774
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 13.347097485791892,
+        "seconds_per_sample": 0.2085483982154983,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s2",
+      "steps": 256,
+      "seed": 1234,
+      "run_seed": 121251,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7425168960813492,
+        "energy_std": 0.01611794592049659,
+        "magnetization_mean": -0.83306884765625,
+        "abs_magnetization_mean": 0.83306884765625,
+        "magnetization_std": 0.013481352353948404,
+        "low_frequency_power_mean": 0.0064169798314040166,
+        "low_frequency_power_std": 0.0041577063886165146
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5008518596255223,
+          "rmse": 0.5057048040963854,
+          "nrmse": 0.9853341649828776
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3803292318194245,
+          "rmse": 0.3806921699105106,
+          "nrmse": 1.0012932382704054
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32295384415111855,
+          "rmse": 0.3233317477252788,
+          "nrmse": 1.0007347747683715
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 26.18015165720135,
+        "seconds_per_sample": 0.4090648696437711,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "T3",
+      "variant": "T3",
+      "checkpoint": "artifacts/level1_rapid/T3/best_val.pt",
+      "checkpoint_step": 7500,
+      "method": "s2",
+      "steps": 256,
+      "seed": 2345,
+      "run_seed": 122362,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7427687872023809,
+        "energy_std": 0.016550045662080445,
+        "magnetization_mean": -0.8327178955078125,
+        "abs_magnetization_mean": 0.8327178955078125,
+        "magnetization_std": 0.013747983057956834,
+        "low_frequency_power_mean": 0.006354468907398588,
+        "low_frequency_power_std": 0.0035922941839020396
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5001718919135638,
+          "rmse": 0.5051113739316856,
+          "nrmse": 0.9841779034424025
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37791778080013516,
+          "rmse": 0.37829946383962887,
+          "nrmse": 0.9949999635479293
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32119249629398916,
+          "rmse": 0.32154923902850446,
+          "nrmse": 0.995217783468449
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 26.257207880262285,
+        "seconds_per_sample": 0.4102688731290982,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 32,
+      "seed": 1234,
+      "run_seed": 201240,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.42284381200396826,
+        "energy_std": 0.05003242633153907,
+        "magnetization_mean": 0.0174713134765625,
+        "abs_magnetization_mean": 0.4022674560546875,
+        "magnetization_std": 0.437552005408165,
+        "low_frequency_power_mean": 0.08078566303965729,
+        "low_frequency_power_std": 0.06898722585977286
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.20257664463769598,
+          "rmse": 0.2044830510432997,
+          "nrmse": 0.39842242889687624
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.16376081615873364,
+          "rmse": 0.16386178287274292,
+          "nrmse": 0.4309878378638039
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.14311096508327217,
+          "rmse": 0.14324442178984956,
+          "nrmse": 0.4433516819340884
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.0901778736151755,
+        "seconds_per_sample": 0.04828402927523712,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 32,
+      "seed": 2345,
+      "run_seed": 202351,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.44160001240079366,
+        "energy_std": 0.053206912408685844,
+        "magnetization_mean": -0.0458984375,
+        "abs_magnetization_mean": 0.4583587646484375,
+        "magnetization_std": 0.4928547514038476,
+        "low_frequency_power_mean": 0.06683181255874114,
+        "low_frequency_power_std": 0.06129426715305874
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.17434115716644977,
+          "rmse": 0.17763551059674143,
+          "nrmse": 0.346111676391722
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.12322158276346334,
+          "rmse": 0.12348209422620736,
+          "nrmse": 0.3247815315593042
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.08988153869274165,
+          "rmse": 0.09050397639612869,
+          "nrmse": 0.28011624924433876
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.0918465638533235,
+        "seconds_per_sample": 0.04831010256020818,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 64,
+      "seed": 1234,
+      "run_seed": 201240,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.4368334573412698,
+        "energy_std": 0.056329933636005365,
+        "magnetization_mean": 0.075897216796875,
+        "abs_magnetization_mean": 0.4122314453125,
+        "magnetization_std": 0.45327272705758975,
+        "low_frequency_power_mean": 0.08331895074732676,
+        "low_frequency_power_std": 0.06956968702721249
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.1953132898125234,
+          "rmse": 0.19724499666326786,
+          "nrmse": 0.3843195328775416
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.15753607083920843,
+          "rmse": 0.1576431320802113,
+          "nrmse": 0.4146315965699771
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.1357303828582546,
+          "rmse": 0.13595528942156726,
+          "nrmse": 0.42079129839566876
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.188306746073067,
+        "seconds_per_sample": 0.09669229290739167,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 64,
+      "seed": 2345,
+      "run_seed": 202351,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.45592292906746035,
+        "energy_std": 0.051574381884627464,
+        "magnetization_mean": -0.0541229248046875,
+        "abs_magnetization_mean": 0.4866790771484375,
+        "magnetization_std": 0.5193879059161968,
+        "low_frequency_power_mean": 0.062230122863528206,
+        "low_frequency_power_std": 0.05599981953607303
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.15739323134785219,
+          "rmse": 0.16147434945681077,
+          "nrmse": 0.3146226652374356
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.10231243158159542,
+          "rmse": 0.1026231196767411,
+          "nrmse": 0.26991843789876296
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.0680237070648718,
+          "rmse": 0.06893983756599266,
+          "nrmse": 0.21337370457598884
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.187289203051478,
+        "seconds_per_sample": 0.09667639379767934,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 128,
+      "seed": 1234,
+      "run_seed": 201240,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.462127201140873,
+        "energy_std": 0.05470299140534395,
+        "magnetization_mean": 0.02044677734375,
+        "abs_magnetization_mean": 0.43890380859375,
+        "magnetization_std": 0.48998093233986023,
+        "low_frequency_power_mean": 0.08346620061128893,
+        "low_frequency_power_std": 0.08063134670613618
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.15800133771123478,
+          "rmse": 0.1610766516141724,
+          "nrmse": 0.313847775878036
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.11433308213937696,
+          "rmse": 0.1144753454513825,
+          "nrmse": 0.30109205917232984
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.0954102120343796,
+          "rmse": 0.09558318605662183,
+          "nrmse": 0.2958367646943518
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 12.371431681793183,
+        "seconds_per_sample": 0.19330362002801849,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 128,
+      "seed": 2345,
+      "run_seed": 202351,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.45206705729166663,
+        "energy_std": 0.05244674520991589,
+        "magnetization_mean": -0.00646209716796875,
+        "abs_magnetization_mean": 0.43036651611328125,
+        "magnetization_std": 0.4739388481713046,
+        "low_frequency_power_mean": 0.07371410932552792,
+        "low_frequency_power_std": 0.05696919403311089
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.17177302491712648,
+          "rmse": 0.17415796492649716,
+          "nrmse": 0.33933589626975413
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.13151344089397357,
+          "rmse": 0.13165034382397064,
+          "nrmse": 0.34626559069471524
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.11173609170261631,
+          "rmse": 0.11195591756583097,
+          "nrmse": 0.34651153416713754
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 12.376655572094023,
+        "seconds_per_sample": 0.1933852433139691,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 256,
+      "seed": 1234,
+      "run_seed": 201240,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.47004820808531744,
+        "energy_std": 0.04800728096386172,
+        "magnetization_mean": 0.0229949951171875,
+        "abs_magnetization_mean": 0.495269775390625,
+        "magnetization_std": 0.529167801482461,
+        "low_frequency_power_mean": 0.06153981120381165,
+        "low_frequency_power_std": 0.06492811258949349
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.1444399189450689,
+          "rmse": 0.14854425503184987,
+          "nrmse": 0.2894291853848291
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.08904484884257861,
+          "rmse": 0.08952051377095564,
+          "nrmse": 0.2354560776661664
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.053998521996141434,
+          "rmse": 0.054838109744228085,
+          "nrmse": 0.1697278531715394
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 24.765996244736016,
+        "seconds_per_sample": 0.38696869132400025,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s0",
+      "steps": 256,
+      "seed": 2345,
+      "run_seed": 202351,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.4671495225694445,
+        "energy_std": 0.043063643515105096,
+        "magnetization_mean": 0.03473663330078125,
+        "abs_magnetization_mean": 0.5082015991210938,
+        "magnetization_std": 0.5399547175326256,
+        "low_frequency_power_mean": 0.05300236370804587,
+        "low_frequency_power_std": 0.053749394633195495
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.14155999777050088,
+          "rmse": 0.14651407793050075,
+          "nrmse": 0.28547351234648494
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.07933510053444837,
+          "rmse": 0.07991795962515053,
+          "nrmse": 0.21019952316813115
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.042442378803521405,
+          "rmse": 0.043840683314928186,
+          "nrmse": 0.1356900355486684
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 24.755741343833506,
+        "seconds_per_sample": 0.38680845849739853,
+        "peak_allocated_gib": 0.2547645568847656,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 32,
+      "seed": 1234,
+      "run_seed": 211247,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9996899801587302,
+        "energy_std": 0.0005265848641725216,
+        "magnetization_mean": -0.999847412109375,
+        "abs_magnetization_mean": 0.999847412109375,
+        "magnetization_std": 0.0002591784878349139,
+        "low_frequency_power_mean": 0.0008516425686656696,
+        "low_frequency_power_std": 0.0014515700425891225
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5070125437793593,
+          "rmse": 0.5132586186837327,
+          "nrmse": 1.0000523000066468
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37992126366965945,
+          "rmse": 0.38029190727201845,
+          "nrmse": 1.000240470955678
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3228461754630582,
+          "rmse": 0.32321227724663876,
+          "nrmse": 1.0003650051327746
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.23997714696452,
+        "seconds_per_sample": 0.05062464292132063,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 32,
+      "seed": 2345,
+      "run_seed": 212358,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9997054811507937,
+        "energy_std": 0.0005207583420319338,
+        "magnetization_mean": -0.9998550415039062,
+        "abs_magnetization_mean": 0.9998550415039062,
+        "magnetization_std": 0.00025631074646884327,
+        "low_frequency_power_mean": 0.0008286392837770923,
+        "low_frequency_power_std": 0.0014577615486818336
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5070111789969045,
+          "rmse": 0.5132574975186757,
+          "nrmse": 1.000050115486693
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37991121005119055,
+          "rmse": 0.3802819885799959,
+          "nrmse": 1.0002143828980827
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32283796083677935,
+          "rmse": 0.3232040856461541,
+          "nrmse": 1.0003396515461762
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.235994832124561,
+        "seconds_per_sample": 0.05056241925194627,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 64,
+      "seed": 1234,
+      "run_seed": 211247,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9999069940476191,
+        "energy_std": 0.00029145320009573464,
+        "magnetization_mean": -0.9999542236328125,
+        "abs_magnetization_mean": 0.9999542236328125,
+        "magnetization_std": 0.0001434496219221199,
+        "low_frequency_power_mean": 0.0002455812111771795,
+        "low_frequency_power_std": 0.0007697925311875608
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069919723739862,
+          "rmse": 0.5132401290321895,
+          "nrmse": 1.000016274077653
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37985781153175563,
+          "rmse": 0.38022896900238823,
+          "nrmse": 1.000074931265634
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32278519044374165,
+          "rmse": 0.32315155897099207,
+          "nrmse": 1.00017707774757
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.501236577983946,
+        "seconds_per_sample": 0.10158182153099915,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 64,
+      "seed": 2345,
+      "run_seed": 212358,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9998449900793651,
+        "energy_std": 0.00036305806285287566,
+        "magnetization_mean": -0.9999237060546875,
+        "abs_magnetization_mean": 0.9999237060546875,
+        "magnetization_std": 0.00017869264031040037,
+        "low_frequency_power_mean": 0.0004076151702126188,
+        "low_frequency_power_std": 0.0009547953862383364
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.50699808194464,
+          "rmse": 0.5132456996215758,
+          "nrmse": 1.0000271280224782
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37987701297797494,
+          "rmse": 0.38024796401714284,
+          "nrmse": 1.000124891788434
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32282698957426437,
+          "rmse": 0.32319305870284126,
+          "nrmse": 1.0003055223716977
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.507798709906638,
+        "seconds_per_sample": 0.10168435484229121,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 128,
+      "seed": 1234,
+      "run_seed": 211247,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -1.0,
+        "energy_std": 0.0,
+        "magnetization_mean": -1.0,
+        "abs_magnetization_mean": 1.0,
+        "magnetization_std": 0.0,
+        "low_frequency_power_mean": 0.0,
+        "low_frequency_power_std": 0.0
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069828115104653,
+          "rmse": 0.513231776658402,
+          "nrmse": 0.9999999999999998
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37982901285488646,
+          "rmse": 0.38020048009921975,
+          "nrmse": 1.0
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3227276346986079,
+          "rmse": 0.32309434615192284,
+          "nrmse": 1.0
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 12.99299214174971,
+        "seconds_per_sample": 0.20301550221483922,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 128,
+      "seed": 2345,
+      "run_seed": 212358,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -1.0,
+        "energy_std": 0.0,
+        "magnetization_mean": -1.0,
+        "abs_magnetization_mean": 1.0,
+        "magnetization_std": 0.0,
+        "low_frequency_power_mean": 0.0,
+        "low_frequency_power_std": 0.0
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069828115104653,
+          "rmse": 0.513231776658402,
+          "nrmse": 0.9999999999999998
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37982901285488646,
+          "rmse": 0.38020048009921975,
+          "nrmse": 1.0
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3227276346986079,
+          "rmse": 0.32309434615192284,
+          "nrmse": 1.0
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 12.95737623469904,
+        "seconds_per_sample": 0.2024590036671725,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 256,
+      "seed": 1234,
+      "run_seed": 211247,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.999968998015873,
+        "energy_std": 0.0001739762833363589,
+        "magnetization_mean": -0.9999847412109375,
+        "abs_magnetization_mean": 0.9999847412109375,
+        "magnetization_std": 8.562895195461446e-05,
+        "low_frequency_power_mean": 8.479294995194643e-05,
+        "low_frequency_power_std": 0.00047635919029979603
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069858646659777,
+          "rmse": 0.5132345603149598,
+          "nrmse": 1.0000054237806082
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3798380419714549,
+          "rmse": 0.38020943810931157,
+          "nrmse": 1.0000235612803263
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32274269902655944,
+          "rmse": 0.32310927410232587,
+          "nrmse": 1.000046203069106
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 25.778675569221377,
+        "seconds_per_sample": 0.402791805769084,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s1",
+      "steps": 256,
+      "seed": 2345,
+      "run_seed": 212358,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.9999844990079365,
+        "energy_std": 0.00012400793650793607,
+        "magnetization_mean": -0.9999923706054688,
+        "abs_magnetization_mean": 0.9999923706054688,
+        "magnetization_std": 6.103515625e-05,
+        "low_frequency_power_mean": 4.0419935080665616e-05,
+        "low_frequency_power_std": 0.000323359480645325
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5069843380300137,
+          "rmse": 0.5132331684281762,
+          "nrmse": 1.0000027117763113
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.37983381234332625,
+          "rmse": 0.3802052279481666,
+          "nrmse": 1.000012487751056
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3227389480285645,
+          "rmse": 0.323105547223401,
+          "nrmse": 1.000034668113545
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 25.785984181798995,
+        "seconds_per_sample": 0.4029060028406093,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 32,
+      "seed": 1234,
+      "run_seed": 221254,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6865118117559523,
+        "energy_std": 0.040647192461888,
+        "magnetization_mean": -0.8100051879882812,
+        "abs_magnetization_mean": 0.8100051879882812,
+        "magnetization_std": 0.023203839298254886,
+        "low_frequency_power_mean": 0.004481686091324049,
+        "low_frequency_power_std": 0.0029389984356139637
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5060128745834653,
+          "rmse": 0.5112487141572117,
+          "nrmse": 0.9961361268117459
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3837042784826019,
+          "rmse": 0.3840775721583495,
+          "nrmse": 1.0101974938540792
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3253663708214707,
+          "rmse": 0.32576445962449996,
+          "nrmse": 1.0082641912629495
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.6186345922760665,
+        "seconds_per_sample": 0.05654116550431354,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 32,
+      "seed": 2345,
+      "run_seed": 222365,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.7010827442956349,
+        "energy_std": 0.0384612821130974,
+        "magnetization_mean": -0.8190765380859375,
+        "abs_magnetization_mean": 0.8190765380859375,
+        "magnetization_std": 0.02363606760426043,
+        "low_frequency_power_mean": 0.0049004485323211906,
+        "low_frequency_power_std": 0.003529020573468133
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5057513262483992,
+          "rmse": 0.5110096631881045,
+          "nrmse": 0.9956703509576792
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3835546263658932,
+          "rmse": 0.38391416228643,
+          "nrmse": 1.0097676946284788
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.32579468454582183,
+          "rmse": 0.32617832011041,
+          "nrmse": 1.0095451189264606
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 3.6244043656624854,
+        "seconds_per_sample": 0.056631318213476334,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 64,
+      "seed": 1234,
+      "run_seed": 221254,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6892206101190477,
+        "energy_std": 0.03476746197443656,
+        "magnetization_mean": -0.8115234375,
+        "abs_magnetization_mean": 0.8115234375,
+        "magnetization_std": 0.021370280673357982,
+        "low_frequency_power_mean": 0.005504725057298274,
+        "low_frequency_power_std": 0.0034554768044412344
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5064545014295075,
+          "rmse": 0.5116513888170344,
+          "nrmse": 0.9969207131879919
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3843185205062343,
+          "rmse": 0.3846909923480047,
+          "nrmse": 1.011810906308201
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3257253250976012,
+          "rmse": 0.3261147277267403,
+          "nrmse": 1.009348295972339
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.870682063978165,
+        "seconds_per_sample": 0.10735440724965883,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 64,
+      "seed": 2345,
+      "run_seed": 222365,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6990521143353174,
+        "energy_std": 0.03953692746600555,
+        "magnetization_mean": -0.8176422119140625,
+        "abs_magnetization_mean": 0.8176422119140625,
+        "magnetization_std": 0.024152550411147406,
+        "low_frequency_power_mean": 0.005015249654204643,
+        "low_frequency_power_std": 0.003606815020779305
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.505442275728369,
+          "rmse": 0.5106855172377799,
+          "nrmse": 0.9950387728577512
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.38300566501524314,
+          "rmse": 0.38338230837517295,
+          "nrmse": 1.0083688170912433
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3247536087840367,
+          "rmse": 0.3251398909455176,
+          "nrmse": 1.006331106743146
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 6.87104148697108,
+        "seconds_per_sample": 0.10736002323392313,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 128,
+      "seed": 1234,
+      "run_seed": 221254,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6958511594742064,
+        "energy_std": 0.03985158466688667,
+        "magnetization_mean": -0.8146209716796875,
+        "abs_magnetization_mean": 0.8146209716796875,
+        "magnetization_std": 0.023330884978562148,
+        "low_frequency_power_mean": 0.0050811767984399415,
+        "low_frequency_power_std": 0.0037784419092951574
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5059374393275835,
+          "rmse": 0.5111251506585044,
+          "nrmse": 0.9958953710668234
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.38480087983532335,
+          "rmse": 0.38515836431466227,
+          "nrmse": 1.0130401839948984
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3271402841110141,
+          "rmse": 0.3275244183998175,
+          "nrmse": 1.0137113889508038
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 13.322806417942047,
+        "seconds_per_sample": 0.2081688502803445,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 128,
+      "seed": 2345,
+      "run_seed": 222365,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6916000124007937,
+        "energy_std": 0.042441011191438706,
+        "magnetization_mean": -0.813018798828125,
+        "abs_magnetization_mean": 0.813018798828125,
+        "magnetization_std": 0.025894603555514692,
+        "low_frequency_power_mean": 0.0047851662495320595,
+        "low_frequency_power_std": 0.003110722707501073
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5066097290532269,
+          "rmse": 0.5117849909244232,
+          "nrmse": 0.9971810285337381
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.38505313731989754,
+          "rmse": 0.38541563159248704,
+          "nrmse": 1.0137168461541823
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.326824159340373,
+          "rmse": 0.32721793283553036,
+          "nrmse": 1.0127627943129298
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 13.31485579488799,
+        "seconds_per_sample": 0.20804462179512484,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 256,
+      "seed": 1234,
+      "run_seed": 221254,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6954675099206349,
+        "energy_std": 0.03916411433061464,
+        "magnetization_mean": -0.8155136108398438,
+        "abs_magnetization_mean": 0.8155136108398438,
+        "magnetization_std": 0.024276421698985483,
+        "low_frequency_power_mean": 0.004388333442209005,
+        "low_frequency_power_std": 0.0023006564465153437
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5066393355394498,
+          "rmse": 0.5118478209202515,
+          "nrmse": 0.9973034488488585
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.38474535860905457,
+          "rmse": 0.38510534458549084,
+          "nrmse": 1.012900731963808
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3269944758824194,
+          "rmse": 0.32737562418414506,
+          "nrmse": 1.013250860261755
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 26.14776583062485,
+        "seconds_per_sample": 0.40855884110351326,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    },
+    {
+      "model": "Punit",
+      "variant": "Punit",
+      "checkpoint": "artifacts/level1_rapid/Punit/best_val.pt",
+      "checkpoint_step": 8000,
+      "method": "s2",
+      "steps": 256,
+      "seed": 2345,
+      "run_seed": 222365,
+      "samples": 64,
+      "metrics": {
+        "samples": 64,
+        "width": 64,
+        "energy_mean": -0.6934795076884921,
+        "energy_std": 0.035190356164472726,
+        "magnetization_mean": -0.8141098022460938,
+        "abs_magnetization_mean": 0.8141098022460938,
+        "magnetization_std": 0.021829612457774216,
+        "low_frequency_power_mean": 0.005661353148358771,
+        "low_frequency_power_std": 0.0029220459733462875
+      },
+      "correlation_error": {
+        "short": {
+          "start": 1,
+          "stop": 8,
+          "mae": 0.5058134376079929,
+          "rmse": 0.5110394993891074,
+          "nrmse": 0.9957284849282552
+        },
+        "medium": {
+          "start": 9,
+          "stop": 16,
+          "mae": 0.3839410368926688,
+          "rmse": 0.38430451523718173,
+          "nrmse": 1.0107943975685958
+        },
+        "expanded": {
+          "start": 17,
+          "stop": 32,
+          "mae": 0.3260246654446982,
+          "rmse": 0.3264094994335986,
+          "nrmse": 1.010260635387649
+        }
+      },
+      "performance": {
+        "elapsed_seconds": 26.150935472920537,
+        "seconds_per_sample": 0.4086083667643834,
+        "peak_allocated_gib": 0.25600147247314453,
+        "peak_reserved_gib": 0.4296875
+      }
+    }
+  ]
+}

@@ -233,6 +233,7 @@ def _generate_chain(
     adaptation_sweeps: int,
     pilot_cluster_steps: int,
     backend: str,
+    initial_state: str = "random",
 ) -> tuple[np.ndarray, dict[str, Any]]:
     if backend == "numba":
         from .ising_numba import simulate_wolff_chain
@@ -246,6 +247,7 @@ def _generate_chain(
             seed=int(seed),
             adaptation_sweeps=adaptation_sweeps,
             pilot_cluster_steps=pilot_cluster_steps,
+            initial_state=initial_state,
         )
         metadata["seed"] = int(seed)
         return samples, metadata
@@ -253,6 +255,12 @@ def _generate_chain(
     sampler = WolffSampler(
         lattice_size=lattice_size, beta=beta, seed=int(seed)
     )
+    if initial_state == "plus":
+        sampler.spins.fill(1)
+    elif initial_state == "minus":
+        sampler.spins.fill(-1)
+    elif initial_state != "random":
+        raise ValueError("initial_state must be random, plus, or minus")
     samples, metadata = sampler.sample_equilibrium(
         count=samples_per_chain,
         burn_in_sweeps=burn_in_sweeps,
@@ -262,6 +270,7 @@ def _generate_chain(
     )
     metadata["backend"] = "python"
     metadata["seed"] = int(seed)
+    metadata["initial_state"] = initial_state
     return samples, metadata
 
 
@@ -277,6 +286,7 @@ def generate_independent_chains(
     workers: int = 1,
     backend: str = "auto",
     return_chain_metadata: bool = False,
+    initial_states: Iterable[str] | None = None,
 ) -> (
     tuple[np.ndarray, np.ndarray]
     | tuple[np.ndarray, np.ndarray, list[dict[str, Any]]]
@@ -296,6 +306,15 @@ def generate_independent_chains(
         raise ValueError("workers must be positive")
     if backend not in {"auto", "python", "numba"}:
         raise ValueError("backend must be auto, python, or numba")
+    states = (
+        ["random"] * len(seeds)
+        if initial_states is None
+        else [str(state) for state in initial_states]
+    )
+    if len(states) != len(seeds):
+        raise ValueError("initial_states must match chain_seeds")
+    if any(state not in {"random", "plus", "minus"} for state in states):
+        raise ValueError("initial_states must be random, plus, or minus")
     resolved_backend = backend
     if resolved_backend == "auto":
         try:
@@ -319,8 +338,9 @@ def generate_independent_chains(
             adaptation_sweeps,
             pilot_cluster_steps,
             resolved_backend,
+            state,
         )
-        for seed in seeds
+        for seed, state in zip(seeds, states, strict=True)
     ]
     if workers == 1:
         results = [_generate_chain(*argument) for argument in arguments]
@@ -345,7 +365,7 @@ def generate_independent_chains(
 
 
 def _generate_chain_from_tuple(
-    arguments: tuple[int, int, int, int, int, float, int, int, str]
+    arguments: tuple[int, int, int, int, int, float, int, int, str, str]
 ) -> tuple[np.ndarray, dict[str, Any]]:
     """Pickle-friendly adapter for ``ProcessPoolExecutor.map``."""
 

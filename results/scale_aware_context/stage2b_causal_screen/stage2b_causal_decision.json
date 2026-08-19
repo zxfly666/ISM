@@ -1,0 +1,126 @@
+{
+  "label": "GO_FULL_2B",
+  "scope": "single_training_seed_causal_screen",
+  "practical_threshold": 0.002,
+  "checks": {
+    "matched_beats_data_only": true,
+    "matched_beats_randpe": true,
+    "correct_beats_unit": true,
+    "correct_beats_shuffled": true,
+    "paired_initialization": true
+  },
+  "contrasts": {
+    "matched_minus_data_only": {
+      "mean": -0.08237547593307681,
+      "se": 0.0017797257427066727,
+      "ci95": [
+        -0.08591331349998654,
+        -0.0788951541951974
+      ],
+      "samples": 512
+    },
+    "matched_minus_randpe": {
+      "mean": -0.03141578257782385,
+      "se": 0.00023574598936775302,
+      "ci95": [
+        -0.03186731872010569,
+        -0.030952458389583624
+      ],
+      "samples": 512
+    },
+    "matched_minus_uniform_t3": {
+      "mean": -0.009973296779207885,
+      "se": 0.00027712593526612374,
+      "ci95": [
+        -0.01053005960129667,
+        -0.009445483316812896
+      ],
+      "samples": 512
+    },
+    "correct_minus_unit": {
+      "mean": -0.012618838634807616,
+      "se": 0.00015749221734695355,
+      "ci95": [
+        -0.01292961489780282,
+        -0.012313134365831502
+      ],
+      "samples": 512
+    },
+    "correct_minus_shuffled": {
+      "mean": -0.0068238790991017595,
+      "se": 0.00012920120887366024,
+      "ci95": [
+        -0.007070701382690459,
+        -0.00656536284404865
+      ],
+      "samples": 512
+    }
+  },
+  "initialization_hashes": {
+    "Gap-Unit": "e9cdb0c87427e676f3790dccb38abf8139aa1f6c011b5bbe759d5bd1baf2d9f2",
+    "U-RandPE": "e9cdb0c87427e676f3790dccb38abf8139aa1f6c011b5bbe759d5bd1baf2d9f2",
+    "Gap-Matched": "e9cdb0c87427e676f3790dccb38abf8139aa1f6c011b5bbe759d5bd1baf2d9f2"
+  },
+  "recommendation": "Run the preregistered 3-seed, 15000-step hierarchical confirmation.",
+  "probe_settings": {
+    "samples": 512,
+    "batch_size": 16,
+    "t_grid": [
+      0.2,
+      0.5,
+      0.8,
+      0.95
+    ],
+    "seed": 161803,
+    "precision": "float32",
+    "geometries": [
+      {
+        "name": "seen_mix_w64",
+        "width": 64,
+        "gaps": [
+          1,
+          2,
+          4,
+          8
+        ]
+      },
+      {
+        "name": "held_mix_3_6_w64",
+        "width": 64,
+        "gaps": [
+          3,
+          6
+        ]
+      },
+      {
+        "name": "fixed3_w64",
+        "width": 64,
+        "gaps": [
+          3
+        ],
+        "fixed_gap": 3
+      },
+      {
+        "name": "fixed6_w64",
+        "width": 64,
+        "gaps": [
+          6
+        ],
+        "fixed_gap": 6
+      },
+      {
+        "name": "fixed10_w48",
+        "width": 48,
+        "gaps": [
+          10
+        ],
+        "fixed_gap": 10
+      }
+    ],
+    "coordinate_conditions": [
+      "correct",
+      "unit",
+      "shuffled"
+    ]
+  }
+}

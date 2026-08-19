@@ -1,0 +1,47 @@
+{
+  "target": {
+    "samples": 1024,
+    "width": 64,
+    "energy_mean": -0.7075248597160219,
+    "energy_std": 0.024197132284521805,
+    "magnetization_mean": 0.020917415618896484,
+    "abs_magnetization_mean": 0.5251631736755371,
+    "magnetization_std": 0.5592870730290529,
+    "low_frequency_power_mean": 0.12635103439331768,
+    "low_frequency_power_std": 0.10149700484239191
+  },
+  "control": {
+    "samples": 1024,
+    "width": 64,
+    "energy_mean": -0.7060125441778273,
+    "energy_std": 0.024472575831492545,
+    "magnetization_mean": 0.019138336181640625,
+    "abs_magnetization_mean": 0.5097465515136719,
+    "magnetization_std": 0.5487665390050493,
+    "low_frequency_power_mean": 0.13156705056438944,
+    "low_frequency_power_std": 0.10336553481110801
+  },
+  "target_control_correlation": {
+    "short": {
+      "start": 1,
+      "stop": 8,
+      "mae": 0.005402086083321746,
+      "rmse": 0.005836962379972839,
+      "nrmse": 0.01137295593421102
+    },
+    "medium": {
+      "start": 9,
+      "stop": 16,
+      "mae": 0.01040478142662063,
+      "rmse": 0.01043990287523272,
+      "nrmse": 0.027458941852225572
+    },
+    "expanded": {
+      "start": 17,
+      "stop": 32,
+      "mae": 0.013297711914537807,
+      "rmse": 0.013330312860684805,
+      "nrmse": 0.041258267188670435
+    }
+  }
+}

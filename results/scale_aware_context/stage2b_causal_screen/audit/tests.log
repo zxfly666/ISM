@@ -1,0 +1,35 @@
+test_d4_and_spin_flip_preserve_ising_energy (test_core.AugmentationTests.test_d4_and_spin_flip_preserve_ising_energy) ... ok
+test_confidence_corrector_finishes (test_core.DiffusionTests.test_confidence_corrector_finishes) ... ok
+test_confidence_sampler_remains_available (test_core.DiffusionTests.test_confidence_sampler_remains_available) ... ok
+test_endpoint_corruption_is_all_mask (test_core.DiffusionTests.test_endpoint_corruption_is_all_mask) ... ok
+test_loss_is_finite_and_backpropagates (test_core.DiffusionTests.test_loss_is_finite_and_backpropagates) ... ok
+test_sampler_finishes_without_mask_tokens (test_core.DiffusionTests.test_sampler_finishes_without_mask_tokens) ... ok
+test_sampler_preserves_known_region (test_core.DiffusionTests.test_sampler_preserves_known_region) ... ok
+test_ensemble_metrics_are_finite (test_core.WolffTests.test_ensemble_metrics_are_finite) ... ok
+test_sampler_returns_binary_periodic_lattices (test_core.WolffTests.test_sampler_returns_binary_periodic_lattices) ... ok
+test_coordinate_sampler_finishes (test_level1.CoordinateModelTests.test_coordinate_sampler_finishes) ... ok
+test_forward_and_loss (test_level1.CoordinateModelTests.test_forward_and_loss) ... ok
+test_global_coordinate_translation_invariance (test_level1.CoordinateModelTests.test_global_coordinate_translation_invariance) ... ok
+test_pad_frame_invariance (test_level1.CoordinateModelTests.test_pad_frame_invariance) ... ok
+test_pack_roundtrip (test_level1.ScaleDataTests.test_pack_roundtrip) ... ok
+test_variants_have_expected_strides (test_level1.ScaleDataTests.test_variants_have_expected_strides) ... ok
+test_open_correlation_has_no_wraparound_bias_for_constant_field (test_level1.ScaleEvaluationTests.test_open_correlation_has_no_wraparound_bias_for_constant_field) ... ok
+test_open_energy_uses_only_internal_bonds (test_level1.ScaleEvaluationTests.test_open_energy_uses_only_internal_bonds) ... ok
+test_periodic_crop_respects_physical_stride (test_level1.ScaleEvaluationTests.test_periodic_crop_respects_physical_stride) ... ok
+test_forward_loss_shape_and_initial_gate (test_stage2.LocalGlobalModelTests.test_forward_loss_shape_and_initial_gate) ... ok
+test_hard_markov_gate_closes_with_four_visible_neighbours (test_stage2.LocalGlobalModelTests.test_hard_markov_gate_closes_with_four_visible_neighbours) ... /root/autodl-tmp/ISM/tests/test_stage2.py:213: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  self.assertEqual(float(diagnostic["gate"][0, 2, 2]), 0.0)
+ok
+test_local_path_ignores_outside_radius_in_one_block (test_stage2.LocalGlobalModelTests.test_local_path_ignores_outside_radius_in_one_block) ... ok
+test_pad_frame_is_finite_and_invariant (test_stage2.LocalGlobalModelTests.test_pad_frame_is_finite_and_invariant) ... ok
+test_stacked_local_capacity_does_not_expand_spatial_radius (test_stage2.LocalGlobalModelTests.test_stacked_local_capacity_does_not_expand_spatial_radius) ... ok
+test_random_gap_coordinates_are_real_integer_offsets (test_stage2.Stage2DataTests.test_random_gap_coordinates_are_real_integer_offsets) ... ok
+test_random_pe_matches_coordinate_distribution_not_spin_geometry (test_stage2.Stage2DataTests.test_random_pe_matches_coordinate_distribution_not_spin_geometry) ... ok
+test_variant_factorization (test_stage2.Stage2DataTests.test_variant_factorization) ... ok
+test_all_sampler_candidates_finish (test_stage2.Stage2SamplerTests.test_all_sampler_candidates_finish) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.364s
+
+OK

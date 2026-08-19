@@ -4,7 +4,15 @@ __pycache__/
 
 # Local/session-only material
 .codex-ssh/
+.codex-tools/
+.codex_remote_probe*
+START_SSH_TUNNEL.cmd
 tmp/
+artifacts/stage2_smoke/
+artifacts/level1_rapid/
+artifacts/stage2a_remote/
+artifacts/stage2b_causal_remote/
+results/scale_aware_context/stage2a_screen/raw/stage0/runs/
 
 # Third-party reference checkouts are linked instead of republished.
 external/

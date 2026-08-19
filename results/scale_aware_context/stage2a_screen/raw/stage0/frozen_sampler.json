@@ -1,0 +1,265 @@
+{
+  "status": "FROZEN",
+  "selection_split": "validation",
+  "selection_rule": "minimum preregistered composite score; lower steps break ties",
+  "frozen_sampler": {
+    "method": "s0",
+    "steps": 256,
+    "temperature": 1.0,
+    "refinement_sweeps": 2
+  },
+  "ranking": [
+    {
+      "method": "s0",
+      "steps": 256,
+      "records": 6,
+      "models": [
+        "Punit",
+        "T0",
+        "T3"
+      ],
+      "seeds": [
+        1234,
+        2345
+      ],
+      "score_mean": 0.5182247874087285,
+      "score_se": 0.13060104735987182,
+      "short_nrmse_mean": 0.14330025305157423,
+      "medium_nrmse_mean": 0.15565564732765907,
+      "expanded_nrmse_mean": 0.17558008678053202,
+      "energy_abs_error_mean": 0.09361840303612771,
+      "abs_magnetization_error_mean": 0.05886967976888021
+    },
+    {
+      "method": "s0",
+      "steps": 128,
+      "records": 6,
+      "models": [
+        "Punit",
+        "T0",
+        "T3"
+      ],
+      "seeds": [
+        1234,
+        2345
+      ],
+      "score_mean": 0.5681964573792485,
+      "score_se": 0.19554507497695225,
+      "short_nrmse_mean": 0.13491664726848643,
+      "medium_nrmse_mean": 0.16487490876634778,
+      "expanded_nrmse_mean": 0.20709641673574933,
+      "energy_abs_error_mean": 0.10087222144717266,
+      "abs_magnetization_error_mean": 0.0683733622233073
+    },
+    {
+      "method": "s0",
+      "steps": 64,
+      "records": 6,
+      "models": [
+        "Punit",
+        "T0",
+        "T3"
+      ],
+      "seeds": [
+        1234,
+        2345
+      ],
+      "score_mean": 0.6493511554430663,
+      "score_se": 0.17501761671888122,
+      "short_nrmse_mean": 0.1606911044013528,
+      "medium_nrmse_mean": 0.2067592042650159,
+      "expanded_nrmse_mean": 0.2519957560924914,
+      "energy_abs_error_mean": 0.10864467721767528,
+      "abs_magnetization_error_mean": 0.0831468900044759
+    },
+    {
+      "method": "s0",
+      "steps": 32,
+      "records": 6,
+      "models": [
+        "Punit",
+        "T0",
+        "T3"
+      ],
+      "seeds": [
+        1234,
+        2345
+      ],
+      "score_mean": 0.7677749440367841,
+      "score_se": 0.18803906031656797,
+      "short_nrmse_mean": 0.20421213884838543,
+      "medium_nrmse_mean": 0.2636994739270125,
+      "expanded_nrmse_mean": 0.2954383177623734,
+      "energy_abs_error_mean": 0.13180703460854834,
+      "abs_magnetization_error_mean": 0.08996470769246419
+    },
+    {
+      "method": "s2",
+      "steps": 64,
+      "records": 6,
+      "models": [
+        "Punit",
+        "T0",
+        "T3"
+      ],
+      "seeds": [
+        1234,
+        2345
+      ],
+      "score_mean": 1.452888112609844,
+      "score_se": 0.02918035678784799,
+      "short_nrmse_mean": 0.9910176495342875,
+      "medium_nrmse_mean": 1.0072701126095795,
+      "expanded_nrmse_mean": 1.0059541151711289,
+      "energy_abs_error_mean": 0.031747484964037696,
+      "abs_magnetization_error_mean": 0.30332549413045246
+    },
+    {
+      "method": "s2",
+      "steps": 128,
+      "records": 6,
+      "models": [
+        "Punit",
+        "T0",
+        "T3"
+      ],
+      "seeds": [
+        1234,
+        2345
+      ],
+      "score_mean": 1.4563422511100377,
+      "score_se": 0.02920676331132757,
+      "short_nrmse_mean": 0.9908432418511817,
+      "medium_nrmse_mean": 1.0071108950159546,
+      "expanded_nrmse_mean": 1.0065861303578434,
+      "energy_abs_error_mean": 0.03270144185061169,
+      "abs_magnetization_error_mean": 0.30356454849243164
+    },
+    {
+      "method": "s2",
+      "steps": 256,
+      "records": 6,
+      "models": [
+        "Punit",
+        "T0",
+        "T3"
+      ],
+      "seeds": [
+        1234,
+        2345
+      ],
+      "score_mean": 1.456582487233255,
+      "score_se": 0.029013281825648395,
+      "short_nrmse_mean": 0.9913057711323403,
+      "medium_nrmse_mean": 1.0074076743763836,
+      "expanded_nrmse_mean": 1.0065634388179985,
+      "energy_abs_error_mean": 0.032394005508019165,
+      "abs_magnetization_error_mean": 0.3040617307027181
+    },
+    {
+      "method": "s2",
+      "steps": 32,
+      "records": 6,
+      "models": [
+        "Punit",
+        "T0",
+        "T3"
+      ],
+      "seeds": [
+        1234,
+        2345
+      ],
+      "score_mean": 1.4573852895609345,
+      "score_se": 0.02916489935742489,
+      "short_nrmse_mean": 0.9910415246754446,
+      "medium_nrmse_mean": 1.007334952102186,
+      "expanded_nrmse_mean": 1.006223860780355,
+      "energy_abs_error_mean": 0.03271565109333665,
+      "abs_magnetization_error_mean": 0.30407190322875977
+    },
+    {
+      "method": "s1",
+      "steps": 32,
+      "records": 6,
+      "models": [
+        "Punit",
+        "T0",
+        "T3"
+      ],
+      "seeds": [
+        1234,
+        2345
+      ],
+      "score_mean": 2.5756342160616925,
+      "score_se": 0.0002970234831533191,
+      "short_nrmse_mean": 0.9999433683057469,
+      "medium_nrmse_mean": 0.9999208454228282,
+      "expanded_nrmse_mean": 1.0000373480575109,
+      "energy_abs_error_mean": 0.29211603396784064,
+      "abs_magnetization_error_mean": 0.4746524492899577
+    },
+    {
+      "method": "s1",
+      "steps": 64,
+      "records": 6,
+      "models": [
+        "Punit",
+        "T0",
+        "T3"
+      ],
+      "seeds": [
+        1234,
+        2345
+      ],
+      "score_mean": 2.576750457980578,
+      "score_se": 6.141832526065188e-05,
+      "short_nrmse_mean": 0.9999820042614332,
+      "medium_nrmse_mean": 1.0000116232254035,
+      "expanded_nrmse_mean": 1.0000994037710655,
+      "energy_abs_error_mean": 0.29238278020626657,
+      "abs_magnetization_error_mean": 0.47478723526000977
+    },
+    {
+      "method": "s1",
+      "steps": 256,
+      "records": 6,
+      "models": [
+        "Punit",
+        "T0",
+        "T3"
+      ],
+      "seeds": [
+        1234,
+        2345
+      ],
+      "score_mean": 2.576949692767738,
+      "score_se": 2.63754276863782e-05,
+      "short_nrmse_mean": 0.9999849065675063,
+      "medium_nrmse_mean": 0.9999910963296431,
+      "expanded_nrmse_mean": 0.9999920663721742,
+      "energy_abs_error_mean": 0.2924415548011739,
+      "abs_magnetization_error_mean": 0.4748164812723796
+    },
+    {
+      "method": "s1",
+      "steps": 128,
+      "records": 6,
+      "models": [
+        "Punit",
+        "T0",
+        "T3"
+      ],
+      "seeds": [
+        1234,
+        2345
+      ],
+      "score_mean": 2.5770092866630563,
+      "score_se": 4.0535514351662286e-05,
+      "short_nrmse_mean": 0.9999904791234719,
+      "medium_nrmse_mean": 0.999992679901469,
+      "expanded_nrmse_mean": 0.9999900397629137,
+      "energy_abs_error_mean": 0.2924551181692295,
+      "abs_magnetization_error_mean": 0.474825382232666
+    }
+  ]
+}
