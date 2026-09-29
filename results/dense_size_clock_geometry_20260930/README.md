@@ -1,5 +1,10 @@
 # Dense size × clock geometry: preflight only
 
+Publication status at handoff: committed locally, **not pushed to GitHub**.
+Safety review requires explicit confirmation to publish the compact experimental
+evidence and 22,806-byte exact-label bank to `zxfly666/ISM`. No alternate upload
+path was used to bypass that decision.
+
 **Status: `NOT_LAUNCHED_TIME_GATE_FAILED`.** No formal model or held-out
 cross-size result exists for this study. Correctness and the single-attempt
 train-only fitting tests passed; the original 12-hour launch gate did not.
