@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "files": 21,
+  "archive": "deployed_source_bytes_v1.tar.gz",
+  "bytes": 74536,
+  "sha256": "1c3e329e55c4bb822662a9270ef3b05a7918665b26a928cc019908682b9bae44",
+  "test_exit_code": 0,
+  "test_output": "test_bank_manifest_and_query (test_size_clock.DataTests) ... ok\ntest_exact_enumeration (test_size_clock.DataTests) ... ok\ntest_geometry_witness (test_size_clock.DataTests) ... ok\ntest_metric_oracle_and_saturation (test_size_clock.DataTests) ... ok\ntest_no_k1_expansion (test_size_clock.DataTests) ... ok\ntest_pairing_and_shapes (test_size_clock.DataTests) ... ok\ntest_split (test_size_clock.DataTests) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 3.092s\n\nOK\n",
+  "isolated": true,
+  "no_GPU_or_new_experiment": true,
+  "purpose": "original deployed bytes, unaffected by Git text line-ending normalization"
+}

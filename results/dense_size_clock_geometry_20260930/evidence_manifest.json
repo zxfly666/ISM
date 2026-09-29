@@ -1,0 +1,86 @@
+{
+  "status": "verified_archive_allowlist",
+  "files": [
+    {
+      "path": "evidence/budget.json",
+      "original": "artifacts/dense_size_clock_geometry_12h_20260930/budget.json",
+      "bytes": 121,
+      "sha256": "433a1d7abfaecd4fec7f7d5a4b230ca7c9b4006c6beffc54d744a1a755089bb7"
+    },
+    {
+      "path": "evidence/truth_checks.json",
+      "original": "artifacts/dense_size_clock_geometry_12h_20260930/cpu_preparation/truth_checks.json",
+      "bytes": 350,
+      "sha256": "2453ec1d72eca33b4c64fbb944f722d39c2f6c93ea2cb74bc1ba4b58e01cdf58"
+    },
+    {
+      "path": "evidence/model_checks_cpu.json",
+      "original": "artifacts/dense_size_clock_geometry_12h_20260930/cpu_preparation/model/model_checks.json",
+      "bytes": 432,
+      "sha256": "bbcd66141740ab0c4023a3d7a048231c2b9930f0b35f388d92299747153bc1d2"
+    },
+    {
+      "path": "evidence/model_checks_gpu.json",
+      "original": "artifacts/dense_size_clock_geometry_12h_20260930/preflight/model_repair_v1/model_checks.json",
+      "bytes": 477,
+      "sha256": "1ff05d72296dcfe47ec23de1a408a3f812c0f5024e4b14f60bb728f0d8c26204"
+    },
+    {
+      "path": "evidence/capacity_complete.json",
+      "original": "artifacts/dense_size_clock_geometry_12h_20260930/preflight/capacity_complete.json",
+      "bytes": 988,
+      "sha256": "376ea608465cb4abe40f477336f95261a8a54dee5d8c7f86bafa2d6be4af620b"
+    },
+    {
+      "path": "evidence/capacity_A_prediction.npz",
+      "original": "artifacts/dense_size_clock_geometry_12h_20260930/preflight/capacity_A_prediction.npz",
+      "bytes": 1635,
+      "sha256": "74bec664cd60b34bd7a5942e0d13844a4a6a83224432f81482fcf08ca45f2d5b"
+    },
+    {
+      "path": "evidence/capacity_B_prediction.npz",
+      "original": "artifacts/dense_size_clock_geometry_12h_20260930/preflight/capacity_B_prediction.npz",
+      "bytes": 1650,
+      "sha256": "ac0167a6bd944345e3a612263f4009e1e3895aedba12c81c12ff8dd958749be6"
+    },
+    {
+      "path": "evidence/capacity_A.jsonl",
+      "original": "artifacts/dense_size_clock_geometry_12h_20260930/preflight/capacity_A.jsonl",
+      "bytes": 297157,
+      "sha256": "9c29fb09b6b70cefd2ee1457b4c4e8341167b50c16ba9d2bf047970330986d0f"
+    },
+    {
+      "path": "evidence/capacity_B.jsonl",
+      "original": "artifacts/dense_size_clock_geometry_12h_20260930/preflight/capacity_B.jsonl",
+      "bytes": 297088,
+      "sha256": "9ce5a0062997f4999fcf0743be61e6ea6dd503db941c0a04dcdfa4b5f96cf39f"
+    },
+    {
+      "path": "evidence/update_timing.json",
+      "original": "artifacts/dense_size_clock_geometry_12h_20260930/preflight/update_timing.json",
+      "bytes": 3132,
+      "sha256": "e459b34aa9a3063460e28df7c70ba96a82cbf549a17f6399eb8ef177c7d96914"
+    },
+    {
+      "path": "evidence/block_timing.jsonl",
+      "original": "artifacts/dense_size_clock_geometry_12h_20260930/preflight/block_timing.jsonl",
+      "bytes": 510342,
+      "sha256": "880d8ba51fd6480b92d8e88a2780fd75b3c39a8d310bc38ec3df1919ff64be3c"
+    },
+    {
+      "path": "evidence/launch_gate.json",
+      "original": "artifacts/dense_size_clock_geometry_12h_20260930/preflight/launch_gate.json",
+      "bytes": 6029,
+      "sha256": "1713a5106119a2f497984f029beaea9d008c569d2df780b7d0a1b1ef9d073c13"
+    },
+    {
+      "path": "evidence/environment.json",
+      "original": "artifacts/dense_size_clock_geometry_12h_20260930/preflight/environment_repair_v1.json",
+      "bytes": 4104,
+      "sha256": "da74dfe9eca9aea6672ef44022250341deb001e5532a920a767b9b5d92edd22c"
+    }
+  ],
+  "original_archive_sha256": "722bbdb07ecddfe27def2623a6dcf7e79bd6191bc33db71fecc998b353ab1fd3",
+  "original_archive_members": 6755,
+  "public_scope": "compact real preflight evidence; excludes synthetic fixture plots, private transport logs, and temporary weights"
+}

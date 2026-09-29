@@ -1,0 +1,19 @@
+{
+  "scope": "preflight_only_not_formal_training",
+  "status": "passed",
+  "archive": "preflight_evidence_v1.tar.gz",
+  "archive_bytes": 13788675,
+  "archive_sha256": "722bbdb07ecddfe27def2623a6dcf7e79bd6191bc33db71fecc998b353ab1fd3",
+  "archive_members_verified": 6755,
+  "science_manifest_paths": 6754,
+  "science_manifest_paths_covered": 6754,
+  "science_manifest_sha256": "cb7d758816160498b46450bedd7d51b63b27f5cb22dcf1b0e70054119bb20707",
+  "missing_paths": [],
+  "union_verified_epoch": 1790712435.5281053,
+  "elapsed_from_first_GPU_preflight_seconds": 1183.0469636917114,
+  "same_disk_copy_not_offsite_or_other_disk": true,
+  "excluded": "explicitly inventoried temporary scratch restore/timing checkpoints only",
+  "formal_models": 0,
+  "formal_predictions": 0,
+  "not_a_completed_24_model_experiment": true
+}

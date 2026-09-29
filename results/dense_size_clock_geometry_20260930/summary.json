@@ -1,0 +1,71 @@
+{
+  "status": "NOT_LAUNCHED_TIME_GATE_FAILED",
+  "formal_models": 0,
+  "formal_predictions": 0,
+  "planned_formal_models": 24,
+  "planned_formal_updates": 576000,
+  "first_gpu_preflight_epoch": 1790711252.4811416,
+  "preflight_gate_epoch": 1790712188.7839584,
+  "preflight_elapsed_seconds": 936.3028144836426,
+  "mean_update_seconds": 0.10815718987032596,
+  "raw_training_projection_hours": 17.305150379252154,
+  "conservative_training_hours": 23.990230243821863,
+  "conservative_total_hours": 26.485620375436483,
+  "hard_budget_hours": 12,
+  "capacity_test": "two scratch models fit the same 64 training rows; not a held-out result",
+  "capacity": {
+    "status": "passed",
+    "rows": [
+      {
+        "n": 64,
+        "mean_kl": 7.178613727499422e-08,
+        "max_kl": 5.326794845217364e-07,
+        "mean_ce": 0.5410901428844601,
+        "mean_entropy": 0.5410900710983227,
+        "max_probability_error": 0.000511898497458585,
+        "probability_mae": 0.00012282378662769103,
+        "expected_brier": 0.18323696477156365,
+        "excess_brier": 2.7916539305599002e-08,
+        "ability_passed": true,
+        "arm": "A",
+        "steps": 2048,
+        "seed": 2026093004
+      },
+      {
+        "n": 64,
+        "mean_kl": 3.0352630039616815e-07,
+        "max_kl": 1.6322460593132249e-06,
+        "mean_ce": 0.5410903746246232,
+        "mean_entropy": 0.5410900710983227,
+        "max_probability_error": 0.0008958547052727028,
+        "probability_mae": 0.0002882839629266419,
+        "expected_brier": 0.1832370556290456,
+        "excess_brier": 1.1877402128457461e-07,
+        "ability_passed": true,
+        "arm": "B",
+        "steps": 2048,
+        "seed": 2026093004
+      }
+    ]
+  },
+  "gpu_correctness": {
+    "status": "passed",
+    "device": "cuda",
+    "parameters": 1976706,
+    "next_update_raw_ema_adam_bitwise": true,
+    "pad_gradient_error": 2.9802322387695312e-08,
+    "pad_parameter_error": 1.1368683772161603e-13,
+    "invalid_pad_gradient": 0,
+    "negative_control_probability_changes": {
+      "PAD": 2.8990143619012088e-12,
+      "translation": 2.2737367544323206e-12,
+      "permutation": 3.4105496204972496e-12
+    },
+    "canonical_external_clock_invariance": "structural_not_accuracy"
+  },
+  "original_software_error": "CPU/CUDA AdamW step-counter comparison; fixed by CPU-staged restore before capacity testing",
+  "scientific_design_changed": false,
+  "budget_reset": false,
+  "original_and_repaired_source_and_failure_evidence_preserved": true,
+  "no_full_teacher_idea_conclusion": true
+}

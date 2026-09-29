@@ -1,0 +1,23 @@
+{
+  "artifacts/basic_capability_stages12_20260928/bank.npz": "5025018191b7c01c6f73adfcb27f2564d053d95becb65be2bc292014848d2060",
+  "docs/research_reboot_20260921/DENSE_SIZE_CLOCK_GEOMETRY_12H_AUTHORIZATION_20260930_ZH.md": "6434a1c175a102d0365adb00b102032e12a5a55b4c4ac7c5111ac2d96389cc83",
+  "docs/research_reboot_20260921/DENSE_SIZE_CLOCK_GEOMETRY_12H_CONFIG_20260930.json": "2466a9872a6e23e3c9de96811bc0ae7a6a25e6cfe2d31c8c9233fbc87af7775b",
+  "docs/research_reboot_20260921/DENSE_SIZE_CLOCK_GEOMETRY_12H_PLAN_20260930_ZH.md": "c2e747d0391cbaed44b204c616de74b16bbc58e32ee78c8b17e57a6c6ff76a63",
+  "ism_diffusion/__init__.py": "af8f1667470d1082432f9efedb939320ce648c62e458666c39f68f003b6b13c3",
+  "ism_diffusion/ising.py": "657b9e526eaaf6d242d3c89bb5c4cebefa1a5e7879b4a2a4ebef1c2ff4be60f3",
+  "ism_diffusion/model.py": "f0ba3e8a9ab00afc143c66c5f1c8b6e37981801cf405f15fb67baea36686c1b9",
+  "ism_diffusion/scale_model.py": "3930e9a2ec1ac85edaa525b9562beb21c7a001594dba23726f233a0b9d3d6018",
+  "scripts/research20260927/intervention_model.py": "52af782591e59dc3f142b1f07ccf53d2ad1d34bb08fd77c104a74735cd9cf3ec",
+  "scripts/research20260930/deploy_bundle.py": "f2a40f4bf27e20340c87343932ef9db67912be21876d397bf45395a22e6437fe",
+  "scripts/research20260930/README.md": "63b4d4e509c2ffd7e7a9597cf833cc8b3cfda4ad0dae288e7b08ef9b374ac420",
+  "scripts/research20260930/run_size_clock.py": "32b2c91b07b17e318a3ac2023c7ad0ea1b722752670916eb5289387a066032f3",
+  "scripts/research20260930/sg_analysis.py": "a3d40051afbc66413ef65d3bc1e0d0f4818b6862312624ff0ae75488458a5d20",
+  "scripts/research20260930/sg_common.py": "fee2b43be02496e01a66ac594bef5fb2504bcc51601f98f18a64ecdaf5e2c84b",
+  "scripts/research20260930/sg_data.py": "9df22fcce8bf59ddbf897fc8d5b0260eb11451edc51a40332f594de3a9c95496",
+  "scripts/research20260930/sg_evaluation.py": "eea1d17bf39df58e66583eedde03d55ab3838d2ed07c9eeb07fde9424b905bee",
+  "scripts/research20260930/sg_management.py": "18522ac5666e56b7ae614692b8338fa34cf1368f29203fd83c018f43858801b4",
+  "scripts/research20260930/sg_model.py": "487219a47f418d6f61a5c16620b5b85280f09c0624146b63100a050bd7280b2d",
+  "scripts/research20260930/sg_preflight.py": "c4c9c74fc0025ee2e877fdbcbdde3681c0d023ce14588e5206ac8d45291d6abf",
+  "scripts/research20260930/sg_statistics.py": "2c0dca48de5f71e30a5f9daa009b5a8eacf7cd934de62a68980cbce9acea8c3a",
+  "scripts/research20260930/test_size_clock.py": "6440636db21c9438b9cb5cd11923d69ffe56df4d792d1204e08b16610922ab1e"
+}

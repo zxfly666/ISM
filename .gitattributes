@@ -4,3 +4,6 @@ results/scale_aware_context/level1_rapid/raw/**/*.npz filter=lfs diff=lfs merge=
 results/scale_aware_context/level1_rapid/raw/**/*.csv filter=lfs diff=lfs merge=lfs -text
 results/scale_aware_context/stage2a_screen/raw/**/*.npz filter=lfs diff=lfs merge=lfs -text
 results/scale_aware_context/stage2a_screen/raw/**/*.csv filter=lfs diff=lfs merge=lfs -text
+
+# Preserve exact member bytes for the published preflight SHA manifest.
+/results/dense_size_clock_geometry_20260930/evidence/* -text whitespace=cr-at-eol
