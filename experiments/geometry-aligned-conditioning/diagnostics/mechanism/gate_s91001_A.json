@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "discrepancies": {
+    "identity_rotary_patch": 0.0,
+    "translation": 2.2649765014648438e-06,
+    "permutation": 1.6093254089355469e-06,
+    "ignored_padding": 1.430511474609375e-06,
+    "storage_reshape": 0.0,
+    "recorder_noninterference": 0.0
+  },
+  "batch_size": 16,
+  "fp32_w48_batch_seconds": 0.03704996562252442,
+  "peak_allocated_gib": 0.20926189422607422
+}

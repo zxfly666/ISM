@@ -1,0 +1,95 @@
+{
+  "checked_at": "2026-09-22T20:16:14+08:00",
+  "completed_at": "2026-09-22T17:38:20+08:00",
+  "elapsed_hours": 0.3489371662669712,
+  "status": "complete",
+  "models": 18,
+  "phase_models": {
+    "context": 18,
+    "frequency": 18,
+    "information": 18,
+    "attention": 18
+  },
+  "intervention_units": {
+    "context": 990,
+    "frequency": 306,
+    "information": 1620,
+    "attention": 144
+  },
+  "gates_passed": 18,
+  "max_gate_probability_difference": 0.000004291534423828125,
+  "checkpoint_unchanged": true,
+  "protocol_hash": "cf7fc5e94677e8183cdcbdad42651fe992a434da7551bf108937aac37538479d",
+  "remote_output": "<PROJECT_ROOT>/artifacts/mechanism_diagnostics_20260922",
+  "verified_downloads": [
+    {
+      "file": "final_summary.json",
+      "bytes": 495,
+      "sha256": "8ed7b358eb39952dc795a96bcaeb7e60331cab8f6912e412939604631fe1e149",
+      "remote_sha256_match": true
+    },
+    {
+      "file": "frozen_protocol.json",
+      "bytes": 5696,
+      "sha256": "a49acf5e405fb8fa8bdbb14facec30c67b6e950f4db8fb41a49ccb6bc561f781",
+      "remote_sha256_match": true
+    },
+    {
+      "file": "input_manifest.json",
+      "bytes": 274,
+      "sha256": "69288d7bf75bde861460cc7910e03b2a2018c3899482aab4d2d5bd652c1ccdc2",
+      "remote_sha256_match": true
+    },
+    {
+      "file": "context_by_seed.csv",
+      "bytes": 28362,
+      "sha256": "d160a7599455aee698d2ed37103237f121c625be9b40f40ac6fae6f671753112",
+      "remote_sha256_match": true
+    },
+    {
+      "file": "frequency_by_seed.csv",
+      "bytes": 11071,
+      "sha256": "77e32c4a2cb299d79426addfe538e8282c824f38eba3d1f883a2bd9b2cd231aa",
+      "remote_sha256_match": true
+    },
+    {
+      "file": "information_by_seed.csv",
+      "bytes": 123937,
+      "sha256": "d26730a6afc4d878f4aac0fe77373e331a2d7d0aaf593a0b926d72f90ef4d5f5",
+      "remote_sha256_match": true
+    },
+    {
+      "file": "figures/context_invariance.png",
+      "bytes": 135878,
+      "sha256": "aa40e9f868f9416217756c04cbcf0d7565cf37598957f58afd3c72bb9b82b799",
+      "remote_sha256_match": true
+    },
+    {
+      "file": "figures/single_band_response.png",
+      "bytes": 157837,
+      "sha256": "e2f3db04eeaaed3b49720365abcb09aa93f6c3d9828d9df1eab6d4a634375e37",
+      "remote_sha256_match": true
+    },
+    {
+      "file": "figures/information_profiles.png",
+      "bytes": 135926,
+      "sha256": "062984dd6447966cc376baa91bc968907f983d303f852748830c93cdd3f9394f",
+      "remote_sha256_match": true
+    },
+    {
+      "file": "status.json",
+      "bytes": 544,
+      "sha256": "b07f31d8a3f2379dff27bcec5b369bb8fe5ad1bfcb27921a96cd57751f969500",
+      "remote_sha256_match": true
+    },
+    {
+      "file": "queue.log",
+      "bytes": 614448,
+      "sha256": "6a82b787ecf2550d039c056c92838192010be58fad2b09ca42385f45f67ab275",
+      "remote_sha256_match": true
+    }
+  ],
+  "full_raw_local_backup_verified": false,
+  "notification_note": "User status query prompted completion verification. Completion was not reported promptly; reason for scheduler/notification delay has not been established.",
+  "server_left_running": true
+}

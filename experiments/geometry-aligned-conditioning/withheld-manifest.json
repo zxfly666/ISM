@@ -1,0 +1,126 @@
+{
+  "note": "Contains scientific identity records including public copies. Local verification does not imply public availability. Request archive/member by SHA through a repository issue; no hosting or retention guarantee is made.",
+  "archives": [],
+  "files": {
+    "checkpoints/s91001_A_final.pt": {
+      "bytes": 31812387,
+      "sha256": "ea3111c784246364522a55437b759980bdec8e3816de09b1394304f3b2c69afa",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91001_B_final.pt": {
+      "bytes": 31812387,
+      "sha256": "b24995c8700251a3239f5c88125a83daebce151c2fd381b268db4c7e66d3f07c",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91001_C_final.pt": {
+      "bytes": 31812387,
+      "sha256": "388c7b98b1c9e32172ef8faa82a7d7864b3abb2763274277c134afaa1214190b",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91002_A_final.pt": {
+      "bytes": 31812323,
+      "sha256": "4e8bca1a81ee79fbd86cc3438bf54d50e03663c9cef5f4c7c1a3d3859de0978d",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91002_B_final.pt": {
+      "bytes": 31812323,
+      "sha256": "0f6478eb87ad1d9dce4ae6f71314401340d7d514d59abe34f2928c5574446c63",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91002_C_final.pt": {
+      "bytes": 31812323,
+      "sha256": "3ff610f2fe596afa1b3fc13b16ebc1f697b610ca182836ecdefd7d6e4b1f725b",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91003_A_final.pt": {
+      "bytes": 31812387,
+      "sha256": "3a52efdfb63f7372a0776aa3ee63885105214245cedc47905f2ea7f956388120",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91003_B_final.pt": {
+      "bytes": 31812387,
+      "sha256": "ac054dd2853af9ae082418abe6d250668433c01219e8330bca5de864ded07fd0",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91003_C_final.pt": {
+      "bytes": 31812387,
+      "sha256": "0e52d36cc65e704aa040dc5eb52855fd6b80848848644d20699bb0acddd497be",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91004_A_final.pt": {
+      "bytes": 31812387,
+      "sha256": "627139530fb574274eb728d6f49f6aa61c4fc571f927cd208ce87aa39c95d272",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91004_B_final.pt": {
+      "bytes": 31812387,
+      "sha256": "1dbdb1e421d6349e30040b1688e5738dbd99978ffa208656710ca80690e3f4e0",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91004_C_final.pt": {
+      "bytes": 31812387,
+      "sha256": "4b83b192a97a081177472ad62572b45de68d78b48ba7688271247f96cde04d9b",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91005_A_final.pt": {
+      "bytes": 31812387,
+      "sha256": "ec544065d05f18c3182b9a70102a5b165adf5f26df843b3299fcaa4230afea98",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91005_B_final.pt": {
+      "bytes": 31812387,
+      "sha256": "b7540cac40f6a37b5231e4b7bfb1ac28a2e7cbf64fa81e94daa62b80c9ed4fc5",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91005_C_final.pt": {
+      "bytes": 31812387,
+      "sha256": "cfdd3f9612bd372e9817133834b6826d55f96afbc8c9ea5966f89883d678d75b",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91006_A_final.pt": {
+      "bytes": 31812387,
+      "sha256": "eee648510941001708048c5edc5e242d2102154212072725fd8f746f8797df93",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91006_B_final.pt": {
+      "bytes": 31812387,
+      "sha256": "0b10c8e4553598a537d32691efc5a553efc5f865e8feb9c10254001d4fd327d3",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "checkpoints/s91006_C_final.pt": {
+      "bytes": 31812387,
+      "sha256": "a2e3785349d94517a7ab4cf353c46bf272f288e59043bcc5a5b5cae4c1ecd06d",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "fresh_l1024.npz": {
+      "bytes": 43264243,
+      "sha256": "1e9761c8cfed98854d129ead9710c7d22e3286b24492f55346080f6f1aa54917",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "initial_s91001_A.pt": {
+      "bytes": 31811269,
+      "sha256": "cdb3ab05da2d3e4001e5f0840e451186754e77fd0c232f1dd5fed9efc3b1c16c",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    }
+  }
+}

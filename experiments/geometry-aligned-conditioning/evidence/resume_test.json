@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "maximum_weight_difference": {
+    "model": 0.0,
+    "ema": 0.0
+  },
+  "counters_equal": true,
+  "resumed_from_step": 4,
+  "final_step": 8,
+  "scope": "deterministic small-model fixture of production trainer and named data streams",
+  "production_caveat": "BF16 SDPA backward can be numerically nondeterministic; full-model pre-interruption reruns already differ. Production resume is not promised bitwise."
+}

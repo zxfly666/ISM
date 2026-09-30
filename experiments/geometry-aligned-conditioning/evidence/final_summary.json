@@ -1,0 +1,206 @@
+{
+  "status": "complete",
+  "protocol_hash": "1e95d73a09331680b5b92b9de47cb2c73da963b1f5915d4b4421091613b43575",
+  "training_seeds": [
+    91001,
+    91002,
+    91003,
+    91004,
+    91005,
+    91006
+  ],
+  "completed_models": 18,
+  "expected_models": 18,
+  "seed_effects": [
+    {
+      "seed": 91001,
+      "A_minus_B": -0.0021607233491801603,
+      "A_minus_C": -0.0053751461891610175
+    },
+    {
+      "seed": 91002,
+      "A_minus_B": 0.0008625529227698214,
+      "A_minus_C": -0.0013840899999778555
+    },
+    {
+      "seed": 91003,
+      "A_minus_B": 0.001527480795073477,
+      "A_minus_C": -0.0018774927783077322
+    },
+    {
+      "seed": 91004,
+      "A_minus_B": -0.0015558853623913738,
+      "A_minus_C": -0.004374424467923577
+    },
+    {
+      "seed": 91005,
+      "A_minus_B": 0.002546931163663224,
+      "A_minus_C": -5.007580135130141e-05
+    },
+    {
+      "seed": 91006,
+      "A_minus_B": -0.00021414798559482584,
+      "A_minus_C": -0.0026975656777592505
+    }
+  ],
+  "metrics": [
+    {
+      "seed": 91001,
+      "arm": "A",
+      "primary_masked_CE": 0.5187045909267736
+    },
+    {
+      "seed": 91001,
+      "arm": "B",
+      "primary_masked_CE": 0.5208653142759537
+    },
+    {
+      "seed": 91001,
+      "arm": "C",
+      "primary_masked_CE": 0.5240797371159346
+    },
+    {
+      "seed": 91002,
+      "arm": "A",
+      "primary_masked_CE": 0.5225952645546889
+    },
+    {
+      "seed": 91002,
+      "arm": "B",
+      "primary_masked_CE": 0.521732711631919
+    },
+    {
+      "seed": 91002,
+      "arm": "C",
+      "primary_masked_CE": 0.5239793545546667
+    },
+    {
+      "seed": 91003,
+      "arm": "A",
+      "primary_masked_CE": 0.5225434601236479
+    },
+    {
+      "seed": 91003,
+      "arm": "B",
+      "primary_masked_CE": 0.5210159793285745
+    },
+    {
+      "seed": 91003,
+      "arm": "C",
+      "primary_masked_CE": 0.5244209529019557
+    },
+    {
+      "seed": 91004,
+      "arm": "A",
+      "primary_masked_CE": 0.5204123974474804
+    },
+    {
+      "seed": 91004,
+      "arm": "B",
+      "primary_masked_CE": 0.5219682828098717
+    },
+    {
+      "seed": 91004,
+      "arm": "C",
+      "primary_masked_CE": 0.5247868219154039
+    },
+    {
+      "seed": 91005,
+      "arm": "A",
+      "primary_masked_CE": 0.5242460185132989
+    },
+    {
+      "seed": 91005,
+      "arm": "B",
+      "primary_masked_CE": 0.5216990873496357
+    },
+    {
+      "seed": 91005,
+      "arm": "C",
+      "primary_masked_CE": 0.5242960943146502
+    },
+    {
+      "seed": 91006,
+      "arm": "A",
+      "primary_masked_CE": 0.5212353667020653
+    },
+    {
+      "seed": 91006,
+      "arm": "B",
+      "primary_masked_CE": 0.5214495146876601
+    },
+    {
+      "seed": 91006,
+      "arm": "C",
+      "primary_masked_CE": 0.5239329323798245
+    }
+  ],
+  "reference": {
+    "path": "<PROJECT_ROOT>/artifacts/geometry_alignment_20260921/reference/fresh_l1024.npz",
+    "sha256": "1e9761c8cfed98854d129ead9710c7d22e3286b24492f55346080f6f1aa54917",
+    "reason": "predeclared MC diagnostic gates passed; independent four-chain reference",
+    "diagnostics": {
+      "energy": [
+        {
+          "tau_int": 0.9050013178966925,
+          "statistical_inefficiency": 1.810002635793385,
+          "ess": 70.71812906167028,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 0.9380630123283449,
+          "statistical_inefficiency": 1.8761260246566898,
+          "ess": 68.22569396606637,
+          "window_lag": 6.0
+        },
+        {
+          "tau_int": 0.814724694531451,
+          "statistical_inefficiency": 1.629449389062902,
+          "ess": 78.55414280379271,
+          "window_lag": 6.0
+        },
+        {
+          "tau_int": 1.1741209423172616,
+          "statistical_inefficiency": 2.348241884634523,
+          "ess": 54.50886505242697,
+          "window_lag": 4.0
+        }
+      ],
+      "abs_magnetization": [
+        {
+          "tau_int": 0.51260920660574,
+          "statistical_inefficiency": 1.02521841321148,
+          "ess": 124.85144467805847,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 0.5262535403391496,
+          "statistical_inefficiency": 1.0525070806782992,
+          "ess": 121.61438374125622,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 0.5812385000776685,
+          "statistical_inefficiency": 1.162477000155337,
+          "ess": 110.10970538160831,
+          "window_lag": 4.0
+        },
+        {
+          "tau_int": 0.9482495251799127,
+          "statistical_inefficiency": 1.8964990503598254,
+          "ess": 67.49278359813277,
+          "window_lag": 4.0
+        }
+      ],
+      "energy_split_rhat": 0.999597191170815,
+      "abs_magnetization_split_rhat": 1.0027731105087292,
+      "energy_mean": -1.4150635451078415,
+      "abs_magnetization_mean": 0.4235130473971367
+    }
+  },
+  "warnings": [
+    "Training seeds are independent repeats; MC parents/crops/masks are not extra training repeats.",
+    "Correlation shading is seed min-max, not a confidence interval.",
+    "This G is physical-axis, open-window G; do not compare it numerically to earlier radial G without harmonization."
+  ]
+}

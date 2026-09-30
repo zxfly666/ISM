@@ -1,0 +1,148 @@
+{
+  "version": "geometry_alignment_v1",
+  "created_unix": 1790005217.6335042,
+  "steps": 24000,
+  "seeds": [
+    91001,
+    91002,
+    91003,
+    91004,
+    91005,
+    91006
+  ],
+  "arms": [
+    "A",
+    "B",
+    "C"
+  ],
+  "microbatch": {
+    "16": 72,
+    "24": 32,
+    "32": 18,
+    "48": 8
+  },
+  "model": {
+    "d_model": 128,
+    "n_heads": 4,
+    "n_blocks": 7,
+    "mlp_ratio": 4.0,
+    "dropout": 0.0,
+    "vocab_size": 4,
+    "output_classes": 2,
+    "rope_base": 10000.0
+  },
+  "tokens_per_update": 18432,
+  "valid_tokens_per_model": 442368000,
+  "gaps": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "widths": [
+    16,
+    24,
+    32,
+    48
+  ],
+  "mixture": "equal valid tokens over 8 class/width cells",
+  "rng_strategy": "stateless named streams; shared clean/time/MASK; independent geometry stream",
+  "precision": "bf16",
+  "ema": 0.999,
+  "include_w96": true,
+  "test_samples": 512,
+  "sampler": {
+    "method": "S0",
+    "steps": 256,
+    "schedule": "cos_squared",
+    "temperature": 1.0,
+    "mc_correction": false
+  },
+  "primary": "paired EMA-final masked CE on gap57/W32 and s10/W48; macro task,t,chain,parent weights",
+  "budget_hours": 15,
+  "forecast_hours": 14.24024282512255,
+  "training_reserve_hours": 2.5,
+  "dataset_sha256": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934",
+  "benchmark": {
+    "training_seconds_per_update": 0.04021652287337929,
+    "cells": {
+      "continuous/w16": {
+        "median": 0.04155174316838384,
+        "max": 0.04544164706021547
+      },
+      "gap/w16": {
+        "median": 0.04170670406892896,
+        "max": 0.04189221514388919
+      },
+      "continuous/w24": {
+        "median": 0.03968542721122503,
+        "max": 0.0401164791546762
+      },
+      "gap/w24": {
+        "median": 0.0398773979395628,
+        "max": 0.0413986430503428
+      },
+      "continuous/w32": {
+        "median": 0.03952553682029247,
+        "max": 0.03973081801086664
+      },
+      "gap/w32": {
+        "median": 0.03982110787183046,
+        "max": 0.040281559340655804
+      },
+      "continuous/w48": {
+        "median": 0.039752157870680094,
+        "max": 0.04007430886849761
+      },
+      "gap/w48": {
+        "median": 0.03981210803613067,
+        "max": 0.04129262175410986
+      }
+    },
+    "microbatch": {
+      "16": 72,
+      "24": 32,
+      "32": 18,
+      "48": 8
+    },
+    "sample_seconds_per_256step": {
+      "32": 1.0996026704087853,
+      "48": 0.7624436262995005,
+      "64": 0.767530363984406,
+      "96": 1.8973043281584978
+    },
+    "training_peak_allocated_gib": 1.0241084098815918,
+    "device": "NVIDIA GeForce RTX 4090",
+    "torch_version": "2.7.0a0+7c8ec84dab.nv25.03"
+  },
+  "source_hashes": {
+    "ism_diffusion/__init__.py": "af8f1667470d1082432f9efedb939320ce648c62e458666c39f68f003b6b13c3",
+    "ism_diffusion/diagnostics.py": "2c87206dcec2ff9dfbd897c4b2c57bddf66d3bdf242404bd74682ead6c986384",
+    "ism_diffusion/diffusion.py": "a70286a41302539b945c8e1bf11a6ca33e9b3475b95dbf4ee1acd79e05b99655",
+    "ism_diffusion/geometry_study.py": "f96f3d816453d532fb454355cbd0c50f42b00352c9b37886a8ca6b67aa16e490",
+    "ism_diffusion/ising.py": "657b9e526eaaf6d242d3c89bb5c4cebefa1a5e7879b4a2a4ebef1c2ff4be60f3",
+    "ism_diffusion/ising_numba.py": "918dbe97f568af52789bca3d6a59d5e42c05a0930831a5007f5844b46c6d0a8c",
+    "ism_diffusion/metrics.py": "0c148f86281e76e0f28700c1f5198cfd6b2eeeb10d4a554fb3d2cb5c3353ddfe",
+    "ism_diffusion/model.py": "f0ba3e8a9ab00afc143c66c5f1c8b6e37981801cf405f15fb67baea36686c1b9",
+    "ism_diffusion/scale_data.py": "148ee296c20cd1ae3ebceb6d12a1bd8cb4df76d679e7cf105d3c2df09d7734b3",
+    "ism_diffusion/scale_diffusion.py": "6bf4575fe6358dffa74cb6c4bd077eb69120ad6c8edaf9dbf0fc43f615c21f74",
+    "ism_diffusion/scale_evaluation.py": "ed5204a2d220b451278e9916b66a3a37fbb08ac8f3bf2e87d2e9a9a98d27bd7d",
+    "ism_diffusion/scale_model.py": "3930e9a2ec1ac85edaa525b9562beb21c7a001594dba23726f233a0b9d3d6018",
+    "ism_diffusion/stage2_data.py": "db8361ed43a9dc777bf2b1fd62b966b02c54d8160f69acaca646cd79c75b0765",
+    "ism_diffusion/stage2_model.py": "f5db55eacedfaa7272f3dacb97a4dbbbeae4fe57a6fb89b5ee2d89b00564515d",
+    "ism_diffusion/stage2_sampling.py": "6723fe70c220fedcdc7d2ce024f28fc13eac0446984482fd8a0c93c71280f5b4",
+    "scripts/research20260921/evaluate_study.py": "0e1269745c32092ec53527fafd5944aab3d73270fc7b5ec9fa2e4f0c0943c799",
+    "scripts/research20260921/preflight.py": "fc36a992cc0077a4de22776ac86c24dd4702be96e631d8cf14df1c222447eb77",
+    "scripts/research20260921/run_study.py": "0191a67eae90bbc388b7f9e4f5a21e0d989054a2861dee1e0d7259ad781af770",
+    "scripts/research20260921/test_resume.py": "130a2982f32508e384096a823f22b948430411bdadb9a5facc1ea4e8852868cc"
+  },
+  "reference_rule": "fresh 4 independent chains if complete and both split-Rhat<=1.1 and all ESS>=16; else historical test_target with explicit limitation",
+  "fresh_reference": {
+    "chains": 4,
+    "samples_per_chain": 128,
+    "burn_in_sweeps": 40,
+    "sweeps_between": 4,
+    "seed": 20260922
+  },
+  "protocol_hash": "1e95d73a09331680b5b92b9de47cb2c73da963b1f5915d4b4421091613b43575"
+}

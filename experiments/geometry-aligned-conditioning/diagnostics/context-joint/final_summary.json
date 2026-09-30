@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "elapsed_hours": 1.6300722881158194,
+  "probe_models": 18,
+  "cavity_models": 18,
+  "sampling_cells": 72,
+  "expected_models": 18,
+  "expected_sampling_cells": 72,
+  "protocol_hash": "c6b118a6b832d84fa03c04e864189536df8f454727977cc2971c3ac0e28b761a",
+  "checkpoint_unchanged": true,
+  "local_backup": "not_yet_verified",
+  "peak_allocated_gib": 0.5527925491333008
+}

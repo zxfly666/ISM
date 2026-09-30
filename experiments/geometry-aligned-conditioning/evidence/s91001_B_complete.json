@@ -1,0 +1,231 @@
+{
+  "checkpoint_sha256": "b24995c8700251a3239f5c88125a83daebce151c2fd381b268db4c7e66d3f07c",
+  "reference_sha256": "1e9761c8cfed98854d129ead9710c7d22e3286b24492f55346080f6f1aa54917",
+  "arm": "B",
+  "seed": 91001,
+  "protocol_hash": "1e95d73a09331680b5b92b9de47cb2c73da963b1f5915d4b4421091613b43575",
+  "conditional": {
+    "mean_ce": 0.5208653142759537,
+    "per_task": {
+      "held_gap57_w32/t=0.2": 0.4792370766862848,
+      "held_gap57_w32/t=0.5": 0.4871367528299302,
+      "held_gap57_w32/t=0.8": 0.5098774554233756,
+      "held_gap57_w32/t=0.95": 0.5488875573837477,
+      "held_s10_w48/t=0.2": 0.5130341418563223,
+      "held_s10_w48/t=0.5": 0.520577607077397,
+      "held_s10_w48/t=0.8": 0.53794903087109,
+      "held_s10_w48/t=0.95": 0.570222892079482
+    }
+  },
+  "diagnostics": {
+    "geometry": {
+      "weighted_kl": 0.017048891751150135,
+      "layouts": 12,
+      "context": "W16, two visible spins, time matched to mask fraction",
+      "reference": "zero-field symmetrized triple moments from the named finite MC parent pool"
+    },
+    "markov": {
+      "mean_kl": 0.0034415627613110615,
+      "masking": "iid mask conditioned on center hidden and four neighbors visible; value blind"
+    }
+  },
+  "generation": {
+    "continuous48": {
+      "definition": {
+        "name": "continuous48",
+        "width": 48,
+        "kind": "continuous",
+        "gaps": [
+          1
+        ],
+        "samples": 128
+      },
+      "errors": {
+        "short_1_8": {
+          "n_distances": 8,
+          "rmse": 0.11138461226591759,
+          "nrmse": 0.2073164063956401
+        },
+        "medium_9_24": {
+          "n_distances": 16,
+          "rmse": 0.1314648472616315,
+          "nrmse": 0.33318472289400924
+        }
+      },
+      "model_m": 0.04564073350694445,
+      "mc_m": -0.04278564453125001,
+      "model_m2": 0.23833411416889708,
+      "mc_m2": 0.3728194472230511,
+      "model_abs_m": 0.4435763888888889,
+      "mc_abs_m": 0.5868394639756944,
+      "arm": "B",
+      "seed": 91001,
+      "sampling_seconds": 29.988866711966693,
+      "sampler": "S0_cos_squared_256_temperature1_no_MC_correction",
+      "reference_split": "test_target",
+      "model_energy_per_bond": -0.6117921653368795,
+      "mc_energy_per_bond": -0.7109963707890072
+    },
+    "continuous64": {
+      "definition": {
+        "name": "continuous64",
+        "width": 64,
+        "kind": "continuous",
+        "gaps": [
+          1
+        ],
+        "samples": 256
+      },
+      "errors": {
+        "short_1_8": {
+          "n_distances": 8,
+          "rmse": 0.14533140906765943,
+          "nrmse": 0.27645965263589284
+        },
+        "medium_9_24": {
+          "n_distances": 16,
+          "rmse": 0.09278418221194834,
+          "nrmse": 0.25717412528822053
+        },
+        "context_25_plus": {
+          "n_distances": 8,
+          "rmse": 0.06651642083786209,
+          "nrmse": 0.21548810243994065
+        }
+      },
+      "model_m": 0.0792388916015625,
+      "mc_m": 0.03197479248046875,
+      "model_m2": 0.25522095523774624,
+      "mc_m2": 0.3125493600964546,
+      "model_abs_m": 0.4748115539550781,
+      "mc_abs_m": 0.5259933471679688,
+      "arm": "B",
+      "seed": 91001,
+      "sampling_seconds": 131.18822650192305,
+      "sampler": "S0_cos_squared_256_temperature1_no_MC_correction",
+      "reference_split": "test_target",
+      "model_energy_per_bond": -0.5149671766493056,
+      "mc_energy_per_bond": -0.7096276661706349
+    },
+    "held_gap57_w32": {
+      "definition": {
+        "name": "held_gap57_w32",
+        "width": 32,
+        "kind": "gap",
+        "gaps": [
+          5,
+          7
+        ],
+        "samples": 256
+      },
+      "errors": {
+        "physical_1_32": {
+          "n_distances": 20,
+          "rmse": 0.12271626303291551,
+          "nrmse": 0.3528632727363841
+        },
+        "physical_33_128": {
+          "n_distances": 96,
+          "rmse": 0.08121670124987411,
+          "nrmse": 0.3207233346054778
+        },
+        "physical_129_plus": {
+          "n_distances": 70,
+          "rmse": 0.08814374269859575,
+          "nrmse": 0.41385433227552804
+        }
+      },
+      "model_m": 0.068450927734375,
+      "mc_m": -0.0666046142578125,
+      "model_m2": 0.32054710388183594,
+      "mc_m2": 0.24688714742660522,
+      "model_abs_m": 0.52410888671875,
+      "mc_abs_m": 0.4666290283203125,
+      "arm": "B",
+      "seed": 91001,
+      "sampling_seconds": 49.97601222759113,
+      "sampler": "S0_cos_squared_256_temperature1_no_MC_correction",
+      "reference_split": "test_target"
+    },
+    "held_s10_w48": {
+      "definition": {
+        "name": "held_s10_w48",
+        "width": 48,
+        "kind": "gap",
+        "gaps": [
+          10
+        ],
+        "samples": 128
+      },
+      "errors": {
+        "physical_1_32": {
+          "n_distances": 3,
+          "rmse": 0.1787823220108654,
+          "nrmse": 0.513379879856515
+        },
+        "physical_33_128": {
+          "n_distances": 9,
+          "rmse": 0.10752424335899542,
+          "nrmse": 0.43939560024090674
+        },
+        "physical_129_plus": {
+          "n_distances": 35,
+          "rmse": 0.0578522319919874,
+          "nrmse": 0.2988005667169879
+        }
+      },
+      "model_m": 0.008877224392361105,
+      "mc_m": -0.04516601562499999,
+      "model_m2": 0.2652926680482464,
+      "mc_m2": 0.20154612741352598,
+      "model_abs_m": 0.4746432834201389,
+      "mc_abs_m": 0.4275987413194444,
+      "arm": "B",
+      "seed": 91001,
+      "sampling_seconds": 29.978563780430704,
+      "sampler": "S0_cos_squared_256_temperature1_no_MC_correction",
+      "reference_split": "test_target"
+    },
+    "continuous96": {
+      "definition": {
+        "name": "continuous96",
+        "width": 96,
+        "kind": "continuous",
+        "gaps": [
+          1
+        ],
+        "samples": 128
+      },
+      "errors": {
+        "short_1_8": {
+          "n_distances": 8,
+          "rmse": 0.12197705592034594,
+          "nrmse": 0.23415224575686322
+        },
+        "medium_9_24": {
+          "n_distances": 16,
+          "rmse": 0.014769992530628367,
+          "nrmse": 0.041117896761133095
+        },
+        "context_25_plus": {
+          "n_distances": 24,
+          "rmse": 0.05791230682865733,
+          "nrmse": 0.19372871139881973
+        }
+      },
+      "model_m": 0.3713395860460069,
+      "mc_m": -0.07976447211371528,
+      "model_m2": 0.3571344404308884,
+      "mc_m2": 0.28743388586574126,
+      "model_abs_m": 0.5758989122178819,
+      "mc_abs_m": 0.5047692192925347,
+      "arm": "B",
+      "seed": 91001,
+      "sampling_seconds": 263.9112916951999,
+      "sampler": "S0_cos_squared_256_temperature1_no_MC_correction",
+      "reference_split": "test_target",
+      "model_energy_per_bond": -0.4570672286184211,
+      "mc_energy_per_bond": -0.7059339021381579
+    }
+  }
+}

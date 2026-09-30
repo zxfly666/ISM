@@ -1,0 +1,248 @@
+{
+  "version": "mechanism_diagnostics_v1",
+  "smoke": false,
+  "models": [
+    [
+      91001,
+      "A"
+    ],
+    [
+      91001,
+      "B"
+    ],
+    [
+      91001,
+      "C"
+    ],
+    [
+      91002,
+      "A"
+    ],
+    [
+      91002,
+      "B"
+    ],
+    [
+      91002,
+      "C"
+    ],
+    [
+      91003,
+      "A"
+    ],
+    [
+      91003,
+      "B"
+    ],
+    [
+      91003,
+      "C"
+    ],
+    [
+      91004,
+      "A"
+    ],
+    [
+      91004,
+      "B"
+    ],
+    [
+      91004,
+      "C"
+    ],
+    [
+      91005,
+      "A"
+    ],
+    [
+      91005,
+      "B"
+    ],
+    [
+      91005,
+      "C"
+    ],
+    [
+      91006,
+      "A"
+    ],
+    [
+      91006,
+      "B"
+    ],
+    [
+      91006,
+      "C"
+    ]
+  ],
+  "batch_size": 16,
+  "source_protocol": "1e95d73a09331680b5b92b9de47cb2c73da963b1f5915d4b4421091613b43575",
+  "checkpoint_sha256": {
+    "s91001_A": "ea3111c784246364522a55437b759980bdec8e3816de09b1394304f3b2c69afa",
+    "s91001_B": "b24995c8700251a3239f5c88125a83daebce151c2fd381b268db4c7e66d3f07c",
+    "s91001_C": "388c7b98b1c9e32172ef8faa82a7d7864b3abb2763274277c134afaa1214190b",
+    "s91002_A": "4e8bca1a81ee79fbd86cc3438bf54d50e03663c9cef5f4c7c1a3d3859de0978d",
+    "s91002_B": "0f6478eb87ad1d9dce4ae6f71314401340d7d514d59abe34f2928c5574446c63",
+    "s91002_C": "3ff610f2fe596afa1b3fc13b16ebc1f697b610ca182836ecdefd7d6e4b1f725b",
+    "s91003_A": "3a52efdfb63f7372a0776aa3ee63885105214245cedc47905f2ea7f956388120",
+    "s91003_B": "ac054dd2853af9ae082418abe6d250668433c01219e8330bca5de864ded07fd0",
+    "s91003_C": "0e52d36cc65e704aa040dc5eb52855fd6b80848848644d20699bb0acddd497be",
+    "s91004_A": "627139530fb574274eb728d6f49f6aa61c4fc571f927cd208ce87aa39c95d272",
+    "s91004_B": "1dbdb1e421d6349e30040b1688e5738dbd99978ffa208656710ca80690e3f4e0",
+    "s91004_C": "4b83b192a97a081177472ad62572b45de68d78b48ba7688271247f96cde04d9b",
+    "s91005_A": "ec544065d05f18c3182b9a70102a5b165adf5f26df843b3299fcaa4230afea98",
+    "s91005_B": "b7540cac40f6a37b5231e4b7bfb1ac28a2e7cbf64fa81e94daa62b80c9ed4fc5",
+    "s91005_C": "cfdd3f9612bd372e9817133834b6826d55f96afbc8c9ea5966f89883d678d75b",
+    "s91006_A": "eee648510941001708048c5edc5e242d2102154212072725fd8f746f8797df93",
+    "s91006_B": "0b10c8e4553598a537d32691efc5a553efc5f865e8feb9c10254001d4fd327d3",
+    "s91006_C": "a2e3785349d94517a7ab4cf353c46bf272f288e59043bcc5a5b5cae4c1ecd06d"
+  },
+  "reference_sha256": "1e9761c8cfed98854d129ead9710c7d22e3286b24492f55346080f6f1aa54917",
+  "source_sha256": {
+    "scripts/research20260921/run_mechanism_diagnostics.py": "957ccd1bc665eed1300caae3682ebbe536fdb4d3bd15afbaad492d19a9965a91",
+    "scripts/research20260921/mechanism_design.py": "fe9bdde7af32091b0976cac98839173eea87244d48febf077f281b54ca0b0d7a",
+    "scripts/research20260921/run_existing_diagnostics.py": "be1ee2194b38f3f5d87bfac1699b317909fe785eea836baf07031c6e0482ede5",
+    "scripts/research20260921/diagnostic_math.py": "6c2c1fc5145fb022f8148448b30434df24f0dad3beb316ddd4e4e060f3d636d6",
+    "scripts/research20260921/evaluate_study.py": "0e1269745c32092ec53527fafd5944aab3d73270fc7b5ec9fa2e4f0c0943c799",
+    "ism_diffusion/geometry_study.py": "f96f3d816453d532fb454355cbd0c50f42b00352c9b37886a8ca6b67aa16e490",
+    "ism_diffusion/scale_model.py": "3930e9a2ec1ac85edaa525b9562beb21c7a001594dba23726f233a0b9d3d6018",
+    "ism_diffusion/scale_data.py": "148ee296c20cd1ae3ebceb6d12a1bd8cb4df76d679e7cf105d3c2df09d7734b3",
+    "ism_diffusion/scale_evaluation.py": "ed5204a2d220b451278e9916b66a3a37fbb08ac8f3bf2e87d2e9a9a98d27bd7d",
+    "ism_diffusion/model.py": "f0ba3e8a9ab00afc143c66c5f1c8b6e37981801cf405f15fb67baea36686c1b9"
+  },
+  "reused_reference_sha256": "c9450264f5e2c81648e4449eb3c114012ece17af29d29aaaa7eadf87f403ff76",
+  "context_distances": [
+    10,
+    20,
+    50,
+    100,
+    150,
+    180,
+    190,
+    200,
+    210,
+    300,
+    360,
+    380,
+    400,
+    470
+  ],
+  "counts": [
+    256,
+    576,
+    1024,
+    2304
+  ],
+  "policies": [
+    "uniform",
+    "near",
+    "far"
+  ],
+  "context_layout_repetitions": 3,
+  "context_clocks": [
+    "fixed",
+    "natural"
+  ],
+  "frequency_bands": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "frequency_factors": [
+    0.9,
+    1.0,
+    1.1
+  ],
+  "frequency_axes": "both, same band; all layers/heads",
+  "information_geometries": [
+    [
+      "held_s10_w48",
+      48,
+      "gap",
+      [
+        10
+      ]
+    ],
+    [
+      "continuous48",
+      48,
+      "continuous",
+      [
+        1
+      ]
+    ],
+    [
+      "held_gap57_w32",
+      32,
+      "gap",
+      [
+        5,
+        7
+      ]
+    ]
+  ],
+  "information_parents_per_chain": 32,
+  "information_trials": 2,
+  "information_states": [
+    [
+      "k1_natural",
+      1,
+      "natural"
+    ],
+    [
+      "k2_natural",
+      2,
+      "natural"
+    ],
+    [
+      "k8_natural",
+      8,
+      "natural"
+    ],
+    [
+      "k32_natural",
+      32,
+      "natural"
+    ],
+    [
+      "k2_fixed",
+      2,
+      "fixed"
+    ],
+    [
+      "k8_fixed",
+      8,
+      "fixed"
+    ],
+    [
+      "k32_fixed",
+      32,
+      "fixed"
+    ],
+    [
+      "rate0.5",
+      0.5,
+      "rate"
+    ],
+    [
+      "rate0.8",
+      0.8,
+      "rate"
+    ],
+    [
+      "rate0.95",
+      0.95,
+      "rate"
+    ]
+  ],
+  "time_budget_hours": 4.0,
+  "precision": "FP32 highest; no autocast; TF32 disabled",
+  "primary": "A six-seed fixed-time paired context shifts; all-band controlled response; within-state paired CE/Brier",
+  "warning": "Exploratory follow-up of inspected results. Frozen weights. Interventions are not deployable improvements. No new training, no new MC, no free generation.",
+  "hash": "cf7fc5e94677e8183cdcbdad42651fe992a434da7551bf108937aac37538479d"
+}

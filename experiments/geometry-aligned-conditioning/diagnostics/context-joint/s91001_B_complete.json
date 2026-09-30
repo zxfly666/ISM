@@ -1,0 +1,22 @@
+{
+  "seed": 91001,
+  "arm": "B",
+  "samples": 128,
+  "checkpoint_sha256": "b24995c8700251a3239f5c88125a83daebce151c2fd381b268db4c7e66d3f07c",
+  "clean_hash": "071e763d73f25506ad8a212306519fef776534b2723c7f5e94b20d1683e058d3",
+  "single_visible_mean_kl": {
+    "0.9": 0.0009306783929342923,
+    "1.0": 0.0007573891511002669,
+    "1.1": 0.0006110803068743883
+  },
+  "teacher_forced_mean_ce": {
+    "0.9": 0.5327814450720325,
+    "1.0": 0.5360450500738807,
+    "1.1": 0.5415301174507476
+  },
+  "warnings": [
+    "Scale 0.9/1.1 is wrong-coordinate intervention, not matched new physical sampling.",
+    "Single-visible is a sparse-evidence diagnostic; teacher-forced labels are genuine MC, never unrelated free-trajectory labels.",
+    "C uses one prespecified false geometry for the single-visible response curve."
+  ]
+}

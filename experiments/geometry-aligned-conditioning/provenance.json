@@ -1,0 +1,1515 @@
+{
+  "policy": "Original evidence unchanged. Public text redactions are explicit; no numerical result changes.",
+  "files": [
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/benchmark.json",
+      "published": "geometry-aligned-conditioning/evidence/benchmark.json",
+      "original_bytes": 1227,
+      "original_sha256": "f00fde798a04e4ae2f257dd75b861eca376c9750bf8960c9daf0ef8263df53c7",
+      "bytes": 1227,
+      "sha256": "f00fde798a04e4ae2f257dd75b861eca376c9750bf8960c9daf0ef8263df53c7",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/continuous64_correlation.png",
+      "published": "geometry-aligned-conditioning/evidence/continuous64_correlation.png",
+      "original_bytes": 148944,
+      "original_sha256": "fc8483ad65319db5f5e0e6b77d0c633316092846cd5e708b7eb1da2ea627fe1d",
+      "bytes": 148944,
+      "sha256": "fc8483ad65319db5f5e0e6b77d0c633316092846cd5e708b7eb1da2ea627fe1d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/continuous96_correlation.png",
+      "published": "geometry-aligned-conditioning/evidence/continuous96_correlation.png",
+      "original_bytes": 148813,
+      "original_sha256": "3705f319c3d9ff825005ef0f88e51f2adcf6bf19f12676a1d0b75abb068ed961",
+      "bytes": 148813,
+      "sha256": "3705f319c3d9ff825005ef0f88e51f2adcf6bf19f12676a1d0b75abb068ed961",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/final_summary.json",
+      "published": "geometry-aligned-conditioning/evidence/final_summary.json",
+      "original_bytes": 5150,
+      "original_sha256": "5181817a0740719fc3715b32dbc3337f53bf6b3d5cc223e294fc549dbbe88ab0",
+      "bytes": 5125,
+      "sha256": "160f38ec6fedc64377ab41d009a42129c8553d08db53ae7f6ff6fe474acb2848",
+      "transformations": [
+        {
+          "kind": "machine-specific project root",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/frozen_protocol.json",
+      "published": "geometry-aligned-conditioning/evidence/frozen_protocol.json",
+      "original_bytes": 5094,
+      "original_sha256": "a728e32a71785e295d0f1212ff8c5ad2b414386e921dcc8dd9e6d9ea14624fff",
+      "bytes": 5094,
+      "sha256": "a728e32a71785e295d0f1212ff8c5ad2b414386e921dcc8dd9e6d9ea14624fff",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/held_gap57_w32_correlation.png",
+      "published": "geometry-aligned-conditioning/evidence/held_gap57_w32_correlation.png",
+      "original_bytes": 226899,
+      "original_sha256": "5b4bab8193ea41c0dcac98210b383ed56eeff96d66350e717be4ae1b1ff64513",
+      "bytes": 226899,
+      "sha256": "5b4bab8193ea41c0dcac98210b383ed56eeff96d66350e717be4ae1b1ff64513",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/held_s10_w48_correlation.png",
+      "published": "geometry-aligned-conditioning/evidence/held_s10_w48_correlation.png",
+      "original_bytes": 203650,
+      "original_sha256": "6154f1b7d60c8b4603749cc9d8477e1a43847a4cb0a8b7f132c3b2a849c673bf",
+      "bytes": 203650,
+      "sha256": "6154f1b7d60c8b4603749cc9d8477e1a43847a4cb0a8b7f132c3b2a849c673bf",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/paired_conditional_effects.png",
+      "published": "geometry-aligned-conditioning/evidence/paired_conditional_effects.png",
+      "original_bytes": 45402,
+      "original_sha256": "5f19914002447b23d53628a51bc5128ac783461336cd9d5d0325c23758cd906e",
+      "bytes": 45402,
+      "sha256": "5f19914002447b23d53628a51bc5128ac783461336cd9d5d0325c23758cd906e",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/paired_seed_effects.csv",
+      "published": "geometry-aligned-conditioning/evidence/paired_seed_effects.csv",
+      "original_bytes": 339,
+      "original_sha256": "1df8016fe46f52a4a3dcee065de294b3f0599e21f2d49c693e066bcbacf59e36",
+      "bytes": 339,
+      "sha256": "1df8016fe46f52a4a3dcee065de294b3f0599e21f2d49c693e066bcbacf59e36",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/primary_metrics.csv",
+      "published": "geometry-aligned-conditioning/evidence/primary_metrics.csv",
+      "original_bytes": 531,
+      "original_sha256": "21474ad3a6e7868ab45a5552effcf47b099bc1a32c775ad292d2bec5e466d4ed",
+      "bytes": 531,
+      "sha256": "21474ad3a6e7868ab45a5552effcf47b099bc1a32c775ad292d2bec5e466d4ed",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/resume_test.json",
+      "published": "geometry-aligned-conditioning/evidence/resume_test.json",
+      "original_bytes": 433,
+      "original_sha256": "97669d01e5c8a2ac186728c799ecd0a5a061e126daffc1ae29ca5c9c24c39bae",
+      "bytes": 433,
+      "sha256": "97669d01e5c8a2ac186728c799ecd0a5a061e126daffc1ae29ca5c9c24c39bae",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s0.json",
+      "published": "geometry-aligned-conditioning/evidence/s0.json",
+      "original_bytes": 7540,
+      "original_sha256": "a5b9484d1089cbb35c1348954dc19eb1e44afe1fcc91046f03e7f03fa6c42546",
+      "bytes": 7540,
+      "sha256": "a5b9484d1089cbb35c1348954dc19eb1e44afe1fcc91046f03e7f03fa6c42546",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91001_A_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91001_A_complete.json",
+      "original_bytes": 6839,
+      "original_sha256": "9898051b5ee64ec9d93e1e3f1ccebbc8556ad7fb2ab9767aaeffa600e5838fa9",
+      "bytes": 6839,
+      "sha256": "9898051b5ee64ec9d93e1e3f1ccebbc8556ad7fb2ab9767aaeffa600e5838fa9",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91001_A_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91001_A_geometry_probe.csv",
+      "original_bytes": 5057,
+      "original_sha256": "1b24747bdb5572433421177d6e2a877e5fbe81918d2115f3bab2c830bc99d09a",
+      "bytes": 5057,
+      "sha256": "1b24747bdb5572433421177d6e2a877e5fbe81918d2115f3bab2c830bc99d09a",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91001_A_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91001_A_natural_markov.csv",
+      "original_bytes": 9942,
+      "original_sha256": "4dbd7ceda18f4e5cd5549b07dee2d77fd09fd2ef2c1d88af35a5e3373fe0d935",
+      "bytes": 9942,
+      "sha256": "4dbd7ceda18f4e5cd5549b07dee2d77fd09fd2ef2c1d88af35a5e3373fe0d935",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91001_B_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91001_B_complete.json",
+      "original_bytes": 6816,
+      "original_sha256": "afa7cacfd2cda239adff4ee4f4c166a2b5780acdf596891d2be8eedabd275371",
+      "bytes": 6816,
+      "sha256": "afa7cacfd2cda239adff4ee4f4c166a2b5780acdf596891d2be8eedabd275371",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91001_B_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91001_B_geometry_probe.csv",
+      "original_bytes": 5001,
+      "original_sha256": "7acfa2c0bd4ef79e41e8b2e463687ae91aa7eaddacb9237a33f329da177c678c",
+      "bytes": 5001,
+      "sha256": "7acfa2c0bd4ef79e41e8b2e463687ae91aa7eaddacb9237a33f329da177c678c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91001_B_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91001_B_natural_markov.csv",
+      "original_bytes": 9862,
+      "original_sha256": "f6ade0475950dea1f4dc5536c49c62c2952a79047faec397e9a53fa966b378f9",
+      "bytes": 9862,
+      "sha256": "f6ade0475950dea1f4dc5536c49c62c2952a79047faec397e9a53fa966b378f9",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91001_C_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91001_C_complete.json",
+      "original_bytes": 6841,
+      "original_sha256": "b98a5cc9d6451e5ca6ee4c0fbd0720f72e689c405462665465fe428e17533495",
+      "bytes": 6841,
+      "sha256": "b98a5cc9d6451e5ca6ee4c0fbd0720f72e689c405462665465fe428e17533495",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91001_C_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91001_C_geometry_probe.csv",
+      "original_bytes": 5013,
+      "original_sha256": "f0f923c26fa6f44d3cf2b4983cdce7a1a1ea698a4a9b885d63fef082be245e41",
+      "bytes": 5013,
+      "sha256": "f0f923c26fa6f44d3cf2b4983cdce7a1a1ea698a4a9b885d63fef082be245e41",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91001_C_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91001_C_natural_markov.csv",
+      "original_bytes": 9949,
+      "original_sha256": "8330aba5ad5bf30928d4abf7364299d7e40ca61484d7d00ed755b634e5a46fbd",
+      "bytes": 9949,
+      "sha256": "8330aba5ad5bf30928d4abf7364299d7e40ca61484d7d00ed755b634e5a46fbd",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91002_A_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91002_A_complete.json",
+      "original_bytes": 6836,
+      "original_sha256": "e3fe0691674ca08737ffe516c7dad2f10f22a3baf95a00c176869f055ccdd855",
+      "bytes": 6836,
+      "sha256": "e3fe0691674ca08737ffe516c7dad2f10f22a3baf95a00c176869f055ccdd855",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91002_A_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91002_A_geometry_probe.csv",
+      "original_bytes": 5056,
+      "original_sha256": "49f8a02389675ec7997f35bd1a11e3a16446f3b02b033d9e0399626f8f06dfe7",
+      "bytes": 5056,
+      "sha256": "49f8a02389675ec7997f35bd1a11e3a16446f3b02b033d9e0399626f8f06dfe7",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91002_A_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91002_A_natural_markov.csv",
+      "original_bytes": 9943,
+      "original_sha256": "e90dc7a114a02e5fec432e169493af2d19d9e6508f61c7caba287575f6841b34",
+      "bytes": 9943,
+      "sha256": "e90dc7a114a02e5fec432e169493af2d19d9e6508f61c7caba287575f6841b34",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91002_B_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91002_B_complete.json",
+      "original_bytes": 6824,
+      "original_sha256": "769e8cdfd03b27282f1b1ed6e425a99f9b0ae6b9cc4dc93062e54738e467862d",
+      "bytes": 6824,
+      "sha256": "769e8cdfd03b27282f1b1ed6e425a99f9b0ae6b9cc4dc93062e54738e467862d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91002_B_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91002_B_geometry_probe.csv",
+      "original_bytes": 5008,
+      "original_sha256": "a042e3ae53115d31ea959149fdad7a96e9dd0ae37b0daf3456bb41a61618acfc",
+      "bytes": 5008,
+      "sha256": "a042e3ae53115d31ea959149fdad7a96e9dd0ae37b0daf3456bb41a61618acfc",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91002_B_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91002_B_natural_markov.csv",
+      "original_bytes": 9882,
+      "original_sha256": "e32136a5a83571e1659a86336a30441d245760b19d49c7ebdd442f5c9388f9ff",
+      "bytes": 9882,
+      "sha256": "e32136a5a83571e1659a86336a30441d245760b19d49c7ebdd442f5c9388f9ff",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91002_C_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91002_C_complete.json",
+      "original_bytes": 6835,
+      "original_sha256": "ed77e5c83a02338e63fbbee52469a7cdbfe202d3c70983e48063038b364e8e43",
+      "bytes": 6835,
+      "sha256": "ed77e5c83a02338e63fbbee52469a7cdbfe202d3c70983e48063038b364e8e43",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91002_C_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91002_C_geometry_probe.csv",
+      "original_bytes": 5016,
+      "original_sha256": "f9b38c10b4534e33aa7d421f9fd5bce050cc1e87cd3dd748dba4133fc8b2b21e",
+      "bytes": 5016,
+      "sha256": "f9b38c10b4534e33aa7d421f9fd5bce050cc1e87cd3dd748dba4133fc8b2b21e",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91002_C_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91002_C_natural_markov.csv",
+      "original_bytes": 9944,
+      "original_sha256": "5392220b2d47e5192ba830123fb8955ebdb7a75d0ccdd649b6d1d99028110143",
+      "bytes": 9944,
+      "sha256": "5392220b2d47e5192ba830123fb8955ebdb7a75d0ccdd649b6d1d99028110143",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91003_A_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91003_A_complete.json",
+      "original_bytes": 6827,
+      "original_sha256": "18cbffa96f4afcc0cdb921b614b65f9b02954857d23640be468a3d85d446472e",
+      "bytes": 6827,
+      "sha256": "18cbffa96f4afcc0cdb921b614b65f9b02954857d23640be468a3d85d446472e",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91003_A_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91003_A_geometry_probe.csv",
+      "original_bytes": 5066,
+      "original_sha256": "0d230f3241c0efd69b4ec1e5e347a09ee480119333f0e792350a995ba7be8571",
+      "bytes": 5066,
+      "sha256": "0d230f3241c0efd69b4ec1e5e347a09ee480119333f0e792350a995ba7be8571",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91003_A_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91003_A_natural_markov.csv",
+      "original_bytes": 9947,
+      "original_sha256": "038e2125082d899be12b132cc9cc5fa2059e6ac081ba33810c018009ac920810",
+      "bytes": 9947,
+      "sha256": "038e2125082d899be12b132cc9cc5fa2059e6ac081ba33810c018009ac920810",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91003_B_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91003_B_complete.json",
+      "original_bytes": 6818,
+      "original_sha256": "3b606ebc0eb0e78f87e3cdb9369c5a27b831db100d2a8a5dd5f07d055d717ee8",
+      "bytes": 6818,
+      "sha256": "3b606ebc0eb0e78f87e3cdb9369c5a27b831db100d2a8a5dd5f07d055d717ee8",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91003_B_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91003_B_geometry_probe.csv",
+      "original_bytes": 5001,
+      "original_sha256": "a3e7912e49c6bef10d72f94dbf422de75a242c473f29455d2e3109f6cc3a49a4",
+      "bytes": 5001,
+      "sha256": "a3e7912e49c6bef10d72f94dbf422de75a242c473f29455d2e3109f6cc3a49a4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91003_B_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91003_B_natural_markov.csv",
+      "original_bytes": 9883,
+      "original_sha256": "3bc92969acccb65a5fc3129ddd688f1d2ace5000fdb322b0694e4e5daeea95eb",
+      "bytes": 9883,
+      "sha256": "3bc92969acccb65a5fc3129ddd688f1d2ace5000fdb322b0694e4e5daeea95eb",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91003_C_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91003_C_complete.json",
+      "original_bytes": 6825,
+      "original_sha256": "42c5b28e0481a3894dd9bbca69b7e9f51c0183bd11f05297e92305e353922088",
+      "bytes": 6825,
+      "sha256": "42c5b28e0481a3894dd9bbca69b7e9f51c0183bd11f05297e92305e353922088",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91003_C_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91003_C_geometry_probe.csv",
+      "original_bytes": 5020,
+      "original_sha256": "434f6df310fc07981af412a90aa39e2de5a86693e92cfed23415fbb6a210b097",
+      "bytes": 5020,
+      "sha256": "434f6df310fc07981af412a90aa39e2de5a86693e92cfed23415fbb6a210b097",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91003_C_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91003_C_natural_markov.csv",
+      "original_bytes": 9955,
+      "original_sha256": "3bf8c1093e3755766c4b9405944e1294dc0f050edfc28ab3511db09868564410",
+      "bytes": 9955,
+      "sha256": "3bf8c1093e3755766c4b9405944e1294dc0f050edfc28ab3511db09868564410",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91004_A_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91004_A_complete.json",
+      "original_bytes": 6833,
+      "original_sha256": "fb0596bd61896c0b6554cf59fab634133c3eca21b6b92f6576639bf39a939640",
+      "bytes": 6833,
+      "sha256": "fb0596bd61896c0b6554cf59fab634133c3eca21b6b92f6576639bf39a939640",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91004_A_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91004_A_geometry_probe.csv",
+      "original_bytes": 5047,
+      "original_sha256": "1edffc6e0ca939170f884ed0ac8439f4bbd1cf09a0b18a230d1929712eabb2b0",
+      "bytes": 5047,
+      "sha256": "1edffc6e0ca939170f884ed0ac8439f4bbd1cf09a0b18a230d1929712eabb2b0",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91004_A_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91004_A_natural_markov.csv",
+      "original_bytes": 9949,
+      "original_sha256": "df973e73e7c4a9b78942040555744998a584d611af676dda5db1239b63c916f6",
+      "bytes": 9949,
+      "sha256": "df973e73e7c4a9b78942040555744998a584d611af676dda5db1239b63c916f6",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91004_B_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91004_B_complete.json",
+      "original_bytes": 6819,
+      "original_sha256": "fdf2aacc5c1a2a0a62fd55fe0bd3a5bee80c8b6c021da6918ae1f40da1211582",
+      "bytes": 6819,
+      "sha256": "fdf2aacc5c1a2a0a62fd55fe0bd3a5bee80c8b6c021da6918ae1f40da1211582",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91004_B_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91004_B_geometry_probe.csv",
+      "original_bytes": 5039,
+      "original_sha256": "2d568b4843f10e034746835a0bf06564a339ee2b0054df226b563c02524f5f3d",
+      "bytes": 5039,
+      "sha256": "2d568b4843f10e034746835a0bf06564a339ee2b0054df226b563c02524f5f3d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91004_B_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91004_B_natural_markov.csv",
+      "original_bytes": 9863,
+      "original_sha256": "8ffc6c8ec020490130305b967fb25ae626844e6586cb272e41493f6d70354bea",
+      "bytes": 9863,
+      "sha256": "8ffc6c8ec020490130305b967fb25ae626844e6586cb272e41493f6d70354bea",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91004_C_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91004_C_complete.json",
+      "original_bytes": 6839,
+      "original_sha256": "f1ab030795d6565f2eafa576114707f689ab1a7b887f1328c8c133c377095eb7",
+      "bytes": 6839,
+      "sha256": "f1ab030795d6565f2eafa576114707f689ab1a7b887f1328c8c133c377095eb7",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91004_C_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91004_C_geometry_probe.csv",
+      "original_bytes": 5018,
+      "original_sha256": "5aec733e3b0baaa06e1db3a307cc90880cd05ea69f861e8e68c53b4a96738e6e",
+      "bytes": 5018,
+      "sha256": "5aec733e3b0baaa06e1db3a307cc90880cd05ea69f861e8e68c53b4a96738e6e",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91004_C_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91004_C_natural_markov.csv",
+      "original_bytes": 9962,
+      "original_sha256": "d521c4a1ce87bf8e4f60ce09d78ef3dd9a95a2a2d4762b987629ddebbccddaaf",
+      "bytes": 9962,
+      "sha256": "d521c4a1ce87bf8e4f60ce09d78ef3dd9a95a2a2d4762b987629ddebbccddaaf",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91005_A_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91005_A_complete.json",
+      "original_bytes": 6835,
+      "original_sha256": "731afe3d6a191edbc0f3746e512b40674d8ca87aac722f31623a899fbc6f1b2d",
+      "bytes": 6835,
+      "sha256": "731afe3d6a191edbc0f3746e512b40674d8ca87aac722f31623a899fbc6f1b2d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91005_A_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91005_A_geometry_probe.csv",
+      "original_bytes": 5062,
+      "original_sha256": "f2263d244b05e49c27cdd05af271d3f86b18d5b175ab5bdd3ddec36574c11f10",
+      "bytes": 5062,
+      "sha256": "f2263d244b05e49c27cdd05af271d3f86b18d5b175ab5bdd3ddec36574c11f10",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91005_A_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91005_A_natural_markov.csv",
+      "original_bytes": 9959,
+      "original_sha256": "d316172c4692ea3d108947c2197cfac48a5a6ff770a5d895b15e5ded3c2b08f9",
+      "bytes": 9959,
+      "sha256": "d316172c4692ea3d108947c2197cfac48a5a6ff770a5d895b15e5ded3c2b08f9",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91005_B_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91005_B_complete.json",
+      "original_bytes": 6816,
+      "original_sha256": "3fab74ca684ff7c1f64d1a92819363df42e6c2d812bef2b2d4538c35329dc0e7",
+      "bytes": 6816,
+      "sha256": "3fab74ca684ff7c1f64d1a92819363df42e6c2d812bef2b2d4538c35329dc0e7",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91005_B_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91005_B_geometry_probe.csv",
+      "original_bytes": 5002,
+      "original_sha256": "65b254349f176f501f07d62de7b533b6b92804a78532a0c94b8b3abed5e4b39c",
+      "bytes": 5002,
+      "sha256": "65b254349f176f501f07d62de7b533b6b92804a78532a0c94b8b3abed5e4b39c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91005_B_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91005_B_natural_markov.csv",
+      "original_bytes": 9875,
+      "original_sha256": "0f0cf6591979b4d60ec65a42518f9a503c94208afc9da0069433dcac42aabcc4",
+      "bytes": 9875,
+      "sha256": "0f0cf6591979b4d60ec65a42518f9a503c94208afc9da0069433dcac42aabcc4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91005_C_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91005_C_complete.json",
+      "original_bytes": 6840,
+      "original_sha256": "9ac74ea9ed296889cdfeec8018b0b686f5fa4d82b237fe80c06eed7b271afc0b",
+      "bytes": 6840,
+      "sha256": "9ac74ea9ed296889cdfeec8018b0b686f5fa4d82b237fe80c06eed7b271afc0b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91005_C_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91005_C_geometry_probe.csv",
+      "original_bytes": 5014,
+      "original_sha256": "1e29c00b53b62bba31cd01db14cf4f1872ffa5f9833edc4770d96a2a36f67b2f",
+      "bytes": 5014,
+      "sha256": "1e29c00b53b62bba31cd01db14cf4f1872ffa5f9833edc4770d96a2a36f67b2f",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91005_C_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91005_C_natural_markov.csv",
+      "original_bytes": 9948,
+      "original_sha256": "16f788e9fb9aab4f08f79e5a5fba3ffd48b48ebda002db3e01807ad3af8ee23f",
+      "bytes": 9948,
+      "sha256": "16f788e9fb9aab4f08f79e5a5fba3ffd48b48ebda002db3e01807ad3af8ee23f",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91006_A_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91006_A_complete.json",
+      "original_bytes": 6841,
+      "original_sha256": "bd4c022da77d8d4027b011aabee3b700f9ad53a3c7c19d86cee0707e711891b4",
+      "bytes": 6841,
+      "sha256": "bd4c022da77d8d4027b011aabee3b700f9ad53a3c7c19d86cee0707e711891b4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91006_A_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91006_A_geometry_probe.csv",
+      "original_bytes": 5030,
+      "original_sha256": "ed5e0107bc760373139b5a9ae35d431b75370da2cdf87d938f296ef8a5cf4983",
+      "bytes": 5030,
+      "sha256": "ed5e0107bc760373139b5a9ae35d431b75370da2cdf87d938f296ef8a5cf4983",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91006_A_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91006_A_natural_markov.csv",
+      "original_bytes": 9963,
+      "original_sha256": "cdfc993d5e9b4493bf868efb7533bb1280d4217784924be78a7bfdd0d91a10e3",
+      "bytes": 9963,
+      "sha256": "cdfc993d5e9b4493bf868efb7533bb1280d4217784924be78a7bfdd0d91a10e3",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91006_B_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91006_B_complete.json",
+      "original_bytes": 6823,
+      "original_sha256": "a7b038e364ebf108f16ad559ef2aa29363efec907cd71f9ef6d46aa5f014a9af",
+      "bytes": 6823,
+      "sha256": "a7b038e364ebf108f16ad559ef2aa29363efec907cd71f9ef6d46aa5f014a9af",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91006_B_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91006_B_geometry_probe.csv",
+      "original_bytes": 5039,
+      "original_sha256": "ed32777326b513d1e57725899b4005ab0213bc483765a18274bd04621ac1a43a",
+      "bytes": 5039,
+      "sha256": "ed32777326b513d1e57725899b4005ab0213bc483765a18274bd04621ac1a43a",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91006_B_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91006_B_natural_markov.csv",
+      "original_bytes": 9896,
+      "original_sha256": "d4bd0c6a03788b13cf254511ac429a0456019479c214e0523808d5dcbc787617",
+      "bytes": 9896,
+      "sha256": "d4bd0c6a03788b13cf254511ac429a0456019479c214e0523808d5dcbc787617",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91006_C_complete.json",
+      "published": "geometry-aligned-conditioning/evidence/s91006_C_complete.json",
+      "original_bytes": 6835,
+      "original_sha256": "1402a3d74bf312add4c3e4dbae8fc7b4cfe9ab9e07206f906ddef29fc871ca7d",
+      "bytes": 6835,
+      "sha256": "1402a3d74bf312add4c3e4dbae8fc7b4cfe9ab9e07206f906ddef29fc871ca7d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91006_C_geometry_probe.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91006_C_geometry_probe.csv",
+      "original_bytes": 5022,
+      "original_sha256": "68a64475444de607f0463da84546b7a8a0e45c9ca2748576560b1cdcf365a5ff",
+      "bytes": 5022,
+      "sha256": "68a64475444de607f0463da84546b7a8a0e45c9ca2748576560b1cdcf365a5ff",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/s91006_C_natural_markov.csv",
+      "published": "geometry-aligned-conditioning/evidence/s91006_C_natural_markov.csv",
+      "original_bytes": 9917,
+      "original_sha256": "d4d703e6678ba89d6803e4d01f81c766a2086a766d88851154e766b103d16866",
+      "bytes": 9917,
+      "sha256": "d4d703e6678ba89d6803e4d01f81c766a2086a766d88851154e766b103d16866",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/sample_comparison_w64.png",
+      "published": "geometry-aligned-conditioning/evidence/sample_comparison_w64.png",
+      "original_bytes": 70542,
+      "original_sha256": "8be2826c6bf22abc0cd27a38c7c31ee78f158be584928a862b8ab1956850d19f",
+      "bytes": 70542,
+      "sha256": "8be2826c6bf22abc0cd27a38c7c31ee78f158be584928a862b8ab1956850d19f",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_alignment_20260921_remote/validation_loss.png",
+      "published": "geometry-aligned-conditioning/evidence/validation_loss.png",
+      "original_bytes": 94893,
+      "original_sha256": "1e0666f8ad9dc5306490382a80d29ccbdec032215b5010eb0eafea4f64b22bb7",
+      "bytes": 94893,
+      "sha256": "1e0666f8ad9dc5306490382a80d29ccbdec032215b5010eb0eafea4f64b22bb7",
+      "transformations": []
+    },
+    {
+      "source": "docs/research_reboot_20260921/REVIEW_RESPONSE_AND_FOCUSED_PROTOCOL_V2_ZH.md",
+      "published": "geometry-aligned-conditioning/protocol/REVIEW_RESPONSE_AND_FOCUSED_PROTOCOL_V2_ZH.md",
+      "original_bytes": 38115,
+      "original_sha256": "f6312b0548a92cd973b9794dc24b4f06f44164546e6f603e9b515e4b2e527f7b",
+      "bytes": 38564,
+      "sha256": "5ca7f2a079c22910166c46979dcd23729a9b50a9a4d3c779717fc0742f40e119",
+      "transformations": [
+        {
+          "kind": "historical local link rendered as source identifier",
+          "count": 10
+        },
+        {
+          "kind": "public-copy notice"
+        }
+      ]
+    },
+    {
+      "source": "docs/research_reboot_20260921/EXISTING_MODEL_DIAGNOSTICS_20260922_ZH.md",
+      "published": "geometry-aligned-conditioning/protocol/EXISTING_MODEL_DIAGNOSTICS_20260922_ZH.md",
+      "original_bytes": 8250,
+      "original_sha256": "121a808f860d36fbab362b1f7a9e74662e1973614cdda3c14d428216cca49e3a",
+      "bytes": 8529,
+      "sha256": "cd2561c69c8c0e5284dc74b7c9688c10aa6525360a7c1717dd9c67537cdf97dc",
+      "transformations": [
+        {
+          "kind": "machine-specific project root",
+          "count": 2
+        },
+        {
+          "kind": "historical local link rendered as source identifier",
+          "count": 1
+        },
+        {
+          "kind": "public-copy notice"
+        }
+      ]
+    },
+    {
+      "source": "docs/research_reboot_20260921/MECHANISM_DIAGNOSTICS_PLAN_20260922_ZH.md",
+      "published": "geometry-aligned-conditioning/protocol/MECHANISM_DIAGNOSTICS_PLAN_20260922_ZH.md",
+      "original_bytes": 9553,
+      "original_sha256": "41a34e92ff5ddfe19caedd58b5db788ae3d89f51c1afc108aaac77589b610fdc",
+      "bytes": 9862,
+      "sha256": "895d2a5dbc0b49b50540fc47eb6a52211d7ae011d6361494cfc90330584ac2a5",
+      "transformations": [
+        {
+          "kind": "historical local link rendered as source identifier",
+          "count": 2
+        },
+        {
+          "kind": "public-copy notice"
+        }
+      ]
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/audit_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/audit_complete.json",
+      "original_bytes": 10492,
+      "original_sha256": "e5ae96b46b781eceee0105255e21e6696d7887fa925b3e98c5e7054436d7a080",
+      "bytes": 10492,
+      "sha256": "e5ae96b46b781eceee0105255e21e6696d7887fa925b3e98c5e7054436d7a080",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/cavity_summary.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/cavity_summary.csv",
+      "original_bytes": 186284,
+      "original_sha256": "102e65b2d4921d7ef03b6f308accf26d73ccd5d1e989a25bbdc46e87f8c95e08",
+      "bytes": 186284,
+      "sha256": "102e65b2d4921d7ef03b6f308accf26d73ccd5d1e989a25bbdc46e87f8c95e08",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/final_summary.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/final_summary.json",
+      "original_bytes": 393,
+      "original_sha256": "f326eb348ff0162ec52613d274411cb3865e5d7dbe328c67ddc64d117a92ad30",
+      "bytes": 393,
+      "sha256": "f326eb348ff0162ec52613d274411cb3865e5d7dbe328c67ddc64d117a92ad30",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/frozen_diagnostic_protocol.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/frozen_diagnostic_protocol.json",
+      "original_bytes": 3870,
+      "original_sha256": "2ae209a0b371ae3881ce40d0a3be1a4b656ab5a553d57e7b7f4fec5a7c62a577",
+      "bytes": 3845,
+      "sha256": "30f3b3858476f3ecdc4d1fd4c5e2ac64c7da9128e6806ab9477d95450133101d",
+      "transformations": [
+        {
+          "kind": "machine-specific project root",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/probe_summary.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/probe_summary.json",
+      "original_bytes": 15494,
+      "original_sha256": "defd102869db5f3a85eb02a6f4e6e787ce16f4df8eb556ae7c44ca2d76a99a4b",
+      "bytes": 15494,
+      "sha256": "defd102869db5f3a85eb02a6f4e6e787ce16f4df8eb556ae7c44ca2d76a99a4b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91001_A_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91001_A_cavity_metrics.csv",
+      "original_bytes": 10460,
+      "original_sha256": "12116bed2c616556c2badfe8dd727ec0b4ee1d5ec12318d77b0bb440c4608faf",
+      "bytes": 10460,
+      "sha256": "12116bed2c616556c2badfe8dd727ec0b4ee1d5ec12318d77b0bb440c4608faf",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91001_A_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91001_A_complete.json",
+      "original_bytes": 814,
+      "original_sha256": "00104fe54c50b8e3907f2b9181ba45a48df455369d67b3166bcfdaee44cf2a73",
+      "bytes": 814,
+      "sha256": "00104fe54c50b8e3907f2b9181ba45a48df455369d67b3166bcfdaee44cf2a73",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91001_A_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91001_A_single_visible.csv",
+      "original_bytes": 40233,
+      "original_sha256": "c7868ba05e659546e186f4ae759267b7f09364e6b5d5116be8856f3cf074a687",
+      "bytes": 40233,
+      "sha256": "c7868ba05e659546e186f4ae759267b7f09364e6b5d5116be8856f3cf074a687",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91001_A_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91001_A_teacher_forced.csv",
+      "original_bytes": 94642,
+      "original_sha256": "0cc04cc6a179dab2b78f7826ed5cf3b9dbfdc5fdd2250684e9a775ac7d55b304",
+      "bytes": 94642,
+      "sha256": "0cc04cc6a179dab2b78f7826ed5cf3b9dbfdc5fdd2250684e9a775ac7d55b304",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91001_B_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91001_B_cavity_metrics.csv",
+      "original_bytes": 10433,
+      "original_sha256": "c1de0c41f72b6e80c026f0960d3ba0b44541a103c07fba1f786db9ce1d0cbe13",
+      "bytes": 10433,
+      "sha256": "c1de0c41f72b6e80c026f0960d3ba0b44541a103c07fba1f786db9ce1d0cbe13",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91001_B_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91001_B_complete.json",
+      "original_bytes": 817,
+      "original_sha256": "11799812801cf946fdebbea8407c14229ff11ed53b5c16baba499c0e85ca9641",
+      "bytes": 817,
+      "sha256": "11799812801cf946fdebbea8407c14229ff11ed53b5c16baba499c0e85ca9641",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91001_B_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91001_B_single_visible.csv",
+      "original_bytes": 40994,
+      "original_sha256": "c07e9ca4faca0507cc076c177c70da5081b1eb7bc587deb553d2e39c23b1b54b",
+      "bytes": 40994,
+      "sha256": "c07e9ca4faca0507cc076c177c70da5081b1eb7bc587deb553d2e39c23b1b54b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91001_B_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91001_B_teacher_forced.csv",
+      "original_bytes": 94705,
+      "original_sha256": "66a6a6b4b85fbc0d12ce61e25022cadb358831c5387b6ace618d21a66803ec69",
+      "bytes": 94705,
+      "sha256": "66a6a6b4b85fbc0d12ce61e25022cadb358831c5387b6ace618d21a66803ec69",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91001_C_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91001_C_cavity_metrics.csv",
+      "original_bytes": 10507,
+      "original_sha256": "b7bc0548e6fc37ab5f7e6daf5ca8c979a7e93b4098d0400e305172458e0c08b4",
+      "bytes": 10507,
+      "sha256": "b7bc0548e6fc37ab5f7e6daf5ca8c979a7e93b4098d0400e305172458e0c08b4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91001_C_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91001_C_complete.json",
+      "original_bytes": 814,
+      "original_sha256": "3dfe947dddbff17b4225fab3d74fda49f71033cc94d8daf228b09eb2eee5bf34",
+      "bytes": 814,
+      "sha256": "3dfe947dddbff17b4225fab3d74fda49f71033cc94d8daf228b09eb2eee5bf34",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91001_C_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91001_C_single_visible.csv",
+      "original_bytes": 40404,
+      "original_sha256": "a831d9af18f5f0c5558c87dd2540822ef27dec0e6603cef9fa42e7e81c5680ae",
+      "bytes": 40404,
+      "sha256": "a831d9af18f5f0c5558c87dd2540822ef27dec0e6603cef9fa42e7e81c5680ae",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91001_C_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91001_C_teacher_forced.csv",
+      "original_bytes": 94645,
+      "original_sha256": "1e321f3abe536ce968f0f9b50a2eaf21da6b5b18c111774529a9a68f5478336b",
+      "bytes": 94645,
+      "sha256": "1e321f3abe536ce968f0f9b50a2eaf21da6b5b18c111774529a9a68f5478336b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91002_A_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91002_A_cavity_metrics.csv",
+      "original_bytes": 10506,
+      "original_sha256": "22129a8493c7af8aa55e5c6b83dd8e3dd306b926e2450c8a56842d12de619a7b",
+      "bytes": 10506,
+      "sha256": "22129a8493c7af8aa55e5c6b83dd8e3dd306b926e2450c8a56842d12de619a7b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91002_A_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91002_A_complete.json",
+      "original_bytes": 814,
+      "original_sha256": "bf04897ea751a34acc591f78af18e9aa3d4455be7ed24ae215cbdf20249b4aa4",
+      "bytes": 814,
+      "sha256": "bf04897ea751a34acc591f78af18e9aa3d4455be7ed24ae215cbdf20249b4aa4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91002_A_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91002_A_single_visible.csv",
+      "original_bytes": 40454,
+      "original_sha256": "0b61ef0eb69631eab7350a22db67c32d0a4e6cf2049f1b4762feaa6d3b50b245",
+      "bytes": 40454,
+      "sha256": "0b61ef0eb69631eab7350a22db67c32d0a4e6cf2049f1b4762feaa6d3b50b245",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91002_A_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91002_A_teacher_forced.csv",
+      "original_bytes": 94699,
+      "original_sha256": "b5ad341b2f4274a5cabf0a4d99cd1c47d2145237b48dd0ae7ef7a1554b47959d",
+      "bytes": 94699,
+      "sha256": "b5ad341b2f4274a5cabf0a4d99cd1c47d2145237b48dd0ae7ef7a1554b47959d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91002_B_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91002_B_cavity_metrics.csv",
+      "original_bytes": 10448,
+      "original_sha256": "3daa3ea46a31c843d226d5d326f15797c41917a034a76ba1d47b5218383cf5e7",
+      "bytes": 10448,
+      "sha256": "3daa3ea46a31c843d226d5d326f15797c41917a034a76ba1d47b5218383cf5e7",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91002_B_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91002_B_complete.json",
+      "original_bytes": 814,
+      "original_sha256": "c7209d30b1f379dc5af1926a6dadaef46dd601fe671f97cb7c5b8b6ddeb32e38",
+      "bytes": 814,
+      "sha256": "c7209d30b1f379dc5af1926a6dadaef46dd601fe671f97cb7c5b8b6ddeb32e38",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91002_B_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91002_B_single_visible.csv",
+      "original_bytes": 40526,
+      "original_sha256": "2b1364cf166c664351007c0d62b719d1780bc39e7a13d7fbdc95438e69e568cb",
+      "bytes": 40526,
+      "sha256": "2b1364cf166c664351007c0d62b719d1780bc39e7a13d7fbdc95438e69e568cb",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91002_B_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91002_B_teacher_forced.csv",
+      "original_bytes": 94675,
+      "original_sha256": "2e5ddc9c5cbe9b7f386f8441765c736db9fc33b4c81914793e497bcb0ae6771b",
+      "bytes": 94675,
+      "sha256": "2e5ddc9c5cbe9b7f386f8441765c736db9fc33b4c81914793e497bcb0ae6771b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91002_C_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91002_C_cavity_metrics.csv",
+      "original_bytes": 10513,
+      "original_sha256": "f03f291345778493e18c15a7dc7a6d239065efbdf22d2d29630758f3aab559f4",
+      "bytes": 10513,
+      "sha256": "f03f291345778493e18c15a7dc7a6d239065efbdf22d2d29630758f3aab559f4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91002_C_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91002_C_complete.json",
+      "original_bytes": 816,
+      "original_sha256": "e7402e66bc9cc6657559a6621e1b8d21bf119b3c1e35a9e53942ba6a18374e03",
+      "bytes": 816,
+      "sha256": "e7402e66bc9cc6657559a6621e1b8d21bf119b3c1e35a9e53942ba6a18374e03",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91002_C_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91002_C_single_visible.csv",
+      "original_bytes": 40805,
+      "original_sha256": "df1b579c092f01a7145f664d3fad9219c9f612022640fb2c6a9ae3886af582b4",
+      "bytes": 40805,
+      "sha256": "df1b579c092f01a7145f664d3fad9219c9f612022640fb2c6a9ae3886af582b4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91002_C_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91002_C_teacher_forced.csv",
+      "original_bytes": 94637,
+      "original_sha256": "5d75e61e571a4372ffd06c46dd010245d57476e32716261113bbd018227e8056",
+      "bytes": 94637,
+      "sha256": "5d75e61e571a4372ffd06c46dd010245d57476e32716261113bbd018227e8056",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91003_A_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91003_A_cavity_metrics.csv",
+      "original_bytes": 10474,
+      "original_sha256": "0af2034e8adf116052853c3fab252c36766ddd6b3d94498eaa960ce996d2de06",
+      "bytes": 10474,
+      "sha256": "0af2034e8adf116052853c3fab252c36766ddd6b3d94498eaa960ce996d2de06",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91003_A_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91003_A_complete.json",
+      "original_bytes": 814,
+      "original_sha256": "f170c5b9cfbd465be90098c8ff8814093b6501ca791ea49106e198886dd66a85",
+      "bytes": 814,
+      "sha256": "f170c5b9cfbd465be90098c8ff8814093b6501ca791ea49106e198886dd66a85",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91003_A_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91003_A_single_visible.csv",
+      "original_bytes": 40166,
+      "original_sha256": "581b6dd62a37197a96e5455244e6b9b26107b0d6ff037d2bb197cc3b7bf44f2c",
+      "bytes": 40166,
+      "sha256": "581b6dd62a37197a96e5455244e6b9b26107b0d6ff037d2bb197cc3b7bf44f2c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91003_A_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91003_A_teacher_forced.csv",
+      "original_bytes": 94652,
+      "original_sha256": "1cc4be12a2f1c48b280440cf0656433fa854d5e44020483f45422eadac6948d0",
+      "bytes": 94652,
+      "sha256": "1cc4be12a2f1c48b280440cf0656433fa854d5e44020483f45422eadac6948d0",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91003_B_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91003_B_cavity_metrics.csv",
+      "original_bytes": 10458,
+      "original_sha256": "620823808db586067e4192c0ea05e142fed88eb3a5ed167a43dc92395a150559",
+      "bytes": 10458,
+      "sha256": "620823808db586067e4192c0ea05e142fed88eb3a5ed167a43dc92395a150559",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91003_B_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91003_B_complete.json",
+      "original_bytes": 814,
+      "original_sha256": "c7b0154ffb4847818ac5e470cf9a786efdb98c728329a6822020a0983066b247",
+      "bytes": 814,
+      "sha256": "c7b0154ffb4847818ac5e470cf9a786efdb98c728329a6822020a0983066b247",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91003_B_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91003_B_single_visible.csv",
+      "original_bytes": 40789,
+      "original_sha256": "5bdaebcd2d0223d43914f5d15e6bf79fa249fde1a51394fe88350425b348c346",
+      "bytes": 40789,
+      "sha256": "5bdaebcd2d0223d43914f5d15e6bf79fa249fde1a51394fe88350425b348c346",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91003_B_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91003_B_teacher_forced.csv",
+      "original_bytes": 94720,
+      "original_sha256": "7a856456649f8f1059c82f564cdeb78b3c9d8580e8273fdf102800703796ec7a",
+      "bytes": 94720,
+      "sha256": "7a856456649f8f1059c82f564cdeb78b3c9d8580e8273fdf102800703796ec7a",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91003_C_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91003_C_cavity_metrics.csv",
+      "original_bytes": 10490,
+      "original_sha256": "61c71202491ff05fe8a7a1ef415d2c7c5408f9a3a360484e87671e75d0facf25",
+      "bytes": 10490,
+      "sha256": "61c71202491ff05fe8a7a1ef415d2c7c5408f9a3a360484e87671e75d0facf25",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91003_C_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91003_C_complete.json",
+      "original_bytes": 813,
+      "original_sha256": "e2fd4c2d2203c91e457118261e8389439317a3377f824c1247e682517045e60d",
+      "bytes": 813,
+      "sha256": "e2fd4c2d2203c91e457118261e8389439317a3377f824c1247e682517045e60d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91003_C_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91003_C_single_visible.csv",
+      "original_bytes": 40545,
+      "original_sha256": "f9e0fc853fffa3428bbc48a44a05988d9513eacafd9069d5288496e94b6d8c3c",
+      "bytes": 40545,
+      "sha256": "f9e0fc853fffa3428bbc48a44a05988d9513eacafd9069d5288496e94b6d8c3c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91003_C_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91003_C_teacher_forced.csv",
+      "original_bytes": 94689,
+      "original_sha256": "95e39ab9391d129129c72672efb02abdd650102037af28aec05ab8903ecaa735",
+      "bytes": 94689,
+      "sha256": "95e39ab9391d129129c72672efb02abdd650102037af28aec05ab8903ecaa735",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91004_A_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91004_A_cavity_metrics.csv",
+      "original_bytes": 10516,
+      "original_sha256": "628787ecab99df5931d0b71dc2031df15ea1baf4bddb38f4143941a5b02e6c59",
+      "bytes": 10516,
+      "sha256": "628787ecab99df5931d0b71dc2031df15ea1baf4bddb38f4143941a5b02e6c59",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91004_A_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91004_A_complete.json",
+      "original_bytes": 814,
+      "original_sha256": "7b06acad508cdf5349683f831c6986cd53cfb57d20dcd8f8f92e10b297a4b634",
+      "bytes": 814,
+      "sha256": "7b06acad508cdf5349683f831c6986cd53cfb57d20dcd8f8f92e10b297a4b634",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91004_A_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91004_A_single_visible.csv",
+      "original_bytes": 40276,
+      "original_sha256": "6fdec23b46281b2c14a56a7677e84d32278ddfab9064f5c442e757374038922d",
+      "bytes": 40276,
+      "sha256": "6fdec23b46281b2c14a56a7677e84d32278ddfab9064f5c442e757374038922d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91004_A_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91004_A_teacher_forced.csv",
+      "original_bytes": 94647,
+      "original_sha256": "937c51103c249da00f77c5e3d756f779be0aa836713c9948220cec0139906b72",
+      "bytes": 94647,
+      "sha256": "937c51103c249da00f77c5e3d756f779be0aa836713c9948220cec0139906b72",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91004_B_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91004_B_cavity_metrics.csv",
+      "original_bytes": 10484,
+      "original_sha256": "e61e3b3d6cff5473edb67dbc6632a970378443e79f99dc97cf81d846178a31b9",
+      "bytes": 10484,
+      "sha256": "e61e3b3d6cff5473edb67dbc6632a970378443e79f99dc97cf81d846178a31b9",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91004_B_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91004_B_complete.json",
+      "original_bytes": 819,
+      "original_sha256": "1dcf9f141c112513d9d9d7c5a06a4728f9f8edfbd8da9636bd9872340d462f56",
+      "bytes": 819,
+      "sha256": "1dcf9f141c112513d9d9d7c5a06a4728f9f8edfbd8da9636bd9872340d462f56",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91004_B_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91004_B_single_visible.csv",
+      "original_bytes": 41042,
+      "original_sha256": "eeb2438aaded6896a5f27749e6bf49cb271f79084a3cf6650bfca5a010bf9e52",
+      "bytes": 41042,
+      "sha256": "eeb2438aaded6896a5f27749e6bf49cb271f79084a3cf6650bfca5a010bf9e52",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91004_B_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91004_B_teacher_forced.csv",
+      "original_bytes": 94711,
+      "original_sha256": "7339c012e01b64da0d40ebbae4dc6f74165124b1107923d077bbe8baa27ff332",
+      "bytes": 94711,
+      "sha256": "7339c012e01b64da0d40ebbae4dc6f74165124b1107923d077bbe8baa27ff332",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91004_C_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91004_C_cavity_metrics.csv",
+      "original_bytes": 10498,
+      "original_sha256": "2a4d4eb069aa2e1c493985801b56269e5448d2e3ff43adccf8ded0a412e0db4d",
+      "bytes": 10498,
+      "sha256": "2a4d4eb069aa2e1c493985801b56269e5448d2e3ff43adccf8ded0a412e0db4d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91004_C_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91004_C_complete.json",
+      "original_bytes": 816,
+      "original_sha256": "3649d45f86e114f82a04acad584d4a79af7e36635bc05680969d2bcc7994eae2",
+      "bytes": 816,
+      "sha256": "3649d45f86e114f82a04acad584d4a79af7e36635bc05680969d2bcc7994eae2",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91004_C_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91004_C_single_visible.csv",
+      "original_bytes": 40915,
+      "original_sha256": "fb54900223001f6b93a1cc5723a9fd939d89522d158bf4bf7b049c4b205c62c4",
+      "bytes": 40915,
+      "sha256": "fb54900223001f6b93a1cc5723a9fd939d89522d158bf4bf7b049c4b205c62c4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91004_C_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91004_C_teacher_forced.csv",
+      "original_bytes": 94665,
+      "original_sha256": "a2f88b91f09fc8662022566a078d893bb8d5d186508097d4017c8ddbfbfb84f3",
+      "bytes": 94665,
+      "sha256": "a2f88b91f09fc8662022566a078d893bb8d5d186508097d4017c8ddbfbfb84f3",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91005_A_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91005_A_cavity_metrics.csv",
+      "original_bytes": 10441,
+      "original_sha256": "5b93bc264b86b0f23f887e620c56c899e70f63b2278f3a05b7ab08aa3bf72f13",
+      "bytes": 10441,
+      "sha256": "5b93bc264b86b0f23f887e620c56c899e70f63b2278f3a05b7ab08aa3bf72f13",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91005_A_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91005_A_complete.json",
+      "original_bytes": 811,
+      "original_sha256": "b38128f92eccff449292f175c723aea85e4a6b430bf4dba061a5d519b87e5305",
+      "bytes": 811,
+      "sha256": "b38128f92eccff449292f175c723aea85e4a6b430bf4dba061a5d519b87e5305",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91005_A_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91005_A_single_visible.csv",
+      "original_bytes": 40017,
+      "original_sha256": "866b33e289eaabab69b071673a99cf84f4e869f1f96c84d1bdaa976a53ae322b",
+      "bytes": 40017,
+      "sha256": "866b33e289eaabab69b071673a99cf84f4e869f1f96c84d1bdaa976a53ae322b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91005_A_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91005_A_teacher_forced.csv",
+      "original_bytes": 94695,
+      "original_sha256": "8aa466ca2562f8c77f0100a980107d573f5e5bbe39c98442464268a9a1cd085d",
+      "bytes": 94695,
+      "sha256": "8aa466ca2562f8c77f0100a980107d573f5e5bbe39c98442464268a9a1cd085d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91005_B_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91005_B_cavity_metrics.csv",
+      "original_bytes": 10491,
+      "original_sha256": "2dd3925df6b4a8d32763bc09b498ee61601e3cd4e3b7546deff77c8628c42fce",
+      "bytes": 10491,
+      "sha256": "2dd3925df6b4a8d32763bc09b498ee61601e3cd4e3b7546deff77c8628c42fce",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91005_B_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91005_B_complete.json",
+      "original_bytes": 817,
+      "original_sha256": "3209b12df5b2ca6cd8f330abedee128cb602ce13d880fee36aba21f9dbe8f334",
+      "bytes": 817,
+      "sha256": "3209b12df5b2ca6cd8f330abedee128cb602ce13d880fee36aba21f9dbe8f334",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91005_B_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91005_B_single_visible.csv",
+      "original_bytes": 40890,
+      "original_sha256": "2b45869343f904b7e29d3da8c126c6db553a608a27d5970aa73f02d34e675f23",
+      "bytes": 40890,
+      "sha256": "2b45869343f904b7e29d3da8c126c6db553a608a27d5970aa73f02d34e675f23",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91005_B_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91005_B_teacher_forced.csv",
+      "original_bytes": 94666,
+      "original_sha256": "da37e69b9a3143cc795870a2355c48b129cc266786e9d1376fc0076f601a1b1f",
+      "bytes": 94666,
+      "sha256": "da37e69b9a3143cc795870a2355c48b129cc266786e9d1376fc0076f601a1b1f",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91005_C_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91005_C_cavity_metrics.csv",
+      "original_bytes": 10512,
+      "original_sha256": "45d2dbeead4085d4ab7eb277991a73466fe9f9c7c87f15f33148ae0a7a4e4cd9",
+      "bytes": 10512,
+      "sha256": "45d2dbeead4085d4ab7eb277991a73466fe9f9c7c87f15f33148ae0a7a4e4cd9",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91005_C_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91005_C_complete.json",
+      "original_bytes": 815,
+      "original_sha256": "22ac70956a98ef3b0c436899f5ca1f3463349ca8eebb084f6fead938624262dd",
+      "bytes": 815,
+      "sha256": "22ac70956a98ef3b0c436899f5ca1f3463349ca8eebb084f6fead938624262dd",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91005_C_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91005_C_single_visible.csv",
+      "original_bytes": 40550,
+      "original_sha256": "96434c87a37408ecbc199e7758cb490aaeb4620c3a3297b72ee66beed6a64f7f",
+      "bytes": 40550,
+      "sha256": "96434c87a37408ecbc199e7758cb490aaeb4620c3a3297b72ee66beed6a64f7f",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91005_C_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91005_C_teacher_forced.csv",
+      "original_bytes": 94685,
+      "original_sha256": "6319b0365ecdbae3070c3e2835cc415d2048fbeb28158cef4478d913dceb9119",
+      "bytes": 94685,
+      "sha256": "6319b0365ecdbae3070c3e2835cc415d2048fbeb28158cef4478d913dceb9119",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91006_A_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91006_A_cavity_metrics.csv",
+      "original_bytes": 10469,
+      "original_sha256": "b0f4118f8a27c08f252369dad900ddcbe80ac97f05ecf34b460676442810307e",
+      "bytes": 10469,
+      "sha256": "b0f4118f8a27c08f252369dad900ddcbe80ac97f05ecf34b460676442810307e",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91006_A_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91006_A_complete.json",
+      "original_bytes": 811,
+      "original_sha256": "4691f41deb1dd0072accbbcfb760b1cc77454e6e68d26debacc06d1451d3a1db",
+      "bytes": 811,
+      "sha256": "4691f41deb1dd0072accbbcfb760b1cc77454e6e68d26debacc06d1451d3a1db",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91006_A_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91006_A_single_visible.csv",
+      "original_bytes": 40186,
+      "original_sha256": "e632c3cfce49d859dcd926f2ae64ca5b903f2279d8cb5ef7f5f11e95c2797fef",
+      "bytes": 40186,
+      "sha256": "e632c3cfce49d859dcd926f2ae64ca5b903f2279d8cb5ef7f5f11e95c2797fef",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91006_A_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91006_A_teacher_forced.csv",
+      "original_bytes": 94643,
+      "original_sha256": "3f10edd11c8567c38e2c7b04b9a53c450895a23075a83e0bbfda45989e9d13f2",
+      "bytes": 94643,
+      "sha256": "3f10edd11c8567c38e2c7b04b9a53c450895a23075a83e0bbfda45989e9d13f2",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91006_B_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91006_B_cavity_metrics.csv",
+      "original_bytes": 10450,
+      "original_sha256": "3f07f37c1cb255dfce2985aadb8d1dfc9b8ce9ca8952267dc1e0e880574061d1",
+      "bytes": 10450,
+      "sha256": "3f07f37c1cb255dfce2985aadb8d1dfc9b8ce9ca8952267dc1e0e880574061d1",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91006_B_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91006_B_complete.json",
+      "original_bytes": 816,
+      "original_sha256": "11162d7700bddb1fc34cf7b688cf99504065e1889543d3f2e7ba3e6779aa3190",
+      "bytes": 816,
+      "sha256": "11162d7700bddb1fc34cf7b688cf99504065e1889543d3f2e7ba3e6779aa3190",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91006_B_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91006_B_single_visible.csv",
+      "original_bytes": 40883,
+      "original_sha256": "fc3a81a3733e567f2768b93ab6f93c6ff33311e2acfa1c1687b501ddc4688187",
+      "bytes": 40883,
+      "sha256": "fc3a81a3733e567f2768b93ab6f93c6ff33311e2acfa1c1687b501ddc4688187",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91006_B_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91006_B_teacher_forced.csv",
+      "original_bytes": 94693,
+      "original_sha256": "4c071a1d0cb882449591f966ea8e6f4caf97ca1360e38d6a35a54603c2389134",
+      "bytes": 94693,
+      "sha256": "4c071a1d0cb882449591f966ea8e6f4caf97ca1360e38d6a35a54603c2389134",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91006_C_cavity_metrics.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91006_C_cavity_metrics.csv",
+      "original_bytes": 10446,
+      "original_sha256": "5c6e7e63de64c62fc2f6b4258e9f0d2903211707941e391e3fa27f8ad4ec59d3",
+      "bytes": 10446,
+      "sha256": "5c6e7e63de64c62fc2f6b4258e9f0d2903211707941e391e3fa27f8ad4ec59d3",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91006_C_complete.json",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91006_C_complete.json",
+      "original_bytes": 815,
+      "original_sha256": "c6fa5f2a948e859291392699204924364d534ac956af1b6afc56eeee8386652d",
+      "bytes": 815,
+      "sha256": "c6fa5f2a948e859291392699204924364d534ac956af1b6afc56eeee8386652d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91006_C_single_visible.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91006_C_single_visible.csv",
+      "original_bytes": 40815,
+      "original_sha256": "0f71d6b6812ee7d837bdd288ae0bb94fba2b0812eabf830ac456ae77056fa569",
+      "bytes": 40815,
+      "sha256": "0f71d6b6812ee7d837bdd288ae0bb94fba2b0812eabf830ac456ae77056fa569",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/s91006_C_teacher_forced.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/s91006_C_teacher_forced.csv",
+      "original_bytes": 94707,
+      "original_sha256": "d4ddf5cfbe394d9abfe65844317759171c690ef2095657a1c42cad7feeafcb5b",
+      "bytes": 94707,
+      "sha256": "d4ddf5cfbe394d9abfe65844317759171c690ef2095657a1c42cad7feeafcb5b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/sampling_summary.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/sampling_summary.csv",
+      "original_bytes": 9294,
+      "original_sha256": "f0823afc107ea90413f6d93bdf94213d2567361c0a40e966e61f0be2549337ca",
+      "bytes": 9294,
+      "sha256": "f0823afc107ea90413f6d93bdf94213d2567361c0a40e966e61f0be2549337ca",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/figures/continuous96_step_comparison.png",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/figures/continuous96_step_comparison.png",
+      "original_bytes": 161122,
+      "original_sha256": "7c14512f77c611ec4ab41b3251ebf3adb66f02d43cb61b13830f1f95d43d70c8",
+      "bytes": 161122,
+      "sha256": "7c14512f77c611ec4ab41b3251ebf3adb66f02d43cb61b13830f1f95d43d70c8",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/figures/held_s10_w48_step_comparison.png",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/figures/held_s10_w48_step_comparison.png",
+      "original_bytes": 203239,
+      "original_sha256": "c9ff754305e90f04ae9676fc5b6a01822e609e9ab1ce0c59e8ad04e2868bd9c5",
+      "bytes": 203239,
+      "sha256": "c9ff754305e90f04ae9676fc5b6a01822e609e9ab1ce0c59e8ad04e2868bd9c5",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/diagnostics_20260922_remote/figures/single_visible_distance_response.png",
+      "published": "geometry-aligned-conditioning/diagnostics/context-joint/figures/single_visible_distance_response.png",
+      "original_bytes": 158140,
+      "original_sha256": "325c127812f183120a734751398ec8a51d582ad695a8fad641d164e289e62451",
+      "bytes": 158140,
+      "sha256": "325c127812f183120a734751398ec8a51d582ad695a8fad641d164e289e62451",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mechanism_20260922_remote/completion_verification.json",
+      "published": "geometry-aligned-conditioning/diagnostics/mechanism/completion_verification.json",
+      "original_bytes": 3106,
+      "original_sha256": "20805317f8d09710ce4b501d6940d9b9768e9561da9c3eee7b45ddc1638fcde1",
+      "bytes": 3081,
+      "sha256": "e334ac6f0800736584e8f1d5c9e8636a5e916de96e218f4fdbc61a8a0d7f070f",
+      "transformations": [
+        {
+          "kind": "machine-specific project root",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "artifacts/mechanism_20260922_remote/context_by_seed.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/mechanism/context_by_seed.csv",
+      "original_bytes": 28362,
+      "original_sha256": "d160a7599455aee698d2ed37103237f121c625be9b40f40ac6fae6f671753112",
+      "bytes": 28362,
+      "sha256": "d160a7599455aee698d2ed37103237f121c625be9b40f40ac6fae6f671753112",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mechanism_20260922_remote/final_summary.json",
+      "published": "geometry-aligned-conditioning/diagnostics/mechanism/final_summary.json",
+      "original_bytes": 495,
+      "original_sha256": "8ed7b358eb39952dc795a96bcaeb7e60331cab8f6912e412939604631fe1e149",
+      "bytes": 495,
+      "sha256": "8ed7b358eb39952dc795a96bcaeb7e60331cab8f6912e412939604631fe1e149",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mechanism_20260922_remote/frequency_by_seed.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/mechanism/frequency_by_seed.csv",
+      "original_bytes": 11071,
+      "original_sha256": "77e32c4a2cb299d79426addfe538e8282c824f38eba3d1f883a2bd9b2cd231aa",
+      "bytes": 11071,
+      "sha256": "77e32c4a2cb299d79426addfe538e8282c824f38eba3d1f883a2bd9b2cd231aa",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mechanism_20260922_remote/frozen_protocol.json",
+      "published": "geometry-aligned-conditioning/diagnostics/mechanism/frozen_protocol.json",
+      "original_bytes": 5696,
+      "original_sha256": "a49acf5e405fb8fa8bdbb14facec30c67b6e950f4db8fb41a49ccb6bc561f781",
+      "bytes": 5696,
+      "sha256": "a49acf5e405fb8fa8bdbb14facec30c67b6e950f4db8fb41a49ccb6bc561f781",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mechanism_20260922_remote/gate_s91001_A.json",
+      "published": "geometry-aligned-conditioning/diagnostics/mechanism/gate_s91001_A.json",
+      "original_bytes": 394,
+      "original_sha256": "f862ffbf891246b19c551971dac91bc4d7a3f37c603807cb0c44aa5ae7d3aa3d",
+      "bytes": 394,
+      "sha256": "f862ffbf891246b19c551971dac91bc4d7a3f37c603807cb0c44aa5ae7d3aa3d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mechanism_20260922_remote/information_by_seed.csv",
+      "published": "geometry-aligned-conditioning/diagnostics/mechanism/information_by_seed.csv",
+      "original_bytes": 123937,
+      "original_sha256": "d26730a6afc4d878f4aac0fe77373e331a2d7d0aaf593a0b926d72f90ef4d5f5",
+      "bytes": 123937,
+      "sha256": "d26730a6afc4d878f4aac0fe77373e331a2d7d0aaf593a0b926d72f90ef4d5f5",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mechanism_20260922_remote/input_manifest.json",
+      "published": "geometry-aligned-conditioning/diagnostics/mechanism/input_manifest.json",
+      "original_bytes": 274,
+      "original_sha256": "69288d7bf75bde861460cc7910e03b2a2018c3899482aab4d2d5bd652c1ccdc2",
+      "bytes": 274,
+      "sha256": "69288d7bf75bde861460cc7910e03b2a2018c3899482aab4d2d5bd652c1ccdc2",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mechanism_20260922_remote/figures/context_invariance.png",
+      "published": "geometry-aligned-conditioning/diagnostics/mechanism/figures/context_invariance.png",
+      "original_bytes": 135878,
+      "original_sha256": "aa40e9f868f9416217756c04cbcf0d7565cf37598957f58afd3c72bb9b82b799",
+      "bytes": 135878,
+      "sha256": "aa40e9f868f9416217756c04cbcf0d7565cf37598957f58afd3c72bb9b82b799",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mechanism_20260922_remote/figures/information_profiles.png",
+      "published": "geometry-aligned-conditioning/diagnostics/mechanism/figures/information_profiles.png",
+      "original_bytes": 135926,
+      "original_sha256": "062984dd6447966cc376baa91bc968907f983d303f852748830c93cdd3f9394f",
+      "bytes": 135926,
+      "sha256": "062984dd6447966cc376baa91bc968907f983d303f852748830c93cdd3f9394f",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mechanism_20260922_remote/figures/single_band_response.png",
+      "published": "geometry-aligned-conditioning/diagnostics/mechanism/figures/single_band_response.png",
+      "original_bytes": 157837,
+      "original_sha256": "e2f3db04eeaaed3b49720365abcb09aa93f6c3d9828d9df1eab6d4a634375e37",
+      "bytes": 157837,
+      "sha256": "e2f3db04eeaaed3b49720365abcb09aa93f6c3d9828d9df1eab6d4a634375e37",
+      "transformations": []
+    }
+  ]
+}

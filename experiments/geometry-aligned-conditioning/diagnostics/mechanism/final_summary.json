@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "elapsed_hours": 0.3489371662669712,
+  "models": 18,
+  "phases": {
+    "context": 18,
+    "frequency": 18,
+    "information": 18,
+    "attention": 18
+  },
+  "units_per_model": {
+    "context": 55,
+    "frequency": 17,
+    "information": 90,
+    "attention": 8
+  },
+  "checkpoint_unchanged": true,
+  "protocol_hash": "cf7fc5e94677e8183cdcbdad42651fe992a434da7551bf108937aac37538479d",
+  "peak_allocated_gib": 0.2125563621520996,
+  "full_local_backup_verified": false
+}

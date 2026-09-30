@@ -1,0 +1,366 @@
+{
+  "status": "passed",
+  "records": [
+    {
+      "seed": 91001,
+      "arm": "A",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.1934897514720433e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.01686306156352632,
+      "residual_curvature_r380": 0.035899851378366945
+    },
+    {
+      "seed": 91001,
+      "arm": "A",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.275957200481571e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91001,
+      "arm": "B",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.8041124150158794e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.0019465036710624856,
+      "residual_curvature_r380": 1.7262468434406375e-05
+    },
+    {
+      "seed": 91001,
+      "arm": "B",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.3314683517128287e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91001,
+      "arm": "C",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.6930901125533637e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": -0.00046792283499254295,
+      "residual_curvature_r380": 0.000730777830387247
+    },
+    {
+      "seed": 91001,
+      "arm": "C",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.7200464103316335e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91002,
+      "arm": "A",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.304512053934559e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.007942741740643675,
+      "residual_curvature_r380": 0.05396592881944447
+    },
+    {
+      "seed": 91002,
+      "arm": "A",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.1371793224034263e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91002,
+      "arm": "B",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.887379141862766e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.0035038923525587823,
+      "residual_curvature_r380": -0.0010094433922558238
+    },
+    {
+      "seed": 91002,
+      "arm": "B",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.609024107869118e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91002,
+      "arm": "C",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.6653345369377348e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.0015857581695573747,
+      "residual_curvature_r380": 0.00299528488005045
+    },
+    {
+      "seed": 91002,
+      "arm": "C",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.831068712794149e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91003,
+      "arm": "A",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.1796119636642288e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.01671343690134096,
+      "residual_curvature_r380": 0.05121626420454545
+    },
+    {
+      "seed": 91003,
+      "arm": "A",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.4424906541753444e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91003,
+      "arm": "B",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.970645868709653e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.0018470300633723208,
+      "residual_curvature_r380": -0.0002646911826598014
+    },
+    {
+      "seed": 91003,
+      "arm": "B",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.886579864025407e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91003,
+      "arm": "C",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.7763568394002505e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": -0.0008835498661568797,
+      "residual_curvature_r380": 0.00041232638888900885
+    },
+    {
+      "seed": 91003,
+      "arm": "C",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.942091015256665e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91004,
+      "arm": "A",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.1657341758564144e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.007643111572933695,
+      "residual_curvature_r380": 0.04707524463383837
+    },
+    {
+      "seed": 91004,
+      "arm": "A",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.6645352591003757e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91004,
+      "arm": "B",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.8318679906315083e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.001393752993295097,
+      "residual_curvature_r380": 0.0005826494107743913
+    },
+    {
+      "seed": 91004,
+      "arm": "B",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.609024107869118e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91004,
+      "arm": "C",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.582067810090848e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": -0.0011158375773980406,
+      "residual_curvature_r380": 0.002231790561868785
+    },
+    {
+      "seed": 91004,
+      "arm": "C",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.831068712794149e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91005,
+      "arm": "A",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 9.992007221626409e-16,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.01824659860127599,
+      "residual_curvature_r380": 0.05096817787247472
+    },
+    {
+      "seed": 91005,
+      "arm": "A",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.3592239273284576e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91005,
+      "arm": "B",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.8596235662471372e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.0017899169253729058,
+      "residual_curvature_r380": 0.0014840790719696934
+    },
+    {
+      "seed": 91005,
+      "arm": "B",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.6645352591003757e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91005,
+      "arm": "C",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.5543122344752192e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.00039514834983925273,
+      "residual_curvature_r380": -0.0007537944549663722
+    },
+    {
+      "seed": 91005,
+      "arm": "C",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.609024107869118e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91006,
+      "arm": "A",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.3322676295501878e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.013306973629070837,
+      "residual_curvature_r380": 0.03588324652777765
+    },
+    {
+      "seed": 91006,
+      "arm": "A",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.275957200481571e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91006,
+      "arm": "B",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 2.1094237467877974e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.004174978405514382,
+      "residual_curvature_r380": -0.0006171743476430097
+    },
+    {
+      "seed": 91006,
+      "arm": "B",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.3869795029440866e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    },
+    {
+      "seed": 91006,
+      "arm": "C",
+      "geometry": "held_s10_w48",
+      "samples": 128,
+      "max_model_error": 1.7763568394002505e-15,
+      "max_mc_error": 1.3322676295501878e-15,
+      "spin_values_ok": true,
+      "residual_curvature_r190": 0.0007396311726018262,
+      "residual_curvature_r380": -0.004700487952441018
+    },
+    {
+      "seed": 91006,
+      "arm": "C",
+      "geometry": "continuous96",
+      "samples": 128,
+      "max_model_error": 2.4424906541753444e-15,
+      "max_mc_error": 2.4980018054066022e-15,
+      "spin_values_ok": true
+    }
+  ],
+  "interpretation": "Exact FFT/slicing parity checks calculation, not MC precision or physical correctness."
+}
