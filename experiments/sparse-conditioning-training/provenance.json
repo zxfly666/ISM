@@ -1,0 +1,198 @@
+{
+  "policy": "Original evidence unchanged. Public text redactions are explicit; no numerical result changes.",
+  "files": [
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/cases.json",
+      "published": "sparse-conditioning-training/evidence/cases.json",
+      "original_bytes": 251416,
+      "original_sha256": "c4de76682210d71c88912a19219374e7bdae633d91c318840e114e37c0eb32fd",
+      "bytes": 251416,
+      "sha256": "c4de76682210d71c88912a19219374e7bdae633d91c318840e114e37c0eb32fd",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/final_summary.json",
+      "published": "sparse-conditioning-training/evidence/final_summary.json",
+      "original_bytes": 16708,
+      "original_sha256": "801bf687e07b43e24ae52a8746ae8f42bd122da0d1e85e186a446ff5c7c2cd7d",
+      "bytes": 16708,
+      "sha256": "801bf687e07b43e24ae52a8746ae8f42bd122da0d1e85e186a446ff5c7c2cd7d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/manifest.json",
+      "published": "sparse-conditioning-training/evidence/manifest.json",
+      "original_bytes": 165009,
+      "original_sha256": "ba3ea20ea86bd1ff51cb4fee58dbf02c0d98ab7d1f8b72ebc0b60597b748fab9",
+      "bytes": 165009,
+      "sha256": "ba3ea20ea86bd1ff51cb4fee58dbf02c0d98ab7d1f8b72ebc0b60597b748fab9",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/run_protocol.json",
+      "published": "sparse-conditioning-training/evidence/run_protocol.json",
+      "original_bytes": 12657,
+      "original_sha256": "ef474120f25b574e2c05676553ae2ebbff9cc71338b24c06ffd821e762722eb6",
+      "bytes": 12482,
+      "sha256": "e7e4dcb9ef796f0cd7046418692b9388d1e9b9ff3fea49124b3f24c4c9b8a7a9",
+      "transformations": [
+        {
+          "kind": "machine-specific project root",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/analysis/bootstrap_block16.npz",
+      "published": "sparse-conditioning-training/evidence/analysis/bootstrap_block16.npz",
+      "original_bytes": 893559,
+      "original_sha256": "186d9ed32717288e68b4f13aef5cfbffa90166275b506995fb54b20412fe9bfe",
+      "bytes": 893559,
+      "sha256": "186d9ed32717288e68b4f13aef5cfbffa90166275b506995fb54b20412fe9bfe",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/analysis/bootstrap_block4.npz",
+      "published": "sparse-conditioning-training/evidence/analysis/bootstrap_block4.npz",
+      "original_bytes": 894759,
+      "original_sha256": "44514d8d3cb3dbdd27ffbd1f5ebad446499d4415d5915155593dd59bd3b3fd31",
+      "bytes": 894759,
+      "sha256": "44514d8d3cb3dbdd27ffbd1f5ebad446499d4415d5915155593dd59bd3b3fd31",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/analysis/bootstrap_block8.npz",
+      "published": "sparse-conditioning-training/evidence/analysis/bootstrap_block8.npz",
+      "original_bytes": 1788285,
+      "original_sha256": "f8f1cce823895ac9921360c67806d221bcd46ff8844eb84194d17a67a8035bf4",
+      "bytes": 1788285,
+      "sha256": "f8f1cce823895ac9921360c67806d221bcd46ff8844eb84194d17a67a8035bf4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/analysis/crossed_uncertainty.json",
+      "published": "sparse-conditioning-training/evidence/analysis/crossed_uncertainty.json",
+      "original_bytes": 162121,
+      "original_sha256": "b38c1ef0284ca62147106a47d0bc6b4c0f6bdca909e187980b32723284d0592a",
+      "bytes": 162121,
+      "sha256": "b38c1ef0284ca62147106a47d0bc6b4c0f6bdca909e187980b32723284d0592a",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/analysis/figures/accuracy_and_consistency.pdf",
+      "published": "sparse-conditioning-training/evidence/analysis/figures/accuracy_and_consistency.pdf",
+      "original_bytes": 15425,
+      "original_sha256": "0c730628cf5ea32c2a46e1ffa4a61e8fe80e255420410e7be6fdcb3f482a6783",
+      "bytes": 15425,
+      "sha256": "0c730628cf5ea32c2a46e1ffa4a61e8fe80e255420410e7be6fdcb3f482a6783",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/analysis/figures/accuracy_and_consistency.png",
+      "published": "sparse-conditioning-training/evidence/analysis/figures/accuracy_and_consistency.png",
+      "original_bytes": 250608,
+      "original_sha256": "1a0090fafe2ec8405c7115790dd5b4351646a48287c41749b4bf98e2fae4671d",
+      "bytes": 250608,
+      "sha256": "1a0090fafe2ec8405c7115790dd5b4351646a48287c41749b4bf98e2fae4671d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/analysis/figures/generation_correlations.pdf",
+      "published": "sparse-conditioning-training/evidence/analysis/figures/generation_correlations.pdf",
+      "original_bytes": 32539,
+      "original_sha256": "af3ef10929822e83ebd4d21472ed1f7d28117240e60ab62274533d1d90c607cb",
+      "bytes": 32539,
+      "sha256": "af3ef10929822e83ebd4d21472ed1f7d28117240e60ab62274533d1d90c607cb",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/analysis/figures/generation_correlations.png",
+      "published": "sparse-conditioning-training/evidence/analysis/figures/generation_correlations.png",
+      "original_bytes": 383696,
+      "original_sha256": "d4fb5e3990be0e494bcb6d7a62076711772e26893c228ea6212856bff809ec06",
+      "bytes": 383696,
+      "sha256": "d4fb5e3990be0e494bcb6d7a62076711772e26893c228ea6212856bff809ec06",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/analysis/figures/primary_paired_seeds.pdf",
+      "published": "sparse-conditioning-training/evidence/analysis/figures/primary_paired_seeds.pdf",
+      "original_bytes": 19100,
+      "original_sha256": "b9f1638a1a5bec52f40b1568633f5ab37c323f2bf47fc1a49d5475b38970de20",
+      "bytes": 19100,
+      "sha256": "b9f1638a1a5bec52f40b1568633f5ab37c323f2bf47fc1a49d5475b38970de20",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/analysis/figures/primary_paired_seeds.png",
+      "published": "sparse-conditioning-training/evidence/analysis/figures/primary_paired_seeds.png",
+      "original_bytes": 362881,
+      "original_sha256": "5187f46e939c5309ab331bac80086d6773159bec511a59b137c5eaf43c2553fd",
+      "bytes": 362881,
+      "sha256": "5187f46e939c5309ab331bac80086d6773159bec511a59b137c5eaf43c2553fd",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/analysis/paired_contrasts.csv",
+      "published": "sparse-conditioning-training/evidence/analysis/paired_contrasts.csv",
+      "original_bytes": 89882,
+      "original_sha256": "c665d4751b5ae04239f837b387174ca4eac048906c2c09e0b487fd038653523a",
+      "bytes": 89882,
+      "sha256": "c665d4751b5ae04239f837b387174ca4eac048906c2c09e0b487fd038653523a",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/analysis/per_seed_metrics.csv",
+      "published": "sparse-conditioning-training/evidence/analysis/per_seed_metrics.csv",
+      "original_bytes": 107174,
+      "original_sha256": "1dbe0955d22189e731679f02bf6e4090adfa6891fa78bcc7741cf76d28bd9652",
+      "bytes": 107174,
+      "sha256": "1dbe0955d22189e731679f02bf6e4090adfa6891fa78bcc7741cf76d28bd9652",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/analysis/plot_data.npz",
+      "published": "sparse-conditioning-training/evidence/analysis/plot_data.npz",
+      "original_bytes": 693979,
+      "original_sha256": "bdf62231a15511222755427de59981dc43682c09f1a27d5ff701c11ed8e3f4a3",
+      "bytes": 693979,
+      "sha256": "bdf62231a15511222755427de59981dc43682c09f1a27d5ff701c11ed8e3f4a3",
+      "transformations": []
+    },
+    {
+      "source": "docs/research_reboot_20260921/SPARSE_CONDITIONING_TRAINING_PROTOCOL_20260923_ZH.md",
+      "published": "sparse-conditioning-training/protocol/SPARSE_CONDITIONING_TRAINING_PROTOCOL_20260923_ZH.md",
+      "original_bytes": 12969,
+      "original_sha256": "addb76646306a187fba563c3284e82729c067b3a34d62bd24b33eec4924fcd8f",
+      "bytes": 13278,
+      "sha256": "5b287d35ce4203e22cbe2530598cae5ad96be1067df43a1006081e4a3fdafdaf",
+      "transformations": [
+        {
+          "kind": "historical local link rendered as source identifier",
+          "count": 2
+        },
+        {
+          "kind": "public-copy notice"
+        }
+      ]
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/reference/complete.json",
+      "published": "sparse-conditioning-training/evidence/reference/complete.json",
+      "original_bytes": 6016,
+      "original_sha256": "048c06177b8be30b4d9ffd43903d6082e0fd1eb079524aba2c6d6cc07f514c16",
+      "bytes": 6016,
+      "sha256": "048c06177b8be30b4d9ffd43903d6082e0fd1eb079524aba2c6d6cc07f514c16",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/sparse_conditioning_20260923_remote/final_evidence/reference/protocol.json",
+      "published": "sparse-conditioning-training/evidence/reference/protocol.json",
+      "original_bytes": 603,
+      "original_sha256": "9788f77eca3ee2c5b9538c37f20b199f962f75e5e4e2638030e86bcd6f3690a1",
+      "bytes": 603,
+      "sha256": "9788f77eca3ee2c5b9538c37f20b199f962f75e5e4e2638030e86bcd6f3690a1",
+      "transformations": []
+    }
+  ]
+}

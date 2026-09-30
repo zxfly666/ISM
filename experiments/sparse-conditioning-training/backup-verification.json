@@ -1,0 +1,98 @@
+[
+  {
+    "receipt": "evaluation_final_s91006_t2_20260924.tar.gz.verification.json",
+    "sha256": "930a8e70d44600f0bb35027f087878e1eb9ec16732d9c2c91299366887e96f14",
+    "result": {
+      "status": "passed",
+      "cell": "s91006_T2",
+      "files": 37,
+      "bytes": 2947059,
+      "sha256": "949640508d6c63fb8bc10815d6601c3843feb1dba30ec7aef0ffab5e933b9d68",
+      "scope": "Completed evaluation branches with all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_increment_20260923_2030.tar.gz.verification.json",
+    "sha256": "016615d136352a55b395a505893095235534ac8574385c7da10169658fd9780c",
+    "result": {
+      "status": "passed",
+      "cell": "s91001_T2,s91002_T0,s91002_T1",
+      "files": 111,
+      "bytes": 8840137,
+      "sha256": "83b8d48aa7ffbfd5ce125ac46cb5c5e6ef5fe568d6ba97f2e42565a4a5684434",
+      "scope": "Completed evaluation branches with all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_increment_20260923_2245.tar.gz.verification.json",
+    "sha256": "7eb8a9447c0cbdf872be500c937b941359d24b3eebcce1c036b9f50d95cc3c42",
+    "result": {
+      "status": "passed",
+      "cell": "s91002_T2,s91003_T0,s91003_T1,s91003_T2,s91004_T0,s91004_T1,s91004_T2",
+      "files": 259,
+      "bytes": 20626268,
+      "sha256": "16e17a43340801505ca633048a97e268e9d3c2145b4aae819adaab2d9044f34a",
+      "scope": "Completed evaluation branches with all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_increment_20260923_2330.tar.gz.verification.json",
+    "sha256": "80da10d49f3bdc47e0ced5289e8be9ca69c00980cbf75762335557f4c87f6d63",
+    "result": {
+      "status": "passed",
+      "cell": "s91005_T0,s91005_T1,s91005_T2",
+      "files": 111,
+      "bytes": 8828961,
+      "sha256": "6ddb4e98cd332ceabc2e5b13510c12865063df1c6e2a22bd86063484f722c11e",
+      "scope": "Completed evaluation branches with all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_increment_20260924_0005.tar.gz.verification.json",
+    "sha256": "99c0bf37d9b4c7d5a0ceeb37accd20d93d686f79ac68be672c4e87b0f13bd7d9",
+    "result": {
+      "status": "passed",
+      "cell": "s91006_T0,s91006_T1",
+      "files": 74,
+      "bytes": 5896461,
+      "sha256": "3908b58eba370a4f8827142e79f8970c2274a945d5400d8b707bebde6ace0e00",
+      "scope": "Completed evaluation branches with all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_s91001_T0_T1_v1.tar.gz.verification.json",
+    "sha256": "67159a34d094455f3f8542481c8db37af12d6cade821d63bf8dcae31152fa4fe",
+    "result": {
+      "status": "passed",
+      "cell": "s91001_T0,s91001_T1",
+      "files": 74,
+      "bytes": 5896033,
+      "sha256": "e9fbc14fd87b8e5394dc57a0a8b1a7c96394eca8ec975f496caa506c8791a656",
+      "scope": "Two completed evaluation branches, including raw conditional predictions and 640 generated samples; not full campaign completion"
+    }
+  },
+  {
+    "receipt": "final_analysis_and_metadata_20260924.tar.gz.verification.json",
+    "sha256": "55def53f0261fef0d067769ee32d572a2f870eb5fe1519f17f4272b7e60fc848",
+    "result": {
+      "status": "passed",
+      "cell": "final_analysis_and_metadata",
+      "files": 24,
+      "bytes": 5349899,
+      "sha256": "9036bd70873d84a34f6bba59d5264663db7e846c297b379062dd8b1316e41aeb",
+      "scope": "Final prescribed statistics, figures, campaign manifest and root metadata. Training, reference data and raw evaluations backed up separately."
+    }
+  },
+  {
+    "receipt": "final_source_and_preflight_supplement_20260924.tar.gz.verification.json",
+    "sha256": "32fe676bc4b72775b820e1754b8f10a1604e51c5f5918b10eb49913866459338",
+    "result": {
+      "status": "passed",
+      "cell": "source_and_preflight_supplement",
+      "files": 62,
+      "bytes": 127238,
+      "sha256": "cf3987a5cc0d22f933cdd9754c24ab8d1aa8ff35be4991f41b0f38e174b10388",
+      "scope": "Exact-path source snapshot and small preflight logs; excludes temporary weights"
+    }
+  }
+]

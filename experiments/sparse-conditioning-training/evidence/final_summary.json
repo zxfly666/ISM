@@ -1,0 +1,665 @@
+{
+  "status": "remote_complete_requires_backup_and_visual_review",
+  "models": 18,
+  "sampling_tasks": 72,
+  "generation_samples": 5760,
+  "checkpoint_unchanged": true,
+  "training_pairing_verified": true,
+  "conditional_primary": {
+    "estimate": -0.1616603608057318,
+    "ci95": [
+      -0.18839359169688027,
+      -0.13540236959640117
+    ]
+  },
+  "generation_primary": {
+    "estimate": -0.22474255206973176,
+    "ci95": [
+      -0.2996970563876197,
+      -0.09911242065975141
+    ]
+  },
+  "retention_gate": true,
+  "T1_end_to_end_gate_passed": true,
+  "T2_comparisons": {
+    "matched_continuous48/natural/sequential_kl": {
+      "estimate": -0.0009326435752090422,
+      "ci95": [
+        -0.0012507207814215259,
+        -0.0006408186879935278
+      ]
+    },
+    "matched_continuous48/natural/parallel_kl": {
+      "estimate": -0.0019703155545006436,
+      "ci95": [
+        -0.0025272205668647138,
+        -0.001458783790591598
+      ]
+    },
+    "matched_continuous48/natural/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "matched_continuous48/natural/marginal_kl": {
+      "estimate": -0.0019703155545006488,
+      "ci95": [
+        -0.0025272205668647025,
+        -0.0014587837905915917
+      ]
+    },
+    "matched_continuous48/natural/order_tv": {
+      "estimate": -0.0032730494646371587,
+      "ci95": [
+        -0.006347827096519546,
+        -0.00068886763273035
+      ]
+    },
+    "matched_continuous48/natural/geometry_probability_mae": {
+      "estimate": -0.003536219959796614,
+      "ci95": [
+        -0.005384100391379778,
+        -0.0012063070798107789
+      ]
+    },
+    "matched_continuous48/natural/response_rmse": {
+      "estimate": -0.004069579418141237,
+      "ci95": [
+        -0.008180592796326795,
+        -0.00021958765829870205
+      ]
+    },
+    "matched_continuous96/natural/sequential_kl": {
+      "estimate": -0.00027901591691114583,
+      "ci95": [
+        -0.0005218104960324967,
+        -1.9189456293413696e-05
+      ]
+    },
+    "matched_continuous96/natural/parallel_kl": {
+      "estimate": -0.0004492730255754515,
+      "ci95": [
+        -0.0008220886637594994,
+        -1.5628564596933083e-05
+      ]
+    },
+    "matched_continuous96/natural/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "matched_continuous96/natural/marginal_kl": {
+      "estimate": -0.00044927302557544674,
+      "ci95": [
+        -0.0008220886637595035,
+        -1.562856459692572e-05
+      ]
+    },
+    "matched_continuous96/natural/order_tv": {
+      "estimate": -0.0029029069499822164,
+      "ci95": [
+        -0.004014922019724983,
+        -0.0017215695374120244
+      ]
+    },
+    "matched_continuous96/natural/geometry_probability_mae": {
+      "estimate": 0.00064911179129706,
+      "ci95": [
+        -0.0034721875057650044,
+        0.005552543862055562
+      ]
+    },
+    "matched_continuous96/natural/response_rmse": {
+      "estimate": -0.004005202230476644,
+      "ci95": [
+        -0.012918992784426538,
+        0.004668521515294997
+      ]
+    },
+    "matched_continuous128/natural/sequential_kl": {
+      "estimate": 0.0024730100487278753,
+      "ci95": [
+        -0.0005549276375067399,
+        0.004939148332825504
+      ]
+    },
+    "matched_continuous128/natural/parallel_kl": {
+      "estimate": 0.0035617650119820488,
+      "ci95": [
+        -0.0005539481034478158,
+        0.007063509623730026
+      ]
+    },
+    "matched_continuous128/natural/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "matched_continuous128/natural/marginal_kl": {
+      "estimate": 0.003561765011982054,
+      "ci95": [
+        -0.0005539481034478089,
+        0.007063509623730033
+      ]
+    },
+    "matched_continuous128/natural/order_tv": {
+      "estimate": 0.000443221916223778,
+      "ci95": [
+        -0.0022276993650954223,
+        0.00363832609112291
+      ]
+    },
+    "matched_continuous128/natural/geometry_probability_mae": {
+      "estimate": 0.007906838764158552,
+      "ci95": [
+        0.00450695059870697,
+        0.01099288687508989
+      ]
+    },
+    "matched_continuous128/natural/response_rmse": {
+      "estimate": 0.02244181235225167,
+      "ci95": [
+        0.012329656467273622,
+        0.03247309677932449
+      ]
+    },
+    "unequal_distance_w48/natural/sequential_kl": {
+      "estimate": -0.0008706011638932075,
+      "ci95": [
+        -0.0011300075858014236,
+        -0.0005948954831013955
+      ]
+    },
+    "unequal_distance_w48/natural/parallel_kl": {
+      "estimate": -0.0015906180482561094,
+      "ci95": [
+        -0.00190364147633625,
+        -0.0012675956998041416
+      ]
+    },
+    "unequal_distance_w48/natural/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "unequal_distance_w48/natural/marginal_kl": {
+      "estimate": -0.0015906180482561129,
+      "ci95": [
+        -0.001903641476336241,
+        -0.001267595699804164
+      ]
+    },
+    "unequal_distance_w48/natural/order_tv": {
+      "estimate": -0.002270776427026503,
+      "ci95": [
+        -0.0033212052654333912,
+        -0.0012954057014066742
+      ]
+    },
+    "unequal_distance_w48/natural/geometry_probability_mae": {
+      "estimate": -0.006393629987817805,
+      "ci95": [
+        -0.00891076789677435,
+        -0.003613422198607728
+      ]
+    },
+    "unequal_distance_w48/natural/response_rmse": {
+      "estimate": -0.0053279722181504875,
+      "ci95": [
+        -0.008427991640155652,
+        -0.0019046802950578269
+      ]
+    },
+    "matched_continuous48/common/sequential_kl": {
+      "estimate": -0.0009699137436832389,
+      "ci95": [
+        -0.0012716459101967683,
+        -0.0006778122142161789
+      ]
+    },
+    "matched_continuous48/common/parallel_kl": {
+      "estimate": -0.002044855891449038,
+      "ci95": [
+        -0.002565523038178736,
+        -0.0015799530404126774
+      ]
+    },
+    "matched_continuous48/common/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "matched_continuous48/common/marginal_kl": {
+      "estimate": -0.002044855891449043,
+      "ci95": [
+        -0.0025655230381787467,
+        -0.0015799530404126886
+      ]
+    },
+    "matched_continuous48/common/order_tv": {
+      "estimate": -0.0023571778775372774,
+      "ci95": [
+        -0.005066244033829676,
+        0.00015186404209956793
+      ]
+    },
+    "matched_continuous48/common/geometry_probability_mae": {
+      "estimate": -0.003536219959796614,
+      "ci95": [
+        -0.005384100391379778,
+        -0.0012063070798107789
+      ]
+    },
+    "matched_continuous48/common/response_rmse": {
+      "estimate": -0.004069579418141237,
+      "ci95": [
+        -0.008180592796326795,
+        -0.00021958765829870205
+      ]
+    },
+    "matched_continuous96/common/sequential_kl": {
+      "estimate": -0.00026226895437996803,
+      "ci95": [
+        -0.0004426280954053082,
+        -6.695140161411713e-05
+      ]
+    },
+    "matched_continuous96/common/parallel_kl": {
+      "estimate": -0.00043274891029849993,
+      "ci95": [
+        -0.0007604421159615899,
+        -2.5540272376496252e-05
+      ]
+    },
+    "matched_continuous96/common/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "matched_continuous96/common/marginal_kl": {
+      "estimate": -0.00043274891029849104,
+      "ci95": [
+        -0.0007604421159615802,
+        -2.5540272376485647e-05
+      ]
+    },
+    "matched_continuous96/common/order_tv": {
+      "estimate": -0.00256666662248114,
+      "ci95": [
+        -0.003480316699196565,
+        -0.0015660580733079625
+      ]
+    },
+    "matched_continuous96/common/geometry_probability_mae": {
+      "estimate": 0.0007101655196756936,
+      "ci95": [
+        -0.0033165215653446945,
+        0.005926181610547711
+      ]
+    },
+    "matched_continuous96/common/response_rmse": {
+      "estimate": -0.0031857681453274535,
+      "ci95": [
+        -0.011805476612092611,
+        0.005339483319666931
+      ]
+    },
+    "matched_continuous128/common/sequential_kl": {
+      "estimate": 0.0023710951044695946,
+      "ci95": [
+        -0.00041695387584381855,
+        0.004648918443229702
+      ]
+    },
+    "matched_continuous128/common/parallel_kl": {
+      "estimate": 0.003457114125615182,
+      "ci95": [
+        -0.00032150371714838327,
+        0.0067230934316025006
+      ]
+    },
+    "matched_continuous128/common/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "matched_continuous128/common/marginal_kl": {
+      "estimate": 0.003457114125615182,
+      "ci95": [
+        -0.0003215037171483831,
+        0.0067230934316024945
+      ]
+    },
+    "matched_continuous128/common/order_tv": {
+      "estimate": 0.000747356479039174,
+      "ci95": [
+        -0.0018487141936627575,
+        0.0038270557460610252
+      ]
+    },
+    "matched_continuous128/common/geometry_probability_mae": {
+      "estimate": 0.007782147278194731,
+      "ci95": [
+        0.00482098154785288,
+        0.01069866702929262
+      ]
+    },
+    "matched_continuous128/common/response_rmse": {
+      "estimate": 0.022087047145800988,
+      "ci95": [
+        0.013658781811578686,
+        0.029608311705387618
+      ]
+    },
+    "unequal_distance_w48/common/sequential_kl": {
+      "estimate": -0.0008262946381977542,
+      "ci95": [
+        -0.0010448122961391059,
+        -0.0005903695890964479
+      ]
+    },
+    "unequal_distance_w48/common/parallel_kl": {
+      "estimate": -0.0015020049968652027,
+      "ci95": [
+        -0.0017714676726793839,
+        -0.0012062788431159654
+      ]
+    },
+    "unequal_distance_w48/common/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "unequal_distance_w48/common/marginal_kl": {
+      "estimate": -0.001502004996865201,
+      "ci95": [
+        -0.0017714676726793546,
+        -0.001206278843115972
+      ]
+    },
+    "unequal_distance_w48/common/order_tv": {
+      "estimate": -0.0015150850059204544,
+      "ci95": [
+        -0.00249831496775672,
+        -0.0005632639828511105
+      ]
+    },
+    "unequal_distance_w48/common/geometry_probability_mae": {
+      "estimate": -0.006393629987817805,
+      "ci95": [
+        -0.00891076789677435,
+        -0.003613422198607728
+      ]
+    },
+    "unequal_distance_w48/common/response_rmse": {
+      "estimate": -0.0053279722181504875,
+      "ci95": [
+        -0.008427991640155652,
+        -0.0019046802950578269
+      ]
+    },
+    "w128_k8/CE": {
+      "estimate": 2.9501349465055338e-05,
+      "ci95": [
+        -0.0009637965891142991,
+        0.0009371457391745094
+      ]
+    },
+    "w128_k32/CE": {
+      "estimate": -5.9093237647078745e-05,
+      "ci95": [
+        -0.0005296430156021229,
+        0.0005208743680601521
+      ]
+    },
+    "w128_t05/CE": {
+      "estimate": -6.713614600012408e-05,
+      "ci95": [
+        -0.0001780234810239728,
+        3.003597418667482e-05
+      ]
+    },
+    "w128_t095/CE": {
+      "estimate": -7.039329223945678e-05,
+      "ci95": [
+        -0.00022871667413983248,
+        7.847603181587587e-05
+      ]
+    },
+    "w48_t05/CE": {
+      "estimate": -8.486618332081974e-06,
+      "ci95": [
+        -6.278354059831015e-05,
+        4.748496964140508e-05
+      ]
+    },
+    "w48_t095/CE": {
+      "estimate": -5.0148631141555544e-05,
+      "ci95": [
+        -0.00015823340652397212,
+        6.058179498132641e-05
+      ]
+    },
+    "continuous128/G_1_8_NRMSE": {
+      "estimate": -0.0004310121872380217,
+      "ci95": [
+        -0.005945313980937661,
+        0.005026019674338371
+      ]
+    },
+    "continuous128/G_9_48_NRMSE": {
+      "estimate": 0.021277087980712192,
+      "ci95": [
+        -0.003584660317100701,
+        0.0433870071684196
+      ]
+    },
+    "continuous128/G_49_64_NRMSE": {
+      "estimate": 0.02301460159223495,
+      "ci95": [
+        -0.018517705700221505,
+        0.06253857439666967
+      ]
+    },
+    "continuous128/m_bias": {
+      "estimate": 0.009079933166503906,
+      "ci95": [
+        -0.015516181786855062,
+        0.03660270770390828
+      ]
+    },
+    "continuous128/m2_bias": {
+      "estimate": 0.00853040247845153,
+      "ci95": [
+        -0.0001160761748906223,
+        0.017831710444685688
+      ]
+    },
+    "continuous128/abs_m_bias": {
+      "estimate": 0.009852091471354166,
+      "ci95": [
+        -0.0010152538617451972,
+        0.021924102306365968
+      ]
+    },
+    "continuous128/energy_bias": {
+      "estimate": -0.0028281224368438274,
+      "ci95": [
+        -0.004037589726485625,
+        -0.0016692033902866888
+      ]
+    },
+    "continuous96/G_1_8_NRMSE": {
+      "estimate": -0.0018475911931701457,
+      "ci95": [
+        -0.006361483731039413,
+        0.004816633944729724
+      ]
+    },
+    "continuous96/G_9_24_NRMSE": {
+      "estimate": 0.003772563520835562,
+      "ci95": [
+        -0.014307148416268463,
+        0.02050469617578808
+      ]
+    },
+    "continuous96/G_25_48_NRMSE": {
+      "estimate": 0.011776738738447451,
+      "ci95": [
+        -0.025427099718912667,
+        0.03569093420036547
+      ]
+    },
+    "continuous96/m_bias": {
+      "estimate": -0.006835937499999994,
+      "ci95": [
+        -0.027074107417353874,
+        0.007489140828450511
+      ]
+    },
+    "continuous96/m2_bias": {
+      "estimate": 0.004551054273613177,
+      "ci95": [
+        -0.0051520590919526136,
+        0.013444617813751997
+      ]
+    },
+    "continuous96/abs_m_bias": {
+      "estimate": 0.004423918547453701,
+      "ci95": [
+        -0.006543378476743333,
+        0.013951902036313699
+      ]
+    },
+    "continuous96/energy_bias": {
+      "estimate": -0.0015091031615497297,
+      "ci95": [
+        -0.002739043654057021,
+        -0.00029126262107088084
+      ]
+    },
+    "continuous48/G_1_8_NRMSE": {
+      "estimate": 0.0005281273502756728,
+      "ci95": [
+        -0.004463265534295408,
+        0.007289459246381405
+      ]
+    },
+    "continuous48/G_9_24_NRMSE": {
+      "estimate": 0.004929204741510124,
+      "ci95": [
+        -0.012461762801793497,
+        0.020239833458071933
+      ]
+    },
+    "continuous48/G_1_24_NRMSE": {
+      "estimate": 0.0031742595567762835,
+      "ci95": [
+        -0.008796146001118462,
+        0.015100948751816516
+      ]
+    },
+    "continuous48/m_bias": {
+      "estimate": 0.003406665943287056,
+      "ci95": [
+        -0.017696069788049763,
+        0.02347253870081015
+      ]
+    },
+    "continuous48/m2_bias": {
+      "estimate": -0.0020175019409430887,
+      "ci95": [
+        -0.00991239631126936,
+        0.004667672257364536
+      ]
+    },
+    "continuous48/abs_m_bias": {
+      "estimate": -0.0032393844039352304,
+      "ci95": [
+        -0.013404054994936354,
+        0.005365950972945658
+      ]
+    },
+    "continuous48/energy_bias": {
+      "estimate": -0.00021470523049640054,
+      "ci95": [
+        -0.0013507383089539594,
+        0.0011983091385934382
+      ]
+    },
+    "held_s10_w48/G_10_30_NRMSE": {
+      "estimate": -0.0015301350171759986,
+      "ci95": [
+        -0.007724970387426049,
+        0.004342273595078817
+      ]
+    },
+    "held_s10_w48/G_40_120_NRMSE": {
+      "estimate": -0.005959733621080515,
+      "ci95": [
+        -0.01947488413328589,
+        0.014223591966578178
+      ]
+    },
+    "held_s10_w48/G_130_470_NRMSE": {
+      "estimate": 0.005136515590256102,
+      "ci95": [
+        -0.017680912717755657,
+        0.03028075717045893
+      ]
+    },
+    "held_s10_w48/m_bias": {
+      "estimate": -0.010936595775462965,
+      "ci95": [
+        -0.04145643446180556,
+        0.016566636827256957
+      ]
+    },
+    "held_s10_w48/m2_bias": {
+      "estimate": 0.0018455050119156836,
+      "ci95": [
+        -0.0035781232908429546,
+        0.007876631948682995
+      ]
+    },
+    "held_s10_w48/abs_m_bias": {
+      "estimate": 0.0027126736111111336,
+      "ci95": [
+        -0.005893792046440937,
+        0.01112416585286458
+      ]
+    },
+    "held_s10_w48/energy_bias": {
+      "estimate": 0.0009303893321513015,
+      "ci95": [
+        -0.0011902288342198488,
+        0.0031495006371897167
+      ]
+    }
+  },
+  "elapsed_hours": 7.798772143059307,
+  "analysis_seconds": 97.79141163825989,
+  "limitations": [
+    "T2 uses physics-assisted labels; cannot replace T1 primary claim",
+    "W96 is trained size; W128 unseen context is not unseen every physical distance",
+    "fixed training pool and inherited initial checkpoints; fixed query bank; limited generation shards",
+    "MC confidence is chain/time-block based; plotted thin curves show training-seed spread, not CI",
+    "conditional accuracy is not automatically joint generation accuracy"
+  ]
+}
