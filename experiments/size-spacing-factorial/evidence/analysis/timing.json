@@ -1,0 +1,8 @@
+{
+  "conditional_seconds": 62.25634289626032,
+  "generation_seconds": 129.01913042087108,
+  "render_seconds": 4.053157624788582,
+  "projected_full_statistics_seconds": 354.394357130304,
+  "scratch_fixture": false,
+  "includes_20pct_safety_and_120sec_table_reserve": true
+}

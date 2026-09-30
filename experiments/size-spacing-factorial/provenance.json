@@ -1,0 +1,401 @@
+{
+  "policy": "Original evidence unchanged. Public text redactions are explicit; no numerical result changes.",
+  "files": [
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/budget_v2.json",
+      "published": "size-spacing-factorial/evidence/budget_v2.json",
+      "original_bytes": 661,
+      "original_sha256": "f02f7790a6fb7c67d675d4a3730600bbbe312aebf5dfc29302a7d4904808d10c",
+      "bytes": 661,
+      "sha256": "f02f7790a6fb7c67d675d4a3730600bbbe312aebf5dfc29302a7d4904808d10c",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/final_summary.json",
+      "published": "size-spacing-factorial/evidence/final_summary.json",
+      "original_bytes": 19932,
+      "original_sha256": "62b63f7255f07dca1adf6f21a8857de5b12a19a21559ee584053d35796bce469",
+      "bytes": 19932,
+      "sha256": "62b63f7255f07dca1adf6f21a8857de5b12a19a21559ee584053d35796bce469",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/manifest.json",
+      "published": "size-spacing-factorial/evidence/manifest.json",
+      "original_bytes": 215980,
+      "original_sha256": "e6ee8e7ce965d84a09b744753c939fe3fecc7c5263ad34ed1a51e71b2eb07683",
+      "bytes": 215980,
+      "sha256": "e6ee8e7ce965d84a09b744753c939fe3fecc7c5263ad34ed1a51e71b2eb07683",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/run_protocol.json",
+      "published": "size-spacing-factorial/evidence/run_protocol.json",
+      "original_bytes": 12472,
+      "original_sha256": "79ca5867e680b105632fc79c72fb8233252f07593749fb86a59dd87b00490736",
+      "bytes": 12472,
+      "sha256": "79ca5867e680b105632fc79c72fb8233252f07593749fb86a59dd87b00490736",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/conditional_point.npz",
+      "published": "size-spacing-factorial/evidence/analysis/conditional_point.npz",
+      "original_bytes": 1751565,
+      "original_sha256": "59097094f8ae30916e75d274c953f946fd527a924536d987e986172ab9345b75",
+      "bytes": 1751565,
+      "sha256": "59097094f8ae30916e75d274c953f946fd527a924536d987e986172ab9345b75",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/crossed_uncertainty.json",
+      "published": "size-spacing-factorial/evidence/analysis/crossed_uncertainty.json",
+      "original_bytes": 19680,
+      "original_sha256": "3f58d5e3d446f3f659c893ab4cb04d784409a9542f3d067b6e6877e98eec1d34",
+      "bytes": 19680,
+      "sha256": "3f58d5e3d446f3f659c893ab4cb04d784409a9542f3d067b6e6877e98eec1d34",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/distance_descriptive.csv",
+      "published": "size-spacing-factorial/evidence/analysis/distance_descriptive.csv",
+      "original_bytes": 145497,
+      "original_sha256": "19b4324e4f6ec4ca8323f429273468c4d081e83f42255c8d8d585416c1d74a47",
+      "bytes": 145497,
+      "sha256": "19b4324e4f6ec4ca8323f429273468c4d081e83f42255c8d8d585416c1d74a47",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/generation_bootstrap_block16.npz",
+      "published": "size-spacing-factorial/evidence/analysis/generation_bootstrap_block16.npz",
+      "original_bytes": 1190899,
+      "original_sha256": "1689773b9dcd2f61ae1ea35172337591f3260857f88a713ca786d6bc5f5e6336",
+      "bytes": 1190899,
+      "sha256": "1689773b9dcd2f61ae1ea35172337591f3260857f88a713ca786d6bc5f5e6336",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/generation_bootstrap_block4.npz",
+      "published": "size-spacing-factorial/evidence/analysis/generation_bootstrap_block4.npz",
+      "original_bytes": 1191090,
+      "original_sha256": "4d18dfc72b196336f8c43793cb0c4892618ae1db08421dd249e28badaee2628f",
+      "bytes": 1191090,
+      "sha256": "4d18dfc72b196336f8c43793cb0c4892618ae1db08421dd249e28badaee2628f",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/generation_bootstrap_block8.npz",
+      "published": "size-spacing-factorial/evidence/analysis/generation_bootstrap_block8.npz",
+      "original_bytes": 2380851,
+      "original_sha256": "090e0758133ccebdc984cdb5f70299f872cdd63dee3054f53f28f473d758e773",
+      "bytes": 2380851,
+      "sha256": "090e0758133ccebdc984cdb5f70299f872cdd63dee3054f53f28f473d758e773",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/generation_point.npz",
+      "published": "size-spacing-factorial/evidence/analysis/generation_point.npz",
+      "original_bytes": 1733,
+      "original_sha256": "515b9368571c4f3e753d90a146143003f20716b2fe8c7eb18ec005d50840b1b9",
+      "bytes": 1733,
+      "sha256": "515b9368571c4f3e753d90a146143003f20716b2fe8c7eb18ec005d50840b1b9",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/learning_curves.pdf",
+      "published": "size-spacing-factorial/evidence/analysis/learning_curves.pdf",
+      "original_bytes": 18241,
+      "original_sha256": "0f1d8ddca2d8de9bae869a82af5f9551f86079b518fb59624fd6036d616ebcf3",
+      "bytes": 18241,
+      "sha256": "0f1d8ddca2d8de9bae869a82af5f9551f86079b518fb59624fd6036d616ebcf3",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/learning_curves.png",
+      "published": "size-spacing-factorial/evidence/analysis/learning_curves.png",
+      "original_bytes": 163841,
+      "original_sha256": "0ab5578f3de09248f7cfc15946417f19e6e577f657e1c1b14c8b5afe13ff2ee3",
+      "bytes": 163841,
+      "sha256": "0ab5578f3de09248f7cfc15946417f19e6e577f657e1c1b14c8b5afe13ff2ee3",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/native_coordinate_control.pdf",
+      "published": "size-spacing-factorial/evidence/analysis/native_coordinate_control.pdf",
+      "original_bytes": 14857,
+      "original_sha256": "64ae23734417e97bafd178f19266fdfe1448bc7255a5e8d474ba8f9c4dd8f098",
+      "bytes": 14857,
+      "sha256": "64ae23734417e97bafd178f19266fdfe1448bc7255a5e8d474ba8f9c4dd8f098",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/native_coordinate_control.png",
+      "published": "size-spacing-factorial/evidence/analysis/native_coordinate_control.png",
+      "original_bytes": 329000,
+      "original_sha256": "36c6942481fa520816aff0b25f687cc95c10c8926c618120647f5f868499c716",
+      "bytes": 329000,
+      "sha256": "36c6942481fa520816aff0b25f687cc95c10c8926c618120647f5f868499c716",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/paired_contrasts.csv",
+      "published": "size-spacing-factorial/evidence/analysis/paired_contrasts.csv",
+      "original_bytes": 25394,
+      "original_sha256": "5d71d1b179d3c28fee31d96eaa05fcae8e2942658610c821b4b75079c9f7b544",
+      "bytes": 25394,
+      "sha256": "5d71d1b179d3c28fee31d96eaa05fcae8e2942658610c821b4b75079c9f7b544",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/per_seed_metrics.csv",
+      "published": "size-spacing-factorial/evidence/analysis/per_seed_metrics.csv",
+      "original_bytes": 76105,
+      "original_sha256": "2417ec8bb7dc57e95443c1e1c13e7a1c7824ff9e40c4143bfae24e8c103d489d",
+      "bytes": 76105,
+      "sha256": "2417ec8bb7dc57e95443c1e1c13e7a1c7824ff9e40c4143bfae24e8c103d489d",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/plot_data.npz",
+      "published": "size-spacing-factorial/evidence/analysis/plot_data.npz",
+      "original_bytes": 18359,
+      "original_sha256": "e88aae01f0089bd082a8f714a626cb0b9a988863a5db687887f1481958b214cc",
+      "bytes": 18359,
+      "sha256": "e88aae01f0089bd082a8f714a626cb0b9a988863a5db687887f1481958b214cc",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/primary_factorial_contrasts.pdf",
+      "published": "size-spacing-factorial/evidence/analysis/primary_factorial_contrasts.pdf",
+      "original_bytes": 12702,
+      "original_sha256": "a3f587ed8af4122d10a0db032f8b30b1074833d81ca4398e32f86aa1214f7389",
+      "bytes": 12702,
+      "sha256": "a3f587ed8af4122d10a0db032f8b30b1074833d81ca4398e32f86aa1214f7389",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/primary_factorial_contrasts.png",
+      "published": "size-spacing-factorial/evidence/analysis/primary_factorial_contrasts.png",
+      "original_bytes": 77974,
+      "original_sha256": "d5e896797890d125d32ae2e471d4d354d7bb1f8a29697342e1ae18076a1ef8d2",
+      "bytes": 77974,
+      "sha256": "d5e896797890d125d32ae2e471d4d354d7bb1f8a29697342e1ae18076a1ef8d2",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/primary_paired_CE.pdf",
+      "published": "size-spacing-factorial/evidence/analysis/primary_paired_CE.pdf",
+      "original_bytes": 19121,
+      "original_sha256": "0b2feaba5bbc9c4d10350b287e17a2e6b43ac4e355a18710c7a77a51d5860d72",
+      "bytes": 19121,
+      "sha256": "0b2feaba5bbc9c4d10350b287e17a2e6b43ac4e355a18710c7a77a51d5860d72",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/primary_paired_CE.png",
+      "published": "size-spacing-factorial/evidence/analysis/primary_paired_CE.png",
+      "original_bytes": 365605,
+      "original_sha256": "dda656c34388e8fa6f4a8e7739b3742ab0f4ae8fe82d78ad7195af125d4572fd",
+      "bytes": 365605,
+      "sha256": "dda656c34388e8fa6f4a8e7739b3742ab0f4ae8fe82d78ad7195af125d4572fd",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/secondary_generation.pdf",
+      "published": "size-spacing-factorial/evidence/analysis/secondary_generation.pdf",
+      "original_bytes": 15454,
+      "original_sha256": "a3f4907113247f30a5353ee2a5e24c71df3d158bb52bd8f9d81e373e432b8951",
+      "bytes": 15454,
+      "sha256": "a3f4907113247f30a5353ee2a5e24c71df3d158bb52bd8f9d81e373e432b8951",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/secondary_generation.png",
+      "published": "size-spacing-factorial/evidence/analysis/secondary_generation.png",
+      "original_bytes": 259218,
+      "original_sha256": "926b69c3d0d8242b9ff82988f650decc2f61509c0edcb0abb764409c16c24d50",
+      "bytes": 259218,
+      "sha256": "926b69c3d0d8242b9ff82988f650decc2f61509c0edcb0abb764409c16c24d50",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/secondary_interaction.pdf",
+      "published": "size-spacing-factorial/evidence/analysis/secondary_interaction.pdf",
+      "original_bytes": 13730,
+      "original_sha256": "a9f1a4ef4a7d79955e0a925bdc7b70668286906e2b70bbd00c176337cc70354e",
+      "bytes": 13730,
+      "sha256": "a9f1a4ef4a7d79955e0a925bdc7b70668286906e2b70bbd00c176337cc70354e",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/secondary_interaction.png",
+      "published": "size-spacing-factorial/evidence/analysis/secondary_interaction.png",
+      "original_bytes": 218966,
+      "original_sha256": "ba2c92a18efaf618beda503847ad63ccc8e0d69d6ba2456ee763db046799916b",
+      "bytes": 218966,
+      "sha256": "ba2c92a18efaf618beda503847ad63ccc8e0d69d6ba2456ee763db046799916b",
+      "transformations": []
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/timing.json",
+      "published": "size-spacing-factorial/evidence/analysis/timing.json",
+      "original_bytes": 272,
+      "original_sha256": "bfd8d12a483fbe123aac0771745dbdc7c09475065e61bc433b762a2b0d40c498",
+      "bytes": 272,
+      "sha256": "bfd8d12a483fbe123aac0771745dbdc7c09475065e61bc433b762a2b0d40c498",
+      "transformations": []
+    },
+    {
+      "source": "docs/research_reboot_20260921/CORE_GEOMETRY_FACTORIAL_PROTOCOL_20260925_ZH.md",
+      "published": "size-spacing-factorial/protocol/CORE_GEOMETRY_FACTORIAL_PROTOCOL_20260925_ZH.md",
+      "original_bytes": 21064,
+      "original_sha256": "970ec925983d541856f17654e215b4101724f4e15c1fc6453c372885dc5c8c29",
+      "bytes": 21433,
+      "sha256": "330b5ab60b7930059b8a506e3d2af621461f9adf49b321a6cfd21994448151b1",
+      "transformations": [
+        {
+          "kind": "backup root",
+          "count": 1
+        },
+        {
+          "kind": "machine-specific project root",
+          "count": 3
+        },
+        {
+          "kind": "historical local link rendered as source identifier",
+          "count": 3
+        },
+        {
+          "kind": "public-copy notice"
+        }
+      ]
+    },
+    {
+      "source": "docs/research_reboot_20260921/CORE_GEOMETRY_FACTORIAL_BUDGET_V2_20260925_ZH.md",
+      "published": "size-spacing-factorial/protocol/CORE_GEOMETRY_FACTORIAL_BUDGET_V2_20260925_ZH.md",
+      "original_bytes": 2535,
+      "original_sha256": "a41643f7b4615a15167d1281ee9a4a06f6de6c56232448cc5bb100e31dd6f4ea",
+      "bytes": 2844,
+      "sha256": "c688000fd10b1844f4f4a40fc2415fff116fe731e36b5b57167be45b4d84ecbc",
+      "transformations": [
+        {
+          "kind": "public-copy notice"
+        }
+      ]
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/conditional_bootstrap_block1.npz",
+      "published": "size-spacing-factorial/evidence/analysis/conditional_bootstrap_block1_primary_projection.npz",
+      "original_bytes": 22933497,
+      "original_sha256": "201746e9f09ae0444dee310110d8d59e9b44a30572e890c95b296022ad82fd4e",
+      "bytes": 361643,
+      "sha256": "7a84f93a731b52ce8e07e54df40378cc8bee33cc775cb9e6a70bcf61b9cb394e",
+      "transformations": [
+        {
+          "kind": "lossless NPZ named-array extraction",
+          "retained_keys": [
+            "primary",
+            "retention",
+            "block",
+            "mode",
+            "reps"
+          ],
+          "omitted_keys": [
+            "arm_means"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/conditional_bootstrap_block2.npz",
+      "published": "size-spacing-factorial/evidence/analysis/conditional_bootstrap_block2_primary_projection.npz",
+      "original_bytes": 45864047,
+      "original_sha256": "4027e6cf9122be76a08204bb5421cba548eeba3ce1b120adca094f1998208e2a",
+      "bytes": 721559,
+      "sha256": "e66a0837cb21865795c02916adb2e8e6d6990e8b7041e212f07fc2d4b66c741c",
+      "transformations": [
+        {
+          "kind": "lossless NPZ named-array extraction",
+          "retained_keys": [
+            "primary",
+            "retention",
+            "block",
+            "mode",
+            "reps"
+          ],
+          "omitted_keys": [
+            "arm_means"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/conditional_bootstrap_block4.npz",
+      "published": "size-spacing-factorial/evidence/analysis/conditional_bootstrap_block4_primary_projection.npz",
+      "original_bytes": 22932481,
+      "original_sha256": "193320cc4c51f59ab60a4fb2d1f730fa23c477ab75405b79cc234779b8bb35b7",
+      "bytes": 361097,
+      "sha256": "510f3742a3319ab304ddba57b1a8f078c3ade842a52b19c38853d1f6ab8b0393",
+      "transformations": [
+        {
+          "kind": "lossless NPZ named-array extraction",
+          "retained_keys": [
+            "primary",
+            "retention",
+            "block",
+            "mode",
+            "reps"
+          ],
+          "omitted_keys": [
+            "arm_means"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/conditional_mc_only.npz",
+      "published": "size-spacing-factorial/evidence/analysis/conditional_mc_only_primary_projection.npz",
+      "original_bytes": 22928390,
+      "original_sha256": "7c9df9e95c9a165e21636c1f23cdda018727d87815a8a3e0cb985f9efa567554",
+      "bytes": 360545,
+      "sha256": "1b03ec3741293d7d02248ffc62ace712805be7baf174e5dfb631fb36e5257238",
+      "transformations": [
+        {
+          "kind": "lossless NPZ named-array extraction",
+          "retained_keys": [
+            "primary",
+            "retention",
+            "block",
+            "mode",
+            "reps"
+          ],
+          "omitted_keys": [
+            "arm_means"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "custodian-backups/20260925_core_geometry_factorial/final_review_20260925/analysis/conditional_seed_only.npz",
+      "published": "size-spacing-factorial/evidence/analysis/conditional_seed_only_primary_projection.npz",
+      "original_bytes": 21476800,
+      "original_sha256": "d96db31a6599c508515af671ad313a785f2904e87bb325b1b7d0ca01b1005561",
+      "bytes": 70841,
+      "sha256": "5c95c82b98d6123002afb57e901bbcd55116cf60a864aa1402b79827e2aa36ad",
+      "transformations": [
+        {
+          "kind": "lossless NPZ named-array extraction",
+          "retained_keys": [
+            "primary",
+            "retention",
+            "block",
+            "mode",
+            "reps"
+          ],
+          "omitted_keys": [
+            "arm_means"
+          ]
+        }
+      ]
+    }
+  ]
+}

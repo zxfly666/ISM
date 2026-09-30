@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "started": 1790310921.2856314,
+  "deadline": 1790354121.2856314,
+  "hard_seconds": 43200,
+  "gate_seconds": 41400,
+  "user_authorization": "12h; keep complete five-arm six-seed experiment",
+  "amendment_sha256": "a41643f7b4615a15167d1281ee9a4a06f6de6c56232448cc5bb100e31dd6f4ea",
+  "original_budget": {
+    "started": 1790280756.5880508,
+    "deadline": 1790316756.5880508,
+    "reason": "first GPU preflight; cannot reset on retry",
+    "hard_seconds": 36000
+  },
+  "original_budget_sha256": "1fcd3e37183b70538b597915efc47f5e7e6a2fecdf6e478452ab0b6b75d7e967",
+  "original_evidence_preserved": true,
+  "explicit_new_execution_window": true
+}

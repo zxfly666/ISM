@@ -1,0 +1,787 @@
+[
+  {
+    "receipt": "banks_complete_v1.tar.gz.verification.json",
+    "sha256": "0e04f8ddb43117c9c72b90b18098a679e671199c92588d8ddc16677f5482773a",
+    "result": {
+      "status": "passed",
+      "cell": "banks",
+      "files": 31,
+      "bytes": 57011200,
+      "sha256": "0c019d3e91d4fffb3e7d8a8086710db4823783409bb4177d09a916e0bc7d6203",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92501_G00_v1.tar.gz.verification.json",
+    "sha256": "df468d7cf0f40f871f967f6c6a2e2d2aa07b1a40bf71b594761bb277a44dbc97",
+    "result": {
+      "status": "passed",
+      "cell": "s92501_G00",
+      "files": 37,
+      "bytes": 5251339,
+      "sha256": "eb61822c3d4903ba825b239ee55f8211c1e698e000c467ff0f3ad2d926e7da60",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92501_G01_v1.tar.gz.verification.json",
+    "sha256": "a4f97fe4505991a6b47667922e48b2e580a745d15cb65536f3316c2e8476340d",
+    "result": {
+      "status": "passed",
+      "cell": "s92501_G01",
+      "files": 37,
+      "bytes": 5239135,
+      "sha256": "78b43fa687247e19f789540aa3935f3eebf85a0d0dfe8ba88322632737e1b06d",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92501_G10_v1.tar.gz.verification.json",
+    "sha256": "768d4b3b52eb56a09f4fdb3d8ad5b0de6b3ec2897e81ab3d926772b38785df44",
+    "result": {
+      "status": "passed",
+      "cell": "s92501_G10",
+      "files": 37,
+      "bytes": 5264037,
+      "sha256": "66fae08e88486b0de2a7d85ec28e8cc3d93bfa818de4a90f9ed5e761d9e8b288",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92501_G11_v1.tar.gz.verification.json",
+    "sha256": "75765151032d618aaef73806a3f31b2530f20cd475ffb45d7b0b78d85fce5a46",
+    "result": {
+      "status": "passed",
+      "cell": "s92501_G11",
+      "files": 37,
+      "bytes": 5251075,
+      "sha256": "dab2a30032ec6a28ec2f4165397c3b49aa0f0307781bbc3838ff29ef18669fb4",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92501_G11S_v1.tar.gz.verification.json",
+    "sha256": "d9dca8f7a942eb79a39aeab283bcf73b6ec903eb88250fceac864481ed20529a",
+    "result": {
+      "status": "passed",
+      "cell": "s92501_G11S",
+      "files": 37,
+      "bytes": 5244711,
+      "sha256": "f254c1ecd59aecda9ca5ea5952a63a0b198fc979049615f955f29006f47ca475",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92502_G00_v1.tar.gz.verification.json",
+    "sha256": "890af93c864cf1d2f474072fa8622f213720373e03fac13411e1eae0ce60cb66",
+    "result": {
+      "status": "passed",
+      "cell": "s92502_G00",
+      "files": 37,
+      "bytes": 5248802,
+      "sha256": "4ce79e707cd3dc5b086c81a7b4b447c0abc8cf51bb3c329203478fcaa39e6b1b",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92502_G01_v1.tar.gz.verification.json",
+    "sha256": "4c618776c3845aaf3a46a5129ded44b432ecbfec7b927de74e13664da1dc69ce",
+    "result": {
+      "status": "passed",
+      "cell": "s92502_G01",
+      "files": 37,
+      "bytes": 5240485,
+      "sha256": "c3b9ae2438cd39d7310d92ebbb714bc967065975a8615def09ae93da9fab86c1",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92502_G10_v1.tar.gz.verification.json",
+    "sha256": "df6fe632866db3d715ea8ffa317fcec534a22990a55d4f687f3ed877b1249877",
+    "result": {
+      "status": "passed",
+      "cell": "s92502_G10",
+      "files": 37,
+      "bytes": 5264580,
+      "sha256": "fe0011b2769cce54b26bb77c7141194ba6f13e82fefb824b8f82dcc7ba3d3cd2",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92502_G11_v1.tar.gz.verification.json",
+    "sha256": "13ef2354b40b666462771c031a2a5e0a79cc492678bf305e48e38a7b5a951b58",
+    "result": {
+      "status": "passed",
+      "cell": "s92502_G11",
+      "files": 37,
+      "bytes": 5253076,
+      "sha256": "c8c1adfcc860a78fcc6a2a89be04915b6195e4ab045cff2f75f652d40340a67f",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92502_G11S_v1.tar.gz.verification.json",
+    "sha256": "14e3ee19abb2d893c2005d4e63402dcb1f8e1b8dc69895e3ceee5a22e0963284",
+    "result": {
+      "status": "passed",
+      "cell": "s92502_G11S",
+      "files": 37,
+      "bytes": 5250067,
+      "sha256": "c34ced1241935c7fd406a08a638e5fcedbc79bd6bc1c95e7fd9ceceb34c35648",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92503_G00_v1.tar.gz.verification.json",
+    "sha256": "39e7bec51e7a42fed3cf02dc78304f395be0a44bd2f74183a5dc6adc6556737f",
+    "result": {
+      "status": "passed",
+      "cell": "s92503_G00",
+      "files": 37,
+      "bytes": 5256518,
+      "sha256": "53dfa9cb5900a514bbf45e1946b1d92bbc46974c226d1db5118eb0d1cb511c81",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92503_G01_v1.tar.gz.verification.json",
+    "sha256": "bbfd7ebc38ee265e2ed481b03c24330e967533349100d8a0423e23e6335f961b",
+    "result": {
+      "status": "passed",
+      "cell": "s92503_G01",
+      "files": 37,
+      "bytes": 5240713,
+      "sha256": "99e9129b2ced072b94962340219343b79ec154de47430f453047d090f58b8109",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92503_G10_v1.tar.gz.verification.json",
+    "sha256": "5e50383ec0c6d98c4ff5c9b261d9583d33796c5956747f7cda3b651756a7d80e",
+    "result": {
+      "status": "passed",
+      "cell": "s92503_G10",
+      "files": 37,
+      "bytes": 5260231,
+      "sha256": "3d01242efd650ddc6f3f2f7c55dd8b75a5e08a2b274010a04d886cdef21f040f",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92503_G11_v1.tar.gz.verification.json",
+    "sha256": "493b57eacaf8097114bd95b644611e72b4cb76ad4d7315a17aff0f44f3bf2dbc",
+    "result": {
+      "status": "passed",
+      "cell": "s92503_G11",
+      "files": 37,
+      "bytes": 5253967,
+      "sha256": "0838f879034e2a0bc3977b943aee2ac8a4cb48be70a390fa8af8b440c304c009",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92503_G11S_v1.tar.gz.verification.json",
+    "sha256": "99b436278cf80fbc479c0960e197db8fad5896afc430f0050e15b5c53fefa9a3",
+    "result": {
+      "status": "passed",
+      "cell": "s92503_G11S",
+      "files": 37,
+      "bytes": 5252673,
+      "sha256": "f24acc9003e1280eb2d745aaae9b59c5814939d28b3f94ee30970fc429a0af15",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92504_G00_v1.tar.gz.verification.json",
+    "sha256": "94fae30aeead95579eb65495d6f5a785e27f5a153a0b05c1684615af2b082cc7",
+    "result": {
+      "status": "passed",
+      "cell": "s92504_G00",
+      "files": 37,
+      "bytes": 5253213,
+      "sha256": "697be7ad295b372dd30c68efee05f99278b07ba1dde497271dfb478ff52a0fcb",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92504_G01_v1.tar.gz.verification.json",
+    "sha256": "c46924501e036c86047b30af3d55b28c7a0f03dedebc1fab94dcbbe97b873615",
+    "result": {
+      "status": "passed",
+      "cell": "s92504_G01",
+      "files": 37,
+      "bytes": 5232998,
+      "sha256": "d85e2d4c291d11a52c8f2f94bb144d8a8ddddf7b56c122a4cf6775abe3707b5a",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92504_G10_v1.tar.gz.verification.json",
+    "sha256": "cc3d74ee48d26d533eef53859859423a1d54f57664eac8a0c40b77e4575ae72c",
+    "result": {
+      "status": "passed",
+      "cell": "s92504_G10",
+      "files": 37,
+      "bytes": 5259656,
+      "sha256": "84aef162671112acf6c165788cbd3044f5782cf52fdae4cdd59fda018e92f7f5",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92504_G11_v1.tar.gz.verification.json",
+    "sha256": "a28c234f9154e51447e89cc25995515e5c18c970d151999a2571069af31011d9",
+    "result": {
+      "status": "passed",
+      "cell": "s92504_G11",
+      "files": 37,
+      "bytes": 5250451,
+      "sha256": "70442e5fd147b724cee54161e5a13c8433088d02adee5821ec4cf46e5dec97ee",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92504_G11S_v1.tar.gz.verification.json",
+    "sha256": "36b208c9dad99700c541f51abd2bfc2eda701eb1e14ddedad41ce63356b7ac1f",
+    "result": {
+      "status": "passed",
+      "cell": "s92504_G11S",
+      "files": 37,
+      "bytes": 5246551,
+      "sha256": "95388bc811d3b3cac02c277bb48c5042c7793186e19f6ec24b901ace7e28b339",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92505_G00_v1.tar.gz.verification.json",
+    "sha256": "8c90161179186e846a27833a7784ae0a1bd0ac549f63f577dcc38b1a73cfdf91",
+    "result": {
+      "status": "passed",
+      "cell": "s92505_G00",
+      "files": 37,
+      "bytes": 5244885,
+      "sha256": "a738ac955e0fcb9e637a728d8a5d4177aff5d3f751da27e1e6e482d0ce430231",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92505_G01_v1.tar.gz.verification.json",
+    "sha256": "d8df6f99a3b52817495ccb879e525f57736ea89a07bacaba4a04cc9cf244ab88",
+    "result": {
+      "status": "passed",
+      "cell": "s92505_G01",
+      "files": 37,
+      "bytes": 5234850,
+      "sha256": "eb0dedbb5f88f8523618887c48573bbeed3d673337739db6a5249fc5de899bd0",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92505_G10_v1.tar.gz.verification.json",
+    "sha256": "f977e2f0acb991e8287085c8f2f8c2f0814fcfce373a8e6be5d222e59b4c51a5",
+    "result": {
+      "status": "passed",
+      "cell": "s92505_G10",
+      "files": 37,
+      "bytes": 5256814,
+      "sha256": "f56ae908930109d829c2be210499e5d086d44390c213f5362e1ce9eab8f39672",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92505_G11_v1.tar.gz.verification.json",
+    "sha256": "e9951640431f2fa79bc3efb3f359e22f11071309f320c1e4c045a6cf98b00b67",
+    "result": {
+      "status": "passed",
+      "cell": "s92505_G11",
+      "files": 37,
+      "bytes": 5251224,
+      "sha256": "c8bee2abe3dce046e2dc6481cad562300ff30965f85ef0273d5d7471b2c05a6e",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92505_G11S_v1.tar.gz.verification.json",
+    "sha256": "c32807286f8d592af95f56a9927fcbb8224f266189ef343c7a27226787928181",
+    "result": {
+      "status": "passed",
+      "cell": "s92505_G11S",
+      "files": 37,
+      "bytes": 5242448,
+      "sha256": "daf8a9b5770239cce3ff187d54761524cfda43e6f191b0b4fb54dfc476d2c566",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92506_G00_v1.tar.gz.verification.json",
+    "sha256": "cc69bb6760220e1a5ee6535a10472ec1e0efc33dee063fd93755dcbfe4fe211e",
+    "result": {
+      "status": "passed",
+      "cell": "s92506_G00",
+      "files": 37,
+      "bytes": 5247687,
+      "sha256": "d2acaaa946a957603a4e7531f2e96764a48d134644a55c3e2837b0e5a85badc2",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92506_G01_v1.tar.gz.verification.json",
+    "sha256": "5a2317ddea9f5437004cd98891f1bad336a016633ddc8a60ba6a288a0287c25b",
+    "result": {
+      "status": "passed",
+      "cell": "s92506_G01",
+      "files": 37,
+      "bytes": 5238073,
+      "sha256": "cc8e431b369bf93e65fac947585f418e0d6152a386d7324b1a7ddfb309d02b93",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92506_G10_v1.tar.gz.verification.json",
+    "sha256": "7e4a527f1964c025c0d0d57896d06641366dc3163d3a974136c4552618a0b295",
+    "result": {
+      "status": "passed",
+      "cell": "s92506_G10",
+      "files": 37,
+      "bytes": 5263021,
+      "sha256": "93908632b04fe1bf740abf225713372e8a81e1053d046bdbd5a7c9013b22cb16",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92506_G11_v1.tar.gz.verification.json",
+    "sha256": "a2ee72bc278c09827647bb839d60f673f10a1a259d79950931604fa094a5ac26",
+    "result": {
+      "status": "passed",
+      "cell": "s92506_G11",
+      "files": 37,
+      "bytes": 5255984,
+      "sha256": "8321dfc16b3e25f8b096ec88a57b63582643745dfc561e4c3d8f5b48630baf43",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "evaluation_s92506_G11S_v1.tar.gz.verification.json",
+    "sha256": "2d0fe3c13f3bc46942a4b7a958bf6fcea8d9cb7f4178d7d3a065cac2a0061fa8",
+    "result": {
+      "status": "passed",
+      "cell": "s92506_G11S",
+      "files": 37,
+      "bytes": 5247525,
+      "sha256": "bb187658b83e076d8f563f403830231a95c06f4ebaf8fa282d0d43622dd8d4d3",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "final_analysis_manifest_v1.tar.gz.verification.json",
+    "sha256": "1744a91efdc148f7a2d69fce5fe437ff25b4c1c5d960a8cdcc8bfb80dd11430d",
+    "result": {
+      "status": "passed",
+      "cell": "final",
+      "files": 46,
+      "bytes": 144539355,
+      "sha256": "14dc249ffb57c13db9a52c9eeb5cc1f26cbb7c8f846e0c27380e1b2784479cef",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "initial_source_protocol_preflight_v2.tar.gz.verification.json",
+    "sha256": "1c9b3e61e78ac6f945182d4249e950b53d39545427563757dbc2718c26b9199f",
+    "result": {
+      "status": "passed",
+      "cell": "initial",
+      "files": 2698,
+      "bytes": 188922520,
+      "sha256": "b11d9fb907d622042081c2ef7f4f5bef80cf603cf3fd58b8611940a4160750c1",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "preflight_evidence_v1.verification.json",
+    "sha256": "b6298e91f109d4f0b580192227ede1d3b287eff8688a723798eba9da5b9a7892",
+    "result": {
+      "status": "passed_archive_and_all_members",
+      "archive_sha256": "fd6b438b63b8cc78a442b4db0b77ba5f279b353e28504f7a4e94e6a999687a95",
+      "members": 39,
+      "excludes": [
+        "artifacts/core_geometry_factorial_20260925/preflight/resume.pt",
+        "artifacts/core_geometry_factorial_20260925/preflight/throughput.pt",
+        "artifacts/core_geometry_factorial_20260925/preflight_buffered_v2/resume.pt",
+        "artifacts/core_geometry_factorial_20260925/preflight_buffered_v2/throughput.pt"
+      ],
+      "scope": "preflight evidence only, no formal training or new MC",
+      "original_budget_preserved": true
+    }
+  },
+  {
+    "receipt": "reference_complete_v1.tar.gz.verification.json",
+    "sha256": "f0a58fa4dbcc38fe6d56bef116fa40f87b8cad3a03487b90c2363eadb605d788",
+    "result": {
+      "status": "passed",
+      "cell": "reference",
+      "files": 5,
+      "bytes": 86833430,
+      "sha256": "599a1b0ab70d05a3e168deb56a76e8459ad75dc8b8293653631faf80e794c649",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92501_G00_v1.tar.gz.verification.json",
+    "sha256": "80f1906bb311ec4c3b2dc791fc22a9dab57f72651df90e330e416cf4db9a471f",
+    "result": {
+      "status": "passed",
+      "cell": "s92501_G00",
+      "files": 10,
+      "bytes": 46055731,
+      "sha256": "44d21860b778dca2be855e7bd0b1af80ce06d4c3ad257b193f25f81462fb13fa",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92501_G01_v1.tar.gz.verification.json",
+    "sha256": "b5371d4d97b18841a4b52f7c0890ac7d1e36337f6a6ceed402aebd87cd33d873",
+    "result": {
+      "status": "passed",
+      "cell": "s92501_G01",
+      "files": 10,
+      "bytes": 46035985,
+      "sha256": "3349fa6fad47a1121a75f77437d61c7d817f0d0a85d618a327f12f2453c39972",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92501_G10_v1.tar.gz.verification.json",
+    "sha256": "b34d268311c0c323c284d7a701ad0cd93d67995cb7e827e8c271dac5bf54c45a",
+    "result": {
+      "status": "passed",
+      "cell": "s92501_G10",
+      "files": 10,
+      "bytes": 46098042,
+      "sha256": "d2ed8c60aa8a6e312301fd11734dbca3e5d7f6ce698330f3d16c14411c4bda65",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92501_G11_v1.tar.gz.verification.json",
+    "sha256": "5369c709fb4e441ca127e366d88592483862be0746d464ee1ae89fc8e3d5308b",
+    "result": {
+      "status": "passed",
+      "cell": "s92501_G11",
+      "files": 10,
+      "bytes": 46095650,
+      "sha256": "d28ba590c3e0700789e04620d35155f48bda54936697369ee81395c53cd0fd6b",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92501_G11S_v1.tar.gz.verification.json",
+    "sha256": "c78ba2fab5c54153dfd78b74f4fac571181de3b9af2b426a7c8e7b1d6e2f3d17",
+    "result": {
+      "status": "passed",
+      "cell": "s92501_G11S",
+      "files": 10,
+      "bytes": 46096986,
+      "sha256": "ab14d67bf7ef7b956f65a9f4c7f12d19f71f6a5908f39f6813f00f8bcdaa93cf",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92502_G00_v1.tar.gz.verification.json",
+    "sha256": "7eab732f3b9ffccbd3c37cf130d0dc212fe073a35227e4f22139e409296a735f",
+    "result": {
+      "status": "passed",
+      "cell": "s92502_G00",
+      "files": 10,
+      "bytes": 46043032,
+      "sha256": "6225cccc1cb724e898274c39eec7e957205a45a11d768300f8014c6ab6ce6a11",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92502_G01_v1.tar.gz.verification.json",
+    "sha256": "a6d18961a7746457b8418df6f765cae1a72e1a31b8927a5ca31c6a4e8c1ffc05",
+    "result": {
+      "status": "passed",
+      "cell": "s92502_G01",
+      "files": 10,
+      "bytes": 46058483,
+      "sha256": "4804321ccbcd0643113a2361aee5a2a66ef69101b56a866958200172f989f98f",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92502_G10_v1.tar.gz.verification.json",
+    "sha256": "bf8bfebcf85500d22cd0abfb3edaf12062f881a7ba85e0be86208f45ba868344",
+    "result": {
+      "status": "passed",
+      "cell": "s92502_G10",
+      "files": 10,
+      "bytes": 46108992,
+      "sha256": "5f6da376915ac2d00ce9dda11f6853fc292331ba4fecc154be270713c3c20287",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92502_G11_v1.tar.gz.verification.json",
+    "sha256": "232462c292c98ee07ff141eab9cbeecee390f2cbeea8f84b67eb42f2197d52d2",
+    "result": {
+      "status": "passed",
+      "cell": "s92502_G11",
+      "files": 10,
+      "bytes": 46096459,
+      "sha256": "fede733f77f0c5b2c75233f37e0750df9818ea777acf8bec92d2981768cc3062",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92502_G11S_v1.tar.gz.verification.json",
+    "sha256": "b0f8c9f11c52354483bf3040d13bc489730e9db119815bc471338d1977e148ed",
+    "result": {
+      "status": "passed",
+      "cell": "s92502_G11S",
+      "files": 10,
+      "bytes": 46096081,
+      "sha256": "15c1753833e7cd906593849e7edb405e21f8f20144eada0d1ed274f046d898d1",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92503_G00_v1.tar.gz.verification.json",
+    "sha256": "e28606b0327662ee9559ceae2a296079b2849675d0f1ba6af6f7ff2d84fb633a",
+    "result": {
+      "status": "passed",
+      "cell": "s92503_G00",
+      "files": 10,
+      "bytes": 46049378,
+      "sha256": "7f0a9bea8cfeabee61ed960c3d7024f194028c054daca6c1ecf2998b764bb574",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92503_G01_v1.tar.gz.verification.json",
+    "sha256": "692303be2501bc5cf15945add6a673d297e4ada665798cbdaab12fc0a9371ccf",
+    "result": {
+      "status": "passed",
+      "cell": "s92503_G01",
+      "files": 10,
+      "bytes": 46060646,
+      "sha256": "379e9ed0d4be042a7634dfa81f4aa9a3a245b5b94c57c636850c116e8214e5a4",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92503_G10_v1.tar.gz.verification.json",
+    "sha256": "028e5cc77c8a4e1ee37c9f66b9e7e64ad5d2058f7e2726cea73bf502c3546b0d",
+    "result": {
+      "status": "passed",
+      "cell": "s92503_G10",
+      "files": 10,
+      "bytes": 46090952,
+      "sha256": "6a91f3b11f7f5824916235bbc56e71d064a81e7703ee04d00bca32411757961b",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92503_G11_v1.tar.gz.verification.json",
+    "sha256": "dbf821e0254443dc8da3a1b6117e9c91eb70c55beb6a54bff7acbbce353a669c",
+    "result": {
+      "status": "passed",
+      "cell": "s92503_G11",
+      "files": 10,
+      "bytes": 46092783,
+      "sha256": "57305f9ea270615b25ffff1f5160f349e51df19eb0f46a26828f66e51141100c",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92503_G11S_v1.tar.gz.verification.json",
+    "sha256": "7dad6bbf66028b9e0bd09c5ea52dd10ff846b3f6fcbf2efd5a5e59b79c262481",
+    "result": {
+      "status": "passed",
+      "cell": "s92503_G11S",
+      "files": 10,
+      "bytes": 46077947,
+      "sha256": "880e90f094da5fa88daf3fee3884bff155c79c5de257a6a39ebf7927bee6050b",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92504_G00_v1.tar.gz.verification.json",
+    "sha256": "1138379eca3dafee3b662334b631d6641412fe2c813422315b23873d2702d798",
+    "result": {
+      "status": "passed",
+      "cell": "s92504_G00",
+      "files": 10,
+      "bytes": 46038616,
+      "sha256": "fed4a73e422a90638ac7fbbc2ee8817e0444c84eaa699b99a65b5cdee451f16e",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92504_G01_v1.tar.gz.verification.json",
+    "sha256": "cfcfa42d7f4d2b81340bf61c626f1db4a00c10b0e113b1967f4dd8a17ab7cdab",
+    "result": {
+      "status": "passed",
+      "cell": "s92504_G01",
+      "files": 10,
+      "bytes": 46045349,
+      "sha256": "5212b21fad7f20095d3ba9ed4bc7d4c433f69e22a660020c757ad3174f57ed1f",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92504_G10_v1.tar.gz.verification.json",
+    "sha256": "f569e2c4d23babfe39182f590ea7ba8ef457f6f302cf83ec6bb1e7435ca62594",
+    "result": {
+      "status": "passed",
+      "cell": "s92504_G10",
+      "files": 10,
+      "bytes": 46071820,
+      "sha256": "caa231fd78098e4f101917fcd08eda73547135ecefbb4989f15a62b1f57f509d",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92504_G11_v1.tar.gz.verification.json",
+    "sha256": "00a86f687f8baf930ea7712b56db940dfccffc3274db1264a9d5da6b4b2b86a9",
+    "result": {
+      "status": "passed",
+      "cell": "s92504_G11",
+      "files": 10,
+      "bytes": 46075361,
+      "sha256": "d7a79ff012afdb747ae61f8576febfb8011bddf6ca15e1c63cbab28b8a465bdf",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92504_G11S_v1.tar.gz.verification.json",
+    "sha256": "a9714f41af1dc16e7797f41f3d36011a27a31f5365e3bf10844825f3e4186908",
+    "result": {
+      "status": "passed",
+      "cell": "s92504_G11S",
+      "files": 10,
+      "bytes": 46084441,
+      "sha256": "56d8adbbe2e39155fcab7254e91fcce42aab3507ebd84fa243d7c47138952379",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92505_G00_v1.tar.gz.verification.json",
+    "sha256": "f63bac30120cd20ddd091959ce33dadbb2d55e6ad8cfecb2aebcf9aa3e7e9193",
+    "result": {
+      "status": "passed",
+      "cell": "s92505_G00",
+      "files": 10,
+      "bytes": 46040221,
+      "sha256": "ebb4fc1a0e04d7ec6842c581cfa263e42922cb6b85595c8534d105dd21525e45",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92505_G01_v1.tar.gz.verification.json",
+    "sha256": "f5e07f167c6d5445c71745aed22afcf9cd5765f2709c3e1d83ab7896617a7d94",
+    "result": {
+      "status": "passed",
+      "cell": "s92505_G01",
+      "files": 10,
+      "bytes": 46043891,
+      "sha256": "432b9104995223645297ed559e71bdc35c37bae6d03e95668b7678cf81751534",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92505_G10_v1.tar.gz.verification.json",
+    "sha256": "a3b349fcceba6b4cce09a718a5011b13727e641da68100a74b03f0287100d513",
+    "result": {
+      "status": "passed",
+      "cell": "s92505_G10",
+      "files": 10,
+      "bytes": 46093146,
+      "sha256": "0563eedeeb63e3e70613d620c3c8a4d606495519ccc9833b1d575fa2e69927b5",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92505_G11_v1.tar.gz.verification.json",
+    "sha256": "026b9cc03dcddf6948c79fe223e5927dee9184b7743fddc635b0154538b1192c",
+    "result": {
+      "status": "passed",
+      "cell": "s92505_G11",
+      "files": 10,
+      "bytes": 46093078,
+      "sha256": "76c2d00fecda8d51c6bd941792ea8ea4ab2822668a305c80b2583dfb627c63f2",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92505_G11S_v1.tar.gz.verification.json",
+    "sha256": "7f6f3dddf9105d30e13a91b1fbb9664e484981a036c6d9880e061ca3c439624b",
+    "result": {
+      "status": "passed",
+      "cell": "s92505_G11S",
+      "files": 10,
+      "bytes": 46101956,
+      "sha256": "f1d4fcabb1a0052b40ad32098c9da2d8f7755d0b9c31dacb3d7a3e58fd6cfb5a",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92506_G00_v1.tar.gz.verification.json",
+    "sha256": "bdce03af359a6c0ee99d4a2b22e5ea19f161c816731e82a9b39a310d572e05e3",
+    "result": {
+      "status": "passed",
+      "cell": "s92506_G00",
+      "files": 10,
+      "bytes": 46046826,
+      "sha256": "e1dff11aa81ae3ea16018dad8b28c9f767671040132e22b87cf867bfd240985b",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92506_G01_v1.tar.gz.verification.json",
+    "sha256": "b35e7841e12fe5cd5d4785088ff2adb47cc52c05c4da2bbc1be7c62a2238a258",
+    "result": {
+      "status": "passed",
+      "cell": "s92506_G01",
+      "files": 10,
+      "bytes": 46051443,
+      "sha256": "bd1061cc3d33c8df1828a1cbe2286fac639f9bad9e5d8505b3584898013e5669",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92506_G10_v1.tar.gz.verification.json",
+    "sha256": "15e9eb3bcfa59e790e235555a7e9de5d2a18b6bf85c0a3e15ee3d93aa3f7bca4",
+    "result": {
+      "status": "passed",
+      "cell": "s92506_G10",
+      "files": 10,
+      "bytes": 46114708,
+      "sha256": "0935d21259bdcd8aa9fda0d8b28f0dbca043bbf458f48c77cce584728dc95cdf",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92506_G11_v1.tar.gz.verification.json",
+    "sha256": "99351569bf50780fc83c086b2444e8d9d03df1b959060ddfdaf0c59447adcabb",
+    "result": {
+      "status": "passed",
+      "cell": "s92506_G11",
+      "files": 10,
+      "bytes": 46092985,
+      "sha256": "611dfb0c2405444604e9bfcc8fb7680954323252df2a413886ba956a6e95f2fd",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  },
+  {
+    "receipt": "training_s92506_G11S_v1.tar.gz.verification.json",
+    "sha256": "89a99827ba8d96f06b004e82fd9d8b8eda8b45ea4b7667c4d51da620d166787f",
+    "result": {
+      "status": "passed",
+      "cell": "s92506_G11S",
+      "files": 10,
+      "bytes": 46093653,
+      "sha256": "310b3b9197c02b3213b72731433b0d4c03651e8672cefb8c69f681005f551b50",
+      "scope": "This named completed stage only; not entire campaign closure"
+    }
+  }
+]
