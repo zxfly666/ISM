@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "diagnostic_max_errors": {
+    "parallel_identity_residual": 2.7755575615628914e-16,
+    "sequential_identity_residual": 2.7755575615628914e-16,
+    "swap_permutation_error": 9.834766387939453e-07
+  },
+  "figures": [
+    "geometry_response_ABC.pdf",
+    "geometry_response_ABC.png",
+    "geometry_response_F012.pdf",
+    "geometry_response_F012.png",
+    "joint_accuracy.pdf",
+    "joint_accuracy.png"
+  ],
+  "models": 36,
+  "warning": "Low-dimensional accuracy and incompatibility do not attribute whole-window error fractions"
+}

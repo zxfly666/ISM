@@ -1,0 +1,230 @@
+{
+  "policy": "Original evidence unchanged. Public text redactions are explicit; no numerical result changes.",
+  "files": [
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/cases.json",
+      "published": "fixed-background-geometry-response/evidence/cases.json",
+      "original_bytes": 198946,
+      "original_sha256": "6de47a5f825c172880df3910c0a10e071394cc7ed8923cbede662a4dad29b8f8",
+      "bytes": 198946,
+      "sha256": "6de47a5f825c172880df3910c0a10e071394cc7ed8923cbede662a4dad29b8f8",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/final_summary.json",
+      "published": "fixed-background-geometry-response/evidence/final_summary.json",
+      "original_bytes": 28093,
+      "original_sha256": "0cd5bfdede08120132532d3d2d687110d6d39175ec6090f49dd9620e10c9b33b",
+      "bytes": 28093,
+      "sha256": "0cd5bfdede08120132532d3d2d687110d6d39175ec6090f49dd9620e10c9b33b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/inference_complete.json",
+      "published": "fixed-background-geometry-response/evidence/inference_complete.json",
+      "original_bytes": 744,
+      "original_sha256": "b54137f06218aba6166f5ac6dcda86a8905287e12ef5be8528e064795e19174d",
+      "bytes": 744,
+      "sha256": "b54137f06218aba6166f5ac6dcda86a8905287e12ef5be8528e064795e19174d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/manifest.json",
+      "published": "fixed-background-geometry-response/evidence/manifest.json",
+      "original_bytes": 23072,
+      "original_sha256": "78a69800049ea72aa33bd6e15b651185400015fff652124221783fdfb6354f7b",
+      "bytes": 23072,
+      "sha256": "78a69800049ea72aa33bd6e15b651185400015fff652124221783fdfb6354f7b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/preflight.json",
+      "published": "fixed-background-geometry-response/evidence/preflight.json",
+      "original_bytes": 1165,
+      "original_sha256": "4bf651ef937e588a8d54f80afa5bded1411559ad99c0de0042b28a092ed7ad40",
+      "bytes": 1165,
+      "sha256": "4bf651ef937e588a8d54f80afa5bded1411559ad99c0de0042b28a092ed7ad40",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/query_specs.json",
+      "published": "fixed-background-geometry-response/evidence/query_specs.json",
+      "original_bytes": 6666,
+      "original_sha256": "f28c703eac4ad0e4f624794c93110358723e1a6a2b0bbb16791d4b2dc26a3802",
+      "bytes": 6666,
+      "sha256": "f28c703eac4ad0e4f624794c93110358723e1a6a2b0bbb16791d4b2dc26a3802",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/reference.npz",
+      "published": "fixed-background-geometry-response/evidence/reference.npz",
+      "original_bytes": 2070732,
+      "original_sha256": "f61ea75583ad5a77c72417cc70168d2a28143f16eac8238fc05d4997f63b1e4a",
+      "bytes": 2070732,
+      "sha256": "f61ea75583ad5a77c72417cc70168d2a28143f16eac8238fc05d4997f63b1e4a",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/reference_complete.json",
+      "published": "fixed-background-geometry-response/evidence/reference_complete.json",
+      "original_bytes": 7206,
+      "original_sha256": "646bbc586c4146b6f21d010bebd8d3d3478d3caf4dbf12f009ebe19337781699",
+      "bytes": 7181,
+      "sha256": "e70e6478af589c53ff76288e602e07eb9d0e7f4d946eea45255b7e5f3519cbec",
+      "transformations": [
+        {
+          "kind": "machine-specific project root",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/run_protocol.json",
+      "published": "fixed-background-geometry-response/evidence/run_protocol.json",
+      "original_bytes": 4508,
+      "original_sha256": "5398f7e9361e53cde7a0fd3eab1ea26e4146e3011a0584420c9269d208ef00f0",
+      "bytes": 4508,
+      "sha256": "5398f7e9361e53cde7a0fd3eab1ea26e4146e3011a0584420c9269d208ef00f0",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/bootstrap_block16.npz",
+      "published": "fixed-background-geometry-response/evidence/analysis/bootstrap_block16.npz",
+      "original_bytes": 923386,
+      "original_sha256": "45100fd7cd368df36ef9918506a5ab3955c47915cc3994112296abaa10215dd1",
+      "bytes": 923386,
+      "sha256": "45100fd7cd368df36ef9918506a5ab3955c47915cc3994112296abaa10215dd1",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/bootstrap_block4.npz",
+      "published": "fixed-background-geometry-response/evidence/analysis/bootstrap_block4.npz",
+      "original_bytes": 925534,
+      "original_sha256": "e7cf42efdd801c95e06aae79ce649dfa18b014ee28004b2449213b97ab644b92",
+      "bytes": 925534,
+      "sha256": "e7cf42efdd801c95e06aae79ce649dfa18b014ee28004b2449213b97ab644b92",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/bootstrap_block8.npz",
+      "published": "fixed-background-geometry-response/evidence/analysis/bootstrap_block8.npz",
+      "original_bytes": 1847703,
+      "original_sha256": "e297f961710f56f2b641bddfc52abb9d79f4ccdf8e6f6e7742302243dea3f0f6",
+      "bytes": 1847703,
+      "sha256": "e297f961710f56f2b641bddfc52abb9d79f4ccdf8e6f6e7742302243dea3f0f6",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/complete.json",
+      "published": "fixed-background-geometry-response/evidence/analysis/complete.json",
+      "original_bytes": 558,
+      "original_sha256": "672daa46a881933501c36c1ad33cef62fdb562d60cc8f449d59e6bfebc5c874c",
+      "bytes": 558,
+      "sha256": "672daa46a881933501c36c1ad33cef62fdb562d60cc8f449d59e6bfebc5c874c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/crossed_uncertainty.json",
+      "published": "fixed-background-geometry-response/evidence/analysis/crossed_uncertainty.json",
+      "original_bytes": 84749,
+      "original_sha256": "8ab6040334343522f5e2a139246ce53f2784db3f5335084894084db8bb7eae04",
+      "bytes": 84749,
+      "sha256": "8ab6040334343522f5e2a139246ce53f2784db3f5335084894084db8bb7eae04",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/figures/geometry_response_ABC.pdf",
+      "published": "fixed-background-geometry-response/evidence/analysis/figures/geometry_response_ABC.pdf",
+      "original_bytes": 20712,
+      "original_sha256": "c27b6d4dcd20911875817d95e59a076fceb860950b60459f54eab80703d6297b",
+      "bytes": 20712,
+      "sha256": "c27b6d4dcd20911875817d95e59a076fceb860950b60459f54eab80703d6297b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/figures/geometry_response_ABC.png",
+      "published": "fixed-background-geometry-response/evidence/analysis/figures/geometry_response_ABC.png",
+      "original_bytes": 386746,
+      "original_sha256": "c36767995fed351c5366f85745baa5bda1d2834334197da9b2f0434a0742eb5e",
+      "bytes": 386746,
+      "sha256": "c36767995fed351c5366f85745baa5bda1d2834334197da9b2f0434a0742eb5e",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/figures/geometry_response_F012.pdf",
+      "published": "fixed-background-geometry-response/evidence/analysis/figures/geometry_response_F012.pdf",
+      "original_bytes": 20511,
+      "original_sha256": "4929dc60c478eb52d5e2115494e7404c52089a65910d850d58553cc366964828",
+      "bytes": 20511,
+      "sha256": "4929dc60c478eb52d5e2115494e7404c52089a65910d850d58553cc366964828",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/figures/geometry_response_F012.png",
+      "published": "fixed-background-geometry-response/evidence/analysis/figures/geometry_response_F012.png",
+      "original_bytes": 325378,
+      "original_sha256": "7a20582580840e8ba6cc8931892fd221efa6ec9f1669bbb7a472023d0016a271",
+      "bytes": 325378,
+      "sha256": "7a20582580840e8ba6cc8931892fd221efa6ec9f1669bbb7a472023d0016a271",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/figures/joint_accuracy.pdf",
+      "published": "fixed-background-geometry-response/evidence/analysis/figures/joint_accuracy.pdf",
+      "original_bytes": 25460,
+      "original_sha256": "5b82631e382857427987645d68dc33497f273682c6938a1446e4134cc75c1abf",
+      "bytes": 25460,
+      "sha256": "5b82631e382857427987645d68dc33497f273682c6938a1446e4134cc75c1abf",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/figures/joint_accuracy.png",
+      "published": "fixed-background-geometry-response/evidence/analysis/figures/joint_accuracy.png",
+      "original_bytes": 408012,
+      "original_sha256": "0fb8549a80284d230973d9f1bc9e5adc62d053cf1d737394fd7b690f004ed899",
+      "bytes": 408012,
+      "sha256": "0fb8549a80284d230973d9f1bc9e5adc62d053cf1d737394fd7b690f004ed899",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/per_seed_metrics.csv",
+      "published": "fixed-background-geometry-response/evidence/analysis/per_seed_metrics.csv",
+      "original_bytes": 35569,
+      "original_sha256": "569104d778758e2e35a89af4339b6d11c4eac4918db179c64cc70f802159c99d",
+      "bytes": 35569,
+      "sha256": "569104d778758e2e35a89af4339b6d11c4eac4918db179c64cc70f802159c99d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/plot_data.npz",
+      "published": "fixed-background-geometry-response/evidence/analysis/plot_data.npz",
+      "original_bytes": 786087,
+      "original_sha256": "e770a14e14da9fbe7fef5957e4a03a1b3057c687df8dfb2e21a076fe3c14b461",
+      "bytes": 786087,
+      "sha256": "e770a14e14da9fbe7fef5957e4a03a1b3057c687df8dfb2e21a076fe3c14b461",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/fixed_geometry_joint_20260923_remote/evidence/fixed_geometry_joint_20260923/analysis/point_estimates.json",
+      "published": "fixed-background-geometry-response/evidence/analysis/point_estimates.json",
+      "original_bytes": 13049,
+      "original_sha256": "8ceeaa47f950cc21a80e5172da5adf8fc6741ec67fa2bd52bde88023b032c5fc",
+      "bytes": 13049,
+      "sha256": "8ceeaa47f950cc21a80e5172da5adf8fc6741ec67fa2bd52bde88023b032c5fc",
+      "transformations": []
+    },
+    {
+      "source": "docs/research_reboot_20260921/FIXED_GEOMETRY_JOINT_PROTOCOL_20260923_ZH.md",
+      "published": "fixed-background-geometry-response/protocol/FIXED_GEOMETRY_JOINT_PROTOCOL_20260923_ZH.md",
+      "original_bytes": 6906,
+      "original_sha256": "ca9a9148b6a6df87b0af4d8c67f102774e64a91745a36f0470b60a05a880c008",
+      "bytes": 7215,
+      "sha256": "25daa1b7d54b5ead6d872ad2e0be05e21288fd053740328f257452dab98a81cb",
+      "transformations": [
+        {
+          "kind": "public-copy notice"
+        }
+      ]
+    }
+  ]
+}

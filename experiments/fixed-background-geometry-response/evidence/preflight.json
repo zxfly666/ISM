@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "math_tests": [
+    "test_fixed_background_and_rank_control",
+    "test_oracle_reconstruction_and_kl_decompositions",
+    "test_spin_flip_identity_and_reference_positive"
+  ],
+  "checks": {
+    "translation_w48": 1.6689300537109375e-06,
+    "background_permutation_w48": 1.1920928955078125e-06,
+    "swap_equivalence_w48": 4.76837158203125e-07,
+    "parallel_identity_w48": 1.1102230246251565e-16,
+    "sequential_identity_w48": 1.1102230246251565e-16,
+    "translation_w96": 2.384185791015625e-07,
+    "background_permutation_w96": 2.980232238769531e-07,
+    "swap_equivalence_w96": 0.0,
+    "parallel_identity_w96": 2.7755575615628914e-17,
+    "sequential_identity_w96": 4.163336342344337e-17
+  },
+  "benchmark": {
+    "48": {
+      "case_seconds": 0.06569031998515129,
+      "batch": 4,
+      "cases": 76
+    },
+    "96": {
+      "case_seconds": 0.5608678311109543,
+      "batch": 2,
+      "cases": 36
+    }
+  },
+  "forecast_seconds": 1478.597451978922,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "torch": "2.7.0a0+7c8ec84dab.nv25.03",
+  "python": "3.12.3",
+  "precision": "FP32, highest matmul, no autocast",
+  "model_parameters": 1976706
+}

@@ -1,0 +1,366 @@
+{
+  "48": [
+    {
+      "kind": "base",
+      "a": 0,
+      "reveal": -1,
+      "bit": -1,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9995659722222222
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 0,
+      "bit": 0,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9991319444444444
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 0,
+      "bit": 1,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9991319444444444
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 2,
+      "bit": 0,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9991319444444444
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 2,
+      "bit": 1,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9991319444444444
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 0,
+      "bit": 0,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9995659722222222
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 0,
+      "bit": 1,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9995659722222222
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 2,
+      "bit": 0,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9995659722222222
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 2,
+      "bit": 1,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9995659722222222
+    },
+    {
+      "kind": "base",
+      "a": 1,
+      "reveal": -1,
+      "bit": -1,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9995659722222222
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 0,
+      "bit": 0,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9991319444444444
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 0,
+      "bit": 1,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9991319444444444
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 2,
+      "bit": 0,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9991319444444444
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 2,
+      "bit": 1,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9991319444444444
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 0,
+      "bit": 0,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9995659722222222
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 0,
+      "bit": 1,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9995659722222222
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 2,
+      "bit": 0,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9995659722222222
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 2,
+      "bit": 1,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9995659722222222
+    },
+    {
+      "kind": "swap",
+      "a": 0,
+      "reveal": 2,
+      "bit": 1,
+      "clock": "natural",
+      "swap": true,
+      "t": 0.9991319444444444
+    },
+    {
+      "kind": "swap",
+      "a": 1,
+      "reveal": 2,
+      "bit": 0,
+      "clock": "natural",
+      "swap": true,
+      "t": 0.9991319444444444
+    }
+  ],
+  "96": [
+    {
+      "kind": "base",
+      "a": 0,
+      "reveal": -1,
+      "bit": -1,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9998914930555556
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 0,
+      "bit": 0,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9997829861111112
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 0,
+      "bit": 1,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9997829861111112
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 2,
+      "bit": 0,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9997829861111112
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 2,
+      "bit": 1,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9997829861111112
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 0,
+      "bit": 0,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9998914930555556
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 0,
+      "bit": 1,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9998914930555556
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 2,
+      "bit": 0,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9998914930555556
+    },
+    {
+      "kind": "conditional",
+      "a": 0,
+      "reveal": 2,
+      "bit": 1,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9998914930555556
+    },
+    {
+      "kind": "base",
+      "a": 1,
+      "reveal": -1,
+      "bit": -1,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9998914930555556
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 0,
+      "bit": 0,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9997829861111112
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 0,
+      "bit": 1,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9997829861111112
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 2,
+      "bit": 0,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9997829861111112
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 2,
+      "bit": 1,
+      "clock": "natural",
+      "swap": false,
+      "t": 0.9997829861111112
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 0,
+      "bit": 0,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9998914930555556
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 0,
+      "bit": 1,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9998914930555556
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 2,
+      "bit": 0,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9998914930555556
+    },
+    {
+      "kind": "conditional",
+      "a": 1,
+      "reveal": 2,
+      "bit": 1,
+      "clock": "fixed",
+      "swap": false,
+      "t": 0.9998914930555556
+    },
+    {
+      "kind": "swap",
+      "a": 0,
+      "reveal": 2,
+      "bit": 1,
+      "clock": "natural",
+      "swap": true,
+      "t": 0.9997829861111112
+    },
+    {
+      "kind": "swap",
+      "a": 1,
+      "reveal": 2,
+      "bit": 0,
+      "clock": "natural",
+      "swap": true,
+      "t": 0.9997829861111112
+    }
+  ]
+}

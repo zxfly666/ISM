@@ -1,0 +1,986 @@
+{
+  "note": "Contains scientific identity records including public copies. Local verification does not imply public availability. Request archive/member by SHA through a repository issue; no hosting or retention guarantee is made.",
+  "archives": [],
+  "files": {
+    "analysis/bootstrap_block16.npz": {
+      "path": "analysis/bootstrap_block16.npz",
+      "bytes": 923386,
+      "sha256": "45100fd7cd368df36ef9918506a5ab3955c47915cc3994112296abaa10215dd1",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/bootstrap_block16.npz",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "analysis/bootstrap_block4.npz": {
+      "path": "analysis/bootstrap_block4.npz",
+      "bytes": 925534,
+      "sha256": "e7cf42efdd801c95e06aae79ce649dfa18b014ee28004b2449213b97ab644b92",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/bootstrap_block4.npz",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "analysis/bootstrap_block8.npz": {
+      "path": "analysis/bootstrap_block8.npz",
+      "bytes": 1847703,
+      "sha256": "e297f961710f56f2b641bddfc52abb9d79f4ccdf8e6f6e7742302243dea3f0f6",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/bootstrap_block8.npz",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "analysis/complete.json": {
+      "path": "analysis/complete.json",
+      "bytes": 558,
+      "sha256": "672daa46a881933501c36c1ad33cef62fdb562d60cc8f449d59e6bfebc5c874c",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/complete.json",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "analysis/crossed_uncertainty.json": {
+      "path": "analysis/crossed_uncertainty.json",
+      "bytes": 84749,
+      "sha256": "8ab6040334343522f5e2a139246ce53f2784db3f5335084894084db8bb7eae04",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/crossed_uncertainty.json",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "analysis/figures/geometry_response_ABC.pdf": {
+      "path": "analysis/figures/geometry_response_ABC.pdf",
+      "bytes": 20712,
+      "sha256": "c27b6d4dcd20911875817d95e59a076fceb860950b60459f54eab80703d6297b",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/figures/geometry_response_ABC.pdf",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "analysis/figures/geometry_response_ABC.png": {
+      "path": "analysis/figures/geometry_response_ABC.png",
+      "bytes": 386746,
+      "sha256": "c36767995fed351c5366f85745baa5bda1d2834334197da9b2f0434a0742eb5e",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/figures/geometry_response_ABC.png",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "analysis/figures/geometry_response_F012.pdf": {
+      "path": "analysis/figures/geometry_response_F012.pdf",
+      "bytes": 20511,
+      "sha256": "4929dc60c478eb52d5e2115494e7404c52089a65910d850d58553cc366964828",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/figures/geometry_response_F012.pdf",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "analysis/figures/geometry_response_F012.png": {
+      "path": "analysis/figures/geometry_response_F012.png",
+      "bytes": 325378,
+      "sha256": "7a20582580840e8ba6cc8931892fd221efa6ec9f1669bbb7a472023d0016a271",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/figures/geometry_response_F012.png",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "analysis/figures/joint_accuracy.pdf": {
+      "path": "analysis/figures/joint_accuracy.pdf",
+      "bytes": 25460,
+      "sha256": "5b82631e382857427987645d68dc33497f273682c6938a1446e4134cc75c1abf",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/figures/joint_accuracy.pdf",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "analysis/figures/joint_accuracy.png": {
+      "path": "analysis/figures/joint_accuracy.png",
+      "bytes": 408012,
+      "sha256": "0fb8549a80284d230973d9f1bc9e5adc62d053cf1d737394fd7b690f004ed899",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/figures/joint_accuracy.png",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "analysis/per_seed_metrics.csv": {
+      "path": "analysis/per_seed_metrics.csv",
+      "bytes": 35569,
+      "sha256": "569104d778758e2e35a89af4339b6d11c4eac4918db179c64cc70f802159c99d",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/per_seed_metrics.csv",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "analysis/plot_data.npz": {
+      "path": "analysis/plot_data.npz",
+      "bytes": 786087,
+      "sha256": "e770a14e14da9fbe7fef5957e4a03a1b3057c687df8dfb2e21a076fe3c14b461",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/plot_data.npz",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "analysis/point_estimates.json": {
+      "path": "analysis/point_estimates.json",
+      "bytes": 13049,
+      "sha256": "8ceeaa47f950cc21a80e5172da5adf8fc6741ec67fa2bd52bde88023b032c5fc",
+      "public_copy": "fixed-background-geometry-response/evidence/analysis/point_estimates.json",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "cases.json": {
+      "path": "cases.json",
+      "bytes": 198946,
+      "sha256": "6de47a5f825c172880df3910c0a10e071394cc7ed8923cbede662a4dad29b8f8",
+      "public_copy": "fixed-background-geometry-response/evidence/cases.json",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "final_summary.json": {
+      "path": "final_summary.json",
+      "bytes": 28093,
+      "sha256": "0cd5bfdede08120132532d3d2d687110d6d39175ec6090f49dd9620e10c9b33b",
+      "public_copy": "fixed-background-geometry-response/evidence/final_summary.json",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "inference_complete.json": {
+      "path": "inference_complete.json",
+      "bytes": 744,
+      "sha256": "b54137f06218aba6166f5ac6dcda86a8905287e12ef5be8528e064795e19174d",
+      "public_copy": "fixed-background-geometry-response/evidence/inference_complete.json",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "models/s91001_A/complete.json": {
+      "path": "models/s91001_A/complete.json",
+      "bytes": 407,
+      "sha256": "55d7cd5bcc362a7b9c31f86e9bf347c892e14d8d63f1c379a022ed63215e5fae",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_A/metrics.json": {
+      "path": "models/s91001_A/metrics.json",
+      "bytes": 96727,
+      "sha256": "e948920bb727afd86a5a798aa3fdf6582bdbfb7d98963bebb5dc5aba28a97dfc",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_A/predictions.npz": {
+      "path": "models/s91001_A/predictions.npz",
+      "bytes": 26349,
+      "sha256": "b2f1222e746202c388eac8714f31a10768cbc9e16c57996f03882778bdc03be8",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_B/complete.json": {
+      "path": "models/s91001_B/complete.json",
+      "bytes": 408,
+      "sha256": "161ad0f954eafa87a6eac0e28ea746d3a5f89a49bcf1267d5895bc8597c65cc8",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_B/metrics.json": {
+      "path": "models/s91001_B/metrics.json",
+      "bytes": 96277,
+      "sha256": "faa0e0894bfe24bc4e7d382dac6a1f238c0dd9f447edf471be533e2470f76c8f",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_B/predictions.npz": {
+      "path": "models/s91001_B/predictions.npz",
+      "bytes": 19262,
+      "sha256": "780aab635421196a154b748902b232f1f7ca40150fa2b36e29cfbcb90ed8b000",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_C/complete.json": {
+      "path": "models/s91001_C/complete.json",
+      "bytes": 408,
+      "sha256": "f84d965f05cb1816fb12bc8ffbec81b1dba387460e4b2779ddc5358748e7f228",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_C/metrics.json": {
+      "path": "models/s91001_C/metrics.json",
+      "bytes": 96573,
+      "sha256": "22a026f2a731e1625e8637353b413571c9915d23f22b545e44854e14e98d5a9f",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_C/predictions.npz": {
+      "path": "models/s91001_C/predictions.npz",
+      "bytes": 26367,
+      "sha256": "da9f161951cc08c7cbe49f2e09399bb60ba84bd8cc104d8bc32519fdafbcfae9",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_F0/complete.json": {
+      "path": "models/s91001_F0/complete.json",
+      "bytes": 408,
+      "sha256": "c86a4ce04b024f3ef946d8a4a71499782f1123cd3434e88f0e977003de2b3455",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_F0/metrics.json": {
+      "path": "models/s91001_F0/metrics.json",
+      "bytes": 96466,
+      "sha256": "b49ac8fdfd48d915e734275a276f8c4412100140e2821cd7fa5dfa2e082da64e",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_F0/predictions.npz": {
+      "path": "models/s91001_F0/predictions.npz",
+      "bytes": 26166,
+      "sha256": "30ccf6f2eadb4747a53d192a1819c36c6fe452d3f92208a34472b731f3393cc2",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_F1/complete.json": {
+      "path": "models/s91001_F1/complete.json",
+      "bytes": 409,
+      "sha256": "7ae7e231e35251385010a118ec6ce07e5727f134806b07e062378befc41830aa",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_F1/metrics.json": {
+      "path": "models/s91001_F1/metrics.json",
+      "bytes": 96579,
+      "sha256": "df07d16f10552b3bcebc87af60a88c04ea8ffd5e889c0c9fc324207b4746da5d",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_F1/predictions.npz": {
+      "path": "models/s91001_F1/predictions.npz",
+      "bytes": 26063,
+      "sha256": "4c1b5db2c9e7d91d46dd27b0fcf0683b00f6235a88b0f00d915dc004ddbf54fc",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_F2/complete.json": {
+      "path": "models/s91001_F2/complete.json",
+      "bytes": 409,
+      "sha256": "94f5470d708d42c1ea55a3d6ecda783e8e017c3c62b502e02ed83517f48116a4",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_F2/metrics.json": {
+      "path": "models/s91001_F2/metrics.json",
+      "bytes": 97096,
+      "sha256": "ddc576a4f175e19d16b02ba3f057a167d8bcf1c7362e84704f7aac147e3e7be4",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91001_F2/predictions.npz": {
+      "path": "models/s91001_F2/predictions.npz",
+      "bytes": 26290,
+      "sha256": "c925a37c7b111f38f6cfe08bd59f70b61d68bf101d7b66f149fc17d4b935397b",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_A/complete.json": {
+      "path": "models/s91002_A/complete.json",
+      "bytes": 408,
+      "sha256": "7b1e0a7a38349370804f59f9312f53e18ff36c0c221cdb592a53a33b67155b18",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_A/metrics.json": {
+      "path": "models/s91002_A/metrics.json",
+      "bytes": 97218,
+      "sha256": "2868e82562aef607e15e91de406f4c0c6cbcb9fb34f671aa86efcdf9e90968ec",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_A/predictions.npz": {
+      "path": "models/s91002_A/predictions.npz",
+      "bytes": 26042,
+      "sha256": "cb6e23bfd7795a200fca9a61b76f1f01a386b15272121d7b8e58105efa114793",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_B/complete.json": {
+      "path": "models/s91002_B/complete.json",
+      "bytes": 408,
+      "sha256": "d1aa6c141c7694c522ee8439428a5a113ad6f0e40c8240096351613c46be10ab",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_B/metrics.json": {
+      "path": "models/s91002_B/metrics.json",
+      "bytes": 96541,
+      "sha256": "451ed467ccdc5c987e46acc82ed0a43cb252e912ad69d78705a828162216b1fb",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_B/predictions.npz": {
+      "path": "models/s91002_B/predictions.npz",
+      "bytes": 19389,
+      "sha256": "ab7411a67de1abdefe0d0707045738d4d33ed3592fdfdcfb72d8adb81185858d",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_C/complete.json": {
+      "path": "models/s91002_C/complete.json",
+      "bytes": 408,
+      "sha256": "dfb9b375b09cd20a8e9579e9296e28f9834737949dbc87413b34172fb3f892da",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_C/metrics.json": {
+      "path": "models/s91002_C/metrics.json",
+      "bytes": 96648,
+      "sha256": "2bd2da92b99d22c4710d6792239140df1b78e47b61e705d2fd3e74353fbf2b85",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_C/predictions.npz": {
+      "path": "models/s91002_C/predictions.npz",
+      "bytes": 25806,
+      "sha256": "8c4d040facb413a29d9eb284fbe9e331e121b1cb249aa2db7df21a639dcc4a85",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_F0/complete.json": {
+      "path": "models/s91002_F0/complete.json",
+      "bytes": 408,
+      "sha256": "11741555fbc13d19164ae30e13ed6bf492179399bda12876745aa4af032cf7a7",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_F0/metrics.json": {
+      "path": "models/s91002_F0/metrics.json",
+      "bytes": 97095,
+      "sha256": "8efcf46999be70a0d4015780e282e2902c2bda5d575628e486846946229e23d0",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_F0/predictions.npz": {
+      "path": "models/s91002_F0/predictions.npz",
+      "bytes": 26085,
+      "sha256": "81e8561f273ca1cf58d00823946146ca6933091ae8a6b0f45dfe8ee307a5f25b",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_F1/complete.json": {
+      "path": "models/s91002_F1/complete.json",
+      "bytes": 409,
+      "sha256": "dfe4ae01c7ecbf7e03e0950c3b037aed60a02a9c9f9df209cdae84c2f408f112",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_F1/metrics.json": {
+      "path": "models/s91002_F1/metrics.json",
+      "bytes": 97073,
+      "sha256": "c9aae990f60f7aa27f3c1f37406895f69e152a3d109d2374463cae08b0d89524",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_F1/predictions.npz": {
+      "path": "models/s91002_F1/predictions.npz",
+      "bytes": 26086,
+      "sha256": "60ca0d99bbd1b4162bccd52f605c841de495c5b37ab9176207c2f42676627710",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_F2/complete.json": {
+      "path": "models/s91002_F2/complete.json",
+      "bytes": 409,
+      "sha256": "7f8ce83161d0d992a76ed1574d1507c80644758a4332078a69508ee597fcc93f",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_F2/metrics.json": {
+      "path": "models/s91002_F2/metrics.json",
+      "bytes": 97169,
+      "sha256": "d55ec1eb35f86d3fb6e2670d1b91449e46ffb989709410c1867d56da8a921b98",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91002_F2/predictions.npz": {
+      "path": "models/s91002_F2/predictions.npz",
+      "bytes": 26234,
+      "sha256": "460b26a6de4d8c2d6e443bd922265f7cc8103db7ed15e7db39a15b480e9fa155",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_A/complete.json": {
+      "path": "models/s91003_A/complete.json",
+      "bytes": 408,
+      "sha256": "fb9e3e4bdf28dcb20b613769319ee330d1ce3f3b3ac0bb322a6deeb670db2778",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_A/metrics.json": {
+      "path": "models/s91003_A/metrics.json",
+      "bytes": 96979,
+      "sha256": "f0741994f9a69ea97dbf0ec802a10fe52c270e500fcac0d4fffaec2939f02487",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_A/predictions.npz": {
+      "path": "models/s91003_A/predictions.npz",
+      "bytes": 26103,
+      "sha256": "07ffbcb87ab8eef51d3c92529aa3b99541a737671babc67cc96ff54a10f0fe8c",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_B/complete.json": {
+      "path": "models/s91003_B/complete.json",
+      "bytes": 408,
+      "sha256": "66170f4b3ab20a513e0dc86aab6b75a1bf5071e2ac6d55c9e48abe1eb5c4b209",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_B/metrics.json": {
+      "path": "models/s91003_B/metrics.json",
+      "bytes": 96275,
+      "sha256": "b5d120a30dce340c1e77bf19406a809bc459be8a30f934c343a3d0c10f0f3906",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_B/predictions.npz": {
+      "path": "models/s91003_B/predictions.npz",
+      "bytes": 19620,
+      "sha256": "55d6f226d6d0bbdcbb3a22f449e0d714e4767ad0838a91301112ca02d433e995",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_C/complete.json": {
+      "path": "models/s91003_C/complete.json",
+      "bytes": 407,
+      "sha256": "6f41ea163ac7c85bee25144b326b40feb3591a63d59df32a8486dcea871899a9",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_C/metrics.json": {
+      "path": "models/s91003_C/metrics.json",
+      "bytes": 96745,
+      "sha256": "effae8d511511757c303608e086efac2aa3a3d9a3baac35d1fe56d51a50d092d",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_C/predictions.npz": {
+      "path": "models/s91003_C/predictions.npz",
+      "bytes": 26253,
+      "sha256": "15697b197ad5df2aa70a56a92071a37b48863a61a134cf26b8e546b4e04ede74",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_F0/complete.json": {
+      "path": "models/s91003_F0/complete.json",
+      "bytes": 409,
+      "sha256": "3d52f921ddcb3482a260489471ec55f3bf02b3bc7c4f7ed5b375b7237af124ac",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_F0/metrics.json": {
+      "path": "models/s91003_F0/metrics.json",
+      "bytes": 96892,
+      "sha256": "2040a501c6ba28704e1b2f8bb89d876b7a3106e3ece052eeeb3c8823fe7762e7",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_F0/predictions.npz": {
+      "path": "models/s91003_F0/predictions.npz",
+      "bytes": 26157,
+      "sha256": "9d018ee070b3c7336ca33710f0e12a0d60f0c6f82128e8a60c051d3b41307cdf",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_F1/complete.json": {
+      "path": "models/s91003_F1/complete.json",
+      "bytes": 408,
+      "sha256": "a74ba319cf63ade33a24e4e57cd9ed370c6a72c10220bb57df3f43e0ef0b7eaf",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_F1/metrics.json": {
+      "path": "models/s91003_F1/metrics.json",
+      "bytes": 96653,
+      "sha256": "af195416f1c104d634c6bb540ca6be6075031dce4899ab0c362ef969dc29957a",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_F1/predictions.npz": {
+      "path": "models/s91003_F1/predictions.npz",
+      "bytes": 26132,
+      "sha256": "292d92fc41d1471cf9561b8b17806b0409ce5f393681af0a2154880bedcc97e9",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_F2/complete.json": {
+      "path": "models/s91003_F2/complete.json",
+      "bytes": 409,
+      "sha256": "3cc39574fa5fe122e9fe12871dc5f804e5e9cc38bed30be81b29dcb1c8d522d1",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_F2/metrics.json": {
+      "path": "models/s91003_F2/metrics.json",
+      "bytes": 97203,
+      "sha256": "55b27f2396760c16cc085d0b8264172a79ffb150186d90d6fdead5796746d86a",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91003_F2/predictions.npz": {
+      "path": "models/s91003_F2/predictions.npz",
+      "bytes": 26329,
+      "sha256": "4e10da6a328f0212a765bf9591e5d60f0382b361a27103e23a20da0e1d7237d2",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_A/complete.json": {
+      "path": "models/s91004_A/complete.json",
+      "bytes": 408,
+      "sha256": "5dc4de176a697b5dde9e5e468764a8007e77c4d902c38268e686bddfa62605f2",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_A/metrics.json": {
+      "path": "models/s91004_A/metrics.json",
+      "bytes": 96834,
+      "sha256": "f476b32c02397f9032411fdbbc212315bc23c521fb912040c31ecd04c8072da4",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_A/predictions.npz": {
+      "path": "models/s91004_A/predictions.npz",
+      "bytes": 26098,
+      "sha256": "cb9162f2db7300bd2bb57aaeaaffde491a57e13d7acc90407246b49756d20f81",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_B/complete.json": {
+      "path": "models/s91004_B/complete.json",
+      "bytes": 408,
+      "sha256": "a0f7fcafbf0da5a329bdbd575eef26e5fec8dbce483e1cd20eedd4d872d048d9",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_B/metrics.json": {
+      "path": "models/s91004_B/metrics.json",
+      "bytes": 96566,
+      "sha256": "4293bbc3b5a9207e37948d87689c7a64fa22ab0618cdf9c989bce93371f57ecc",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_B/predictions.npz": {
+      "path": "models/s91004_B/predictions.npz",
+      "bytes": 18943,
+      "sha256": "1b66d249f4037e325123462ed91633d2d751322c53d53e0eae2b49a7c14d5801",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_C/complete.json": {
+      "path": "models/s91004_C/complete.json",
+      "bytes": 408,
+      "sha256": "7c25ad1d1d5bca62e04f0d8b0abcba3ae180166550666501b97664020f5bd71b",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_C/metrics.json": {
+      "path": "models/s91004_C/metrics.json",
+      "bytes": 96977,
+      "sha256": "8d0c997f1d85941381013d805e1cc18be7a51b9e31f06913ee16ca0e8232b387",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_C/predictions.npz": {
+      "path": "models/s91004_C/predictions.npz",
+      "bytes": 26093,
+      "sha256": "b13a8804da33b2f13c78e2e817d5831650b5241e6c95fe6503de445182ba3709",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_F0/complete.json": {
+      "path": "models/s91004_F0/complete.json",
+      "bytes": 409,
+      "sha256": "4d44861daf0e4a80d83ead15ee716ad2d4fa67ec535ad8b3d09fab1262ee063c",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_F0/metrics.json": {
+      "path": "models/s91004_F0/metrics.json",
+      "bytes": 96872,
+      "sha256": "6dded98f217e04ff6aa68de78ace64a49042d855e2db37af857f8cf27dbb7f0b",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_F0/predictions.npz": {
+      "path": "models/s91004_F0/predictions.npz",
+      "bytes": 26175,
+      "sha256": "9fae77736da9bf074c044fc76ce6f8f1b596b72ebb59c09f0760826030e432f2",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_F1/complete.json": {
+      "path": "models/s91004_F1/complete.json",
+      "bytes": 409,
+      "sha256": "cd3aed0ff9197e0c499d03878bbb04f5e1edd8d52e4c155188378c6d21fdecc9",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_F1/metrics.json": {
+      "path": "models/s91004_F1/metrics.json",
+      "bytes": 96699,
+      "sha256": "a0d379b224f70d6f588e0250629256d48ea292bd7788a3bad92d45515dc0b7f1",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_F1/predictions.npz": {
+      "path": "models/s91004_F1/predictions.npz",
+      "bytes": 26098,
+      "sha256": "04bf40f1493f04367447834838e8892289434bf872735574188c6a9a560dcf2c",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_F2/complete.json": {
+      "path": "models/s91004_F2/complete.json",
+      "bytes": 408,
+      "sha256": "acaec50ac5c82da7e66a281b85453731799e554586e224563951ee4e90eb5f0a",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_F2/metrics.json": {
+      "path": "models/s91004_F2/metrics.json",
+      "bytes": 97040,
+      "sha256": "c76a9e57d8276cc099cecdbbd60b7dacec99373838915ff55550182547f8fdc8",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91004_F2/predictions.npz": {
+      "path": "models/s91004_F2/predictions.npz",
+      "bytes": 26048,
+      "sha256": "3b3f39701adb56b2a1cafb709b841b569f6c6c66bcf02f4f1f2b5fb4fc43d9fd",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_A/complete.json": {
+      "path": "models/s91005_A/complete.json",
+      "bytes": 407,
+      "sha256": "486f8e9da14993538de71ee37158a153ae1091804a2dc29c653988dbd1a7e2d4",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_A/metrics.json": {
+      "path": "models/s91005_A/metrics.json",
+      "bytes": 96356,
+      "sha256": "1cc16600332e0e5b0190928f7a8b4af4bdd44d1e0fd94e8f0f5059947977bf0b",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_A/predictions.npz": {
+      "path": "models/s91005_A/predictions.npz",
+      "bytes": 25745,
+      "sha256": "133d2eb498cdbefeb929380076ce4a804b28355eef284d75a0e1811c8047df56",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_B/complete.json": {
+      "path": "models/s91005_B/complete.json",
+      "bytes": 408,
+      "sha256": "b41b844ac24ee20de711276527b750f2172da0e9f76315e91116502f6a13ef3e",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_B/metrics.json": {
+      "path": "models/s91005_B/metrics.json",
+      "bytes": 95989,
+      "sha256": "7b511b39dc34e0cd57710143bbb4538990f83dfee97d601f8fd4a2ddca84bb52",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_B/predictions.npz": {
+      "path": "models/s91005_B/predictions.npz",
+      "bytes": 19083,
+      "sha256": "0cc66d30dbda023e21e3fc973ac65a4da3963f6f5c334a2d5b974b7cc672a530",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_C/complete.json": {
+      "path": "models/s91005_C/complete.json",
+      "bytes": 408,
+      "sha256": "0b4e36cf309ecc85af852365f7ca98829d86799787597ed65581c3e50fa325a1",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_C/metrics.json": {
+      "path": "models/s91005_C/metrics.json",
+      "bytes": 96723,
+      "sha256": "52fcc8cfb26e086061063e8963a5a385779fc81cf5cf43f1e68457d0c6cd7849",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_C/predictions.npz": {
+      "path": "models/s91005_C/predictions.npz",
+      "bytes": 25557,
+      "sha256": "f2363d8b24a6b2d6fa1382af7f8011e253670cb6179ddfbb626f4dde0710f15c",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_F0/complete.json": {
+      "path": "models/s91005_F0/complete.json",
+      "bytes": 409,
+      "sha256": "27b246d5aaf7de3d2fcb209e1a6e65c18baf1515085013dc015abeb20cf00564",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_F0/metrics.json": {
+      "path": "models/s91005_F0/metrics.json",
+      "bytes": 96088,
+      "sha256": "7a1d609035a0fd16a8eb1a83eee8ad5f874f6fa70fd011682f111162ab803a18",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_F0/predictions.npz": {
+      "path": "models/s91005_F0/predictions.npz",
+      "bytes": 25789,
+      "sha256": "784d276c7b47b7958a778ebe7ab693fea02a09f42677f332382f349e01d9068d",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_F1/complete.json": {
+      "path": "models/s91005_F1/complete.json",
+      "bytes": 407,
+      "sha256": "07d3331bfb03a89fe1950669dcf3d19b3c4f8ca64cf8fd4b710ba7dca21ea071",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_F1/metrics.json": {
+      "path": "models/s91005_F1/metrics.json",
+      "bytes": 96051,
+      "sha256": "7d1af5441827fc6b3c814b6e6f20e86039d4b0de61d92a5294e18767905f4c88",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_F1/predictions.npz": {
+      "path": "models/s91005_F1/predictions.npz",
+      "bytes": 25727,
+      "sha256": "bda13e7d9ac5a01cb087ee6db32fd22b25af7df1e491ad3c2394824010fe3e9d",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_F2/complete.json": {
+      "path": "models/s91005_F2/complete.json",
+      "bytes": 409,
+      "sha256": "ef1c340794b9aca17ffb70100cc71640ffbe612436048e1c2178e6a75af6d0f7",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_F2/metrics.json": {
+      "path": "models/s91005_F2/metrics.json",
+      "bytes": 96449,
+      "sha256": "130f0065e6e46b5deba5a238c568f7bd6f6277acaaa343da1688acfe69b47af1",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91005_F2/predictions.npz": {
+      "path": "models/s91005_F2/predictions.npz",
+      "bytes": 26055,
+      "sha256": "b611fdacae346141f6cd82af5174ad1d13b81f7ed5e6267f807f50e828ffe735",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_A/complete.json": {
+      "path": "models/s91006_A/complete.json",
+      "bytes": 408,
+      "sha256": "b013f4b7389e18f836f3068001eac6d125e23a1dec878ff754864e8799ae9cf0",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_A/metrics.json": {
+      "path": "models/s91006_A/metrics.json",
+      "bytes": 96477,
+      "sha256": "c959c94dc8e69df0f9a0e56e72c7109b63f5755168db907c684d023bb9e66a5c",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_A/predictions.npz": {
+      "path": "models/s91006_A/predictions.npz",
+      "bytes": 25935,
+      "sha256": "e495ac42a6788c897f9a1d48629cdf08705b8278c1d06922bbc95e04202fc6da",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_B/complete.json": {
+      "path": "models/s91006_B/complete.json",
+      "bytes": 408,
+      "sha256": "dfa3c3f0119988fa00a15fbd934841b4b37e8477418586bcead9ebb1ab8ca3cc",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_B/metrics.json": {
+      "path": "models/s91006_B/metrics.json",
+      "bytes": 96398,
+      "sha256": "78770d378627db28401761ddaf602bb7854622a63930e9dc2d44fb006186cdd7",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_B/predictions.npz": {
+      "path": "models/s91006_B/predictions.npz",
+      "bytes": 19345,
+      "sha256": "a5b954c03d0ace7b2f017943088223dc76f313e971d1fea9fd0fbf7d1b1cd355",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_C/complete.json": {
+      "path": "models/s91006_C/complete.json",
+      "bytes": 408,
+      "sha256": "03778f43b5e1554adbd94c99a4f52e9331a71286dabbd802f66d202412eca52f",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_C/metrics.json": {
+      "path": "models/s91006_C/metrics.json",
+      "bytes": 96766,
+      "sha256": "c25fae6253acf9bc246f550396bb0dbf38ff897a544256e6c58a50836f553eec",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_C/predictions.npz": {
+      "path": "models/s91006_C/predictions.npz",
+      "bytes": 25908,
+      "sha256": "d955db571997a62011c2a4fddc9dac3d30f7b59db6b8e709306ae1a9558bfbdf",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_F0/complete.json": {
+      "path": "models/s91006_F0/complete.json",
+      "bytes": 409,
+      "sha256": "0acbe32cfc0219631c84d369c6d28f249562bf3c14eab2c17cc33cc6e6312b67",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_F0/metrics.json": {
+      "path": "models/s91006_F0/metrics.json",
+      "bytes": 96776,
+      "sha256": "0a903b81e30ff1e6adb3fff43fa4be7f88da6e418cc8b65d9d17a0765396fd77",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_F0/predictions.npz": {
+      "path": "models/s91006_F0/predictions.npz",
+      "bytes": 26064,
+      "sha256": "08e66482c16d8c58b4509ee826e499f082cd8838b13eb3c1d05ed64efe4b7576",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_F1/complete.json": {
+      "path": "models/s91006_F1/complete.json",
+      "bytes": 407,
+      "sha256": "fccca8c8c0a145322c1e225ead4038a8645b26dc435b1ac20573c0818a802a3d",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_F1/metrics.json": {
+      "path": "models/s91006_F1/metrics.json",
+      "bytes": 96640,
+      "sha256": "120f489ebcf5faeaa608eb1c07ce46ac510167b20ae92eeb45e62683d04d8c34",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_F1/predictions.npz": {
+      "path": "models/s91006_F1/predictions.npz",
+      "bytes": 26024,
+      "sha256": "698a0e63f55d91b818086d46b02a0e06688c61d7f806ae1699085ab3e1d94f74",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_F2/complete.json": {
+      "path": "models/s91006_F2/complete.json",
+      "bytes": 409,
+      "sha256": "11886fd82cd47d43b8c0706da7d99d8b8f0f3e37940aa4a02c283eaeefb00ef0",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_F2/metrics.json": {
+      "path": "models/s91006_F2/metrics.json",
+      "bytes": 96936,
+      "sha256": "5816e9556ae4c534351d13a88e04957f8c3e56d70834624b672fdb3ae4e4273c",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "models/s91006_F2/predictions.npz": {
+      "path": "models/s91006_F2/predictions.npz",
+      "bytes": 26164,
+      "sha256": "01b2289192fe66e66607d9f2bae170f80140c88dfa9df563cfae77d2c0f92588",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "preflight.json": {
+      "path": "preflight.json",
+      "bytes": 1165,
+      "sha256": "4bf651ef937e588a8d54f80afa5bded1411559ad99c0de0042b28a092ed7ad40",
+      "public_copy": "fixed-background-geometry-response/evidence/preflight.json",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "protocol.md": {
+      "path": "protocol.md",
+      "bytes": 6906,
+      "sha256": "ca9a9148b6a6df87b0af4d8c67f102774e64a91745a36f0470b60a05a880c008",
+      "public_copy": "fixed-background-geometry-response/protocol/FIXED_GEOMETRY_JOINT_PROTOCOL_20260923_ZH.md",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "query_specs.json": {
+      "path": "query_specs.json",
+      "bytes": 6666,
+      "sha256": "f28c703eac4ad0e4f624794c93110358723e1a6a2b0bbb16791d4b2dc26a3802",
+      "public_copy": "fixed-background-geometry-response/evidence/query_specs.json",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "reference.npz": {
+      "path": "reference.npz",
+      "bytes": 2070732,
+      "sha256": "f61ea75583ad5a77c72417cc70168d2a28143f16eac8238fc05d4997f63b1e4a",
+      "public_copy": "fixed-background-geometry-response/evidence/reference.npz",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "reference_complete.json": {
+      "path": "reference_complete.json",
+      "bytes": 7206,
+      "sha256": "646bbc586c4146b6f21d010bebd8d3d3478d3caf4dbf12f009ebe19337781699",
+      "public_copy": "fixed-background-geometry-response/evidence/reference_complete.json",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "run_protocol.json": {
+      "path": "run_protocol.json",
+      "bytes": 4508,
+      "sha256": "5398f7e9361e53cde7a0fd3eab1ea26e4146e3011a0584420c9269d208ef00f0",
+      "public_copy": "fixed-background-geometry-response/evidence/run_protocol.json",
+      "availability": "public copy (see provenance for redaction)"
+    },
+    "source/analyze_fixed_geometry_joint_20260923.py": {
+      "path": "source/analyze_fixed_geometry_joint_20260923.py",
+      "bytes": 10241,
+      "sha256": "a0fa4d12898d053424326acac8a4b0d14656e411baa153507ca6cc49c289669e",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "source/fixed_geometry_math.py": {
+      "path": "source/fixed_geometry_math.py",
+      "bytes": 8695,
+      "sha256": "60125981d25c79c8e4e873bc999f30b763b6f1affb32a30a9de226910fea9708",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "source/geometry_study.py": {
+      "path": "source/geometry_study.py",
+      "bytes": 17503,
+      "sha256": "f96f3d816453d532fb454355cbd0c50f42b00352c9b37886a8ca6b67aa16e490",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "source/model.py": {
+      "path": "source/model.py",
+      "bytes": 7371,
+      "sha256": "f0ba3e8a9ab00afc143c66c5f1c8b6e37981801cf405f15fb67baea36686c1b9",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "source/run_fixed_geometry_joint_20260923.py": {
+      "path": "source/run_fixed_geometry_joint_20260923.py",
+      "bytes": 12239,
+      "sha256": "7e1f56068fc82f3638c8ec642ecb4c223a4c9ccd6711e63ec0c1ccfd4d6c7a6c",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "source/scale_data.py": {
+      "path": "source/scale_data.py",
+      "bytes": 5162,
+      "sha256": "148ee296c20cd1ae3ebceb6d12a1bd8cb4df76d679e7cf105d3c2df09d7734b3",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "source/scale_evaluation.py": {
+      "path": "source/scale_evaluation.py",
+      "bytes": 8389,
+      "sha256": "ed5204a2d220b451278e9916b66a3a37fbb08ac8f3bf2e87d2e9a9a98d27bd7d",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "source/scale_model.py": {
+      "path": "source/scale_model.py",
+      "bytes": 7951,
+      "sha256": "3930e9a2ec1ac85edaa525b9562beb21c7a001594dba23726f233a0b9d3d6018",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "source/test_fixed_geometry_math.py": {
+      "path": "source/test_fixed_geometry_math.py",
+      "bytes": 2652,
+      "sha256": "28afa2417608d9b5fc2149d360027159ad77d4536b9e844568667482504729b8",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    }
+  }
+}
