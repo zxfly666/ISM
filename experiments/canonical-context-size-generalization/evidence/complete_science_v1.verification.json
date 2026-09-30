@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "time": 1790728732.7203317,
+  "archive": "complete_science_v1.tar.gz",
+  "archive_bytes": 734330466,
+  "archive_sha256": "4e27d8e0c4ac32250b41877de518782b1a18dc613c107a607ef9f8eb87981a9a",
+  "manifest_sha256": "a21f8b2a9be6157e58ff99121906285f5f4586e7a017a47a5c664a6e7eb365fb",
+  "members": 1861
+}

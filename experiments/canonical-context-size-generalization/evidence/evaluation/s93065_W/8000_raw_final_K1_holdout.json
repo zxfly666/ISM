@@ -1,0 +1,29 @@
+{
+  "seed": 93065,
+  "arm": "W",
+  "step": 8000,
+  "weight": "raw",
+  "spec": {
+    "key": "K1_holdout",
+    "family": "K1",
+    "split": "holdout",
+    "side": 4,
+    "placement": "center"
+  },
+  "kind": "final",
+  "key": "s93065_W/8000_raw_final_K1_holdout",
+  "prediction": "evaluation/s93065_W/8000_raw_final_K1_holdout.npz",
+  "bank": "banks/K1_holdout_canonical.npz",
+  "native_hash": "63f6b1be5086f2d0881a1425823f4a515848f7a5deab8372b44a7c452c3f936b",
+  "source_sha256": "0eb4014d13d39fa4f811d22dac345c069fabe29d255b58b3e2ca91e984c3a4c0",
+  "n": 40,
+  "mean_kl": 1.2283291565531873e-05,
+  "max_kl": 7.3594560582535e-05,
+  "mean_ce": 0.591657955981992,
+  "mean_entropy": 0.5916456726904264,
+  "max_probability_error": 0.0059247145369967225,
+  "probability_mae": 0.0017389365054464965,
+  "expected_brier": 0.20169045857193152,
+  "excess_brier": 5.428784606861279e-06,
+  "ability_passed": true
+}

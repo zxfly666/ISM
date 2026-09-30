@@ -1,0 +1,17 @@
+{
+  "seed": 93061,
+  "arm": "W",
+  "family": "K4",
+  "side": 20,
+  "kind": "joint_permutation",
+  "key": "s93061_W_K4_N20_joint_permutation",
+  "path": "controls/s93061_W_K4_N20_joint_permutation.npz",
+  "base_bank": "banks/control_s93061_W_K4_N20_joint_permutation_base.npz",
+  "altered_bank": "banks/control_s93061_W_K4_N20_joint_permutation_altered.npz",
+  "base_hash": "1dff9274a7380a38bc9d29fb559540e1a4b36e0c5879c861c173908f3e770d14",
+  "altered_hash": "58697e187371d5bae286c9238a8f3b55c1b39b9ce053f5bd5c45146ca8727cc1",
+  "source_sha256": "77af754211fa5b1673f56506a697b3c44f1ee3d114faf79bf3b07fcfd35c9b1e",
+  "rows": 64,
+  "max_probability_change": 2.0852729298859174e-07,
+  "passed": true
+}

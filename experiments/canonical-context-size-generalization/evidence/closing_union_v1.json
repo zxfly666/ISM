@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "time": 1790729210.8444548,
+  "science_paths": 1863,
+  "covered": 1863,
+  "missing": [],
+  "packages": [
+    "closing_records_v1.tar.gz",
+    "complete_science_v1.tar.gz",
+    "frozen_protocol_v1.tar.gz",
+    "initial_source_protocol_preflight_v1.tar.gz"
+  ],
+  "manifest_sha256": "de39d5745fb717263020f5431bfe514a77d03dc95b6a2dd0f778a5968bfb6785",
+  "same_disk_not_offsite": true
+}

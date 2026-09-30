@@ -1,0 +1,17 @@
+{
+  "seed": 93066,
+  "arm": "N",
+  "family": "K4",
+  "side": 20,
+  "kind": "joint_permutation",
+  "key": "s93066_N_K4_N20_joint_permutation",
+  "path": "controls/s93066_N_K4_N20_joint_permutation.npz",
+  "base_bank": "banks/control_s93066_N_K4_N20_joint_permutation_base.npz",
+  "altered_bank": "banks/control_s93066_N_K4_N20_joint_permutation_altered.npz",
+  "base_hash": "1dff9274a7380a38bc9d29fb559540e1a4b36e0c5879c861c173908f3e770d14",
+  "altered_hash": "67611fadc36747027645fc194cc98e06260facac31dcaf159cb1afd52f0cf2a9",
+  "source_sha256": "68db94c64a7c41df763ad1d2e3be86996a8816fc8344d24b07c46649bd1b7e63",
+  "rows": 64,
+  "max_probability_change": 7.850281386057034e-08,
+  "passed": true
+}

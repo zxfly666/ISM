@@ -1,0 +1,80 @@
+{
+  "status": "passed_for_five_PNG",
+  "recorded_at": 1790730083.8592582,
+  "reviewer": "assistant_actual_view_image_in_this_turn_not_external_peer_review",
+  "actual_PNG_review_completed_before": 1790729210.8444548,
+  "image_edits": false,
+  "original_PDF_rendered": false,
+  "files": [
+    {
+      "path": "results/dense_multisize_canonical_6h_20260930/evidence/analysis/figures/01_size_kl.png",
+      "bytes": 153503,
+      "sha256": "5ee6fd023b69e3cb313195c02b5cfb42dbbf27de8ed0cd0780ef597a059782f1",
+      "visual_reviewed": true,
+      "note": "N/W mean and MCSE, side20 marker, labels and legend readable."
+    },
+    {
+      "path": "results/dense_multisize_canonical_6h_20260930/evidence/analysis/figures/01_size_kl.pdf",
+      "bytes": 12763,
+      "sha256": "d400fe600d3d543105aed630af4d0c01457de14bfffd0ee8af3e2c9d9aff367a",
+      "visual_reviewed": false,
+      "note": "Preserved and SHA verified; no separate PDF rendering."
+    },
+    {
+      "path": "results/dense_multisize_canonical_6h_20260930/evidence/analysis/figures/02_absolute_ability.png",
+      "bytes": 143357,
+      "sha256": "a7a180740b04d17173e84f7e51c43ab02d0a2d86103ac5091f8374a66d3bbec2",
+      "visual_reviewed": true,
+      "note": "Per-seed maxima and .05 threshold readable; absolute failures visible."
+    },
+    {
+      "path": "results/dense_multisize_canonical_6h_20260930/evidence/analysis/figures/02_absolute_ability.pdf",
+      "bytes": 18992,
+      "sha256": "b5397b7f58142fddfc0a7b0c84fe697491d4032e6a9ab9dbbff8571f843c8aa6",
+      "visual_reviewed": false,
+      "note": "Preserved and SHA verified; no separate PDF rendering."
+    },
+    {
+      "path": "results/dense_multisize_canonical_6h_20260930/evidence/analysis/figures/03_primary_paired.png",
+      "bytes": 62425,
+      "sha256": "cdb65cb9e7fa069959fed2f34a4237e19f54667b5c287bc909d941cf476338d6",
+      "visual_reviewed": true,
+      "note": "Six paired differences, paired t interval, zero and material margin readable."
+    },
+    {
+      "path": "results/dense_multisize_canonical_6h_20260930/evidence/analysis/figures/03_primary_paired.pdf",
+      "bytes": 10811,
+      "sha256": "376c93f6a53e77b5c434b5d51caa311d76dc81b872d91031e048dd66b777b2e4",
+      "visual_reviewed": false,
+      "note": "Preserved and SHA verified; no separate PDF rendering."
+    },
+    {
+      "path": "results/dense_multisize_canonical_6h_20260930/evidence/analysis/figures/04_noncounting_response.png",
+      "bytes": 109214,
+      "sha256": "bbbdc27564f2531888aa268a3c41296a0b640b5b9279b3aecc186098102f9db0",
+      "visual_reviewed": true,
+      "note": "Equal-count witness, exact oracle and predicted responses clearly separated."
+    },
+    {
+      "path": "results/dense_multisize_canonical_6h_20260930/evidence/analysis/figures/04_noncounting_response.pdf",
+      "bytes": 13536,
+      "sha256": "5a9bba5ccaa5b4a56dad4837dec475fa1b629f23ae798b7bb27a5c32ef045ed7",
+      "visual_reviewed": false,
+      "note": "Preserved and SHA verified; no separate PDF rendering."
+    },
+    {
+      "path": "results/dense_multisize_canonical_6h_20260930/evidence/analysis/figures/05_learning_retention.png",
+      "bytes": 210156,
+      "sha256": "e27c5057a4e4f52a64e0f2bb7b1e5f9ee132dbff2797a4775c629c3c33824593",
+      "visual_reviewed": true,
+      "note": "4k/6k/8k validation and retention upper bounds visible without overlap."
+    },
+    {
+      "path": "results/dense_multisize_canonical_6h_20260930/evidence/analysis/figures/05_learning_retention.pdf",
+      "bytes": 14318,
+      "sha256": "8318c3ffa55d1cc6e9a84f49ce3bf364f5589f2c38bbc8aa2297f3ee706be087",
+      "visual_reviewed": false,
+      "note": "Preserved and SHA verified; no separate PDF rendering."
+    }
+  ]
+}

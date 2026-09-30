@@ -1,0 +1,8503 @@
+{
+  "jobs": [
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_train",
+        "family": "K1",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_train",
+        "family": "K2",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N4_center",
+        "family": "G8",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N4_center",
+        "family": "G8",
+        "split": "test",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N6_center",
+        "family": "K4",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N6_center",
+        "family": "G8",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N6_center",
+        "family": "G8",
+        "split": "test",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N8_center",
+        "family": "K4",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N8_center",
+        "family": "G8",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N8_center",
+        "family": "G8",
+        "split": "test",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N12_center",
+        "family": "K4",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N12_center",
+        "family": "G8",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N12_center",
+        "family": "G8",
+        "split": "test",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N16_center",
+        "family": "K4",
+        "split": "train",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N16_center",
+        "family": "G8",
+        "split": "test",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N20_center",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N24_center",
+        "family": "K4",
+        "split": "train",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N24_center",
+        "family": "G8",
+        "split": "test",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_train",
+        "family": "K1",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_train",
+        "family": "K2",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N4_center",
+        "family": "G8",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N4_center",
+        "family": "G8",
+        "split": "test",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N6_center",
+        "family": "K4",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N6_center",
+        "family": "G8",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N6_center",
+        "family": "G8",
+        "split": "test",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N8_center",
+        "family": "K4",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N8_center",
+        "family": "G8",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N8_center",
+        "family": "G8",
+        "split": "test",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N12_center",
+        "family": "K4",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N12_center",
+        "family": "G8",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N12_center",
+        "family": "G8",
+        "split": "test",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N16_center",
+        "family": "K4",
+        "split": "train",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N16_center",
+        "family": "G8",
+        "split": "test",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N20_center",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N24_center",
+        "family": "K4",
+        "split": "train",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N24_center",
+        "family": "G8",
+        "split": "test",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93061,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_train",
+        "family": "K1",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_train",
+        "family": "K2",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N4_center",
+        "family": "G8",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N4_center",
+        "family": "G8",
+        "split": "test",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N6_center",
+        "family": "K4",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N6_center",
+        "family": "G8",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N6_center",
+        "family": "G8",
+        "split": "test",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N8_center",
+        "family": "K4",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N8_center",
+        "family": "G8",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N8_center",
+        "family": "G8",
+        "split": "test",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N12_center",
+        "family": "K4",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N12_center",
+        "family": "G8",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N12_center",
+        "family": "G8",
+        "split": "test",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N16_center",
+        "family": "K4",
+        "split": "train",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N16_center",
+        "family": "G8",
+        "split": "test",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N20_center",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N24_center",
+        "family": "K4",
+        "split": "train",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N24_center",
+        "family": "G8",
+        "split": "test",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_train",
+        "family": "K1",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_train",
+        "family": "K2",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N4_center",
+        "family": "G8",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N4_center",
+        "family": "G8",
+        "split": "test",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N6_center",
+        "family": "K4",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N6_center",
+        "family": "G8",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N6_center",
+        "family": "G8",
+        "split": "test",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N8_center",
+        "family": "K4",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N8_center",
+        "family": "G8",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N8_center",
+        "family": "G8",
+        "split": "test",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N12_center",
+        "family": "K4",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N12_center",
+        "family": "G8",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N12_center",
+        "family": "G8",
+        "split": "test",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N16_center",
+        "family": "K4",
+        "split": "train",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N16_center",
+        "family": "G8",
+        "split": "test",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N20_center",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N24_center",
+        "family": "K4",
+        "split": "train",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N24_center",
+        "family": "G8",
+        "split": "test",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93062,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_train",
+        "family": "K1",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_train",
+        "family": "K2",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N4_center",
+        "family": "G8",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N4_center",
+        "family": "G8",
+        "split": "test",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N6_center",
+        "family": "K4",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N6_center",
+        "family": "G8",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N6_center",
+        "family": "G8",
+        "split": "test",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N8_center",
+        "family": "K4",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N8_center",
+        "family": "G8",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N8_center",
+        "family": "G8",
+        "split": "test",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N12_center",
+        "family": "K4",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N12_center",
+        "family": "G8",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N12_center",
+        "family": "G8",
+        "split": "test",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N16_center",
+        "family": "K4",
+        "split": "train",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N16_center",
+        "family": "G8",
+        "split": "test",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N20_center",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N24_center",
+        "family": "K4",
+        "split": "train",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N24_center",
+        "family": "G8",
+        "split": "test",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_train",
+        "family": "K1",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_train",
+        "family": "K2",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N4_center",
+        "family": "G8",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N4_center",
+        "family": "G8",
+        "split": "test",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N6_center",
+        "family": "K4",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N6_center",
+        "family": "G8",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N6_center",
+        "family": "G8",
+        "split": "test",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N8_center",
+        "family": "K4",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N8_center",
+        "family": "G8",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N8_center",
+        "family": "G8",
+        "split": "test",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N12_center",
+        "family": "K4",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N12_center",
+        "family": "G8",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N12_center",
+        "family": "G8",
+        "split": "test",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N16_center",
+        "family": "K4",
+        "split": "train",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N16_center",
+        "family": "G8",
+        "split": "test",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N20_center",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N24_center",
+        "family": "K4",
+        "split": "train",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N24_center",
+        "family": "G8",
+        "split": "test",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93063,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_train",
+        "family": "K1",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_train",
+        "family": "K2",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N4_center",
+        "family": "G8",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N4_center",
+        "family": "G8",
+        "split": "test",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N6_center",
+        "family": "K4",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N6_center",
+        "family": "G8",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N6_center",
+        "family": "G8",
+        "split": "test",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N8_center",
+        "family": "K4",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N8_center",
+        "family": "G8",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N8_center",
+        "family": "G8",
+        "split": "test",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N12_center",
+        "family": "K4",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N12_center",
+        "family": "G8",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N12_center",
+        "family": "G8",
+        "split": "test",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N16_center",
+        "family": "K4",
+        "split": "train",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N16_center",
+        "family": "G8",
+        "split": "test",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N20_center",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N24_center",
+        "family": "K4",
+        "split": "train",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N24_center",
+        "family": "G8",
+        "split": "test",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_train",
+        "family": "K1",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_train",
+        "family": "K2",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N4_center",
+        "family": "G8",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N4_center",
+        "family": "G8",
+        "split": "test",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N6_center",
+        "family": "K4",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N6_center",
+        "family": "G8",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N6_center",
+        "family": "G8",
+        "split": "test",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N8_center",
+        "family": "K4",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N8_center",
+        "family": "G8",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N8_center",
+        "family": "G8",
+        "split": "test",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N12_center",
+        "family": "K4",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N12_center",
+        "family": "G8",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N12_center",
+        "family": "G8",
+        "split": "test",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N16_center",
+        "family": "K4",
+        "split": "train",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N16_center",
+        "family": "G8",
+        "split": "test",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N20_center",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N24_center",
+        "family": "K4",
+        "split": "train",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N24_center",
+        "family": "G8",
+        "split": "test",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93064,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_train",
+        "family": "K1",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_train",
+        "family": "K2",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N4_center",
+        "family": "G8",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N4_center",
+        "family": "G8",
+        "split": "test",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N6_center",
+        "family": "K4",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N6_center",
+        "family": "G8",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N6_center",
+        "family": "G8",
+        "split": "test",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N8_center",
+        "family": "K4",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N8_center",
+        "family": "G8",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N8_center",
+        "family": "G8",
+        "split": "test",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N12_center",
+        "family": "K4",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N12_center",
+        "family": "G8",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N12_center",
+        "family": "G8",
+        "split": "test",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N16_center",
+        "family": "K4",
+        "split": "train",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N16_center",
+        "family": "G8",
+        "split": "test",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N20_center",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N24_center",
+        "family": "K4",
+        "split": "train",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N24_center",
+        "family": "G8",
+        "split": "test",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_train",
+        "family": "K1",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_train",
+        "family": "K2",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N4_center",
+        "family": "G8",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N4_center",
+        "family": "G8",
+        "split": "test",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N6_center",
+        "family": "K4",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N6_center",
+        "family": "G8",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N6_center",
+        "family": "G8",
+        "split": "test",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N8_center",
+        "family": "K4",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N8_center",
+        "family": "G8",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N8_center",
+        "family": "G8",
+        "split": "test",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N12_center",
+        "family": "K4",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N12_center",
+        "family": "G8",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N12_center",
+        "family": "G8",
+        "split": "test",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N16_center",
+        "family": "K4",
+        "split": "train",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N16_center",
+        "family": "G8",
+        "split": "test",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N20_center",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N24_center",
+        "family": "K4",
+        "split": "train",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N24_center",
+        "family": "G8",
+        "split": "test",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93065,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_train",
+        "family": "K1",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_train",
+        "family": "K2",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N4_center",
+        "family": "G8",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N4_center",
+        "family": "G8",
+        "split": "test",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N6_center",
+        "family": "K4",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N6_center",
+        "family": "G8",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N6_center",
+        "family": "G8",
+        "split": "test",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N8_center",
+        "family": "K4",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N8_center",
+        "family": "G8",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N8_center",
+        "family": "G8",
+        "split": "test",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N12_center",
+        "family": "K4",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N12_center",
+        "family": "G8",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N12_center",
+        "family": "G8",
+        "split": "test",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N16_center",
+        "family": "K4",
+        "split": "train",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N16_center",
+        "family": "G8",
+        "split": "test",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N20_center",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N24_center",
+        "family": "K4",
+        "split": "train",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N24_center",
+        "family": "G8",
+        "split": "test",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "N",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_train",
+        "family": "K1",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_train",
+        "family": "K2",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N4_center",
+        "family": "G8",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N4_center",
+        "family": "G8",
+        "split": "test",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N6_center",
+        "family": "K4",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N6_center",
+        "family": "G8",
+        "split": "train",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N6_center",
+        "family": "G8",
+        "split": "test",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N8_center",
+        "family": "K4",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N8_center",
+        "family": "G8",
+        "split": "train",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N8_center",
+        "family": "G8",
+        "split": "test",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N12_center",
+        "family": "K4",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_train_N12_center",
+        "family": "G8",
+        "split": "train",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N12_center",
+        "family": "G8",
+        "split": "test",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N16_center",
+        "family": "K4",
+        "split": "train",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N16_center",
+        "family": "G8",
+        "split": "test",
+        "side": 16,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N20_center",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N24_center",
+        "family": "K4",
+        "split": "train",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N24_center",
+        "family": "G8",
+        "split": "test",
+        "side": 24,
+        "placement": "center"
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_NE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_NE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "NE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SW",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SW",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SW",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_train_N20_SE",
+        "family": "K4",
+        "split": "train",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_test_N20_SE",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "SE",
+        "raw_only": true
+      },
+      "kind": "final"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 8000,
+      "weight": "ema",
+      "spec": {
+        "key": "G8_test_N20_center",
+        "family": "G8",
+        "split": "test",
+        "side": 20,
+        "placement": "center"
+      },
+      "kind": "secondary"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 4000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K1_holdout",
+        "family": "K1",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K2_holdout",
+        "family": "K2",
+        "split": "holdout",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "K4_N4_center",
+        "family": "K4",
+        "split": "train",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N4_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 4,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N6_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 6,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N8_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 8,
+        "placement": "center"
+      },
+      "kind": "learning"
+    },
+    {
+      "seed": 93066,
+      "arm": "W",
+      "step": 6000,
+      "weight": "raw",
+      "spec": {
+        "key": "G8_validation_N12_center",
+        "family": "G8",
+        "split": "validation",
+        "side": 12,
+        "placement": "center"
+      },
+      "kind": "learning"
+    }
+  ],
+  "jobs_count": 600,
+  "primary": "G8_test_N20_center",
+  "unlocked": 1790727881.6461377
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "receipt": "closing_records_v1.verification.json",
+    "sha256": "37deae9cfc434b5f4175f362006b8ff40090fbcfda74a3a510bfa68ea8f3a08e",
+    "result": {
+      "status": "passed",
+      "time": 1790729031.0632915,
+      "archive": "closing_records_v1.tar.gz",
+      "archive_bytes": 89370,
+      "archive_sha256": "023927fefdf3c31a5dac22c3f00e70c7f334ba638418e6c4b689a6170110a5f4",
+      "manifest_sha256": "5331f1d6f69685cb7afea54371e0176609dd36ecee8d768b4959992b44f2e77f",
+      "members": 4
+    }
+  },
+  {
+    "receipt": "complete_science_v1.verification.json",
+    "sha256": "d5ef5c14784d32d808bc7ba8a45056db4b69d5a46fa30b18fd985ada47fa1137",
+    "result": {
+      "status": "passed",
+      "time": 1790728732.7203317,
+      "archive": "complete_science_v1.tar.gz",
+      "archive_bytes": 734330466,
+      "archive_sha256": "4e27d8e0c4ac32250b41877de518782b1a18dc613c107a607ef9f8eb87981a9a",
+      "manifest_sha256": "a21f8b2a9be6157e58ff99121906285f5f4586e7a017a47a5c664a6e7eb365fb",
+      "members": 1861
+    }
+  },
+  {
+    "receipt": "frozen_protocol_v1.verification.json",
+    "sha256": "777aeda69279e3b1767f6a3c2bad4ab4bad2024e670a5010df0288f420f6839a",
+    "result": {
+      "status": "passed",
+      "time": 1790717452.479268,
+      "archive": "frozen_protocol_v1.tar.gz",
+      "archive_bytes": 6966,
+      "archive_sha256": "623e03af8bbf464ff79924fb228a44a5d37042b7adc3ae2c3c2369a1e8b55bf6",
+      "manifest_sha256": "2394f06ecc686dea43a285aa413ba8ed96ab86ba565d39de1396796a954f1a43",
+      "members": 3
+    }
+  },
+  {
+    "receipt": "initial_source_protocol_preflight_v1.verification.json",
+    "sha256": "a2fa8a81155e0da6a739e30f4e48ce2611e9770c7675c10c2fd699915cf20af6",
+    "result": {
+      "status": "passed",
+      "time": 1790717374.3101184,
+      "archive": "initial_source_protocol_preflight_v1.tar.gz",
+      "archive_bytes": 34281345,
+      "archive_sha256": "618807c07a751d461d3bad839935885882c4a98f0fe0321ccb1bf5088293018a",
+      "manifest_sha256": "312236dd0377813991af534774358b634a2d86d50b7dfa34cda737fdea2b5497",
+      "members": 1807
+    }
+  }
+]

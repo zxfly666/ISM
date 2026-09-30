@@ -1,0 +1,17 @@
+{
+  "seed": 93061,
+  "arm": "N",
+  "family": "G8",
+  "side": 20,
+  "kind": "translation",
+  "key": "s93061_N_G8_N20_translation",
+  "path": "controls/s93061_N_G8_N20_translation.npz",
+  "base_bank": "banks/control_s93061_N_G8_N20_translation_base.npz",
+  "altered_bank": "banks/control_s93061_N_G8_N20_translation_altered.npz",
+  "base_hash": "b080b0295364a2cbf91b3d5757fc6947620a91317bec58a2cd0db2de98d58421",
+  "altered_hash": "0b19abf89b62eabda171f195eefe21aee1551794e94b50b606ca2e076823860e",
+  "source_sha256": "40eb7fd9600b96b48f560d53304b25e98af73f3a6808bcb6d6c3f15031a99cd1",
+  "rows": 168,
+  "max_probability_change": 5.162667371383378e-08,
+  "passed": true
+}

@@ -1,0 +1,29 @@
+{
+  "seed": 93065,
+  "arm": "N",
+  "step": 8000,
+  "weight": "raw",
+  "spec": {
+    "key": "G8_validation_N8_center",
+    "family": "G8",
+    "split": "validation",
+    "side": 8,
+    "placement": "center"
+  },
+  "kind": "final",
+  "key": "s93065_N/8000_raw_final_G8_validation_N8_center",
+  "prediction": "evaluation/s93065_N/8000_raw_final_G8_validation_N8_center.npz",
+  "bank": "banks/G8_validation_N8_center_canonical.npz",
+  "native_hash": "f32b15b6dd99a506ce559d95f77625dd19ffff817f181af5e8d70c1c323513c8",
+  "source_sha256": "16c3e81f10725172bb4daecec3bc4c7d1dbdf38d85e948c26d852815f060912f",
+  "n": 160,
+  "mean_kl": 0.00023041242794637798,
+  "max_kl": 0.0023823366628490383,
+  "mean_ce": 0.5323377805775171,
+  "mean_entropy": 0.5321073681495708,
+  "max_probability_error": 0.03387584440579061,
+  "probability_mae": 0.007134777130228009,
+  "expected_brier": 0.17699665049828656,
+  "excess_brier": 8.828447323457173e-05,
+  "ability_passed": true
+}

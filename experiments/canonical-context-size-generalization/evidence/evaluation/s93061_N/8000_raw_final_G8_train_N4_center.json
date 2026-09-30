@@ -1,0 +1,29 @@
+{
+  "seed": 93061,
+  "arm": "N",
+  "step": 8000,
+  "weight": "raw",
+  "spec": {
+    "key": "G8_train_N4_center",
+    "family": "G8",
+    "split": "train",
+    "side": 4,
+    "placement": "center"
+  },
+  "kind": "final",
+  "key": "s93061_N/8000_raw_final_G8_train_N4_center",
+  "prediction": "evaluation/s93061_N/8000_raw_final_G8_train_N4_center.npz",
+  "bank": "banks/G8_train_N4_center_canonical.npz",
+  "native_hash": "ea805a8086a61c7ff054fdef4ba9212873c43a31f8d88dad61d81bae02dbb350",
+  "source_sha256": "40eb7fd9600b96b48f560d53304b25e98af73f3a6808bcb6d6c3f15031a99cd1",
+  "n": 696,
+  "mean_kl": 2.237311653316261e-06,
+  "max_kl": 2.0769087448191392e-05,
+  "mean_ce": 0.524956270499473,
+  "mean_entropy": 0.5249540331878196,
+  "max_probability_error": 0.0029459910489709196,
+  "probability_mae": 0.0007078817196944098,
+  "expected_brier": 0.1756910963496228,
+  "excess_brier": 8.180403937010651e-07,
+  "ability_passed": true
+}

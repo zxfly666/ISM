@@ -1,0 +1,29 @@
+{
+  "seed": 93063,
+  "arm": "N",
+  "step": 4000,
+  "weight": "raw",
+  "spec": {
+    "key": "K2_holdout",
+    "family": "K2",
+    "split": "holdout",
+    "side": 4,
+    "placement": "center"
+  },
+  "kind": "learning",
+  "key": "s93063_N/4000_raw_learning_K2_holdout",
+  "prediction": "evaluation/s93063_N/4000_raw_learning_K2_holdout.npz",
+  "bank": "banks/K2_holdout_canonical.npz",
+  "native_hash": "14720a95c650bd276aea48f1a31ff43977e48d434119e405a4f5621a36e332f7",
+  "source_sha256": "3e3516216697035090d9332d9e7a6436a98db1e80c71f67200635c18ab24a642",
+  "n": 528,
+  "mean_kl": 8.322534093274952e-05,
+  "max_kl": 0.0009027410840349859,
+  "mean_ce": 0.5769405013773975,
+  "mean_entropy": 0.5768572760364649,
+  "max_probability_error": 0.020987388572873855,
+  "probability_mae": 0.004432599016596951,
+  "expected_brier": 0.19632532284635804,
+  "excess_brier": 3.077892939174085e-05,
+  "ability_passed": true
+}

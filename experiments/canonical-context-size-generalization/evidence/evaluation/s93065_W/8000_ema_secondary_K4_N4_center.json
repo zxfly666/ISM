@@ -1,0 +1,29 @@
+{
+  "seed": 93065,
+  "arm": "W",
+  "step": 8000,
+  "weight": "ema",
+  "spec": {
+    "key": "K4_N4_center",
+    "family": "K4",
+    "split": "train",
+    "side": 4,
+    "placement": "center"
+  },
+  "kind": "secondary",
+  "key": "s93065_W/8000_ema_secondary_K4_N4_center",
+  "prediction": "evaluation/s93065_W/8000_ema_secondary_K4_N4_center.npz",
+  "bank": "banks/K4_N4_center_canonical.npz",
+  "native_hash": "9e3246ef76a0dae51394a961b8562509f497b8bc800364c533d566da4197f658",
+  "source_sha256": "0eb4014d13d39fa4f811d22dac345c069fabe29d255b58b3e2ca91e984c3a4c0",
+  "n": 64,
+  "mean_kl": 1.248676451638328e-07,
+  "max_kl": 6.901276699000647e-07,
+  "mean_ce": 0.4844062698675675,
+  "mean_entropy": 0.4844061449999224,
+  "max_probability_error": 0.0005874211409245822,
+  "probability_mae": 0.00015605822994380487,
+  "expected_brier": 0.15972226639517173,
+  "excess_brier": 4.4172948596564753e-08,
+  "ability_passed": true
+}

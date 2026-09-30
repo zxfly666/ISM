@@ -1,0 +1,17 @@
+{
+  "seed": 93061,
+  "arm": "W",
+  "family": "K4",
+  "side": 20,
+  "kind": "translation",
+  "key": "s93061_W_K4_N20_translation",
+  "path": "controls/s93061_W_K4_N20_translation.npz",
+  "base_bank": "banks/control_s93061_W_K4_N20_translation_base.npz",
+  "altered_bank": "banks/control_s93061_W_K4_N20_translation_altered.npz",
+  "base_hash": "1dff9274a7380a38bc9d29fb559540e1a4b36e0c5879c861c173908f3e770d14",
+  "altered_hash": "be5df92e76325af7442c473a9deaf1233e8038fd73d20a571eee56a4302fc9e3",
+  "source_sha256": "77af754211fa5b1673f56506a697b3c44f1ee3d114faf79bf3b07fcfd35c9b1e",
+  "rows": 64,
+  "max_probability_change": 3.1029041835939353e-07,
+  "passed": true
+}

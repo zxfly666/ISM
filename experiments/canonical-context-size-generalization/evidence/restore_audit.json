@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "finals": [
+    {
+      "path": "training/s93061_N/final.pt",
+      "sha256": "40eb7fd9600b96b48f560d53304b25e98af73f3a6808bcb6d6c3f15031a99cd1",
+      "step": 8000
+    },
+    {
+      "path": "training/s93061_W/final.pt",
+      "sha256": "77af754211fa5b1673f56506a697b3c44f1ee3d114faf79bf3b07fcfd35c9b1e",
+      "step": 8000
+    },
+    {
+      "path": "training/s93062_N/final.pt",
+      "sha256": "9c8a61ecf4a3a85a436ee9781386d15a7f620f99e74a0b9abc1ad974e96b7cba",
+      "step": 8000
+    },
+    {
+      "path": "training/s93062_W/final.pt",
+      "sha256": "1f48c1ba75e2e7fe95e69d630b3f8459e2a6dd43869a7040f1e7af39f0ae282e",
+      "step": 8000
+    },
+    {
+      "path": "training/s93063_N/final.pt",
+      "sha256": "7ee23cbd405492760ccbc70e3d66e86e3e9f69ceb15eeef8dfed645f94d422c7",
+      "step": 8000
+    },
+    {
+      "path": "training/s93063_W/final.pt",
+      "sha256": "c1e0955c7b06ccb72b79d64b7cec853024c028792e75535acf4f00e0ed58af70",
+      "step": 8000
+    },
+    {
+      "path": "training/s93064_N/final.pt",
+      "sha256": "16b870437ec4c06c9d4225ea9a9fb47da3b80b32d59fd3e70ac221649267f9ce",
+      "step": 8000
+    },
+    {
+      "path": "training/s93064_W/final.pt",
+      "sha256": "fa5d48cae1859624bbc1cfb52068995a097308593f4b7126c245b78eb1b494ec",
+      "step": 8000
+    },
+    {
+      "path": "training/s93065_N/final.pt",
+      "sha256": "16c3e81f10725172bb4daecec3bc4c7d1dbdf38d85e948c26d852815f060912f",
+      "step": 8000
+    },
+    {
+      "path": "training/s93065_W/final.pt",
+      "sha256": "0eb4014d13d39fa4f811d22dac345c069fabe29d255b58b3e2ca91e984c3a4c0",
+      "step": 8000
+    },
+    {
+      "path": "training/s93066_N/final.pt",
+      "sha256": "68db94c64a7c41df763ad1d2e3be86996a8816fc8344d24b07c46649bd1b7e63",
+      "step": 8000
+    },
+    {
+      "path": "training/s93066_W/final.pt",
+      "sha256": "2e5beb7fae664aad5ae1955a26984b45ec34c24a6531e494c97435c4e26b8cc1",
+      "step": 8000
+    }
+  ],
+  "not_new_training": true
+}

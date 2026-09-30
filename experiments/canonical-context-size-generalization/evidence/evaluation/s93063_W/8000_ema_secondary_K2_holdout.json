@@ -1,0 +1,29 @@
+{
+  "seed": 93063,
+  "arm": "W",
+  "step": 8000,
+  "weight": "ema",
+  "spec": {
+    "key": "K2_holdout",
+    "family": "K2",
+    "split": "holdout",
+    "side": 4,
+    "placement": "center"
+  },
+  "kind": "secondary",
+  "key": "s93063_W/8000_ema_secondary_K2_holdout",
+  "prediction": "evaluation/s93063_W/8000_ema_secondary_K2_holdout.npz",
+  "bank": "banks/K2_holdout_canonical.npz",
+  "native_hash": "14720a95c650bd276aea48f1a31ff43977e48d434119e405a4f5621a36e332f7",
+  "source_sha256": "c1e0955c7b06ccb72b79d64b7cec853024c028792e75535acf4f00e0ed58af70",
+  "n": 528,
+  "mean_kl": 5.805840366181066e-05,
+  "max_kl": 0.00045049620786974387,
+  "mean_ce": 0.5769153344401267,
+  "mean_entropy": 0.5768572760364649,
+  "max_probability_error": 0.013671546189406025,
+  "probability_mae": 0.0037398714242355886,
+  "expected_brier": 0.19631643268655846,
+  "excess_brier": 2.1888769592149937e-05,
+  "ability_passed": true
+}

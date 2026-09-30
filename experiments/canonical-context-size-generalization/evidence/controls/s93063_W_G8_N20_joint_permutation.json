@@ -1,0 +1,17 @@
+{
+  "seed": 93063,
+  "arm": "W",
+  "family": "G8",
+  "side": 20,
+  "kind": "joint_permutation",
+  "key": "s93063_W_G8_N20_joint_permutation",
+  "path": "controls/s93063_W_G8_N20_joint_permutation.npz",
+  "base_bank": "banks/control_s93063_W_G8_N20_joint_permutation_base.npz",
+  "altered_bank": "banks/control_s93063_W_G8_N20_joint_permutation_altered.npz",
+  "base_hash": "b080b0295364a2cbf91b3d5757fc6947620a91317bec58a2cd0db2de98d58421",
+  "altered_hash": "0c1294e5bf8ced85e8a505d95de5f0a0c1d2f00bec812e2410f46c1db6d5e3f4",
+  "source_sha256": "c1e0955c7b06ccb72b79d64b7cec853024c028792e75535acf4f00e0ed58af70",
+  "rows": 168,
+  "max_probability_change": 1.8126922918249022e-07,
+  "passed": true
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "01_size_kl",
+    "caption": "G8 held-out pattern groups; final raw; common canonical clock0.75. Bands are ±1 MCSE across six paired training seeds, not uncertainty from enumerated rows. Side20 is primary."
+  },
+  {
+    "name": "02_absolute_ability",
+    "caption": "Each faint point is one seed maximum over the exact test rows. Error bars summarize seed means ±MCSE; passing requires each of the six maxima below0.05 and each max KL below0.01."
+  },
+  {
+    "name": "03_primary_paired",
+    "caption": "Prespecified main contrast, G8 test side20 center; final raw. Black interval is the paired t95% interval across six training seeds. Dashed line is the−0.005 material margin."
+  },
+  {
+    "name": "04_noncounting_response",
+    "caption": "Equal-positive-count witness at the same query. Left: six model responses with ±MCSE. Right: exact oracle probabilities, not sampled estimates; no MC uncertainty. Arrangement matters despite equal counts."
+  },
+  {
+    "name": "05_learning_retention",
+    "caption": "Early raw snapshots evaluated only after all twelve finals locked. Left: G8 validation at arm-trained sides, seed mean +/- MCSE. Right: three retention paired means with one-sided98.3333% upper bounds; dashed line +0.002. Absolute W gates are additionally required."
+  }
+]

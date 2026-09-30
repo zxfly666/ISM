@@ -1,0 +1,418 @@
+{
+  "study": "dense_multisize_canonical_6h_20260930",
+  "authorized": true,
+  "authorization_source": "docs/research_reboot_20260921/DENSE_MULTISIZE_CANONICAL_6H_AUTHORIZATION_20260930_ZH.md",
+  "sources": {
+    "artifacts/basic_capability_stages12_20260928/bank.npz": "5025018191b7c01c6f73adfcb27f2564d053d95becb65be2bc292014848d2060",
+    "artifacts/dense_multisize_canonical_6h_20260930_design/evaluation_manifest.json": "a791526b71a28de9e982bdd99c7d5367ea88147e79876f1208ba8be815055a4e",
+    "docs/research_reboot_20260921/DENSE_MULTISIZE_CANONICAL_6H_AUTHORIZATION_20260930_ZH.md": "47de79905aca2465299c623c9c924fe9d6c38f4af71ebd82bf74d09bca6cfeb5",
+    "docs/research_reboot_20260921/DENSE_MULTISIZE_CANONICAL_6H_CONFIG_20260930.json": "06870997f2c2ea389c6ae758a197368587a18930b8dbd203acb465d6468951f0",
+    "docs/research_reboot_20260921/DENSE_MULTISIZE_CANONICAL_6H_PLAN_20260930_ZH.md": "26c02e802554945de06cb038de122239e7b4ce561158cad81e0ff6178000d8fd",
+    "docs/research_reboot_20260921/DENSE_SIZE_CLOCK_GEOMETRY_12H_CONFIG_20260930.json": "2466a9872a6e23e3c9de96811bc0ae7a6a25e6cfe2d31c8c9233fbc87af7775b",
+    "ism_diffusion/__init__.py": "af8f1667470d1082432f9efedb939320ce648c62e458666c39f68f003b6b13c3",
+    "ism_diffusion/ising.py": "657b9e526eaaf6d242d3c89bb5c4cebefa1a5e7879b4a2a4ebef1c2ff4be60f3",
+    "ism_diffusion/model.py": "f0ba3e8a9ab00afc143c66c5f1c8b6e37981801cf405f15fb67baea36686c1b9",
+    "ism_diffusion/scale_model.py": "3930e9a2ec1ac85edaa525b9562beb21c7a001594dba23726f233a0b9d3d6018",
+    "scripts/research20260927/intervention_model.py": "52af782591e59dc3f142b1f07ccf53d2ad1d34bb08fd77c104a74735cd9cf3ec",
+    "scripts/research20260930_6h/README.md": "00cff41dc90fa235d907b47c38bf1cce7c22ebe43d64df4f65752c1ed7fa0f11",
+    "scripts/research20260930_6h/deploy_bundle.py": "28a06caf8f760b77a380aa0877f1f31a60a71493069c88cdcf1c555e32ea8516",
+    "scripts/research20260930_6h/run_multisize.py": "cb1b710da7025e428fce85ce1cf267643e9c3c0b1f5ad19f63688c8c061b3af7",
+    "scripts/research20260930_6h/sm6_analysis.py": "a2eae93fde23197495540b1e67ebd6482423ebb6cfd74054beca269e3ca3bf36",
+    "scripts/research20260930_6h/sm6_common.py": "cee435368a731db4a88fec17e75d0bf7c0f0ad6f8198837e0241eb3e4c83a0cd",
+    "scripts/research20260930_6h/sm6_data.py": "db9e9f30efca3428bd47359245e20ed7f2b813455750e3c62b640bfeced50ac9",
+    "scripts/research20260930_6h/sm6_evaluation.py": "0bae45cf2b58a5281e9060e9728adeba33e1fac93d3c86e8354f0e8a0504d30b",
+    "scripts/research20260930_6h/sm6_management.py": "535eafa241d52194f4745a7642cdedebc30f2fcec7ccf7ac8df132b5cc1588ba",
+    "scripts/research20260930_6h/sm6_model.py": "b8e8f8190153aea6610034b701d55d3455bc82da5d114231fb52c378bc973b8c",
+    "scripts/research20260930_6h/sm6_preflight.py": "c928a7ea2efa61d844353f0c548755c601ebd67df3c7ff05c745e61ad56a5ab3",
+    "scripts/research20260930_6h/sm6_statistics.py": "6b2e36183686681b6682bd6aa3af370032859e70d0e31ef76926445aac13feb8",
+    "scripts/research20260930_6h/test_multisize.py": "df535665a4d4f40cc4abf51f03353cc5f3543dbcba56f13041051a0b933f9e2c"
+  },
+  "config": {
+    "study": "dense_multisize_canonical_6h_20260930",
+    "status": "design_only",
+    "execution_authorized": false,
+    "runner_implemented": false,
+    "new_GPU_measurement_performed": false,
+    "prior_study": "dense_size_clock_geometry_12h_20260930",
+    "prior_study_remains": "NOT_LAUNCHED_TIME_GATE_FAILED",
+    "scope": "isolated size-coverage comparison conditional on a canonical clock; not the old 2x2 factorial",
+    "device": "existing_single_RTX4090_reverify_before_launch",
+    "root_seed": 2026093061,
+    "split_seed_inherited_unchanged": 2026093002,
+    "bootstrap_seed": 2026093063,
+    "scratch_seed": 2026093064,
+    "seed_labels": [
+      93061,
+      93062,
+      93063,
+      93064,
+      93065,
+      93066
+    ],
+    "arms": {
+      "N": {
+        "name": "narrow_canonical",
+        "valid_side_cycle": [
+          4,
+          6,
+          4,
+          6
+        ],
+        "clock": "constant",
+        "t_eff": 0.75,
+        "timing_reference_arm": "B"
+      },
+      "W": {
+        "name": "wide_canonical",
+        "valid_side_cycle": [
+          4,
+          6,
+          8,
+          12
+        ],
+        "clock": "constant",
+        "t_eff": 0.75,
+        "timing_reference_arm": "D"
+      }
+    },
+    "model": {
+      "architecture": "dense_InterventionDenoiser",
+      "parameters": 1976706,
+      "d_model": 128,
+      "n_heads": 4,
+      "n_blocks": 7,
+      "mlp_ratio": 4,
+      "dropout": 0,
+      "vocab_size": 4,
+      "output_classes": 2,
+      "rope_base": 10000,
+      "time_mlp_retained": true,
+      "valid_MASK_attended": true,
+      "invalid_PAD_attended": false,
+      "precision": "FP32",
+      "AMP": false,
+      "TF32": false,
+      "torch_threads": 2,
+      "torch_interop_threads": 1
+    },
+    "data": {
+      "inherit_exact_tasks_from": "docs/research_reboot_20260921/DENSE_SIZE_CLOCK_GEOMETRY_12H_CONFIG_20260930.json",
+      "inherited_config_sha256": "2466a9872a6e23e3c9de96811bc0ae7a6a25e6cfe2d31c8c9233fbc87af7775b",
+      "beta": 0.44068679350977147,
+      "coupling": 1,
+      "field": 0,
+      "physical_spacing": 1,
+      "label_type": "exact_conditional_soft_probability",
+      "K1_K2_parent_bank": "artifacts/basic_capability_stages12_20260928/bank.npz",
+      "K1_K2_parent_bank_sha256": "5025018191b7c01c6f73adfcb27f2564d053d95becb65be2bc292014848d2060",
+      "K1_K2_physical_side": 4,
+      "K1_K2_expand": false,
+      "K4_rows": 64,
+      "G8_rows": 1024,
+      "G8_orbits": 72,
+      "G8_split_orbits": {
+        "train": 48,
+        "validation": 12,
+        "test": 12
+      },
+      "G8_split_rows": {
+        "train": 696,
+        "validation": 160,
+        "test": 168
+      },
+      "G8_test_orbit_keys": [
+        102,
+        74,
+        113,
+        40,
+        60,
+        35,
+        7,
+        42,
+        53,
+        3,
+        15,
+        19
+      ],
+      "G8_witness_query_index": 0,
+      "G8_witness_patterns": [
+        240,
+        85
+      ],
+      "G8_witness_truth": [
+        0.1857303194726456,
+        0.8142696805273546
+      ],
+      "G8_witness_response": 0.628539361054709,
+      "new_MC": false,
+      "new_generation": 0
+    },
+    "training": {
+      "models": 12,
+      "paired_seed_count": 6,
+      "fresh_initialization": true,
+      "same_initialization_and_physical_data_across_arms": true,
+      "steps_per_model": 8000,
+      "total_updates": 96000,
+      "batch_per_family": {
+        "K1": 32,
+        "K2": 32,
+        "K4": 32,
+        "G8": 32
+      },
+      "batch": 128,
+      "microbatches": [
+        "64_K1_K2_N16",
+        "64_K4_G8_allocated_cycle"
+      ],
+      "allocated_side_cycle": [
+        4,
+        6,
+        8,
+        12
+      ],
+      "mean_allocated_tokens_per_update": 5184,
+      "mean_valid_tokens_per_update": {
+        "N": 2688,
+        "W": 5184
+      },
+      "supervised_queries": 12288000,
+      "allocated_tokens": 497664000,
+      "interleave_block_steps": 1000,
+      "schedule": "eight rounds; rotate the twelve seed-arm pairs by round index",
+      "optimizer": {
+        "name": "AdamW",
+        "betas": [
+          0.9,
+          0.95
+        ],
+        "weight_decay": 0.05,
+        "foreach": false,
+        "grad_clip": 1.0,
+        "ema_decay": 0.999
+      },
+      "learning_rate": {
+        "warmup_steps": 512,
+        "peak": 0.0003,
+        "end": 3e-05,
+        "total_steps": 8000,
+        "schedule_after_warmup": "cosine"
+      },
+      "snapshot_steps": [
+        4000,
+        6000
+      ],
+      "snapshot_contents": [
+        "raw",
+        "EMA",
+        "identity",
+        "RNG_and_data_identity_metadata"
+      ],
+      "final_step": 8000,
+      "final_contents": [
+        "raw",
+        "EMA",
+        "AdamW",
+        "Python_NumPy_Torch_CPU_CUDA_RNG",
+        "next_step",
+        "data_counter",
+        "protocol_hash"
+      ],
+      "primary_weights": "final_raw",
+      "validate_after_all_final_hashes_locked": true,
+      "early_stopping_by_loss": false,
+      "extend_or_select_by_validation": false,
+      "automatic_performance_optimization": false
+    },
+    "evaluation": {
+      "center_sides": [
+        4,
+        6,
+        8,
+        12,
+        16,
+        20,
+        24
+      ],
+      "train_validation_center_sides": [
+        4,
+        6,
+        8,
+        12
+      ],
+      "primary": "G8_test_N20_center_final_raw",
+      "primary_rows": 168,
+      "final_raw_center_cells_per_model": 26,
+      "corner_sides": [
+        20
+      ],
+      "corner_placements": [
+        "NW",
+        "NE",
+        "SW",
+        "SE"
+      ],
+      "corner_families": [
+        "K4",
+        "G8_test"
+      ],
+      "final_raw_corner_cells_per_model": 8,
+      "final_EMA_cells": [
+        "G8_test_N20_center",
+        "K1_holdout",
+        "K2_holdout",
+        "K4_N4_center"
+      ],
+      "early_weights_evaluated": [
+        "raw"
+      ],
+      "early_cells": "G8 validation at each arm's trained sides, plus K1 holdout/K2 holdout/K4 side4",
+      "normal_prediction_cells": 600,
+      "normal_prediction_rows": 129600,
+      "control_PAD_side_allocated_pairs": [
+        [
+          4,
+          144
+        ],
+        [
+          12,
+          400
+        ],
+        [
+          20,
+          576
+        ]
+      ],
+      "control_translation": {
+        "side": 20,
+        "shift": [
+          17,
+          -11
+        ]
+      },
+      "control_joint_permutation": {
+        "side": 20,
+        "RNG_role": "joint_permutation_by_seed_and_family"
+      },
+      "control_families": [
+        "K4",
+        "G8_test"
+      ],
+      "control_weights": "final_raw",
+      "control_pair_cells": 120,
+      "control_pair_rows": 13920,
+      "control_forward_rows_upper_bound": 27840,
+      "all_forward_rows_upper_bound": 157440,
+      "structural_probability_tolerance": 2e-05,
+      "requested_clock_invariance": "preflight structural check only; not an accuracy result",
+      "functional_diagnostics": [
+        "spin_flip_complement",
+        "equal_count_240_85_response"
+      ],
+      "native_clock_neural_comparison": false,
+      "pattern_rows_are_independent_training_replicates": false
+    },
+    "statistics": {
+      "primary_contrast": "W-N",
+      "primary_metric": "mean_exact_Bernoulli_KL_over_168_fixed_test_rows",
+      "independent_unit": "paired_training_seed",
+      "primary_CI": "two_sided_paired_t_df5_95_percent",
+      "practical_upper_threshold": -0.005,
+      "directional_upper_threshold": 0,
+      "absolute_W_all_six": {
+        "max_kl": 0.01,
+        "max_probability_error": 0.05
+      },
+      "retention": [
+        "K1_holdout",
+        "K2_holdout",
+        "K4_N4_center"
+      ],
+      "retention_one_sided_confidence_each": 0.9833333333333333,
+      "retention_W_minus_N_upper_threshold": 0.002,
+      "retention_also_requires_absolute_W_all_six": true,
+      "bootstrap_seed_repetitions": 20000,
+      "leave_one_seed_out": true,
+      "sign_flip_assignments": 64,
+      "sensitivity_stable": "all LOO mean differences negative and paired bootstrap95 upper below zero; report sign-flip p without overstating exactness assumptions",
+      "desired_paired_MCSE": 0.002,
+      "precision_is_guaranteed": false,
+      "extra_seeds_if_imprecise": false,
+      "learning_incomplete": {
+        "compare": "6000_to_8000_raw_G8_validation_mean_over_arm_trained_sides",
+        "improvement_threshold": 0.002
+      },
+      "all_primary_failure_or_missing_replicates_prevent_complete_confirmatory_success": true,
+      "no_rate_or_uniform_generalization_theorem_claim": true
+    },
+    "preflight": {
+      "new_driver_CPU_fixture_cells": 600,
+      "capacity_policy": "single canonical scratch model; train-only64 G8 rows selected by inherited deterministic rule",
+      "capacity_steps": 2048,
+      "capacity_batch": 64,
+      "capacity_warmup": 128,
+      "capacity_max_kl": 0.02,
+      "capacity_max_probability_error": 0.1,
+      "capacity_retry": false,
+      "restore_next_update": "bitwise_equal_same_device_backend_raw_EMA_AdamW",
+      "timing_types": 8,
+      "timing_warmup_per_type": 8,
+      "timing_repeats": 3,
+      "timing_steps_per_repeat": 32,
+      "timing_block_steps": 1000,
+      "benchmark_update_clock_uses_total_steps": 8000,
+      "do_not_execute_old_12h_runner": true
+    },
+    "budget": {
+      "hard_seconds": 21600,
+      "new_clock_only_after_explicit_execution_authorization": true,
+      "clock_start": "first_GPU_preflight_for_this_new_study",
+      "old_12h_budget_is_not_reset_or_extended": true,
+      "waiting_and_backup_count": true,
+      "historical_timing_file": "results/dense_size_clock_geometry_20260930/evidence/update_timing.json",
+      "historical_timing_sha256": "e459b34aa9a3063460e28df7c70ba96a82cbf549a17f6399eb8ef177c7d96914",
+      "historical_gate_file": "results/dense_size_clock_geometry_20260930/evidence/launch_gate.json",
+      "timing_safety_multiplier": 1.35,
+      "full_or_snapshot_checkpoint_writes": 132,
+      "planning_seconds": {
+        "preflight": 900,
+        "evaluation": 900,
+        "audit_plots_report": 1200,
+        "backup_verify": 1800,
+        "reserve": 1800
+      },
+      "launch_gate": "actual_elapsed+conservative_training+measured_evaluation_projection+audit_allowance+measured_transfer_verify_projection+1800_reserve<=21600",
+      "automatic_scope_reduction": false,
+      "auto_fill_remaining_time": false,
+      "C_free_min_bytes": 2147483648,
+      "remote_and_D_initial_free_target_bytes": 6442450944,
+      "storage_gate": "measured_peak_scientific_and_archive_bytes_plus_2GiB_margin",
+      "existing_instance_lifetime_must_cover_deadline": true,
+      "no_performance_speedup_assumed": true
+    },
+    "delivery": {
+      "recoverable_final_checkpoints": 12,
+      "raw_EMA_snapshot_checkpoints": 24,
+      "normal_prediction_NPZ": 600,
+      "control_pair_NPZ": 120,
+      "figure_count": 5,
+      "figure_formats": [
+        "PNG",
+        "PDF"
+      ],
+      "all_raw_metrics_failure_logs_and_plot_data": true,
+      "union_SHA_and_actual_visual_review_required": true,
+      "same_disk_is_not_offsite_backup": true,
+      "automatic_next_round": false,
+      "GitHub_publication": "separate payload permission pending; no push in this design turn"
+    }
+  },
+  "created": 1790717393.923498,
+  "deadline": 1790738465.9089546,
+  "budget_start": 1790716865.9089546,
+  "gate_sha": "5dd60b8a1d7f0e8108e4bccaed3c4a81d58378ae947822ac083b788d086b3db0",
+  "transfer_gate_sha": "ae058150c861f6e78cc5be4e81ac08874309ad86d0a9ec900b214a13805f6b82",
+  "initial_backup_receipt_sha": "19d46aa22699d9b4c2626ce2242dc8ea16d401489270d6ea7b511521e948c87e",
+  "precision": "FP32 deterministic; same-device bitwise recovery; cross-stack equivalence not bitwise promised",
+  "protocol_hash": "edc033c95d22d946eea85e9010259cd71b926e14aaa1c3514b53408d903dbc64"
+}

@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "time": 1790728957.4179416,
+  "original_processes_absent": [
+    187799,
+    187800
+  ],
+  "source_files": 23,
+  "original_manifest_paths": 1860,
+  "scientific_changes": [],
+  "only_management_log_change": [
+    {
+      "before": {
+        "path": "artifacts/dense_multisize_canonical_6h_20260930/formal.stdout",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "after": {
+        "path": "artifacts/dense_multisize_canonical_6h_20260930/formal.stdout",
+        "bytes": 115,
+        "sha256": "6eb014e3a64d3c8b501ac26bc1345d957af2b2e64f660ffc8b0b463f361e6d73"
+      }
+    }
+  ],
+  "counts": {
+    "finals": 12,
+    "snapshots": 24,
+    "predictions": 600,
+    "controls": 120,
+    "png": 5,
+    "pdf": 5
+  },
+  "resources": {
+    "time": 1790728957.423446,
+    "disk_free": 15496904704,
+    "cpu.max": "1000000 100000",
+    "memory.max": "64424509440",
+    "memory.current": "24750952448",
+    "gpu": "NVIDIA GeForce RTX 4090, 24564 MiB, 1 MiB, 0 %"
+  },
+  "original_manifest_sha256": "0d4a40c1c2c98988ffaa2323aa5298001cdebb1bdc7317f4a9fa39ee056279f4",
+  "protocol_sha256": "982c5484bb53266a78d213ef07ae99431e023f157ba767986c2e873af17b449b",
+  "remote_export": {
+    "time": 1790728072.019043,
+    "archive": "complete_science_v1.tar.gz",
+    "archive_sha256": "4e27d8e0c4ac32250b41877de518782b1a18dc613c107a607ef9f8eb87981a9a",
+    "elapsed_budget_to_export": 11206.110089063644,
+    "deadline": 1790738465.9089546
+  },
+  "no_new_training_or_statistics": true
+}

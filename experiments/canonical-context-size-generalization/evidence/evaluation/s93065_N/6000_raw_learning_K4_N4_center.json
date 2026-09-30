@@ -1,0 +1,29 @@
+{
+  "seed": 93065,
+  "arm": "N",
+  "step": 6000,
+  "weight": "raw",
+  "spec": {
+    "key": "K4_N4_center",
+    "family": "K4",
+    "split": "train",
+    "side": 4,
+    "placement": "center"
+  },
+  "kind": "learning",
+  "key": "s93065_N/6000_raw_learning_K4_N4_center",
+  "prediction": "evaluation/s93065_N/6000_raw_learning_K4_N4_center.npz",
+  "bank": "banks/K4_N4_center_canonical.npz",
+  "native_hash": "9e3246ef76a0dae51394a961b8562509f497b8bc800364c533d566da4197f658",
+  "source_sha256": "3f002e2f1bbd6d1a796e622501809356abc4f546d166de834a78ec0ca84c6c5c",
+  "n": 64,
+  "mean_kl": 3.0500482072750787e-07,
+  "max_kl": 2.33672190946832e-06,
+  "mean_ce": 0.4844064500047431,
+  "mean_entropy": 0.4844061449999224,
+  "max_probability_error": 0.0007632149649540176,
+  "probability_mae": 0.00022683275585400964,
+  "expected_brier": 0.15972231559481492,
+  "excess_brier": 9.337259179849986e-08,
+  "ability_passed": true
+}

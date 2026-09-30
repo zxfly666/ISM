@@ -1,0 +1,29 @@
+{
+  "seed": 93063,
+  "arm": "W",
+  "step": 8000,
+  "weight": "raw",
+  "spec": {
+    "key": "K4_N20_center",
+    "family": "K4",
+    "split": "train",
+    "side": 20,
+    "placement": "center"
+  },
+  "kind": "final",
+  "key": "s93063_W/8000_raw_final_K4_N20_center",
+  "prediction": "evaluation/s93063_W/8000_raw_final_K4_N20_center.npz",
+  "bank": "banks/K4_N20_center_canonical.npz",
+  "native_hash": "1dff9274a7380a38bc9d29fb559540e1a4b36e0c5879c861c173908f3e770d14",
+  "source_sha256": "c1e0955c7b06ccb72b79d64b7cec853024c028792e75535acf4f00e0ed58af70",
+  "n": 64,
+  "mean_kl": 0.01082087239643151,
+  "max_kl": 0.08726114591847992,
+  "mean_ce": 0.49522701739635383,
+  "mean_entropy": 0.4844061449999224,
+  "max_probability_error": 0.12658330638293602,
+  "probability_mae": 0.032241518379002194,
+  "expected_brier": 0.1624149439893512,
+  "excess_brier": 0.002692721767128059,
+  "ability_passed": false
+}

@@ -1,0 +1,18 @@
+{
+  "seed": 93063,
+  "arm": "N",
+  "family": "G8",
+  "side": 12,
+  "kind": "invalid_PAD",
+  "allocated": 400,
+  "key": "s93063_N_G8_N12_invalid_PAD",
+  "path": "controls/s93063_N_G8_N12_invalid_PAD.npz",
+  "base_bank": "banks/control_s93063_N_G8_N12_invalid_PAD_base.npz",
+  "altered_bank": "banks/control_s93063_N_G8_N12_invalid_PAD_altered.npz",
+  "base_hash": "896c10ba2b9b004364b826d3706240f8234f6a9f549d3e98b99824ce77547b8d",
+  "altered_hash": "82cb56a810dcfeb727b70f0ac626d832fc1a1f0c9e78d9a7ddae3bde57f0f644",
+  "source_sha256": "7ee23cbd405492760ccbc70e3d66e86e3e9f69ceb15eeef8dfed645f94d422c7",
+  "rows": 168,
+  "max_probability_change": 9.370832820820851e-08,
+  "passed": true
+}

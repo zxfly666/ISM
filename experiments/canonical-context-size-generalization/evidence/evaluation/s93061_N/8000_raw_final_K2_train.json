@@ -1,0 +1,29 @@
+{
+  "seed": 93061,
+  "arm": "N",
+  "step": 8000,
+  "weight": "raw",
+  "spec": {
+    "key": "K2_train",
+    "family": "K2",
+    "split": "train",
+    "side": 4,
+    "placement": "center"
+  },
+  "kind": "final",
+  "key": "s93061_N/8000_raw_final_K2_train",
+  "prediction": "evaluation/s93061_N/8000_raw_final_K2_train.npz",
+  "bank": "banks/K2_train_canonical.npz",
+  "native_hash": "a02c3a3de51657e3b43d4b08efbe66dd34326187c94255d759d888416d3c5acc",
+  "source_sha256": "40eb7fd9600b96b48f560d53304b25e98af73f3a6808bcb6d6c3f15031a99cd1",
+  "n": 1152,
+  "mean_kl": 2.2431700578376593e-06,
+  "max_kl": 3.6332307808917275e-05,
+  "mean_ce": 0.5662480813203917,
+  "mean_entropy": 0.5662458381503339,
+  "max_probability_error": 0.0034945772889534155,
+  "probability_mae": 0.0006742408400837291,
+  "expected_brier": 0.19141052721730273,
+  "excess_brier": 7.448334778714762e-07,
+  "ability_passed": true
+}

@@ -1,0 +1,29 @@
+{
+  "seed": 93062,
+  "arm": "W",
+  "step": 8000,
+  "weight": "raw",
+  "spec": {
+    "key": "G8_test_N12_center",
+    "family": "G8",
+    "split": "test",
+    "side": 12,
+    "placement": "center"
+  },
+  "kind": "final",
+  "key": "s93062_W/8000_raw_final_G8_test_N12_center",
+  "prediction": "evaluation/s93062_W/8000_raw_final_G8_test_N12_center.npz",
+  "bank": "banks/G8_test_N12_center_canonical.npz",
+  "native_hash": "896c10ba2b9b004364b826d3706240f8234f6a9f549d3e98b99824ce77547b8d",
+  "source_sha256": "1f48c1ba75e2e7fe95e69d630b3f8459e2a6dd43869a7040f1e7af39f0ae282e",
+  "n": 168,
+  "mean_kl": 0.0004828243107213181,
+  "max_kl": 0.003930950377816711,
+  "mean_ce": 0.5494242503185145,
+  "mean_entropy": 0.5489414260077932,
+  "max_probability_error": 0.03607665704566246,
+  "probability_mae": 0.00852998629678771,
+  "expected_brier": 0.18442734927316023,
+  "excess_brier": 0.00017122447750418242,
+  "ability_passed": true
+}

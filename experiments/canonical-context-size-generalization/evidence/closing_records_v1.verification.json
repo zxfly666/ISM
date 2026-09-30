@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "time": 1790729031.0632915,
+  "archive": "closing_records_v1.tar.gz",
+  "archive_bytes": 89370,
+  "archive_sha256": "023927fefdf3c31a5dac22c3f00e70c7f334ba638418e6c4b689a6170110a5f4",
+  "manifest_sha256": "5331f1d6f69685cb7afea54371e0176609dd36ecee8d768b4959992b44f2e77f",
+  "members": 4
+}

@@ -1,0 +1,18 @@
+{
+  "seed": 93065,
+  "arm": "W",
+  "family": "K4",
+  "side": 20,
+  "kind": "invalid_PAD",
+  "allocated": 576,
+  "key": "s93065_W_K4_N20_invalid_PAD",
+  "path": "controls/s93065_W_K4_N20_invalid_PAD.npz",
+  "base_bank": "banks/control_s93065_W_K4_N20_invalid_PAD_base.npz",
+  "altered_bank": "banks/control_s93065_W_K4_N20_invalid_PAD_altered.npz",
+  "base_hash": "1dff9274a7380a38bc9d29fb559540e1a4b36e0c5879c861c173908f3e770d14",
+  "altered_hash": "dd590da5a70733ac97700cefab4feec1e8363d904c6bd5596945902404af2c6a",
+  "source_sha256": "0eb4014d13d39fa4f811d22dac345c069fabe29d255b58b3e2ca91e984c3a4c0",
+  "rows": 64,
+  "max_probability_change": 6.837101462764394e-08,
+  "passed": true
+}
