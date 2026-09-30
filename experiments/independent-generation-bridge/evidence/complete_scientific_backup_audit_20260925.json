@@ -1,0 +1,120 @@
+{
+  "status": "passed_complete_scientific_manifest_backup",
+  "scientific_files": 1182,
+  "archive_unique_files": 1187,
+  "packages": [
+    {
+      "archive": "development_banks_and_predictions_v1.tar.gz",
+      "sha256": "b3e7f71f9454f83b8dd5379f2f97719b667a8fa40ad386cf4316dd5535bdccbb",
+      "members": 807
+    },
+    {
+      "archive": "final_analysis_and_manifest_v1.tar.gz",
+      "sha256": "19458e2446d9249a3c6d3e202b6d64bce2f65fe84932a736cc2d03d69c780e40",
+      "members": 25
+    },
+    {
+      "archive": "generation_s91001_R00_v1.tar.gz",
+      "sha256": "29fc7d7bd90a1ec591efca62f00616d113dea66b859a7d0ed383fde144fbd9cd",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91001_R10_v1.tar.gz",
+      "sha256": "ee3082ee7309bfccc78003da6ba926383e9bbc45ad88912e9d0c7fa15ed3dd4d",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91001_R11_v1.tar.gz",
+      "sha256": "dae67f61115369c2ce5d397a1c25ec6c6ccc8eb11a27f7f0338e788c5f2b427d",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91002_R00_v1.tar.gz",
+      "sha256": "a946c9141ddab17b24897e791a3f3b019c669afe02b2e983a9d7f0c2bae391a4",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91002_R10_v1.tar.gz",
+      "sha256": "71e28540647d5e6beeea2ff6144b17efd2dccac89a6971bd57c9064719a46172",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91002_R11_v1.tar.gz",
+      "sha256": "3cff749c2ee2149740c03d11587509ea2ecb4e44e88656a51eb4727352ac257c",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91003_R00_v1.tar.gz",
+      "sha256": "53849a36264a920d5c74eaa11dff7621536ced7057ae0981544b78edb8ecaa58",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91003_R10_v1.tar.gz",
+      "sha256": "ff40a21fb4887cf30251c7061a9bfb859ed55791ccef7da1ae0cfdf383bfa90b",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91003_R11_v1.tar.gz",
+      "sha256": "616f9b7c348937ebd45dc6091a6de550832142e890f6b5ae980b259b1b99fddb",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91004_R00_v1.tar.gz",
+      "sha256": "58cdce1f2963787497a98d4c3dfac08eb6793fabf510a50516602426c7f689fe",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91004_R10_v1.tar.gz",
+      "sha256": "5b4ece3fffb5e87dbf65176fc584cc1700cf0ea6c63e403dff23d708bc078997",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91004_R11_v1.tar.gz",
+      "sha256": "e4aa708136a4405c0e6b7b4bb8638361522c7d7c4f37d3926cbc41decc64c347",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91005_R00_v1.tar.gz",
+      "sha256": "0f911a1f1996da82d9ff2d5f0e6d2fcb33d4a5fde1f03be21a97f54d3a9be51f",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91005_R10_v1.tar.gz",
+      "sha256": "26eb1c420d3ffed12cb2f602bd2b81fc0ee5eea0e07013d00739f80341703175",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91005_R11_v1.tar.gz",
+      "sha256": "ac4a41620c8dde7c36040f4721b26d018549ce05ea133616007cbbc9be374163",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91006_R00_v1.tar.gz",
+      "sha256": "1b819dc3d1bf2a87013fe9e479eeadf422db2f98b6cb0881097bc85066f4ae1e",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91006_R10_v1.tar.gz",
+      "sha256": "65775651ecbd63c30420b85781559406c84a665c8ae1d8bdc0b7efe42c4e01d1",
+      "members": 16
+    },
+    {
+      "archive": "generation_s91006_R11_v1.tar.gz",
+      "sha256": "d00bdb7f3052d3b08aaf33b025ed8cc31a88b8bcff9722fa55bc20be9889dec7",
+      "members": 16
+    },
+    {
+      "archive": "independent_reference_v1.tar.gz",
+      "sha256": "04ce80a3ea3f85b34c239b78f1acd5377de5662eef1b894b734a5243d0c1de7e",
+      "members": 5
+    },
+    {
+      "archive": "initial_source_protocol_20260924.tar.gz",
+      "sha256": "7a3b4b46fd7f3318fffeab6a07579d947aec0984372dfd5fe80be9c629f05fd6",
+      "members": 62
+    }
+  ],
+  "missing": [],
+  "visual_review": "not asserted by hash verifier",
+  "scope": "All scientific-manifest files; old input checkpoint backups belong to the prior campaign, not new weights"
+}

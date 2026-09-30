@@ -1,0 +1,266 @@
+[
+  {
+    "receipt": "development_banks_and_predictions_v1.tar.gz.verification.json",
+    "sha256": "71c9a58742f66b48300ff2344b76ab806f12f8229c5a71b6c755e1892babab1a",
+    "result": {
+      "status": "passed",
+      "cell": "development_banks_and_predictions_v1",
+      "files": 807,
+      "bytes": 69665471,
+      "sha256": "b3e7f71f9454f83b8dd5379f2f97719b667a8fa40ad386cf4316dd5535bdccbb",
+      "scope": "All 33 development banks and 756 paired raw predictions plus 18 completion records; exploratory old-MC condition map, no formal generation"
+    }
+  },
+  {
+    "receipt": "final_analysis_and_manifest_v1.tar.gz.verification.json",
+    "sha256": "5356e4aea7fea8c71a7d08f236782a7c5d12f00a4e96810569efe03cd8d69ae8",
+    "result": {
+      "status": "passed",
+      "cell": "final_analysis_and_manifest_v1",
+      "files": 25,
+      "bytes": 6135538,
+      "sha256": "19458e2446d9249a3c6d3e202b6d64bce2f65fe84932a736cc2d03d69c780e40",
+      "scope": "All remaining scientific-manifest files plus final manifest and operational logs; requires local coverage audit across earlier verified archives"
+    }
+  },
+  {
+    "receipt": "generation_s91001_R00_v1.tar.gz.verification.json",
+    "sha256": "3508831477ff8e498014c89d756317c1fb9168ec6a3f8c2fe59602d7d6a43528",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91001_R00_v1",
+      "files": 16,
+      "bytes": 3156504,
+      "sha256": "29fc7d7bd90a1ec591efca62f00616d113dea66b859a7d0ed383fde144fbd9cd",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91001_R10_v1.tar.gz.verification.json",
+    "sha256": "25bb8c2af0a71e511fa82a6128b485742e20e0d1b3c6b8e720d888ac179585cc",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91001_R10_v1",
+      "files": 16,
+      "bytes": 3147227,
+      "sha256": "ee3082ee7309bfccc78003da6ba926383e9bbc45ad88912e9d0c7fa15ed3dd4d",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91001_R11_v1.tar.gz.verification.json",
+    "sha256": "d5fd81f1f9c8e5cacff9eb5e0662a1be4af98ae23199019b56a9141516ac990b",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91001_R11_v1",
+      "files": 16,
+      "bytes": 3152471,
+      "sha256": "dae67f61115369c2ce5d397a1c25ec6c6ccc8eb11a27f7f0338e788c5f2b427d",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91002_R00_v1.tar.gz.verification.json",
+    "sha256": "9ef19ef34cb92366cd3467ef8ee36b6e99c3da0434e95a30010f9a75ad00d6da",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91002_R00_v1",
+      "files": 16,
+      "bytes": 3167059,
+      "sha256": "a946c9141ddab17b24897e791a3f3b019c669afe02b2e983a9d7f0c2bae391a4",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91002_R10_v1.tar.gz.verification.json",
+    "sha256": "1dafff71e21b9596b6f83f30ae72d47fa452bd953bf259be23491aedd735ec41",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91002_R10_v1",
+      "files": 16,
+      "bytes": 3158790,
+      "sha256": "71e28540647d5e6beeea2ff6144b17efd2dccac89a6971bd57c9064719a46172",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91002_R11_v1.tar.gz.verification.json",
+    "sha256": "0b1d2d029392555dd9a614f8201c30e0036e8f1c03ab7db06f49a552f5f43079",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91002_R11_v1",
+      "files": 16,
+      "bytes": 3161120,
+      "sha256": "3cff749c2ee2149740c03d11587509ea2ecb4e44e88656a51eb4727352ac257c",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91003_R00_v1.tar.gz.verification.json",
+    "sha256": "45803aee1058bf4db5febd68a9dd17cd0c8aa075be83cc801f746acf6f54868a",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91003_R00_v1",
+      "files": 16,
+      "bytes": 3162111,
+      "sha256": "53849a36264a920d5c74eaa11dff7621536ced7057ae0981544b78edb8ecaa58",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91003_R10_v1.tar.gz.verification.json",
+    "sha256": "920c89c25e169bb75c6d9fe147bd80cfa9694d47eff5aa31c8049f4ec399fdf1",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91003_R10_v1",
+      "files": 16,
+      "bytes": 3152879,
+      "sha256": "ff40a21fb4887cf30251c7061a9bfb859ed55791ccef7da1ae0cfdf383bfa90b",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91003_R11_v1.tar.gz.verification.json",
+    "sha256": "f8d7b4392c3b9d7e12a7a44b6642482c7a388f671b3efd6a42e366e1ed6bbe94",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91003_R11_v1",
+      "files": 16,
+      "bytes": 3152064,
+      "sha256": "616f9b7c348937ebd45dc6091a6de550832142e890f6b5ae980b259b1b99fddb",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91004_R00_v1.tar.gz.verification.json",
+    "sha256": "cf0e39ee9f77d42358b794b3599f2486c9574a39bf2ddd8b85feb53a502578ab",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91004_R00_v1",
+      "files": 16,
+      "bytes": 3165831,
+      "sha256": "58cdce1f2963787497a98d4c3dfac08eb6793fabf510a50516602426c7f689fe",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91004_R10_v1.tar.gz.verification.json",
+    "sha256": "02c86abd5f31e0c750208e22c567e850b036f0ac8311c5ae2f86350d9adde8b2",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91004_R10_v1",
+      "files": 16,
+      "bytes": 3151243,
+      "sha256": "5b4ece3fffb5e87dbf65176fc584cc1700cf0ea6c63e403dff23d708bc078997",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91004_R11_v1.tar.gz.verification.json",
+    "sha256": "fb4d3a54616a68b14708b47b468e84d128e798d2dd991140498620bc7c3a4137",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91004_R11_v1",
+      "files": 16,
+      "bytes": 3153468,
+      "sha256": "e4aa708136a4405c0e6b7b4bb8638361522c7d7c4f37d3926cbc41decc64c347",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91005_R00_v1.tar.gz.verification.json",
+    "sha256": "becc9543e0cf5f86fe029d695347cb209cf2db96ab4a2f54c2e30ceafbfa1e9d",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91005_R00_v1",
+      "files": 16,
+      "bytes": 3148504,
+      "sha256": "0f911a1f1996da82d9ff2d5f0e6d2fcb33d4a5fde1f03be21a97f54d3a9be51f",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91005_R10_v1.tar.gz.verification.json",
+    "sha256": "964aed0edd40014583cb8dca1e87d0f9f17b356210d296b005108b5aa17e06ac",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91005_R10_v1",
+      "files": 16,
+      "bytes": 3142373,
+      "sha256": "26eb1c420d3ffed12cb2f602bd2b81fc0ee5eea0e07013d00739f80341703175",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91005_R11_v1.tar.gz.verification.json",
+    "sha256": "084044e82677d9bcb275ac30e5485330b072aec274074e5ea04870cebde9beb2",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91005_R11_v1",
+      "files": 16,
+      "bytes": 3141715,
+      "sha256": "ac4a41620c8dde7c36040f4721b26d018549ce05ea133616007cbbc9be374163",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91006_R00_v1.tar.gz.verification.json",
+    "sha256": "ac282336e740540798beff9ef148ac844c7beea730e892e671c54dc835843bc5",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91006_R00_v1",
+      "files": 16,
+      "bytes": 3155596,
+      "sha256": "1b819dc3d1bf2a87013fe9e479eeadf422db2f98b6cb0881097bc85066f4ae1e",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91006_R10_v1.tar.gz.verification.json",
+    "sha256": "eeaac33fb68d0f8761d4a947cb2315c402490414a2e1d2032083152664231b22",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91006_R10_v1",
+      "files": 16,
+      "bytes": 3158162,
+      "sha256": "65775651ecbd63c30420b85781559406c84a665c8ae1d8bdc0b7efe42c4e01d1",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "generation_s91006_R11_v1.tar.gz.verification.json",
+    "sha256": "10dd61df9681cfacd001e44642ae750e3e8c29f69087bfb92f0e76c817c35a3c",
+    "result": {
+      "status": "passed",
+      "cell": "generation_s91006_R11_v1",
+      "files": 16,
+      "bytes": 3157951,
+      "sha256": "d00bdb7f3052d3b08aaf33b025ed8cc31a88b8bcff9722fa55bc20be9889dec7",
+      "scope": "One completed fixed-checkpoint W128 generation cell: 224 raw images, 14 paired 16-image shards, statistics and completion; not full-campaign analysis"
+    }
+  },
+  {
+    "receipt": "independent_reference_v1.tar.gz.verification.json",
+    "sha256": "9d9ced3b62689a06ff0edfe053ff88f63f51f1f7ff1ef2b022cbf15956021d90",
+    "result": {
+      "status": "passed",
+      "cell": "independent_reference_v1",
+      "files": 5,
+      "bytes": 173899706,
+      "sha256": "04ce80a3ea3f85b34c239b78f1acd5377de5662eef1b894b734a5243d0c1de7e",
+      "scope": "All new 2048 packed L1024 parent fields, 8-chain traces, per-parent generation reference statistics, protocol and passed QA; no generated model samples"
+    }
+  },
+  {
+    "receipt": "initial_source_protocol_20260924.tar.gz.verification.json",
+    "sha256": "83ee67b7c4c9c8d662536e08cf98143a2dfcb845d3c5d58638b5b0eb26280478",
+    "result": {
+      "status": "passed",
+      "cell": "generation_bridge_initial",
+      "files": 62,
+      "bytes": 149928,
+      "sha256": "7a3b4b46fd7f3318fffeab6a07579d947aec0984372dfd5fe80be9c629f05fd6",
+      "scope": "Frozen protocol, source snapshots and launch/preflight only; new MC and predictions not yet backed up"
+    }
+  }
+]

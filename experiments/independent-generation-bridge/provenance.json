@@ -1,0 +1,216 @@
+{
+  "policy": "Original evidence unchanged. Public text redactions are explicit; no numerical result changes.",
+  "files": [
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/complete_scientific_backup_audit_20260925.json",
+      "published": "independent-generation-bridge/evidence/complete_scientific_backup_audit_20260925.json",
+      "original_bytes": 4192,
+      "original_sha256": "6f37bc8f4a71cfad902127b9fccdf4922f9bcb8d2302329fc35bc636cbda70f8",
+      "bytes": 4192,
+      "sha256": "6f37bc8f4a71cfad902127b9fccdf4922f9bcb8d2302329fc35bc636cbda70f8",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/final_summary.json",
+      "published": "independent-generation-bridge/evidence/final_summary.json",
+      "original_bytes": 3109,
+      "original_sha256": "a4cc9677da58b4a4e9a20c8ba9db95ee3b20ae2392f14b23c3a8826fd0b790e7",
+      "bytes": 3109,
+      "sha256": "a4cc9677da58b4a4e9a20c8ba9db95ee3b20ae2392f14b23c3a8826fd0b790e7",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/manifest.json",
+      "published": "independent-generation-bridge/evidence/manifest.json",
+      "original_bytes": 209173,
+      "original_sha256": "1bf098f5ba964f9a3d7bb624a84048392053c37593e3a82466408709ac97846d",
+      "bytes": 209173,
+      "sha256": "1bf098f5ba964f9a3d7bb624a84048392053c37593e3a82466408709ac97846d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/run_protocol.json",
+      "published": "independent-generation-bridge/evidence/run_protocol.json",
+      "original_bytes": 9790,
+      "original_sha256": "7a069bdfc38f3014b4858731015dea356ddd431d4f3ca02b365d58658858c216",
+      "bytes": 9790,
+      "sha256": "7a069bdfc38f3014b4858731015dea356ddd431d4f3ca02b365d58658858c216",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/conditional_bootstrap.npz",
+      "published": "independent-generation-bridge/evidence/analysis/conditional_bootstrap.npz",
+      "original_bytes": 3768792,
+      "original_sha256": "c7710f5ad3a57eac46bf793a4dfda4b8e01a18b01a6dc5fb059d487d15633d88",
+      "bytes": 3768792,
+      "sha256": "c7710f5ad3a57eac46bf793a4dfda4b8e01a18b01a6dc5fb059d487d15633d88",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/conditional_contrasts.csv",
+      "published": "independent-generation-bridge/evidence/analysis/conditional_contrasts.csv",
+      "original_bytes": 20095,
+      "original_sha256": "42519c3a516950acead556c7d7de2884ac636633a47a57d2c9046e7cd38897e6",
+      "bytes": 20095,
+      "sha256": "42519c3a516950acead556c7d7de2884ac636633a47a57d2c9046e7cd38897e6",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/conditional_point.npz",
+      "published": "independent-generation-bridge/evidence/analysis/conditional_point.npz",
+      "original_bytes": 716544,
+      "original_sha256": "0159452a43fd0e9b83f465516af54ce47a8fc919c265009a2633d9577f3a35aa",
+      "bytes": 716544,
+      "sha256": "0159452a43fd0e9b83f465516af54ce47a8fc919c265009a2633d9577f3a35aa",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/coverage_map.pdf",
+      "published": "independent-generation-bridge/evidence/analysis/coverage_map.pdf",
+      "original_bytes": 18403,
+      "original_sha256": "3e77a55ca0c99f104ee51b9a01239872aa2236eb040c4758f2cd44215c3c4380",
+      "bytes": 18403,
+      "sha256": "3e77a55ca0c99f104ee51b9a01239872aa2236eb040c4758f2cd44215c3c4380",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/coverage_map.png",
+      "published": "independent-generation-bridge/evidence/analysis/coverage_map.png",
+      "original_bytes": 242384,
+      "original_sha256": "e50867ab6974aa474f3b0b29e2c0b58f8c33804b64db75213f1f27527be93834",
+      "bytes": 242384,
+      "sha256": "e50867ab6974aa474f3b0b29e2c0b58f8c33804b64db75213f1f27527be93834",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/distance_descriptive.csv",
+      "published": "independent-generation-bridge/evidence/analysis/distance_descriptive.csv",
+      "original_bytes": 129969,
+      "original_sha256": "ffc139ba0678a60e8ebaa3ea6b310888a16214a81ca90a813d5f6d01790b379c",
+      "bytes": 129969,
+      "sha256": "ffc139ba0678a60e8ebaa3ea6b310888a16214a81ca90a813d5f6d01790b379c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/fixed_models_block8.npz",
+      "published": "independent-generation-bridge/evidence/analysis/fixed_models_block8.npz",
+      "original_bytes": 146331,
+      "original_sha256": "7242bbad0aeee211b1da89be41c91df2972eb992b6ab0e2cf8f0b31427ddda09",
+      "bytes": 146331,
+      "sha256": "7242bbad0aeee211b1da89be41c91df2972eb992b6ab0e2cf8f0b31427ddda09",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/generation_confirmation.pdf",
+      "published": "independent-generation-bridge/evidence/analysis/generation_confirmation.pdf",
+      "original_bytes": 13682,
+      "original_sha256": "0276643921f2032a360ed282d95a4bc7034748845d4dd11b8ca1f4082cb5114c",
+      "bytes": 13682,
+      "sha256": "0276643921f2032a360ed282d95a4bc7034748845d4dd11b8ca1f4082cb5114c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/generation_confirmation.png",
+      "published": "independent-generation-bridge/evidence/analysis/generation_confirmation.png",
+      "original_bytes": 180028,
+      "original_sha256": "9f8e4ca4053d87989855171364633b7c40a587e9fadabee7501352037f656267",
+      "bytes": 180028,
+      "sha256": "9f8e4ca4053d87989855171364633b7c40a587e9fadabee7501352037f656267",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/generation_point.npz",
+      "published": "independent-generation-bridge/evidence/analysis/generation_point.npz",
+      "original_bytes": 1366,
+      "original_sha256": "7ef16ecd518eb9b268e5418020c241098b35e77d5344f155e3296ef3bef473f0",
+      "bytes": 1366,
+      "sha256": "7ef16ecd518eb9b268e5418020c241098b35e77d5344f155e3296ef3bef473f0",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/generation_uncertainty.json",
+      "published": "independent-generation-bridge/evidence/analysis/generation_uncertainty.json",
+      "original_bytes": 18318,
+      "original_sha256": "984437d18df4d3b7e021d56e5212a3b49f032566b9d5e36140b74fc713bf118c",
+      "bytes": 18318,
+      "sha256": "984437d18df4d3b7e021d56e5212a3b49f032566b9d5e36140b74fc713bf118c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/joint_block16.npz",
+      "published": "independent-generation-bridge/evidence/analysis/joint_block16.npz",
+      "original_bytes": 147290,
+      "original_sha256": "7210a2715ad523c27c11159c410ab0b0d2f02dcaf286fffc9afe3785f8af734e",
+      "bytes": 147290,
+      "sha256": "7210a2715ad523c27c11159c410ab0b0d2f02dcaf286fffc9afe3785f8af734e",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/joint_block4.npz",
+      "published": "independent-generation-bridge/evidence/analysis/joint_block4.npz",
+      "original_bytes": 147326,
+      "original_sha256": "0fb6c9ea361ec2e1841dda55f03cdb83dd99a41d2541862de77771d7c51dd542",
+      "bytes": 147326,
+      "sha256": "0fb6c9ea361ec2e1841dda55f03cdb83dd99a41d2541862de77771d7c51dd542",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/joint_block8.npz",
+      "published": "independent-generation-bridge/evidence/analysis/joint_block8.npz",
+      "original_bytes": 293997,
+      "original_sha256": "8493153d02181f2c8054327a2c5843db3cda01d7f195c9d887990c0ee1b6f5be",
+      "bytes": 293997,
+      "sha256": "8493153d02181f2c8054327a2c5843db3cda01d7f195c9d887990c0ee1b6f5be",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/mc_only_block8.npz",
+      "published": "independent-generation-bridge/evidence/analysis/mc_only_block8.npz",
+      "original_bytes": 133484,
+      "original_sha256": "91bcfcbbb22f60c17d5d990cceb2467d443cc3843a1e867247541d14b2ea236d",
+      "bytes": 133484,
+      "sha256": "91bcfcbbb22f60c17d5d990cceb2467d443cc3843a1e867247541d14b2ea236d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/sampling_only_block8.npz",
+      "published": "independent-generation-bridge/evidence/analysis/sampling_only_block8.npz",
+      "original_bytes": 143248,
+      "original_sha256": "351e2fd7d5f42240f776bde9e63ccb78b2aba7e3dd203be1525451c578ae7204",
+      "bytes": 143248,
+      "sha256": "351e2fd7d5f42240f776bde9e63ccb78b2aba7e3dd203be1525451c578ae7204",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/analysis/seed_only_block8.npz",
+      "published": "independent-generation-bridge/evidence/analysis/seed_only_block8.npz",
+      "original_bytes": 88825,
+      "original_sha256": "8864d7f861fd5e969949345bf7f57df3a3edd45fd0923fc898f458e221027fef",
+      "bytes": 88825,
+      "sha256": "8864d7f861fd5e969949345bf7f57df3a3edd45fd0923fc898f458e221027fef",
+      "transformations": []
+    },
+    {
+      "source": "docs/research_reboot_20260921/GENERATION_BRIDGE_PROTOCOL_20260924_ZH.md",
+      "published": "independent-generation-bridge/protocol/GENERATION_BRIDGE_PROTOCOL_20260924_ZH.md",
+      "original_bytes": 7073,
+      "original_sha256": "1eb4f4974dfb278285099ed6ba9c741d088b3966a6d550f78744e06e1d2c9a91",
+      "bytes": 7382,
+      "sha256": "37ca964ef02ccf5609c574b57808bd16133ffa07742137e3fdf66dfa6ec95386",
+      "transformations": [
+        {
+          "kind": "public-copy notice"
+        }
+      ]
+    },
+    {
+      "source": "artifacts/generation_bridge_20260924_remote/final_evidence/reference/complete.json",
+      "published": "independent-generation-bridge/evidence/reference/complete.json",
+      "original_bytes": 7894,
+      "original_sha256": "0a5f52eb3ecd6ba3e79a89853d39fde78a0bd2d22ac4207a97bf1c337cce9569",
+      "bytes": 7894,
+      "sha256": "0a5f52eb3ecd6ba3e79a89853d39fde78a0bd2d22ac4207a97bf1c337cce9569",
+      "transformations": []
+    }
+  ]
+}
