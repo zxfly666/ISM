@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "maxima": {
+    "row_transfer_logZ_error": 0.0,
+    "spin_flip_weight_error": 0.0,
+    "zero_field_magnetization_error": 8.326672684688674e-17,
+    "exact_Gibbs_probability_error": 2.3314683517128287e-14,
+    "conditional_complement_error": 7.149836278586008e-14
+  },
+  "states": 65536,
+  "rows": 1864,
+  "MC_sampling_error": 0.0,
+  "finite_system_not_infinite_volume": true
+}

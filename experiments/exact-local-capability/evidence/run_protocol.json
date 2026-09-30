@@ -1,0 +1,98 @@
+{
+  "study": "basic_capability_stages12_20260928",
+  "started": 1790584384.8164263,
+  "sources": {
+    "docs/research_reboot_20260921/BASIC_CAPABILITY_STAGE12_CONFIG_20260928.json": "f961c11e7a085061bca8807569d18d1140fded80543cf1d9796851ae85698447",
+    "docs/research_reboot_20260921/BASIC_CAPABILITY_STAGE12_PLAN_20260928_ZH.md": "5a897d2aad13f5d46bb2440589c27675c57b295703a98e9baab57e852ee66e48",
+    "scripts/research20260928/capability_common.py": "1a2cfa792fdbd8888469af95a41878dccc4f0505f79de2cd0f4e6106e7a4dcbc",
+    "scripts/research20260928/capability_model.py": "154150e4d900d3823041f1be6b7109424a3bb0fefda68292fcc980673ce9bdd3",
+    "scripts/research20260928/exact_ising.py": "066e8f28049202cd0a7f4876b55654ca17ec8c5ea689536fcd4f7e7e89e686be",
+    "scripts/research20260928/review_j_recipe.py": "7d45a0ad459536ba2d4c2b6783a7c229d714d208000fd93a1f72dd05d7b3b47e",
+    "scripts/research20260928/run_basic_capability.py": "e3819e0fe364312f4e249cdabe1ca318599772c7105c2629571ccd55625bdfea",
+    "scripts/research20260928/test_basic_capability.py": "d7024d67596a0b4d9971a07eed89cb4abcace46919b299c38033f650ce9107dd",
+    "scripts/research20260927/intervention_model.py": "52af782591e59dc3f142b1f07ccf53d2ad1d34bb08fd77c104a74735cd9cf3ec",
+    "ism_diffusion/model.py": "f0ba3e8a9ab00afc143c66c5f1c8b6e37981801cf405f15fb67baea36686c1b9",
+    "ism_diffusion/scale_model.py": "3930e9a2ec1ac85edaa525b9562beb21c7a001594dba23726f233a0b9d3d6018"
+  },
+  "config": {
+    "study": "basic_capability_stages12_20260928",
+    "authorized_stages": [
+      1,
+      2
+    ],
+    "root_seed": 2026092801,
+    "split_seed": 2026092802,
+    "seed_labels": [
+      92811,
+      92812,
+      92813
+    ],
+    "lattice_side": 4,
+    "boundary": "open",
+    "field": 0.0,
+    "beta": "log(1+sqrt(2))/2",
+    "model": {
+      "d_model": 128,
+      "n_heads": 4,
+      "n_blocks": 7,
+      "mlp_ratio": 4,
+      "dropout": 0,
+      "vocab_size": 4,
+      "output_classes": 2,
+      "rope_base": 10000
+    },
+    "model_parameters": 1976706,
+    "training_mode": "dense",
+    "steps": 2048,
+    "batch_per_family": 16,
+    "learning_rate": {
+      "warmup": 128,
+      "peak": 0.0003,
+      "end": 3e-05
+    },
+    "optimizer": {
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "weight_decay": 0.05,
+      "grad_clip": 1.0,
+      "ema_decay": 0.999
+    },
+    "precision": "FP32",
+    "device": "cpu",
+    "torch_threads": 2,
+    "torch_interop_threads": 1,
+    "strict_probability_tolerance": 2e-05,
+    "max_mode_kl": 0.01,
+    "max_probability_error": 0.05,
+    "hard_seconds": 7200,
+    "timing_warmup": 12,
+    "timing_repeats": 3,
+    "timing_steps_per_repeat": 16,
+    "timing_safety_multiplier": 1.5,
+    "evaluation_analysis_backup_reserve_seconds": 1800,
+    "J_backup_dir": "<CUSTODIAN_BACKUPS>/20260927_observed_context_intervention_18h",
+    "J_final_local": "artifacts/observed_context_intervention_18h_20260927_remote/final_restore_v1/artifacts/observed_context_intervention_18h_20260927",
+    "new_architecture": false,
+    "new_MC": false,
+    "generation": false,
+    "automatic_next_stage": false
+  },
+  "bank_sha256": "5025018191b7c01c6f73adfcb27f2564d053d95becb65be2bc292014848d2060",
+  "exact_truth_sha256": "e2b2d5d7ed58f441fc0cc68ef772076376c25d3bb957d0a5accb82a3278ac39d",
+  "split_sha256": "e9318a4d010ca74f1cd9a329725ecbd6928762804a29f04a2b72b0612adec0a3",
+  "budget": {
+    "started": 1790584332.3249664,
+    "deadline": 1790591532.3249664,
+    "hard_seconds": 7200,
+    "starts_at": "first full-model training timing",
+    "old_J_budget_reused": false
+  },
+  "stages": [
+    1,
+    2
+  ],
+  "no_automatic_stage3_or4": true,
+  "protocol_hash": "1dfe1e08fa0268bef1c4def97aab045828703ec26a596f98dc48b9cc68a7859a"
+}

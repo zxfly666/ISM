@@ -1,0 +1,5 @@
+{
+  "tests": 8,
+  "passed": true,
+  "output": "test_D4_canonical_identity (test_basic_capability.ExactTests) ... ok\ntest_exact_metrics (test_basic_capability.ExactTests) ... ok\ntest_geometry_split_not_symbol_split (test_basic_capability.ExactTests) ... ok\ntest_independent_zero_beta_truth (test_basic_capability.ExactTests) ... ok\ntest_local_gibbs_extension (test_basic_capability.ExactTests) ... ok\ntest_no_query_leakage (test_basic_capability.ExactTests) ... ok\ntest_partition_and_conditionals (test_basic_capability.ExactTests) ... ok\ntest_stream_role_and_repeat (test_basic_capability.ExactTests) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.858s\n\nOK\n"
+}

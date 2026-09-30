@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "seed_label": 92812,
+  "time": 1790585308.8427923,
+  "seconds": 470.62103605270386,
+  "steps": 2048,
+  "raw_core_capability_passed": true,
+  "symmetries": {
+    "translation_max": 1.043081283569336e-07,
+    "permutation_max": 5.960464477539063e-08,
+    "PAD_max": 0.0,
+    "added_MASK_fixed_clock_max": 0.07442927360534668,
+    "spin_flip_max": 0.010763853788375854,
+    "repeated_forward_exact": true,
+    "spin_flip_is_learned_not_architectural": true,
+    "dense_MASK_invariance_is_not_a_required_identity": true
+  },
+  "final_sha256": "3504591a7d9513711ab587ec54a0f47893c07259d1a6cc28aab45d817f0dd087",
+  "restored_CPU_identity_verified": true
+}

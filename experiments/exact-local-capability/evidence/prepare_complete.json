@@ -1,0 +1,10 @@
+{
+  "time": 1790584308.2763317,
+  "seconds": 8.90267300605774,
+  "data_sha256": "5025018191b7c01c6f73adfcb27f2564d053d95becb65be2bc292014848d2060",
+  "disk_free": {
+    "C": 8449486848,
+    "D": 124971819008
+  },
+  "computational_scope": "CPU truth and prior-file audit; no new training yet"
+}

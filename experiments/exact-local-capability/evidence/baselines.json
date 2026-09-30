@@ -1,0 +1,122 @@
+{
+  "k1_train": {
+    "uniform": {
+      "n": 80,
+      "mean_ce": 0.6931471805599454,
+      "mean_kl": 0.08836551623501214,
+      "max_kl": 0.1642894632527877,
+      "probability_mae": 0.20010353781189333,
+      "max_probability_error": 0.2784540093869571,
+      "expected_brier": 0.25,
+      "excess_brier": 0.04251867241258052,
+      "diagnostic_capability_passed": false
+    },
+    "blind_fit_on_training_only": {
+      "n": 80,
+      "mean_ce": 0.6107765491627324,
+      "mean_kl": 0.005994884837799227,
+      "max_kl": 0.015494011422273024,
+      "probability_mae": 0.04245639489890161,
+      "max_probability_error": 0.0783504715750537,
+      "expected_brier": 0.20995857415516417,
+      "excess_brier": 0.0024772465677446896,
+      "diagnostic_capability_passed": false
+    }
+  },
+  "k1_holdout": {
+    "uniform": {
+      "n": 40,
+      "mean_ce": 0.6931471805599452,
+      "mean_kl": 0.10150150786951877,
+      "max_kl": 0.17656878170817925,
+      "probability_mae": 0.20861467351038576,
+      "max_probability_error": 0.28801225873811465,
+      "expected_brier": 0.25,
+      "excess_brier": 0.04831497021267539,
+      "diagnostic_capability_passed": false
+    },
+    "blind_fit_on_training_only": {
+      "n": 40,
+      "mean_ce": 0.6035608853755124,
+      "mean_kl": 0.01191521268508591,
+      "max_kl": 0.019669932616052654,
+      "probability_mae": 0.06181584104247308,
+      "max_probability_error": 0.08885170234125506,
+      "expected_brier": 0.2065523574270333,
+      "excess_brier": 0.0048673276397086865,
+      "diagnostic_capability_passed": false
+    }
+  },
+  "k2_train": {
+    "uniform": {
+      "n": 1152,
+      "mean_ce": 0.6931471805599454,
+      "mean_kl": 0.12690134240961135,
+      "max_kl": 0.4090626600881559,
+      "probability_mae": 0.21072020359452814,
+      "max_probability_error": 0.41781052917427774,
+      "expected_brier": 0.25,
+      "excess_brier": 0.058590217616175125,
+      "diagnostic_capability_passed": false
+    },
+    "blind_fit_on_training_only": {
+      "n": 1152,
+      "mean_ce": 0.5884141161538583,
+      "mean_kl": 0.022168278003524385,
+      "max_kl": 0.12918338698920484,
+      "probability_mae": 0.07471208793511111,
+      "max_probability_error": 0.24851217377228485,
+      "expected_brier": 0.201407158657309,
+      "excess_brier": 0.009997376273484133,
+      "diagnostic_capability_passed": false
+    }
+  },
+  "k2_holdout": {
+    "uniform": {
+      "n": 528,
+      "mean_ce": 0.6931471805599454,
+      "mean_kl": 0.11628990452348047,
+      "max_kl": 0.36159413830260784,
+      "probability_mae": 0.1981179626165803,
+      "max_probability_error": 0.3970332836391445,
+      "expected_brier": 0.25,
+      "excess_brier": 0.0537054560830337,
+      "diagnostic_capability_passed": false
+    },
+    "blind_fit_on_training_only": {
+      "n": 528,
+      "mean_ce": 0.5958752395542003,
+      "mean_kl": 0.019017963517735395,
+      "max_kl": 0.07767429654301172,
+      "probability_mae": 0.07296234962437073,
+      "max_probability_error": 0.19447537819077493,
+      "expected_brier": 0.20459038324480164,
+      "excess_brier": 0.008295839327835333,
+      "diagnostic_capability_passed": false
+    }
+  },
+  "k4_train": {
+    "uniform": {
+      "n": 64,
+      "mean_ce": 0.6931471805599454,
+      "mean_kl": 0.20874103556002294,
+      "max_kl": 0.5633216850391716,
+      "probability_mae": 0.235702260395517,
+      "max_probability_error": 0.4714045207910317,
+      "expected_brier": 0.25,
+      "excess_brier": 0.09027777777777686,
+      "diagnostic_capability_passed": false
+    },
+    "blind_fit_on_training_only": {
+      "n": 64,
+      "mean_ce": 0.4844061449999224,
+      "mean_kl": 2.6020852139652106e-18,
+      "max_kl": 5.551115123125783e-17,
+      "probability_mae": 4.18556248688029e-15,
+      "max_probability_error": 1.73749903353837e-14,
+      "expected_brier": 0.15972222222222315,
+      "excess_brier": 3.622117849810214e-29,
+      "diagnostic_capability_passed": true
+    }
+  }
+}

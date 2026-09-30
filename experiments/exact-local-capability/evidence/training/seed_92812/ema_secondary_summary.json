@@ -1,0 +1,82 @@
+{
+  "k1_train": {
+    "n": 80,
+    "mean_ce": 0.6055777905990449,
+    "mean_kl": 0.0007961262741117636,
+    "max_kl": 0.002153464364075486,
+    "probability_mae": 0.017231013326901322,
+    "max_probability_error": 0.028029087874350433,
+    "expected_brier": 0.20780334259542643,
+    "excess_brier": 0.0003220150080069825,
+    "diagnostic_capability_passed": true
+  },
+  "k1_holdout": {
+    "n": 40,
+    "mean_ce": 0.5925375571011573,
+    "mean_kl": 0.0008918844107307561,
+    "max_kl": 0.0023263108854453263,
+    "probability_mae": 0.01705071371812943,
+    "max_probability_error": 0.028745345800947675,
+    "expected_brier": 0.2020204972214347,
+    "excess_brier": 0.00033546743411013336,
+    "diagnostic_capability_passed": true
+  },
+  "k2_train": {
+    "n": 1152,
+    "mean_ce": 0.5678079531467704,
+    "mean_kl": 0.0015621149964364029,
+    "max_kl": 0.011771429089085794,
+    "probability_mae": 0.019093285032520814,
+    "max_probability_error": 0.048645525874546736,
+    "expected_brier": 0.19190336572676317,
+    "excess_brier": 0.000493583342938294,
+    "diagnostic_capability_passed": false
+  },
+  "k2_holdout": {
+    "n": 528,
+    "mean_ce": 0.5784174780713282,
+    "mean_kl": 0.001560202034863207,
+    "max_kl": 0.01233708860868099,
+    "probability_mae": 0.018330680696388067,
+    "max_probability_error": 0.05422070250473798,
+    "expected_brier": 0.19678574727911255,
+    "excess_brier": 0.0004912033621462499,
+    "diagnostic_capability_passed": false
+  },
+  "k4_train": {
+    "n": 64,
+    "mean_ce": 0.4868421339350027,
+    "mean_kl": 0.0024359889350803426,
+    "max_kl": 0.006766935491406334,
+    "probability_mae": 0.01830031699314988,
+    "max_probability_error": 0.03961006412002299,
+    "expected_brier": 0.16024787099442733,
+    "excess_brier": 0.0005256487722042073,
+    "diagnostic_capability_passed": true
+  },
+  "k4_extension_fixed": {
+    "n": 64,
+    "mean_ce": 0.5399481636329639,
+    "mean_kl": 0.05554201863304155,
+    "max_kl": 0.14063243935961076,
+    "probability_mae": 0.10941245779209238,
+    "max_probability_error": 0.18916342267487307,
+    "expected_brier": 0.17827924838154446,
+    "excess_brier": 0.01855702615932131,
+    "diagnostic_capability_passed": false,
+    "max_drift_from_small": 0.1547989845275879
+  },
+  "k4_extension_natural": {
+    "n": 64,
+    "mean_ce": 0.5446739624520704,
+    "mean_kl": 0.06026781745214813,
+    "max_kl": 0.1509492072051268,
+    "probability_mae": 0.11882201675139606,
+    "max_probability_error": 0.20017758616897963,
+    "expected_brier": 0.18013619201779174,
+    "excess_brier": 0.02041396979556861,
+    "diagnostic_capability_passed": false,
+    "max_drift_from_small": 0.16648393869400024
+  },
+  "core_all_passed": false
+}

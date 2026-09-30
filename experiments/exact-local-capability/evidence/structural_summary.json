@@ -1,0 +1,244 @@
+{
+  "status": "completed",
+  "results": [
+    {
+      "seed_label": 92811,
+      "initialization_seed": 531702081,
+      "mode": "dense",
+      "model_hash": "3da8808457ad2fe3d1768126ddfb65475543ea2a9c18f80161ac083f06dc1ecb",
+      "checks": {
+        "translation_max": 1.1920928955078125e-07,
+        "permutation_max": 1.1920928955078125e-07,
+        "PAD_max": 0.0,
+        "added_MASK_fixed_clock_max": 0.014506816864013672,
+        "spin_flip_max": 0.3446931838989258,
+        "repeated_forward_exact": true,
+        "spin_flip_is_learned_not_architectural": true,
+        "dense_MASK_invariance_is_not_a_required_identity": true
+      },
+      "same_symbol_geometry_spread": {
+        "k1_pattern0": {
+          "model": 0.014301180839538574,
+          "truth": 0.1767604232674644,
+          "minimum_possible_max_error_if_constant": 0.0883802116337322
+        },
+        "k1_pattern1": {
+          "model": 0.02190268039703369,
+          "truth": 0.17676042326746344,
+          "minimum_possible_max_error_if_constant": 0.08838021163373172
+        },
+        "k2_pattern0": {
+          "model": 0.02163773775100708,
+          "truth": 0.2383305751246285,
+          "minimum_possible_max_error_if_constant": 0.11916528756231425
+        },
+        "k2_pattern3": {
+          "model": 0.021420300006866455,
+          "truth": 0.23833057512461187,
+          "minimum_possible_max_error_if_constant": 0.11916528756230593
+        }
+      },
+      "K1_numerical_distance_sensitivity": true
+    },
+    {
+      "seed_label": 92811,
+      "initialization_seed": 531702081,
+      "mode": "observed_only",
+      "model_hash": "3da8808457ad2fe3d1768126ddfb65475543ea2a9c18f80161ac083f06dc1ecb",
+      "checks": {
+        "translation_max": 8.940696716308594e-08,
+        "permutation_max": 5.960464477539063e-08,
+        "PAD_max": 0.0,
+        "added_MASK_fixed_clock_max": 0.0,
+        "spin_flip_max": 0.07734754681587219,
+        "repeated_forward_exact": true,
+        "spin_flip_is_learned_not_architectural": true,
+        "dense_MASK_invariance_is_not_a_required_identity": true
+      },
+      "same_symbol_geometry_spread": {
+        "k1_pattern0": {
+          "model": 0.0,
+          "truth": 0.1767604232674644,
+          "minimum_possible_max_error_if_constant": 0.0883802116337322
+        },
+        "k1_pattern1": {
+          "model": 0.0,
+          "truth": 0.17676042326746344,
+          "minimum_possible_max_error_if_constant": 0.08838021163373172
+        },
+        "k2_pattern0": {
+          "model": 1.1920928955078125e-07,
+          "truth": 0.2383305751246285,
+          "minimum_possible_max_error_if_constant": 0.11916528756231425
+        },
+        "k2_pattern3": {
+          "model": 1.1920928955078125e-07,
+          "truth": 0.23833057512461187,
+          "minimum_possible_max_error_if_constant": 0.11916528756230593
+        }
+      },
+      "K1_numerical_distance_sensitivity": false,
+      "known_geometry_degeneracy_reproduced": true
+    },
+    {
+      "seed_label": 92812,
+      "initialization_seed": 1772563160,
+      "mode": "dense",
+      "model_hash": "3b0fd444e26d8d820087667da02e889eb872bf79538fd05fecf81f7210f5a350",
+      "checks": {
+        "translation_max": 1.1920928955078125e-07,
+        "permutation_max": 1.1920928955078125e-07,
+        "PAD_max": 0.0,
+        "added_MASK_fixed_clock_max": 0.037278831005096436,
+        "spin_flip_max": 0.05868953466415405,
+        "repeated_forward_exact": true,
+        "spin_flip_is_learned_not_architectural": true,
+        "dense_MASK_invariance_is_not_a_required_identity": true
+      },
+      "same_symbol_geometry_spread": {
+        "k1_pattern0": {
+          "model": 0.019527167081832886,
+          "truth": 0.1767604232674644,
+          "minimum_possible_max_error_if_constant": 0.0883802116337322
+        },
+        "k1_pattern1": {
+          "model": 0.015043467283248901,
+          "truth": 0.17676042326746344,
+          "minimum_possible_max_error_if_constant": 0.08838021163373172
+        },
+        "k2_pattern0": {
+          "model": 0.028627216815948486,
+          "truth": 0.2383305751246285,
+          "minimum_possible_max_error_if_constant": 0.11916528756231425
+        },
+        "k2_pattern3": {
+          "model": 0.020155102014541626,
+          "truth": 0.23833057512461187,
+          "minimum_possible_max_error_if_constant": 0.11916528756230593
+        }
+      },
+      "K1_numerical_distance_sensitivity": true
+    },
+    {
+      "seed_label": 92812,
+      "initialization_seed": 1772563160,
+      "mode": "observed_only",
+      "model_hash": "3b0fd444e26d8d820087667da02e889eb872bf79538fd05fecf81f7210f5a350",
+      "checks": {
+        "translation_max": 1.1920928955078125e-07,
+        "permutation_max": 1.1920928955078125e-07,
+        "PAD_max": 0.0,
+        "added_MASK_fixed_clock_max": 0.0,
+        "spin_flip_max": 0.2998921871185303,
+        "repeated_forward_exact": true,
+        "spin_flip_is_learned_not_architectural": true,
+        "dense_MASK_invariance_is_not_a_required_identity": true
+      },
+      "same_symbol_geometry_spread": {
+        "k1_pattern0": {
+          "model": 0.0,
+          "truth": 0.1767604232674644,
+          "minimum_possible_max_error_if_constant": 0.0883802116337322
+        },
+        "k1_pattern1": {
+          "model": 0.0,
+          "truth": 0.17676042326746344,
+          "minimum_possible_max_error_if_constant": 0.08838021163373172
+        },
+        "k2_pattern0": {
+          "model": 1.1920928955078125e-07,
+          "truth": 0.2383305751246285,
+          "minimum_possible_max_error_if_constant": 0.11916528756231425
+        },
+        "k2_pattern3": {
+          "model": 1.1920928955078125e-07,
+          "truth": 0.23833057512461187,
+          "minimum_possible_max_error_if_constant": 0.11916528756230593
+        }
+      },
+      "K1_numerical_distance_sensitivity": false,
+      "known_geometry_degeneracy_reproduced": true
+    },
+    {
+      "seed_label": 92813,
+      "initialization_seed": 150268396,
+      "mode": "dense",
+      "model_hash": "3141fd11796ab0f020b1c74d3c24bd143f66135749ebdbf5a921c99304d6e18c",
+      "checks": {
+        "translation_max": 8.940696716308594e-08,
+        "permutation_max": 8.940696716308594e-08,
+        "PAD_max": 0.0,
+        "added_MASK_fixed_clock_max": 0.012528985738754272,
+        "spin_flip_max": 0.11943742632865906,
+        "repeated_forward_exact": true,
+        "spin_flip_is_learned_not_architectural": true,
+        "dense_MASK_invariance_is_not_a_required_identity": true
+      },
+      "same_symbol_geometry_spread": {
+        "k1_pattern0": {
+          "model": 0.01861754059791565,
+          "truth": 0.1767604232674644,
+          "minimum_possible_max_error_if_constant": 0.0883802116337322
+        },
+        "k1_pattern1": {
+          "model": 0.011080324649810791,
+          "truth": 0.17676042326746344,
+          "minimum_possible_max_error_if_constant": 0.08838021163373172
+        },
+        "k2_pattern0": {
+          "model": 0.017869919538497925,
+          "truth": 0.2383305751246285,
+          "minimum_possible_max_error_if_constant": 0.11916528756231425
+        },
+        "k2_pattern3": {
+          "model": 0.018809646368026733,
+          "truth": 0.23833057512461187,
+          "minimum_possible_max_error_if_constant": 0.11916528756230593
+        }
+      },
+      "K1_numerical_distance_sensitivity": true
+    },
+    {
+      "seed_label": 92813,
+      "initialization_seed": 150268396,
+      "mode": "observed_only",
+      "model_hash": "3141fd11796ab0f020b1c74d3c24bd143f66135749ebdbf5a921c99304d6e18c",
+      "checks": {
+        "translation_max": 8.940696716308594e-08,
+        "permutation_max": 5.960464477539063e-08,
+        "PAD_max": 0.0,
+        "added_MASK_fixed_clock_max": 0.0,
+        "spin_flip_max": 0.17302480340003967,
+        "repeated_forward_exact": true,
+        "spin_flip_is_learned_not_architectural": true,
+        "dense_MASK_invariance_is_not_a_required_identity": true
+      },
+      "same_symbol_geometry_spread": {
+        "k1_pattern0": {
+          "model": 0.0,
+          "truth": 0.1767604232674644,
+          "minimum_possible_max_error_if_constant": 0.0883802116337322
+        },
+        "k1_pattern1": {
+          "model": 0.0,
+          "truth": 0.17676042326746344,
+          "minimum_possible_max_error_if_constant": 0.08838021163373172
+        },
+        "k2_pattern0": {
+          "model": 1.1920928955078125e-07,
+          "truth": 0.2383305751246285,
+          "minimum_possible_max_error_if_constant": 0.11916528756231425
+        },
+        "k2_pattern3": {
+          "model": 8.940696716308594e-08,
+          "truth": 0.23833057512461187,
+          "minimum_possible_max_error_if_constant": 0.11916528756230593
+        }
+      },
+      "K1_numerical_distance_sensitivity": false,
+      "known_geometry_degeneracy_reproduced": true
+    }
+  ],
+  "expected_O_expressivity_failure_is_not_software_failure": true,
+  "trained_O_models": 0
+}

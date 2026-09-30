@@ -1,0 +1,30 @@
+{
+  "note": "Contains scientific identity records including public copies. Local verification does not imply public availability. Request archive/member by SHA through a repository issue; no hosting or retention guarantee is made.",
+  "archives": [],
+  "files": {
+    "preflight_v1/timing_recovery.pt": {
+      "bytes": 31796162,
+      "sha256": "534c0eb0d4af963e8ca6e2e050f4ee64479382dd35d2839e146fbdc90d7e5d50",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/seed_92811/final.pt": {
+      "bytes": 31796226,
+      "sha256": "564cb9a15e9fbe6fbe704bbf6dbd4d68b38175037bebdc63fdec5ba396c36089",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/seed_92812/final.pt": {
+      "bytes": 31796226,
+      "sha256": "3504591a7d9513711ab587ec54a0f47893c07259d1a6cc28aab45d817f0dd087",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/seed_92813/final.pt": {
+      "bytes": 31796226,
+      "sha256": "04472e3e18ddec71307bfa7d8a8a039daf8ba8d90144f8036cf46480e6b1b076",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    }
+  }
+}

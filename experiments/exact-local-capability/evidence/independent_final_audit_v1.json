@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "time": 1790585809.162544,
+  "data_only": false,
+  "checks": 15601,
+  "max_truth_probability_error": 4.796163466380676e-14,
+  "exact_rows": 1864,
+  "no_D4_geometry_leakage": true,
+  "legacy_verified_total": 89,
+  "legacy_from_canonical_paths": 87,
+  "legacy_verified_in_existing_archive": [
+    "artifacts/geometry_identification_20260926/design/low_layouts.npz",
+    "artifacts/geometry_identification_20260926/run_protocol.json"
+  ],
+  "audit_source_sha256": "ace9e45a7c18f009a240978e19856993aaa97a08397ac42896fa3cbab6a783d3",
+  "no_new_forward_or_training_or_MC": true,
+  "not_external_peer_review": true,
+  "max_metric_error": 1.1102230246251565e-16,
+  "per_seed_core_gates": [
+    true,
+    true,
+    true
+  ],
+  "all_recoverable_checkpoints_verified": true,
+  "all_frozen_stage12_sources_unchanged": true,
+  "seconds": 8.680020809173584
+}
