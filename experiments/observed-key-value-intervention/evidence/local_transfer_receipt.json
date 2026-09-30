@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "time": 1790522462.7163756,
+  "probe_archive_sha256": "e9fce66b6fb78f19d1307d690cf4d993044399681c0d947398af1d1ebf477665",
+  "probe_bytes": 31656403,
+  "download_seconds": 6.114,
+  "local_verify_seconds": 0.09976869999991322,
+  "end_to_end_seconds": 7.254284518633052,
+  "local_C_free": 8591474688,
+  "local_D_free": 128075681792,
+  "base_backup_sources": [
+    {
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92601_I-F_v1.tar.gz",
+      "archive_sha256": "089c5a2f9707b07c1d916aef8cd2f57e9869bf53a0fbe8ea581132dbac737e34",
+      "member": {
+        "path": "artifacts/geometry_identification_20260926/training/s92601_I-F/final.pt",
+        "bytes": 31811875,
+        "sha256": "dbccca9c1b47ec599ea976996fed2ef0834983163a40765c67b1edd7946d2ed9"
+      },
+      "verified_now": 1790522461.165681
+    },
+    {
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92602_I-F_v1.tar.gz",
+      "archive_sha256": "c8f2e78e3c5dda6159ab161e15d8b2def1947bf0e6e1777bf5c58980af394857",
+      "member": {
+        "path": "artifacts/geometry_identification_20260926/training/s92602_I-F/final.pt",
+        "bytes": 31811939,
+        "sha256": "54f8f6c9f96eaf7a36759723212588bebcdd1c4bcfbd19cef35df87e0f2ce096"
+      },
+      "verified_now": 1790522461.4783854
+    },
+    {
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92603_I-F_v1.tar.gz",
+      "archive_sha256": "cd65df1a855f80dc82b46d15e7945f7b03b010cca5c5a0d351e49b75e29dcfc9",
+      "member": {
+        "path": "artifacts/geometry_identification_20260926/training/s92603_I-F/final.pt",
+        "bytes": 31811875,
+        "sha256": "3b1d0d648e8e36a13650136913d59c1086da690de8ea00f41732c9a9e622e801"
+      },
+      "verified_now": 1790522461.7901096
+    },
+    {
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92604_I-F_v1.tar.gz",
+      "archive_sha256": "9721749f485f26fc497d78cfc381c3d766c160bc2754d60c16c8d5fa60d35ac7",
+      "member": {
+        "path": "artifacts/geometry_identification_20260926/training/s92604_I-F/final.pt",
+        "bytes": 31811811,
+        "sha256": "3cb9fc2575fa10e42c23b400d61c819e99c46999717be7e842dcf3d18dbb409d"
+      },
+      "verified_now": 1790522462.099832
+    },
+    {
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92605_I-F_v1.tar.gz",
+      "archive_sha256": "84fddd89aae5cc1b8bc9e35f08b448eb42c69ff32c3f2d1f67ff68bcee9f4878",
+      "member": {
+        "path": "artifacts/geometry_identification_20260926/training/s92605_I-F/final.pt",
+        "bytes": 31811939,
+        "sha256": "ada3cda0b5ba134ed8bb1f1046422a079f311786032f03679e4cc6a42895f653"
+      },
+      "verified_now": 1790522462.408528
+    },
+    {
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92606_I-F_v1.tar.gz",
+      "archive_sha256": "453f6a70b30abf3cef9ff80dba22f83f0c521ffbb3e90c5a86d20eb189ce955e",
+      "member": {
+        "path": "artifacts/geometry_identification_20260926/training/s92606_I-F/final.pt",
+        "bytes": 31811939,
+        "sha256": "5ab388bb518f431af80e448f53042e4d3827b5a9110823174d050946e29b6d45"
+      },
+      "verified_now": 1790522462.7163756
+    }
+  ]
+}

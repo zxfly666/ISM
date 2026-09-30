@@ -1,0 +1,8 @@
+{
+  "time": 1790522371.8930929,
+  "disk_free": 24538775552,
+  "memory_limit": "64424509440",
+  "memory_current": 25291755520,
+  "cpu_max": "1000000 100000",
+  "gpu": "NVIDIA GeForce RTX 4090, 1 MiB, 24564 MiB, 0 %\n"
+}

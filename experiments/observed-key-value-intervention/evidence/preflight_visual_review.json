@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "figures": 10,
+  "review": "All ten actual-model software-scratch v2 PNGs visually inspected in this turn",
+  "figure_source": "preflight_v1/software_scratch_visual_v2/analysis/figures",
+  "files": [
+    {
+      "local_path": "D:\\ISM\\artifacts\\observed_context_intervention_18h_20260927_remote\\scratch_v2_01_primary_and_progress.png",
+      "sha256": "05d3f4145db70233db8bf1e04c5f8b1aba2e4f9318eaae4b0791953551e3dfcb"
+    },
+    {
+      "local_path": "D:\\ISM\\artifacts\\observed_context_intervention_18h_20260927_remote\\scratch_v2_02_retention.png",
+      "sha256": "422d5e074cabdfacea621c5de56bf7a81454c78cccf54d34e4f89e6bbaea1e80"
+    },
+    {
+      "local_path": "D:\\ISM\\artifacts\\observed_context_intervention_18h_20260927_remote\\scratch_v2_03_factorial.png",
+      "sha256": "7b6a4d2cb68a4909aeed3abf60c5d9ef1db718c3fc24144b744504c6d72a9d9d"
+    },
+    {
+      "local_path": "D:\\ISM\\artifacts\\observed_context_intervention_18h_20260927_remote\\scratch_v2_04_padding.png",
+      "sha256": "647429702cda1d925d61593bc08540757453f7121bc3787df02433f368b845b6"
+    },
+    {
+      "local_path": "D:\\ISM\\artifacts\\observed_context_intervention_18h_20260927_remote\\scratch_v2_05_gibbs.png",
+      "sha256": "0268e46f5b1de30d7b84a2a5814fa382aa4f70a19fd57a8a9d1bb4862938046d"
+    },
+    {
+      "local_path": "D:\\ISM\\artifacts\\observed_context_intervention_18h_20260927_remote\\scratch_v2_06_low_k.png",
+      "sha256": "c907e7eb0d4e266625676a6252cc5918e0dd5836964ec4b53932ff0e5a10d8c0"
+    },
+    {
+      "local_path": "D:\\ISM\\artifacts\\observed_context_intervention_18h_20260927_remote\\scratch_v2_07_learning.png",
+      "sha256": "144349dfdc23ab78948036dfaa2a0d6e136da3841bf7d44ab255545f5dbf47ff"
+    },
+    {
+      "local_path": "D:\\ISM\\artifacts\\observed_context_intervention_18h_20260927_remote\\scratch_v2_08_sensitivity_and_timing.png",
+      "sha256": "9a0973865319417d30c23f6891d196f2a42ff582a97e0221110ddbd6fff4c1d1"
+    },
+    {
+      "local_path": "D:\\ISM\\artifacts\\observed_context_intervention_18h_20260927_remote\\scratch_v2_09_cohort_comparison.png",
+      "sha256": "f6e368cae3348ed536361e88a49a3d41e3d79b91ad732510ec3968f8ff716941"
+    },
+    {
+      "local_path": "D:\\ISM\\artifacts\\observed_context_intervention_18h_20260927_remote\\scratch_v2_10_fresh_trajectory.png",
+      "sha256": "e1b7537e574934ed7a759d8e34327e8ab8988bcdb110fffa02a883b2e01a2437"
+    }
+  ],
+  "notes": [
+    "v1 legends overlapped labels in figures03/06; retained, not approved",
+    "v2 moves legends outside axes and includes existing Brier/response/negative-control arrays",
+    "All122 original statistical arrays exactly equal after figure-only replay",
+    "No GPU fixture/training/native benchmark was repeated; original18h budget unchanged",
+    "Software-only labels visible; not formal scientific results"
+  ]
+}

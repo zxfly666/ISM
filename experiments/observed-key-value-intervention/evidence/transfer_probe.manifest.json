@@ -1,0 +1,50 @@
+{
+  "stage": "transfer_probe",
+  "archive": "transfer_probe_v1.tar.gz",
+  "bytes": 31656403,
+  "sha256": "e9fce66b6fb78f19d1307d690cf4d993044399681c0d947398af1d1ebf477665",
+  "files": [
+    {
+      "path": "artifacts/observed_context_intervention_18h_20260927/transfer_probe/random_0.npz",
+      "bytes": 3955915,
+      "sha256": "aae0a0bb731cf67b873645f89c018dcbcc800986bcc69d52bfbaf8228973164d"
+    },
+    {
+      "path": "artifacts/observed_context_intervention_18h_20260927/transfer_probe/random_1.npz",
+      "bytes": 3955579,
+      "sha256": "abbeb11bf27efc1791e8984e202fbcc82f387160d5b8f72532412581377300de"
+    },
+    {
+      "path": "artifacts/observed_context_intervention_18h_20260927/transfer_probe/random_2.npz",
+      "bytes": 3955488,
+      "sha256": "9b6787219998fc20c09f1f87f7541361facab8089db5abf0d59e22704abd8251"
+    },
+    {
+      "path": "artifacts/observed_context_intervention_18h_20260927/transfer_probe/random_3.npz",
+      "bytes": 3955727,
+      "sha256": "d47762c1e4bca65686751af2258444a8264c55092184f3dc5a54a9656a54c2e7"
+    },
+    {
+      "path": "artifacts/observed_context_intervention_18h_20260927/transfer_probe/random_4.npz",
+      "bytes": 3955617,
+      "sha256": "2eaa75143bbdc9bea83cbc467a9fc299344ef09cf4ff4c0e5749493d0d3b80c5"
+    },
+    {
+      "path": "artifacts/observed_context_intervention_18h_20260927/transfer_probe/random_5.npz",
+      "bytes": 3955370,
+      "sha256": "30ecd0d40699cd8ab1b0549142d49b29b9fec91d2797cb529972b6d1f84cc062"
+    },
+    {
+      "path": "artifacts/observed_context_intervention_18h_20260927/transfer_probe/random_6.npz",
+      "bytes": 3955433,
+      "sha256": "2bf03b75c240e372eee90681178aa271f28f4c11357aa23d28a8d5a24a323f75"
+    },
+    {
+      "path": "artifacts/observed_context_intervention_18h_20260927/transfer_probe/random_7.npz",
+      "bytes": 3955455,
+      "sha256": "2addeb8b0768f0c4af4e758e1b36d5894714b53bb88deb818249bfa4088520b6"
+    }
+  ],
+  "members": 8,
+  "remote_export_seconds": 1.0405158186331391
+}

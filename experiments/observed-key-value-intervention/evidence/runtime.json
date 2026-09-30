@@ -1,0 +1,7 @@
+{
+  "training_seconds": 18470.638285636902,
+  "reference_seconds": 3788.820824623108,
+  "bank_build_seconds": 102.68221591133624,
+  "inference_seconds": 14262.388939530589,
+  "prediction_write_seconds": 60.920643189921975
+}

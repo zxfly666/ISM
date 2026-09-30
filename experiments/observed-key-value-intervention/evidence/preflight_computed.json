@@ -1,0 +1,14 @@
+{
+  "time": 1790522617.0386288,
+  "result": {
+    "T": 20719.22398785688,
+    "F": 14565.133324581198,
+    "bank_build_projected_seconds": 129.45198156218976,
+    "L": 33.73172588087618,
+    "M": 9818.650894293021,
+    "A": 707.6741750086512,
+    "max_cuda_allocated_bytes": 2270129664,
+    "process_max_rss_kib": 4348560
+  },
+  "status": "computed_passed_awaiting_visual_backup_budget"
+}
