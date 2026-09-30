@@ -7,3 +7,21 @@ results/scale_aware_context/stage2a_screen/raw/**/*.csv filter=lfs diff=lfs merg
 
 # Preserve exact member bytes for the published preflight SHA manifest.
 /results/dense_size_clock_geometry_20260930/evidence/* -text whitespace=cr-at-eol
+
+# Public scientific archive: SHA values refer to exact published bytes.
+/experiments/** -text whitespace=cr-at-eol
+/scripts/research202609*/** -text whitespace=cr-at-eol
+/ism_diffusion/geometry_study.py -text whitespace=cr-at-eol
+/ism_diffusion/context_repair_core.py -text whitespace=cr-at-eol
+/docs/research_reboot_20260921/*.json -text whitespace=cr-at-eol
+/tests/test_geometry_study.py -text whitespace=cr-at-eol
+/tests/test_diagnostic_math.py -text whitespace=cr-at-eol
+/tests/test_fixed_geometry_math.py -text whitespace=cr-at-eol
+/tests/test_mechanism_design.py -text whitespace=cr-at-eol
+
+# These four frozen scientific sources have an original empty final line.
+# Preserve their registered hashes; this is not a source-formatting change.
+/scripts/research20260927/check_observed_context_design.py whitespace=cr-at-eol,-blank-at-eof
+/scripts/research20260927/check_observed_context_design_v2_18h.py whitespace=cr-at-eol,-blank-at-eof
+/scripts/research20260928/capability_common.py whitespace=cr-at-eol,-blank-at-eof
+/scripts/research20260928/capability_model.py whitespace=cr-at-eol,-blank-at-eof

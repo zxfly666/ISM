@@ -1,0 +1,62 @@
+{
+  "study": "geometry_identification_20260926",
+  "design_version": 1,
+  "status": "design_only_not_implemented_not_preflighted_not_authorized_to_start",
+  "protocol": "GEOMETRY_IDENTIFICATION_PLAN_20260926_ZH.md",
+  "arms": ["I-F", "I-S", "I-R"],
+  "training_seeds": [92601, 92602, 92603, 92604, 92605, 92606],
+  "fresh_initialization": true,
+  "steps": 12000,
+  "tokens_per_update": 18432,
+  "widths": [16, 24, 32, 48],
+  "sparse_update_fraction": 0.25,
+  "sparse_queries_per_update": 512,
+  "sparse_training_ks": [1, 2, 4, 8, 16, 32],
+  "mc": {
+    "seed": 2026092611,
+    "chains": 16,
+    "parents_per_chain": 128,
+    "lattice_size": 1024,
+    "workers": 4,
+    "initial_states": {"random": 8, "plus": 4, "minus": 4},
+    "burn_in_sweeps": 40,
+    "sweeps_between": 4,
+    "adaptation_sweeps": 3,
+    "pilot_cluster_steps": 128,
+    "qa_max_split_rhat": 1.1,
+    "qa_min_per_chain_ess": 16
+  },
+  "role_seeds": {
+    "evaluation": 2026092621,
+    "low_k": 2026092631,
+    "generation": 2026092641,
+    "bootstrap": 2026092651
+  },
+  "conditional_geometries": [
+    {"name": "C48", "width": 48, "kind": "continuous", "parents": 256, "ks": [2, 8, 32, 128, 512, 1152, 115]},
+    {"name": "U48", "width": 48, "kind": "train_gap", "parents": 256, "ks": [2, 8, 32, 128, 512, 1152]},
+    {"name": "H48", "width": 48, "kind": "held_gap", "parents": 2048, "ks": [2, 8, 32, 128, 512, 1152]},
+    {"name": "B48", "width": 48, "kind": "clustered_held_gap", "parents": 256, "ks": [2, 8, 32, 128, 512, 1152]},
+    {"name": "C96", "width": 96, "kind": "continuous", "parents": 256, "ks": [2, 8, 32, 128, 512, 4608]},
+    {"name": "H96", "width": 96, "kind": "held_gap", "parents": 256, "ks": [2, 8, 32, 128, 512, 4608]}
+  ],
+  "queries_per_parent": 64,
+  "random_coordinates": {"train_replicates": 1, "evaluation_replicates_noncontinuous": 4, "continuous_cached": true, "average_loss_not_probability": true},
+  "primary": [
+    {"name": "P1", "geometry": "H48", "k": 512, "left": "I-F", "right": "I-S", "metric": "CE"},
+    {"name": "P2", "geometry": "H48", "k": 512, "left": "I-F", "right": "I-R", "metric": "CE"}
+  ],
+  "primary_ci": 0.975,
+  "supplementary_ci": 0.95,
+  "practical_ce_difference": -0.002,
+  "target_primary_bootstrap_sd": 0.0005,
+  "bootstrap": {"primary_reps": 20000, "primary_block": 8, "primary_sensitivity_blocks": [4, 16], "sensitivity_reps": 10000, "secondary_subset_block": 2, "secondary_subset_sensitivity_blocks": [1, 4]},
+  "low_k": {"layout_pairs": {"train": 32, "held": 32, "negative_train": 8, "negative_held": 8}, "translations_per_parent": 256, "query": [23, 22], "visible1": [23, 23], "visible2": [23, 25], "swap_gap_indices": [22, 23], "negative_swap_gap_indices": [2, 3], "symbol_conditions_per_layout": 6, "min_mixture_visible_pattern_probability_for_conditional_interpretation": 0.01},
+  "padding": {"parents": 256, "ks": [2, 32, 512], "queries": 64, "small_width": 48, "large_width": 96, "offset": 24, "views": ["small_natural", "large_fixed_clock", "large_natural_clock"]},
+  "generation": {"width": 96, "samples_per_model": 128, "shard_size": 16, "sampler": "S0_cos_squared", "steps": 256, "temperature": 1, "mc_correction": false, "bootstrap_sampling_unit": "image_after_independence_audit", "bootstrap_reps": 10000},
+  "budget": {"hard_seconds": 43200, "launch_gate_seconds": 41400, "safety_multiplier": 1.2, "statistics_reserve_seconds": 2700, "historical_speed_is_not_preflight": true},
+  "historical_timing": {"source": "G_preflight_authorized12h_v3_envfix_only", "training_six_fine_models_seconds": 4082.031992090669, "training_six_span_models_seconds": 4090.8767681573186, "prediction_seconds_per_parent": {"48": 0.007996577536687255, "96": 0.028988261241465807}, "generation_shard_seconds": 33.51128119137138, "random_arm_training_speed_unmeasured": true},
+  "expected_counts": {"models": 18, "training_updates": 216000, "windows_per_model": 390000, "mc_parents": 2048, "banks": 37, "model_bank_cells": 666, "prediction_files": 1098, "prediction_files_w48": 774, "prediction_files_w96": 324, "conditional_parent_forwards": 668160, "low_k_layout_pairs": 80, "low_k_input_forwards": 34560, "padding_cells": 162, "generation_images": 2304, "generation_shards": 144},
+  "no_gpu_or_mc_launched": true,
+  "no_automation_created": true
+}

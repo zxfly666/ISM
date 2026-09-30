@@ -1,0 +1,702 @@
+{
+  "study": "observed_context_intervention_18h_20260927",
+  "round": "J",
+  "design_version": 2,
+  "status": "design_only_not_implemented_not_preflighted_not_authorized_to_start",
+  "created_date": "2026-09-26",
+  "identifier_date_is_not_a_start_schedule": true,
+  "source_review": "D:/ISM/independent_review_20260926/下一轮12小时预注册草案.md",
+  "protocol": "OBSERVED_CONTEXT_INTERVENTION_PLAN_V2_18H_20260927_ZH.md",
+  "authorized_to_start": false,
+  "gpu_or_new_mc_started": false,
+  "automation_created": false,
+  "budget_started": null,
+  "deadline": null,
+  "plan_variant": "continuation_bridge_plus_fresh_primary_no_generation",
+  "frozen_comparator": "B0_I-F_12000_EMA",
+  "base_seeds": [
+    92601,
+    92602,
+    92603,
+    92604,
+    92605,
+    92606
+  ],
+  "base_protocol_hash": "c9acba5d414257edfcc23545d51974ba7cc1c1eb3cfc10bbee1753fc12482164",
+  "base_run_protocol_sha256": "07a787333e2188ac21f1a989038adaf12e6e83b15931a830dc9235c74e0a748b",
+  "base_backup_root": "D:/ISM_research_backups/20260926_geometry_identification",
+  "base_final_sha256": [
+    "dbccca9c1b47ec599ea976996fed2ef0834983163a40765c67b1edd7946d2ed9",
+    "54f8f6c9f96eaf7a36759723212588bebcdd1c4bcfbd19cef35df87e0f2ce096",
+    "3b1d0d648e8e36a13650136913d59c1086da690de8ea00f41732c9a9e622e801",
+    "3cb9fc2575fa10e42c23b400d61c819e99c46999717be7e842dcf3d18dbb409d",
+    "ada3cda0b5ba134ed8bb1f1046422a079f311786032f03679e4cc6a42895f653",
+    "5ab388bb518f431af80e448f53042e4d3827b5a9110823174d050946e29b6d45"
+  ],
+  "model": {
+    "d_model": 128,
+    "n_heads": 4,
+    "n_blocks": 7,
+    "mlp_ratio": 4,
+    "dropout": 0,
+    "vocab_size": 4,
+    "output_classes": 2,
+    "rope_base": 10000,
+    "parameters": 1976706
+  },
+  "attention": {
+    "dense": "all_valid_keys",
+    "observed_only": "observed_spin_keys_only_in_every_layer",
+    "observed_definition": "valid AND (token == 0 OR token == 1)",
+    "key_mask_separate_from_valid_mask": true,
+    "all_valid_queries_retained": true,
+    "zero_observations_fallback": "per_example_all_valid_keys",
+    "compression": false,
+    "additional_parameters": 0,
+    "fp32_probability_tolerance": 0.00002,
+    "invariance_requires_fixed_clock": true,
+    "invariance_excludes_zero_observations": true
+  },
+  "seeds": {
+    "root": 2026092701,
+    "fixture": 2026092700,
+    "mc": 2026092711,
+    "evaluation": 2026092721,
+    "validation": 2026092722,
+    "mechanism_and_low_k": 2026092731,
+    "bootstrap": 2026092751
+  },
+  "mc": {
+    "chains": 16,
+    "parents_per_chain": 256,
+    "lattice_size": 1024,
+    "workers": 4,
+    "initial_states": {
+      "random": 8,
+      "plus": 4,
+      "minus": 4
+    },
+    "beta": "log(1+sqrt(2))/2",
+    "burn_in_sweeps": 40,
+    "sweeps_between": 4,
+    "adaptation_sweeps": 3,
+    "pilot_cluster_steps": 128,
+    "production_steps_frozen_after_pilot": true,
+    "qa_metrics": [
+      "energy",
+      "abs_m",
+      "m2",
+      "G25_48_independent_continuous_W96_crop"
+    ],
+    "qa_max_split_rhat": 1.1,
+    "qa_min_per_chain_ess": 16,
+    "resample_until_pass": false,
+    "evaluation_only": true,
+    "shared_between_cohorts": true,
+    "independent_from_old_I_reference": true
+  },
+  "core_banks": [
+    {
+      "name": "H96_k512",
+      "width": 96,
+      "kind": "held_gap",
+      "span": 354,
+      "k": 512,
+      "parents": 4096,
+      "role": "primary"
+    },
+    {
+      "name": "H48_k512",
+      "width": 48,
+      "kind": "held_gap",
+      "span": 174,
+      "k": 512,
+      "parents": 4096,
+      "role": "retention"
+    },
+    {
+      "name": "C48_k115",
+      "width": 48,
+      "kind": "continuous",
+      "span": 47,
+      "k": 115,
+      "parents": 256,
+      "role": "retention"
+    },
+    {
+      "name": "C48_k1152",
+      "width": 48,
+      "kind": "continuous",
+      "span": 47,
+      "k": 1152,
+      "parents": 256,
+      "role": "retention"
+    }
+  ],
+  "queries_per_parent": 64,
+  "cpu_only_core_baselines": [
+    "uniform_probability_0.5",
+    "visible_spin_mean_jeffreys_probability_(n_plus+0.5)/(K+1)"
+  ],
+  "all_formal_evaluation_models": [
+    "six_B0",
+    "six_C-D_final_ema",
+    "six_C-O_final_ema",
+    "six_S-D_final_ema",
+    "six_S-O_final_ema"
+  ],
+  "formal_reference_predictions_only_after_final_checkpoints_locked": true,
+  "primary": {
+    "bank": "H96_k512",
+    "left": "S-O_24000",
+    "right": "S-D_24000",
+    "cohort": "fresh",
+    "metric": "CE_nats",
+    "ci": 0.95,
+    "direction_upper_below": 0,
+    "practical_upper_below": -0.005,
+    "pooled_with_continuation": false
+  },
+  "baseline_progress_guard": {
+    "bank": "H96_k512",
+    "cohort": "continuation",
+    "left": "C-O",
+    "right": "B0",
+    "ci": 0.95,
+    "upper_below": 0,
+    "required_for_continuation_repair_claim": true,
+    "not_a_fresh_primary_gate": true
+  },
+  "retention": {
+    "fresh": {
+      "comparators": [
+        "S-D"
+      ],
+      "left": "S-O",
+      "bounds": {
+        "H48_k512": 0.002,
+        "C48_k115": 0.005,
+        "C48_k1152": 0.005
+      },
+      "contrasts": 3,
+      "ci": 0.9833333333333333,
+      "required_for_fresh_repair_claim": true
+    },
+    "continuation": {
+      "comparators": [
+        "C-D",
+        "B0"
+      ],
+      "left": "C-O",
+      "bounds": {
+        "H48_k512": 0.002,
+        "C48_k115": 0.005,
+        "C48_k1152": 0.005
+      },
+      "contrasts": 6,
+      "ci": 0.9916666666666667,
+      "required_for_continuation_repair_claim": true
+    },
+    "separate_families": true
+  },
+  "bootstrap": {
+    "primary_reps": 20000,
+    "primary_block": 8,
+    "primary_sensitivity_blocks": [
+      4,
+      16
+    ],
+    "sensitivity_reps": 10000,
+    "subset_parent_frames": "0,16,32,...,240 per chain",
+    "subset_block": 2,
+    "subset_sensitivity_blocks": [
+      1,
+      4
+    ],
+    "resample_base_seed_pairs": true,
+    "resample_chains": true,
+    "circular_blocks_within_chain": true,
+    "shared_weights_across_methods_and_views": true,
+    "oracle_frames": [
+      0,
+      64,
+      128,
+      192
+    ],
+    "oracle_block": 1,
+    "oracle_sensitivity_blocks": [
+      2
+    ],
+    "oracle_reps": 10000,
+    "low_k_reps": 2000,
+    "low_k_block": 8,
+    "secondary_ci": 0.95,
+    "bootstrap_numeric_stability_groups": 10,
+    "resample_seed_pairs_separately_within_each_cohort": true,
+    "cohort_interaction_analysis": {
+      "secondary": true,
+      "shared_mc_draws": true,
+      "seed_groups_resampled_independently": true,
+      "not_pure_initialization_causal_effect": true
+    }
+  },
+  "mechanism": {
+    "parents": 256,
+    "k": 32,
+    "queries": 64,
+    "valid_token_counts": [
+      576,
+      2304
+    ],
+    "domain_sides": [
+      48,
+      96
+    ],
+    "times": [
+      "1-32/576",
+      "1-32/2304"
+    ],
+    "views": 8,
+    "domain48_inclusive": [
+      24,
+      71
+    ],
+    "domain96_inclusive": [
+      0,
+      95
+    ],
+    "evidence_query_pool_inclusive": [
+      36,
+      59
+    ],
+    "anchors": "two_opposite_domain_corners",
+    "n_includes_evidence_queries_and_unknown_background": true,
+    "nested_n_sets_within_each_domain": true,
+    "cross_domain_nesting_required": false,
+    "fixed_evidence_queries_labels_and_physical_coordinates": true,
+    "input_adapter": "B,1,N_with_explicit_physical_coordinates",
+    "diagnostic_not_a_natural_test_distribution": true
+  },
+  "padding": {
+    "parents": 256,
+    "ks": [
+      32,
+      512
+    ],
+    "queries": 64,
+    "small_width": 48,
+    "large_width": 96,
+    "offset": 24,
+    "views": [
+      "small_natural",
+      "large_fixed_clock",
+      "large_natural_clock"
+    ]
+  },
+  "exact_gibbs": {
+    "fixture": {
+      "fresh_seed": 2026092700,
+      "arms": 2,
+      "width": 8,
+      "query": [
+        3,
+        3
+      ],
+      "observed_neighbors": 4,
+      "patterns": 16,
+      "batch_size": 16,
+      "steps_per_arm": 1024,
+      "time": "1-4/64",
+      "target": "exact_soft_Bernoulli",
+      "loss": "mean_soft_BCE_query_only",
+      "warmup": 64,
+      "lr_peak": 0.0003,
+      "lr_end": 0.00003,
+      "evaluate": "final_raw_not_ema",
+      "max_pattern_kl": 0.01,
+      "retry_until_pass": false
+    },
+    "formal": {
+      "parents": 64,
+      "frames_per_chain": [
+        0,
+        64,
+        128,
+        192
+      ],
+      "patterns": 16,
+      "ks": [
+        4,
+        32,
+        512
+      ],
+      "views": [
+        "C48_natural",
+        "C96_fixed_t48",
+        "C96_natural"
+      ],
+      "query_c48": [
+        23,
+        23
+      ],
+      "query_c96": [
+        47,
+        47
+      ],
+      "offset": 24,
+      "farther_evidence_nested_and_all_inside_c48": true,
+      "labels": "soft_sigmoid_2beta_sum_true_unit_distance_neighbors",
+      "original_query_hard_label_is_not_used": true,
+      "gate_view": "C48_natural",
+      "gate_per_k_kl_upper": 0.01,
+      "gate_ci": 0.9833333333333333,
+      "other_models_same_ability_checks_diagnostic": true,
+      "no_new_reference_training": true,
+      "gate_arms_separate_cohorts": [
+        "S-O",
+        "C-O"
+      ]
+    }
+  },
+  "low_k": {
+    "reuse_immutable_I_layout_blueprint": true,
+    "layout_pairs": 80,
+    "sides": 2,
+    "symbol_conditions": 6,
+    "translations_per_parent": 256,
+    "parents": 4096,
+    "main_pairs": 64,
+    "negative_pairs": 16,
+    "references": [
+      "pair_conditional_MC",
+      "pooled_identical_query_relative_observed_geometry_and_values_MC"
+    ],
+    "equal_pair_prior": true,
+    "spin_flip_symmetrization": true,
+    "rare_pattern_probability": 0.01,
+    "undefined_values_explicit": true,
+    "native_information_percentage": false,
+    "exact_reference": false
+  },
+  "generation": {
+    "enabled": false,
+    "images": 0,
+    "shards": 0
+  },
+  "budget": {
+    "hard_seconds": 64800,
+    "launch_gate_seconds": 63000,
+    "safety_multiplier": 1.25,
+    "statistics_and_visual_reserve_seconds": 2700,
+    "post_transfer_hash_reserve_seconds": 900,
+    "additional_safety_seconds": 1800,
+    "formula": "E + max(1.25*T, 1.25*M) + 1.25*(F+L) + max(2700,1.25*A) + 1.25*B + 900 + 1800",
+    "E": "elapsed_since_first_GPU_preflight_or_new_MC",
+    "T": "remaining_training_validation_checkpoint_local_IO",
+    "M": "remaining_parallel_MC_QA_low_joint_tables",
+    "F": "remaining_formal_evaluation_and_bank_building",
+    "L": "local_prediction_IO_not_transfer",
+    "A": "remaining_statistics_plots_visual_review",
+    "B": "remaining_export_transfer_member_verification_not_counted_in_L",
+    "start_only_after_explicit_authorization_and_preflight_pass": true,
+    "deadline_does_not_reset": true,
+    "result_based_rescope": false,
+    "schedule_estimate_hours": [
+      16,
+      18
+    ],
+    "estimate_not_measurement": true,
+    "scope_includes": "first_GPU_preflight_or_new_MC_through_scientific_evaluation_analysis_visual_review_backup",
+    "not_included": "pure_code_implementation_and_document_design",
+    "no_spending_to_fill_time": true,
+    "no_extra_resources": true,
+    "historical_extrapolation": {
+      "source_I_training_updates": 216000,
+      "source_I_training_hours": 3.283192,
+      "source_I_reference_parents": 2048,
+      "source_I_reference_seconds": 4891.1846,
+      "source_prediction_rate_seconds_by_width": {
+        "W48": 0.007996577536687255,
+        "W96": 0.028988261241465807
+      },
+      "source_prediction_rates": "G_preflight_values_recorded_in_I_config_not_new_J_measurements",
+      "source_I_prediction_io_seconds": 5970.007921457291,
+      "source_I_conditional_input_forwards": 668160,
+      "assumption_preflight_elapsed_hours": 0.5,
+      "assumption_checkpoint_IO_hours": 0.13,
+      "assumption_export_transfer_verify_hours": 0.75,
+      "prediction_IO_scaling_is_only_proxy": true,
+      "new_mask_speed_unknown": true,
+      "not_a_passed_launch_gate": true
+    }
+  },
+  "expected_counts": {
+    "trained_branches": 24,
+    "continuation_branches": 12,
+    "fresh_branches": 12,
+    "frozen_baselines": 6,
+    "final_evaluation_models": 30,
+    "intermediate_core_models": 12,
+    "continuation_training_updates": 48000,
+    "fresh_training_updates": 288000,
+    "training_updates": 336000,
+    "fixture_updates": 2048,
+    "continuation_windows_per_branch": 130000,
+    "fresh_windows_per_branch": 780000,
+    "continuation_tokens_per_branch": 73728000,
+    "fresh_tokens_per_branch": 442368000,
+    "total_training_tokens": 6193152000,
+    "continuation_sparse_slots_per_branch": 512000,
+    "fresh_sparse_slots_per_branch": 3072000,
+    "mc_parents": 4096,
+    "core_banks": 4,
+    "core_final_prediction_files": 120,
+    "core_intermediate_prediction_files": 48,
+    "core_prediction_files": 168,
+    "core_input_forwards": 365568,
+    "mechanism_prediction_files": 240,
+    "mechanism_input_forwards": 61440,
+    "padding_prediction_files": 180,
+    "padding_input_forwards": 46080,
+    "oracle_prediction_files": 270,
+    "oracle_input_forwards": 276480,
+    "low_k_prediction_files": 30,
+    "low_k_input_forwards": 28800,
+    "validation_prediction_files": 768,
+    "validation_input_forwards": 49152,
+    "total_prediction_files": 1656,
+    "total_input_forwards_excluding_preflight": 827520,
+    "w96_input_forwards": 387072,
+    "other_input_forwards": 440448,
+    "recoverable_final_checkpoints": 24,
+    "diagnostic_ema_checkpoints": 48,
+    "low_joint_count_entries": 5242880,
+    "figures": 10
+  },
+  "known_limits": [
+    "two_cohorts_share_training_parent_library_and_formal_MC",
+    "six_fresh_seed_pairs_not_twelve_independent_models",
+    "one_continuation_stream_per_old_base",
+    "24k_training_does_not_prove_convergence",
+    "fresh12k_is_midpoint_checkpoint_not_independent_12k_run",
+    "between_cohort_contrast_not_pure_initialization_effect",
+    "more_MC_reduces_only_evaluation_uncertainty_not_training_seed_uncertainty",
+    "structural_invariance_not_accuracy",
+    "no_joint_generation_or_world_model_claim",
+    "18h_is_planning_target_pending_actual_preflight"
+  ],
+  "supersedes_unexecuted_design": "OBSERVED_CONTEXT_INTERVENTION_PLAN_20260927_ZH.md",
+  "requested_nominal_hours": 18,
+  "hard_limit_interpretation": "18h_conservative_default_not_permission_for_20h",
+  "attention_modes": {
+    "dense": "all_valid_keys",
+    "observed_only": "observed_spin_keys_only_in_every_layer"
+  },
+  "arm_attention_modes": {
+    "C-D": "dense",
+    "C-O": "observed_only",
+    "S-D": "dense",
+    "S-O": "observed_only"
+  },
+  "training_common": {
+    "parent_file": "data/level1/parents_l1024.npz",
+    "parent_file_sha256": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934",
+    "train_parents": 768,
+    "val_parents": 256,
+    "tokens_per_update": 18432,
+    "widths": [
+      16,
+      24,
+      32,
+      48
+    ],
+    "cycle_updates": 32,
+    "physical_kinds": [
+      "continuous",
+      "train_gap"
+    ],
+    "train_gap_values": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "ordinary_updates_per_cycle": 24,
+    "sparse_updates_per_cycle": 8,
+    "sparse_ks": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "sparse_queries_per_update": 512,
+    "ordinary_time_uniform": [
+      0.01,
+      1
+    ],
+    "ordinary_force_all_mask_probability": 0.02,
+    "optimizer": {
+      "name": "AdamW",
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "weight_decay": 0.05,
+      "grad_clip_norm": 1
+    },
+    "ema_decay": 0.999,
+    "train_forward": "BF16",
+    "loss": "FP32",
+    "evaluation": "FP32_TF32_disabled",
+    "checkpoint_block": 1000,
+    "checkpoint_selection": "fixed_final_ema_only",
+    "validation_banks": 8,
+    "validation_parents_per_bank": 64,
+    "queries_per_validation_parent": 64,
+    "validation_geometry": "C48_K2_32_512_115_1152_and_U48_K2_32_512",
+    "paired_fields": [
+      "parent",
+      "origin",
+      "physical_axes",
+      "d4",
+      "spin_flip",
+      "tokens",
+      "mask",
+      "queries",
+      "query_valid",
+      "labels",
+      "time",
+      "loss_weights"
+    ],
+    "learning_flag_final_ce": 0.6931471805599453,
+    "learning_flag_improvement_over_cohort_last_interval": 0.005,
+    "flags_do_not_change_training_length": true
+  },
+  "cohorts": [
+    {
+      "id": "continuation",
+      "role": "predeclared_secondary_bridge",
+      "arms": [
+        "C-D",
+        "C-O"
+      ],
+      "base_seeds": [
+        92601,
+        92602,
+        92603,
+        92604,
+        92605,
+        92606
+      ],
+      "data_seeds": [
+        92701,
+        92702,
+        92703,
+        92704,
+        92705,
+        92706
+      ],
+      "fresh_initialization": false,
+      "base_step": 12000,
+      "updates": 4000,
+      "final_global_step": 16000,
+      "restore": [
+        "raw_model",
+        "ema",
+        "optimizer_including_moments_and_steps",
+        "recorded_rng_states"
+      ],
+      "lr": {
+        "start": 0.00003,
+        "peak": 0.0001,
+        "end": 0.00003,
+        "warmup_updates": 400,
+        "total_updates": 4000,
+        "tail": "cosine"
+      },
+      "validation_steps": [
+        0,
+        2000,
+        4000
+      ],
+      "diagnostic_ema_steps": [
+        2000
+      ],
+      "learning_flag_last_interval": [
+        2000,
+        4000
+      ]
+    },
+    {
+      "id": "fresh",
+      "role": "unique_primary",
+      "arms": [
+        "S-D",
+        "S-O"
+      ],
+      "initialization_seeds": [
+        92711,
+        92712,
+        92713,
+        92714,
+        92715,
+        92716
+      ],
+      "data_seeds": [
+        92721,
+        92722,
+        92723,
+        92724,
+        92725,
+        92726
+      ],
+      "fresh_initialization": true,
+      "base_step": 0,
+      "updates": 24000,
+      "final_global_step": 24000,
+      "restore": [],
+      "lr": {
+        "start": 0,
+        "peak": 0.0003,
+        "end": 0.00003,
+        "warmup_updates": 1500,
+        "total_updates": 24000,
+        "tail": "cosine"
+      },
+      "validation_steps": [
+        0,
+        8000,
+        12000,
+        16000,
+        24000
+      ],
+      "diagnostic_ema_steps": [
+        8000,
+        12000,
+        16000
+      ],
+      "formal_intermediate_core_only_steps": [
+        12000
+      ],
+      "learning_flag_last_interval": [
+        16000,
+        24000
+      ],
+      "intermediate_is_midpoint_of_same_24k_schedule_not_old_I_12k_recipe": true
+    }
+  ],
+  "formal_intermediate_core_models": [
+    "six_S-D_12000_ema",
+    "six_S-O_12000_ema"
+  ],
+  "continuation_secondary": {
+    "bank": "H96_k512",
+    "left": "C-O_16000",
+    "right": "C-D_16000",
+    "ci": 0.95,
+    "practical_upper_below": -0.005,
+    "can_replace_failed_primary": false
+  }
+}
