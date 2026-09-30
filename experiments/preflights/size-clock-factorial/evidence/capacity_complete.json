@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "n": 64,
+      "mean_kl": 7.178613727499422e-08,
+      "max_kl": 5.326794845217364e-07,
+      "mean_ce": 0.5410901428844601,
+      "mean_entropy": 0.5410900710983227,
+      "max_probability_error": 0.000511898497458585,
+      "probability_mae": 0.00012282378662769103,
+      "expected_brier": 0.18323696477156365,
+      "excess_brier": 2.7916539305599002e-08,
+      "ability_passed": true,
+      "arm": "A",
+      "steps": 2048,
+      "seed": 2026093004
+    },
+    {
+      "n": 64,
+      "mean_kl": 3.0352630039616815e-07,
+      "max_kl": 1.6322460593132249e-06,
+      "mean_ce": 0.5410903746246232,
+      "mean_entropy": 0.5410900710983227,
+      "max_probability_error": 0.0008958547052727028,
+      "probability_mae": 0.0002882839629266419,
+      "expected_brier": 0.1832370556290456,
+      "excess_brier": 1.1877402128457461e-07,
+      "ability_passed": true,
+      "arm": "B",
+      "steps": 2048,
+      "seed": 2026093004
+    }
+  ]
+}

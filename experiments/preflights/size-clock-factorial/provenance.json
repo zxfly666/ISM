@@ -1,0 +1,116 @@
+{
+  "policy": "Original evidence unchanged. Public text redactions are explicit; no numerical result changes.",
+  "files": [
+    {
+      "source": "results/dense_size_clock_geometry_20260930/evidence/capacity_A_prediction.npz",
+      "published": "preflights/size-clock-factorial/evidence/capacity_A_prediction.npz",
+      "original_bytes": 1635,
+      "original_sha256": "74bec664cd60b34bd7a5942e0d13844a4a6a83224432f81482fcf08ca45f2d5b",
+      "bytes": 1635,
+      "sha256": "74bec664cd60b34bd7a5942e0d13844a4a6a83224432f81482fcf08ca45f2d5b",
+      "transformations": []
+    },
+    {
+      "source": "results/dense_size_clock_geometry_20260930/evidence/capacity_B_prediction.npz",
+      "published": "preflights/size-clock-factorial/evidence/capacity_B_prediction.npz",
+      "original_bytes": 1650,
+      "original_sha256": "ac0167a6bd944345e3a612263f4009e1e3895aedba12c81c12ff8dd958749be6",
+      "bytes": 1650,
+      "sha256": "ac0167a6bd944345e3a612263f4009e1e3895aedba12c81c12ff8dd958749be6",
+      "transformations": []
+    },
+    {
+      "source": "results/dense_size_clock_geometry_20260930/evidence/capacity_complete.json",
+      "published": "preflights/size-clock-factorial/evidence/capacity_complete.json",
+      "original_bytes": 988,
+      "original_sha256": "376ea608465cb4abe40f477336f95261a8a54dee5d8c7f86bafa2d6be4af620b",
+      "bytes": 988,
+      "sha256": "376ea608465cb4abe40f477336f95261a8a54dee5d8c7f86bafa2d6be4af620b",
+      "transformations": []
+    },
+    {
+      "source": "results/dense_size_clock_geometry_20260930/evidence/environment.json",
+      "published": "preflights/size-clock-factorial/evidence/environment.json",
+      "original_bytes": 4104,
+      "original_sha256": "da74dfe9eca9aea6672ef44022250341deb001e5532a920a767b9b5d92edd22c",
+      "bytes": 4104,
+      "sha256": "da74dfe9eca9aea6672ef44022250341deb001e5532a920a767b9b5d92edd22c",
+      "transformations": []
+    },
+    {
+      "source": "results/dense_size_clock_geometry_20260930/evidence/launch_gate.json",
+      "published": "preflights/size-clock-factorial/evidence/launch_gate.json",
+      "original_bytes": 6029,
+      "original_sha256": "1713a5106119a2f497984f029beaea9d008c569d2df780b7d0a1b1ef9d073c13",
+      "bytes": 6029,
+      "sha256": "1713a5106119a2f497984f029beaea9d008c569d2df780b7d0a1b1ef9d073c13",
+      "transformations": []
+    },
+    {
+      "source": "results/dense_size_clock_geometry_20260930/evidence/model_checks_cpu.json",
+      "published": "preflights/size-clock-factorial/evidence/model_checks_cpu.json",
+      "original_bytes": 432,
+      "original_sha256": "bbcd66141740ab0c4023a3d7a048231c2b9930f0b35f388d92299747153bc1d2",
+      "bytes": 432,
+      "sha256": "bbcd66141740ab0c4023a3d7a048231c2b9930f0b35f388d92299747153bc1d2",
+      "transformations": []
+    },
+    {
+      "source": "results/dense_size_clock_geometry_20260930/evidence/model_checks_gpu.json",
+      "published": "preflights/size-clock-factorial/evidence/model_checks_gpu.json",
+      "original_bytes": 477,
+      "original_sha256": "1ff05d72296dcfe47ec23de1a408a3f812c0f5024e4b14f60bb728f0d8c26204",
+      "bytes": 477,
+      "sha256": "1ff05d72296dcfe47ec23de1a408a3f812c0f5024e4b14f60bb728f0d8c26204",
+      "transformations": []
+    },
+    {
+      "source": "results/dense_size_clock_geometry_20260930/evidence/truth_checks.json",
+      "published": "preflights/size-clock-factorial/evidence/truth_checks.json",
+      "original_bytes": 350,
+      "original_sha256": "2453ec1d72eca33b4c64fbb944f722d39c2f6c93ea2cb74bc1ba4b58e01cdf58",
+      "bytes": 350,
+      "sha256": "2453ec1d72eca33b4c64fbb944f722d39c2f6c93ea2cb74bc1ba4b58e01cdf58",
+      "transformations": []
+    },
+    {
+      "source": "results/dense_size_clock_geometry_20260930/evidence/update_timing.json",
+      "published": "preflights/size-clock-factorial/evidence/update_timing.json",
+      "original_bytes": 3132,
+      "original_sha256": "e459b34aa9a3063460e28df7c70ba96a82cbf549a17f6399eb8ef177c7d96914",
+      "bytes": 3132,
+      "sha256": "e459b34aa9a3063460e28df7c70ba96a82cbf549a17f6399eb8ef177c7d96914",
+      "transformations": []
+    },
+    {
+      "source": "docs/research_reboot_20260921/DENSE_SIZE_CLOCK_GEOMETRY_12H_PLAN_20260930_ZH.md",
+      "published": "preflights/size-clock-factorial/protocol/DENSE_SIZE_CLOCK_GEOMETRY_12H_PLAN_20260930_ZH.md",
+      "original_bytes": 24282,
+      "original_sha256": "c2e747d0391cbaed44b204c616de74b16bbc58e32ee78c8b17e57a6c6ff76a63",
+      "bytes": 24687,
+      "sha256": "e84c72933378170ca03c17b8fec8992b6a205f87584de76c936ed33dd5c0eb77",
+      "transformations": [
+        {
+          "kind": "backup root",
+          "count": 1
+        },
+        {
+          "kind": "historical local link rendered as source identifier",
+          "count": 7
+        },
+        {
+          "kind": "public-copy notice"
+        }
+      ]
+    },
+    {
+      "source": "docs/research_reboot_20260921/DENSE_SIZE_CLOCK_GEOMETRY_12H_CONFIG_20260930.json",
+      "published": "preflights/size-clock-factorial/protocol/DENSE_SIZE_CLOCK_GEOMETRY_12H_CONFIG_20260930.json",
+      "original_bytes": 9677,
+      "original_sha256": "2466a9872a6e23e3c9de96811bc0ae7a6a25e6cfe2d31c8c9233fbc87af7775b",
+      "bytes": 9677,
+      "sha256": "2466a9872a6e23e3c9de96811bc0ae7a6a25e6cfe2d31c8c9233fbc87af7775b",
+      "transformations": []
+    }
+  ]
+}

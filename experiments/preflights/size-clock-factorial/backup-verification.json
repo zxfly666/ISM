@@ -1,0 +1,28 @@
+[
+  {
+    "receipt": "preflight_evidence_v1.verification.json",
+    "sha256": "b315d2d35ea74b4f22c133eb4ca3642edcc801dada2748fbf12f99bde4f3a0aa",
+    "result": {
+      "status": "passed",
+      "time": 1790712405.6498578,
+      "archive": "preflight_evidence_v1.tar.gz",
+      "archive_bytes": 13788675,
+      "archive_sha256": "722bbdb07ecddfe27def2623a6dcf7e79bd6191bc33db71fecc998b353ab1fd3",
+      "manifest_sha256": "4cc74fee26a61b3a3f1794167541ddf1093704280f29254da12e0b025b5fb187",
+      "members": 6755
+    }
+  },
+  {
+    "receipt": "report_handoff_v1.verification.json",
+    "sha256": "abc5a72ffb305f36228aa435798e76e21b4999b044080f17fde35d7dc62d8c20",
+    "result": {
+      "status": "passed",
+      "time": 1790713094.9601817,
+      "archive": "report_handoff_v1.tar.gz",
+      "archive_bytes": 505927,
+      "archive_sha256": "48ba100a2a9aa9b9bae5bd9f0e31941b2fe8e1c89631428c77fb54f0d6cbcc23",
+      "manifest_sha256": "65ee5ff9543cfa55e283559cc86f06050c3973934dc88ae02335696e0b5ed784",
+      "members": 43
+    }
+  }
+]

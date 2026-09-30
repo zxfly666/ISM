@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "parameters": 1976706,
+  "next_update_raw_ema_adam_bitwise": true,
+  "pad_gradient_error": 0.0,
+  "pad_parameter_error": 0.0,
+  "invalid_pad_gradient": 0,
+  "negative_control_probability_changes": {
+    "PAD": 0.0,
+    "translation": 4.547473508864641e-12,
+    "permutation": 2.728539616470016e-12
+  },
+  "canonical_external_clock_invariance": "structural_not_accuracy"
+}

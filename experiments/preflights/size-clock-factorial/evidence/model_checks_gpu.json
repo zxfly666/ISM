@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "device": "cuda",
+  "parameters": 1976706,
+  "next_update_raw_ema_adam_bitwise": true,
+  "pad_gradient_error": 2.9802322387695312e-08,
+  "pad_parameter_error": 1.1368683772161603e-13,
+  "invalid_pad_gradient": 0,
+  "negative_control_probability_changes": {
+    "PAD": 2.8990143619012088e-12,
+    "translation": 2.2737367544323206e-12,
+    "permutation": 3.4105496204972496e-12
+  },
+  "canonical_external_clock_invariance": "structural_not_accuracy"
+}
