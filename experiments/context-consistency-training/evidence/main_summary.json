@@ -1,0 +1,57 @@
+{
+  "paired": [
+    {
+      "seed": 91001,
+      "F0": 0.15727322392299833,
+      "F1": 0.17236296263757014,
+      "F2": 0.17793326187041067,
+      "F2_minus_F1": 0.005570299232840525
+    },
+    {
+      "seed": 91002,
+      "F0": 0.28708640158183396,
+      "F1": 0.3137699149669368,
+      "F2": 0.25184502515142376,
+      "F2_minus_F1": -0.06192488981551303
+    },
+    {
+      "seed": 91003,
+      "F0": 0.2156784090143169,
+      "F1": 0.22563264301843722,
+      "F2": 0.22534171291287428,
+      "F2_minus_F1": -0.0002909301055629421
+    },
+    {
+      "seed": 91004,
+      "F0": 0.145816303736204,
+      "F1": 0.13263326156247635,
+      "F2": 0.12634492247730097,
+      "F2_minus_F1": -0.006288339085175371
+    },
+    {
+      "seed": 91005,
+      "F0": 0.2167203034156667,
+      "F1": 0.2246832688537285,
+      "F2": 0.20979606905442916,
+      "F2_minus_F1": -0.014887199799299339
+    },
+    {
+      "seed": 91006,
+      "F0": 0.2965931702999862,
+      "F1": 0.28138668583205745,
+      "F2": 0.3216637277405217,
+      "F2_minus_F1": 0.04027704190846426
+    }
+  ],
+  "mean_F2_minus_F1": -0.006257336277374316,
+  "paired_t_one_sided95_upper": 0.021061972248440787,
+  "limitation": "conditional-on-reference paired t summary; crossed MC/seed bootstrap and curve bands are separate required follow-up, not claimed complete here",
+  "status": "main_complete_requires_final_analysis",
+  "models": 18,
+  "generation_samples": 46080,
+  "completed": 1790137791.1076827,
+  "elapsed_hours": 13.409883529411422,
+  "remaining_hours": 6.590116469860077,
+  "protocol_hash": "92500de4660101a9bd719b761176b89bbddc776d55a731eed3f7b4c5fa4b25ce",
+  "next": "agent reviews all task outcomes, performs crossed uncertainty/figures/backups; supplementary experiments within remaining budget"
+}

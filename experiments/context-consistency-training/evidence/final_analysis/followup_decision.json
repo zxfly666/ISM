@@ -1,0 +1,12 @@
+{
+  "target": "continuous96",
+  "task_differences": {
+    "continuous96": 0.007010786279143921,
+    "held_gap57_w32": -0.010077416633918201,
+    "held_s10_w48": -0.015705378477348764
+  },
+  "reason": "Probe the task with least F2-over-F1 generation benefit to test whether consistency shifts between MC and generated contexts. All six seeds and both arms, not only a winning checkpoint.",
+  "adaptive_exploratory": true,
+  "run_trajectories": true,
+  "source_sha256": "b01796095e66f7a5711f707708475c6147c6bb1f95f6e50f9c9b632a316cefb8"
+}

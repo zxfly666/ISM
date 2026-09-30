@@ -1,0 +1,24 @@
+{
+  "version": "analysis_v1",
+  "created": 1790091398.500878,
+  "source_hashes": {
+    "scripts/research20260921/finalize_adaptive_campaign.py": "b01796095e66f7a5711f707708475c6147c6bb1f95f6e50f9c9b632a316cefb8",
+    "scripts/research20260921/adaptive_trajectory_diagnostics.py": "fd41ef4ec01aa54bc0021f9724b4cd7c81fdf5989f88704910f2e7dd8358bf5b"
+  },
+  "mc_block_lengths": [
+    8,
+    4,
+    16
+  ],
+  "bootstrap_reps": [
+    2000,
+    1000,
+    1000
+  ],
+  "generator_cluster": "16-image saved shard; common weights across paired arms",
+  "training_unit": "six training seeds; paired arms preserved",
+  "mc_unit": "8 MC chains crossed with seeds, then circular blocks over chronological 128 parents",
+  "primary": "F2-F1 mean three-task long-range NRMSE; conditional CE guardrail reported separately",
+  "followup": "least F2-over-F1 task benefit, all six seeds and F1/F2, 8 trajectories each, only if >=20min remains",
+  "claim": "development-selected architecture; new reference confirmation; follow-up exploratory"
+}

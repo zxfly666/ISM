@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "selected_size": "S",
+  "paired": [
+    {
+      "seed": 91001,
+      "S_J": 0.2863143020490148,
+      "M_J": 0.3082308907884485,
+      "relative_J_gain": -0.07654730686726835,
+      "CE_difference": 0.0022492915389243917
+    },
+    {
+      "seed": 91002,
+      "S_J": 0.2512801269933722,
+      "M_J": 0.3256271849666343,
+      "relative_J_gain": -0.2958732107582191,
+      "CE_difference": 0.0001110338916360254
+    }
+  ],
+  "model": {
+    "d_model": 128,
+    "n_heads": 4,
+    "n_blocks": 7,
+    "mlp_ratio": 4.0,
+    "dropout": 0.0,
+    "vocab_size": 4,
+    "output_classes": 2,
+    "rope_base": 10000.0
+  },
+  "completed": 1790093345.1041124,
+  "interpretation": "two-seed development choice; not a confirmatory superiority claim",
+  "next": "six-seed F0/F1/F2 context repair, using remaining campaign budget and a separately frozen protocol"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "samples": 8,
+  "elapsed": 17.861271142959595,
+  "checkpoint_sha256": "89219d2cdfb2ec4539219e9bec713983100302a109ca62beef9b1d00f1fdbc17",
+  "definition": {
+    "name": "continuous96",
+    "width": 96,
+    "kind": "continuous",
+    "gaps": [
+      1
+    ],
+    "samples": 384
+  },
+  "limitation": "adaptive exploratory follow-up; teacher CE is not on-policy ground truth; no sampler change"
+}

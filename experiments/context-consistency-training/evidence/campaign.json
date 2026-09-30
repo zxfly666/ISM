@@ -1,0 +1,9 @@
+{
+  "started": 1790089515.5269773,
+  "deadline": 1790161515.5269773,
+  "total_budget_hours": 20,
+  "status": "active",
+  "authorization": "user requested adaptive continued experiments",
+  "server_shutdown": false,
+  "automatic_failed_job_restart": false
+}

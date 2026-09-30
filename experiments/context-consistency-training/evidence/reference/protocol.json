@@ -1,0 +1,33 @@
+{
+  "chains": 8,
+  "samples_per_chain": 128,
+  "lattice_size": 1024,
+  "beta": 0.44068679350977147,
+  "burn_in_sweeps": 40,
+  "sweeps_between": 4,
+  "adaptation_sweeps": 3,
+  "pilot_cluster_steps": 128,
+  "initial_states": [
+    "random",
+    "random",
+    "random",
+    "random",
+    "plus",
+    "plus",
+    "minus",
+    "minus"
+  ],
+  "chain_seeds": [
+    776726639,
+    313611868,
+    1982133286,
+    4286365023,
+    1028381299,
+    64373090,
+    4100328374,
+    1737722511
+  ],
+  "seed": 2026092301,
+  "workers": 4,
+  "role": "new confirmation reference; never used for model selection or training"
+}

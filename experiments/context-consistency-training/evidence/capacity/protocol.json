@@ -1,0 +1,60 @@
+{
+  "version": "capacity_20260922_v1",
+  "seeds": [
+    91001,
+    91002
+  ],
+  "steps": 24000,
+  "model": {
+    "d_model": 192,
+    "n_heads": 6,
+    "n_blocks": 7,
+    "mlp_ratio": 4.0,
+    "dropout": 0.0,
+    "vocab_size": 4,
+    "output_classes": 2,
+    "rope_base": 10000.0
+  },
+  "microbatch": {
+    "16": 72,
+    "24": 32,
+    "32": 18,
+    "48": 8
+  },
+  "source_sha256": "4da4939007dca69e20372e2e5f22898230d13db92b94125a6948bd9d241cb16a",
+  "checkpoint_interval": 1000,
+  "dataset_sha256": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934",
+  "generation": [
+    {
+      "name": "continuous96",
+      "width": 96,
+      "kind": "continuous",
+      "gaps": [
+        1
+      ],
+      "samples": 128
+    },
+    {
+      "name": "held_gap57_w32",
+      "width": 32,
+      "kind": "gap",
+      "gaps": [
+        5,
+        7
+      ],
+      "samples": 128
+    },
+    {
+      "name": "held_s10_w48",
+      "width": 48,
+      "kind": "gap",
+      "gaps": [
+        10
+      ],
+      "samples": 128
+    }
+  ],
+  "decision_rule": "M only if both seeds J improve, mean relative J improves >=10%, and each seed CE <= S+0.002; otherwise S. Development rule, not significance.",
+  "inherited_training": "same named clean/geometry/time/MASK streams, objective, optimizer and schedule as historical S; equal updates, not equal FLOPs",
+  "protocol_hash": "c339507bb1d326d1e798ca63c9d915477fc5ed8e3f11b90583c1cf1ce4111021"
+}

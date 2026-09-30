@@ -1,0 +1,203 @@
+{
+  "version": "adaptive_repair_v1",
+  "selected_size": "S",
+  "model": {
+    "d_model": 128,
+    "n_heads": 4,
+    "n_blocks": 7,
+    "mlp_ratio": 4.0,
+    "dropout": 0.0,
+    "vocab_size": 4,
+    "output_classes": 2,
+    "rope_base": 10000.0
+  },
+  "seeds": [
+    91001,
+    91002,
+    91003,
+    91004,
+    91005,
+    91006
+  ],
+  "arms": [
+    "F0",
+    "F1",
+    "F2"
+  ],
+  "steps": 12000,
+  "generation": [
+    {
+      "name": "continuous48",
+      "width": 48,
+      "kind": "continuous",
+      "gaps": [
+        1
+      ],
+      "samples": 256
+    },
+    {
+      "name": "continuous64",
+      "width": 64,
+      "kind": "continuous",
+      "gaps": [
+        1
+      ],
+      "samples": 384
+    },
+    {
+      "name": "continuous96",
+      "width": 96,
+      "kind": "continuous",
+      "gaps": [
+        1
+      ],
+      "samples": 384
+    },
+    {
+      "name": "held_gap57_w32",
+      "width": 32,
+      "kind": "gap",
+      "gaps": [
+        5,
+        7
+      ],
+      "samples": 512
+    },
+    {
+      "name": "held_s10_w48",
+      "width": 48,
+      "kind": "gap",
+      "gaps": [
+        10
+      ],
+      "samples": 512
+    },
+    {
+      "name": "new_s9_w48",
+      "width": 48,
+      "kind": "gap",
+      "gaps": [
+        9
+      ],
+      "samples": 256
+    },
+    {
+      "name": "new_irregular_w48",
+      "width": 48,
+      "kind": "irregular",
+      "gaps": [
+        9,
+        10,
+        11
+      ],
+      "samples": 256
+    }
+  ],
+  "conditional_samples": 512,
+  "deadline": 1790161515.5269773,
+  "forecast_seconds": 56765.321957194166,
+  "source_hashes": {
+    "ism_diffusion/context_repair_core.py": "58effac6a4ccdd1a81606f4d8395828c0a12b4ff3909fc8283cf60fdd4747703",
+    "scripts/research20260921/run_adaptive_repair_20260922.py": "e0d22b41bb45724b22bfbc86c37db8a5aae1829543c330b1e6ab41c3b879f68a",
+    "scripts/research20260921/adaptive_repair_evaluation.py": "d24047ff19f897ae3793ab70e489595b9e5fede49c952f4dbdac4da748428f06",
+    "ism_diffusion/geometry_study.py": "f96f3d816453d532fb454355cbd0c50f42b00352c9b37886a8ca6b67aa16e490",
+    "ism_diffusion/scale_model.py": "3930e9a2ec1ac85edaa525b9562beb21c7a001594dba23726f233a0b9d3d6018",
+    "ism_diffusion/scale_diffusion.py": "6bf4575fe6358dffa74cb6c4bd077eb69120ad6c8edaf9dbf0fc43f615c21f74"
+  },
+  "base_hashes": {
+    "91001": "ea3111c784246364522a55437b759980bdec8e3816de09b1394304f3b2c69afa",
+    "91002": "4e8bca1a81ee79fbd86cc3438bf54d50e03663c9cef5f4c7c1a3d3859de0978d",
+    "91003": "3a52efdfb63f7372a0776aa3ee63885105214245cedc47905f2ea7f956388120",
+    "91004": "627139530fb574274eb728d6f49f6aa61c4fc571f927cd208ce87aa39c95d272",
+    "91005": "ec544065d05f18c3182b9a70102a5b165adf5f26df843b3299fcaa4230afea98",
+    "91006": "eee648510941001708048c5edc5e242d2102154212072725fd8f746f8797df93"
+  },
+  "base_validation": {
+    "91001": {
+      "mean_ce": 0.3796893062040714,
+      "per_task": {
+        "continuous32/t=0.2": 0.2758600630686092,
+        "continuous32/t=0.5": 0.287857190584359,
+        "continuous32/t=0.8": 0.34188788464171405,
+        "continuous32/t=0.95": 0.42099190426423494,
+        "randomgap24/t=0.2": 0.37308479419264656,
+        "randomgap24/t=0.5": 0.3973671342425335,
+        "randomgap24/t=0.8": 0.4417035205898663,
+        "randomgap24/t=0.95": 0.4987619580486073
+      }
+    },
+    "91002": {
+      "mean_ce": 0.37944174143287157,
+      "per_task": {
+        "continuous32/t=0.2": 0.27580266465109005,
+        "continuous32/t=0.5": 0.28779288632390293,
+        "continuous32/t=0.8": 0.34183781161782856,
+        "continuous32/t=0.95": 0.42067359331185405,
+        "randomgap24/t=0.2": 0.372265166334378,
+        "randomgap24/t=0.5": 0.3972074383368286,
+        "randomgap24/t=0.8": 0.44176064028691214,
+        "randomgap24/t=0.95": 0.49819373060017824
+      }
+    },
+    "91003": {
+      "mean_ce": 0.37964701999285855,
+      "per_task": {
+        "continuous32/t=0.2": 0.2760023572026631,
+        "continuous32/t=0.5": 0.288029125203257,
+        "continuous32/t=0.8": 0.3417052064880567,
+        "continuous32/t=0.95": 0.42069419547308073,
+        "randomgap24/t=0.2": 0.3727762688918469,
+        "randomgap24/t=0.5": 0.3973893648407494,
+        "randomgap24/t=0.8": 0.4416217244266031,
+        "randomgap24/t=0.95": 0.49895791741661155
+      }
+    },
+    "91004": {
+      "mean_ce": 0.37944699020376493,
+      "per_task": {
+        "continuous32/t=0.2": 0.2761667331012533,
+        "continuous32/t=0.5": 0.2877063159932099,
+        "continuous32/t=0.8": 0.3417656425406913,
+        "continuous32/t=0.95": 0.42008362829928164,
+        "randomgap24/t=0.2": 0.37278571663997495,
+        "randomgap24/t=0.5": 0.39691133096885794,
+        "randomgap24/t=0.8": 0.4415497313826703,
+        "randomgap24/t=0.95": 0.49860682270417994
+      }
+    },
+    "91005": {
+      "mean_ce": 0.37954221208218525,
+      "per_task": {
+        "continuous32/t=0.2": 0.2762112570622855,
+        "continuous32/t=0.5": 0.28791781055295596,
+        "continuous32/t=0.8": 0.34197265164845664,
+        "continuous32/t=0.95": 0.4208730166150338,
+        "randomgap24/t=0.2": 0.3725054149623387,
+        "randomgap24/t=0.5": 0.39733025843564135,
+        "randomgap24/t=0.8": 0.44142259454999405,
+        "randomgap24/t=0.95": 0.4981046928307758
+      }
+    },
+    "91006": {
+      "mean_ce": 0.3797537490616889,
+      "per_task": {
+        "continuous32/t=0.2": 0.27636514846033056,
+        "continuous32/t=0.5": 0.28820748462179757,
+        "continuous32/t=0.8": 0.34185411100802215,
+        "continuous32/t=0.95": 0.4204999426096354,
+        "randomgap24/t=0.2": 0.3730822977108451,
+        "randomgap24/t=0.5": 0.39736224046478474,
+        "randomgap24/t=0.8": 0.4422906400241817,
+        "randomgap24/t=0.95": 0.4983681275939139
+      }
+    }
+  },
+  "deviations": [
+    "capacity pilot precedes repair; selected size follows frozen development rule",
+    "lambda calibrated with fixed 1/4 retention rather than mixed retention",
+    "fixed-step 1000-update blocks, final EMA; train-field geometry and corruption unchanged",
+    "crossed bootstrap/full diagnostic completion follows main generation, not inferred from t interval"
+  ],
+  "lambda": 16.0,
+  "protocol_hash": "92500de4660101a9bd719b761176b89bbddc776d55a731eed3f7b4c5fa4b25ce"
+}

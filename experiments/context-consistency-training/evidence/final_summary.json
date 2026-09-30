@@ -1,0 +1,121 @@
+{
+  "status": "remote_complete_requires_local_backup_and_visual_review",
+  "models": 18,
+  "generated_samples": 46080,
+  "base_checkpoints_unchanged": true,
+  "crossed_uncertainty": [
+    {
+      "block_length": 8,
+      "reps": 2000,
+      "rejected": 0,
+      "F2_minus_F1_mean": -0.005385059162867652,
+      "ci95": [
+        -0.033095507546885804,
+        0.020535244159315118
+      ],
+      "upper_one_sided95": 0.016758443519703188,
+      "full_ce_F2_minus_F1_ci95_by_task": [
+        [
+          -1.8019415652714696e-06,
+          0.00020380631272076113
+        ],
+        [
+          0.0007963809010891304,
+          0.0020368266099933196
+        ]
+      ],
+      "full_ce_one_sided95_upper_by_task": [
+        0.00019019844579750976,
+        0.001925555253278055
+      ],
+      "sensitivity_ratio_ci95": [
+        0.46454834163929126,
+        0.7480718495499168
+      ],
+      "limitations": "6 training seeds and 8 MC chains; intervals exploratory at this cluster count; no simultaneous coverage across tasks"
+    },
+    {
+      "block_length": 4,
+      "reps": 1000,
+      "rejected": 0,
+      "F2_minus_F1_mean": -0.005255366243908583,
+      "ci95": [
+        -0.03187539875706394,
+        0.01987616116050071
+      ],
+      "upper_one_sided95": 0.01595430904205845,
+      "full_ce_F2_minus_F1_ci95_by_task": [
+        [
+          5.366419238744814e-06,
+          0.0002103111182937725
+        ],
+        [
+          0.0008045124893111238,
+          0.0019822963094726417
+        ]
+      ],
+      "full_ce_one_sided95_upper_by_task": [
+        0.0001934165734132659,
+        0.0018845212721333045
+      ],
+      "sensitivity_ratio_ci95": [
+        0.4710081463231834,
+        0.7513864655053465
+      ],
+      "limitations": "6 training seeds and 8 MC chains; intervals exploratory at this cluster count; no simultaneous coverage across tasks"
+    },
+    {
+      "block_length": 16,
+      "reps": 1000,
+      "rejected": 0,
+      "F2_minus_F1_mean": -0.0052194573917754145,
+      "ci95": [
+        -0.03185567557595463,
+        0.02080723035449726
+      ],
+      "upper_one_sided95": 0.01671376635507991,
+      "full_ce_F2_minus_F1_ci95_by_task": [
+        [
+          -1.650536331823657e-06,
+          0.0002054188285097999
+        ],
+        [
+          0.0008017879517019044,
+          0.00200392132671372
+        ]
+      ],
+      "full_ce_one_sided95_upper_by_task": [
+        0.00018835464696587696,
+        0.0018902549009674084
+      ],
+      "sensitivity_ratio_ci95": [
+        0.4696658744551707,
+        0.7480095887939673
+      ],
+      "limitations": "6 training seeds and 8 MC chains; intervals exploratory at this cluster count; no simultaneous coverage across tasks"
+    }
+  ],
+  "followup": {
+    "target": "continuous96",
+    "task_differences": {
+      "continuous96": 0.007010786279143921,
+      "held_gap57_w32": -0.010077416633918201,
+      "held_s10_w48": -0.015705378477348764
+    },
+    "reason": "Probe the task with least F2-over-F1 generation benefit to test whether consistency shifts between MC and generated contexts. All six seeds and both arms, not only a winning checkpoint.",
+    "adaptive_exploratory": true,
+    "run_trajectories": true,
+    "source_sha256": "b01796095e66f7a5711f707708475c6147c6bb1f95f6e50f9c9b632a316cefb8"
+  },
+  "elapsed_hours": 13.492463600966666,
+  "still_required": [
+    "download and hash-check necessary artifacts",
+    "visually inspect final figures",
+    "researcher interpretation; no automatic claim of success"
+  ],
+  "omitted_from_broader_proposal": [
+    "fixed-background two-visible geometry probe",
+    "dedicated K=2/8/32 benchmark"
+  ],
+  "claim_boundary": "S/M is development selection; F2-F1 is paired repair comparison; adaptive trajectory followup is exploratory"
+}

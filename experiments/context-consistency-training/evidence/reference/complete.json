@@ -1,0 +1,220 @@
+{
+  "status": "passed",
+  "elapsed_seconds": 2017.1287322044373,
+  "samples": 1024,
+  "sha256": "af9479390ad2a280dc753b8ba05fd809f62a453c8ab1cf269c9ab80d932b817d",
+  "diagnostics": {
+    "energy": {
+      "split_rhat": 1.0092852707758575,
+      "chains": [
+        {
+          "tau_int": 0.9048788096035428,
+          "statistical_inefficiency": 1.8097576192070857,
+          "ess": 70.72770333525713,
+          "window_lag": 4.0
+        },
+        {
+          "tau_int": 0.747783149733235,
+          "statistical_inefficiency": 1.49556629946647,
+          "ess": 85.58630937703187,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 0.6812207896947564,
+          "statistical_inefficiency": 1.3624415793895128,
+          "ess": 93.94898242708847,
+          "window_lag": 8.0
+        },
+        {
+          "tau_int": 2.1409747605852374,
+          "statistical_inefficiency": 4.281949521170475,
+          "ess": 29.892925959811663,
+          "window_lag": 6.0
+        },
+        {
+          "tau_int": 0.5736733457280849,
+          "statistical_inefficiency": 1.1473466914561699,
+          "ess": 111.56174585516706,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 1.0327239252126985,
+          "statistical_inefficiency": 2.065447850425397,
+          "ess": 61.972031864003384,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 0.9041962385790522,
+          "statistical_inefficiency": 1.8083924771581044,
+          "ess": 70.78109515316746,
+          "window_lag": 6.0
+        },
+        {
+          "tau_int": 1.4297924502541717,
+          "statistical_inefficiency": 2.8595849005083434,
+          "ess": 44.76174146018384,
+          "window_lag": 4.0
+        }
+      ]
+    },
+    "m": {
+      "split_rhat": 0.9983773639263336,
+      "chains": [
+        {
+          "tau_int": 0.5534021723750963,
+          "statistical_inefficiency": 1.1068043447501925,
+          "ess": 115.64826304407921,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 0.5191671324594395,
+          "statistical_inefficiency": 1.038334264918879,
+          "ess": 123.27436772974082,
+          "window_lag": 4.0
+        },
+        {
+          "tau_int": 0.5,
+          "statistical_inefficiency": 1.0,
+          "ess": 128.0,
+          "window_lag": 0.0
+        },
+        {
+          "tau_int": 0.5,
+          "statistical_inefficiency": 1.0,
+          "ess": 128.0,
+          "window_lag": 0.0
+        },
+        {
+          "tau_int": 0.7145871508963645,
+          "statistical_inefficiency": 1.429174301792729,
+          "ess": 89.5622037420063,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 0.5,
+          "statistical_inefficiency": 1.0,
+          "ess": 128.0,
+          "window_lag": 0.0
+        },
+        {
+          "tau_int": 0.5628763997100085,
+          "statistical_inefficiency": 1.125752799420017,
+          "ess": 113.70169371636922,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 0.5,
+          "statistical_inefficiency": 1.0,
+          "ess": 128.0,
+          "window_lag": 0.0
+        }
+      ]
+    },
+    "abs_m": {
+      "split_rhat": 1.0095986633288665,
+      "chains": [
+        {
+          "tau_int": 1.06872740373861,
+          "statistical_inefficiency": 2.13745480747722,
+          "ess": 59.884307051654076,
+          "window_lag": 12.0
+        },
+        {
+          "tau_int": 0.7164520332419533,
+          "statistical_inefficiency": 1.4329040664839066,
+          "ess": 89.32907861311985,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 0.9357981726638416,
+          "statistical_inefficiency": 1.8715963453276832,
+          "ess": 68.3908153163173,
+          "window_lag": 4.0
+        },
+        {
+          "tau_int": 1.0559374350343167,
+          "statistical_inefficiency": 2.1118748700686334,
+          "ess": 60.60965155375903,
+          "window_lag": 6.0
+        },
+        {
+          "tau_int": 0.6932104837970263,
+          "statistical_inefficiency": 1.3864209675940526,
+          "ess": 92.32405091371837,
+          "window_lag": 6.0
+        },
+        {
+          "tau_int": 0.7600215070304245,
+          "statistical_inefficiency": 1.520043014060849,
+          "ess": 84.2081433327623,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 0.5,
+          "statistical_inefficiency": 1.0,
+          "ess": 128.0,
+          "window_lag": 0.0
+        },
+        {
+          "tau_int": 0.9368721464546255,
+          "statistical_inefficiency": 1.873744292909251,
+          "ess": 68.31241620555494,
+          "window_lag": 4.0
+        }
+      ]
+    },
+    "m2": {
+      "split_rhat": 1.0093450595384508,
+      "chains": [
+        {
+          "tau_int": 1.0915396371629158,
+          "statistical_inefficiency": 2.1830792743258316,
+          "ess": 58.63277687867215,
+          "window_lag": 12.0
+        },
+        {
+          "tau_int": 0.7591616231800217,
+          "statistical_inefficiency": 1.5183232463600433,
+          "ess": 84.30352384241048,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 0.7923541180194361,
+          "statistical_inefficiency": 1.5847082360388722,
+          "ess": 80.77196615065753,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 1.0234442089501408,
+          "statistical_inefficiency": 2.0468884179002815,
+          "ess": 62.53394121566415,
+          "window_lag": 8.0
+        },
+        {
+          "tau_int": 0.6841532802411315,
+          "statistical_inefficiency": 1.368306560482263,
+          "ess": 93.54628830756032,
+          "window_lag": 6.0
+        },
+        {
+          "tau_int": 0.851783239929097,
+          "statistical_inefficiency": 1.703566479858194,
+          "ess": 75.13648660817441,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 0.558338193366174,
+          "statistical_inefficiency": 1.116676386732348,
+          "ess": 114.62586790659867,
+          "window_lag": 2.0
+        },
+        {
+          "tau_int": 0.990428017187877,
+          "statistical_inefficiency": 1.980856034375754,
+          "ess": 64.61852743394239,
+          "window_lag": 4.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "parameters": 4439170,
+  "model": {
+    "d_model": 192,
+    "n_heads": 6,
+    "n_blocks": 7,
+    "mlp_ratio": 4.0,
+    "dropout": 0.0,
+    "vocab_size": 4,
+    "output_classes": 2,
+    "rope_base": 10000.0
+  },
+  "mean_update_seconds": 0.04715295906256264,
+  "p90_update_seconds": 0.05131721994839609,
+  "peak_allocated_gib": 1.556640625,
+  "pad_probability_error": 5.960464477539063e-08,
+  "torch_version": "2.7.0a0+7c8ec84dab.nv25.03",
+  "device": "NVIDIA GeForce RTX 4090",
+  "source_sha256": "4da4939007dca69e20372e2e5f22898230d13db92b94125a6948bd9d241cb16a"
+}
