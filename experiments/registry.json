@@ -1,0 +1,258 @@
+[
+  {
+    "slug": "geometry-aligned-conditioning",
+    "public_name": "Geometry-aligned conditional prediction",
+    "historical_alias": "A/B/C; D/E diagnostics",
+    "experiment_id": "geometry_alignment_20260921",
+    "date": "2026-09-21",
+    "training_kind": "fresh: 18 models",
+    "parents": [],
+    "new_reference": true,
+    "new_generation": 16128,
+    "code": [
+      "scripts/research20260921/run_study.py",
+      "scripts/research20260921/evaluate_study.py"
+    ],
+    "formal_completed": true,
+    "published_files": 163,
+    "published_bytes": 5397659
+  },
+  {
+    "slug": "context-consistency-training",
+    "public_name": "Context-consistency continuation",
+    "historical_alias": "F; M development screen",
+    "experiment_id": "adaptive_research_20260922",
+    "date": "2026-09-22",
+    "training_kind": "continued: 18; fresh capacity screen: 2",
+    "parents": [
+      "geometry-aligned-conditioning/A"
+    ],
+    "new_reference": true,
+    "new_generation": 46080,
+    "code": [
+      "scripts/research20260921/run_adaptive_repair_20260922.py",
+      "scripts/research20260921/finalize_adaptive_campaign.py"
+    ],
+    "formal_completed": true,
+    "published_files": 401,
+    "published_bytes": 29786992
+  },
+  {
+    "slug": "fixed-background-geometry-response",
+    "public_name": "Fixed-background geometry response and joint consistency",
+    "historical_alias": "fixed-geometry frozen diagnostic",
+    "experiment_id": "fixed_geometry_joint_20260923",
+    "date": "2026-09-23",
+    "training_kind": "frozen: 36 checkpoints",
+    "parents": [
+      "geometry-aligned-conditioning",
+      "context-consistency-training"
+    ],
+    "new_reference": false,
+    "new_generation": 0,
+    "code": [
+      "scripts/research20260921/run_fixed_geometry_joint_20260923.py",
+      "scripts/research20260921/analyze_fixed_geometry_joint_20260923.py"
+    ],
+    "formal_completed": true,
+    "published_files": 24,
+    "published_bytes": 8151776
+  },
+  {
+    "slug": "sparse-conditioning-training",
+    "public_name": "Sparse-conditioning continuation",
+    "historical_alias": "T0/T1/T2",
+    "experiment_id": "sparse_conditioning_20260923",
+    "date": "2026-09-23",
+    "training_kind": "continued: 18 models",
+    "parents": [
+      "context-consistency-training/F0"
+    ],
+    "new_reference": true,
+    "new_generation": 5760,
+    "code": [
+      "scripts/research20260921/run_sparse_conditioning_20260923.py",
+      "scripts/research20260921/finalize_sparse_conditioning_20260923.py"
+    ],
+    "formal_completed": true,
+    "published_files": 20,
+    "published_bytes": 6159520
+  },
+  {
+    "slug": "mask-query-factorial",
+    "public_name": "Sparse-mask × query-placement factorial",
+    "historical_alias": "R00/R01/R10/R11",
+    "experiment_id": "mask_query_factorial_20260924",
+    "date": "2026-09-24",
+    "training_kind": "continued: 24 models",
+    "parents": [
+      "context-consistency-training/F0"
+    ],
+    "new_reference": true,
+    "new_generation": 5376,
+    "code": [
+      "scripts/research20260921/run_mask_query_factorial_20260924.py",
+      "scripts/research20260921/finalize_mask_query_factorial_20260924.py"
+    ],
+    "formal_completed": true,
+    "published_files": 18,
+    "published_bytes": 7625413
+  },
+  {
+    "slug": "independent-generation-bridge",
+    "public_name": "Independent-reference generation confirmation",
+    "historical_alias": "Bridge",
+    "experiment_id": "generation_bridge_20260924",
+    "date": "2026-09-24",
+    "training_kind": "frozen: 18 checkpoints",
+    "parents": [
+      "mask-query-factorial/R00,R10,R11"
+    ],
+    "new_reference": true,
+    "new_generation": 4032,
+    "code": [
+      "scripts/research20260921/run_generation_bridge_20260924.py"
+    ],
+    "formal_completed": true,
+    "published_files": 23,
+    "published_bytes": 6451622
+  },
+  {
+    "slug": "size-spacing-factorial",
+    "public_name": "Size × physical-spacing factorial",
+    "historical_alias": "G00/G10/G01/G11/G11S",
+    "experiment_id": "core_geometry_factorial_20260925",
+    "date": "2026-09-25",
+    "training_kind": "fresh: 30 models",
+    "parents": [],
+    "new_reference": true,
+    "new_generation": 1920,
+    "code": [
+      "scripts/research20260921/run_core_geometry_factorial_20260925.py",
+      "scripts/research20260921/core_geometry_factorial_analysis.py"
+    ],
+    "formal_completed": true,
+    "published_files": 34,
+    "published_bytes": 10459161
+  },
+  {
+    "slug": "fine-geometry-identification",
+    "public_name": "Fine geometry versus span and randomized coordinates",
+    "historical_alias": "I-F/I-S/I-R",
+    "experiment_id": "geometry_identification_20260926",
+    "date": "2026-09-26",
+    "training_kind": "fresh: 18 models",
+    "parents": [],
+    "new_reference": true,
+    "new_generation": 2304,
+    "code": [
+      "scripts/research20260926/run_geometry_identification_20260926.py",
+      "scripts/research20260926/identification_analysis.py"
+    ],
+    "formal_completed": true,
+    "published_files": 42,
+    "published_bytes": 39414001
+  },
+  {
+    "slug": "observed-key-value-intervention",
+    "public_name": "Observed-only key/value intervention",
+    "historical_alias": "J: C-D/C-O; S-D/S-O; B0",
+    "experiment_id": "observed_context_intervention_18h_20260927",
+    "date": "2026-09-27",
+    "training_kind": "continued: 12; fresh: 12",
+    "parents": [
+      "fine-geometry-identification/I-F (C cohort only)"
+    ],
+    "new_reference": true,
+    "new_generation": 0,
+    "code": [
+      "scripts/research20260927/run_observed_context_intervention_20260927.py",
+      "scripts/research20260927/intervention_analysis.py",
+      "scripts/research20260927/intervention_figures.py"
+    ],
+    "formal_completed": true,
+    "published_files": 102,
+    "published_bytes": 116448325
+  },
+  {
+    "slug": "exact-local-capability",
+    "public_name": "Exact local conditional capability",
+    "historical_alias": "Basic stages 1/2: E1/E2/E3",
+    "experiment_id": "basic_capability_stages12_20260928",
+    "date": "2026-09-28",
+    "training_kind": "fresh: 3 dense D models; frozen/structural audits",
+    "parents": [
+      "observed-key-value-intervention (audit only)"
+    ],
+    "new_reference": false,
+    "new_generation": 0,
+    "code": [
+      "scripts/research20260928/run_basic_capability.py",
+      "scripts/research20260928/exact_ising.py"
+    ],
+    "formal_completed": true,
+    "published_files": 47,
+    "published_bytes": 956417
+  },
+  {
+    "slug": "local-context-size-diagnostic",
+    "public_name": "Local conditional context-size control",
+    "historical_alias": "A4/B46; frozen size/clock diagnostic",
+    "experiment_id": "dense_multisize_control_20260928",
+    "date": "2026-09-28",
+    "training_kind": "fresh: 6 models; frozen old-model diagnostic",
+    "parents": [
+      "exact-local-capability (data and frozen diagnostic only)"
+    ],
+    "new_reference": false,
+    "new_generation": 0,
+    "code": [
+      "scripts/research20260928_multisize/run_multisize.py",
+      "scripts/research20260928_multisize/ms_evaluation.py"
+    ],
+    "formal_completed": true,
+    "published_files": 138,
+    "published_bytes": 1965840
+  },
+  {
+    "slug": "canonical-context-size-generalization",
+    "public_name": "Canonical-clock context-size generalization",
+    "historical_alias": "N/W; 6h",
+    "experiment_id": "dense_multisize_canonical_6h_20260930",
+    "date": "2026-09-30",
+    "training_kind": "fresh: 12 models",
+    "parents": [
+      "local-context-size-diagnostic (motivation only)",
+      "preflights/size-clock-factorial (exact split only)"
+    ],
+    "new_reference": false,
+    "new_generation": 0,
+    "code": [
+      "scripts/research20260930_6h/run_multisize.py",
+      "scripts/research20260930_6h/sm6_analysis.py"
+    ],
+    "formal_completed": true,
+    "published_files": 1764,
+    "published_bytes": 17294860
+  },
+  {
+    "slug": "preflights/size-clock-factorial",
+    "public_name": "Size × clock factorial: budget-stop preflight",
+    "historical_alias": "12h (not launched)",
+    "experiment_id": "dense_size_clock_geometry_12h_20260930",
+    "date": "2026-09-30",
+    "training_kind": "NO formal models; two scratch fits",
+    "parents": [
+      "local-context-size-diagnostic (motivation only)"
+    ],
+    "new_reference": false,
+    "new_generation": 0,
+    "code": [
+      "scripts/research20260930/run_size_clock.py",
+      "scripts/research20260930/sg_preflight.py"
+    ],
+    "formal_completed": false,
+    "published_files": 11,
+    "published_bytes": 53161
+  }
+]

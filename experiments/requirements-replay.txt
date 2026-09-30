@@ -1,0 +1,4 @@
+# Tested for the public read-only replay on CPython 3.11.5, Windows.
+# This is NOT the training environment lock for every historical campaign.
+numpy==1.24.3
+scipy==1.11.1

@@ -1,0 +1,12 @@
+{
+  "original_report": "临界Ising全阶段实验总报告_20260930.md",
+  "original_sha256": "c66eb2da796c90385841f60219426516f46c9d0a87b3372568f0c14f1223cf4d",
+  "public_edition": "REPORT_ZH.md",
+  "basis": "campaign README assembly after machine-evidence review",
+  "excluded_categories": [
+    "private correspondence and screenshots",
+    "credentials and infrastructure access",
+    "unrelated work"
+  ],
+  "numerical_policy": "No scientific arrays altered; F original estimate versus bootstrap mean and actual repetition counts explicitly distinguished"
+}

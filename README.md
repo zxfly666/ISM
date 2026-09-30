@@ -1,5 +1,33 @@
 # ISM: Critical Ising masked discrete diffusion
 
+## 从研究地图开始：2026-09-30 公共科研档案
+
+我们研究真实物理坐标、训练尺寸与观测间距，能否帮助条件网络在新布局上准确推断，
+以及这种条件能力是否转化为正确的联合生成。临界 Ising 提供可核对的物理参考，
+但静态 Ising 结果不等于 world model 或完整尺度不变性验证。
+
+- [研究证据地图：12个campaign、谱系与失败门](experiments/README.md)
+- [公共综合报告：设计、参数、结果与反例](experiments/REPORT_ZH.md)
+- [最完整的物理因素对照：size × spacing](experiments/size-spacing-factorial/README.md)
+- [最新的精确真值检查：固定clock尺寸泛化](experiments/canonical-context-size-generalization/README.md)
+- [历史更正](experiments/CORRECTIONS.md) · [数据公开范围与SHA](experiments/DATA_AVAILABILITY.md) · [复现路线](experiments/REPRODUCING.md)
+
+公共版依据本地162页总报告及机器证据重新组织，不是私人通信/原PDF的原样上传。
+原科学产物不覆盖；大权重、完整MC与生成原数组并非全部公开，具体缺口有逐文件清单。
+**计算完成不等于科学成功，公开摘要也不等于完整原始数据镜像。**
+
+## 2026-09-30：Dense 多尺寸 6 小时实验正式完成
+
+12 个 fresh 模型各完成 8000 步。固定时间输入下，宽尺寸覆盖 W 相对窄覆盖 N
+在 20×20 G8 测试的平均精确 KL 从 0.092391 降至 0.009247，配对差 −0.083144，
+六 seed 的 95% t 区间为 [−0.089534, −0.076755]，实质改善门通过。
+但 W 的主测试绝对准确性门仍为 **0/6 通过**，所以联合科学成功门未过。
+三个保留任务与结构控制通过；这不代表真实物理距离外推或联合生成已解决。
+
+详细模型、设计、五张正式图、完整审计及备份范围见
+[`固定clock上下文尺寸泛化`](experiments/canonical-context-size-generalization/README.md)。
+本地全部科学数据已核验；公开材料和未托管的大文件分别列出，不混称完整下载包。
+
 ## 2026-09-30：Dense尺寸覆盖 × 时间输入的预检
 
 本轮代码、精确真值/恢复检查和两种时间策略的小样本拟合测试已完成。
@@ -7,17 +35,21 @@
 0.108157秒，计划训练按均值约17.3小时，全流程保守投影约26.5小时。
 这不是跨尺寸泛化失败的实验结论，也不能据此否定老师的完整idea。
 
-最新报告与可公开复核证据见
-[`results/dense_size_clock_geometry_20260930/README.md`](results/dense_size_clock_geometry_20260930/README.md)。
+该预检报告与可复核证据见
+[`未正式启动的size × clock预检`](experiments/preflights/size-clock-factorial/README.md)。
 以下保留各历史阶段结果，其结论不能混用作本轮尚未执行的主检验结果。
 
 ## 历史阶段：尺度感知坐标与 Local--Global 因果实验
+
+> 历史记录，已被更正：下文旧 `GO_FULL_2B` 不能作为当前结论。原unit-coordinate
+> 对照不正确，修正后点差约−.004440而不是旧−.08238；旧CI不可沿用，多seed正式
+> 方案未执行。请先读[历史更正](experiments/CORRECTIONS.md)。保留下文是为了追踪原判断。
 
 仓库现已加入针对“模型能否根据 context 中的真实物理距离进行推断”的分阶段实验。
 训练时不只改变位置编号，而是同步改变 Ising 父场的物理采样几何与传入模型的二维
 坐标；随后用 data-only、随机位置编码和坐标置换对照，分离真实坐标的独立贡献。
 
-当前证据链为：
+当时记录的证据链为（非当前确认性结论）：
 
 - Level 1：dense scale-aware 模型改善长程关联，但污染局部 Markov 规律；
 - Stage 2A：Local--Global 架构显著修复局部污染并保留长程收益，标签为
@@ -63,7 +95,8 @@ ancestral sampler 生成 3×1536 张样本，并与 8 条独立 Wolff 链生成�
 | 目标 | 入口 |
 |---|---|
 | 区分各阶段实验结果 | [`results/README.md`](results/README.md) |
-| 查看尺度感知坐标与 Local--Global 最新实验 | [`results/scale_aware_context/README.md`](results/scale_aware_context/README.md) |
+| 查看近期全部实验与继承关系 | [研究证据地图](experiments/README.md) |
+| 查看历史尺度感知坐标与 Local--Global 筛选 | [`results/scale_aware_context/README.md`](results/scale_aware_context/README.md)，并读[更正](experiments/CORRECTIONS.md) |
 | 理解项目设计 | [`docs/TECHNICAL_DESIGN_ZH.md`](docs/TECHNICAL_DESIGN_ZH.md) |
 | 查看正式实验方案 | [`docs/L64_PILOT_EXPERIMENT_PLAN_ZH.md`](docs/L64_PILOT_EXPERIMENT_PLAN_ZH.md) |
 | 复现正式训练 | [`configs/pilot_l64.json`](configs/pilot_l64.json) 与 `train.py` |
@@ -109,6 +142,7 @@ ISM/
 ├── data/            # 可直接加载的 MC 训练/参考数据
 ├── artifacts/       # 训练日志、采样结果、图表与消融实验
 ├── results/         # 精选、可公开复核的阶段性实验结果
+├── experiments/     # 近期科学问题、谱系、结果、反例与来源档案
 ├── docs/            # 技术设计、实验方案、诊断与审计记录
 ├── scripts/         # 报告构建等辅助工具
 ├── tests/           # 核心单元测试
@@ -139,6 +173,10 @@ large-vocabulary head are intentionally absent. Ising denoising is spatial and
 non-causal, and its output vocabulary has only two classes.
 
 ## Model
+
+This section describes the **early L64 pilot**, not the later 1,976,706-parameter
+dense coordinate model. See the [experiment map](experiments/README.md) for the
+architecture and checkpoint lineage of each subsequent campaign.
 
 The denoiser is a size-flexible 2D axial Transformer:
 

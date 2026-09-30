@@ -1,0 +1,592 @@
+[
+  {
+    "path": "scripts/research20260921/adaptive_repair_evaluation.py",
+    "bytes": 13477,
+    "sha256": "d24047ff19f897ae3793ab70e489595b9e5fede49c952f4dbdac4da748428f06"
+  },
+  {
+    "path": "scripts/research20260921/adaptive_trajectory_diagnostics.py",
+    "bytes": 5599,
+    "sha256": "fd41ef4ec01aa54bc0021f9724b4cd7c81fdf5989f88704910f2e7dd8358bf5b"
+  },
+  {
+    "path": "scripts/research20260921/analyze_fixed_geometry_joint_20260923.py",
+    "bytes": 10241,
+    "sha256": "a0fa4d12898d053424326acac8a4b0d14656e411baa153507ca6cc49c289669e"
+  },
+  {
+    "path": "scripts/research20260921/core_geometry_factorial_analysis.py",
+    "bytes": 11094,
+    "sha256": "064d5d8bc5c1fd49b7b6fd3fd882bf2043f89e822dc093835037fa0c2c88062a"
+  },
+  {
+    "path": "scripts/research20260921/core_geometry_factorial_data.py",
+    "bytes": 5564,
+    "sha256": "3c28109f87e963a5b81f425346c658509cc93c1bcb6ce7090f0d382c7c35e754"
+  },
+  {
+    "path": "scripts/research20260921/core_geometry_factorial_design.py",
+    "bytes": 10177,
+    "sha256": "7ec225f09a5fca99cd4246d630007f4112ece3478015fa0c417432e3e273e081"
+  },
+  {
+    "path": "scripts/research20260921/core_geometry_factorial_statistics.py",
+    "bytes": 5984,
+    "sha256": "934dd0e7f9e219319a75698447e9c5be8d2540381e643545b47cf26d4f4ef073"
+  },
+  {
+    "path": "scripts/research20260921/core_geometry_factorial_training.py",
+    "bytes": 7365,
+    "sha256": "3a572b2661dedeaeec59191f6cffdd3ce541f0297cf29993e9c7f914fc21cae1"
+  },
+  {
+    "path": "scripts/research20260921/diagnostic_math.py",
+    "bytes": 4988,
+    "sha256": "6c2c1fc5145fb022f8148448b30434df24f0dad3beb316ddd4e4e060f3d636d6"
+  },
+  {
+    "path": "scripts/research20260921/evaluate_mask_query_factorial_20260924.py",
+    "bytes": 8096,
+    "sha256": "d5a47432c364a7b6c71d17ca13f14421e95aedace8fa5562c5d65ac0dfce6011"
+  },
+  {
+    "path": "scripts/research20260921/evaluate_sparse_conditioning_20260923.py",
+    "bytes": 8062,
+    "sha256": "3a682b1a8a8fe31908c9f8c39c75ac1aa779786b93bd509541a9922ec17d475f"
+  },
+  {
+    "path": "scripts/research20260921/evaluate_study.py",
+    "bytes": 24492,
+    "sha256": "0e1269745c32092ec53527fafd5944aab3d73270fc7b5ec9fa2e4f0c0943c799"
+  },
+  {
+    "path": "scripts/research20260921/finalize_adaptive_campaign.py",
+    "bytes": 17797,
+    "sha256": "b01796095e66f7a5711f707708475c6147c6bb1f95f6e50f9c9b632a316cefb8"
+  },
+  {
+    "path": "scripts/research20260921/finalize_mask_query_factorial_20260924.py",
+    "bytes": 14767,
+    "sha256": "1e93aa0e76215a81c9d3db16b607e906018b6d1d674ab50297e871aa547ad084"
+  },
+  {
+    "path": "scripts/research20260921/finalize_sparse_conditioning_20260923.py",
+    "bytes": 12980,
+    "sha256": "5e46cdff92a6a7779a15c3fd359b6ee6f10f8075363bd16116b1ac4e239cae53"
+  },
+  {
+    "path": "scripts/research20260921/fixed_geometry_math.py",
+    "bytes": 8695,
+    "sha256": "60125981d25c79c8e4e873bc999f30b763b6f1affb32a30a9de226910fea9708"
+  },
+  {
+    "path": "scripts/research20260921/generate_adaptive_reference.py",
+    "bytes": 3113,
+    "sha256": "dcb765e403a92b3c50b201c98f7566ae7c1162716dd7d38231781fe9314737aa"
+  },
+  {
+    "path": "scripts/research20260921/inspect_adaptive_campaign.py",
+    "bytes": 3492,
+    "sha256": "c232bf244c4df5ded21ec7ad87cf932e82e1e970c2289242291e14b2910ff8e0"
+  },
+  {
+    "path": "scripts/research20260921/mask_query_factorial_core.py",
+    "bytes": 3736,
+    "sha256": "78a9412da0b2fcb5031a35ace0002dbfcab81c1f8e1cc93c62d632f9ed3b3fbb"
+  },
+  {
+    "path": "scripts/research20260921/mask_query_factorial_design.py",
+    "bytes": 4592,
+    "sha256": "e633c191714e7b0c392bfe4045609b958c18810109154288e419b510aec3c9ec"
+  },
+  {
+    "path": "scripts/research20260921/mechanism_design.py",
+    "bytes": 2842,
+    "sha256": "fe9bdde7af32091b0976cac98839173eea87244d48febf077f281b54ca0b0d7a"
+  },
+  {
+    "path": "scripts/research20260921/preflight.py",
+    "bytes": 10362,
+    "sha256": "fc36a992cc0077a4de22776ac86c24dd4702be96e631d8cf14df1c222447eb77"
+  },
+  {
+    "path": "scripts/research20260921/preflight_core_geometry_authorized12h_v3.py",
+    "bytes": 13329,
+    "sha256": "cf9e91485deca1484fc5ed6dc5402a66d6eb4d34de170b4fa1d61d73f573229b"
+  },
+  {
+    "path": "scripts/research20260921/preflight_core_geometry_buffered_v2.py",
+    "bytes": 12543,
+    "sha256": "e8c0923cda8789acc000c1c98bdf1681f4bd4c957a72d1062397eeb897e91d7a"
+  },
+  {
+    "path": "scripts/research20260921/preflight_core_geometry_factorial_20260925.py",
+    "bytes": 11836,
+    "sha256": "3b2187ac74b48a684355cc4180d90bc0258a6cc6913a1fd135dc1cb38645e955"
+  },
+  {
+    "path": "scripts/research20260921/preflight_sparse_conditioning.py",
+    "bytes": 6162,
+    "sha256": "3a51da86617b192674c68a2a35fcd385f8d2fc7a4665b9a59acadb3d8454acb5"
+  },
+  {
+    "path": "scripts/research20260921/prepare_mask_query_reference_20260924.py",
+    "bytes": 797,
+    "sha256": "e94e29fd4ae046a8e55f6ff3c3aab2f0199d5a2a5553a08c41342286d3bc1263"
+  },
+  {
+    "path": "scripts/research20260921/prepare_sparse_conditioning_data.py",
+    "bytes": 4199,
+    "sha256": "5c94b02f0eae1c71a5a66d888112288abc93285a5a641fa1355de5419a552307"
+  },
+  {
+    "path": "scripts/research20260921/run_adaptive_repair_20260922.py",
+    "bytes": 16914,
+    "sha256": "e0d22b41bb45724b22bfbc86c37db8a5aae1829543c330b1e6ab41c3b879f68a"
+  },
+  {
+    "path": "scripts/research20260921/run_capacity_20260922.py",
+    "bytes": 9853,
+    "sha256": "4da4939007dca69e20372e2e5f22898230d13db92b94125a6948bd9d241cb16a"
+  },
+  {
+    "path": "scripts/research20260921/run_core_geometry_factorial_20260925.py",
+    "bytes": 22513,
+    "sha256": "86a7955706aa4afdb8facad5451b6ea99b95e03aaff8d84ad4d1d6e8cbe003e2"
+  },
+  {
+    "path": "scripts/research20260921/run_existing_diagnostics.py",
+    "bytes": 26845,
+    "sha256": "be1ee2194b38f3f5d87bfac1699b317909fe785eea836baf07031c6e0482ede5"
+  },
+  {
+    "path": "scripts/research20260921/run_fixed_geometry_joint_20260923.py",
+    "bytes": 12239,
+    "sha256": "7e1f56068fc82f3638c8ec642ecb4c223a4c9ccd6711e63ec0c1ccfd4d6c7a6c"
+  },
+  {
+    "path": "scripts/research20260921/run_generation_bridge_20260924.py",
+    "bytes": 22569,
+    "sha256": "037c55415ed87e8da0cddc8b062398a3a4288ee8c70d2ea6f0f0b02570d8d15d"
+  },
+  {
+    "path": "scripts/research20260921/run_mask_query_factorial_20260924.py",
+    "bytes": 15284,
+    "sha256": "dd0ae7e2f0a970ed7d8d5aac7a9b954b742084ba680515423f054f136a7c357e"
+  },
+  {
+    "path": "scripts/research20260921/run_mechanism_diagnostics.py",
+    "bytes": 31398,
+    "sha256": "957ccd1bc665eed1300caae3682ebbe536fdb4d3bd15afbaad492d19a9965a91"
+  },
+  {
+    "path": "scripts/research20260921/run_sparse_conditioning_20260923.py",
+    "bytes": 11584,
+    "sha256": "ee4776b19d76be3be0bd275214caef736f3a39fedc855bb32d191cb0a456fc03"
+  },
+  {
+    "path": "scripts/research20260921/run_study.py",
+    "bytes": 12022,
+    "sha256": "0191a67eae90bbc388b7f9e4f5a21e0d989054a2861dee1e0d7259ad781af770"
+  },
+  {
+    "path": "scripts/research20260921/sparse_conditioning_core.py",
+    "bytes": 4397,
+    "sha256": "317e89245c661ea3b047690f0a990311cf5d78c284a2f8663306ee9651cb8dbc"
+  },
+  {
+    "path": "scripts/research20260921/sparse_conditioning_design.py",
+    "bytes": 6468,
+    "sha256": "fd167a925809a75597a632bdaa2d2bf19ad4c693c75d32e98b92475b32e07c36"
+  },
+  {
+    "path": "scripts/research20260921/summarize_downloaded_results.py",
+    "bytes": 2758,
+    "sha256": "dc9fa98e0590f99e598c44b3448c688d05f0caf393d9d3046a1f2aa9e3f0eddd"
+  },
+  {
+    "path": "scripts/research20260921/test_adaptive_finalization.py",
+    "bytes": 2717,
+    "sha256": "dff90a36fedffd7bacba83fbd8ca947b3d749460d50e17cf5606812f8139451e"
+  },
+  {
+    "path": "scripts/research20260921/test_adaptive_pipeline.py",
+    "bytes": 4316,
+    "sha256": "cbccb21e951058c10c0ae4a67d1b5e1932531d87dc0bc0111d32b820ead58e5c"
+  },
+  {
+    "path": "scripts/research20260921/test_core_geometry_factorial_data.py",
+    "bytes": 4064,
+    "sha256": "c14194bec70581405c5b5cc3ab063a189dda2ef472f66dbe1a2763ef3b04cc0c"
+  },
+  {
+    "path": "scripts/research20260921/test_core_geometry_preparation.py",
+    "bytes": 1065,
+    "sha256": "2ff8092ffc0b892ed753bbe39a29b0b5f5be8a8f34c0fc9e3e5354e1a48ab1c9"
+  },
+  {
+    "path": "scripts/research20260921/test_mask_query_factorial_20260924.py",
+    "bytes": 2840,
+    "sha256": "6c3082dbb123acabb292043bc76f02864124c7fbd9ae929b81576fce3e5c3802"
+  },
+  {
+    "path": "scripts/research20260921/test_resume.py",
+    "bytes": 3123,
+    "sha256": "130a2982f32508e384096a823f22b948430411bdadb9a5facc1ea4e8852868cc"
+  },
+  {
+    "path": "scripts/research20260921/test_sparse_conditioning_pipeline.py",
+    "bytes": 5625,
+    "sha256": "62f6c008e4ed4a306c17689ede742511cc270bec407ce9dd7420bcb0afa91514"
+  },
+  {
+    "path": "scripts/research20260921/verify_fixed_geometry_evidence.py",
+    "bytes": 4780,
+    "sha256": "4b6a4573b22e0798651a5bd7382b0f67d27bc2ce8c35c2fd24a14b249081d0ce"
+  },
+  {
+    "path": "scripts/research20260926/audit_previous_geometry.py",
+    "bytes": 11590,
+    "sha256": "a72b2bbdd5375b458940c3d35750566ddfc6a356d8b1292de5b02132f6d4e167"
+  },
+  {
+    "path": "scripts/research20260926/check_geometry_identification_design.py",
+    "bytes": 6560,
+    "sha256": "64b804af96ced8eb5377d099894b53077ee1f6705a2ddb898eebfc188c6872b4"
+  },
+  {
+    "path": "scripts/research20260926/identification_analysis.py",
+    "bytes": 18557,
+    "sha256": "843d72a7796dcf74588d7e023551ee618fea8a38699087e88b0e7de577ab66af"
+  },
+  {
+    "path": "scripts/research20260926/identification_common.py",
+    "bytes": 3270,
+    "sha256": "87fa2cc4d9fb13efb7a343618cbeeeec56733c98df2049179cd12cddc0256c6d"
+  },
+  {
+    "path": "scripts/research20260926/identification_data.py",
+    "bytes": 10637,
+    "sha256": "44e552424a14da6dd2204e044352662e78fa2bbc89fd30fad4b3acc15231e9fb"
+  },
+  {
+    "path": "scripts/research20260926/identification_statistics.py",
+    "bytes": 7066,
+    "sha256": "001fd874406c2223d937fc54e148091679475abee63672521ac61ad5af323fdc"
+  },
+  {
+    "path": "scripts/research20260926/identification_training.py",
+    "bytes": 8728,
+    "sha256": "45557887c25810954127b42bc6764f94cc09754c1460ddaa2c06966db84f0cc6"
+  },
+  {
+    "path": "scripts/research20260926/manage_identification.py",
+    "bytes": 6759,
+    "sha256": "2465be87237fb42209f128e005d38a24826616ff96d89b81e1339e3790560535"
+  },
+  {
+    "path": "scripts/research20260926/run_geometry_identification_20260926.py",
+    "bytes": 31086,
+    "sha256": "e6e6e1fcb3d8a2e5c3ddfc2284058cacbb238141e4836964b31ea9f076df71a1"
+  },
+  {
+    "path": "scripts/research20260927/check_observed_context_design.py",
+    "bytes": 9830,
+    "sha256": "a98c0ca46fd1c6f3a6d09a6b40de37ee468db913125b0f71cc4f620fbd09cf48"
+  },
+  {
+    "path": "scripts/research20260927/check_observed_context_design_v2_18h.py",
+    "bytes": 7431,
+    "sha256": "9a4801bc0bbc8adfcef071bf507344e4006b092db9d83f1cf2187dfdd941fa4e"
+  },
+  {
+    "path": "scripts/research20260927/intervention_analysis.py",
+    "bytes": 16128,
+    "sha256": "6b6353481fd8fa2759ab660b357e3c77bf527ed664de2b7a2065647de3c6777b"
+  },
+  {
+    "path": "scripts/research20260927/intervention_common.py",
+    "bytes": 7381,
+    "sha256": "c711757094977e71847bd77b523fa13e3a223e496627b2dae6cc27c80b8dcd71"
+  },
+  {
+    "path": "scripts/research20260927/intervention_data.py",
+    "bytes": 16571,
+    "sha256": "c093cd9b802cf792e972a0007219f5032802e03dcddf54d557c45eec30d28ba5"
+  },
+  {
+    "path": "scripts/research20260927/intervention_figures.py",
+    "bytes": 15998,
+    "sha256": "a7ae780a5283f99ea3f1ac3991154ac22e4890d03238a057b05dd9ae4c80101f"
+  },
+  {
+    "path": "scripts/research20260927/intervention_mc_timing.py",
+    "bytes": 1171,
+    "sha256": "b35fababbd312adab731b3757b2e7800fd34ebfa3d1f12e44a2b263f84c5f67d"
+  },
+  {
+    "path": "scripts/research20260927/intervention_model.py",
+    "bytes": 3515,
+    "sha256": "52af782591e59dc3f142b1f07ccf53d2ad1d34bb08fd77c104a74735cd9cf3ec"
+  },
+  {
+    "path": "scripts/research20260927/intervention_pipeline.py",
+    "bytes": 15675,
+    "sha256": "f4082c9f9074c8a89dbae7555503b84897b1337eb5c6bf49a34939babf0769c4"
+  },
+  {
+    "path": "scripts/research20260927/intervention_preflight.py",
+    "bytes": 19852,
+    "sha256": "64e578213356c359cc3f280ee07870c89cdc00eb8bbbf726117f76ea9400393c"
+  },
+  {
+    "path": "scripts/research20260927/intervention_scratch.py",
+    "bytes": 5154,
+    "sha256": "7371068504dfe30e5ff193d957c6963081652bdc6ee217c0f3bbec16712fc004"
+  },
+  {
+    "path": "scripts/research20260927/intervention_statistics.py",
+    "bytes": 8490,
+    "sha256": "9d9dc6ce33da46c6324f32c03bfe55e91cb88d2219b7c12c5dbe23e747c8a11a"
+  },
+  {
+    "path": "scripts/research20260927/intervention_training.py",
+    "bytes": 9769,
+    "sha256": "bbca207e5757b9ecf5167661c95e77e60d3166a9122dbbdcf357f775e6c14033"
+  },
+  {
+    "path": "scripts/research20260927/manage_intervention.py",
+    "bytes": 9668,
+    "sha256": "7ef3f752de96f5293746547b58b2f972fe393d2722578020f87bbc088c909aaf"
+  },
+  {
+    "path": "scripts/research20260927/run_observed_context_intervention_20260927.py",
+    "bytes": 15834,
+    "sha256": "a7d4796621ea71db3fdb2afd49d377e38df3dea179a5902fdb817780e46a810c"
+  },
+  {
+    "path": "scripts/research20260927/test_intervention_cpu.py",
+    "bytes": 11884,
+    "sha256": "41df3b8ee7c60152136e691e374dcfd3591b7cf508762e6195f0ed9ee77ad5be"
+  },
+  {
+    "path": "scripts/research20260927/test_intervention_model.py",
+    "bytes": 6241,
+    "sha256": "34f214fa6bd2f299b8d007a034b1b298f4eadd8c3844a4987ad795b54369c621"
+  },
+  {
+    "path": "scripts/research20260927/test_intervention_statistics.py",
+    "bytes": 3625,
+    "sha256": "e87ba2995514c842574f80701bd45fb201317451160f68fced955f96e53bd0e4"
+  },
+  {
+    "path": "scripts/research20260928/capability_common.py",
+    "bytes": 4915,
+    "sha256": "1a2cfa792fdbd8888469af95a41878dccc4f0505f79de2cd0f4e6106e7a4dcbc"
+  },
+  {
+    "path": "scripts/research20260928/capability_model.py",
+    "bytes": 11644,
+    "sha256": "154150e4d900d3823041f1be6b7109424a3bb0fefda68292fcc980673ce9bdd3"
+  },
+  {
+    "path": "scripts/research20260928/exact_ising.py",
+    "bytes": 8418,
+    "sha256": "066e8f28049202cd0a7f4876b55654ca17ec8c5ea689536fcd4f7e7e89e686be"
+  },
+  {
+    "path": "scripts/research20260928/review_j_recipe.py",
+    "bytes": 5943,
+    "sha256": "7d45a0ad459536ba2d4c2b6783a7c229d714d208000fd93a1f72dd05d7b3b47e"
+  },
+  {
+    "path": "scripts/research20260928/run_basic_capability.py",
+    "bytes": 24120,
+    "sha256": "e3819e0fe364312f4e249cdabe1ca318599772c7105c2629571ccd55625bdfea"
+  },
+  {
+    "path": "scripts/research20260928/test_basic_capability.py",
+    "bytes": 2707,
+    "sha256": "d7024d67596a0b4d9971a07eed89cb4abcace46919b299c38033f650ce9107dd"
+  },
+  {
+    "path": "scripts/research20260928_multisize/ms_audit.py",
+    "bytes": 8728,
+    "sha256": "1e0d388c77dc702aa7e4b083b463bda805d2dffdd3926a01989d6006a4bd92af"
+  },
+  {
+    "path": "scripts/research20260928_multisize/ms_common.py",
+    "bytes": 5819,
+    "sha256": "9333baf065d6de304d02f9eec13ca7b729d0448985c8688bccea45a736e5aa1d"
+  },
+  {
+    "path": "scripts/research20260928_multisize/ms_data.py",
+    "bytes": 5471,
+    "sha256": "3dff75dad45e78b1cf81cb0443f30abf16d584308a985419b1f09b67efe4e27d"
+  },
+  {
+    "path": "scripts/research20260928_multisize/ms_delivery.py",
+    "bytes": 10464,
+    "sha256": "0b4d7db9f0ee1a6e5a6cfae8dd472a0dad1e28fcc4353adac9809710009cce25"
+  },
+  {
+    "path": "scripts/research20260928_multisize/ms_evaluation.py",
+    "bytes": 7464,
+    "sha256": "8b4db830ef68f3a3446b2c0c25904f8d5bc57c99e434297b275509bbf870c561"
+  },
+  {
+    "path": "scripts/research20260928_multisize/ms_model.py",
+    "bytes": 6899,
+    "sha256": "b1992ab59ad3d57a33e861ac96ceb7c2771c5b9a939c660d8058173404585545"
+  },
+  {
+    "path": "scripts/research20260928_multisize/run_multisize.py",
+    "bytes": 10331,
+    "sha256": "127808b34c48a11408d43cf419576e87f28f9888b6e857512954f3c3564bea28"
+  },
+  {
+    "path": "scripts/research20260928_multisize/test_multisize.py",
+    "bytes": 3538,
+    "sha256": "e111a96c27970c6034a6ff37f2864b3f7aa6953803cb8b624ca01c4940f4e713"
+  },
+  {
+    "path": "scripts/research20260930/deploy_bundle.py",
+    "bytes": 2098,
+    "sha256": "f2a40f4bf27e20340c87343932ef9db67912be21876d397bf45395a22e6437fe"
+  },
+  {
+    "path": "scripts/research20260930/run_size_clock.py",
+    "bytes": 7728,
+    "sha256": "32b2c91b07b17e318a3ac2023c7ad0ea1b722752670916eb5289387a066032f3"
+  },
+  {
+    "path": "scripts/research20260930/sg_analysis.py",
+    "bytes": 13828,
+    "sha256": "a3d40051afbc66413ef65d3bc1e0d0f4818b6862312624ff0ae75488458a5d20"
+  },
+  {
+    "path": "scripts/research20260930/sg_common.py",
+    "bytes": 5643,
+    "sha256": "fee2b43be02496e01a66ac594bef5fb2504bcc51601f98f18a64ecdaf5e2c84b"
+  },
+  {
+    "path": "scripts/research20260930/sg_data.py",
+    "bytes": 11292,
+    "sha256": "9df22fcce8bf59ddbf897fc8d5b0260eb11451edc51a40332f594de3a9c95496"
+  },
+  {
+    "path": "scripts/research20260930/sg_evaluation.py",
+    "bytes": 7874,
+    "sha256": "eea1d17bf39df58e66583eedde03d55ab3838d2ed07c9eeb07fde9424b905bee"
+  },
+  {
+    "path": "scripts/research20260930/sg_management.py",
+    "bytes": 9382,
+    "sha256": "18522ac5666e56b7ae614692b8338fa34cf1368f29203fd83c018f43858801b4"
+  },
+  {
+    "path": "scripts/research20260930/sg_model.py",
+    "bytes": 8038,
+    "sha256": "487219a47f418d6f61a5c16620b5b85280f09c0624146b63100a050bd7280b2d"
+  },
+  {
+    "path": "scripts/research20260930/sg_preflight.py",
+    "bytes": 13721,
+    "sha256": "c4c9c74fc0025ee2e877fdbcbdde3681c0d023ce14588e5206ac8d45291d6abf"
+  },
+  {
+    "path": "scripts/research20260930/sg_statistics.py",
+    "bytes": 4992,
+    "sha256": "2c0dca48de5f71e30a5f9daa009b5a8eacf7cd934de62a68980cbce9acea8c3a"
+  },
+  {
+    "path": "scripts/research20260930/test_size_clock.py",
+    "bytes": 2600,
+    "sha256": "6440636db21c9438b9cb5cd11923d69ffe56df4d792d1204e08b16610922ab1e"
+  },
+  {
+    "path": "scripts/research20260930_6h/deploy_bundle.py",
+    "bytes": 2100,
+    "sha256": "28a06caf8f760b77a380aa0877f1f31a60a71493069c88cdcf1c555e32ea8516"
+  },
+  {
+    "path": "scripts/research20260930_6h/run_multisize.py",
+    "bytes": 9371,
+    "sha256": "cb1b710da7025e428fce85ce1cf267643e9c3c0b1f5ad19f63688c8c061b3af7"
+  },
+  {
+    "path": "scripts/research20260930_6h/sm6_analysis.py",
+    "bytes": 13765,
+    "sha256": "a2eae93fde23197495540b1e67ebd6482423ebb6cfd74054beca269e3ca3bf36"
+  },
+  {
+    "path": "scripts/research20260930_6h/sm6_common.py",
+    "bytes": 6015,
+    "sha256": "cee435368a731db4a88fec17e75d0bf7c0f0ad6f8198837e0241eb3e4c83a0cd"
+  },
+  {
+    "path": "scripts/research20260930_6h/sm6_data.py",
+    "bytes": 11307,
+    "sha256": "db9e9f30efca3428bd47359245e20ed7f2b813455750e3c62b640bfeced50ac9"
+  },
+  {
+    "path": "scripts/research20260930_6h/sm6_evaluation.py",
+    "bytes": 7712,
+    "sha256": "0bae45cf2b58a5281e9060e9728adeba33e1fac93d3c86e8354f0e8a0504d30b"
+  },
+  {
+    "path": "scripts/research20260930_6h/sm6_management.py",
+    "bytes": 11479,
+    "sha256": "535eafa241d52194f4745a7642cdedebc30f2fcec7ccf7ac8df132b5cc1588ba"
+  },
+  {
+    "path": "scripts/research20260930_6h/sm6_model.py",
+    "bytes": 8427,
+    "sha256": "b8e8f8190153aea6610034b701d55d3455bc82da5d114231fb52c378bc973b8c"
+  },
+  {
+    "path": "scripts/research20260930_6h/sm6_preflight.py",
+    "bytes": 14126,
+    "sha256": "c928a7ea2efa61d844353f0c548755c601ebd67df3c7ff05c745e61ad56a5ab3"
+  },
+  {
+    "path": "scripts/research20260930_6h/sm6_statistics.py",
+    "bytes": 4866,
+    "sha256": "6b2e36183686681b6682bd6aa3af370032859e70d0e31ef76926445aac13feb8"
+  },
+  {
+    "path": "scripts/research20260930_6h/test_multisize.py",
+    "bytes": 4267,
+    "sha256": "df535665a4d4f40cc4abf51f03353cc5f3543dbcba56f13041051a0b933f9e2c"
+  },
+  {
+    "path": "ism_diffusion/geometry_study.py",
+    "bytes": 17503,
+    "sha256": "f96f3d816453d532fb454355cbd0c50f42b00352c9b37886a8ca6b67aa16e490"
+  },
+  {
+    "path": "ism_diffusion/context_repair_core.py",
+    "bytes": 8323,
+    "sha256": "58effac6a4ccdd1a81606f4d8395828c0a12b4ff3909fc8283cf60fdd4747703"
+  },
+  {
+    "path": "tests/test_fixed_geometry_math.py",
+    "bytes": 2652,
+    "sha256": "28afa2417608d9b5fc2149d360027159ad77d4536b9e844568667482504729b8"
+  },
+  {
+    "path": "tests/test_geometry_study.py",
+    "bytes": 4286,
+    "sha256": "e1d3fdb1ecbfd5a16b66a58164769b19376de5995b1d231cb07c7f58e4d374f8"
+  },
+  {
+    "path": "tests/test_diagnostic_math.py",
+    "bytes": 2839,
+    "sha256": "c0a6682750255eebaa630f28d5c3493e2e859175f3e4d337c201efc8bedf64d9"
+  },
+  {
+    "path": "tests/test_mechanism_design.py",
+    "bytes": 1890,
+    "sha256": "80e36e6982041d9b731748697aa8d2c0653c40fcfb296f1e61686a92d0f6ee7c"
+  }
+]

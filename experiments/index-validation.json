@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "expected_public_files": 3002,
+  "indexed_files": 3522,
+  "publication_delta_files": 3027,
+  "publication_delta_bytes": 287452374,
+  "largest_delta_bytes": 17777884,
+  "small_archives_inspected": [
+    {
+      "path": "results/dense_size_clock_geometry_20260930/deployed_source_bytes_v1.tar.gz",
+      "members": [
+        "artifacts/basic_capability_stages12_20260928/bank.npz",
+        "docs/research_reboot_20260921/DENSE_SIZE_CLOCK_GEOMETRY_12H_AUTHORIZATION_20260930_ZH.md",
+        "docs/research_reboot_20260921/DENSE_SIZE_CLOCK_GEOMETRY_12H_CONFIG_20260930.json",
+        "docs/research_reboot_20260921/DENSE_SIZE_CLOCK_GEOMETRY_12H_PLAN_20260930_ZH.md",
+        "ism_diffusion/__init__.py",
+        "ism_diffusion/ising.py",
+        "ism_diffusion/model.py",
+        "ism_diffusion/scale_model.py",
+        "scripts/research20260927/intervention_model.py",
+        "scripts/research20260930/README.md",
+        "scripts/research20260930/deploy_bundle.py",
+        "scripts/research20260930/run_size_clock.py",
+        "scripts/research20260930/sg_analysis.py",
+        "scripts/research20260930/sg_common.py",
+        "scripts/research20260930/sg_data.py",
+        "scripts/research20260930/sg_evaluation.py",
+        "scripts/research20260930/sg_management.py",
+        "scripts/research20260930/sg_model.py",
+        "scripts/research20260930/sg_preflight.py",
+        "scripts/research20260930/sg_statistics.py",
+        "scripts/research20260930/test_size_clock.py"
+      ]
+    }
+  ],
+  "errors": [],
+  "scope": "Exact index compared to last verified remote main. No staging/committing/pushing performed by this check."
+}
