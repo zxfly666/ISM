@@ -1,0 +1,746 @@
+{
+  "status": "remote_complete_requires_backup_and_visual_review",
+  "models": 24,
+  "sampling_tasks": 72,
+  "generation_samples": 5376,
+  "primary": {
+    "mask_at_uniform": {
+      "metrics": {
+        "matched_continuous128/natural/sequential_kl": {
+          "estimate": -0.15630082350243835,
+          "ci95": [
+            -0.1774593122600196,
+            -0.13801230920332375
+          ],
+          "primary": true,
+          "family_ci9875": [
+            -0.1828384212942048,
+            -0.13351264823777723
+          ]
+        },
+        "continuous128/G_49_64_NRMSE": {
+          "estimate": -0.19662551178285925,
+          "ci95": [
+            -0.3314244980616338,
+            -0.03193307115745336
+          ],
+          "primary": true,
+          "family_ci9875": [
+            -0.3720840295342072,
+            0.012975569204201292
+          ]
+        }
+      },
+      "retention_gate": true,
+      "joint_endpoint_gate": false
+    },
+    "query_at_sparse": {
+      "metrics": {
+        "matched_continuous128/natural/sequential_kl": {
+          "estimate": -0.014931685531440052,
+          "ci95": [
+            -0.02231769463924012,
+            -0.007505254033304689
+          ],
+          "primary": true,
+          "family_ci9875": [
+            -0.0241459036451058,
+            -0.005470276653945373
+          ]
+        },
+        "continuous128/G_49_64_NRMSE": {
+          "estimate": 0.000796521832920366,
+          "ci95": [
+            -0.06806855201942286,
+            0.061107922862653874
+          ],
+          "primary": true,
+          "family_ci9875": [
+            -0.09067708055610622,
+            0.07698523392538542
+          ]
+        }
+      },
+      "retention_gate": true,
+      "joint_endpoint_gate": false
+    }
+  },
+  "interaction": {
+    "matched_continuous48/natural/sequential_kl": {
+      "estimate": 0.0006754412903409441,
+      "ci95": [
+        -0.00033235482182987426,
+        0.0017856209205994523
+      ],
+      "primary": false
+    },
+    "matched_continuous48/natural/parallel_kl": {
+      "estimate": 0.002760541581524792,
+      "ci95": [
+        0.0013963396356936296,
+        0.004218051328161979
+      ],
+      "primary": false
+    },
+    "matched_continuous48/natural/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "primary": false
+    },
+    "matched_continuous48/natural/marginal_kl": {
+      "estimate": 0.0027605415815247867,
+      "ci95": [
+        0.0013963396356936242,
+        0.004218051328161975
+      ],
+      "primary": false
+    },
+    "matched_continuous48/natural/order_tv": {
+      "estimate": 0.005620420805911214,
+      "ci95": [
+        0.003220202946443873,
+        0.0076839589392674705
+      ],
+      "primary": false
+    },
+    "matched_continuous48/natural/geometry_probability_mae": {
+      "estimate": -0.015709097638285516,
+      "ci95": [
+        -0.024222144825381105,
+        -0.00760725242843018
+      ],
+      "primary": false
+    },
+    "matched_continuous48/natural/response_rmse": {
+      "estimate": -0.030002631155159762,
+      "ci95": [
+        -0.0516384201318577,
+        -0.011091850451580922
+      ],
+      "primary": false
+    },
+    "matched_continuous96/natural/sequential_kl": {
+      "estimate": 0.030296081492697788,
+      "ci95": [
+        0.0177764033194178,
+        0.04294676024633319
+      ],
+      "primary": false
+    },
+    "matched_continuous96/natural/parallel_kl": {
+      "estimate": 0.032432065867294815,
+      "ci95": [
+        0.019593875223706238,
+        0.044460479427655575
+      ],
+      "primary": false
+    },
+    "matched_continuous96/natural/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "primary": false
+    },
+    "matched_continuous96/natural/marginal_kl": {
+      "estimate": 0.03243206586729483,
+      "ci95": [
+        0.019593875223706265,
+        0.04446047942765555
+      ],
+      "primary": false
+    },
+    "matched_continuous96/natural/order_tv": {
+      "estimate": -0.010114685667461425,
+      "ci95": [
+        -0.016361481359180814,
+        -0.004859236376645133
+      ],
+      "primary": false
+    },
+    "matched_continuous96/natural/geometry_probability_mae": {
+      "estimate": 0.017605785520067058,
+      "ci95": [
+        -0.0015327022621149137,
+        0.03513983876549636
+      ],
+      "primary": false
+    },
+    "matched_continuous96/natural/response_rmse": {
+      "estimate": 0.07181042329664111,
+      "ci95": [
+        0.03409340354465936,
+        0.10465045471027458
+      ],
+      "primary": false
+    },
+    "matched_continuous128/natural/sequential_kl": {
+      "estimate": 0.02395946260160839,
+      "ci95": [
+        0.003977965384924377,
+        0.044557638409852225
+      ],
+      "primary": false
+    },
+    "matched_continuous128/natural/parallel_kl": {
+      "estimate": 0.01877832089923656,
+      "ci95": [
+        -0.0018164980223542616,
+        0.04050651599013195
+      ],
+      "primary": false
+    },
+    "matched_continuous128/natural/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "primary": false
+    },
+    "matched_continuous128/natural/marginal_kl": {
+      "estimate": 0.01877832089923659,
+      "ci95": [
+        -0.0018164980223542722,
+        0.04050651599013188
+      ],
+      "primary": false
+    },
+    "matched_continuous128/natural/order_tv": {
+      "estimate": -0.0041904912335011864,
+      "ci95": [
+        -0.009746262599754696,
+        -0.00019231797137958875
+      ],
+      "primary": false
+    },
+    "matched_continuous128/natural/geometry_probability_mae": {
+      "estimate": -0.0016171236205296535,
+      "ci95": [
+        -0.02413001236538468,
+        0.026362991135740952
+      ],
+      "primary": false
+    },
+    "matched_continuous128/natural/response_rmse": {
+      "estimate": -0.009917241103615165,
+      "ci95": [
+        -0.06332339581885642,
+        0.06123177907675186
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/natural/sequential_kl": {
+      "estimate": 0.0007214999544767858,
+      "ci95": [
+        -0.0013367617191529823,
+        0.0030068802294307014
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/natural/parallel_kl": {
+      "estimate": 0.0023633968245933834,
+      "ci95": [
+        -0.0006820153658690833,
+        0.005904144500299676
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/natural/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/natural/marginal_kl": {
+      "estimate": 0.0023633968245934086,
+      "ci95": [
+        -0.0006820153658690532,
+        0.005904144500299685
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/natural/order_tv": {
+      "estimate": 0.003662974887387923,
+      "ci95": [
+        0.0002706233312356754,
+        0.008458214899453826
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/natural/geometry_probability_mae": {
+      "estimate": -0.010149846139401925,
+      "ci95": [
+        -0.014584187211643835,
+        -0.005504820279153206
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/natural/response_rmse": {
+      "estimate": -0.03030081435392619,
+      "ci95": [
+        -0.042636874937775814,
+        -0.019196862592316358
+      ],
+      "primary": false
+    },
+    "matched_continuous48/common/sequential_kl": {
+      "estimate": 0.0005714484553655981,
+      "ci95": [
+        -0.00037703905591904676,
+        0.0015820574362414791
+      ],
+      "primary": false
+    },
+    "matched_continuous48/common/parallel_kl": {
+      "estimate": 0.002552555911574078,
+      "ci95": [
+        0.0013254197814540187,
+        0.0038407777052917266
+      ],
+      "primary": false
+    },
+    "matched_continuous48/common/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "primary": false
+    },
+    "matched_continuous48/common/marginal_kl": {
+      "estimate": 0.002552555911574088,
+      "ci95": [
+        0.0013254197814540156,
+        0.0038407777052917235
+      ],
+      "primary": false
+    },
+    "matched_continuous48/common/order_tv": {
+      "estimate": 0.005224731530839143,
+      "ci95": [
+        0.002942663457066206,
+        0.006955962275729315
+      ],
+      "primary": false
+    },
+    "matched_continuous48/common/geometry_probability_mae": {
+      "estimate": -0.015709097638285516,
+      "ci95": [
+        -0.024222144825381105,
+        -0.00760725242843018
+      ],
+      "primary": false
+    },
+    "matched_continuous48/common/response_rmse": {
+      "estimate": -0.030002631155159762,
+      "ci95": [
+        -0.0516384201318577,
+        -0.011091850451580922
+      ],
+      "primary": false
+    },
+    "matched_continuous96/common/sequential_kl": {
+      "estimate": 0.02770532013276772,
+      "ci95": [
+        0.01662820004291105,
+        0.04002535262504063
+      ],
+      "primary": false
+    },
+    "matched_continuous96/common/parallel_kl": {
+      "estimate": 0.02976721493625399,
+      "ci95": [
+        0.01814211212411982,
+        0.04212376707068102
+      ],
+      "primary": false
+    },
+    "matched_continuous96/common/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "primary": false
+    },
+    "matched_continuous96/common/marginal_kl": {
+      "estimate": 0.02976721493625395,
+      "ci95": [
+        0.018142112124119817,
+        0.04212376707068102
+      ],
+      "primary": false
+    },
+    "matched_continuous96/common/order_tv": {
+      "estimate": -0.010722491201553861,
+      "ci95": [
+        -0.015043067504491438,
+        -0.007008063623994649
+      ],
+      "primary": false
+    },
+    "matched_continuous96/common/geometry_probability_mae": {
+      "estimate": 0.014030904978231687,
+      "ci95": [
+        -0.009753671347966085,
+        0.03409246335386268
+      ],
+      "primary": false
+    },
+    "matched_continuous96/common/response_rmse": {
+      "estimate": 0.0626288025042919,
+      "ci95": [
+        0.012674801607850082,
+        0.10278632885015547
+      ],
+      "primary": false
+    },
+    "matched_continuous128/common/sequential_kl": {
+      "estimate": 0.02385508386260382,
+      "ci95": [
+        0.007265509899132482,
+        0.042007904557520105
+      ],
+      "primary": false
+    },
+    "matched_continuous128/common/parallel_kl": {
+      "estimate": 0.01971553804746036,
+      "ci95": [
+        0.001784963621095875,
+        0.03899354820157107
+      ],
+      "primary": false
+    },
+    "matched_continuous128/common/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "primary": false
+    },
+    "matched_continuous128/common/marginal_kl": {
+      "estimate": 0.019715538047460346,
+      "ci95": [
+        0.0017849636210959495,
+        0.03899354820157113
+      ],
+      "primary": false
+    },
+    "matched_continuous128/common/order_tv": {
+      "estimate": -0.0032218567051926824,
+      "ci95": [
+        -0.010496808143902626,
+        0.003472701956516097
+      ],
+      "primary": false
+    },
+    "matched_continuous128/common/geometry_probability_mae": {
+      "estimate": 0.0018107212904549946,
+      "ci95": [
+        -0.019619155828394186,
+        0.028045360841120897
+      ],
+      "primary": false
+    },
+    "matched_continuous128/common/response_rmse": {
+      "estimate": -0.0006564979665933668,
+      "ci95": [
+        -0.04823006924099957,
+        0.065009860010959
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/common/sequential_kl": {
+      "estimate": 0.000569757000351322,
+      "ci95": [
+        -0.0013597488992839026,
+        0.002657572220059078
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/common/parallel_kl": {
+      "estimate": 0.0020599109163425,
+      "ci95": [
+        -0.0007378844006753162,
+        0.005141917116420725
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/common/oracle_parallel_kl": {
+      "estimate": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/common/marginal_kl": {
+      "estimate": 0.0020599109163424766,
+      "ci95": [
+        -0.0007378844006753223,
+        0.005141917116420704
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/common/order_tv": {
+      "estimate": 0.0029499981200150453,
+      "ci95": [
+        -0.00016327926600850578,
+        0.0069050414565192545
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/common/geometry_probability_mae": {
+      "estimate": -0.010149846139401925,
+      "ci95": [
+        -0.014584187211643835,
+        -0.005504820279153206
+      ],
+      "primary": false
+    },
+    "unequal_distance_w48/common/response_rmse": {
+      "estimate": -0.03030081435392619,
+      "ci95": [
+        -0.042636874937775814,
+        -0.019196862592316358
+      ],
+      "primary": false
+    },
+    "w128_k8/CE": {
+      "estimate": 0.019692381284342197,
+      "ci95": [
+        0.00880003146488824,
+        0.03160080440209116
+      ],
+      "primary": false
+    },
+    "w128_k32/CE": {
+      "estimate": 0.003531388873911634,
+      "ci95": [
+        -0.0014869509079469987,
+        0.009131432066842991
+      ],
+      "primary": false
+    },
+    "w128_t05/CE": {
+      "estimate": 0.000285021403516994,
+      "ci95": [
+        -0.00013698851132032256,
+        0.0007639002478282435
+      ],
+      "primary": false
+    },
+    "w128_t095/CE": {
+      "estimate": 9.159491036969669e-05,
+      "ci95": [
+        -0.00032087880256588677,
+        0.0004932927078962715
+      ],
+      "primary": false
+    },
+    "w48_t05/CE": {
+      "estimate": -1.8933230051532135e-06,
+      "ci95": [
+        -0.00019297261052344665,
+        0.00019619470846766207
+      ],
+      "primary": false
+    },
+    "w48_t095/CE": {
+      "estimate": 1.2429985131012788e-05,
+      "ci95": [
+        -0.0003091428981514599,
+        0.00036883882073663335
+      ],
+      "primary": false
+    },
+    "continuous128/G_1_8_NRMSE": {
+      "estimate": 0.00912877164249288,
+      "ci95": [
+        0.00148070000529157,
+        0.01728470629964939
+      ],
+      "primary": false
+    },
+    "continuous128/G_9_48_NRMSE": {
+      "estimate": 0.019931686794609604,
+      "ci95": [
+        -0.022118333767441434,
+        0.06696358350417995
+      ],
+      "primary": false
+    },
+    "continuous128/G_49_64_NRMSE": {
+      "estimate": 0.03821595308127479,
+      "ci95": [
+        -0.03942971424118231,
+        0.1197375918175122
+      ],
+      "primary": false
+    },
+    "continuous128/m_bias": {
+      "estimate": -0.0034213595920138786,
+      "ci95": [
+        -0.04293511708577474,
+        0.03483546574910481
+      ],
+      "primary": false
+    },
+    "continuous128/m2_bias": {
+      "estimate": -0.017396491434839012,
+      "ci95": [
+        -0.03654269565659991,
+        0.0027431669806699385
+      ],
+      "primary": false
+    },
+    "continuous128/abs_m_bias": {
+      "estimate": -0.017150878906250014,
+      "ci95": [
+        -0.0385397328270806,
+        0.00514782269795737
+      ],
+      "primary": false
+    },
+    "continuous128/energy_bias": {
+      "estimate": 0.003805859716754234,
+      "ci95": [
+        0.0017716375235809967,
+        0.0061699494289287875
+      ],
+      "primary": false
+    },
+    "continuous48/G_1_8_NRMSE": {
+      "estimate": 0.0014721801837070322,
+      "ci95": [
+        -0.010362980708378412,
+        0.013258679115851886
+      ],
+      "primary": false
+    },
+    "continuous48/G_9_24_NRMSE": {
+      "estimate": -0.0013120508538040365,
+      "ci95": [
+        -0.03359923620793112,
+        0.027148993710638343
+      ],
+      "primary": false
+    },
+    "continuous48/G_1_24_NRMSE": {
+      "estimate": -0.00022591422508336928,
+      "ci95": [
+        -0.024003156415157306,
+        0.02106941440203119
+      ],
+      "primary": false
+    },
+    "continuous48/m_bias": {
+      "estimate": -0.003707320601851874,
+      "ci95": [
+        -0.03718939887152778,
+        0.02473444055627891
+      ],
+      "primary": false
+    },
+    "continuous48/m2_bias": {
+      "estimate": -0.0004956319989490865,
+      "ci95": [
+        -0.013120611214343363,
+        0.015761049392292042
+      ],
+      "primary": false
+    },
+    "continuous48/abs_m_bias": {
+      "estimate": -0.0006872106481481469,
+      "ci95": [
+        -0.016308367693865743,
+        0.018375198929398144
+      ],
+      "primary": false
+    },
+    "continuous48/energy_bias": {
+      "estimate": 0.0009003767730497341,
+      "ci95": [
+        -0.0016658701795211803,
+        0.0032692045748374432
+      ],
+      "primary": false
+    },
+    "held_s10_w48/G_10_30_NRMSE": {
+      "estimate": -0.010810045498431467,
+      "ci95": [
+        -0.028000299510752082,
+        0.005501211582641991
+      ],
+      "primary": false
+    },
+    "held_s10_w48/G_40_120_NRMSE": {
+      "estimate": -0.01522557319958201,
+      "ci95": [
+        -0.05503152313532258,
+        0.02277551534863016
+      ],
+      "primary": false
+    },
+    "held_s10_w48/G_130_470_NRMSE": {
+      "estimate": -0.009082736966609967,
+      "ci95": [
+        -0.045069486637789806,
+        0.024787359089385067
+      ],
+      "primary": false
+    },
+    "held_s10_w48/m_bias": {
+      "estimate": -0.01106996889467591,
+      "ci95": [
+        -0.08538417109736689,
+        0.04759634512442131
+      ],
+      "primary": false
+    },
+    "held_s10_w48/m2_bias": {
+      "estimate": 0.0011260205335577814,
+      "ci95": [
+        -0.008313250247343081,
+        0.009600444880042077
+      ],
+      "primary": false
+    },
+    "held_s10_w48/abs_m_bias": {
+      "estimate": 0.002185962818287054,
+      "ci95": [
+        -0.013997734917534721,
+        0.015937070493344883
+      ],
+      "primary": false
+    },
+    "held_s10_w48/energy_bias": {
+      "estimate": -0.002597240691489375,
+      "ci95": [
+        -0.006255598496601694,
+        0.0019162730404107028
+      ],
+      "primary": false
+    }
+  },
+  "checkpoint_unchanged": true,
+  "training_pairing_verified": true,
+  "elapsed_hours": 9.292352932161755,
+  "analysis_seconds": 314.3439612388611,
+  "limitations": [
+    "Mask intervention changes K and its natural clock jointly",
+    "Equal 64 loss slots do not ensure equal independent labels; duplicate slots are logged",
+    "R00 uses common window-normalized auxiliary CE and is not old T0",
+    "Inherited bases and shared fixed training pool; new held-out MC only",
+    "Only one predeclared primary family receives multiplicity adjustment; secondary comparisons descriptive",
+    "Condition accuracy, order consistency and full joint distribution accuracy differ"
+  ]
+}

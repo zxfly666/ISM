@@ -1,0 +1,179 @@
+{
+  "policy": "Original evidence unchanged. Public text redactions are explicit; no numerical result changes.",
+  "files": [
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/final_summary.json",
+      "published": "mask-query-factorial/evidence/final_summary.json",
+      "original_bytes": 18713,
+      "original_sha256": "322b53cda4a080cb99c2662a1c769f591c9dfe2a5757d1d85b1708fa643b54de",
+      "bytes": 18713,
+      "sha256": "322b53cda4a080cb99c2662a1c769f591c9dfe2a5757d1d85b1708fa643b54de",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/manifest.json",
+      "published": "mask-query-factorial/evidence/manifest.json",
+      "original_bytes": 170128,
+      "original_sha256": "1040775da889879f621014d8cd33ea497cee5f1458e8ef7385949a95bf734666",
+      "bytes": 170128,
+      "sha256": "1040775da889879f621014d8cd33ea497cee5f1458e8ef7385949a95bf734666",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/bootstrap_block16.npz",
+      "published": "mask-query-factorial/evidence/analysis/bootstrap_block16.npz",
+      "original_bytes": 2181689,
+      "original_sha256": "8d97690dff3ace848837474d7b50b12b96566c87eb86431473cbe50f0d9c77a8",
+      "bytes": 2181689,
+      "sha256": "8d97690dff3ace848837474d7b50b12b96566c87eb86431473cbe50f0d9c77a8",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/bootstrap_block4.npz",
+      "published": "mask-query-factorial/evidence/analysis/bootstrap_block4.npz",
+      "original_bytes": 2183730,
+      "original_sha256": "e8c46d6f8d9a072c5a42cbc266fccff76f32a772d65ca17c06d1a0aa9121368c",
+      "bytes": 2183730,
+      "sha256": "e8c46d6f8d9a072c5a42cbc266fccff76f32a772d65ca17c06d1a0aa9121368c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/crossed_uncertainty.json",
+      "published": "mask-query-factorial/evidence/analysis/crossed_uncertainty.json",
+      "original_bytes": 342920,
+      "original_sha256": "e49dd4b82cc48e48a25eaa20c1ea46e702c514028fce1a899ce079f5b85de395",
+      "bytes": 342920,
+      "sha256": "e49dd4b82cc48e48a25eaa20c1ea46e702c514028fce1a899ce079f5b85de395",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/figures/accuracy_and_consistency.pdf",
+      "published": "mask-query-factorial/evidence/analysis/figures/accuracy_and_consistency.pdf",
+      "original_bytes": 16841,
+      "original_sha256": "01366b86cd87f7d5b3b25b357dc2eade4b547e837449c94662716e380e36c577",
+      "bytes": 16841,
+      "sha256": "01366b86cd87f7d5b3b25b357dc2eade4b547e837449c94662716e380e36c577",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/figures/accuracy_and_consistency.png",
+      "published": "mask-query-factorial/evidence/analysis/figures/accuracy_and_consistency.png",
+      "original_bytes": 307226,
+      "original_sha256": "7ece1e1717763d20a0caeca01b6aaa0c6da970b32495355dae909f5d7c61fdec",
+      "bytes": 307226,
+      "sha256": "7ece1e1717763d20a0caeca01b6aaa0c6da970b32495355dae909f5d7c61fdec",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/figures/generation_correlations.pdf",
+      "published": "mask-query-factorial/evidence/analysis/figures/generation_correlations.pdf",
+      "original_bytes": 33075,
+      "original_sha256": "97a7a90168e991e99ecc46b548ca19ad6221711f20413f5ecf690f837a6c3c65",
+      "bytes": 33075,
+      "sha256": "97a7a90168e991e99ecc46b548ca19ad6221711f20413f5ecf690f837a6c3c65",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/figures/generation_correlations.png",
+      "published": "mask-query-factorial/evidence/analysis/figures/generation_correlations.png",
+      "original_bytes": 498998,
+      "original_sha256": "70d821dcd21d5cf8c06f7bea335ce5abeb868ed89752558bb7f4dafd3e3d7709",
+      "bytes": 498998,
+      "sha256": "70d821dcd21d5cf8c06f7bea335ce5abeb868ed89752558bb7f4dafd3e3d7709",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/figures/primary_factorial_contrasts.pdf",
+      "published": "mask-query-factorial/evidence/analysis/figures/primary_factorial_contrasts.pdf",
+      "original_bytes": 15395,
+      "original_sha256": "18ca2e1ec17759e8db07a6ce9f124e94dfdee1436fe48f6a737a543ef7a510d6",
+      "bytes": 15395,
+      "sha256": "18ca2e1ec17759e8db07a6ce9f124e94dfdee1436fe48f6a737a543ef7a510d6",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/figures/primary_factorial_contrasts.png",
+      "published": "mask-query-factorial/evidence/analysis/figures/primary_factorial_contrasts.png",
+      "original_bytes": 152993,
+      "original_sha256": "7bc086e43b716444503f52cb1fb615cc3212e144e8da209486882340e154ac08",
+      "bytes": 152993,
+      "sha256": "7bc086e43b716444503f52cb1fb615cc3212e144e8da209486882340e154ac08",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/figures/primary_paired_seeds.pdf",
+      "published": "mask-query-factorial/evidence/analysis/figures/primary_paired_seeds.pdf",
+      "original_bytes": 20946,
+      "original_sha256": "5f6c11de9e3fe782fdb9537cc268b8a6f78b9f6eae0fa9fd77b0890fa5f51d55",
+      "bytes": 20946,
+      "sha256": "5f6c11de9e3fe782fdb9537cc268b8a6f78b9f6eae0fa9fd77b0890fa5f51d55",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/figures/primary_paired_seeds.png",
+      "published": "mask-query-factorial/evidence/analysis/figures/primary_paired_seeds.png",
+      "original_bytes": 422390,
+      "original_sha256": "759547f2ab2e03e190f730b3ff989ff40b28df6347395356ac05e43873f0c651",
+      "bytes": 422390,
+      "sha256": "759547f2ab2e03e190f730b3ff989ff40b28df6347395356ac05e43873f0c651",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/paired_contrasts.csv",
+      "published": "mask-query-factorial/evidence/analysis/paired_contrasts.csv",
+      "original_bytes": 182771,
+      "original_sha256": "e862939748a6be68789984dfcad7ff299bdf3f0da67c40e3a92f608f61ba10b8",
+      "bytes": 182771,
+      "sha256": "e862939748a6be68789984dfcad7ff299bdf3f0da67c40e3a92f608f61ba10b8",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/per_seed_metrics.csv",
+      "published": "mask-query-factorial/evidence/analysis/per_seed_metrics.csv",
+      "original_bytes": 135544,
+      "original_sha256": "5c1de4f513e299e07f5b3673cfdaa5b4387abbe379ac6d22a246d5b60d58f230",
+      "bytes": 135544,
+      "sha256": "5c1de4f513e299e07f5b3673cfdaa5b4387abbe379ac6d22a246d5b60d58f230",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/final_evidence/analysis/plot_data.npz",
+      "published": "mask-query-factorial/evidence/analysis/plot_data.npz",
+      "original_bytes": 921577,
+      "original_sha256": "b6546b224ef8612bc8ab9182ada7aa0afe53760f4d2c54ca41d52c17dea38257",
+      "bytes": 921577,
+      "sha256": "b6546b224ef8612bc8ab9182ada7aa0afe53760f4d2c54ca41d52c17dea38257",
+      "transformations": []
+    },
+    {
+      "source": "docs/research_reboot_20260921/MASK_QUERY_FACTORIAL_PROTOCOL_20260924_ZH.md",
+      "published": "mask-query-factorial/protocol/MASK_QUERY_FACTORIAL_PROTOCOL_20260924_ZH.md",
+      "original_bytes": 7709,
+      "original_sha256": "b01cb04e32b254c8095c7182714bde62bfed17558f690a5bd1ee28b37c1ba4e0",
+      "bytes": 8017,
+      "sha256": "096f171ad424be57e8c8064371fa2ea1d5abcd83ae35a5bd8d36cd21a3865569",
+      "transformations": [
+        {
+          "kind": "public-copy notice"
+        },
+        {
+          "kind": "remove redundant EOF blank lines from public Markdown copy only"
+        }
+      ]
+    },
+    {
+      "source": "artifacts/mask_query_factorial_20260924_remote/run_protocol.json",
+      "published": "mask-query-factorial/evidence/run_protocol.json",
+      "original_bytes": 12609,
+      "original_sha256": "bcd87168a398d8b6f454e875c6e943431bb6813fc2a5b15705aff8721012d77a",
+      "bytes": 12459,
+      "sha256": "6b0a25fafaa993c572e81f1c83e5f88148d7a3e3438b9c61a10ab01e5f575cf0",
+      "transformations": [
+        {
+          "kind": "machine-specific project root",
+          "count": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "receipt": "evaluation_s91001_completed_20260924_0554.tar.gz.verification.json",
+    "sha256": "69a02e76d30b892fb10c1fac5296db8fbd11e9c017ad2b4958c20258bfb7e382",
+    "result": {
+      "status": "passed",
+      "cell": "s91001_R00,s91001_R01,s91001_R10",
+      "files": 87,
+      "bytes": 5589368,
+      "sha256": "53ff9352e410430ba4f2d99704d8c36867c099a87fb5431ae30a62f077433e8d",
+      "scope": "Completed R-arm evaluations including all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_s91001_r11_20260924_0554.tar.gz.verification.json",
+    "sha256": "1bcc8aafdcc9caed764e3bd04e6565a213d95b42aab142603aee0680aacfe30b",
+    "result": {
+      "status": "passed",
+      "cell": "s91001_R11",
+      "files": 29,
+      "bytes": 1863386,
+      "sha256": "e1f34adadc7d8253c60ba035080439f5d2f2b49dc71cdb4ecb28dcfc4e91a94e",
+      "scope": "Completed R-arm evaluations including all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_s91002_r00_r01_20260924_0627.tar.gz.verification.json",
+    "sha256": "4d03e943fad0b4ec98b1ba5056c6bd3ecb48433b66a2636d7c947da223ed03a2",
+    "result": {
+      "status": "passed",
+      "cell": "s91002_R00,s91002_R01",
+      "files": 58,
+      "bytes": 3732960,
+      "sha256": "12ca29a3b95dbdcfcc8ad8bd0169b6d74645425bf9db9ff65e844aa39aaaafb3",
+      "scope": "Completed R-arm evaluations including all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_s91002_r10_r11_s91003_r00_20260924_0701.tar.gz.verification.json",
+    "sha256": "1bae5e6c3cbc3e9c148e1454a657c45121c142e71851b54bd8172f32c803be65",
+    "result": {
+      "status": "passed",
+      "cell": "s91002_R10,s91002_R11,s91003_R00",
+      "files": 87,
+      "bytes": 5594598,
+      "sha256": "1cf4c3ffb5d9144a1eb68317e2b9d8a193cd4fdacef092da9df212636edf5fd0",
+      "scope": "Completed R-arm evaluations including all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_s91003_r01_r10_20260924_0735.tar.gz.verification.json",
+    "sha256": "e46b23d21df2ba125764f01089740eb5e0b8341c6dc36cebe504f579751ac900",
+    "result": {
+      "status": "passed",
+      "cell": "s91003_R01,s91003_R10",
+      "files": 58,
+      "bytes": 3727727,
+      "sha256": "2e8274e965d3bf3981428f22ac14d6cd000aa3a4473006e7f099d7642f8f34e9",
+      "scope": "Completed R-arm evaluations including all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_s91003_r11_s91004_r00_r01_20260924_0808.tar.gz.verification.json",
+    "sha256": "a5b55b5baf9d123d4cdd7c2669b057570fc0366e308e801ffeb57d20c67e7070",
+    "result": {
+      "status": "passed",
+      "cell": "s91003_R11,s91004_R00,s91004_R01",
+      "files": 87,
+      "bytes": 5589818,
+      "sha256": "2cd0cd28752383ec97cc938e903b1b3d12754a304ea0971929a086c19f1f0b5d",
+      "scope": "Completed R-arm evaluations including all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_s91004_r10_r11_s91005_r00_20260924_0842.tar.gz.verification.json",
+    "sha256": "3ae1f4f3ef09a75b4bec9f815f214af470c20359988b71dcf6ec8415457e4e0b",
+    "result": {
+      "status": "passed",
+      "cell": "s91004_R10,s91004_R11,s91005_R00",
+      "files": 87,
+      "bytes": 5580354,
+      "sha256": "1089c4669cef28cba68330e31fee02f92cb161440b10ffbe645211ed81bb7021",
+      "scope": "Completed R-arm evaluations including all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_s91005_r01_r10_20260924_0915.tar.gz.verification.json",
+    "sha256": "0824f7ad8836ff54f9272daf3a01a17bbc8ca4412ec8c9632c3a772f90184093",
+    "result": {
+      "status": "passed",
+      "cell": "s91005_R01,s91005_R10",
+      "files": 58,
+      "bytes": 3718286,
+      "sha256": "f8fc9f6f64a4941bf6cb858a8b76a2ac4653f479319dcf4cdd77dc01c147f61f",
+      "scope": "Completed R-arm evaluations including all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_s91005_r11_s91006_r00_r01_20260924_0949.tar.gz.verification.json",
+    "sha256": "e308162b9a698f99656dc654eb2229b9c7ef7b268cfcd9f948ee16ce1cfb6b72",
+    "result": {
+      "status": "passed",
+      "cell": "s91005_R11,s91006_R00,s91006_R01",
+      "files": 87,
+      "bytes": 5578784,
+      "sha256": "54bd8673d6823d1dea64cb69df63924dc49a9a08fac9f620266010ef305bd07f",
+      "scope": "Completed R-arm evaluations including all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "evaluation_s91006_r10_r11_final_20260924.tar.gz.verification.json",
+    "sha256": "dc1bccb39a8d6f201cb183c493871351a57fff32869027a414232cf0184557d9",
+    "result": {
+      "status": "passed",
+      "cell": "s91006_R10,s91006_R11",
+      "files": 58,
+      "bytes": 3726425,
+      "sha256": "83cd39855078f0beb64abeb56c24f24fbf98e7271b88a8fc28f4334466b4f6a3",
+      "scope": "Completed R-arm evaluations including all raw conditional predictions and generation shards; not campaign completion"
+    }
+  },
+  {
+    "receipt": "final_analysis_and_audit_20260924.tar.gz.verification.json",
+    "sha256": "b397c82c0e060ddf43262cd9d57ba8619cdd54774dbecbc442cc67807b4e8837",
+    "result": {
+      "status": "passed",
+      "cell": "final_analysis_and_audit",
+      "files": 28,
+      "bytes": 15504309,
+      "sha256": "f86253369aa211b81aed8c6823bf0bc89bca3af94e69d17acb6929a81dec3db2",
+      "scope": "All final statistics, plots, log/status, preflight small evidence and final integrity snapshot; closure requires local union coverage audit and visual review."
+    }
+  },
+  {
+    "receipt": "initial_protocol_and_source_20260924.tar.gz.verification.json",
+    "sha256": "a583f2d474323f493f4fa1b8e91dad6aa28af249222f1e710e106b74de92974a",
+    "result": {
+      "status": "passed",
+      "cell": "initial_protocol",
+      "files": 59,
+      "bytes": 185023,
+      "sha256": "c4870121fb91a251918a326f834c243a80f02b8a202af19a8c1a701c01444a50",
+      "scope": "frozen protocol, cases, process identifiers, passed preflight, 53 source files; no new final checkpoint, MC, or evaluation data yet"
+    }
+  },
+  {
+    "receipt": "reference_evidence_20260924.tar.gz.verification.json",
+    "sha256": "f8710b4f0903e5c0c31b105e7bdff167c18ff03aee002e8d589ade58da7746e0",
+    "result": {
+      "status": "passed",
+      "cell": "reference_evidence_20260924",
+      "files": 11,
+      "bytes": 8921070,
+      "sha256": "0d762940ecf6c03e03f2dacdb69a884c45f5d5c736cf7d853d75a83a2e6d1b4d",
+      "scope": "All frozen evaluation reference banks: 116 triplet cases and origins, six hard-label conditional banks, three generation reference statistics and complete/hash record; no model predictions or generated samples"
+    }
+  },
+  {
+    "receipt": "reference_verification_20260924.json",
+    "sha256": "afd343474b2a527dd3b306eac4ac4fe710067dd6712b58c93e472ee4da4d6c2e",
+    "result": {
+      "status": "passed",
+      "verified_local_time_approx": "2026-09-24T02:23+08:00",
+      "manifest": "reference_manifest_20260924.json",
+      "files_checked": 4,
+      "total_bytes": 86568339,
+      "all_sha256_and_size_matched": true,
+      "mc_status": "passed",
+      "parents": 1024,
+      "seed": 2026092411,
+      "lattice_size": 1024,
+      "eight_chains_128_each_verified": true,
+      "trace_chain_alignment": true,
+      "elapsed_seconds": 3020.135246515274,
+      "max_split_rhat": 1.0097152545296368,
+      "min_chain_observable_ess": 32.153535075049625,
+      "scope": "Complete new independent evaluation MC parent configurations, chain traces, reference protocol and QA completion file. Initial campaign protocol/source backup is separately verified. No new final model checkpoints or evaluation predictions/samples are included yet.",
+      "source_modified": false,
+      "training_or_sampler_modified": false
+    }
+  },
+  {
+    "receipt": "training_s91001_91003_20260924.tar.gz.verification.json",
+    "sha256": "bf969bc85e6bd448d4ed0ded87c07608a7acdbdbf7f78c5c4ac3d976d96ae6e2",
+    "result": {
+      "status": "passed",
+      "cell": "training_s91001_91003_20260924",
+      "files": 48,
+      "bytes": 355067146,
+      "sha256": "29187d395337716b1ce6aaa5bab7befdc50a25b3b13ea7394497fd1b14264bce",
+      "scope": "Completed factorial training branches: recoverable final states, all training logs, validation history and completion records; excludes duplicate last.pt, temporary preflight weights, and not-yet-produced evaluation results"
+    }
+  },
+  {
+    "receipt": "training_s91004_91006_20260924.tar.gz.verification.json",
+    "sha256": "303477d3cf9a5664c2050d5042ec55b84051f619d65a4903cd4bdd9cbed748e5",
+    "result": {
+      "status": "passed",
+      "cell": "training_s91004_91006_20260924",
+      "files": 48,
+      "bytes": 355014005,
+      "sha256": "742f9d25e5cbc1e31a2c8c1899b37c1d75725cc41c53990908689635d994de8a",
+      "scope": "Completed factorial training branches: recoverable final states, all training logs, validation history and completion records; excludes duplicate last.pt, temporary preflight weights, and not-yet-produced evaluation results"
+    }
+  }
+]
