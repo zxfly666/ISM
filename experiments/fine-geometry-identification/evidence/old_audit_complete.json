@@ -1,0 +1,37 @@
+{
+  "status": "passed_local_independent_implementation_audit",
+  "elapsed_seconds": 55.30690956115723,
+  "frozen_source_data_files": 66,
+  "predictions": 900,
+  "max_ce_error": 4.440892098500626e-16,
+  "max_brier_error": 0.0,
+  "parent_risk_error": 2.220446049250313e-16,
+  "primary_means": [
+    -0.06604083113160912,
+    -0.008907835209918584,
+    -0.0011632025975085736
+  ],
+  "bootstrap_replay": {
+    "2": {
+      "reps_verified": 20000,
+      "max_absolute_error": 3.469446951953614e-16,
+      "full_formal_replay": true
+    },
+    "1": {
+      "reps_verified": 256,
+      "max_absolute_error": 2.220446049250313e-16,
+      "full_formal_replay": false
+    },
+    "4": {
+      "reps_verified": 256,
+      "max_absolute_error": 2.393918396847994e-16,
+      "full_formal_replay": false
+    }
+  },
+  "generation_rng_review": "single generator per shard; distinct per-image tensor draws; no shared latent draw found; model has within-image attention and LayerNorm, no BatchNorm",
+  "generation_sensitivity": "2000 each image/shard; audit only, not an amendment to original CI",
+  "limitation": "Independent code in same assistant audit; not external peer reproduction; block1/4 verify256 prefixes, block2 all20000",
+  "new_training_started": false,
+  "new_mc_started": false,
+  "evidence_package_sha256": "4f1b9049b4ab349068bf77b70930a86b1cc70e878388187874af0b2c556c8346"
+}

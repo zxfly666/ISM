@@ -1,0 +1,399 @@
+{
+  "policy": "Original evidence unchanged. Public text redactions are explicit; no numerical result changes.",
+  "files": [
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/environment.json",
+      "published": "fine-geometry-identification/evidence/environment.json",
+      "original_bytes": 271,
+      "original_sha256": "0012408753d825343e0cad4aa7e70e8624dac72c66704a8b26fce11fa9ea442e",
+      "bytes": 271,
+      "sha256": "0012408753d825343e0cad4aa7e70e8624dac72c66704a8b26fce11fa9ea442e",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/final_summary.json",
+      "published": "fine-geometry-identification/evidence/final_summary.json",
+      "original_bytes": 19301,
+      "original_sha256": "7a16fdcaeb787fc7b45d4d2c78c1faa897306e32e1ae4cf7d54aa0018004ec86",
+      "bytes": 19301,
+      "sha256": "7a16fdcaeb787fc7b45d4d2c78c1faa897306e32e1ae4cf7d54aa0018004ec86",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/manifest.json",
+      "published": "fine-geometry-identification/evidence/manifest.json",
+      "original_bytes": 278809,
+      "original_sha256": "0b7c7e8d6ed526ff267969ec84217ff51809ef08aaa430aa48bdb7359e0fb9b2",
+      "bytes": 278809,
+      "sha256": "0b7c7e8d6ed526ff267969ec84217ff51809ef08aaa430aa48bdb7359e0fb9b2",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/old_audit_complete.json",
+      "published": "fine-geometry-identification/evidence/old_audit_complete.json",
+      "original_bytes": 1410,
+      "original_sha256": "52ea152ca53d37bfb52532a72b17065c3cc911b908d989192144ae284cfd8fca",
+      "bytes": 1410,
+      "sha256": "52ea152ca53d37bfb52532a72b17065c3cc911b908d989192144ae284cfd8fca",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/run_protocol.json",
+      "published": "fine-geometry-identification/evidence/run_protocol.json",
+      "original_bytes": 17294,
+      "original_sha256": "07a787333e2188ac21f1a989038adaf12e6e83b15931a830dc9235c74e0a748b",
+      "bytes": 17294,
+      "sha256": "07a787333e2188ac21f1a989038adaf12e6e83b15931a830dc9235c74e0a748b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/conditional_point.npz",
+      "published": "fine-geometry-identification/evidence/analysis/conditional_point.npz",
+      "original_bytes": 5481718,
+      "original_sha256": "fb6e15cc30288b6ccbae20343fa00ef993d55689353b44ddbc464c65f03ebb23",
+      "bytes": 5481718,
+      "sha256": "fb6e15cc30288b6ccbae20343fa00ef993d55689353b44ddbc464c65f03ebb23",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/figure_captions.json",
+      "published": "fine-geometry-identification/evidence/analysis/figure_captions.json",
+      "original_bytes": 1480,
+      "original_sha256": "afd130ed4b11754d3a5a4b16b1df7c916ac63546d344da38926ddff865616d75",
+      "bytes": 1480,
+      "sha256": "afd130ed4b11754d3a5a4b16b1df7c916ac63546d344da38926ddff865616d75",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/generation_bootstrap_block16_image.npz",
+      "published": "fine-geometry-identification/evidence/analysis/generation_bootstrap_block16_image.npz",
+      "original_bytes": 719449,
+      "original_sha256": "1bd9c8835194c2c750f9ec44157cde6dbc456c300952936330f8e225d4478872",
+      "bytes": 719449,
+      "sha256": "1bd9c8835194c2c750f9ec44157cde6dbc456c300952936330f8e225d4478872",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/generation_bootstrap_block4_image.npz",
+      "published": "fine-geometry-identification/evidence/analysis/generation_bootstrap_block4_image.npz",
+      "original_bytes": 719065,
+      "original_sha256": "014d61826fb0865e8ffa225ecb6d794466bdf36f68ce257e071759c4a9bf5e34",
+      "bytes": 719065,
+      "sha256": "014d61826fb0865e8ffa225ecb6d794466bdf36f68ce257e071759c4a9bf5e34",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/generation_bootstrap_block8_image.npz",
+      "published": "fine-geometry-identification/evidence/analysis/generation_bootstrap_block8_image.npz",
+      "original_bytes": 1438193,
+      "original_sha256": "4e6bedd8cabe2917cf263adea09d4a4b99beea419315c5ed5188460c4c5878b8",
+      "bytes": 1438193,
+      "sha256": "4e6bedd8cabe2917cf263adea09d4a4b99beea419315c5ed5188460c4c5878b8",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/generation_bootstrap_block8_shard.npz",
+      "published": "fine-geometry-identification/evidence/analysis/generation_bootstrap_block8_shard.npz",
+      "original_bytes": 718911,
+      "original_sha256": "1d9023150fcdd88ea2233a555e04bac28be43486deb9bf08af41a0ea5a7971cc",
+      "bytes": 718911,
+      "sha256": "1d9023150fcdd88ea2233a555e04bac28be43486deb9bf08af41a0ea5a7971cc",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/generation_point.npz",
+      "published": "fine-geometry-identification/evidence/analysis/generation_point.npz",
+      "original_bytes": 1928,
+      "original_sha256": "afec7c6ab6d7ee54ed97f1822de860918f47941fc1a74f25074e8a12c1dd725f",
+      "bytes": 1928,
+      "sha256": "afec7c6ab6d7ee54ed97f1822de860918f47941fc1a74f25074e8a12c1dd725f",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/geometry_stress.pdf",
+      "published": "fine-geometry-identification/evidence/analysis/geometry_stress.pdf",
+      "original_bytes": 12888,
+      "original_sha256": "5a960a739322bb8f1e915850c0af3c5d6a3852d23908329a121abb92a3457de4",
+      "bytes": 12888,
+      "sha256": "5a960a739322bb8f1e915850c0af3c5d6a3852d23908329a121abb92a3457de4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/geometry_stress.png",
+      "published": "fine-geometry-identification/evidence/analysis/geometry_stress.png",
+      "original_bytes": 114148,
+      "original_sha256": "39379d2dbd05764373077fd3474224e1f7e954255104b269a484de2484366030",
+      "bytes": 114148,
+      "sha256": "39379d2dbd05764373077fd3474224e1f7e954255104b269a484de2484366030",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/learning_curves.pdf",
+      "published": "fine-geometry-identification/evidence/analysis/learning_curves.pdf",
+      "original_bytes": 23890,
+      "original_sha256": "bb9153ff18ce1c5e770953fa406e711e40635c189ef03569187c2ab36880eaef",
+      "bytes": 23890,
+      "sha256": "bb9153ff18ce1c5e770953fa406e711e40635c189ef03569187c2ab36880eaef",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/learning_curves.png",
+      "published": "fine-geometry-identification/evidence/analysis/learning_curves.png",
+      "original_bytes": 983226,
+      "original_sha256": "e21f4a49c6dbe055f280a949a4e5473903ac3a2b34e867046842986cc1eaaa9c",
+      "bytes": 983226,
+      "sha256": "e21f4a49c6dbe055f280a949a4e5473903ac3a2b34e867046842986cc1eaaa9c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/low_k_excess_risk.pdf",
+      "published": "fine-geometry-identification/evidence/analysis/low_k_excess_risk.pdf",
+      "original_bytes": 14173,
+      "original_sha256": "a08d46cb90a8ab4e6fa9fde0518cdca0a199f0d2e14339d327b04a3c79c3e48f",
+      "bytes": 14173,
+      "sha256": "a08d46cb90a8ab4e6fa9fde0518cdca0a199f0d2e14339d327b04a3c79c3e48f",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/low_k_excess_risk.png",
+      "published": "fine-geometry-identification/evidence/analysis/low_k_excess_risk.png",
+      "original_bytes": 135143,
+      "original_sha256": "6455dfcdf2dd65b09b86699e16b87eb069e3a2eea540d455a2bfd84a903cb3ee",
+      "bytes": 135143,
+      "sha256": "6455dfcdf2dd65b09b86699e16b87eb069e3a2eea540d455a2bfd84a903cb3ee",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/low_k_information.pdf",
+      "published": "fine-geometry-identification/evidence/analysis/low_k_information.pdf",
+      "original_bytes": 13008,
+      "original_sha256": "47c358a21c35607ccb87b857446f373541b3d67f716b2d90081a608b813b61ed",
+      "bytes": 13008,
+      "sha256": "47c358a21c35607ccb87b857446f373541b3d67f716b2d90081a608b813b61ed",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/low_k_information.png",
+      "published": "fine-geometry-identification/evidence/analysis/low_k_information.png",
+      "original_bytes": 171311,
+      "original_sha256": "115e5c61de70501922f0c41d3f2131c1adae78df8731d1cdf44c1fdafb58ddc7",
+      "bytes": 171311,
+      "sha256": "115e5c61de70501922f0c41d3f2131c1adae78df8731d1cdf44c1fdafb58ddc7",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/main_bootstrap_block16.npz",
+      "published": "fine-geometry-identification/evidence/analysis/main_bootstrap_block16.npz",
+      "original_bytes": 2662577,
+      "original_sha256": "810282498dd99bceb03584aa63f7cc6bbcff270117c74905a9ed8266c3f3b5be",
+      "bytes": 2662577,
+      "sha256": "810282498dd99bceb03584aa63f7cc6bbcff270117c74905a9ed8266c3f3b5be",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/main_bootstrap_block4.npz",
+      "published": "fine-geometry-identification/evidence/analysis/main_bootstrap_block4.npz",
+      "original_bytes": 2663016,
+      "original_sha256": "50bca5c4f880bc5c1fd140594fb57687e11257b3477ab5b5c0c2075955454a43",
+      "bytes": 2663016,
+      "sha256": "50bca5c4f880bc5c1fd140594fb57687e11257b3477ab5b5c0c2075955454a43",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/main_bootstrap_block8.npz",
+      "published": "fine-geometry-identification/evidence/analysis/main_bootstrap_block8.npz",
+      "original_bytes": 5326193,
+      "original_sha256": "4c18c5b9fec9da27b1ee1510477e21086684cce2fcd1de05c1b8d952ed1310a1",
+      "bytes": 5326193,
+      "sha256": "4c18c5b9fec9da27b1ee1510477e21086684cce2fcd1de05c1b8d952ed1310a1",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/main_bootstrap_mc_only.npz",
+      "published": "fine-geometry-identification/evidence/analysis/main_bootstrap_mc_only.npz",
+      "original_bytes": 2660552,
+      "original_sha256": "c7839a5524a199606c6e3dee93a4b03587652b2960b465178db9f5205cc2793c",
+      "bytes": 2660552,
+      "sha256": "c7839a5524a199606c6e3dee93a4b03587652b2960b465178db9f5205cc2793c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/main_bootstrap_seed_only.npz",
+      "published": "fine-geometry-identification/evidence/analysis/main_bootstrap_seed_only.npz",
+      "original_bytes": 1697965,
+      "original_sha256": "3ffc07bda35b5f15db6573127e4cc25ec717933d8c98535b24fee59fa01c69a7",
+      "bytes": 1697965,
+      "sha256": "3ffc07bda35b5f15db6573127e4cc25ec717933d8c98535b24fee59fa01c69a7",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/main_per_seed_metrics.csv",
+      "published": "fine-geometry-identification/evidence/analysis/main_per_seed_metrics.csv",
+      "original_bytes": 6192,
+      "original_sha256": "debbee00a9679bdeddb307c26b93a117c279b52b8b1854d3c4e9dc8eb593588f",
+      "bytes": 6192,
+      "sha256": "debbee00a9679bdeddb307c26b93a117c279b52b8b1854d3c4e9dc8eb593588f",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/masked_context_extension.pdf",
+      "published": "fine-geometry-identification/evidence/analysis/masked_context_extension.pdf",
+      "original_bytes": 15372,
+      "original_sha256": "1701ea1f3a703e4eb1df77dc653f21ba7f0e4c7a7fc15eb08c077efcb1a57db4",
+      "bytes": 15372,
+      "sha256": "1701ea1f3a703e4eb1df77dc653f21ba7f0e4c7a7fc15eb08c077efcb1a57db4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/masked_context_extension.png",
+      "published": "fine-geometry-identification/evidence/analysis/masked_context_extension.png",
+      "original_bytes": 154833,
+      "original_sha256": "00b44210e74d868645292188c5cf026a29d475c8672e3952c8a1e8b27e705706",
+      "bytes": 154833,
+      "sha256": "00b44210e74d868645292188c5cf026a29d475c8672e3952c8a1e8b27e705706",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/observation_regimes.pdf",
+      "published": "fine-geometry-identification/evidence/analysis/observation_regimes.pdf",
+      "original_bytes": 14321,
+      "original_sha256": "05beb0ee2080e72a3e631f334fe0522badd2b4f4fde377dc6d5bc94168f8350c",
+      "bytes": 14321,
+      "sha256": "05beb0ee2080e72a3e631f334fe0522badd2b4f4fde377dc6d5bc94168f8350c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/observation_regimes.png",
+      "published": "fine-geometry-identification/evidence/analysis/observation_regimes.png",
+      "original_bytes": 232000,
+      "original_sha256": "45271fc7ba2fbe925257526fc65ddc96b867522a548dae060c081431ce6d6d5f",
+      "bytes": 232000,
+      "sha256": "45271fc7ba2fbe925257526fc65ddc96b867522a548dae060c081431ce6d6d5f",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/padding_bootstrap_block1.npz",
+      "published": "fine-geometry-identification/evidence/analysis/padding_bootstrap_block1.npz",
+      "original_bytes": 4002693,
+      "original_sha256": "93d95f0a328b22c7713474b0604059b3eb3ebe6368c0826b111b1179f2321f07",
+      "bytes": 4002693,
+      "sha256": "93d95f0a328b22c7713474b0604059b3eb3ebe6368c0826b111b1179f2321f07",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/padding_bootstrap_block4.npz",
+      "published": "fine-geometry-identification/evidence/analysis/padding_bootstrap_block4.npz",
+      "original_bytes": 4002372,
+      "original_sha256": "650f13954d5ea82e9ca7be4ba0a9fc864ebabd8f463c32792007979cb23e0b0d",
+      "bytes": 4002372,
+      "sha256": "650f13954d5ea82e9ca7be4ba0a9fc864ebabd8f463c32792007979cb23e0b0d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/padding_point_bootstrap.npz",
+      "published": "fine-geometry-identification/evidence/analysis/padding_point_bootstrap.npz",
+      "original_bytes": 4576119,
+      "original_sha256": "175ec4e80b5e9ba5cc8f6322dac828aaa884363c4f18a53f0eadc309a00da916",
+      "bytes": 4576119,
+      "sha256": "175ec4e80b5e9ba5cc8f6322dac828aaa884363c4f18a53f0eadc309a00da916",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/plot_data.npz",
+      "published": "fine-geometry-identification/evidence/analysis/plot_data.npz",
+      "original_bytes": 30008,
+      "original_sha256": "3bab195432d9dc1cf81a6d9c707faa5b0be80959d9c181421d3930d94c6911b9",
+      "bytes": 30008,
+      "sha256": "3bab195432d9dc1cf81a6d9c707faa5b0be80959d9c181421d3930d94c6911b9",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/primary_contrasts.pdf",
+      "published": "fine-geometry-identification/evidence/analysis/primary_contrasts.pdf",
+      "original_bytes": 11597,
+      "original_sha256": "1644c5df1aeb9efa10965abeb7d09aa459d76e7004a60ebe6820ed4bdbefed87",
+      "bytes": 11597,
+      "sha256": "1644c5df1aeb9efa10965abeb7d09aa459d76e7004a60ebe6820ed4bdbefed87",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/primary_contrasts.png",
+      "published": "fine-geometry-identification/evidence/analysis/primary_contrasts.png",
+      "original_bytes": 60715,
+      "original_sha256": "5738037ed95f82e1c2a39bb0a39b74718142f190462cc0145d1ac2c1777bdb5c",
+      "bytes": 60715,
+      "sha256": "5738037ed95f82e1c2a39bb0a39b74718142f190462cc0145d1ac2c1777bdb5c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/secondary_generation.pdf",
+      "published": "fine-geometry-identification/evidence/analysis/secondary_generation.pdf",
+      "original_bytes": 24456,
+      "original_sha256": "acd6d77bdb539bd39c8609ccb0fb8192a2effb5b31b319c91edb0c17d7db39f4",
+      "bytes": 24456,
+      "sha256": "acd6d77bdb539bd39c8609ccb0fb8192a2effb5b31b319c91edb0c17d7db39f4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/secondary_generation.png",
+      "published": "fine-geometry-identification/evidence/analysis/secondary_generation.png",
+      "original_bytes": 352119,
+      "original_sha256": "f74c08e1f9c4c2ee75ee9c2e63eaa7deafff8e83bcd2100c76a9f8bee16fdaa6",
+      "bytes": 352119,
+      "sha256": "f74c08e1f9c4c2ee75ee9c2e63eaa7deafff8e83bcd2100c76a9f8bee16fdaa6",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/summary.json",
+      "published": "fine-geometry-identification/evidence/analysis/summary.json",
+      "original_bytes": 19024,
+      "original_sha256": "8dd1e2a29a137e0487cbd18fcc3ddb9f8371d0c644cc0387cd212eb7b5dae40b",
+      "bytes": 19024,
+      "sha256": "8dd1e2a29a137e0487cbd18fcc3ddb9f8371d0c644cc0387cd212eb7b5dae40b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/geometry_identification_20260926_remote/final_science_v1/analysis/timing.json",
+      "published": "fine-geometry-identification/evidence/analysis/timing.json",
+      "original_bytes": 161,
+      "original_sha256": "d5194592aab79b43d9c776ce367afad31a88d747edc73cc937db09a1016cf67c",
+      "bytes": 161,
+      "sha256": "d5194592aab79b43d9c776ce367afad31a88d747edc73cc937db09a1016cf67c",
+      "transformations": []
+    },
+    {
+      "source": "docs/research_reboot_20260921/GEOMETRY_IDENTIFICATION_PLAN_20260926_ZH.md",
+      "published": "fine-geometry-identification/protocol/GEOMETRY_IDENTIFICATION_PLAN_20260926_ZH.md",
+      "original_bytes": 31466,
+      "original_sha256": "b3b25b8631c45599987367c8cd3fdeada706627fdb30cf155dd85318c7ba4226",
+      "bytes": 31827,
+      "sha256": "b1349e5cb2a9627489c7be9a26ab87a6738e04b796f98b2d15b970091fa3390a",
+      "transformations": [
+        {
+          "kind": "backup root",
+          "count": 1
+        },
+        {
+          "kind": "machine-specific project root",
+          "count": 2
+        },
+        {
+          "kind": "historical local link rendered as source identifier",
+          "count": 5
+        },
+        {
+          "kind": "public-copy notice"
+        }
+      ]
+    },
+    {
+      "source": "docs/research_reboot_20260921/GEOMETRY_IDENTIFICATION_CONFIG_20260926.json",
+      "published": "fine-geometry-identification/protocol/GEOMETRY_IDENTIFICATION_CONFIG_20260926.json",
+      "original_bytes": 4273,
+      "original_sha256": "2db0687e57944499abbcdc53ab1ce6bf65772b3cfd1d2d62f2e0ebc37a440916",
+      "bytes": 4273,
+      "sha256": "2db0687e57944499abbcdc53ab1ce6bf65772b3cfd1d2d62f2e0ebc37a440916",
+      "transformations": []
+    }
+  ]
+}

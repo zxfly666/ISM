@@ -1,0 +1,452 @@
+[
+  {
+    "receipt": "banks_complete_v1.verification.json",
+    "sha256": "e36246f9cf9d45f35bf25dd1bba3a652384fbb1f7f4a7dea729efffbc77f6597",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\banks_complete_v1.tar.gz",
+      "archive_sha256": "983dba74d04486f2e36636b6acb23c07831f343875d20947671b5c0e059b86f0",
+      "verified_members": 38,
+      "time": 1790374811.686632
+    }
+  },
+  {
+    "receipt": "evaluation_s92601_I-F_v1.verification.json",
+    "sha256": "ad2a515be0dbecd7b080a84c3c2381760dc79e7e07cd7b94ddb57d3ccadf2f6f",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92601_I-F_v1.tar.gz",
+      "archive_sha256": "6ae7bb61989cd4f2acbe76590325eeb46c74c450e5e1ce88b54fcf61fba85463",
+      "verified_members": 58,
+      "time": 1790374812.2431364
+    }
+  },
+  {
+    "receipt": "evaluation_s92601_I-R_v1.verification.json",
+    "sha256": "d7475b050cb996a6f91937bb232ae0225d0db35968ad203c71e27929b072fd18",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92601_I-R_v1.tar.gz",
+      "archive_sha256": "54abe301e2c81e6d8fb9f434a2a9849b5caec99b4241ea08404c9f5596578a36",
+      "verified_members": 130,
+      "time": 1790380103.4755917
+    }
+  },
+  {
+    "receipt": "evaluation_s92601_I-S_v1.verification.json",
+    "sha256": "00130bc2189007dbf9db75facaace438c7ac8c94bf4622a2cff9716d2ca407b6",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92601_I-S_v1.tar.gz",
+      "archive_sha256": "2ac964af46e2e8d65117c9751c4c0a4e983798ab932f97125681b3ee50ba98a9",
+      "verified_members": 58,
+      "time": 1790374812.8888054
+    }
+  },
+  {
+    "receipt": "evaluation_s92602_I-F_v1.verification.json",
+    "sha256": "466cc2fded625754c90129833209acdc8f4a369548d9b47ce8710df8c94a8695",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92602_I-F_v1.tar.gz",
+      "archive_sha256": "cf88dd862ed202706edfcc3d52c2d6e12de16f5ee72cde38aaf6e80b9347a341",
+      "verified_members": 58,
+      "time": 1790380104.1302106
+    }
+  },
+  {
+    "receipt": "evaluation_s92602_I-R_v1.verification.json",
+    "sha256": "e04c77294e3c59b998cdb04b52349bddcea1d8da94c45f1bad7aff3d24014e52",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92602_I-R_v1.tar.gz",
+      "archive_sha256": "94fd0684d1c32500887b0002a7aa3b3d60f4c626fc66f332be927803563f63a4",
+      "verified_members": 130,
+      "time": 1790380105.6035254
+    }
+  },
+  {
+    "receipt": "evaluation_s92602_I-S_v1.verification.json",
+    "sha256": "4dd6e3d8c49837a3712866655b4e796ef07cc2ddc170ff588b977da53a4cfa92",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92602_I-S_v1.tar.gz",
+      "archive_sha256": "a9b90699ad5a896546a083e77654535e0b3eb76dd61b3b5a4abe26f9942e213a",
+      "verified_members": 58,
+      "time": 1790380104.6747723
+    }
+  },
+  {
+    "receipt": "evaluation_s92603_I-F_v1.verification.json",
+    "sha256": "0cec79c606a754de37d65ce826fa0b83fbc84d3657ce6342d08ad6bf18985697",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92603_I-F_v1.tar.gz",
+      "archive_sha256": "05bffdf026bc1b6dd3cea5076a447b74a4b23228b1ebe60a3e743a6e76f837d5",
+      "verified_members": 58,
+      "time": 1790380106.2627237
+    }
+  },
+  {
+    "receipt": "evaluation_s92603_I-R_v1.verification.json",
+    "sha256": "97088ab6b8ec953605fcffd73869a4796f1ff68634973c50d711815b83f02944",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92603_I-R_v1.tar.gz",
+      "archive_sha256": "c964c4f2f121c831d02fd1e2b8c9f6cae7ef35c816b317dc7118193b4fa70a85",
+      "verified_members": 130,
+      "time": 1790380107.762058
+    }
+  },
+  {
+    "receipt": "evaluation_s92603_I-S_v1.verification.json",
+    "sha256": "ae9b8922d962d934423883947ff5a0cad09782d190296cfcfba55ba5cce72b27",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92603_I-S_v1.tar.gz",
+      "archive_sha256": "4d34c5d27b5881bf83c0c63b637746800d0eb6c51bdc0dd52933f6d72f56829b",
+      "verified_members": 58,
+      "time": 1790380106.8484106
+    }
+  },
+  {
+    "receipt": "evaluation_s92604_I-F_v1.verification.json",
+    "sha256": "494961d6afcf21f7cc4ac96fe05999d6b22daacb1f389b8dd00b45eaf7496cf4",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92604_I-F_v1.tar.gz",
+      "archive_sha256": "a501de9b5e643b0932f093af963cba3aba0ead9493fbb909e2831fa694f0b328",
+      "verified_members": 58,
+      "time": 1790381643.4852915
+    }
+  },
+  {
+    "receipt": "evaluation_s92604_I-R_v1.verification.json",
+    "sha256": "d50bca241e3e97d2e3238162c91f987c4933de3d775a53e31b5b2ba96016e3d3",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92604_I-R_v1.tar.gz",
+      "archive_sha256": "00f3b730448a5211c299bebc3cfe37f780189299541ad1db6b3f32ad8a31d102",
+      "verified_members": 130,
+      "time": 1790383497.198555
+    }
+  },
+  {
+    "receipt": "evaluation_s92604_I-S_v1.verification.json",
+    "sha256": "9b62a7ecb5e146d367cc3531577794fd3d1a18a5e86e219ca882f6257e5114da",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92604_I-S_v1.tar.gz",
+      "archive_sha256": "446579f933cb3644330ee59861199c2b407fcc062d6493611a430adb961fde39",
+      "verified_members": 58,
+      "time": 1790381644.089019
+    }
+  },
+  {
+    "receipt": "evaluation_s92605_I-F_v1.verification.json",
+    "sha256": "a7a58427aba4fbe0dc40dd4d1a660f69a8371adbbd572d59dee62835e163ce7f",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92605_I-F_v1.tar.gz",
+      "archive_sha256": "8cb834a75a3b0417afdfec11f92e8a148534a49ce0b6c723909e2f79841d4618",
+      "verified_members": 58,
+      "time": 1790383497.6915228
+    }
+  },
+  {
+    "receipt": "evaluation_s92605_I-R_v1.verification.json",
+    "sha256": "129f04bdbb5e664da4dc92451ac78b8c0d99dff7249c378d047bf2494a132616",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92605_I-R_v1.tar.gz",
+      "archive_sha256": "35ac7dd17601ccbd47b4ec724effd1b048f60cf1a564b9e2868682ab87687006",
+      "verified_members": 130,
+      "time": 1790385287.959284
+    }
+  },
+  {
+    "receipt": "evaluation_s92605_I-S_v1.verification.json",
+    "sha256": "d04d6431f1b486f7ab3a75ab5daec1e4e59082475750c0a0e5543206a78a086f",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92605_I-S_v1.tar.gz",
+      "archive_sha256": "6574eb189e7f85d8c40349c4eabbb688dd1acb70391f3c96825e6e1cb25d3e1a",
+      "verified_members": 58,
+      "time": 1790383498.181406
+    }
+  },
+  {
+    "receipt": "evaluation_s92606_I-F_v1.verification.json",
+    "sha256": "9c5fac9958a4cd25f07f6308a24be0ec3c116f659ec6a9d44fde11cd9021da94",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92606_I-F_v1.tar.gz",
+      "archive_sha256": "740ef935425ccef2c808e6beb361803d1db82ed2ee290094da5fa483cc3bd200",
+      "verified_members": 58,
+      "time": 1790385288.4789903
+    }
+  },
+  {
+    "receipt": "evaluation_s92606_I-R_v1.verification.json",
+    "sha256": "ad90df71e1c567b54edcc9eb74289ea20339c61369e8c31fa17cfae5297682b7",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92606_I-R_v1.tar.gz",
+      "archive_sha256": "08ccf1de56ccbf90297da18e1b0dd83823276129d4cf5e170467d4abf2a82afb",
+      "verified_members": 130,
+      "time": 1790387155.2066772
+    }
+  },
+  {
+    "receipt": "evaluation_s92606_I-S_v1.verification.json",
+    "sha256": "1dc2c9e71aba29940b4b1ef3b6a83fee882c223fe0366c5b1cd6a7c76bc93a1e",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\evaluation_s92606_I-S_v1.tar.gz",
+      "archive_sha256": "919afe0b0391978d8c2ff8ec63e61b88e532592f95dd8ac14a98b0153a8d10a5",
+      "verified_members": 58,
+      "time": 1790385288.9814487
+    }
+  },
+  {
+    "receipt": "final_complete_v1.verification.json",
+    "sha256": "a3b1c7a6acd6fd3a77c77e473f453e96e4d516e4b16c2b49151c030c2fd4d1b0",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\final_complete_v1.tar.gz",
+      "archive_sha256": "c024b737a5d705c23ff778dbfb53ec0415db97375d08eb38c1c1275f9369baf5",
+      "verified_members": 70,
+      "time": 1790387156.4162254
+    }
+  },
+  {
+    "receipt": "initial_source_protocol_preflight_v1.verification.json",
+    "sha256": "18729e240129de83aac43725f92d2277c0c66b7ff0b3e4134cd2751407be81af",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\initial_source_protocol_preflight_v1.tar.gz",
+      "archive_sha256": "84eeecf4beed161d7b7daae7ad972e8f448f7d5bf702312e8381bd20684d8609",
+      "verified_members": 1694,
+      "time": 1790361522.127407
+    }
+  },
+  {
+    "receipt": "reference_complete_v1.verification.json",
+    "sha256": "48f0b34ef0479576b1c79283ffcf74f6ec73ddc4b946b45cf2e7ed1c1fb600ff",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\reference_complete_v1.tar.gz",
+      "archive_sha256": "3c08c38210c14c51d9d87f44812dea9ea43e9fd1eb0ba5f366f519c3c0aadf58",
+      "verified_members": 7,
+      "time": 1790367274.3823233
+    }
+  },
+  {
+    "receipt": "review_evidence_complete_v2.verification.json",
+    "sha256": "5302a37d557c4c2cc8513fbc76a9d6b7b3a48f1db16a662c1a9953eecbdb0fb1",
+    "result": {
+      "status": "passed",
+      "sha256": "3cbf4f4ca45ba92acc1d2ea473cdffe126910d3ebc858d567448786503df0c93",
+      "members": 204,
+      "time": 1790361149.6586199
+    }
+  },
+  {
+    "receipt": "training_s92601_I-F_v1.verification.json",
+    "sha256": "728d642fb8177fdeb08cae7bd4762b9574d3b7a2b9dd6cafa4fc91ea25c374cd",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92601_I-F_v1.tar.gz",
+      "archive_sha256": "089c5a2f9707b07c1d916aef8cd2f57e9869bf53a0fbe8ea581132dbac737e34",
+      "verified_members": 10,
+      "time": 1790372658.0436413
+    }
+  },
+  {
+    "receipt": "training_s92601_I-R_v1.verification.json",
+    "sha256": "317c4200057fd82c85bbf007c275b41602967e3751579e063d6a8dfb702e16a8",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92601_I-R_v1.tar.gz",
+      "archive_sha256": "13952b8a65efd2fd13522a4bf8333739b4e29c43fbd7e81230da4a738f616ebf",
+      "verified_members": 10,
+      "time": 1790372659.8797011
+    }
+  },
+  {
+    "receipt": "training_s92601_I-S_v1.verification.json",
+    "sha256": "bd832e6dd80380a42e641b448b07fa2eff5db6324fe6585807e2ca7bbe258dcb",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92601_I-S_v1.tar.gz",
+      "archive_sha256": "d02889a42b4a5b806c311513165983d26e5d4e21b72815551c98f1615aee023c",
+      "verified_members": 10,
+      "time": 1790372658.9698813
+    }
+  },
+  {
+    "receipt": "training_s92602_I-F_v1.verification.json",
+    "sha256": "5db21bc4b559001367cbaa07657414c56d8bd9cf3ceb97a1cff80fc5ce17cf80",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92602_I-F_v1.tar.gz",
+      "archive_sha256": "c8f2e78e3c5dda6159ab161e15d8b2def1947bf0e6e1777bf5c58980af394857",
+      "verified_members": 10,
+      "time": 1790372660.7235835
+    }
+  },
+  {
+    "receipt": "training_s92602_I-R_v1.verification.json",
+    "sha256": "c12ece55ccb507d3822a481cb1439945c8a6e2fbd36c696e35c8f9ed5604fdc8",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92602_I-R_v1.tar.gz",
+      "archive_sha256": "a3907c84071d7695ff10a865cd92197ae1f043c3a541a801b8eccdacda5f10f0",
+      "verified_members": 10,
+      "time": 1790374800.5419827
+    }
+  },
+  {
+    "receipt": "training_s92602_I-S_v1.verification.json",
+    "sha256": "2ee10c44ab9bef665ce7a58b2f269b2148245f29b0772f6b90cf12af6365ba0e",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92602_I-S_v1.tar.gz",
+      "archive_sha256": "e046c5220ff223fae6d0b7587d0c47802d47e56dd9227c12d0d7f65fb9b1f29a",
+      "verified_members": 10,
+      "time": 1790374799.602553
+    }
+  },
+  {
+    "receipt": "training_s92603_I-F_v1.verification.json",
+    "sha256": "d53a60170b7270241c3cd45ef6d3b9585669481c58fdef90a220a412421e93ea",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92603_I-F_v1.tar.gz",
+      "archive_sha256": "cd65df1a855f80dc82b46d15e7945f7b03b010cca5c5a0d351e49b75e29dcfc9",
+      "verified_members": 10,
+      "time": 1790374801.361165
+    }
+  },
+  {
+    "receipt": "training_s92603_I-R_v1.verification.json",
+    "sha256": "e383e63b88e11a9f483692cbfce42ac675f01805b48308b22a2c7308405b3385",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92603_I-R_v1.tar.gz",
+      "archive_sha256": "8854ac3bddeca133ffcc102c75e9a80c75b19b1f18dbb0f2ccd172a6ca7efb6d",
+      "verified_members": 10,
+      "time": 1790374803.0997117
+    }
+  },
+  {
+    "receipt": "training_s92603_I-S_v1.verification.json",
+    "sha256": "2864243daf4fcc6391384272c85ef6f975efeefcbbe0cdf4cdf34578390128de",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92603_I-S_v1.tar.gz",
+      "archive_sha256": "5b5e68ec931445dc572bbcf3a776da5c845ac3e9016cdec97fac8a175c370b41",
+      "verified_members": 10,
+      "time": 1790374802.2420754
+    }
+  },
+  {
+    "receipt": "training_s92604_I-F_v1.verification.json",
+    "sha256": "ccfa819668f760856d6e1c2013a04b7876ae2f2df628cec7dc1b927f3d07d6b9",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92604_I-F_v1.tar.gz",
+      "archive_sha256": "9721749f485f26fc497d78cfc381c3d766c160bc2754d60c16c8d5fa60d35ac7",
+      "verified_members": 10,
+      "time": 1790374804.0243435
+    }
+  },
+  {
+    "receipt": "training_s92604_I-R_v1.verification.json",
+    "sha256": "24db38dc16cb34b69764dcc672331623c4a293bcc5f490d09b247c4204a9c004",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92604_I-R_v1.tar.gz",
+      "archive_sha256": "b81a29ed8687bc1cd2f38c74ba91cfdd52aaba224dc702ff415c481ae372c788",
+      "verified_members": 10,
+      "time": 1790374805.7515306
+    }
+  },
+  {
+    "receipt": "training_s92604_I-S_v1.verification.json",
+    "sha256": "937430cfbc7b6192371f0d01b78da67c06cf48ce64295220b8765adea8d486db",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92604_I-S_v1.tar.gz",
+      "archive_sha256": "7e60c8e27b50127dbf96fdd38f0e70a86e22279bc569d2e5fa9f4dc02d4f5332",
+      "verified_members": 10,
+      "time": 1790374804.9004676
+    }
+  },
+  {
+    "receipt": "training_s92605_I-F_v1.verification.json",
+    "sha256": "828f686fc65f711f26e842a392068d069b2b010bc2509a33005866a7073cf386",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92605_I-F_v1.tar.gz",
+      "archive_sha256": "84fddd89aae5cc1b8bc9e35f08b448eb42c69ff32c3f2d1f67ff68bcee9f4878",
+      "verified_members": 10,
+      "time": 1790374806.676084
+    }
+  },
+  {
+    "receipt": "training_s92605_I-R_v1.verification.json",
+    "sha256": "076e913266c23c9a506e1ea96d8b351d59004785f1d40ec184191f477ca40327",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92605_I-R_v1.tar.gz",
+      "archive_sha256": "e6f36313b148ec429946418d4e4278b89ca4e168aaa4bceeab28570031c2998e",
+      "verified_members": 10,
+      "time": 1790374808.397148
+    }
+  },
+  {
+    "receipt": "training_s92605_I-S_v1.verification.json",
+    "sha256": "8861202f8ae885f441e0f77e4c4db72e5e020a8f69b624e517faad522134383d",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92605_I-S_v1.tar.gz",
+      "archive_sha256": "01d0abc16fcf17e3b48979a7d70ffa012489ebeebd93ca883e8d0d62c3e3a3da",
+      "verified_members": 10,
+      "time": 1790374807.5247285
+    }
+  },
+  {
+    "receipt": "training_s92606_I-F_v1.verification.json",
+    "sha256": "b9fe796eb751a56390a96edc3b5a45a8f7d1f8fd58c1cbca90766b60a81eacbe",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92606_I-F_v1.tar.gz",
+      "archive_sha256": "453f6a70b30abf3cef9ff80dba22f83f0c521ffbb3e90c5a86d20eb189ce955e",
+      "verified_members": 10,
+      "time": 1790374809.290337
+    }
+  },
+  {
+    "receipt": "training_s92606_I-R_v1.verification.json",
+    "sha256": "31f128e0fb0ba93de45688d670e7f4e0dae4e188c92ba1ec52b56e16ca8b1c70",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92606_I-R_v1.tar.gz",
+      "archive_sha256": "9d19f343a30ea982505303754aec34bd31f367e44b140cdda20e4b4c2f445c96",
+      "verified_members": 10,
+      "time": 1790374811.0204468
+    }
+  },
+  {
+    "receipt": "training_s92606_I-S_v1.verification.json",
+    "sha256": "c3ef27cb067d4fcd2a1b0b63e8e5d006d922b379e575c50fcd4aa25d22393ac5",
+    "result": {
+      "status": "passed",
+      "archive": "D:\\ISM_research_backups\\20260926_geometry_identification\\training_s92606_I-S_v1.tar.gz",
+      "archive_sha256": "1e7c20ea7bac10803e6d8f6d1ec7098b122d41e80228b6e25df98fa8dd5059a0",
+      "verified_members": 10,
+      "time": 1790374810.151163
+    }
+  }
+]

@@ -1,0 +1,459 @@
+{
+  "study": "geometry_identification_20260926",
+  "config": {
+    "study": "geometry_identification_20260926",
+    "design_version": 1,
+    "status": "design_only_not_implemented_not_preflighted_not_authorized_to_start",
+    "protocol": "GEOMETRY_IDENTIFICATION_PLAN_20260926_ZH.md",
+    "arms": [
+      "I-F",
+      "I-S",
+      "I-R"
+    ],
+    "training_seeds": [
+      92601,
+      92602,
+      92603,
+      92604,
+      92605,
+      92606
+    ],
+    "fresh_initialization": true,
+    "steps": 12000,
+    "tokens_per_update": 18432,
+    "widths": [
+      16,
+      24,
+      32,
+      48
+    ],
+    "sparse_update_fraction": 0.25,
+    "sparse_queries_per_update": 512,
+    "sparse_training_ks": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "mc": {
+      "seed": 2026092611,
+      "chains": 16,
+      "parents_per_chain": 128,
+      "lattice_size": 1024,
+      "workers": 4,
+      "initial_states": {
+        "random": 8,
+        "plus": 4,
+        "minus": 4
+      },
+      "burn_in_sweeps": 40,
+      "sweeps_between": 4,
+      "adaptation_sweeps": 3,
+      "pilot_cluster_steps": 128,
+      "qa_max_split_rhat": 1.1,
+      "qa_min_per_chain_ess": 16
+    },
+    "role_seeds": {
+      "evaluation": 2026092621,
+      "low_k": 2026092631,
+      "generation": 2026092641,
+      "bootstrap": 2026092651
+    },
+    "conditional_geometries": [
+      {
+        "name": "C48",
+        "width": 48,
+        "kind": "continuous",
+        "parents": 256,
+        "ks": [
+          2,
+          8,
+          32,
+          128,
+          512,
+          1152,
+          115
+        ]
+      },
+      {
+        "name": "U48",
+        "width": 48,
+        "kind": "train_gap",
+        "parents": 256,
+        "ks": [
+          2,
+          8,
+          32,
+          128,
+          512,
+          1152
+        ]
+      },
+      {
+        "name": "H48",
+        "width": 48,
+        "kind": "held_gap",
+        "parents": 2048,
+        "ks": [
+          2,
+          8,
+          32,
+          128,
+          512,
+          1152
+        ]
+      },
+      {
+        "name": "B48",
+        "width": 48,
+        "kind": "clustered_held_gap",
+        "parents": 256,
+        "ks": [
+          2,
+          8,
+          32,
+          128,
+          512,
+          1152
+        ]
+      },
+      {
+        "name": "C96",
+        "width": 96,
+        "kind": "continuous",
+        "parents": 256,
+        "ks": [
+          2,
+          8,
+          32,
+          128,
+          512,
+          4608
+        ]
+      },
+      {
+        "name": "H96",
+        "width": 96,
+        "kind": "held_gap",
+        "parents": 256,
+        "ks": [
+          2,
+          8,
+          32,
+          128,
+          512,
+          4608
+        ]
+      }
+    ],
+    "queries_per_parent": 64,
+    "random_coordinates": {
+      "train_replicates": 1,
+      "evaluation_replicates_noncontinuous": 4,
+      "continuous_cached": true,
+      "average_loss_not_probability": true
+    },
+    "primary": [
+      {
+        "name": "P1",
+        "geometry": "H48",
+        "k": 512,
+        "left": "I-F",
+        "right": "I-S",
+        "metric": "CE"
+      },
+      {
+        "name": "P2",
+        "geometry": "H48",
+        "k": 512,
+        "left": "I-F",
+        "right": "I-R",
+        "metric": "CE"
+      }
+    ],
+    "primary_ci": 0.975,
+    "supplementary_ci": 0.95,
+    "practical_ce_difference": -0.002,
+    "target_primary_bootstrap_sd": 0.0005,
+    "bootstrap": {
+      "primary_reps": 20000,
+      "primary_block": 8,
+      "primary_sensitivity_blocks": [
+        4,
+        16
+      ],
+      "sensitivity_reps": 10000,
+      "secondary_subset_block": 2,
+      "secondary_subset_sensitivity_blocks": [
+        1,
+        4
+      ]
+    },
+    "low_k": {
+      "layout_pairs": {
+        "train": 32,
+        "held": 32,
+        "negative_train": 8,
+        "negative_held": 8
+      },
+      "translations_per_parent": 256,
+      "query": [
+        23,
+        22
+      ],
+      "visible1": [
+        23,
+        23
+      ],
+      "visible2": [
+        23,
+        25
+      ],
+      "swap_gap_indices": [
+        22,
+        23
+      ],
+      "negative_swap_gap_indices": [
+        2,
+        3
+      ],
+      "symbol_conditions_per_layout": 6,
+      "min_mixture_visible_pattern_probability_for_conditional_interpretation": 0.01
+    },
+    "padding": {
+      "parents": 256,
+      "ks": [
+        2,
+        32,
+        512
+      ],
+      "queries": 64,
+      "small_width": 48,
+      "large_width": 96,
+      "offset": 24,
+      "views": [
+        "small_natural",
+        "large_fixed_clock",
+        "large_natural_clock"
+      ]
+    },
+    "generation": {
+      "width": 96,
+      "samples_per_model": 128,
+      "shard_size": 16,
+      "sampler": "S0_cos_squared",
+      "steps": 256,
+      "temperature": 1,
+      "mc_correction": false,
+      "bootstrap_sampling_unit": "image_after_independence_audit",
+      "bootstrap_reps": 10000
+    },
+    "budget": {
+      "hard_seconds": 43200,
+      "launch_gate_seconds": 41400,
+      "safety_multiplier": 1.2,
+      "statistics_reserve_seconds": 2700,
+      "historical_speed_is_not_preflight": true
+    },
+    "historical_timing": {
+      "source": "G_preflight_authorized12h_v3_envfix_only",
+      "training_six_fine_models_seconds": 4082.031992090669,
+      "training_six_span_models_seconds": 4090.8767681573186,
+      "prediction_seconds_per_parent": {
+        "48": 0.007996577536687255,
+        "96": 0.028988261241465807
+      },
+      "generation_shard_seconds": 33.51128119137138,
+      "random_arm_training_speed_unmeasured": true
+    },
+    "expected_counts": {
+      "models": 18,
+      "training_updates": 216000,
+      "windows_per_model": 390000,
+      "mc_parents": 2048,
+      "banks": 37,
+      "model_bank_cells": 666,
+      "prediction_files": 1098,
+      "prediction_files_w48": 774,
+      "prediction_files_w96": 324,
+      "conditional_parent_forwards": 668160,
+      "low_k_layout_pairs": 80,
+      "low_k_input_forwards": 34560,
+      "padding_cells": 162,
+      "generation_images": 2304,
+      "generation_shards": 144
+    },
+    "no_gpu_or_mc_launched": true,
+    "no_automation_created": true
+  },
+  "started": 1790361111.2455003,
+  "deadline": 1790404311.2455003,
+  "launch_predicted_seconds": 40972.0672852993,
+  "cell_order": [
+    [
+      92601,
+      "I-F"
+    ],
+    [
+      92601,
+      "I-S"
+    ],
+    [
+      92601,
+      "I-R"
+    ],
+    [
+      92602,
+      "I-F"
+    ],
+    [
+      92602,
+      "I-S"
+    ],
+    [
+      92602,
+      "I-R"
+    ],
+    [
+      92603,
+      "I-F"
+    ],
+    [
+      92603,
+      "I-S"
+    ],
+    [
+      92603,
+      "I-R"
+    ],
+    [
+      92604,
+      "I-F"
+    ],
+    [
+      92604,
+      "I-S"
+    ],
+    [
+      92604,
+      "I-R"
+    ],
+    [
+      92605,
+      "I-F"
+    ],
+    [
+      92605,
+      "I-S"
+    ],
+    [
+      92605,
+      "I-R"
+    ],
+    [
+      92606,
+      "I-F"
+    ],
+    [
+      92606,
+      "I-S"
+    ],
+    [
+      92606,
+      "I-R"
+    ]
+  ],
+  "files": {
+    "data/level1/parents_l1024.npz": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934",
+    "docs/research_reboot_20260921/GEOMETRY_IDENTIFICATION_AUTHORIZATION_20260926_ZH.md": "ea497da7b09bc3b887a903bb0397a3d0ac8797fcaf35339d5705ca3b1922cb93",
+    "docs/research_reboot_20260921/GEOMETRY_IDENTIFICATION_CONFIG_20260926.json": "2db0687e57944499abbcdc53ab1ce6bf65772b3cfd1d2d62f2e0ebc37a440916",
+    "docs/research_reboot_20260921/GEOMETRY_IDENTIFICATION_PLAN_20260926_ZH.md": "b3b25b8631c45599987367c8cd3fdeada706627fdb30cf155dd85318c7ba4226",
+    "ism_diffusion/__init__.py": "af8f1667470d1082432f9efedb939320ce648c62e458666c39f68f003b6b13c3",
+    "ism_diffusion/context_repair_core.py": "58effac6a4ccdd1a81606f4d8395828c0a12b4ff3909fc8283cf60fdd4747703",
+    "ism_diffusion/diagnostics.py": "2c87206dcec2ff9dfbd897c4b2c57bddf66d3bdf242404bd74682ead6c986384",
+    "ism_diffusion/diffusion.py": "a70286a41302539b945c8e1bf11a6ca33e9b3475b95dbf4ee1acd79e05b99655",
+    "ism_diffusion/geometry_study.py": "f96f3d816453d532fb454355cbd0c50f42b00352c9b37886a8ca6b67aa16e490",
+    "ism_diffusion/ising.py": "657b9e526eaaf6d242d3c89bb5c4cebefa1a5e7879b4a2a4ebef1c2ff4be60f3",
+    "ism_diffusion/ising_numba.py": "918dbe97f568af52789bca3d6a59d5e42c05a0930831a5007f5844b46c6d0a8c",
+    "ism_diffusion/metrics.py": "0c148f86281e76e0f28700c1f5198cfd6b2eeeb10d4a554fb3d2cb5c3353ddfe",
+    "ism_diffusion/model.py": "f0ba3e8a9ab00afc143c66c5f1c8b6e37981801cf405f15fb67baea36686c1b9",
+    "ism_diffusion/scale_data.py": "148ee296c20cd1ae3ebceb6d12a1bd8cb4df76d679e7cf105d3c2df09d7734b3",
+    "ism_diffusion/scale_diffusion.py": "6bf4575fe6358dffa74cb6c4bd077eb69120ad6c8edaf9dbf0fc43f615c21f74",
+    "ism_diffusion/scale_evaluation.py": "ed5204a2d220b451278e9916b66a3a37fbb08ac8f3bf2e87d2e9a9a98d27bd7d",
+    "ism_diffusion/scale_model.py": "3930e9a2ec1ac85edaa525b9562beb21c7a001594dba23726f233a0b9d3d6018",
+    "ism_diffusion/stage2_data.py": "db8361ed43a9dc777bf2b1fd62b966b02c54d8160f69acaca646cd79c75b0765",
+    "ism_diffusion/stage2_model.py": "f5db55eacedfaa7272f3dacb97a4dbbbeae4fe57a6fb89b5ee2d89b00564515d",
+    "ism_diffusion/stage2_sampling.py": "6723fe70c220fedcdc7d2ce024f28fc13eac0446984482fd8a0c93c71280f5b4",
+    "scripts/research20260921/adaptive_repair_evaluation.py": "d24047ff19f897ae3793ab70e489595b9e5fede49c952f4dbdac4da748428f06",
+    "scripts/research20260921/adaptive_trajectory_diagnostics.py": "fd41ef4ec01aa54bc0021f9724b4cd7c81fdf5989f88704910f2e7dd8358bf5b",
+    "scripts/research20260921/analyze_fixed_geometry_joint_20260923.py": "a0fa4d12898d053424326acac8a4b0d14656e411baa153507ca6cc49c289669e",
+    "scripts/research20260921/backup_completed_evaluation.py": "9084db7333c54b06170a794b711cc9f393901f68832df5d0cd044068acf83fd5",
+    "scripts/research20260921/core_geometry_factorial_analysis.py": "064d5d8bc5c1fd49b7b6fd3fd882bf2043f89e822dc093835037fa0c2c88062a",
+    "scripts/research20260921/core_geometry_factorial_data.py": "3c28109f87e963a5b81f425346c658509cc93c1bcb6ce7090f0d382c7c35e754",
+    "scripts/research20260921/core_geometry_factorial_design.py": "7ec225f09a5fca99cd4246d630007f4112ece3478015fa0c417432e3e273e081",
+    "scripts/research20260921/core_geometry_factorial_statistics.py": "934dd0e7f9e219319a75698447e9c5be8d2540381e643545b47cf26d4f4ef073",
+    "scripts/research20260921/core_geometry_factorial_training.py": "3a572b2661dedeaeec59191f6cffdd3ce541f0297cf29993e9c7f914fc21cae1",
+    "scripts/research20260921/diagnostic_math.py": "6c2c1fc5145fb022f8148448b30434df24f0dad3beb316ddd4e4e060f3d636d6",
+    "scripts/research20260921/evaluate_mask_query_factorial_20260924.py": "d5a47432c364a7b6c71d17ca13f14421e95aedace8fa5562c5d65ac0dfce6011",
+    "scripts/research20260921/evaluate_sparse_conditioning_20260923.py": "3a682b1a8a8fe31908c9f8c39c75ac1aa779786b93bd509541a9922ec17d475f",
+    "scripts/research20260921/evaluate_study.py": "0e1269745c32092ec53527fafd5944aab3d73270fc7b5ec9fa2e4f0c0943c799",
+    "scripts/research20260921/export_adaptive_final_evidence.py": "922ef100aad76a97b22a084a9aad6cc55f130cb822e856cc7f243cadffa91309",
+    "scripts/research20260921/finalize_adaptive_campaign.py": "b01796095e66f7a5711f707708475c6147c6bb1f95f6e50f9c9b632a316cefb8",
+    "scripts/research20260921/finalize_mask_query_factorial_20260924.py": "1e93aa0e76215a81c9d3db16b607e906018b6d1d674ab50297e871aa547ad084",
+    "scripts/research20260921/finalize_sparse_conditioning_20260923.py": "5e46cdff92a6a7779a15c3fd359b6ee6f10f8075363bd16116b1ac4e239cae53",
+    "scripts/research20260921/fixed_geometry_math.py": "60125981d25c79c8e4e873bc999f30b763b6f1affb32a30a9de226910fea9708",
+    "scripts/research20260921/generate_adaptive_reference.py": "dcb765e403a92b3c50b201c98f7566ae7c1162716dd7d38231781fe9314737aa",
+    "scripts/research20260921/inspect_adaptive_campaign.py": "c232bf244c4df5ded21ec7ad87cf932e82e1e970c2289242291e14b2910ff8e0",
+    "scripts/research20260921/mask_query_factorial_core.py": "78a9412da0b2fcb5031a35ace0002dbfcab81c1f8e1cc93c62d632f9ed3b3fbb",
+    "scripts/research20260921/mask_query_factorial_design.py": "e633c191714e7b0c392bfe4045609b958c18810109154288e419b510aec3c9ec",
+    "scripts/research20260921/mechanism_design.py": "fe9bdde7af32091b0976cac98839173eea87244d48febf077f281b54ca0b0d7a",
+    "scripts/research20260921/preflight.py": "fc36a992cc0077a4de22776ac86c24dd4702be96e631d8cf14df1c222447eb77",
+    "scripts/research20260921/preflight_core_geometry_authorized12h_v3.py": "cf9e91485deca1484fc5ed6dc5402a66d6eb4d34de170b4fa1d61d73f573229b",
+    "scripts/research20260921/preflight_core_geometry_buffered_v2.py": "e8c0923cda8789acc000c1c98bdf1681f4bd4c957a72d1062397eeb897e91d7a",
+    "scripts/research20260921/preflight_core_geometry_factorial_20260925.py": "3b2187ac74b48a684355cc4180d90bc0258a6cc6913a1fd135dc1cb38645e955",
+    "scripts/research20260921/preflight_sparse_conditioning.py": "3a51da86617b192674c68a2a35fcd385f8d2fc7a4665b9a59acadb3d8454acb5",
+    "scripts/research20260921/prepare_mask_query_reference_20260924.py": "e94e29fd4ae046a8e55f6ff3c3aab2f0199d5a2a5553a08c41342286d3bc1263",
+    "scripts/research20260921/prepare_sparse_conditioning_data.py": "5c94b02f0eae1c71a5a66d888112288abc93285a5a641fa1355de5419a552307",
+    "scripts/research20260921/run_adaptive_repair_20260922.py": "e0d22b41bb45724b22bfbc86c37db8a5aae1829543c330b1e6ab41c3b879f68a",
+    "scripts/research20260921/run_capacity_20260922.py": "4da4939007dca69e20372e2e5f22898230d13db92b94125a6948bd9d241cb16a",
+    "scripts/research20260921/run_core_geometry_factorial_20260925.py": "86a7955706aa4afdb8facad5451b6ea99b95e03aaff8d84ad4d1d6e8cbe003e2",
+    "scripts/research20260921/run_existing_diagnostics.py": "be1ee2194b38f3f5d87bfac1699b317909fe785eea836baf07031c6e0482ede5",
+    "scripts/research20260921/run_fixed_geometry_joint_20260923.py": "7e1f56068fc82f3638c8ec642ecb4c223a4c9ccd6711e63ec0c1ccfd4d6c7a6c",
+    "scripts/research20260921/run_generation_bridge_20260924.py": "037c55415ed87e8da0cddc8b062398a3a4288ee8c70d2ea6f0f0b02570d8d15d",
+    "scripts/research20260921/run_mask_query_factorial_20260924.py": "dd0ae7e2f0a970ed7d8d5aac7a9b954b742084ba680515423f054f136a7c357e",
+    "scripts/research20260921/run_mechanism_diagnostics.py": "957ccd1bc665eed1300caae3682ebbe536fdb4d3bd15afbaad492d19a9965a91",
+    "scripts/research20260921/run_sparse_conditioning_20260923.py": "ee4776b19d76be3be0bd275214caef736f3a39fedc855bb32d191cb0a456fc03",
+    "scripts/research20260921/run_study.py": "0191a67eae90bbc388b7f9e4f5a21e0d989054a2861dee1e0d7259ad781af770",
+    "scripts/research20260921/sparse_conditioning_core.py": "317e89245c661ea3b047690f0a990311cf5d78c284a2f8663306ee9651cb8dbc",
+    "scripts/research20260921/sparse_conditioning_design.py": "fd167a925809a75597a632bdaa2d2bf19ad4c693c75d32e98b92475b32e07c36",
+    "scripts/research20260921/test_adaptive_finalization.py": "dff90a36fedffd7bacba83fbd8ca947b3d749460d50e17cf5606812f8139451e",
+    "scripts/research20260921/test_adaptive_pipeline.py": "cbccb21e951058c10c0ae4a67d1b5e1932531d87dc0bc0111d32b820ead58e5c",
+    "scripts/research20260921/test_mask_query_factorial_20260924.py": "6c3082dbb123acabb292043bc76f02864124c7fbd9ae929b81576fce3e5c3802",
+    "scripts/research20260921/test_resume.py": "130a2982f32508e384096a823f22b948430411bdadb9a5facc1ea4e8852868cc",
+    "scripts/research20260921/test_sparse_conditioning_pipeline.py": "62f6c008e4ed4a306c17689ede742511cc270bec407ce9dd7420bcb0afa91514",
+    "scripts/research20260926/audit_previous_geometry.py": "a72b2bbdd5375b458940c3d35750566ddfc6a356d8b1292de5b02132f6d4e167",
+    "scripts/research20260926/check_geometry_identification_design.py": "64b804af96ced8eb5377d099894b53077ee1f6705a2ddb898eebfc188c6872b4",
+    "scripts/research20260926/identification_analysis.py": "843d72a7796dcf74588d7e023551ee618fea8a38699087e88b0e7de577ab66af",
+    "scripts/research20260926/identification_common.py": "87fa2cc4d9fb13efb7a343618cbeeeec56733c98df2049179cd12cddc0256c6d",
+    "scripts/research20260926/identification_data.py": "44e552424a14da6dd2204e044352662e78fa2bbc89fd30fad4b3acc15231e9fb",
+    "scripts/research20260926/identification_statistics.py": "001fd874406c2223d937fc54e148091679475abee63672521ac61ad5af323fdc",
+    "scripts/research20260926/identification_training.py": "45557887c25810954127b42bc6764f94cc09754c1460ddaa2c06966db84f0cc6",
+    "scripts/research20260926/manage_identification.py": "2465be87237fb42209f128e005d38a24826616ff96d89b81e1339e3790560535",
+    "scripts/research20260926/run_geometry_identification_20260926.py": "e6e6e1fcb3d8a2e5c3ddfc2284058cacbb238141e4836964b31ea9f076df71a1"
+  },
+  "layout_sha256": "dd82967bad896a785038892988b9a2fa6cfc9cd7327370cdfa570574cf5e1e55",
+  "old_audit_sha256": "52ea152ca53d37bfb52532a72b17065c3cc911b908d989192144ae284cfd8fca",
+  "implementation_details": {
+    "low_bootstrap_reps": 2000,
+    "secondary_bootstrap_reps": 10000,
+    "generation_sensitivity_reps": 5000,
+    "sampling_categorical": "binary_inverse_CDF_same_S0_law_independent_image_uniform_streams",
+    "torch_threads": 4,
+    "paired_stream_root": 2026092621,
+    "validation_seed": 2026092622,
+    "preflight": "all48 training cells,all37 banks,1098 file identities,8 figures"
+  },
+  "protocol_hash": "c9acba5d414257edfcc23545d51974ba7cc1c1eb3cfc10bbee1753fc12482164"
+}

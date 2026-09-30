@@ -1,0 +1,10 @@
+{
+  "primary_contrasts": "H48 K512; preregistered paired seed x MC-chain/block 97.5% CIs. Dashed line: -0.002 practical threshold.",
+  "observation_regimes": "H48; pointwise exploratory95% paired intervals. K512 alone is the preregistered primary cell; density and natural clock are not separated.",
+  "geometry_stress": "All geometries, pointwise95% CIs. B48 is clustered-layout stress, not a marginally matched coordinate-distribution control.",
+  "low_k_information": "Constructed paired challenges, not representative natural H48 cases.95% intervals include finite MC reference uncertainty; null pairs preserve actual query/visible positions.",
+  "low_k_excess_risk": "Fine excess relative to fine Bayes; Span/Random excess relative to coarse Bayes. Different information baselines must not be mistaken for common absolute-risk ranking.",
+  "masked_context_extension": "Same observed spins and queries; extra sites MASK but attended. Left: representation expansion at fixed clock; right: clock intervention response. Pointwise95% intervals, no unique attention-mechanism attribution.",
+  "secondary_generation": "W96 generated128 images/model; secondary95% intervals, paired training seeds/images and MC chain blocks. Signed biases target zero, not lower values; dots show each training seed.",
+  "learning_curves": "Eight fixed old-val conditions. Bands are training-seed-only95% bootstrap, conditional on fixed validation data; not unseen-geometry convergence guarantees."
+}
