@@ -1,0 +1,8 @@
+{
+  "scientific_protocol_hash": "967d2f41d26253d3e8787d89294fb80aee3e4b785d0d53e47da547f08581eb6b",
+  "authorized_execution_hash": "52e3596dfc8c1f252dede7d3ea75737df3efd4e3e8a0ccf912195e404876d1fd",
+  "final_sha256": "8aea5d7cf22d929966c1922378d81e436927081a6f92f0cca83197bc80105d87",
+  "original_started": 1790587773.6365669,
+  "authorized_deadline": 1790598573.6365669,
+  "checkpoint_config_budget_is_original_historical_snapshot": true
+}

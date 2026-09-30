@@ -1,0 +1,84 @@
+{
+  "note": "Contains scientific identity records including public copies. Local verification does not imply public availability. Request archive/member by SHA through a repository issue; no hosting or retention guarantee is made.",
+  "archives": [],
+  "files": {
+    "preflight/recovery_fixture.pt": {
+      "bytes": 31795842,
+      "sha256": "dd32848098a2fd71e49646173219795d493ea3ce73e0a6be8af6b417a8570cd1",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/s92821_A4/final.pt": {
+      "bytes": 31795842,
+      "sha256": "6ac2e17278c695f6e73616266d792218df835c1a276e3e47243ee8b65619036f",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/s92821_A4/last.pt": {
+      "bytes": 31795842,
+      "sha256": "7d35da15385d46ca9a9409b6071010de6f217be33f02989ceafa0973105fc158",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/s92821_B46/final.pt": {
+      "bytes": 31795842,
+      "sha256": "3866c822e97d39b38e15eb967f431eafd16d671560dbae4a1151bfdaf0ed8bb9",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/s92821_B46/last.pt": {
+      "bytes": 31795842,
+      "sha256": "01bca8cfc17fa23f44ec257cea028e5a956d5fe66b6fe8733c20e6ab3fe0f109",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/s92822_A4/final.pt": {
+      "bytes": 31795842,
+      "sha256": "36215466d20132bec433cd1e405f1bcc28ac49cb861689e3b7175c732e153dfc",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/s92822_A4/last.pt": {
+      "bytes": 31795842,
+      "sha256": "bb173761221d9e4db74e2d059859c6ffb43b8a3c64897dfd3499c2d3e6e2f447",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/s92822_B46/final.pt": {
+      "bytes": 31795842,
+      "sha256": "8aea5d7cf22d929966c1922378d81e436927081a6f92f0cca83197bc80105d87",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/s92822_B46/last.pt": {
+      "bytes": 31795842,
+      "sha256": "1ec99d991e3467c23ecb305a522618c0fab08e61086244dc03b9f191ae379d08",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/s92823_A4/final.pt": {
+      "bytes": 31795842,
+      "sha256": "fbe659588cb18d209181f38575a96364ca5855a22a6c169613bc50d09b90925b",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/s92823_A4/last.pt": {
+      "bytes": 31795842,
+      "sha256": "8a540ad4402f07432f5a54089b18cea1daa243dd0cb18737694ef6f52741d272",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/s92823_B46/final.pt": {
+      "bytes": 31795842,
+      "sha256": "4bba71782cdbd6a57270f557b7a4590cf734cecec591554a03bb644f9a898698",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    "training/s92823_B46/last.pt": {
+      "bytes": 31795842,
+      "sha256": "4db1924ce7311cce4aaecc39d1ac8ba56226c84937acc87d50750b9928a210cf",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    }
+  }
+}

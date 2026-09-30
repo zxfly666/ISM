@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "time": 1790592101.1948154,
+  "seconds": 14.495496034622192,
+  "full_training_rows_rebuilt": 12288,
+  "final_prediction_files_recomputed": 96,
+  "parent_diagnostic_prediction_files": 78,
+  "finals": [
+    {
+      "cell": "s92821_A4",
+      "final_sha256": "6ac2e17278c695f6e73616266d792218df835c1a276e3e47243ee8b65619036f",
+      "raw_hash": "45bf7e6911c1a8c82690672a91c34f69af7ec027d5cdb5f7cb806380aa60d273",
+      "ema_hash": "e1c7c3b7765ba63d3cb83d84928b4e8f6d46d06b6637ab474c23474127f73ec0",
+      "finite_model_EMA_AdamW": true,
+      "restored_identity_and_rng": true,
+      "distinct_train_rows_seen": 1296
+    },
+    {
+      "cell": "s92821_B46",
+      "final_sha256": "3866c822e97d39b38e15eb967f431eafd16d671560dbae4a1151bfdaf0ed8bb9",
+      "raw_hash": "742956b67828fa8c52d2484549b0614714bcf278862b35ff65c5821cc4459481",
+      "ema_hash": "f29a4f9a302f074b50423fc7168ac92a2a46b605bd32d7648271204d7a276c15",
+      "finite_model_EMA_AdamW": true,
+      "restored_identity_and_rng": true,
+      "distinct_train_rows_seen": 1296
+    },
+    {
+      "cell": "s92822_A4",
+      "final_sha256": "36215466d20132bec433cd1e405f1bcc28ac49cb861689e3b7175c732e153dfc",
+      "raw_hash": "e139dbf85d9e100b715d8eebc79460edfd169e63b043f41a8f86fa1b34cf2429",
+      "ema_hash": "8f0e9b527f4482080a5edbb0960359e1075cfd1d3058459169e83e04f821b1d2",
+      "finite_model_EMA_AdamW": true,
+      "restored_identity_and_rng": true,
+      "distinct_train_rows_seen": 1296
+    },
+    {
+      "cell": "s92822_B46",
+      "final_sha256": "8aea5d7cf22d929966c1922378d81e436927081a6f92f0cca83197bc80105d87",
+      "raw_hash": "c27201bba61b6380357f76370e05a7b4da622cff7933b2cf794d139432c43106",
+      "ema_hash": "a4494ed1943b18a25900f7eb300ec6db75a4e8f95f90d85164379f4a68bb5f79",
+      "finite_model_EMA_AdamW": true,
+      "restored_identity_and_rng": true,
+      "distinct_train_rows_seen": 1296
+    },
+    {
+      "cell": "s92823_A4",
+      "final_sha256": "fbe659588cb18d209181f38575a96364ca5855a22a6c169613bc50d09b90925b",
+      "raw_hash": "657838042c2ddaf779c376eb8f548231d0fa89346eb4f40c1d7ea6acc6031a1b",
+      "ema_hash": "8430d708e8b0596559a0ba1debf7cb0bc246f67dee87e39179aa40ee55f30d51",
+      "finite_model_EMA_AdamW": true,
+      "restored_identity_and_rng": true,
+      "distinct_train_rows_seen": 1296
+    },
+    {
+      "cell": "s92823_B46",
+      "final_sha256": "4bba71782cdbd6a57270f557b7a4590cf734cecec591554a03bb644f9a898698",
+      "raw_hash": "4a95ef710237f5fc0fa2106ca72b0ae2c04136d90c089f530121092ad70c1073",
+      "ema_hash": "6aa0ebb2060f2c6b77f3239ac76842f4abb09359d63bf379c047407f647ef9d5",
+      "finite_model_EMA_AdamW": true,
+      "restored_identity_and_rng": true,
+      "distinct_train_rows_seen": 1296
+    }
+  ],
+  "training_valid_tokens_by_arm": {
+    "A4": 4718592,
+    "B46": 5701632
+  },
+  "training_update_seconds_by_arm": {
+    "A4": 1690.8545868000099,
+    "B46": 1959.855904300002
+  },
+  "all_physical_pairs_passed": true,
+  "all_six_finals_before_evaluation": true,
+  "old_sources_weights_and_data_unchanged": true,
+  "strict_primary_size_training_exclusion": true,
+  "exact_truth_no_new_MC": true,
+  "disk_free": {
+    "C": 8390115328,
+    "D": 124192284672
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "tests": 9,
+  "log": "test_all_local_truth_and_geometry (test_multisize.ProtocolTests) ... ok\ntest_diagnostic_and_pad (test_multisize.ProtocolTests) ... ok\ntest_diagnostic_geometry (test_multisize.ProtocolTests) ... ok\ntest_exact_bank_shape_split (test_multisize.ProtocolTests) ... ok\ntest_metrics_exact (test_multisize.ProtocolTests) ... ok\ntest_natural_clock (test_multisize.ProtocolTests) ... ok\ntest_physical_and_native_pairing (test_multisize.ProtocolTests) ... ok\ntest_rng_addressing (test_multisize.ProtocolTests) ... ok\ntest_schedule_no_held_size (test_multisize.ProtocolTests) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.293s\n\nOK\n"
+}

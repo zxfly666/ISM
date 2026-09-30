@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "previous_members": 147,
+  "previous_archive_sha256": "fb5b3dec36720827d179465302f6d7cd4871a44fada994700fb23c884a30b947",
+  "previous_protocol_hash": "1dfe1e08fa0268bef1c4def97aab045828703ec26a596f98dc48b9cc68a7859a",
+  "bank_sha256": "5025018191b7c01c6f73adfcb27f2564d053d95becb65be2bc292014848d2060",
+  "old_final_sha256": {
+    "92811": "564cb9a15e9fbe6fbe704bbf6dbd4d68b38175037bebdc63fdec5ba396c36089",
+    "92812": "3504591a7d9513711ab587ec54a0f47893c07259d1a6cc28aab45d817f0dd087",
+    "92813": "04472e3e18ddec71307bfa7d8a8a039daf8ba8d90144f8036cf46480e6b1b076"
+  },
+  "original_files_read_only": true
+}

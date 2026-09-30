@@ -1,0 +1,13 @@
+{
+  "user_request": "请你启动",
+  "request_context": "accept same six-model comparison at total 3h retaining original clock and stop record",
+  "authorized_at": 1790588316.824096,
+  "started": 1790587773.6365669,
+  "deadline": 1790598573.6365669,
+  "hard_seconds": 10800,
+  "previous_deadline": 1790594973.6365669,
+  "clock_reset": false,
+  "scientific_design_changed": false,
+  "scientific_protocol_hash": "967d2f41d26253d3e8787d89294fb80aee3e4b785d0d53e47da547f08581eb6b",
+  "authorization_doc_sha256": "cb4371c197b903a6dcf5e42da3b5456f8e5ec98f3cdc805bcb88a0d0cac529f5"
+}

@@ -1,0 +1,11 @@
+{
+  "conclusion": "B学会了训练尺寸，但未在三seed上全部通过12×12：本次4/6多容器训练不足以建立所测尺寸稳健性。相对改善与未达绝对门必须同时报告。",
+  "gates": {
+    "B_new_size_ability": false,
+    "B_retention": true,
+    "B_trained_size_ability": true,
+    "paired_practical_improvement": true,
+    "all_required_diagnostic_gates": false
+  },
+  "time": 1790592101.6751728
+}

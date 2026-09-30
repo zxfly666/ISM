@@ -1,0 +1,202 @@
+{
+  "n16_r1_t075_near": {
+    "n": 16,
+    "scale": 1,
+    "clock": 0.75,
+    "order": "near",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n16_r1_t09375_near": {
+    "n": 16,
+    "scale": 1,
+    "clock": 0.9375,
+    "order": "near",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n16_r2_t075_near": {
+    "n": 16,
+    "scale": 2,
+    "clock": 0.75,
+    "order": "near",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n16_r2_t09375_near": {
+    "n": 16,
+    "scale": 2,
+    "clock": 0.9375,
+    "order": "near",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n32_r1_t075_near": {
+    "n": 32,
+    "scale": 1,
+    "clock": 0.75,
+    "order": "near",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n32_r1_t09375_near": {
+    "n": 32,
+    "scale": 1,
+    "clock": 0.9375,
+    "order": "near",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n32_r2_t075_near": {
+    "n": 32,
+    "scale": 2,
+    "clock": 0.75,
+    "order": "near",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n32_r2_t09375_near": {
+    "n": 32,
+    "scale": 2,
+    "clock": 0.9375,
+    "order": "near",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n64_r1_t075_near": {
+    "n": 64,
+    "scale": 1,
+    "clock": 0.75,
+    "order": "near",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n64_r1_t09375_near": {
+    "n": 64,
+    "scale": 1,
+    "clock": 0.9375,
+    "order": "near",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n64_r2_t075_near": {
+    "n": 64,
+    "scale": 2,
+    "clock": 0.75,
+    "order": "near",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n64_r2_t09375_near": {
+    "n": 64,
+    "scale": 2,
+    "clock": 0.9375,
+    "order": "near",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n16_r1_t075_far": {
+    "n": 16,
+    "scale": 1,
+    "clock": 0.75,
+    "order": "far",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n16_r1_t09375_far": {
+    "n": 16,
+    "scale": 1,
+    "clock": 0.9375,
+    "order": "far",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n16_r2_t075_far": {
+    "n": 16,
+    "scale": 2,
+    "clock": 0.75,
+    "order": "far",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n16_r2_t09375_far": {
+    "n": 16,
+    "scale": 2,
+    "clock": 0.9375,
+    "order": "far",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n32_r1_t075_far": {
+    "n": 32,
+    "scale": 1,
+    "clock": 0.75,
+    "order": "far",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n32_r1_t09375_far": {
+    "n": 32,
+    "scale": 1,
+    "clock": 0.9375,
+    "order": "far",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n32_r2_t075_far": {
+    "n": 32,
+    "scale": 2,
+    "clock": 0.75,
+    "order": "far",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n32_r2_t09375_far": {
+    "n": 32,
+    "scale": 2,
+    "clock": 0.9375,
+    "order": "far",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": false
+  },
+  "n64_r1_t075_far": {
+    "n": 64,
+    "scale": 1,
+    "clock": 0.75,
+    "order": "far",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": true
+  },
+  "n64_r1_t09375_far": {
+    "n": 64,
+    "scale": 1,
+    "clock": 0.9375,
+    "order": "far",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": true
+  },
+  "n64_r2_t075_far": {
+    "n": 64,
+    "scale": 2,
+    "clock": 0.75,
+    "order": "far",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": true
+  },
+  "n64_r2_t09375_far": {
+    "n": 64,
+    "scale": 2,
+    "clock": 0.9375,
+    "order": "far",
+    "primary_heldout_size_used": false,
+    "duplicate_set_at_N64": true
+  },
+  "pad64_from16_near": {
+    "control": "PAD",
+    "paired_to": "n16_r1_t075_near"
+  },
+  "pad64_from16_far": {
+    "control": "PAD",
+    "paired_to": "n16_r1_t075_far"
+  }
+}
