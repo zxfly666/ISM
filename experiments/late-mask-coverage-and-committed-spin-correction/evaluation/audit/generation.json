@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "formal_images": 6912,
+  "frozen_phase0_images": 384,
+  "correction_trajectories_replayed": 3456,
+  "oracle_trajectories_replayed": 3456,
+  "statistics_recomputed_from_spins": true,
+  "paired_rng_keys": 1344,
+  "folders": 84,
+  "time": 1790852885.4837878,
+  "elapsed_seconds": 83.39399337768555
+}

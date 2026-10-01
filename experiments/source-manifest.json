@@ -663,5 +663,40 @@
     "path": "scripts/research20261001/validate_next_stage_design.py",
     "bytes": 11355,
     "sha256": "f49a94948916d8adb8e40d671c1d4844984bd96e14c65c9c418a8f19a3b8fa8b"
+  },
+  {
+    "path": "scripts/research20261001_eval/check_fp16.py",
+    "bytes": 4699,
+    "sha256": "94b66ef065b547f0ddfa19344e55e4dde66f8c2b9dc6b5de5e447ee41aaa048f"
+  },
+  {
+    "path": "scripts/research20261001_eval/check_precision.py",
+    "bytes": 6173,
+    "sha256": "d36b12918e6b4a77deeb21bb3c16de6eff583ed8fc218b8b50ae91caaca0589b"
+  },
+  {
+    "path": "scripts/research20261001_eval/fp16_adapter.py",
+    "bytes": 751,
+    "sha256": "8a195110920b8780eb40885d250663135cba7419492af3e4d9d57c77711cf31f"
+  },
+  {
+    "path": "scripts/research20261001_eval/manage_evaluation.py",
+    "bytes": 4788,
+    "sha256": "04feba60863a532cdeb7dbe34bde2d19e6e5490260e31cca941079afb5d1cbe6"
+  },
+  {
+    "path": "scripts/research20261001_eval/precision_adapter.py",
+    "bytes": 3132,
+    "sha256": "1c4653f54920a15cb43d66075e9a8998c7141c5dade4996d51a151b45b70ac10"
+  },
+  {
+    "path": "scripts/research20261001_eval/run_evaluation.py",
+    "bytes": 19469,
+    "sha256": "c124411e87bf7e40a4036eca1bc680290b21cf97850784631f16b8c2fa042ead"
+  },
+  {
+    "path": "scripts/research20261001_eval/test_evaluation_adapter.py",
+    "bytes": 1838,
+    "sha256": "e0fca3960887f37389dd08daa37ba07c510cfc86bc4c5e33e7aedb1b9e5345b3"
   }
 ]

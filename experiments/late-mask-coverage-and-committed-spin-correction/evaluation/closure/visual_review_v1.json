@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "recorded_epoch": 1790854449.793546,
+  "method": "Six original PNGs and six Poppler-rendered PDF pages actually viewed in the assistant image viewer; no scientific figure edits.",
+  "figures": [
+    {
+      "figure": "01_mask_coverage",
+      "pages": 1,
+      "pdf_sha256": "4701ff751424d1283994ffd85616eccd7d2dedd0fa08107bddcf44b78e43bd5e",
+      "png_sha256": "5accb4883490d9063aac8264f87458afb2df0c241b7557a1d8a43f5a333ac46f",
+      "rendered_pdf_png_sha256": "b68f76b11c0b43acd3f1f412a45a565728c72d3447a916f024e26f842e16ba92",
+      "inspected_original_png": true,
+      "inspected_rendered_pdf": true,
+      "layout": "No material clipping, overlap, missing glyphs or inconsistent labels observed."
+    },
+    {
+      "figure": "02_local_conditional_ability",
+      "pages": 1,
+      "pdf_sha256": "5bb0917ddeff7cc286327d748e907edb39760fcad2340474fa29fe6167443f9c",
+      "png_sha256": "d4cf2ff67e6f6d3e968d0a0a1bedfa38b2eea266b50401ad18132e4b7fdeb5a0",
+      "rendered_pdf_png_sha256": "05e196f10540e147e09a207d6486401e247f3de07f704bca0a86bbe185990256",
+      "inspected_original_png": true,
+      "inspected_rendered_pdf": true,
+      "layout": "No material clipping, overlap, missing glyphs or inconsistent labels observed."
+    },
+    {
+      "figure": "03_predefined_primary",
+      "pages": 1,
+      "pdf_sha256": "0a53d73015a9865e4242e92e8d3d23ba1af77523225d2e46ccd7a42d60b4ef1a",
+      "png_sha256": "928d07b81ab853fc24c873fd65d49b45d2a44c5bdcb1de699c36dcc8a2016292",
+      "rendered_pdf_png_sha256": "cdce9967bf23717d241461928d579f66418fd2de4ce7b65bc1bc15d09516c943",
+      "inspected_original_png": true,
+      "inspected_rendered_pdf": true,
+      "layout": "No material clipping, overlap, missing glyphs or inconsistent labels observed."
+    },
+    {
+      "figure": "04_physical_tradeoffs",
+      "pages": 1,
+      "pdf_sha256": "6a0d256dfd5055d7a82552abb5b4ba205e7d922cec79c766c6ebbc6b7c95a0fc",
+      "png_sha256": "b6790d8dc056bb94d3acd6476caffcdd247912695601f2b07478d1b9fee76108",
+      "rendered_pdf_png_sha256": "d2cc5e559e5ba2ff7cb4b6adbe7811ce1d3e651ac4b2e91cfcdf64b5c2c15c1d",
+      "inspected_original_png": true,
+      "inspected_rendered_pdf": true,
+      "layout": "No material clipping, overlap, missing glyphs or inconsistent labels observed."
+    },
+    {
+      "figure": "05_committed_repair_diagnostics",
+      "pages": 1,
+      "pdf_sha256": "09e79dcdb52d7d88d1f111e8cd82b53d828bb60ef14d16fbb3157bacdc4110b5",
+      "png_sha256": "90ad3f07cef9f933ef645bc0cf6a0e3165ecd4a14947b612313597321e6dacef",
+      "rendered_pdf_png_sha256": "cbd4eea1175828bd1f7fcc8b403f9b5d74ffff5669ee4515b8f5fe2770ec900e",
+      "inspected_original_png": true,
+      "inspected_rendered_pdf": true,
+      "layout": "No material clipping, overlap, missing glyphs or inconsistent labels observed."
+    },
+    {
+      "figure": "06_true_coarse_graining",
+      "pages": 1,
+      "pdf_sha256": "b05637867fc137d069de94315d6a1ba3c0dc3262c2f70f52bdb842b38948cdaf",
+      "png_sha256": "313ea92aa3e1333d28b8431b83e2ca6c4c33dba3a31e9733995534e3b68e9387",
+      "rendered_pdf_png_sha256": "b0ac1badcc122d2c7e6f75886180c66d12d8734497016b042f4c9029807227aa",
+      "inspected_original_png": true,
+      "inspected_rendered_pdf": true,
+      "layout": "No material clipping, overlap, missing glyphs or inconsistent labels observed."
+    }
+  ],
+  "interpretation_checks": [
+    "Coverage: historical I-F is a 6144-update audit; new arms use full logs.",
+    "Local KL is not joint accuracy; W48/W96 and simultaneous gates remain distinct.",
+    "P2 paired-t interval excludes zero but required joint bootstrap interval crosses zero.",
+    "Signed physical biases target zero; 95% visual intervals are not formal retention bounds.",
+    "Oracle is not neural output; prefix192 contrasts spend additional compute.",
+    "Majority and decimation each use their own MC target; neither constitutes RG training."
+  ],
+  "limitations": "Visual review is not an independent scientific replication."
+}

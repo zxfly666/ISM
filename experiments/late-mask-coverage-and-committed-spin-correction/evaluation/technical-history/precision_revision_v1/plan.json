@@ -1,0 +1,15 @@
+{
+  "started": 1790839401.6396437,
+  "hard_deadline": 1790863200.0,
+  "technical_timeout_seconds": 720,
+  "candidates": [
+    "bf16_fp32_head",
+    "bf16_fp32_conditioning_head",
+    "bf16_fp32_conditioning_rope_head"
+  ],
+  "selection": "first candidate passing original gate on all 24 frozen final/base models",
+  "max_probability_gate": 0.005,
+  "mean_ce_gate": 0.001,
+  "scientific_generation": false,
+  "training": false
+}

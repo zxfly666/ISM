@@ -7,7 +7,7 @@
 | 1 项目研究什么？ | 物理坐标/上下文/训练几何与条件推断及联合生成的关系；[总图](README.md) |
 | 2 为什么critical Ising？ | 可独立参考、已知局部规律与长程关联并存，静态非world model；[总图首段](README.md) |
 | 3 核心scientific question？ | 条件网络怎样利用真实几何、如何跨观测布局/容器泛化；条件收益是否足以生成正确系综 |
-| 4 最新实验有哪些？ | 12个已完成campaign；10月1日末期MASK只完成18续训、评价未做；12h尺寸时钟仅预检 |
+| 4 最新实验有哪些？ | 13个已完成campaign；10月1日末期MASK三臂续训和评价完成，P1/P2主门未过；12h尺寸时钟仅预检 |
 | 5 哪个最强？ | 物理因素分离以[G](size-spacing-factorial/README.md)最完整；精确真值以[6h](canonical-context-size-generalization/README.md)最清晰；不作跨任务单一排行榜 |
 | 6 改了哪些变量？ | 每轮臂表，G尤其分开size、spacing与span-only，J分K/V来源 |
 | 7 fresh/continued/frozen？ | 总图第二个Mermaid与registry；F0分别生T/R，Bridge只冻结 |
@@ -55,11 +55,24 @@ Mermaid均使用GitHub支持的基础flowchart语法，不依赖插件、脚本�
 尚未完成或不承诺：所有历史checkpoint从GitHub下载恢复、全部MC/生成原数组公开、
 所有bootstrap从底层重新抽样、对所有软件版本的位级复现、外部独立学术评价。
 
-## 2026-10-01训练阶段增补自查
+## 2026-10-01训练阶段增补自查（历史时点）
 
 从root最新入口可以直接回答：为何做末期覆盖/纠错、A/L/E改变什么、六旧I-F如何分支、
 18final和36EMA保存什么、P1/P2为何还没有数值、原精度/预算门为何仍标失败、
 173路径本地覆盖与普通Git公开子集有何区别，以及后续缺少哪些评价。
 该阶段不展示尚不存在的正式结果图，不把预检人工六图冒充训练后能力；
 设计表/阶段验收表/谱系图承担本页可视解释。完整144k输入重建属于CPU完整性审计，
-不是重新训练，也不是科学主效应分析。
+不是重新训练，也不是科学主效应分析。以上仅记录当时自查，正式评价已在之后的新窗口完成。
+
+## 2026-10-01完整评价交付自查
+
+最新入口能回答两个主效应、为何P2的t阳性不能代替joint门、W48/W96局部能力区别、
+三CE保留、learning-incomplete未触发不等于完全收敛、物理非劣门与次要95%图的区别。
+六张原PNG和渲染PDF逐张检查，图3两类区间、图5oracle身份、图6各自MC目标均正确保留。
+[详细结果](late-mask-coverage-and-committed-spin-correction/RESULTS_ZH.md)与
+[图检回执](late-mask-coverage-and-committed-spin-correction/evaluation/closure/visual_review_v1.json)给出证据。
+
+546预测、全部分析/敏感性、precision候选、384图phase0公开；原MC和正式生成spin等仍为已备份但未公开托管。
+联合2256/2256路径不是公共完整原始镜像，也不是异盘灾备。
+[本次公共载荷检查](validation-evaluation-20261001.json)检查SHA/NPZ/语法/链接与凭据模式；
+[精确本次Git差量检查](index-validation-evaluation-20261001.json)单独核对本次暂存发布内容；远端HEAD另行确认，均不冒充外部科学复现。

@@ -4,9 +4,9 @@
 
 临界二维 Ising 同时有已知物理结构、长程关联和可独立采样的参考分布，适合把“局部预测变好”与“整个分布正确”分开检验。它是静态平衡体系，**不是 world model 验证**。最初的 dense、多 block size、真实 spacing 训练构想在此被拆成可检验的小问题；模型、统计门和后续精确局部任务是本项目的具体操作化，不等同于老师完整 idea。
 
-**先看两轮：**[Size × spacing factorial](size-spacing-factorial/README.md) 是最完整的物理因素对照；[固定 clock 尺寸泛化](canonical-context-size-generalization/README.md) 是最新已完成评价、真值最明确的必要能力检查。两者都有重要负结果。
+**先看两轮：**[Size × spacing factorial](size-spacing-factorial/README.md) 是最完整的物理因素对照；[固定 clock 尺寸泛化](canonical-context-size-generalization/README.md) 是精确真值的必要能力检查。两者都有重要负结果。
 
-**10月1日新增：**[末期MASK覆盖与已提交自旋纠错](late-mask-coverage-and-committed-spin-correction/README.md) 已完成18条续训分支；**正式评价尚未执行**，没有新增科学主结论。
+**10月1日新增：**[末期MASK覆盖与已提交自旋纠错](late-mask-coverage-and-committed-spin-correction/README.md) 已完成18条续训分支和全部正式评价；**P1/P2主门均未过，W96局部/stress能力仍失败**，三项旧CE保留通过。
 
 ## 30 秒结论
 
@@ -33,11 +33,11 @@
 | 09-28 | [精确局部能力](exact-local-capability/README.md) | 3 fresh D + 结构/冻结诊断 | 精确枚举 / 0 | 4×4 raw 能力通过；扩容失败；O 有结构盲点 |
 | 09-28 | [局部上下文尺寸对照](local-context-size-diagnostic/README.md) · A4/B46 | 6 fresh + 旧 D 冻结诊断 | 精确真值 / 0 | 固定 clock 相对改善；12×12 绝对门 0/3 |
 | 09-30 | [固定 clock 尺寸泛化](canonical-context-size-generalization/README.md) · N/W | 12 fresh，6 对 | 精确 G8 / 0 | 实质差门通过；W 绝对门 0/6，完整门失败 |
-| 10-01 | [末期MASK覆盖与已提交自旋纠错](late-mask-coverage-and-committed-spin-correction/README.md) · A/L/E | 18 continuation，自六 I-F | **0新MC / 0正式生成** | 训练完成，P1/P2及保留门尚未评价 |
+| 10-01 | [末期MASK覆盖与已提交自旋纠错](late-mask-coverage-and-committed-spin-correction/README.md) · A/L/E | 18 continuation，自六 I-F | **2048 MC / 6912正式图** | P1/P2主门未过，W96局部/stress失败；三CE保留通过 |
 
 上表生成数指各 campaign 的正式主队列，不把附属诊断累加成训练复现：A/B/C 的 D 诊断另有 4,992 张新生成图；F 的两 seed 扩容筛选单列于其开发分支，不混入六 seed 主统计。
 
-[12h size × clock](preflights/size-clock-factorial/README.md) 只有预检和预算停止，**不是第 13 个完成训练实验**。D/E 归入 A/B/C 的冻结诊断；F 的两 seed 扩容筛选归入开发分支，避免把每个脚本当作独立确认性实验。全标识见 [registry.json](registry.json)。
+[12h size × clock](preflights/size-clock-factorial/README.md) 只有预检和预算停止，**不计入13个已完成campaign**。D/E 归入 A/B/C 的冻结诊断；F 的两 seed 扩容筛选归入开发分支，避免把每个脚本当作独立确认性实验。全标识见 [registry.json](registry.json)。
 
 ## 问题如何演进
 
@@ -53,7 +53,7 @@ flowchart TD
   I --> J[observed-only K/V 因果干预]
   J --> E[精确局部能力与结构反例]
   E --> N[固定 clock 多尺寸必要能力检查]
-  B --> M[末期MASK覆盖与已提交自旋纠错：训练完成，评价待执行]
+  B --> M[末期MASK覆盖与已提交自旋纠错：评价完成，主门未过]
 ```
 
 箭头表示**研究动机**，不是自动表示权重继承。真正的权重谱系是：
@@ -89,4 +89,4 @@ F/R/T 六条原始训练 lineage 不能在跨轮汇总时当成独立的 18 或 
 
 尚未建立：任意真实距离泛化、普遍 fine-geometry 实质增益、完整联合分布正确性、动态 world model 或 RG 等变性。当前最值得区分的是：精确训练/验证模式已经学好时，哪些未见边界排列在扩容后仍产生大误差，以及这种尾部错误来自表示/聚合还是尚不充分的学习。这里是后续问题，不是新实验授权或已经得到的机制结论。
 
-另一个正在推进的问题是末期少MASK覆盖和已提交自旋纠错：三臂训练现已完成，但未来固定checkpoint的条件/生成评价尚未发生。它不使用N/W权重，也不构成上表历史失败的追认或推翻。
+最新末期少MASK覆盖与已提交自旋纠错已经完成固定checkpoint的条件/生成评价：P1/P2的完整联合区间均跨0，P2能量改善不能替代长程主门。它不使用N/W权重，也不改判上表历史检验；384张phase0及R-prefix/oracle各3456条不计作新训练重复。

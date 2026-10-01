@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "time": 1790853671.09908,
+  "archive": "evaluation_complete_v1.tar.gz",
+  "archive_bytes": 382721565,
+  "archive_path": "<PROJECT_ROOT>\\artifacts\\endpoint_mask_sampler_evaluation_20261001_remote\\evaluation_complete_v1.tar.gz",
+  "manifest_path": "<PROJECT_ROOT>\\artifacts\\endpoint_mask_sampler_evaluation_20261001_remote\\evaluation_complete_v1.manifest.json",
+  "archive_sha256": "de336121f9137671a63ec7f8e4f2cb9acacfa52c3338e875cb58a4df962a3e6c",
+  "manifest_sha256": "e8c7f24f6d3305b562af591191638d5a970965e83b09fcac4b41c788c5d7ac2e",
+  "members": 1811
+}

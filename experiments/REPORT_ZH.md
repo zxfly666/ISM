@@ -1,56 +1,65 @@
 # 临界Ising近期研究：公共综合报告
 
-2026-10-01公共科研归档更新版。完整研究地图、独立实验与冻结诊断的区别、所有主失败及数据边界见[总索引](README.md)。
+2026-10-01公共科研归档更新版。研究地图、独立实验与冻结诊断、失败门与数据边界见[总索引](README.md)。
 
 ## 编辑说明与谱系
 
-本报告把12个已完成campaign、一个未启动预检及10月1日训练先行阶段的科学说明汇编为一份可独立阅读的公开版本，
-依据本地162页总报告、协议、实际配置、机器结果及核验记录重新校对。它**不是**原PDF/Markdown的逐字公开副本。
-私人通信/截图、连接凭据及机器登录信息不公开；科学构想以独立叙述表达。
-原本地Markdown SHA-256：`c66eb2da796c90385841f60219426516f46c9d0a87b3372568f0c14f1223cf4d`。原件保持不变。
-本次编辑还区分了F原始点估计和bootstrap分布均值，并以实际数组/记录校正统计重复数。
-历史更正不改写原结果，集中见[CORRECTIONS](CORRECTIONS.md)。
+本报告汇编13个已完成campaign和一个未正式启动的预检。最新一轮是六旧I-F谱系的三臂续训及独立评价窗口，
+不是18个fresh重复，不从J-C或N/W模型继续。私人通信/截图、凭据、登录信息不公开；
+这是依据本地总报告、实际协议与机器数组编写的公共版本，不是私人原稿或旧PDF的逐字副本。
+历史更正见[CORRECTIONS](CORRECTIONS.md)，不改冻结数据或历史检验。
 
-早期背景：L64冻结采样器修正后仍需跨尺寸验证；L128长程相关过强；
-Stage2B错误unit-coordinate对照与旧GO需要更正，不能把早期筛选当多seed确认。
-后续研究因此逐步从条件利用几何、上下文一致性、生成确认，转向训练size/spacing和精确局部必要能力。
+9月30日可读Markdown的历史SHA为`c66eb2da796c90385841f60219426516f46c9d0a87b3372568f0c14f1223cf4d`，原件保留；
+本地162页PDF仍为历史版本，没有冒充已重渲染的最新总报告。
+旧L64采样器修复、Stage2错误unit对照、F点估计与bootstrap均值等更正继续保留。
 
-## 10月1日新增：训练已完成，末期MASK与纠错主假设尚待评价
+## 10月1日新增：末期MASK与纠错完整评价完成，两主门均未过
 
-研究问题是把“末期少MASK训练覆盖不足”与“生成后已提交自旋不能修正”分开检验。
-本次只实际执行训练部分：六个旧I-F 12k基座，各自分原配方A、降低time下限L、
-显式少MASK覆盖E三支，每支追加8k到global20k。18个模型继承六条训练谱系，
-不是18个fresh重复，不从J-C或N/W模型继续。
+问题是分离少MASK训练覆盖不足与已提交自旋不能修正。A保持原配方、L降低time floor、E显式覆盖少MASK；
+三臂完整同seed状态恢复、物理输入配对，各追加8k到global20k。主评价固定8k final，不选checkpoint或seed。
 
-| 实际阶段 | 结果与范围 |
+| 实际执行 | 完成事实 |
 |---|---|
-| 训练 | 144,000/144,000更新；18final、36个4k/6k EMA；12:03:34.857–14:40:56.457 UTC+8，共2h37m21.600s |
-| 设计 | A/L/E普通比例75%/75%/50%，time下限.01/.002/.002；三臂25%旧sparse，E另25%显式少MASK |
-| 控制 | 同seed全状态恢复、物理数据/geometry/augmentation配对；干预处mask/time有意不同 |
-| 审计 | 144k输入重建与累计digest、全部final CPU恢复字段、36EMA、40冻结source/data检查通过 |
-| 本地备份 | 新包128成员逐成员通过；联合173/173路径/字节/SHA覆盖；14:57:52.854完成联合核验 |
-| 未执行 | 新MC、正式条件预测、6,912张正式生成、384张clock诊断、P1/P2统计、RG诊断和正式六图 |
+| 训练 | 144000更新，18final/36EMA；12:03:34.857–14:40:56.457，共2h37m21.600s |
+| 评价 | 新MC2048，6912正式图+384基座clock诊断，546预测/82176输入 |
+| 科学运行时间 | 15:34:36.364–19:10:53.386，共3h36m17.023s；MC和固定GPU队列并行 |
+| 完整性 | 144k训练输入重建、60checkpoint与51冻结项；参考/预测/生成三个CPU重建审计通过 |
+| 本地交付核验 | 两处逐成员，19:22:57.216联合2256/2256路径/字节/SHA；六图PNG/PDF实际检查通过 |
 
-普通masked CE仍按nominal t归一化，sparse保留512 hidden slots；E显式M从
-{1,2,4,8,16,32}中按M/W²≤.02取合法值，loss每图CE/M，而time输入截断在.002。
-原dense 1,976,706参数，W16/24/32/48、18,432token/update；AdamW完整恢复、
-256步共同warmup后cosine、EMA.999、BF16训练/FP32参数loss优化器、TF32关闭、
-严格deterministic和CUBLAS工作区设置。最后batch loss不作为臂效果排名。
+主W96 G25–48 NRMSE越低越好，两比较均要求t与joint bootstrap的97.5%区间上界同时<−.05；
+方向门也要求二者同时<0。新统计不与历史G/I/J门混用。
 
-**历史失败仍是失败。** 默认全臂恢复诊断仅5/18完全逐位一致，严格确定性18/18通过后才冻结；
-BF16/FP32推理max概率差.0055757仍超过.005门。FP32 W96技术测速113.381秒/shard
-使原12h全流程不可保证。因此明确执行只训练阶段，原06:29:17.948预算起点及
-18:29:17.948截止均保留，不把原预检改判为通过，不因训练完成宣称科学成功。
+| 主比较 | 点估计 | t 97.5%区间 | joint 97.5%区间 | 决定 |
+|---|---:|---|---|---|
+| P1 E,S−A,S | +.025709 | [−.043549,.094967] | [−.028896,.074126] | 实质/方向未过 |
+| P2 E,R−E,S | −.030331 | [−.058572,−.002090] | [−.080395,.021720] | 实质/方向未过 |
 
-未来P1为E,S256−A,S256，P2为E,R256−E,S256，均检验W96 G25–48 NRMSE；
-原定配对t和联合bootstrap的97.5%区间上界<−.05为实质门。当前两个效应和CI均为空，
-不以训练loss、人工fixture或技术测速代填。neural repair没有目标联合分布平稳性保证；
-majority诊断不等于RG训练。后续需独立明确的评价执行窗口。
+**P2不能仅凭t区间宣布成功**；joint仍跨0。block4/8/16敏感性支持同一未过门决定，
+seed-only/MC-only更乐观的区间不替代完整不确定性。P1未确认收益也未确认伤害；未过不是等效。
 
-完整设计表、谱系图、技术历史、恢复信息及数据公开范围见[阶段README](late-mask-coverage-and-committed-spin-correction/README.md)，
-机器状态见[phase_status](late-mask-coverage-and-committed-spin-correction/evidence/phase_status.json)，
-全部身份与证据见[EVIDENCE](late-mask-coverage-and-committed-spin-correction/EVIDENCE.md)。
-大权重、原日志和训练父场未上传普通Git，不能把本地全覆盖当成公共完整下载镜像。
+E在W48的M1/2/8/32四项局部能力门通过，W96四项全部失败（均KL约.0208–.0236，上界.0229–.0335）。
+固定stress的E最大概率误差W48/W96为.283970/.478948，均超过.05。
+三项旧CE保留上界均<.005，通过；18分支未触发6k→8k改善>.002标记，但不证明完全收敛。
+P1短程保留通过、能量与绝对磁化量非劣门失败；P2三物理门通过，不能救回主长程失败。
+
+E的repair相对192调用前缀长程NRMSE反而增加.013372（次要95%区间[.004454,.018761]），
+解析oracle也不保证长程改善。Oracle不是神经成果，prefix不是等256调用公平主对比。
+majority/decimation有各自MC目标，次要粗粒化区间不替换主终点；本轮未做RG训练或动态world model。
+
+BF16训练/FP32参数loss优化器不变；原BF16推理门失败及三个新BF16候选失败均保留。
+唯一FP16候选固定验证max概率差.001183182、最大平均CE差6.852112e−6，原.005/.001门全部通过；
+正式生成用FP16 autocast+FP32输出头/概率，条件/学习仍FP32。原FP32 W96完整shard113.381秒导致
+原12h全流程门失败，新增22:00评价窗口不能改写旧06:29起点/18:29截止，更不能回写旧门passed。
+
+详细局部KL表、正式物理门、敏感性、固定配置、时间、精度失败和数据边界见
+[完整中文结果](late-mask-coverage-and-committed-spin-correction/RESULTS_ZH.md)；
+[六图](late-mask-coverage-and-committed-spin-correction/evaluation/analysis/FIGURES.md)、
+[summary](late-mask-coverage-and-committed-spin-correction/evaluation/analysis/summary.json)、
+[当前状态](late-mask-coverage-and-committed-spin-correction/evidence/phase_status.json)与
+[1086条来源索引](late-mask-coverage-and-committed-spin-correction/EVIDENCE.md)配套公开。
+546个预测、完整分析/敏感性、全部precision候选和384图phase0已公开；大权重、原MC场、
+输入bank及6912正式生成spin/RNG轨迹仍为已核验的保管者材料，不是完整原始镜像。
+同D盘独立副本不叫异盘灾备。结论为`scientific_success=false`，没有自动下一轮。
 
 ## 几何对齐条件学习与冻结诊断
 

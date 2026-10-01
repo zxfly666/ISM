@@ -19,9 +19,11 @@
 | 12h size-clock方案 | 真实测速投影26.486h | 正式模型0；scratch/CPU人工fixture不冒充结果；[停止档案](preflights/size-clock-factorial/README.md) |
 | 6h平均KL大幅下降 | W最坏误差门0/6 | 相对成功、绝对失败，完整门失败；[6h](canonical-context-size-generalization/README.md) |
 | 6h原manifest的stdout字节 | 打包后管理打印使0→115字节 | 增量closing manifest覆盖，不重跑科学分析；[闭环记录](canonical-context-size-generalization/evidence/closing_union_v1.json) |
-| 10月1日末期MASK全流程原门 | BF16推理max概率差.0055757超过.005；FP32 16图W96完整shard113.381秒，原12h全流程不可保证 | 失败记录保留；其后明确执行仅训练的18分支，未运行MC/生成，不把原门改成passed；[阶段档案](late-mask-coverage-and-committed-spin-correction/README.md) |
+| 10月1日末期MASK全流程原门 | BF16推理max概率差.0055757超过.005；FP32 16图W96完整shard113.381秒，原12h全流程不可保证 | 失败记录保留；随后先完成18分支训练，再在新授权窗口用通过门的FP16生成完成评价，不把原BF16/原12h门改成passed；[阶段档案](late-mask-coverage-and-committed-spin-correction/README.md) |
 | 10月1日恢复精确性计数 | 全臂诊断中默认设置仅5/18完全一致；严格确定性18/18通过 | 5是完整通过数，不是失败数；正式冻结前修复，科学输入与预算未缩减 |
-| 10月1日训练完成标记 | 18 final、36 EMA、144000更新完整，但P1/P2无数据 | `training_complete_evaluation_pending`；不得用训练loss或技术fixture宣称主门通过 |
+| 10月1日训练完成标记 | 18 final、36 EMA、144000更新完整，但P1/P2无数据 | 这是训练交付时点的历史快照；新增评价后状态为`training_and_evaluation_complete`，但P1/P2主门均未过 |
+
+| 10月1日P2的t区间排除0 | t 97.5%区间[−.058572,−.002090]，joint区间[−.080395,.021720]跨0 | 原规则要求两者同时通过，P2方向门仍未过；不能只挑t、seed-only或MC-only区间 |
 
 ## 不确定性不是“错误可以被美化”
 

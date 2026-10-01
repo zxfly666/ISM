@@ -65,10 +65,25 @@ seed数。公开bootstrap敏感性不能替代原预定义主决定。
 ## 2026-10-01训练阶段
 
 [本阶段](late-mask-coverage-and-committed-spin-correction/README.md)的`run_training_phase.py`
-才是实际执行入口；`run_endpoint.py`、MC、sampling和最终统计代码虽保留，但没有正式运行。
+才是训练阶段实际入口；旧`run_endpoint.py`全流程没有正式运行。MC/生成/统计后来由另一个评价入口执行，不能把两阶段混为一次旧driver运行。
 不要对这个阶段调用要求MC/预测/生成齐备的`audit_all`。原训练验收调用的是
 `endpoint_management.audit_training(reconstruct=True)`，仅在CPU上重建输入和读取checkpoint。
 
 公共验证仍可运行上方SHA/链接检查。训练恢复需取回父场、六个I-F基座、原冻结身份材料；
 18个新final与36个EMA见本轮withheld manifest，不能从仅含元数据的JSON恢复模型。
-新的复现运行需要独立目录、协议与预算；本档案不触发第二次训练或后续评价。
+新的复现运行需要独立目录、协议与预算；本档案不触发第二次训练或自动下一轮。
+
+## 2026-10-01正式评价
+
+实际入口为[run_evaluation.py](../scripts/research20261001_eval/run_evaluation.py)，
+[冻结协议](late-mask-coverage-and-committed-spin-correction/evaluation/run_protocol.json)锁定60checkpoint及精度/样本/统计门。
+正式生成为通过固定precision门的FP16 autocast、FP32输出头/概率，条件与学习仍FP32，TF32关闭。
+旧BF16和FP32时间门失败不回写；新评价是明确的独立时窗，没有重新训练。
+
+公开[分析与敏感性数组](late-mask-coverage-and-committed-spin-correction/evaluation/analysis/)、
+546份预测、384图phase0、原六图及源代码；可以在不运行GPU/MC的情况下复核已报告点估计与draws分位数。
+从头重建6912正式生成、参考bank与全轨迹审计仍需取回manifest列出的未托管原材料。
+不能因为summary/PNG公开就声称完整生成链可仅凭当前Git独立复现。
+
+科学审计已在原运行按冻结流程完成；本地交付只做字节核验、图检和报告，不重跑bootstrap。
+不要对已有run.lock的原训练/评价目录调用run，不执行自动补样本或新的轮次。

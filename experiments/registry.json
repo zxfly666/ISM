@@ -265,16 +265,23 @@
     "parents": [
       "fine-geometry-identification/I-F"
     ],
-    "new_reference": false,
-    "new_generation": 0,
+    "new_reference": true,
+    "new_generation": 6912,
     "code": [
       "scripts/research20261001/run_training_phase.py",
-      "scripts/research20261001/endpoint_training.py"
+      "scripts/research20261001/endpoint_training.py",
+      "scripts/research20261001_eval/run_evaluation.py",
+      "scripts/research20261001/endpoint_statistics.py"
     ],
-    "formal_completed": false,
+    "formal_completed": true,
     "training_completed": true,
-    "status": "training_complete_evaluation_pending",
-    "published_files": 63,
-    "published_bytes": 296000
+    "status": "training_and_evaluation_complete",
+    "published_files": 1086,
+    "published_bytes": 107274230,
+    "evaluation_stage_id": "endpoint_mask_sampler_evaluation_20261001",
+    "new_reference_parents": 2048,
+    "phase0_generation": 384,
+    "scientific_success": false,
+    "primary_decision": "neither_primary_passed"
   }
 ]

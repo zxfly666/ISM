@@ -1,0 +1,8 @@
+{
+  "pid": 203273,
+  "pgid": 203272,
+  "started": 1790840076.3635316,
+  "deadline": 1790863200.0,
+  "compute_deadline": 1790861400.0,
+  "training": false
+}

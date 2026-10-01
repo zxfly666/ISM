@@ -132,7 +132,14 @@
     "scripts/research20261001/endpoint_training.py",
     "scripts/research20261001/run_endpoint.py",
     "scripts/research20261001/run_training_phase.py",
-    "scripts/research20261001/validate_next_stage_design.py"
+    "scripts/research20261001/validate_next_stage_design.py",
+    "scripts/research20261001_eval/check_fp16.py",
+    "scripts/research20261001_eval/check_precision.py",
+    "scripts/research20261001_eval/fp16_adapter.py",
+    "scripts/research20261001_eval/manage_evaluation.py",
+    "scripts/research20261001_eval/precision_adapter.py",
+    "scripts/research20261001_eval/run_evaluation.py",
+    "scripts/research20261001_eval/test_evaluation_adapter.py"
   ],
   "effective_config_sources": [
     "docs/research_reboot_20260921/BASIC_CAPABILITY_STAGE12_CONFIG_20260928.json",

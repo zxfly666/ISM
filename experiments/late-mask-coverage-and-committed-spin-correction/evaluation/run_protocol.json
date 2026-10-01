@@ -1,0 +1,576 @@
+{
+  "stage_id": "endpoint_mask_sampler_evaluation_20261001",
+  "campaign_id": "endpoint_mask_sampler_disentanglement_20261001",
+  "status": "frozen_evaluation_only",
+  "authorized_deadline": 1790863200.0,
+  "generation_precision": "FP16_autocast_FP32_parameters_output_head_probabilities",
+  "conditional_precision": "unmodified_FP32",
+  "training_protocol_hash": "7aeac13a256c89c0e7f5a615ced83b1cab1c4668463bb5b8d70f350af2c66b2e",
+  "training_protocol_sha256": "aeaf028e05b14b8ad57ed614b6ed397e6b1333cb3f5c7ad54496a21418c34259",
+  "training_audit_path": "artifacts/endpoint_mask_sampler_disentanglement_20261001_exports/training_phase_full_audit_v1.json",
+  "inherited_training_manifest": "artifacts/endpoint_mask_sampler_disentanglement_20261001_exports/training_phase_science_manifest_v1.json",
+  "locked_checkpoints": {
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_original-support/final.pt": "92804a66aacf6d7d34dc67ebcc919ddf4cbafdca2a5aaa729002a0eadbd7a8b0",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_lower-time-floor/final.pt": "e39306c883e83c5686fb1a71558a28331c0a8114f33f9c62fb2ba0a5ddeb5a0c",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_explicit-late-mask/final.pt": "8255656fca5261d86872da2bc63c9722c4775cc53825a306976537a526ee205b",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_original-support/final.pt": "aa9e8db0f60f452280a30e9875a3a5589d0a41415205e37aea33b213d87bfd2f",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_lower-time-floor/final.pt": "a16d4cacec4c17deb26aabd632b98f11785344fee161cfba02a8e0c022aca2d4",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_explicit-late-mask/final.pt": "e7f6545e1fa7580644dec12d323870545f95f525c055bf377d25735fa3b50515",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_original-support/final.pt": "aad3fd79c3d32848741c3b6e65a2ef676233e6e83ecd3c52776ce117698dbeee",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_lower-time-floor/final.pt": "664508abf1ef38e843acb6ae455554c6bdfa3d76fd3cdfca54a8792ecf98f241",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_explicit-late-mask/final.pt": "129c30b3a462d83ef9bed1cd58c06c21d3d131e446aead81445e111f0c3fb80c",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_original-support/final.pt": "ac8b9d9326cd770143e5793381d64e8b8168ca6f41b7cc52a8b52e6dec620925",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_lower-time-floor/final.pt": "6bbfeba36a65353f401c15176ed208fddf84efff6ce75e73e6348d92b2f1f7ce",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_explicit-late-mask/final.pt": "320607c62a4804de78c8881ee567cc04d2434b6d4b0e5194c504543ba34a3424",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_original-support/final.pt": "ed0043a58ea8b5ea716ac02af1a2634daecd55a30d98cd3420d1ea3873d1d14a",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_lower-time-floor/final.pt": "d2a023d75560574edebf31fa2bfa7c8d2f17e4569994fb8748fd02b7b70e4103",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_explicit-late-mask/final.pt": "5a0433423b39f64b2ea8369b21ef86624ea9cfc41bb1d789d04b7da4d8491818",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_original-support/final.pt": "f3eddbe635bed1cd346c0aa55c56664636188aa0254ecd82df298ad68953637e",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_lower-time-floor/final.pt": "93aaa908781c2fddd31efb0bd7c7ce1591ceecab9765e26aca324d47ed912092",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_explicit-late-mask/final.pt": "d60c2caeb70322e19e04dc9a531b4ce0f6d11c9272b2f76dc62e0cd044717058",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_original-support/ema_4000.pt": "2fe3e39d49981713d9b7311a9f6736f569fd504f90f3d10a2ab2a7821e321b02",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_original-support/ema_6000.pt": "85fa60dd6c8621cdf28f4455b8e6f25b346659f7fbee1d42cf95d59529477513",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_lower-time-floor/ema_4000.pt": "ccb4b847ac2dd6883411ac6db7b3ce701078724b04ced93c112ac2cb4581823c",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_lower-time-floor/ema_6000.pt": "944976afe4e2fd268dc20f6be1e8570230165be42bc8bebe375c318df7d279a8",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_explicit-late-mask/ema_4000.pt": "da4756f3c75fb7a8e33c6332b141cc4192ef2828d5e29e7b2c561b639be63065",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_explicit-late-mask/ema_6000.pt": "3ee026252c2fce38ce85d257950c5dad2328fef3564d43d86f421fe7814dab3d",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_original-support/ema_4000.pt": "6be45187cf0d2dfdc1a71de12538c8f9e9191ce47edef0f6b4d880bf21d9ec13",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_original-support/ema_6000.pt": "4a67701af7ebb085a4efd2d2c3cf0e13a573c39f8530e599dd8b376f496a1bd7",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_lower-time-floor/ema_4000.pt": "db01a7a22e79ac5c2563bf91746b6f641b2993a308932fc1b5745cd2e312597f",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_lower-time-floor/ema_6000.pt": "bd99e00852646c5cf8a197a82d802a1e3393e332680f0e4ad7e67911d4f7f7c2",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_explicit-late-mask/ema_4000.pt": "fb66d40a80d2e93f44263440a33e8ed277907c13e6321c49cc94a3dd35d46487",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_explicit-late-mask/ema_6000.pt": "525182758dec151e8bf9c129af5a691e37633b1da058e8a39d72d5fa5b34a397",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_original-support/ema_4000.pt": "bf57b9c86a7be59174347af3e290711e9be92dbae8ae9974c2a353f9095d4e9b",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_original-support/ema_6000.pt": "875d65dd902943d7237d886272d4b04a21aa3988476ce8d37c6216783ba1d76c",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_lower-time-floor/ema_4000.pt": "230cc8e70580d37bf4168458cabd4b43180510df391a4c2b668da4926f2d3daf",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_lower-time-floor/ema_6000.pt": "e698a1a10b3dae71f548fe3e06cb73c0fe1e9c0daa98737d1d67dc634bde49e6",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_explicit-late-mask/ema_4000.pt": "e000ba75ac0292081a47198090bc99546fb1807a5220b2db325993d2b7c3dfcc",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_explicit-late-mask/ema_6000.pt": "d2c603693a560704fd4410236be87190e987573c66fc74f704367c36b1cb5cde",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_original-support/ema_4000.pt": "105d2a9764a3d48ec6d42a986cc153f56c59f02041568d057f1968b05801e03e",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_original-support/ema_6000.pt": "2914deaad80b73c44905aa5b3ca2bf78d0f64eebbb81ace6fb277be29899f60a",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_lower-time-floor/ema_4000.pt": "b9eeb4fbd8b64315c1e27a7c0c96972afa7efcd01b723e979b98bf1cd7d88a99",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_lower-time-floor/ema_6000.pt": "7e0f322b49b3b5f6a87544f1e1bec0e55b82c47ca0378f1d9e34aedfd2bc6389",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_explicit-late-mask/ema_4000.pt": "e8c64bf2996930c39fd69396ae33fba0f8d487190074e653080d315490bc0dd0",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_explicit-late-mask/ema_6000.pt": "0ade51c2ddf18ec91decc05fc52042ba35fd2dae927d564a47f1241bb6102994",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_original-support/ema_4000.pt": "71e54305c875f32a913770be36f938683fcb34502602c3a0e20b9de7664c265f",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_original-support/ema_6000.pt": "a467994793ec3474e32ddac92e187e6b73b36f2e3516f7c5b9b0065527565c3c",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_lower-time-floor/ema_4000.pt": "7b31456073e82751b14532d9b2aa76cbf7a457c79f0441c2dad85d1f2791272a",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_lower-time-floor/ema_6000.pt": "1be97a4254ba8fdf59eafb330c52635b71fed9c536212e0413d92e81fa70490f",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_explicit-late-mask/ema_4000.pt": "b4b4362c54190fb3bceabc0788067c75bc309303033dd4c9d50dca99dd2a994b",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_explicit-late-mask/ema_6000.pt": "1488ecfbd9c200ee7be363835651cc24fc4754ac265d2b3536600cfd0828f049",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_original-support/ema_4000.pt": "04213360e0546169fac38299d8dc29a66c074ea8bcaa0d1546f564e0bbccdf16",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_original-support/ema_6000.pt": "e4ff2a3a0ef016311722618a2ab2689207cc61bce4429018477af592522133b5",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_lower-time-floor/ema_4000.pt": "c5b2d2d7522d763ef8aa369120f0d9dc5ad3298be7ad026066190102f455ed7d",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_lower-time-floor/ema_6000.pt": "c6a859c6b04af40a640f6ca98c6c983423b08b20d1f6c03967b11d9fbdcc7eb1",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_explicit-late-mask/ema_4000.pt": "94aa1e4417f85c3fba6ae94ecf74285d26e1089b2c3f4936d274e24d3f5b6ac9",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_explicit-late-mask/ema_6000.pt": "b22729bd2a62b5f691ca67e8d23705a69e6f167f0c696a67e60bc60d5542e444",
+    "artifacts/geometry_identification_20260926/training/s92601_I-F/final.pt": "dbccca9c1b47ec599ea976996fed2ef0834983163a40765c67b1edd7946d2ed9",
+    "artifacts/geometry_identification_20260926/training/s92602_I-F/final.pt": "54f8f6c9f96eaf7a36759723212588bebcdd1c4bcfbd19cef35df87e0f2ce096",
+    "artifacts/geometry_identification_20260926/training/s92603_I-F/final.pt": "3b1d0d648e8e36a13650136913d59c1086da690de8ea00f41732c9a9e622e801",
+    "artifacts/geometry_identification_20260926/training/s92604_I-F/final.pt": "3cb9fc2575fa10e42c23b400d61c819e99c46999717be7e842dcf3d18dbb409d",
+    "artifacts/geometry_identification_20260926/training/s92605_I-F/final.pt": "ada3cda0b5ba134ed8bb1f1046422a079f311786032f03679e4cc6a42895f653",
+    "artifacts/geometry_identification_20260926/training/s92606_I-F/final.pt": "5ab388bb518f431af80e448f53042e4d3827b5a9110823174d050946e29b6d45"
+  },
+  "sources": {
+    "data/level1/parents_l1024.npz": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934",
+    "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_AUTHORIZATION_20261001_ZH.md": "e7eeee9de12ca1293ab2707b67f74d45f28f8ef7cf4f004de6890184a5630c37",
+    "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_BUDGET_20261001.json": "73523784d720705df517e514cb3a7fc591c61b825062fe55cd2fffb62af2b71c",
+    "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_CONFIG_20261001.json": "acd28d68c3a7f597e543a3ebc683a0f23cfa421a0a9e6f2286edbac8317b24ed",
+    "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_PLAN_20261001_ZH.md": "469a3d1b332592faac690e6ba95f1b65be92f6e6c01a061723bafc6bee43dff8",
+    "docs/research_reboot_20260921/GEOMETRY_IDENTIFICATION_CONFIG_20260926.json": "2db0687e57944499abbcdc53ab1ce6bf65772b3cfd1d2d62f2e0ebc37a440916",
+    "ism_diffusion/__init__.py": "af8f1667470d1082432f9efedb939320ce648c62e458666c39f68f003b6b13c3",
+    "ism_diffusion/context_repair_core.py": "58effac6a4ccdd1a81606f4d8395828c0a12b4ff3909fc8283cf60fdd4747703",
+    "ism_diffusion/diagnostics.py": "2c87206dcec2ff9dfbd897c4b2c57bddf66d3bdf242404bd74682ead6c986384",
+    "ism_diffusion/diffusion.py": "a70286a41302539b945c8e1bf11a6ca33e9b3475b95dbf4ee1acd79e05b99655",
+    "ism_diffusion/geometry_study.py": "f96f3d816453d532fb454355cbd0c50f42b00352c9b37886a8ca6b67aa16e490",
+    "ism_diffusion/ising.py": "657b9e526eaaf6d242d3c89bb5c4cebefa1a5e7879b4a2a4ebef1c2ff4be60f3",
+    "ism_diffusion/ising_numba.py": "918dbe97f568af52789bca3d6a59d5e42c05a0930831a5007f5844b46c6d0a8c",
+    "ism_diffusion/metrics.py": "0c148f86281e76e0f28700c1f5198cfd6b2eeeb10d4a554fb3d2cb5c3353ddfe",
+    "ism_diffusion/model.py": "f0ba3e8a9ab00afc143c66c5f1c8b6e37981801cf405f15fb67baea36686c1b9",
+    "ism_diffusion/scale_data.py": "148ee296c20cd1ae3ebceb6d12a1bd8cb4df76d679e7cf105d3c2df09d7734b3",
+    "ism_diffusion/scale_diffusion.py": "6bf4575fe6358dffa74cb6c4bd077eb69120ad6c8edaf9dbf0fc43f615c21f74",
+    "ism_diffusion/scale_evaluation.py": "ed5204a2d220b451278e9916b66a3a37fbb08ac8f3bf2e87d2e9a9a98d27bd7d",
+    "ism_diffusion/scale_model.py": "3930e9a2ec1ac85edaa525b9562beb21c7a001594dba23726f233a0b9d3d6018",
+    "ism_diffusion/stage2_data.py": "db8361ed43a9dc777bf2b1fd62b966b02c54d8160f69acaca646cd79c75b0765",
+    "ism_diffusion/stage2_model.py": "f5db55eacedfaa7272f3dacb97a4dbbbeae4fe57a6fb89b5ee2d89b00564515d",
+    "ism_diffusion/stage2_sampling.py": "6723fe70c220fedcdc7d2ce024f28fc13eac0446984482fd8a0c93c71280f5b4",
+    "scripts/research20260926/identification_common.py": "87fa2cc4d9fb13efb7a343618cbeeeec56733c98df2049179cd12cddc0256c6d",
+    "scripts/research20260926/identification_data.py": "44e552424a14da6dd2204e044352662e78fa2bbc89fd30fad4b3acc15231e9fb",
+    "scripts/research20260926/identification_training.py": "45557887c25810954127b42bc6764f94cc09754c1460ddaa2c06966db84f0cc6",
+    "scripts/research20261001/endpoint_common.py": "f2491ba2bcdfba5aca820ff0999783aac046039da319c2383bc3c782d28b27d1",
+    "scripts/research20261001/endpoint_cpu_prepare.py": "656af18d8f292cf3f8be17b3d5812391dbd6a0dab1b62210d085ef033593095a",
+    "scripts/research20261001/endpoint_data.py": "ef742d100d55530cd939d65bf9d4a31ec3f1abb54c6a0201c180511979ed8f62",
+    "scripts/research20261001/endpoint_evaluation.py": "489d02d0412410d5dc4617e12fd8abcc6937d6378f55a439c2d2a865582e82f8",
+    "scripts/research20261001/endpoint_figures.py": "6413737acd23cdca3d4d5172c9885b93d2cd114aa40894ef574e60e7e5876d45",
+    "scripts/research20261001/endpoint_fixture.py": "1b6c08a8cc5bf0f5c9abb55d25668a91c36154e36832dfecfd8fb6c91a97ae58",
+    "scripts/research20261001/endpoint_management.py": "a1f0c71032ac3cd80f2f29b824c84ee6ad8345df50c0ad7043fbd2829a7e44a7",
+    "scripts/research20261001/endpoint_preflight.py": "39300d6041e032b57c6f67cfe27d0646ed91f6585f62ef6f714203169f48101d",
+    "scripts/research20261001/endpoint_sampling.py": "8bf60dc084d04f0a931568a6640207f0420861f006954093d6047159101ea2cc",
+    "scripts/research20261001/endpoint_statistics.py": "879b333b6694d12666b41d5474f2d7e947c599c9115198993cb7487c09b978df",
+    "scripts/research20261001/endpoint_tests.py": "2fdab76f937c34d3db1aa1a149db5953a353f786ceba231405656603a894c9a5",
+    "scripts/research20261001/endpoint_training.py": "3f27884f2293e38a904027d9f30806d7f4cfeec84d0f3ffea6e58a4cc5a368c4",
+    "scripts/research20261001/run_endpoint.py": "22cfd59a01e2b5f49e11e0ddfb2a865a6deec74af698f5a9cc7b56561eaf2cff",
+    "scripts/research20261001/run_training_phase.py": "a6a2f3eacd6dd08dadaa618cd5fccb615ccce0c84e0b05a489851f570c8dbb06",
+    "scripts/research20261001/validate_next_stage_design.py": "f49a94948916d8adb8e40d671c1d4844984bd96e14c65c9c418a8f19a3b8fa8b",
+    "scripts/research20261001_eval/check_fp16.py": "94b66ef065b547f0ddfa19344e55e4dde66f8c2b9dc6b5de5e447ee41aaa048f",
+    "scripts/research20261001_eval/check_precision.py": "d36b12918e6b4a77deeb21bb3c16de6eff583ed8fc218b8b50ae91caaca0589b",
+    "scripts/research20261001_eval/fp16_adapter.py": "8a195110920b8780eb40885d250663135cba7419492af3e4d9d57c77711cf31f",
+    "scripts/research20261001_eval/manage_evaluation.py": "04feba60863a532cdeb7dbe34bde2d19e6e5490260e31cca941079afb5d1cbe6",
+    "scripts/research20261001_eval/precision_adapter.py": "1c4653f54920a15cb43d66075e9a8998c7141c5dade4996d51a151b45b70ac10",
+    "scripts/research20261001_eval/run_evaluation.py": "c124411e87bf7e40a4036eca1bc680290b21cf97850784631f16b8c2fa042ead",
+    "scripts/research20261001_eval/test_evaluation_adapter.py": "e0fca3960887f37389dd08daa37ba07c510cfc86bc4c5e33e7aedb1b9e5345b3",
+    "docs/research_reboot_20260921/ENDPOINT_EVALUATION_WINDOW_20261001_ZH.md": "afc2943c770c69d03c123026a0f1d12217fb494b44d467fd9d54e47f43c0929e",
+    "artifacts/endpoint_mask_sampler_evaluation_20261001_exports/fp16_revision_v1/complete.json": "4344d4c6ca0d756f60203a91da82c88f4e43ba30a53bbce847231a0556155386",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001_exports/training_phase_full_audit_v1.json": "1d84d9aefaff35ad86474c3c8584926d96bcf088b14c05dccbaddc9a7e9eb669",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001_exports/training_phase_science_manifest_v1.json": "d2878c8023fef62e181c3faece2b34c48e612c539c48f8e97212caa454273197"
+  },
+  "config": {
+    "experiment_id": "endpoint_mask_sampler_disentanglement_20261001",
+    "public_name": "Late-mask coverage and committed-spin correction",
+    "date": "2026-10-01",
+    "design_version": 1,
+    "lifecycle": "authorized_frozen_model_evaluation",
+    "execution_authorized": true,
+    "plan": "ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_PLAN_20261001_ZH.md",
+    "base": {
+      "experiment_id": "geometry_identification_20260926",
+      "arm": "I-F",
+      "step": 12000,
+      "seeds": [
+        92601,
+        92602,
+        92603,
+        92604,
+        92605,
+        92606
+      ],
+      "checkpoint_sha_required_before_execution": true,
+      "independent_training_lineages": 6,
+      "fresh_training": false
+    },
+    "model": {
+      "architecture": "original_dense_coordinate_transformer",
+      "parameter_count": 1976706,
+      "d_model": 128,
+      "heads": 4,
+      "blocks": 7,
+      "mlp_ratio": 4,
+      "dropout": 0,
+      "rope_base": 10000,
+      "native_coordinates": "true_physical_I-F"
+    },
+    "training": {
+      "arms": {
+        "original-support": {
+          "ordinary_fraction": 0.75,
+          "ordinary_t_min": 0.01,
+          "sparse_visible_fraction": 0.25,
+          "late_mask_fraction": 0
+        },
+        "lower-time-floor": {
+          "ordinary_fraction": 0.75,
+          "ordinary_t_min": 0.002,
+          "sparse_visible_fraction": 0.25,
+          "late_mask_fraction": 0
+        },
+        "explicit-late-mask": {
+          "ordinary_fraction": 0.5,
+          "ordinary_t_min": 0.002,
+          "sparse_visible_fraction": 0.25,
+          "late_mask_fraction": 0.25
+        }
+      },
+      "additional_updates_per_branch": 8000,
+      "block_updates": 1000,
+      "tokens_per_update": 18432,
+      "widths": [
+        16,
+        24,
+        32,
+        48
+      ],
+      "schedule_period": 32,
+      "geometries": [
+        "continuous",
+        "train_gap"
+      ],
+      "ordinary_full_mask_probability": 0.02,
+      "sparse_visible_counts": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "sparse_hidden_slots_per_update": 512,
+      "late_mask_candidates": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "late_mask_max_fraction": 0.02,
+      "late_mask_selection": "uniform_without_replacement_all_valid_positions",
+      "late_model_clock_floor": 0.002,
+      "late_loss": "per_image_mean_CE_over_exact_M_then_batch_mean",
+      "ordinary_loss": "sum_mask_CE_divided_by_nominal_t_and_total_input_tokens",
+      "optimizer": {
+        "name": "AdamW",
+        "restore_moments": true,
+        "betas": [
+          0.9,
+          0.95
+        ],
+        "weight_decay": 0.05,
+        "clip_norm": 1.0
+      },
+      "continuation_lr": {
+        "warm_steps": 256,
+        "start": 3e-05,
+        "peak": 0.0001,
+        "end": 1e-05,
+        "decay": "cosine"
+      },
+      "ema_decay": 0.999,
+      "autocast": "bfloat16",
+      "parameters_loss_optimizer": "float32",
+      "tf32": false,
+      "train_parents": 768,
+      "validation_parents": 256,
+      "diagnostic_ema_updates": [
+        4000,
+        6000
+      ],
+      "primary_checkpoint": "final_8000_additional_steps_EMA",
+      "evaluate_test_only_after_all_finals_locked": true
+    },
+    "samplers": {
+      "monotone-256": {
+        "reveal_calls": 256,
+        "repair_calls": 0
+      },
+      "reveal192-repair64": {
+        "reveal_calls": 192,
+        "repair_calls": 64
+      },
+      "shared": {
+        "clock_floor": 0.002,
+        "temperature": 1.0,
+        "reveal_schedule": "cosine_squared_final_s_exact_zero",
+        "total_network_calls": 256,
+        "shard_size": 16,
+        "precision": "FP16_autocast_FP32_parameters_output_head_probabilities",
+        "tf32": false
+      },
+      "repair": {
+        "mask_count_by_width": {
+          "48": 8,
+          "96": 32
+        },
+        "selection": "uniform_interior_alternating_checkerboard_color",
+        "exclude_outer_border": true,
+        "may_revise_committed_spins": true,
+        "confidence_selection": false
+      },
+      "oracle": {
+        "network_calls": 0,
+        "repair_steps": 64,
+        "reference_only_not_neural_success": true
+      }
+    },
+    "generation": {
+      "images_per_lineage_arm_sampler": {
+        "96": 128,
+        "48": 64
+      }
+    },
+    "phase0": {
+      "old_updates_audited_per_lineage": 1024,
+      "frozen_images_per_lineage_clock": 32,
+      "width": 96,
+      "clocks": [
+        0.01,
+        0.002
+      ],
+      "conditional_parents": 16,
+      "conditional_widths": [
+        48,
+        96
+      ],
+      "conditional_mask_counts": [
+        1,
+        2,
+        8,
+        32
+      ],
+      "scientific_diagnostics_only_after_protocol_freeze": true,
+      "physical_comparison_only_after_all_finals_locked": true
+    },
+    "evaluation": {
+      "exact_local": {
+        "parents": 256,
+        "widths": [
+          48,
+          96
+        ],
+        "mask_counts": [
+          1,
+          2,
+          8,
+          32
+        ]
+      },
+      "neighbor_stress": {
+        "backgrounds": 4,
+        "patterns": 16,
+        "widths": [
+          48,
+          96
+        ]
+      },
+      "retention": {
+        "parents": 256,
+        "tasks": [
+          "C48_K115",
+          "C48_K1152",
+          "H48_K512"
+        ],
+        "queries": 64
+      },
+      "learning": {
+        "parents": 128,
+        "width": 48,
+        "checkpoints": [
+          4000,
+          6000,
+          8000
+        ],
+        "mask_counts": [
+          1,
+          2,
+          8,
+          32
+        ],
+        "improvement_flag": 0.002
+      },
+      "conditional_precision": "FP32",
+      "preflight_precision_check": {
+        "validation_inputs": 256,
+        "BF16_vs_FP32_max_probability_difference": 0.005,
+        "absolute_mean_CE_difference": 0.001
+      }
+    },
+    "reference": {
+      "master_seed": 2026100111,
+      "lattice_size": 1024,
+      "chains": 16,
+      "parents_per_chain": 128,
+      "workers": 4,
+      "random_chains": 8,
+      "plus_chains": 4,
+      "minus_chains": 4,
+      "burn_sweeps": 40,
+      "between_sweeps": 4,
+      "adapt_sweeps": 3,
+      "pilot_clusters": 128,
+      "split_rhat_max": 1.1,
+      "per_chain_ess_min": 16,
+      "new_reference_evaluation_only": true
+    },
+    "role_seeds": {
+      "training": 2026100121,
+      "banks": 2026100131,
+      "generation": 2026100141,
+      "repair": 2026100142,
+      "bootstrap": 2026100151
+    },
+    "statistics": {
+      "primary_width": 96,
+      "secondary_w48_max_lag": 24,
+      "secondary_w48_bands": [
+        [
+          1,
+          4
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          13,
+          24
+        ]
+      ],
+      "secondary_w48_additional_local_band": [
+        1,
+        8
+      ],
+      "primary_metric": "open_axis_G25_48_NRMSE_ratio_of_pooled_pair_sums",
+      "primary_contrasts": [
+        {
+          "name": "training_coverage",
+          "left": [
+            "explicit-late-mask",
+            "monotone-256"
+          ],
+          "right": [
+            "original-support",
+            "monotone-256"
+          ]
+        },
+        {
+          "name": "committed_repair",
+          "left": [
+            "explicit-late-mask",
+            "reveal192-repair64"
+          ],
+          "right": [
+            "explicit-late-mask",
+            "monotone-256"
+          ]
+        }
+      ],
+      "primary_two_sided_ci": 0.975,
+      "practical_upper_bound": -0.05,
+      "requires_paired_t_and_joint_block8_bootstrap": true,
+      "bootstrap_reps": 20000,
+      "mc_block": 8,
+      "sensitivity_blocks": [
+        4,
+        16
+      ],
+      "sensitivity_reps": 10000,
+      "exact_KL_mean_upper": 0.01,
+      "exact_KL_one_sided_ci_eight_tasks": 0.99375,
+      "stress_max_probability_error_observed": 0.05,
+      "conditional_retention_ce": 0.005,
+      "retention_one_sided_ci_three_tasks": 0.9833333333333333,
+      "physical_absolute_bias_retention": {
+        "short_range_NRMSE": 0.02,
+        "energy": 0.01,
+        "abs_m": 0.02
+      },
+      "physical_one_sided_ci_for_both_claims_six_gates": 0.9916666666666667
+    },
+    "rg_diagnostic": {
+      "training_in_this_campaign": false,
+      "operator": "nonoverlapping_3x3_majority",
+      "input_width": 96,
+      "output_width": 32,
+      "reference": "same_operator_applied_to_same_MC_crops",
+      "secondary_operator": "decimation3",
+      "coarse_bands": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          9,
+          16
+        ]
+      ],
+      "origin_sensitivity": "origins_(0,1,2)x(0,1,2)_each_90x90_to_30x30_nested_by_original_parent"
+    },
+    "budget": {
+      "not_a_current_machine_benchmark": true,
+      "proposed_hard_wall_seconds": 43200,
+      "proposed_launch_total_forecast_max_seconds": 37800,
+      "clock_starts_at_first_authorized_GPU_preflight": true,
+      "excludes_prior_development_calendar_time": true,
+      "includes_post_start_waits_and_backup": true,
+      "no_automatic_sample_or_seed_reduction": true,
+      "historical": {
+        "training_updates": 216000,
+        "training_forecast_seconds": 11856.093165487984,
+        "w96_shard16_seconds": 33.17470463272184,
+        "mc2048_seconds": 4891.184601306915
+      },
+      "scenarios": {
+        "favorable_not_guaranteed": {
+          "preflight_seconds": 900,
+          "training_seconds_per_update": 0.055,
+          "mc_seconds": 5100,
+          "w96_shard16_seconds": 33.2,
+          "w48_shard16_seconds": 8.3,
+          "conditional_seconds": 1000,
+          "analysis_RG_seconds": 900,
+          "io_seconds": 900,
+          "backup_visual_seconds": 1800
+        },
+        "central": {
+          "preflight_seconds": 1800,
+          "training_multiplier_on_historical": 1.1,
+          "mc_seconds": 5800,
+          "generation_multiplier_on_historical": 1.1,
+          "w48_to_w96_ratio_assumption": 0.35,
+          "conditional_seconds": 1400,
+          "analysis_RG_seconds": 1800,
+          "io_seconds": 1800,
+          "backup_visual_seconds": 2700
+        },
+        "conservative_not_absolute_bound": {
+          "preflight_seconds": 1800,
+          "training_seconds_per_update": 0.075,
+          "mc_seconds": 6500,
+          "w96_shard16_seconds": 42,
+          "w48_shard16_seconds": 33.2,
+          "conditional_seconds": 2000,
+          "analysis_RG_seconds": 2400,
+          "io_seconds": 2100,
+          "backup_visual_seconds": 2700
+        }
+      }
+    },
+    "evaluation_stage_id": "endpoint_mask_sampler_evaluation_20261001",
+    "new_training": false,
+    "training_inherited_complete": true,
+    "hard_evaluation_deadline": 1790863200.0
+  },
+  "order": "new MC parallel to fixed seed/arm learning+generation; conditional after MC QA; all statistics only after complete counts",
+  "no_training": true,
+  "no_sample_reduction": true,
+  "no_checkpoint_selection": true,
+  "formal_images": 6912,
+  "phase0_images": 384,
+  "prediction_files": 546,
+  "conditional_inputs": 82176,
+  "reference_parents": 2048,
+  "independent_lineages": 6,
+  "training_alias": "read-only use of old training directory; manifests use canonical old paths",
+  "freeze_time": 1790839970.853695,
+  "resources": {
+    "time": 1790839969.4634752,
+    "disk_free": 10396631040,
+    "gpu": "NVIDIA GeForce RTX 4090, 1 MiB, 24564 MiB, 0 %"
+  },
+  "launch_forecast": {
+    "time": 1790839969.458118,
+    "generation_measured_projection_seconds": 11442.925430439413,
+    "generation_margin": 1.15,
+    "conditional_allowance_seconds": 1600,
+    "preparation_io_allowance_seconds": 300,
+    "concurrent_mc_allowance_seconds": 6500,
+    "cpu_analysis_audit_plot_allowance_seconds": 1800,
+    "backup_visual_report_allowance_seconds": 1800,
+    "remaining_total_forecast_seconds": 18659.364245005323,
+    "forecast_delivery_epoch": 1790858628.822363,
+    "hard_deadline": 1790863200.0,
+    "scientific_compute_deadline": 1790861400.0,
+    "fits": true,
+    "estimates_not_guarantees": true,
+    "shard_counts": {
+      "w96_monotone-256": 168,
+      "w96_reveal192-repair64": 144,
+      "w48_monotone-256": 72,
+      "w48_reveal192-repair64": 72
+    }
+  },
+  "protocol_hash": "a11d627b753068762bd126070b739dd945ad2a82ccf8afe9b82935602e6863d3"
+}

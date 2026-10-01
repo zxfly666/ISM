@@ -1,0 +1,69 @@
+{
+  "figures": [
+    {
+      "figure": "01_mask_coverage",
+      "caption": "Observed cumulative coverage. Historical I-F uses6144 reconstructed updates, not a full replay; new arms use all logs. Sparse-visible updates are included and are not late-mask examples.",
+      "source_files": [
+        "coverage_audit/*.npz",
+        "training/*/log.jsonl",
+        "analysis/coverage_plot_data.npz"
+      ],
+      "plot_script": "scripts/research20261001/endpoint_figures.py",
+      "fixture": false
+    },
+    {
+      "figure": "02_local_conditional_ability",
+      "caption": "Exact nearest-neighbor conditional KL; dots are six inherited training lineages, lines are means. The.01 line is an accuracy threshold, not proof of correct joint generation; formal simultaneous upper bounds are in summary.json.",
+      "source_files": [
+        "analysis/conditional_draws.npz",
+        "analysis/summary.json"
+      ],
+      "plot_script": "scripts/research20261001/endpoint_figures.py",
+      "fixture": false
+    },
+    {
+      "figure": "03_predefined_primary",
+      "caption": "Two predeclared effects. Each requires both interval upper bounds below−.05 for practical success. Six gray points are lineages; secondary diagnostics do not replace these endpoints.",
+      "source_files": [
+        "analysis/summary.json",
+        "analysis/generation_primary_draws_block8.npz"
+      ],
+      "plot_script": "scripts/research20261001/endpoint_figures.py",
+      "fixture": false
+    },
+    {
+      "figure": "04_physical_tradeoffs",
+      "caption": "W96 estimates and secondary95% joint intervals. S=monotone256, R=reveal192+repair64. Signed moments and energy target0, not uniformly lower values. Formal absolute-bias non-degradation gates are separate.",
+      "source_files": [
+        "analysis/generation_point.npz",
+        "analysis/generation_primary_draws_block8.npz",
+        "analysis/summary.json"
+      ],
+      "plot_script": "scripts/research20261001/endpoint_figures.py",
+      "fixture": false
+    },
+    {
+      "figure": "05_committed_repair_diagnostics",
+      "caption": "Model and analytic Gibbs branches share the same prefix, position schedule and uniforms. Oracle is not a learned-model result or an upper bound. The prefix comparison spends additional compute and cannot replace equal256-call P2.",
+      "source_files": [
+        "analysis/repair_diagnostics.npz",
+        "evaluation/*/generation/w96_reveal192-repair64/shard_*.npz"
+      ],
+      "plot_script": "scripts/research20261001/endpoint_figures.py",
+      "fixture": false
+    },
+    {
+      "figure": "06_true_coarse_graining",
+      "caption": "All model/MC fields receive the same operator within each panel. Curves are means; inferential intervals are in secondary arrays. Majority is not decimation or a same-beta nearest-neighbor Ising law; this figure is not RG-training validation.",
+      "source_files": [
+        "analysis/secondary_w96_majority32.npz",
+        "analysis/secondary_w96_decimation32.npz",
+        "analysis/secondary_w96_majority30_origins.npz"
+      ],
+      "plot_script": "scripts/research20261001/endpoint_figures.py",
+      "fixture": false
+    }
+  ],
+  "script_sha256": "6413737acd23cdca3d4d5172c9885b93d2cd114aa40894ef574e60e7e5876d45",
+  "fixture": false
+}

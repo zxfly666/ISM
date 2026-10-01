@@ -1,0 +1,11 @@
+{
+  "started": 1790839511.393934,
+  "deadline": 1790863200.0,
+  "fixed_candidate": "FP16_autocast_FP32_parameters_output_head_probabilities",
+  "selection": "one candidate, no threshold relaxation",
+  "training": false,
+  "test_data": false,
+  "max_probability_gate": 0.005,
+  "mean_ce_gate": 0.001,
+  "candidate_source_sha256": "8a195110920b8780eb40885d250663135cba7419492af3e4d9d57c77711cf31f"
+}

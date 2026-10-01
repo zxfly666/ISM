@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "source_sha256": "92804a66aacf6d7d34dc67ebcc919ddf4cbafdca2a5aaa729002a0eadbd7a8b0",
+  "formal_predictions": 13,
+  "learning_predictions": 12,
+  "final_images": 384,
+  "prefix_images": 192,
+  "oracle_images": 192
+}

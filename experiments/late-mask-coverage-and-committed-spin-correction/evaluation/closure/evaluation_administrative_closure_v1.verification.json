@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "time": 1790853774.8327365,
+  "archive": "evaluation_administrative_closure_v1.tar.gz",
+  "archive_bytes": 385648,
+  "archive_path": "<CUSTODIAN_BACKUPS>\\20261001_endpoint_mask_sampler_disentanglement\\evaluation_administrative_closure_v1.tar.gz",
+  "manifest_path": "<CUSTODIAN_BACKUPS>\\20261001_endpoint_mask_sampler_disentanglement\\evaluation_administrative_closure_v1.manifest.json",
+  "archive_sha256": "62f0e086bbb7b0f66b8ca61f9c208d5c0feacc41399904a2639cd52fb8382400",
+  "manifest_sha256": "2a0ef4aaa075f189f6c9290efa7667b2ac0f2823cf8ead715010d3cd86de624e",
+  "members": 7
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "provenance_records": 3873,
+  "npz_files": 2438,
+  "arrays": 27536,
+  "public_bytes": 395850516,
+  "largest_file": {
+    "bytes": 17777884,
+    "path": "experiments/context-consistency-training/withheld-manifest.json"
+  },
+  "local_links_checked": 4455,
+  "nonfinite_arrays_preserved": [],
+  "errors": [],
+  "limitations": [
+    "Nonfinite diagnostic values are inventoried, not silently removed or treated as universally invalid.",
+    "Secret scan is pattern-based plus manual payload review, not a proof of absence.",
+    "Links checked against local public paths; staged-only closure is checked separately."
+  ]
+}

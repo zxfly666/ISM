@@ -1,0 +1,44 @@
+{
+  "archive": "evaluation_administrative_closure_v1.tar.gz",
+  "archive_bytes": 385648,
+  "archive_sha256": "62f0e086bbb7b0f66b8ca61f9c208d5c0feacc41399904a2639cd52fb8382400",
+  "members": 7,
+  "files": [
+    {
+      "path": "artifacts/endpoint_mask_sampler_evaluation_20261001/formal.stdout",
+      "bytes": 279897,
+      "sha256": "f832498fd11f2581cafc21526c35fb58bf570e07771e997518f728b655ec41e4"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_evaluation_20261001/reference.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_evaluation_20261001/remote_export_complete.json",
+      "bytes": 492066,
+      "sha256": "2d088ef139c2c88c6f1bb6de6c2ac09daa0db4f7798f5a94d772cda3a5552b8c"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_evaluation_20261001/run.jsonl",
+      "bytes": 279897,
+      "sha256": "f832498fd11f2581cafc21526c35fb58bf570e07771e997518f728b655ec41e4"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_evaluation_20261001/science_manifest.json",
+      "bytes": 577227,
+      "sha256": "a11b00200b6c76afd99afc7ab585f5f8327067eedd81bccd68512f94a3b68d0e"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_evaluation_20261001/status.json",
+      "bytes": 146,
+      "sha256": "865f6382416b46607e850a4a90def47ea6e2b53c17ef244987d065b1eede96a1"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_evaluation_20261001_exports/closure_manifest_v1.json",
+      "bytes": 578251,
+      "sha256": "82323c43ea60611ef73d5181b859373e9409c6ae096389b9f14200a62af2d275"
+    }
+  ],
+  "created": 1790853554.67351
+}

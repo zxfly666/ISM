@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "time": 1790840029.1364696,
+  "archive": "evaluation_initial_v1.tar.gz",
+  "archive_bytes": 2799390,
+  "archive_path": "<CUSTODIAN_BACKUPS>\\20261001_endpoint_mask_sampler_disentanglement\\evaluation_initial_v1.tar.gz",
+  "manifest_path": "<CUSTODIAN_BACKUPS>\\20261001_endpoint_mask_sampler_disentanglement\\evaluation_initial_v1.manifest.json",
+  "archive_sha256": "ccea461b53ce4ee55d554fdaf1cbaf3f74e62377ad4adfee2cb4fcf75175f56c",
+  "manifest_sha256": "cf084bd966891c1da86166a1eebc49d9bf69e588d2c9c6ffd88932507bb0cdc1",
+  "members": 272
+}

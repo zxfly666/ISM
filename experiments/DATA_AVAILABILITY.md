@@ -44,4 +44,17 @@
 [末期MASK覆盖](late-mask-coverage-and-committed-spin-correction/README.md)公开训练完成、
 全144k输入审计、18final/36EMA身份、原定协议、effective config、冻结科学源码和技术失败记录。
 新包128成员、联合173路径本地核验通过；权重、原始逐步日志和大训练池仍为manifest-only。
-本阶段没有新MC/正式生成或P1/P2统计，不能把“没有上传”与“尚未计算”混为一谈。
+以上是训练交付时点范围。随后在独立授权时窗已完成新MC/正式生成/P1/P2统计，不用新状态抹去旧失败。
+
+## 2026-10-01正式评价追加
+
+公开1086条来源记录（训练63+评价1023），含546个条件/学习预测NPZ、完整分析和敏感性数组、
+通过及失败precision候选、六图PNG/PDF、384图phase0诊断（含24个spin shard）、协议和CPU审计/备份回执。
+七个新冻结评价源码逐SHA发布；数值与图片不修改。详见[证据索引](late-mask-coverage-and-committed-spin-correction/EVIDENCE.md)。
+
+大权重、144k原训练日志、大训练池、新MC原场、输入bank与6912正式图spin/RNG轨迹**已计算并已核验备份，但未公开托管**。
+完成包382721565字节/1811成员、退出后管理包385648字节/7成员两处逐成员核验；
+与六基座/训练/初始/失败预检共12包联合2256/2256路径，正式final无排除。
+[联合回执](late-mask-coverage-and-committed-spin-correction/evaluation/closure/evaluation_independent_union_v1.json)与
+[逐文件归档映射](late-mask-coverage-and-committed-spin-correction/withheld-manifest.json)区分公开副本与保管者材料。
+仍是同D盘独立目录，不是异盘/异地灾备，没有新release/LFS或永久公开下载保证。

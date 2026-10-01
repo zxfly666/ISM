@@ -1,0 +1,106 @@
+{
+  "historical_sampled_not_full_replay": true,
+  "total_updates": 6144,
+  "cycles": [
+    0,
+    12,
+    24,
+    36,
+    48,
+    60,
+    72,
+    84,
+    96,
+    108,
+    120,
+    132,
+    144,
+    156,
+    168,
+    180,
+    193,
+    205,
+    217,
+    229,
+    241,
+    253,
+    265,
+    277,
+    289,
+    301,
+    313,
+    325,
+    337,
+    349,
+    361,
+    374
+  ],
+  "records": [
+    {
+      "seed": 92601,
+      "reconstructed_updates": 1024,
+      "images": 33280,
+      "ordinary_low_M_counts": {
+        "1": 20,
+        "2": 46,
+        "8": 400,
+        "32": 1969
+      }
+    },
+    {
+      "seed": 92602,
+      "reconstructed_updates": 1024,
+      "images": 33280,
+      "ordinary_low_M_counts": {
+        "1": 14,
+        "2": 42,
+        "8": 389,
+        "32": 2059
+      }
+    },
+    {
+      "seed": 92603,
+      "reconstructed_updates": 1024,
+      "images": 33280,
+      "ordinary_low_M_counts": {
+        "1": 21,
+        "2": 44,
+        "8": 362,
+        "32": 1995
+      }
+    },
+    {
+      "seed": 92604,
+      "reconstructed_updates": 1024,
+      "images": 33280,
+      "ordinary_low_M_counts": {
+        "1": 18,
+        "2": 51,
+        "8": 350,
+        "32": 2026
+      }
+    },
+    {
+      "seed": 92605,
+      "reconstructed_updates": 1024,
+      "images": 33280,
+      "ordinary_low_M_counts": {
+        "1": 13,
+        "2": 32,
+        "8": 355,
+        "32": 1924
+      }
+    },
+    {
+      "seed": 92606,
+      "reconstructed_updates": 1024,
+      "images": 33280,
+      "ordinary_low_M_counts": {
+        "1": 14,
+        "2": 40,
+        "8": 342,
+        "32": 1963
+      }
+    }
+  ]
+}

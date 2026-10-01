@@ -1,0 +1,23 @@
+{
+  "status": "no_candidate_passed",
+  "checks": [
+    {
+      "mode": "bf16_fp32_head",
+      "passed": false,
+      "failure": "original_256_inputs"
+    },
+    {
+      "mode": "bf16_fp32_conditioning_head",
+      "passed": false,
+      "failure": "original_256_inputs"
+    },
+    {
+      "mode": "bf16_fp32_conditioning_rope_head",
+      "passed": false,
+      "failure": "original_256_inputs"
+    }
+  ],
+  "started": 1790839401.6396437,
+  "completed": 1790839417.6690624,
+  "formal_generation_started": false
+}

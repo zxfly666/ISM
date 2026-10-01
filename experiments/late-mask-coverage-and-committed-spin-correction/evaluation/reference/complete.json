@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "parents": 2048,
+  "chains": 16,
+  "elapsed_seconds": 3765.784623861313,
+  "files": {
+    "chain_traces.npz": "1af11af6c2ca616ee0cc20208d6bbb6206014494b68dd003b2ab29ca275f8d8a",
+    "crop96.npz": "91339d116be29fa0e2a1ec35e2024a82a64a493d451a685338f77e7a44a3c532",
+    "fresh_l1024.npz": "87eadf3ac3d099ab3425d89ffc16101b9425ed7e0c0747a8175000100c36db55",
+    "stats_center48.npz": "17623dde923c73946a78a0fb77e6c4f1a548666638e91a7672edc2264b0f59f6",
+    "stats_decimation32.npz": "ff4740520df4a520baa487773670b01d6a24f4a0f0033ae0121e410d023184f6",
+    "stats_edge8.npz": "d0ddc925e3f78eba40bfe2a970b12ceaa41b6008281786c9241845152223dc93",
+    "stats_full.npz": "43867da143bf085a20083a9b13bb7a512e550c98301395d4f5e30ac6adedfb98",
+    "stats_majority30_origins.npz": "45b25a417166bddb4186ea2958d93fa5038f7b965d7de5249a309a1b7f90cd8b",
+    "stats_majority32.npz": "7e8a473e8184c57377a6f9a4054e0e5f36771c2f7ac828d5f216a5295f92bc9b",
+    "stats_w48.npz": "17623dde923c73946a78a0fb77e6c4f1a548666638e91a7672edc2264b0f59f6"
+  }
+}

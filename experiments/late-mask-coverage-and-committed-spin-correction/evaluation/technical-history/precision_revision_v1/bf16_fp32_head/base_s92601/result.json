@@ -1,0 +1,49 @@
+{
+  "mode": "bf16_fp32_head",
+  "rows": [
+    {
+      "bank": "w48_m1",
+      "max_probability_difference": 0.0023328065872192383,
+      "mean_ce_difference": 8.375075017110715e-05
+    },
+    {
+      "bank": "w48_m2",
+      "max_probability_difference": 0.0030908584594726562,
+      "mean_ce_difference": -3.3462606683107125e-05
+    },
+    {
+      "bank": "w48_m8",
+      "max_probability_difference": 0.006034344434738159,
+      "mean_ce_difference": 2.192874434991162e-05
+    },
+    {
+      "bank": "w48_m32",
+      "max_probability_difference": 0.005082964897155762,
+      "mean_ce_difference": 3.0573081266031116e-07
+    },
+    {
+      "bank": "w96_m1",
+      "max_probability_difference": 0.0027410686016082764,
+      "mean_ce_difference": 5.328252795969244e-05
+    },
+    {
+      "bank": "w96_m2",
+      "max_probability_difference": 0.004141867160797119,
+      "mean_ce_difference": -5.988455704557596e-07
+    },
+    {
+      "bank": "w96_m8",
+      "max_probability_difference": 0.0056035518646240234,
+      "mean_ce_difference": 1.4041078979064835e-05
+    },
+    {
+      "bank": "w96_m32",
+      "max_probability_difference": 0.004178285598754883,
+      "mean_ce_difference": 4.72779091615326e-06
+    }
+  ],
+  "inputs": 256,
+  "max_probability_difference": 0.006034344434738159,
+  "absolute_mean_ce_difference": 1.799689636687834e-05,
+  "passed": false
+}

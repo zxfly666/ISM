@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "parents": 2048,
+  "chains": 16,
+  "crop_and_physics_recomputed": true,
+  "formal_banks_rebuilt": 13,
+  "time": 1790852794.3336596,
+  "elapsed_seconds": 25.052874326705933
+}

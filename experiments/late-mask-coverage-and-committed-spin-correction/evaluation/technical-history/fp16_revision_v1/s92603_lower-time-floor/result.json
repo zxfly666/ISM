@@ -1,0 +1,50 @@
+{
+  "seed": 92603,
+  "arm": "lower-time-floor",
+  "source_sha256": "664508abf1ef38e843acb6ae455554c6bdfa3d76fd3cdfca54a8792ecf98f241",
+  "rows": [
+    {
+      "bank": "w48_m1",
+      "max_probability_difference": 0.00031888484954833984,
+      "mean_ce_difference": -4.369551311985374e-06
+    },
+    {
+      "bank": "w48_m2",
+      "max_probability_difference": 0.00037211179733276367,
+      "mean_ce_difference": -1.252872173661615e-06
+    },
+    {
+      "bank": "w48_m32",
+      "max_probability_difference": 0.0007551908493041992,
+      "mean_ce_difference": 3.433313119230799e-07
+    },
+    {
+      "bank": "w48_m8",
+      "max_probability_difference": 0.0005397498607635498,
+      "mean_ce_difference": -2.0889101512910555e-06
+    },
+    {
+      "bank": "w96_m1",
+      "max_probability_difference": 0.0002968907356262207,
+      "mean_ce_difference": -1.38617537137984e-05
+    },
+    {
+      "bank": "w96_m2",
+      "max_probability_difference": 0.0004087090492248535,
+      "mean_ce_difference": 9.657666310463123e-07
+    },
+    {
+      "bank": "w96_m32",
+      "max_probability_difference": 0.0008003413677215576,
+      "mean_ce_difference": -7.958919798298908e-08
+    },
+    {
+      "bank": "w96_m8",
+      "max_probability_difference": 0.0006809234619140625,
+      "mean_ce_difference": 1.8057127892648003e-06
+    }
+  ],
+  "max_probability_difference": 0.0008003413677215576,
+  "absolute_mean_ce_difference": 2.317233227060655e-06,
+  "passed": true
+}

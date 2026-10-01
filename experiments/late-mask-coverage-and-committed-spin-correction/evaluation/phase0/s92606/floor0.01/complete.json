@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "images": 32,
+  "width": 96,
+  "sampler": "monotone-256",
+  "clock_floor": 0.01,
+  "sampling_seconds": 68.92094679456204,
+  "source_sha256": "5ab388bb518f431af80e448f53042e4d3827b5a9110823174d050946e29b6d45",
+  "per_image_network_calls": 256,
+  "inference_precision": "FP16_autocast_FP32_parameters_output_head_probabilities"
+}

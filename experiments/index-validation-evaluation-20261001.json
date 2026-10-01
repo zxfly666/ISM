@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "comparison_base": "b8dee83a77e14049c866cbc77a6a4ff0859aea5a",
+  "indexed_files": 4650,
+  "delta_files": 1053,
+  "delta_bytes": 109308723,
+  "largest_delta_bytes": 8164105,
+  "changed_markdown_links_checked": 1416,
+  "frozen_sources_checked": 140,
+  "errors": [],
+  "scope": "Exact staged evaluation-publication delta, not all local untracked files. No scientific computation."
+}

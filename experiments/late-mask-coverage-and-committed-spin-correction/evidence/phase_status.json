@@ -3,7 +3,7 @@
   "public_name": "Late-mask coverage and committed-spin correction",
   "historical_alias": "A/L/E (training arms)",
   "date": "2026-10-01",
-  "status": "training_complete_evaluation_pending",
+  "status": "training_and_evaluation_complete",
   "trained_models": 18,
   "fresh_models": 0,
   "inherited_training_lineages": 6,
@@ -11,19 +11,133 @@
   "tokens": 2654208000,
   "final_checkpoints": 18,
   "diagnostic_ema_snapshots": 36,
-  "formal_new_MC_parents": 0,
-  "formal_generated_images": 0,
-  "formal_prediction_files": 0,
+  "formal_new_MC_parents": 2048,
+  "formal_generated_images": 6912,
+  "formal_prediction_files": 546,
   "primary_effects": {
-    "P1": null,
-    "P2": null
+    "P1_training_coverage": {
+      "estimate": 0.025709047226012454,
+      "per_seed": [
+        0.015392514960450562,
+        0.07722822166332693,
+        -0.05894715897676811,
+        0.0904781594742915,
+        0.011144508369746502,
+        0.01895803786502734
+      ],
+      "bootstrap_ci": [
+        -0.028896283894241932,
+        0.07412597147185353
+      ],
+      "ci_level": 0.975,
+      "paired_t_ci": [
+        -0.04354918860032879,
+        0.0949672830523537
+      ],
+      "supplementary_bootstrap_ci95": [
+        -0.022778854344437306,
+        0.06821161352887524
+      ],
+      "practical_threshold": -0.05,
+      "directional": false,
+      "practical": false,
+      "paired_seed_sd": 0.0536284798260299,
+      "bootstrap_scientific_sd": 0.023289936434783498,
+      "bootstrap_endpoint_mcse": [
+        0.00064294481735009,
+        0.0004832320233837508
+      ],
+      "endpoint_mcse_resamples": 200,
+      "supplementary_practical_thresholds": {
+        "-0.02": false,
+        "-0.1": false
+      },
+      "split_half_endpoint_difference": [
+        -1.3937959530346128e-05,
+        0.00026455490889341904
+      ],
+      "leave_one_lineage_out": [
+        0.027772353679124832,
+        0.015405212338549556,
+        0.042640288466568574,
+        0.012755224776356645,
+        0.028621954997265643,
+        0.027059249098209476
+      ],
+      "sign_flip_two_sided_p": 0.28125,
+      "sign_flip_assignments": 64,
+      "sensitivity_direction_reversal": true,
+      "robust_direction_in_all_sensitivities": false
+    },
+    "P2_committed_repair": {
+      "estimate": -0.030330859070905564,
+      "per_seed": [
+        0.001805369146404584,
+        -0.048015488889111335,
+        -0.05695792601265959,
+        -0.03857899863380254,
+        -0.014645754914741974,
+        -0.025592355121522525
+      ],
+      "bootstrap_ci": [
+        -0.08039470200225485,
+        0.021719955587552478
+      ],
+      "ci_level": 0.975,
+      "paired_t_ci": [
+        -0.05857185259391784,
+        -0.002089865547893286
+      ],
+      "supplementary_bootstrap_ci95": [
+        -0.07380409395382988,
+        0.015309630272458616
+      ],
+      "practical_threshold": -0.05,
+      "directional": false,
+      "practical": false,
+      "paired_seed_sd": 0.021867746605810617,
+      "bootstrap_scientific_sd": 0.0228397213594413,
+      "bootstrap_endpoint_mcse": [
+        0.0005751634593153668,
+        0.0006010604224982922
+      ],
+      "endpoint_mcse_resamples": 200,
+      "supplementary_practical_thresholds": {
+        "-0.02": false,
+        "-0.1": false
+      },
+      "split_half_endpoint_difference": [
+        -0.0007956761312970101,
+        0.0003484627970364168
+      ],
+      "leave_one_lineage_out": [
+        -0.03675810471436759,
+        -0.02679393310726441,
+        -0.02500544568255476,
+        -0.02868123115832617,
+        -0.03346787990213828,
+        -0.03127855986078217
+      ],
+      "sign_flip_two_sided_p": 0.0625,
+      "sign_flip_assignments": 64,
+      "sensitivity_direction_reversal": false,
+      "robust_direction_in_all_sensitivities": false
+    }
   },
-  "primary_decision": "not_evaluated",
+  "primary_decision": "neither_primary_passed",
   "training_started": 1790827414.8573477,
   "training_completed": 1790836856.4571753,
   "training_seconds": 9441.599827528,
-  "local_backup_verified": 1790837872.8541296,
-  "backup_union_paths": 173,
-  "source": "evidence/training_phase_complete.json",
-  "audit": "evidence/training_phase_full_audit_v1.json"
+  "local_backup_verified": 1790853777.2164545,
+  "backup_union_paths": 2256,
+  "source": "evaluation/final_summary.json",
+  "audit": "evaluation/audit",
+  "evaluation_stage_id": "endpoint_mask_sampler_evaluation_20261001",
+  "phase0_generated_images": 384,
+  "conditional_inputs": 82176,
+  "scientific_success": false,
+  "evaluation_started": 1790840076.3635316,
+  "evaluation_completed": 1790853053.386262,
+  "evaluation_seconds": 12977.022730588913,
+  "visual_review": "evaluation/closure/visual_review_v1.json"
 }

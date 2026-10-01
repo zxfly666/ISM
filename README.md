@@ -6,25 +6,29 @@
 以及这种条件能力是否转化为正确的联合生成。临界 Ising 提供可核对的物理参考，
 但静态 Ising 结果不等于 world model 或完整尺度不变性验证。
 
-- [研究证据地图：12个已完成campaign、最新训练阶段、谱系与失败门](experiments/README.md)
+- [研究证据地图：13个已完成campaign、谱系与失败门](experiments/README.md)
 - [公共综合报告：设计、参数、结果与反例](experiments/REPORT_ZH.md)
 - [最完整的物理因素对照：size × spacing](experiments/size-spacing-factorial/README.md)
 - [最新的精确真值检查：固定clock尺寸泛化](experiments/canonical-context-size-generalization/README.md)
-- [10月1日训练阶段：末期MASK覆盖与已提交自旋纠错](experiments/late-mask-coverage-and-committed-spin-correction/README.md)
+- [10月1日完整评价：末期MASK覆盖与已提交自旋纠错](experiments/late-mask-coverage-and-committed-spin-correction/README.md)
 - [历史更正](experiments/CORRECTIONS.md) · [数据公开范围与SHA](experiments/DATA_AVAILABILITY.md) · [复现路线](experiments/REPRODUCING.md)
 
 公共版依据本地162页总报告及机器证据重新组织，不是私人通信/原PDF的原样上传。
 原科学产物不覆盖；大权重、完整MC与生成原数组并非全部公开，具体缺口有逐文件清单。
 **计算完成不等于科学成功，公开摘要也不等于完整原始数据镜像。**
 
-## 2026-10-01：末期 MASK 覆盖训练完成，正式评价待执行
+## 2026-10-01：末期 MASK 与纠错评价完成，两主门均未过
 
 六个旧 I-F 基座各分三条续训分支，18个模型各追加8,000步至global20,000，
 合计144,000更新，保存18个可恢复final和36个EMA快照。
 正式训练12:03:34–14:40:56（UTC+8），实测2小时37分22秒。
-**这不是18个fresh seed；新MC、正式生成与P1/P2分析均未执行。**
-原全流程精度/时间门失败记录保留，不用训练完成改判科学主门。
-设计、谱系、原定检验、完整审计和数据边界见[训练阶段档案](experiments/late-mask-coverage-and-committed-spin-correction/README.md)。
+这不是18个fresh seed。新增评价15:34:36–19:10:53，实测3小时36分17秒，
+完成2048新MC父场、6912正式图+384基座诊断、546预测及固定统计。
+**P1 E,S−A,S=+.025709；P2 E,R−E,S=−.030331，两者联合97.5%区间均跨0。**
+P2的t区间虽排除0，但没有同时通过联合区间条件，不能报为主门成功。
+E的W96局部KL四门和stress仍失败；三项旧CE保留通过。
+两处逐成员备份及2256/2256路径联合覆盖、六图PNG/PDF实际检查通过；原失败历史不改写。
+完整配置、结果、物理tradeoff和实际公开范围见[科学档案](experiments/late-mask-coverage-and-committed-spin-correction/README.md)。
 
 ## 2026-09-30：Dense 多尺寸 6 小时实验正式完成
 
