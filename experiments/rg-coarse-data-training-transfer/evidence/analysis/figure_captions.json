@@ -1,0 +1,5 @@
+{
+  "figure01": "Three paired lineages (points), arithmetic mean and descriptive paired-lineage t 95% intervals. Entropies differ by scale: compare arms within each panel, not CE values between scales.",
+  "figure02": "Fine + RG minus compute-matched fine replay. Negative favours RG. Individual lineage differences; black t 95% interval; red joint seed/MC-chain/circular-block4 bootstrap 95% interval (2000 draws). Three seeds remain underpowered; no confirmatory claim.",
+  "figure03": "Fixed initial, midpoint and final EMA validation scores. Fine-only has one update per cycle; other arms have two. Means and t 95% intervals across the same three lineages. No checkpoint is selected using these curves."
+}

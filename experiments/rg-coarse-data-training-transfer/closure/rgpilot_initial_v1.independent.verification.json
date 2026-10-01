@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "time": 1790864403.044314,
+  "archive": "rgpilot_initial_v1.tar.gz",
+  "archive_bytes": 92978,
+  "archive_path": "<CUSTODIAN_BACKUPS>\\20261001_rg_data_training_pilot\\rgpilot_initial_v1.tar.gz",
+  "manifest_path": "<CUSTODIAN_BACKUPS>\\20261001_rg_data_training_pilot\\rgpilot_initial_v1.manifest.json",
+  "archive_sha256": "2e7c000786dda1ed522fcb1fd988d1e296f2c5fb4532cd19c4f0148050134266",
+  "manifest_sha256": "29f7ba77f56c18e2dfe84bf808f341f35f5a1ba997fccd1753811a3357206116",
+  "members": 31
+}

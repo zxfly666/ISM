@@ -13,6 +13,8 @@ results/scale_aware_context/stage2a_screen/raw/**/*.csv filter=lfs diff=lfs merg
 /scripts/research202609*/** -text whitespace=cr-at-eol
 /scripts/research20261001/** -text whitespace=cr-at-eol
 /scripts/research20261001_eval/** -text whitespace=cr-at-eol
+/scripts/research20261001_rgpilot/** -text whitespace=cr-at-eol
+/docs/research_reboot_20260921/RG_DATA_TRAINING_PILOT_PLAN_20261001_ZH.md -text whitespace=cr-at-eol
 /ism_diffusion/geometry_study.py -text whitespace=cr-at-eol
 /ism_diffusion/context_repair_core.py -text whitespace=cr-at-eol
 /docs/research_reboot_20260921/*.json -text whitespace=cr-at-eol

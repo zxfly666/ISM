@@ -139,7 +139,13 @@
     "scripts/research20261001_eval/manage_evaluation.py",
     "scripts/research20261001_eval/precision_adapter.py",
     "scripts/research20261001_eval/run_evaluation.py",
-    "scripts/research20261001_eval/test_evaluation_adapter.py"
+    "scripts/research20261001_eval/test_evaluation_adapter.py",
+    "scripts/research20261001_rgpilot/common.py",
+    "scripts/research20261001_rgpilot/evaluation.py",
+    "scripts/research20261001_rgpilot/manage_pilot.py",
+    "scripts/research20261001_rgpilot/model_data.py",
+    "scripts/research20261001_rgpilot/run_pilot.py",
+    "scripts/research20261001_rgpilot/training.py"
   ],
   "effective_config_sources": [
     "docs/research_reboot_20260921/BASIC_CAPABILITY_STAGE12_CONFIG_20260928.json",
@@ -149,7 +155,8 @@
     "docs/research_reboot_20260921/GEOMETRY_IDENTIFICATION_CONFIG_20260926.json",
     "docs/research_reboot_20260921/OBSERVED_CONTEXT_INTERVENTION_CONFIG_V2_18H_20260927.json",
     "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_CONFIG_20261001.json",
-    "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_BUDGET_20261001.json"
+    "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_BUDGET_20261001.json",
+    "docs/research_reboot_20260921/RG_DATA_TRAINING_PILOT_CONFIG_20261001.json"
   ],
   "archive_root": "experiments",
   "excluded": [

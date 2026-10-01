@@ -8,6 +8,9 @@
 
 **10月1日新增：**[末期MASK覆盖与已提交自旋纠错](late-mask-coverage-and-committed-spin-correction/README.md) 已完成18条续训分支和全部正式评价；**P1/P2主门均未过，W96局部/stress能力仍失败**，三项旧CE保留通过。
 
+**同日晚间新增探索先导：**[RG粗尺度数据训练](rg-coarse-data-training-transfer/README.md) 已完成三旧谱系×三臂。
+粗尺度条件预测一致改善，但细W96主差两类区间均跨零；不是逆RG或生成成功证据。
+
 ## 30 秒结论
 
 | 当前证据 | 可以说 | 不能说 |
@@ -34,10 +37,11 @@
 | 09-28 | [局部上下文尺寸对照](local-context-size-diagnostic/README.md) · A4/B46 | 6 fresh + 旧 D 冻结诊断 | 精确真值 / 0 | 固定 clock 相对改善；12×12 绝对门 0/3 |
 | 09-30 | [固定 clock 尺寸泛化](canonical-context-size-generalization/README.md) · N/W | 12 fresh，6 对 | 精确 G8 / 0 | 实质差门通过；W 绝对门 0/6，完整门失败 |
 | 10-01 | [末期MASK覆盖与已提交自旋纠错](late-mask-coverage-and-committed-spin-correction/README.md) · A/L/E | 18 continuation，自六 I-F | **2048 MC / 6912正式图** | P1/P2主门未过，W96局部/stress失败；三CE保留通过 |
+| 10-01 | [RG粗数据训练与细尺度迁移](rg-coarse-data-training-transfer/README.md) · 探索先导 | 9 warm-start fine-tunes，自三旧 I-F EMA，重置AdamW | 复用旧MC的256场 / 0 | 粗CE改善；细W96主迁移未确定，有细尺度代价 |
 
 上表生成数指各 campaign 的正式主队列，不把附属诊断累加成训练复现：A/B/C 的 D 诊断另有 4,992 张新生成图；F 的两 seed 扩容筛选单列于其开发分支，不混入六 seed 主统计。
 
-[12h size × clock](preflights/size-clock-factorial/README.md) 只有预检和预算停止，**不计入13个已完成campaign**。D/E 归入 A/B/C 的冻结诊断；F 的两 seed 扩容筛选归入开发分支，避免把每个脚本当作独立确认性实验。全标识见 [registry.json](registry.json)。
+[12h size × clock](preflights/size-clock-factorial/README.md) 只有预检和预算停止，**不计入14个已完成campaign（含RG探索先导）**。D/E 归入 A/B/C 的冻结诊断；F 的两 seed 扩容筛选归入开发分支，避免把每个脚本当作独立确认性实验。全标识见 [registry.json](registry.json)。
 
 ## 问题如何演进
 
@@ -54,6 +58,7 @@ flowchart TD
   J --> E[精确局部能力与结构反例]
   E --> N[固定 clock 多尺寸必要能力检查]
   B --> M[末期MASK覆盖与已提交自旋纠错：评价完成，主门未过]
+  M --> RG[真实RG粗数据训练：粗任务改善，细尺度迁移未确定]
 ```
 
 箭头表示**研究动机**，不是自动表示权重继承。真正的权重谱系是：
@@ -67,6 +72,7 @@ flowchart LR
   G[G: 30 fresh 12k]
   I[I: 18 fresh 12k] --> JC[J-C: I-F +4k]
   I --> ME[末期MASK: I-F 三臂各+8k，六lineages]
+  I --> RG[RG先导: 三旧I-F EMA暖启动，重置AdamW，九模型]
   JS[J-S: 12 fresh 24k]
   E[Basic: 3 fresh 2048]
   M[A4/B46: 6 fresh 2048]

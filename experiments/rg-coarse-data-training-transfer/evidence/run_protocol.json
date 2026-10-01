@@ -1,0 +1,255 @@
+{
+  "study": "rg_data_training_pilot_20261001",
+  "config": {
+    "study": "rg_data_training_pilot_20261001",
+    "management_started": 1790862694,
+    "compute_deadline": 1790868994,
+    "delivery_deadline": 1790869894,
+    "seeds": [
+      92601,
+      92602,
+      92603
+    ],
+    "arms": [
+      "fine_only",
+      "fine_plus_rg",
+      "fine_replay"
+    ],
+    "cycles": 2048,
+    "block_cycles": 256,
+    "tokens_per_update": 18432,
+    "widths": [
+      16,
+      24,
+      32,
+      48
+    ],
+    "total_updates": 30720,
+    "master_seed": 2026100121,
+    "test_master_seed": 2026100122,
+    "bootstrap_seed": 2026100123,
+    "bootstrap_replicates": 2000,
+    "test_parents": 256,
+    "learning_parents": 64,
+    "training_dtype": "BF16_autocast_FP32_parameters_loss_AdamW",
+    "evaluation_dtype": "FP32_no_autocast",
+    "tf32": false,
+    "initialization": "old_I-F_global12000_EMA; identical_zero_scale_embedding; reset_AdamW_and_RNG",
+    "optimizer": {
+      "lr_peak": 0.0001,
+      "lr_start": 3e-05,
+      "lr_end": 1e-05,
+      "warmup_cycles": 128,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "weight_decay": 0.05,
+      "clip_grad": 1.0,
+      "ema_decay": 0.999
+    },
+    "corruption": "independent_mask_probability_t; t~Uniform[0.002,1); importance_weight_1/t; continuous_geometry",
+    "scale": {
+      "levels": [
+        0,
+        1
+      ],
+      "embedding_dimension": 128,
+      "rg_map": "3x3_nonoverlapping_majority_no_ties",
+      "coarse_coordinates": "3*i+1; physical_fine_lattice_units"
+    },
+    "primary": "mean_fine_W96_exact_local_KL_over_M1_M8_M32: fine_plus_rg minus fine_replay",
+    "secondary": [
+      "coarse_W32_empirical_masked_CE",
+      "fine_W48_exact_local_KL",
+      "fine_W48_empirical_CE_retention",
+      "coarse_level0_ablation",
+      "fixed_midpoint_learning"
+    ],
+    "fine_retention_warning_margin_CE": 0.002,
+    "inference": "three_paired_lineages; descriptive_95pct_t_df2_and_joint_seed_chain_parent_bootstrap; no_confirmatory_success_claim",
+    "no_generation": true,
+    "no_inverse_rg": true,
+    "no_new_mc": true,
+    "no_checkpoint_selection": true,
+    "no_automatic_extension": true
+  },
+  "sources": [
+    {
+      "path": "artifacts/endpoint_mask_sampler_evaluation_20261001/reference/fresh_l1024.npz",
+      "bytes": 173069734,
+      "sha256": "87eadf3ac3d099ab3425d89ffc16101b9425ed7e0c0747a8175000100c36db55"
+    },
+    {
+      "path": "artifacts/geometry_identification_20260926/training/s92601_I-F/final.pt",
+      "bytes": 31811875,
+      "sha256": "dbccca9c1b47ec599ea976996fed2ef0834983163a40765c67b1edd7946d2ed9"
+    },
+    {
+      "path": "artifacts/geometry_identification_20260926/training/s92602_I-F/final.pt",
+      "bytes": 31811939,
+      "sha256": "54f8f6c9f96eaf7a36759723212588bebcdd1c4bcfbd19cef35df87e0f2ce096"
+    },
+    {
+      "path": "artifacts/geometry_identification_20260926/training/s92603_I-F/final.pt",
+      "bytes": 31811875,
+      "sha256": "3b1d0d648e8e36a13650136913d59c1086da690de8ea00f41732c9a9e622e801"
+    },
+    {
+      "path": "data/level1/parents_l1024.npz",
+      "bytes": 129795241,
+      "sha256": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934"
+    },
+    {
+      "path": "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_CONFIG_20261001.json",
+      "bytes": 7912,
+      "sha256": "acd28d68c3a7f597e543a3ebc683a0f23cfa421a0a9e6f2286edbac8317b24ed"
+    },
+    {
+      "path": "docs/research_reboot_20260921/RG_DATA_TRAINING_PILOT_CONFIG_20261001.json",
+      "bytes": 1809,
+      "sha256": "8f8dc72fca4d2e12ccfdf33b58e644c11171a594f0b403c0b7afe1624de17ea7"
+    },
+    {
+      "path": "docs/research_reboot_20260921/RG_DATA_TRAINING_PILOT_PLAN_20261001_ZH.md",
+      "bytes": 5710,
+      "sha256": "cdf0eeb0ccd9e307393c8a077fec2f84d51784cdba723ea75a19afd3235a09ec"
+    },
+    {
+      "path": "ism_diffusion/__init__.py",
+      "bytes": 801,
+      "sha256": "af8f1667470d1082432f9efedb939320ce648c62e458666c39f68f003b6b13c3"
+    },
+    {
+      "path": "ism_diffusion/context_repair_core.py",
+      "bytes": 8323,
+      "sha256": "58effac6a4ccdd1a81606f4d8395828c0a12b4ff3909fc8283cf60fdd4747703"
+    },
+    {
+      "path": "ism_diffusion/diagnostics.py",
+      "bytes": 4354,
+      "sha256": "2c87206dcec2ff9dfbd897c4b2c57bddf66d3bdf242404bd74682ead6c986384"
+    },
+    {
+      "path": "ism_diffusion/diffusion.py",
+      "bytes": 16127,
+      "sha256": "a70286a41302539b945c8e1bf11a6ca33e9b3475b95dbf4ee1acd79e05b99655"
+    },
+    {
+      "path": "ism_diffusion/geometry_study.py",
+      "bytes": 17503,
+      "sha256": "f96f3d816453d532fb454355cbd0c50f42b00352c9b37886a8ca6b67aa16e490"
+    },
+    {
+      "path": "ism_diffusion/ising.py",
+      "bytes": 13952,
+      "sha256": "657b9e526eaaf6d242d3c89bb5c4cebefa1a5e7879b4a2a4ebef1c2ff4be60f3"
+    },
+    {
+      "path": "ism_diffusion/ising_numba.py",
+      "bytes": 8969,
+      "sha256": "918dbe97f568af52789bca3d6a59d5e42c05a0930831a5007f5844b46c6d0a8c"
+    },
+    {
+      "path": "ism_diffusion/metrics.py",
+      "bytes": 3271,
+      "sha256": "0c148f86281e76e0f28700c1f5198cfd6b2eeeb10d4a554fb3d2cb5c3353ddfe"
+    },
+    {
+      "path": "ism_diffusion/model.py",
+      "bytes": 7371,
+      "sha256": "f0ba3e8a9ab00afc143c66c5f1c8b6e37981801cf405f15fb67baea36686c1b9"
+    },
+    {
+      "path": "ism_diffusion/scale_data.py",
+      "bytes": 5162,
+      "sha256": "148ee296c20cd1ae3ebceb6d12a1bd8cb4df76d679e7cf105d3c2df09d7734b3"
+    },
+    {
+      "path": "ism_diffusion/scale_diffusion.py",
+      "bytes": 7200,
+      "sha256": "6bf4575fe6358dffa74cb6c4bd077eb69120ad6c8edaf9dbf0fc43f615c21f74"
+    },
+    {
+      "path": "ism_diffusion/scale_evaluation.py",
+      "bytes": 8389,
+      "sha256": "ed5204a2d220b451278e9916b66a3a37fbb08ac8f3bf2e87d2e9a9a98d27bd7d"
+    },
+    {
+      "path": "ism_diffusion/scale_model.py",
+      "bytes": 7951,
+      "sha256": "3930e9a2ec1ac85edaa525b9562beb21c7a001594dba23726f233a0b9d3d6018"
+    },
+    {
+      "path": "ism_diffusion/stage2_data.py",
+      "bytes": 8998,
+      "sha256": "db8361ed43a9dc777bf2b1fd62b966b02c54d8160f69acaca646cd79c75b0765"
+    },
+    {
+      "path": "ism_diffusion/stage2_model.py",
+      "bytes": 13238,
+      "sha256": "f5db55eacedfaa7272f3dacb97a4dbbbeae4fe57a6fb89b5ee2d89b00564515d"
+    },
+    {
+      "path": "ism_diffusion/stage2_sampling.py",
+      "bytes": 6825,
+      "sha256": "6723fe70c220fedcdc7d2ce024f28fc13eac0446984482fd8a0c93c71280f5b4"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_common.py",
+      "bytes": 5110,
+      "sha256": "f2491ba2bcdfba5aca820ff0999783aac046039da319c2383bc3c782d28b27d1"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_data.py",
+      "bytes": 14187,
+      "sha256": "ef742d100d55530cd939d65bf9d4a31ec3f1abb54c6a0201c180511979ed8f62"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_management.py",
+      "bytes": 21197,
+      "sha256": "a1f0c71032ac3cd80f2f29b824c84ee6ad8345df50c0ad7043fbd2829a7e44a7"
+    },
+    {
+      "path": "scripts/research20261001_rgpilot/common.py",
+      "bytes": 4208,
+      "sha256": "8bf9103b3288f4924764c59986838173da90a7cbd7b727cfa63ce673523196f4"
+    },
+    {
+      "path": "scripts/research20261001_rgpilot/evaluation.py",
+      "bytes": 14380,
+      "sha256": "a7f23203c410a6476ea63f2b4681279165ac63723d4da91ab3c82fd7ae8d6da2"
+    },
+    {
+      "path": "scripts/research20261001_rgpilot/manage_pilot.py",
+      "bytes": 3999,
+      "sha256": "8ae82f1b9098a2c9f6ce2aeb69a75bb1000243df950ec0dd43fbe9f96d00ea4c"
+    },
+    {
+      "path": "scripts/research20261001_rgpilot/model_data.py",
+      "bytes": 7283,
+      "sha256": "395136df64df85c5179f87d239cc36c9db5f9bac1370674320396323bb2e5ca9"
+    },
+    {
+      "path": "scripts/research20261001_rgpilot/run_pilot.py",
+      "bytes": 15118,
+      "sha256": "31257ef28f365757dceeb0c8aaa91c7830b0bbf522e1b1431633b7b54c423a32"
+    },
+    {
+      "path": "scripts/research20261001_rgpilot/training.py",
+      "bytes": 9524,
+      "sha256": "2abf87ff704f7050ccedbe39b902574cd743f1bfce9f1529cb89d8dc91fb2538"
+    }
+  ],
+  "preflight": {
+    "path": "artifacts/rg_data_training_pilot_20261001/preflight/20261001_141634/summary.json",
+    "sha256": "7c8195e9daa81bb3c8bc6bf93026b9d50428defebe6f23b20525f7aecbf11cb3",
+    "time": 1790864211.4613686
+  },
+  "created": 1790864263.3098972,
+  "forecast": 4259.953466533498,
+  "status": "frozen_for_one_run",
+  "old_results_unchanged": true,
+  "initialization": "old_I-F_global12000_EMA; identical_zero_scale_embedding; reset_AdamW_and_RNG",
+  "protocol_hash": "604884ef5f0469c2c50932e405cc2e61880e97600de9ab5b21b2643275e8ed4f"
+}

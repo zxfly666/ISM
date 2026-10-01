@@ -1,0 +1,18 @@
+{
+  "seed": 92601,
+  "arm": "fine_replay",
+  "cycle": 2048,
+  "updates": 4096,
+  "final_sha256": "78f720a8662579829808f78130b91200aa34ca12bb2a9aa5fcb430b48606c862",
+  "metadata": {
+    "initial_hash": "3834bbc93b0a67dfd88887f19d7bf0094d5d5f13a5177cb1947d27fe9d5cdf21",
+    "initial_ema_hash": "3834bbc93b0a67dfd88887f19d7bf0094d5d5f13a5177cb1947d27fe9d5cdf21",
+    "base_sha256": "dbccca9c1b47ec599ea976996fed2ef0834983163a40765c67b1edd7946d2ed9",
+    "native_digest": "ac6104ac20b9b64aa9ba33a9548a0d12dfdc6ad79df3d1554251d70ca6504b16",
+    "common_digest": "57e3a626921903fe47117e4f9d409af332127b41300ee531badc22e9788c3d23",
+    "aux_selection_digest": "fef7c9fcfa77892b3acf74354665008f6a500eacaad7fb5544200800efaaf1bf",
+    "seconds": 268.8260235786438,
+    "optimizer_reset": true
+  },
+  "time": 1790866434.147567
+}

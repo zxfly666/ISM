@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "time": 1790867384.1626508,
+  "archive": "rgpilot_administrative_closure_v1.tar.gz",
+  "archive_bytes": 53913,
+  "archive_path": "<PROJECT_ROOT>\\artifacts\\rg_data_training_pilot_20261001_remote\\rgpilot_administrative_closure_v1.tar.gz",
+  "manifest_path": "<PROJECT_ROOT>\\artifacts\\rg_data_training_pilot_20261001_remote\\rgpilot_administrative_closure_v1.manifest.json",
+  "archive_sha256": "a917cc59dba3608ba35c4f102f5e4086502d0a936d32de0dd69c3f1bebe5b2da",
+  "manifest_sha256": "ff4961b3e371605c33ae06b9096f1cdc1867e21d7efbfa52e1dbf47f065c01fc",
+  "members": 6
+}

@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "time": 1790867747.521158,
+  "figures": [
+    {
+      "figure": "01_all_arms",
+      "pages": 1,
+      "pdf_sha256": "5652aca89edcbdc0e9d84df756f990996556bbecb6570eed516699d199b323e1",
+      "png_sha256": "47fc9c062a62ade39cf0cdd5db95b9d0a4c84b24008af6462268f0d3fc4c4dd6",
+      "rendered_pdf_png_sha256": "cada1bd2efc9d40827f3ea1abd8956f3e0efae90aa3292d11c4910ca142dfc3f",
+      "inspected_original_png": true,
+      "inspected_rendered_pdf": true,
+      "layout": "No material clipping, overlap, missing glyphs or label mismatch observed."
+    },
+    {
+      "figure": "02_paired_differences",
+      "pages": 1,
+      "pdf_sha256": "fe5033e8e475ff046c9f86efa0579fe40297806201f4cb84120115b673b8809d",
+      "png_sha256": "787738dd1768b6d127ac2e4a5ab82f0621218e628bfb128c6d614cbd094d940c",
+      "rendered_pdf_png_sha256": "55fce20ba3699cc70097cda7f8a60c83dd644867f722b636b7b35b86bda08713",
+      "inspected_original_png": true,
+      "inspected_rendered_pdf": true,
+      "layout": "No material clipping, overlap, missing glyphs or label mismatch observed."
+    },
+    {
+      "figure": "03_fixed_learning",
+      "pages": 1,
+      "pdf_sha256": "25b61769eb649a49cee8eaa90df5694e3e3f9ff205e51eb1f98dd77573488388",
+      "png_sha256": "472e6d380245300bd6abc1f8198341cd54b06c2200f88c0ccc682acbfcd7c12b",
+      "rendered_pdf_png_sha256": "0da539867bb7c59bd97a8ae33bf02a61a7cf4fc879d88c7d95a8c23ab99fada6",
+      "inspected_original_png": true,
+      "inspected_rendered_pdf": true,
+      "layout": "No material clipping, overlap, missing glyphs or label mismatch observed."
+    }
+  ],
+  "method": "Three original PNGs and three Poppler-rendered PDF pages actually viewed; original scientific figures unchanged.",
+  "interpretation_checks": [
+    "Within-arm t intervals in figure 1 are not paired-difference intervals; KL t lower limits may be negative under this descriptive approximation.",
+    "Figure 2 shows all three paired lineages, t intervals and joint bootstrap intervals; the primary W96 intervals both cross zero.",
+    "Coarse CE is compared across arms on the same target, not against fine-scale CE.",
+    "Figure 3 uses fixed initial/midpoint/final EMA; common cycles do not mean equal updates for fine-only.",
+    "Small fine-scale costs remain visible; no checkpoint or lineage was selected."
+  ],
+  "limitations": "Visual inspection is not an independent scientific replication."
+}

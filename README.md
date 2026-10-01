@@ -6,16 +6,25 @@
 以及这种条件能力是否转化为正确的联合生成。临界 Ising 提供可核对的物理参考，
 但静态 Ising 结果不等于 world model 或完整尺度不变性验证。
 
-- [研究证据地图：13个已完成campaign、谱系与失败门](experiments/README.md)
+- [研究证据地图：14个已完成campaign含探索先导、谱系与失败门](experiments/README.md)
 - [公共综合报告：设计、参数、结果与反例](experiments/REPORT_ZH.md)
 - [最完整的物理因素对照：size × spacing](experiments/size-spacing-factorial/README.md)
 - [最新的精确真值检查：固定clock尺寸泛化](experiments/canonical-context-size-generalization/README.md)
 - [10月1日完整评价：末期MASK覆盖与已提交自旋纠错](experiments/late-mask-coverage-and-committed-spin-correction/README.md)
+- [10月1日RG训练先导：粗尺度任务学得更好，细尺度迁移未确定](experiments/rg-coarse-data-training-transfer/README.md)
 - [历史更正](experiments/CORRECTIONS.md) · [数据公开范围与SHA](experiments/DATA_AVAILABILITY.md) · [复现路线](experiments/REPRODUCING.md)
 
 公共版依据本地162页总报告及机器证据重新组织，不是私人通信/原PDF的原样上传。
 原科学产物不覆盖；大权重、完整MC与生成原数组并非全部公开，具体缺口有逐文件清单。
 **计算完成不等于科学成功，公开摘要也不等于完整原始数据镜像。**
+
+## 2026-10-01 RG 训练先导完成
+
+三条旧 I-F EMA 谱系 × fine-only、真实粗尺度训练、等计算细尺度重放，共九模型、30720 更新。
+训练、297 个 FP32 预测、三项 CPU 审计、三图和454路径联合备份均已完成。
+粗尺度 CE 的 RG−replay 为 −.020555，三个谱系一致改善；但细 W96 主 KL 差 −.006254，
+t 与联合 bootstrap 的95%区间都跨零。W48细任务有小幅代价，不能报全面迁移成功。
+这是三谱系探索性先导，没有逆RG或新生成；[完整结果与数据边界](experiments/rg-coarse-data-training-transfer/RESULTS_ZH.md)。
 
 ## 2026-10-01：末期 MASK 与纠错评价完成，两主门均未过
 

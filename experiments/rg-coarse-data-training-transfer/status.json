@@ -1,0 +1,29 @@
+{
+  "status": "scientific_complete_backup_and_visual_verified",
+  "study": "rg_data_training_pilot_20261001",
+  "inherited_lineages": 3,
+  "trained_models": 9,
+  "fresh_lineages": 0,
+  "updates": 30720,
+  "final_checkpoints": 9,
+  "midpoints": 9,
+  "prediction_files": 297,
+  "union_paths": 454,
+  "timings": {
+    "formal_started": 1790864443.8326275,
+    "training_complete": 1790866604.9956203,
+    "evaluation_complete": 1790866895.4085438,
+    "scientific_complete": 1790866969.0974329,
+    "remote_export_complete": 1790866986.1931999,
+    "last_initial_prediction_complete": 1790864550.801455,
+    "independent_backup_union": 1790867515.4809961,
+    "training_interval_after_initial_scores": 2054.1902725696564,
+    "formal_wall_to_scientific_complete": 2525.2544107437134
+  },
+  "new_MC": 0,
+  "new_generation": 0,
+  "primary_direction": "improvement",
+  "primary_both_intervals_below_zero": false,
+  "confirmatory_success_claim": false,
+  "interpretation": "Coarse task learned; fine W96 transfer unresolved; exploratory only."
+}

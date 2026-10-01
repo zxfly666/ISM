@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "checkpoints": 9,
+  "midpoints": 9,
+  "updates": 30720,
+  "all_logs_finite": true,
+  "full_unique_inputs_rebuilt": true,
+  "common_inputs_paired": true,
+  "aux_random_choices_paired": true,
+  "all_initializations_paired": true,
+  "cpu_model_and_optimizer_restore": true,
+  "rows": [
+    {
+      "seed": 92601,
+      "arm": "fine_only",
+      "updates": 2048,
+      "final_sha256": "41acdb05377e13a6e2f38a75d7fb32d18cffacab04388b7843a5a1ff53b31fc0"
+    },
+    {
+      "seed": 92601,
+      "arm": "fine_plus_rg",
+      "updates": 4096,
+      "final_sha256": "a25846c25d70098bc2e73310a7bbb3e7aea8ee7c766e5601ed089d008408abab"
+    },
+    {
+      "seed": 92601,
+      "arm": "fine_replay",
+      "updates": 4096,
+      "final_sha256": "78f720a8662579829808f78130b91200aa34ca12bb2a9aa5fcb430b48606c862"
+    },
+    {
+      "seed": 92602,
+      "arm": "fine_only",
+      "updates": 2048,
+      "final_sha256": "abd1b06a7ca7a50c931e499c1fc7b853051f98d10d94a5795144210ffa62c574"
+    },
+    {
+      "seed": 92602,
+      "arm": "fine_plus_rg",
+      "updates": 4096,
+      "final_sha256": "953f9d468463eb033f05337ba9820be8b5eeb46178b592dd4881941c3804cc3b"
+    },
+    {
+      "seed": 92602,
+      "arm": "fine_replay",
+      "updates": 4096,
+      "final_sha256": "e74593f2d4217a1e8fdd2b6734f452dd15df6f7fc25739c2d44705e403a05b34"
+    },
+    {
+      "seed": 92603,
+      "arm": "fine_only",
+      "updates": 2048,
+      "final_sha256": "b09c137601563e199c2dbed716e753db0e48bfed3bf859709152e90554ae64bc"
+    },
+    {
+      "seed": 92603,
+      "arm": "fine_plus_rg",
+      "updates": 4096,
+      "final_sha256": "5d688e4fc65193c1146325fe6e846e77cd65d65b64d8cbcc16c53f85e26b5015"
+    },
+    {
+      "seed": 92603,
+      "arm": "fine_replay",
+      "updates": 4096,
+      "final_sha256": "a78bf69c2637014aeff76fb413749c164bb9578c1384e65fbe950b5e187ba478"
+    }
+  ],
+  "time": 1790866943.4660199
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "time": 1790867515.4809961,
+  "science_paths": 454,
+  "covered": 454,
+  "missing": [],
+  "packages": [
+    "<CUSTODIAN_BACKUPS>\\20261001_rg_data_training_pilot\\rgpilot_administrative_closure_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20261001_rg_data_training_pilot\\rgpilot_complete_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20261001_rg_data_training_pilot\\rgpilot_initial_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92601_I-F_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92602_I-F_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92603_I-F_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92604_I-F_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92605_I-F_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92606_I-F_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20261001_endpoint_mask_sampler_disentanglement\\evaluation_administrative_closure_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20261001_endpoint_mask_sampler_disentanglement\\evaluation_complete_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20261001_endpoint_mask_sampler_disentanglement\\evaluation_initial_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20261001_endpoint_mask_sampler_disentanglement\\preflight_blocked_precision_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20261001_endpoint_mask_sampler_disentanglement\\training_phase_complete_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20261001_endpoint_mask_sampler_disentanglement\\training_phase_initial_v1.tar.gz"
+  ],
+  "manifest_sha256": "c578a3ee7fd8f5a49dfc48825a5421ca455045f48a9a7c90782b65fcdfa74aaa",
+  "same_disk_not_offsite": true
+}

@@ -283,5 +283,29 @@
     "phase0_generation": 384,
     "scientific_success": false,
     "primary_decision": "neither_primary_passed"
+  },
+  {
+    "slug": "rg-coarse-data-training-transfer",
+    "public_name": "RG coarse-data training and fine-scale transfer",
+    "historical_alias": "Three-lineage RG pilot",
+    "experiment_id": "rg_data_training_pilot_20261001",
+    "date": "2026-10-01",
+    "training_kind": "9 warm-start fine-tunes from 3 old I-F EMA lineages; reset AdamW/RNG",
+    "parents": [
+      "fine-geometry-identification/I-F",
+      "late-mask-coverage-and-committed-spin-correction (test reference only)"
+    ],
+    "new_reference": false,
+    "new_generation": 0,
+    "code": [
+      "scripts/research20261001_rgpilot/run_pilot.py",
+      "scripts/research20261001_rgpilot/evaluation.py"
+    ],
+    "formal_completed": true,
+    "status": "exploratory_pilot_complete",
+    "confirmatory_success_claim": false,
+    "primary_decision": "fine_W96_transfer_unresolved",
+    "published_files": 382,
+    "published_bytes": 7822943
   }
 ]

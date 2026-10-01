@@ -1,0 +1,10 @@
+{
+  "seed": 92603,
+  "arm": "fine_replay",
+  "stage": "midpoint",
+  "split": "learning",
+  "banks": 6,
+  "coarse_level0_ablation": false,
+  "seconds": 1.0050861835479736,
+  "time": 1790866895.392857
+}

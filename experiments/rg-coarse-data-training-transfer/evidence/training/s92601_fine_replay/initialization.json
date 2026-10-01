@@ -1,0 +1,10 @@
+{
+  "initial_hash": "3834bbc93b0a67dfd88887f19d7bf0094d5d5f13a5177cb1947d27fe9d5cdf21",
+  "initial_ema_hash": "3834bbc93b0a67dfd88887f19d7bf0094d5d5f13a5177cb1947d27fe9d5cdf21",
+  "base_sha256": "dbccca9c1b47ec599ea976996fed2ef0834983163a40765c67b1edd7946d2ed9",
+  "native_digest": "",
+  "common_digest": "",
+  "aux_selection_digest": "",
+  "seconds": 0.0,
+  "optimizer_reset": true
+}

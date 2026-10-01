@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "comparison_base": "fd9da6381298b087250d0c99b0b1b9713376eaa3",
+  "delta_files": 407,
+  "delta_bytes": 8492617,
+  "largest_delta_bytes": 228474,
+  "links_checked": 304,
+  "frozen_sources_and_documents_checked": 8,
+  "provenance_records": 382,
+  "public_prediction_files": 297,
+  "all_public_empirical_CE_recomputed": true,
+  "saved_primary_KL_means_reproduced": true,
+  "primary_difference": -0.0062538331811735695,
+  "bootstrap_rerun": false,
+  "oracle_KL_reconstruction_requires_withheld_banks": true,
+  "errors": [],
+  "scope": "Exact staged RG publication; byte checks and existing-value arithmetic only, no new scientific run."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "time": 1790867383.700931,
+  "archive": "rgpilot_complete_v1.tar.gz",
+  "archive_bytes": 374580959,
+  "archive_path": "<PROJECT_ROOT>\\artifacts\\rg_data_training_pilot_20261001_remote\\rgpilot_complete_v1.tar.gz",
+  "manifest_path": "<PROJECT_ROOT>\\artifacts\\rg_data_training_pilot_20261001_remote\\rgpilot_complete_v1.manifest.json",
+  "archive_sha256": "c267fcb97a16d4d1503062aa8bd3f3ef53b05d5b826551d0e3141be5f493e482",
+  "manifest_sha256": "a9d83ae01e94ab08bf966f73b9a47af6b31854e4b0aa5901609a0b1909aa4a96",
+  "members": 417
+}

@@ -73,6 +73,22 @@ seed数。公开bootstrap敏感性不能替代原预定义主决定。
 18个新final与36个EMA见本轮withheld manifest，不能从仅含元数据的JSON恢复模型。
 新的复现运行需要独立目录、协议与预算；本档案不触发第二次训练或自动下一轮。
 
+## 2026-10-01 RG 训练先导
+
+实际入口为[run_pilot.py](../scripts/research20261001_rgpilot/run_pilot.py)，
+原[协议](rg-coarse-data-training-transfer/evidence/run_protocol.json)锁定三旧EMA基座、训练/参考父场和新源码。
+九个模型都是warm-start fine-tune，AdamW/RNG重新初始化，不可描述为旧优化器完整续训。
+BF16仅用于训练autocast；全部预测FP32、TF32关闭、严格确定性。原环境为Python3.12.3、
+NumPy1.26.4、Torch2.7.0a0+7c8ec84dab.nv25.03、CUDA12.8、SciPy1.15.2、RTX4090，
+见[运行前核验](rg-coarse-data-training-transfer/evidence/preflight/20261001_141634/summary.json)。
+短程确定性检查不等于跨软件/硬件的全程位级保证。
+
+297份公开预测保留概率、标签、链ID和已计算父样本指标，可无GPU重算经验CE并核对保存的KL均值。
+精确oracle目标未单独公开在预测文件中，从oracle重新计算KL仍需取回对应输入bank。
+主bootstrap已经按原2000次执行；本次交付未重跑或择取新的抽样结果。
+从头重建18个bank、30720更新和完整恢复审计，需要清单列出的旧父场、三个基座和原始新权重。
+不得在已有run.lock的原目录再次执行run；新的复现需独立身份、输出目录与授权预算。
+
 ## 2026-10-01正式评价
 
 实际入口为[run_evaluation.py](../scripts/research20261001_eval/run_evaluation.py)，

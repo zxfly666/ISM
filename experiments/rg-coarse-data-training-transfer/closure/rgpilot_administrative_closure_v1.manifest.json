@@ -1,0 +1,39 @@
+{
+  "archive": "rgpilot_administrative_closure_v1.tar.gz",
+  "archive_bytes": 53913,
+  "archive_sha256": "a917cc59dba3608ba35c4f102f5e4086502d0a936d32de0dd69c3f1bebe5b2da",
+  "members": 6,
+  "files": [
+    {
+      "path": "artifacts/rg_data_training_pilot_20261001/formal.stdout",
+      "bytes": 17730,
+      "sha256": "1db2fad06b6106458662ebabf4ee5340465cac3642108fc6a87072b18ad8a01a"
+    },
+    {
+      "path": "artifacts/rg_data_training_pilot_20261001/remote_export_complete.json",
+      "bytes": 178,
+      "sha256": "46abbb7d7ea4f0259d5dfd1a06bb3b1a7681018f6ab720a648f47ca99029a26f"
+    },
+    {
+      "path": "artifacts/rg_data_training_pilot_20261001/run.jsonl",
+      "bytes": 17730,
+      "sha256": "f9887238ad034ea6f19683f8e6b44faf14c66997bfe7e9e6702fb008f0e61766"
+    },
+    {
+      "path": "artifacts/rg_data_training_pilot_20261001/science_manifest.json",
+      "bytes": 104223,
+      "sha256": "fe65a780d6e82d62040b716893dc8dd24034f8453dbccc838dee2ea231a68d13"
+    },
+    {
+      "path": "artifacts/rg_data_training_pilot_20261001/status.json",
+      "bytes": 92,
+      "sha256": "04ba560c467036a0236ecee03151359db88f6a11e08d06451eaca6a6315d17c1"
+    },
+    {
+      "path": "artifacts/rg_data_training_pilot_20261001_exports/closure_manifest_v1.json",
+      "bytes": 104381,
+      "sha256": "c578a3ee7fd8f5a49dfc48825a5421ca455045f48a9a7c90782b65fcdfa74aaa"
+    }
+  ],
+  "created": 1790867229.3359573
+}

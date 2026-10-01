@@ -698,5 +698,35 @@
     "path": "scripts/research20261001_eval/test_evaluation_adapter.py",
     "bytes": 1838,
     "sha256": "e0fca3960887f37389dd08daa37ba07c510cfc86bc4c5e33e7aedb1b9e5345b3"
+  },
+  {
+    "path": "scripts/research20261001_rgpilot/common.py",
+    "bytes": 4208,
+    "sha256": "8bf9103b3288f4924764c59986838173da90a7cbd7b727cfa63ce673523196f4"
+  },
+  {
+    "path": "scripts/research20261001_rgpilot/evaluation.py",
+    "bytes": 14380,
+    "sha256": "a7f23203c410a6476ea63f2b4681279165ac63723d4da91ab3c82fd7ae8d6da2"
+  },
+  {
+    "path": "scripts/research20261001_rgpilot/manage_pilot.py",
+    "bytes": 3999,
+    "sha256": "8ae82f1b9098a2c9f6ce2aeb69a75bb1000243df950ec0dd43fbe9f96d00ea4c"
+  },
+  {
+    "path": "scripts/research20261001_rgpilot/model_data.py",
+    "bytes": 7283,
+    "sha256": "395136df64df85c5179f87d239cc36c9db5f9bac1370674320396323bb2e5ca9"
+  },
+  {
+    "path": "scripts/research20261001_rgpilot/run_pilot.py",
+    "bytes": 15118,
+    "sha256": "31257ef28f365757dceeb0c8aaa91c7830b0bbf522e1b1431633b7b54c423a32"
+  },
+  {
+    "path": "scripts/research20261001_rgpilot/training.py",
+    "bytes": 9524,
+    "sha256": "2abf87ff704f7050ccedbe39b902574cd743f1bfce9f1529cb89d8dc91fb2538"
   }
 ]

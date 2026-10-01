@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "prediction_files": 297,
+  "all_input_digests_matched": true,
+  "all_parent_metrics_recomputed": true,
+  "coarse_oracle_never_used": true,
+  "time": 1790866954.836472
+}

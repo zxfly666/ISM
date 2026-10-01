@@ -1,0 +1,12 @@
+{
+  "status": "scientific_pilot_complete_needs_local_backup_visual_review_publication",
+  "time": 1790866969.0870326,
+  "started": 1790864443.832622,
+  "wall_seconds": 2525.2544107437134,
+  "training_audit": "passed",
+  "prediction_audit": "passed",
+  "analysis_sha256": "64a9213713f437a72634e2396fa4a72aecadda509f3c5fac3ba418d478df31fe",
+  "no_confirmatory_claim": true,
+  "updates": 30720,
+  "final_checkpoints": 9
+}
