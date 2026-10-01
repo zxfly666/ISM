@@ -1,0 +1,78 @@
+{
+  "status": "failed",
+  "inputs": 256,
+  "rows": [
+    {
+      "width": 48,
+      "masks": 1,
+      "inputs": 32,
+      "max_probability_difference": 0.0022284388542175293,
+      "mean_ce_difference": 8.458892200313706e-05,
+      "fp32_seconds": 0.3179090265184641
+    },
+    {
+      "width": 48,
+      "masks": 2,
+      "inputs": 32,
+      "max_probability_difference": 0.003264516592025757,
+      "mean_ce_difference": -3.2634548038479316e-05,
+      "fp32_seconds": 0.26066526025533676
+    },
+    {
+      "width": 48,
+      "masks": 8,
+      "inputs": 32,
+      "max_probability_difference": 0.005575716495513916,
+      "mean_ce_difference": 2.004325241061755e-05,
+      "fp32_seconds": 0.2613870520144701
+    },
+    {
+      "width": 48,
+      "masks": 32,
+      "inputs": 32,
+      "max_probability_difference": 0.005515456199645996,
+      "mean_ce_difference": 3.881125958837828e-06,
+      "fp32_seconds": 0.26615931279957294
+    },
+    {
+      "width": 96,
+      "masks": 1,
+      "inputs": 32,
+      "max_probability_difference": 0.0023962855339050293,
+      "mean_ce_difference": 6.790710127868582e-05,
+      "fp32_seconds": 0.9229511581361294
+    },
+    {
+      "width": 96,
+      "masks": 2,
+      "inputs": 32,
+      "max_probability_difference": 0.004057824611663818,
+      "mean_ce_difference": -8.317014884073881e-06,
+      "fp32_seconds": 0.9220377495512366
+    },
+    {
+      "width": 96,
+      "masks": 8,
+      "inputs": 32,
+      "max_probability_difference": 0.0054419636726379395,
+      "mean_ce_difference": 1.8735262131308605e-05,
+      "fp32_seconds": 0.9202236775308847
+    },
+    {
+      "width": 96,
+      "masks": 32,
+      "inputs": 32,
+      "max_probability_difference": 0.004425913095474243,
+      "mean_ce_difference": 1.0566641893305917e-05,
+      "fp32_seconds": 0.9221265725791454
+    }
+  ],
+  "max_probability_difference": 0.005575716495513916,
+  "absolute_mean_ce_difference": 2.059634284417146e-05,
+  "per_input_seconds": {
+    "48": 0.009934657078702003,
+    "96": 0.028842223691754043,
+    "retention": 0.008351916330866516
+  },
+  "base_sha256": "dbccca9c1b47ec599ea976996fed2ef0834983163a40765c67b1edd7946d2ed9"
+}

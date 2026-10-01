@@ -1,0 +1,104 @@
+{
+  "study": "endpoint_mask_sampler_disentanglement_20261001",
+  "created": 1790827231.0112062,
+  "execution_scope": "training_first",
+  "authorization": "ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_AUTHORIZATION_20261001_ZH.md",
+  "authorization_sha256": "e7eeee9de12ca1293ab2707b67f74d45f28f8ef7cf4f004de6890184a5630c37",
+  "sources": {
+    "data/level1/parents_l1024.npz": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934",
+    "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_AUTHORIZATION_20261001_ZH.md": "e7eeee9de12ca1293ab2707b67f74d45f28f8ef7cf4f004de6890184a5630c37",
+    "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_BUDGET_20261001.json": "73523784d720705df517e514cb3a7fc591c61b825062fe55cd2fffb62af2b71c",
+    "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_CONFIG_20261001.json": "acd28d68c3a7f597e543a3ebc683a0f23cfa421a0a9e6f2286edbac8317b24ed",
+    "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_PLAN_20261001_ZH.md": "469a3d1b332592faac690e6ba95f1b65be92f6e6c01a061723bafc6bee43dff8",
+    "docs/research_reboot_20260921/GEOMETRY_IDENTIFICATION_CONFIG_20260926.json": "2db0687e57944499abbcdc53ab1ce6bf65772b3cfd1d2d62f2e0ebc37a440916",
+    "ism_diffusion/__init__.py": "af8f1667470d1082432f9efedb939320ce648c62e458666c39f68f003b6b13c3",
+    "ism_diffusion/context_repair_core.py": "58effac6a4ccdd1a81606f4d8395828c0a12b4ff3909fc8283cf60fdd4747703",
+    "ism_diffusion/diagnostics.py": "2c87206dcec2ff9dfbd897c4b2c57bddf66d3bdf242404bd74682ead6c986384",
+    "ism_diffusion/diffusion.py": "a70286a41302539b945c8e1bf11a6ca33e9b3475b95dbf4ee1acd79e05b99655",
+    "ism_diffusion/geometry_study.py": "f96f3d816453d532fb454355cbd0c50f42b00352c9b37886a8ca6b67aa16e490",
+    "ism_diffusion/ising.py": "657b9e526eaaf6d242d3c89bb5c4cebefa1a5e7879b4a2a4ebef1c2ff4be60f3",
+    "ism_diffusion/ising_numba.py": "918dbe97f568af52789bca3d6a59d5e42c05a0930831a5007f5844b46c6d0a8c",
+    "ism_diffusion/metrics.py": "0c148f86281e76e0f28700c1f5198cfd6b2eeeb10d4a554fb3d2cb5c3353ddfe",
+    "ism_diffusion/model.py": "f0ba3e8a9ab00afc143c66c5f1c8b6e37981801cf405f15fb67baea36686c1b9",
+    "ism_diffusion/scale_data.py": "148ee296c20cd1ae3ebceb6d12a1bd8cb4df76d679e7cf105d3c2df09d7734b3",
+    "ism_diffusion/scale_diffusion.py": "6bf4575fe6358dffa74cb6c4bd077eb69120ad6c8edaf9dbf0fc43f615c21f74",
+    "ism_diffusion/scale_evaluation.py": "ed5204a2d220b451278e9916b66a3a37fbb08ac8f3bf2e87d2e9a9a98d27bd7d",
+    "ism_diffusion/scale_model.py": "3930e9a2ec1ac85edaa525b9562beb21c7a001594dba23726f233a0b9d3d6018",
+    "ism_diffusion/stage2_data.py": "db8361ed43a9dc777bf2b1fd62b966b02c54d8160f69acaca646cd79c75b0765",
+    "ism_diffusion/stage2_model.py": "f5db55eacedfaa7272f3dacb97a4dbbbeae4fe57a6fb89b5ee2d89b00564515d",
+    "ism_diffusion/stage2_sampling.py": "6723fe70c220fedcdc7d2ce024f28fc13eac0446984482fd8a0c93c71280f5b4",
+    "scripts/research20260926/identification_common.py": "87fa2cc4d9fb13efb7a343618cbeeeec56733c98df2049179cd12cddc0256c6d",
+    "scripts/research20260926/identification_data.py": "44e552424a14da6dd2204e044352662e78fa2bbc89fd30fad4b3acc15231e9fb",
+    "scripts/research20260926/identification_training.py": "45557887c25810954127b42bc6764f94cc09754c1460ddaa2c06966db84f0cc6",
+    "scripts/research20261001/endpoint_common.py": "f2491ba2bcdfba5aca820ff0999783aac046039da319c2383bc3c782d28b27d1",
+    "scripts/research20261001/endpoint_cpu_prepare.py": "656af18d8f292cf3f8be17b3d5812391dbd6a0dab1b62210d085ef033593095a",
+    "scripts/research20261001/endpoint_data.py": "ef742d100d55530cd939d65bf9d4a31ec3f1abb54c6a0201c180511979ed8f62",
+    "scripts/research20261001/endpoint_evaluation.py": "489d02d0412410d5dc4617e12fd8abcc6937d6378f55a439c2d2a865582e82f8",
+    "scripts/research20261001/endpoint_figures.py": "6413737acd23cdca3d4d5172c9885b93d2cd114aa40894ef574e60e7e5876d45",
+    "scripts/research20261001/endpoint_fixture.py": "1b6c08a8cc5bf0f5c9abb55d25668a91c36154e36832dfecfd8fb6c91a97ae58",
+    "scripts/research20261001/endpoint_management.py": "a1f0c71032ac3cd80f2f29b824c84ee6ad8345df50c0ad7043fbd2829a7e44a7",
+    "scripts/research20261001/endpoint_preflight.py": "39300d6041e032b57c6f67cfe27d0646ed91f6585f62ef6f714203169f48101d",
+    "scripts/research20261001/endpoint_sampling.py": "8bf60dc084d04f0a931568a6640207f0420861f006954093d6047159101ea2cc",
+    "scripts/research20261001/endpoint_statistics.py": "879b333b6694d12666b41d5474f2d7e947c599c9115198993cb7487c09b978df",
+    "scripts/research20261001/endpoint_tests.py": "2fdab76f937c34d3db1aa1a149db5953a353f786ceba231405656603a894c9a5",
+    "scripts/research20261001/endpoint_training.py": "3f27884f2293e38a904027d9f30806d7f4cfeec84d0f3ffea6e58a4cc5a368c4",
+    "scripts/research20261001/run_endpoint.py": "22cfd59a01e2b5f49e11e0ddfb2a865a6deec74af698f5a9cc7b56561eaf2cff",
+    "scripts/research20261001/run_training_phase.py": "a6a2f3eacd6dd08dadaa618cd5fccb615ccce0c84e0b05a489851f570c8dbb06",
+    "scripts/research20261001/validate_next_stage_design.py": "f49a94948916d8adb8e40d671c1d4844984bd96e14c65c9c418a8f19a3b8fa8b"
+  },
+  "base_checkpoints": {
+    "92601": {
+      "path": "artifacts/geometry_identification_20260926/training/s92601_I-F/final.pt",
+      "sha256": "dbccca9c1b47ec599ea976996fed2ef0834983163a40765c67b1edd7946d2ed9"
+    },
+    "92602": {
+      "path": "artifacts/geometry_identification_20260926/training/s92602_I-F/final.pt",
+      "sha256": "54f8f6c9f96eaf7a36759723212588bebcdd1c4bcfbd19cef35df87e0f2ce096"
+    },
+    "92603": {
+      "path": "artifacts/geometry_identification_20260926/training/s92603_I-F/final.pt",
+      "sha256": "3b1d0d648e8e36a13650136913d59c1086da690de8ea00f41732c9a9e622e801"
+    },
+    "92604": {
+      "path": "artifacts/geometry_identification_20260926/training/s92604_I-F/final.pt",
+      "sha256": "3cb9fc2575fa10e42c23b400d61c819e99c46999717be7e842dcf3d18dbb409d"
+    },
+    "92605": {
+      "path": "artifacts/geometry_identification_20260926/training/s92605_I-F/final.pt",
+      "sha256": "ada3cda0b5ba134ed8bb1f1046422a079f311786032f03679e4cc6a42895f653"
+    },
+    "92606": {
+      "path": "artifacts/geometry_identification_20260926/training/s92606_I-F/final.pt",
+      "sha256": "5ab388bb518f431af80e448f53042e4d3827b5a9110823174d050946e29b6d45"
+    }
+  },
+  "deadline": 1790850557.9482894,
+  "budget_started": 1790807357.9482894,
+  "effective_config_sha256": "aed734e28a2f163e067afa2fc958d0db3372a8a81e261d5009955737123b9987",
+  "cpu_receipt_sha256": "4c398cd1415f06ffc7beb1a45579f366d997072f5a7256450ffc9068ba834e24",
+  "inherited_unchanged_scientific_modules": {
+    "endpoint_common.py": "f2491ba2bcdfba5aca820ff0999783aac046039da319c2383bc3c782d28b27d1",
+    "endpoint_cpu_prepare.py": "656af18d8f292cf3f8be17b3d5812391dbd6a0dab1b62210d085ef033593095a",
+    "endpoint_data.py": "ef742d100d55530cd939d65bf9d4a31ec3f1abb54c6a0201c180511979ed8f62",
+    "endpoint_evaluation.py": "489d02d0412410d5dc4617e12fd8abcc6937d6378f55a439c2d2a865582e82f8",
+    "endpoint_figures.py": "6413737acd23cdca3d4d5172c9885b93d2cd114aa40894ef574e60e7e5876d45",
+    "endpoint_fixture.py": "1b6c08a8cc5bf0f5c9abb55d25668a91c36154e36832dfecfd8fb6c91a97ae58",
+    "endpoint_management.py": "a1f0c71032ac3cd80f2f29b824c84ee6ad8345df50c0ad7043fbd2829a7e44a7",
+    "endpoint_preflight.py": "39300d6041e032b57c6f67cfe27d0646ed91f6585f62ef6f714203169f48101d",
+    "endpoint_sampling.py": "8bf60dc084d04f0a931568a6640207f0420861f006954093d6047159101ea2cc",
+    "endpoint_statistics.py": "879b333b6694d12666b41d5474f2d7e947c599c9115198993cb7487c09b978df",
+    "endpoint_tests.py": "2fdab76f937c34d3db1aa1a149db5953a353f786ceba231405656603a894c9a5",
+    "endpoint_training.py": "3f27884f2293e38a904027d9f30806d7f4cfeec84d0f3ffea6e58a4cc5a368c4",
+    "validate_next_stage_design.py": "f49a94948916d8adb8e40d671c1d4844984bd96e14c65c9c418a8f19a3b8fa8b"
+  },
+  "recovery_receipt_sha256": "4236ac21611e812f0e291bafb75ab175e5172b4aa7d058a7e03a33383f16fa3d",
+  "orchestration_change": "Optional MC/diagnostic preparation dependency removed for explicitly authorized training phase",
+  "full_pipeline_time_gate_not_passed": true,
+  "no_scientific_sample_reduction": true,
+  "training_updates": 144000,
+  "branches": 18,
+  "updates_per_branch": 8000,
+  "final_global_step": 20000,
+  "no_new_MC_or_generation_in_this_phase": true,
+  "protocol_hash": "7aeac13a256c89c0e7f5a615ced83b1cab1c4668463bb5b8d70f350af2c66b2e"
+}

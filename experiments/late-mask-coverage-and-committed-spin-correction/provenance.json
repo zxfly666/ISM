@@ -1,0 +1,611 @@
+{
+  "policy": "Frozen science unchanged. Derived stage status is not an efficacy result.",
+  "files": [
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/budget.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/budget.json",
+      "original_bytes": 155,
+      "original_sha256": "09ba6bcac67a87672ad46e534658276a5b21e55c802fd69ee83bf59e66c47a4b",
+      "bytes": 155,
+      "sha256": "09ba6bcac67a87672ad46e534658276a5b21e55c802fd69ee83bf59e66c47a4b",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/effective_config.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/effective_config.json",
+      "original_bytes": 10558,
+      "original_sha256": "aed734e28a2f163e067afa2fc958d0db3372a8a81e261d5009955737123b9987",
+      "bytes": 10558,
+      "sha256": "aed734e28a2f163e067afa2fc958d0db3372a8a81e261d5009955737123b9987",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/final_lock.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/final_lock.json",
+      "original_bytes": 3258,
+      "original_sha256": "ba5fcf833f0f00312ba8dc24fdb48348b6419255033f8227a25350d6ff83292c",
+      "bytes": 3258,
+      "sha256": "ba5fcf833f0f00312ba8dc24fdb48348b6419255033f8227a25350d6ff83292c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/formal_started.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/formal_started.json",
+      "original_bytes": 265,
+      "original_sha256": "3fe6297ac4d703ff7979314f6d1cdf7cd50c1ea93e1f1fbc407e6c922d5af43c",
+      "bytes": 265,
+      "sha256": "3fe6297ac4d703ff7979314f6d1cdf7cd50c1ea93e1f1fbc407e6c922d5af43c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/preflight_blocked_precision.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/technical-history/preflight_blocked_precision.json",
+      "original_bytes": 7499,
+      "original_sha256": "4ab662be0b425ccd1047f74056fd59faff5257523767963c9aaddcadd5abc360",
+      "bytes": 7499,
+      "sha256": "4ab662be0b425ccd1047f74056fd59faff5257523767963c9aaddcadd5abc360",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/preflight_failure.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/technical-history/preflight_failure.json",
+      "original_bytes": 981,
+      "original_sha256": "c528126dc63c8bddfeae0c855d38d188e15602ce877e0d1ef97710d33783834f",
+      "bytes": 906,
+      "sha256": "7529b39b68c2719cecad30dadb8a8c3688e132553f9bc735f7a1e09d7fb963ec",
+      "transformations": [
+        {
+          "kind": "machine-specific project root",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/preflight_failure_v2.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/technical-history/preflight_failure_v2.json",
+      "original_bytes": 1139,
+      "original_sha256": "f9841ead99b0f412dc83aa1227241fbbda3022740a2e05bbd377edfe5a8fd08b",
+      "bytes": 1064,
+      "sha256": "b98d173146e34eb4ef0918e9154ecbc4c883c13ef89b00d9fa33668ee1aa0169",
+      "transformations": [
+        {
+          "kind": "machine-specific project root",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/preflight_failure_v3.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/technical-history/preflight_failure_v3.json",
+      "original_bytes": 1235,
+      "original_sha256": "afc2772dfbf275cefdf77c8bcbc68f3be27b9f7c6e26d597a41177e5275cac1b",
+      "bytes": 1160,
+      "sha256": "c48472341d888322b9a559e6c89a974af2119dc5c034deb20aa3bab42c69e7d5",
+      "transformations": [
+        {
+          "kind": "machine-specific project root",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/run_protocol.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/run_protocol.json",
+      "original_bytes": 8431,
+      "original_sha256": "aeaf028e05b14b8ad57ed614b6ed397e6b1333cb3f5c7ad54496a21418c34259",
+      "bytes": 8431,
+      "sha256": "aeaf028e05b14b8ad57ed614b6ed397e6b1333cb3f5c7ad54496a21418c34259",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_explicit-late-mask/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92601_explicit-late-mask/complete.json",
+      "original_bytes": 978,
+      "original_sha256": "b926a827e99b14654104a9ed5a72ab5b8259489060bcd8fc2f3ff8ca11287278",
+      "bytes": 978,
+      "sha256": "b926a827e99b14654104a9ed5a72ab5b8259489060bcd8fc2f3ff8ca11287278",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_explicit-late-mask/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92601_explicit-late-mask/initial.json",
+      "original_bytes": 662,
+      "original_sha256": "b629489a0ecabda9e32f37763646ccd61c6be8150a278144bb2f274217c9d6ed",
+      "bytes": 662,
+      "sha256": "b629489a0ecabda9e32f37763646ccd61c6be8150a278144bb2f274217c9d6ed",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_lower-time-floor/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92601_lower-time-floor/complete.json",
+      "original_bytes": 976,
+      "original_sha256": "7a99baad9a883e2b8e3873e09a84a5aca43a88f0b1ecd3c1ffb39d8591ee3697",
+      "bytes": 976,
+      "sha256": "7a99baad9a883e2b8e3873e09a84a5aca43a88f0b1ecd3c1ffb39d8591ee3697",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_lower-time-floor/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92601_lower-time-floor/initial.json",
+      "original_bytes": 660,
+      "original_sha256": "55b1c57fd094a5707a1b4c25ce2a5242d8662b44f35cf5f1870bc9b7d2696f34",
+      "bytes": 660,
+      "sha256": "55b1c57fd094a5707a1b4c25ce2a5242d8662b44f35cf5f1870bc9b7d2696f34",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_original-support/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92601_original-support/complete.json",
+      "original_bytes": 976,
+      "original_sha256": "e14c3360ba3cef7be03c0a7deb8270d9e2cc5221abca4009f1d48720a4e94649",
+      "bytes": 976,
+      "sha256": "e14c3360ba3cef7be03c0a7deb8270d9e2cc5221abca4009f1d48720a4e94649",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_original-support/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92601_original-support/initial.json",
+      "original_bytes": 660,
+      "original_sha256": "310f43d6dc211e843668b1c17530741a57788b3a6a4a528361b2a47e554715ca",
+      "bytes": 660,
+      "sha256": "310f43d6dc211e843668b1c17530741a57788b3a6a4a528361b2a47e554715ca",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_explicit-late-mask/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92602_explicit-late-mask/complete.json",
+      "original_bytes": 978,
+      "original_sha256": "dd7e8d4b80929aca10d154a987afcc2911e43d971c3f77acaa9f991c0453ce00",
+      "bytes": 978,
+      "sha256": "dd7e8d4b80929aca10d154a987afcc2911e43d971c3f77acaa9f991c0453ce00",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_explicit-late-mask/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92602_explicit-late-mask/initial.json",
+      "original_bytes": 662,
+      "original_sha256": "d396e9811e76172ceed8645d0624f29490ecafa41b7e7571562e3525b4677377",
+      "bytes": 662,
+      "sha256": "d396e9811e76172ceed8645d0624f29490ecafa41b7e7571562e3525b4677377",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_lower-time-floor/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92602_lower-time-floor/complete.json",
+      "original_bytes": 976,
+      "original_sha256": "4079f6cc6ed6a74b701baa16b8a498536c5ff940b8e9535b2bdf6482d0722eed",
+      "bytes": 976,
+      "sha256": "4079f6cc6ed6a74b701baa16b8a498536c5ff940b8e9535b2bdf6482d0722eed",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_lower-time-floor/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92602_lower-time-floor/initial.json",
+      "original_bytes": 659,
+      "original_sha256": "32667abf25efe4a6345f580385ea12834390fe8fbd62c298b9b1756441f155a9",
+      "bytes": 659,
+      "sha256": "32667abf25efe4a6345f580385ea12834390fe8fbd62c298b9b1756441f155a9",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_original-support/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92602_original-support/complete.json",
+      "original_bytes": 974,
+      "original_sha256": "f7bf84406d529932c398433fa15d1e2ad43dcddab62b55e2facf2731f8deabc0",
+      "bytes": 974,
+      "sha256": "f7bf84406d529932c398433fa15d1e2ad43dcddab62b55e2facf2731f8deabc0",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_original-support/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92602_original-support/initial.json",
+      "original_bytes": 659,
+      "original_sha256": "83ef94c378d00fd48c10b24ac92279e1896820dbadcf62565b0f0a581a640897",
+      "bytes": 659,
+      "sha256": "83ef94c378d00fd48c10b24ac92279e1896820dbadcf62565b0f0a581a640897",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_explicit-late-mask/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92603_explicit-late-mask/complete.json",
+      "original_bytes": 978,
+      "original_sha256": "1f6bf0a004255b8c77d739575ae08247cc4620ae58c7d669e0f5445d8af44f28",
+      "bytes": 978,
+      "sha256": "1f6bf0a004255b8c77d739575ae08247cc4620ae58c7d669e0f5445d8af44f28",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_explicit-late-mask/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92603_explicit-late-mask/initial.json",
+      "original_bytes": 661,
+      "original_sha256": "935fd09569ca7569b2353b889c92a24a25ea6dcedcb8d6fbb4f48f2adc4bc31f",
+      "bytes": 661,
+      "sha256": "935fd09569ca7569b2353b889c92a24a25ea6dcedcb8d6fbb4f48f2adc4bc31f",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_lower-time-floor/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92603_lower-time-floor/complete.json",
+      "original_bytes": 976,
+      "original_sha256": "b38c799b2cb0ae0d2e426cdff311b322e1c9142510c09ab24f682233b3da8cd2",
+      "bytes": 976,
+      "sha256": "b38c799b2cb0ae0d2e426cdff311b322e1c9142510c09ab24f682233b3da8cd2",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_lower-time-floor/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92603_lower-time-floor/initial.json",
+      "original_bytes": 660,
+      "original_sha256": "9e41f92ee8f270d38191bd2d2c034c10a4faa599f193cb52701c8175e05ca93c",
+      "bytes": 660,
+      "sha256": "9e41f92ee8f270d38191bd2d2c034c10a4faa599f193cb52701c8175e05ca93c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_original-support/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92603_original-support/complete.json",
+      "original_bytes": 975,
+      "original_sha256": "f511ab27e0a5e64154d3a973488d2112ec2f0471c2b1b1106c3fa31844ac12c9",
+      "bytes": 975,
+      "sha256": "f511ab27e0a5e64154d3a973488d2112ec2f0471c2b1b1106c3fa31844ac12c9",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_original-support/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92603_original-support/initial.json",
+      "original_bytes": 659,
+      "original_sha256": "c9e421614072833b5462ddc5a6e68301f1be0c69c9ff5dd1bc606d58a6f075b9",
+      "bytes": 659,
+      "sha256": "c9e421614072833b5462ddc5a6e68301f1be0c69c9ff5dd1bc606d58a6f075b9",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_explicit-late-mask/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92604_explicit-late-mask/complete.json",
+      "original_bytes": 978,
+      "original_sha256": "6d10d8b30763fa370727c7f7c2c391e4ba63e456d1dce81b39c17324f0e1fc5d",
+      "bytes": 978,
+      "sha256": "6d10d8b30763fa370727c7f7c2c391e4ba63e456d1dce81b39c17324f0e1fc5d",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_explicit-late-mask/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92604_explicit-late-mask/initial.json",
+      "original_bytes": 662,
+      "original_sha256": "945ecdc46571ed640ab2997d5427da03abf7520dd6474ee734da765aaa8fdc4c",
+      "bytes": 662,
+      "sha256": "945ecdc46571ed640ab2997d5427da03abf7520dd6474ee734da765aaa8fdc4c",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_lower-time-floor/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92604_lower-time-floor/complete.json",
+      "original_bytes": 976,
+      "original_sha256": "2f4cd923169aa28f3f96bf94b99c7f7d39f2c56ae8dc8dc2ea36f026ca5a9b56",
+      "bytes": 976,
+      "sha256": "2f4cd923169aa28f3f96bf94b99c7f7d39f2c56ae8dc8dc2ea36f026ca5a9b56",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_lower-time-floor/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92604_lower-time-floor/initial.json",
+      "original_bytes": 660,
+      "original_sha256": "9f64aec4e4a3b63803b7eb9460bd07b2e46cebb5ea7269e7e6c693f7badad825",
+      "bytes": 660,
+      "sha256": "9f64aec4e4a3b63803b7eb9460bd07b2e46cebb5ea7269e7e6c693f7badad825",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_original-support/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92604_original-support/complete.json",
+      "original_bytes": 975,
+      "original_sha256": "f6735ad427e95ff01df434b195ab645bfed0a4d25002d7c105aa3b92909f1816",
+      "bytes": 975,
+      "sha256": "f6735ad427e95ff01df434b195ab645bfed0a4d25002d7c105aa3b92909f1816",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_original-support/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92604_original-support/initial.json",
+      "original_bytes": 659,
+      "original_sha256": "0acd1409eb1b362630883ba7ba7d3419ee84c709c6666a8f49de74fe00a36c6f",
+      "bytes": 659,
+      "sha256": "0acd1409eb1b362630883ba7ba7d3419ee84c709c6666a8f49de74fe00a36c6f",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_explicit-late-mask/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92605_explicit-late-mask/complete.json",
+      "original_bytes": 977,
+      "original_sha256": "6c92ffcef28e62f4e997b442be628c21e0e361cd30ca9cb26a0d065ff18afa55",
+      "bytes": 977,
+      "sha256": "6c92ffcef28e62f4e997b442be628c21e0e361cd30ca9cb26a0d065ff18afa55",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_explicit-late-mask/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92605_explicit-late-mask/initial.json",
+      "original_bytes": 662,
+      "original_sha256": "f98bcdf75d6eeb544e315d6bd3efba8055181ca5b604bc74bddfcc809fca9cb4",
+      "bytes": 662,
+      "sha256": "f98bcdf75d6eeb544e315d6bd3efba8055181ca5b604bc74bddfcc809fca9cb4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_lower-time-floor/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92605_lower-time-floor/complete.json",
+      "original_bytes": 975,
+      "original_sha256": "bf7f40d9cf02ba293498a0aaf125870ffff6b552f5034f671bd29e2ec9268528",
+      "bytes": 975,
+      "sha256": "bf7f40d9cf02ba293498a0aaf125870ffff6b552f5034f671bd29e2ec9268528",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_lower-time-floor/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92605_lower-time-floor/initial.json",
+      "original_bytes": 659,
+      "original_sha256": "191c80f031e5ce29ac178678a680930e9f8965f9628a74bb79c54ca833928ca6",
+      "bytes": 659,
+      "sha256": "191c80f031e5ce29ac178678a680930e9f8965f9628a74bb79c54ca833928ca6",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_original-support/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92605_original-support/complete.json",
+      "original_bytes": 976,
+      "original_sha256": "a59da1fa6fc1a09e13b71ddd6c6d2bfd4fcf8326368c4419f21d4fd4636566ab",
+      "bytes": 976,
+      "sha256": "a59da1fa6fc1a09e13b71ddd6c6d2bfd4fcf8326368c4419f21d4fd4636566ab",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_original-support/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92605_original-support/initial.json",
+      "original_bytes": 660,
+      "original_sha256": "81629497fbab00e6032c4861dcb159f5e4d73c26ed0e363ad2ec71a58e821081",
+      "bytes": 660,
+      "sha256": "81629497fbab00e6032c4861dcb159f5e4d73c26ed0e363ad2ec71a58e821081",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_explicit-late-mask/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92606_explicit-late-mask/complete.json",
+      "original_bytes": 978,
+      "original_sha256": "583f05a83f9b7879a1df75e772b22dce1d49027b5b11d77bfe9a93023b148538",
+      "bytes": 978,
+      "sha256": "583f05a83f9b7879a1df75e772b22dce1d49027b5b11d77bfe9a93023b148538",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_explicit-late-mask/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92606_explicit-late-mask/initial.json",
+      "original_bytes": 662,
+      "original_sha256": "6cd2f19ab1980e2bc6086e2b6a94c887ecd7a64451724d6de7ac3c5062571945",
+      "bytes": 662,
+      "sha256": "6cd2f19ab1980e2bc6086e2b6a94c887ecd7a64451724d6de7ac3c5062571945",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_lower-time-floor/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92606_lower-time-floor/complete.json",
+      "original_bytes": 975,
+      "original_sha256": "5aecd489fd703ae926db009cb1ea98065e9fd599246588b1a3ec8853105e7c15",
+      "bytes": 975,
+      "sha256": "5aecd489fd703ae926db009cb1ea98065e9fd599246588b1a3ec8853105e7c15",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_lower-time-floor/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92606_lower-time-floor/initial.json",
+      "original_bytes": 660,
+      "original_sha256": "42253cfa730cda6cba93c23b9d81930ae38e9ac45c69ae6b5d7e4c940e191bfa",
+      "bytes": 660,
+      "sha256": "42253cfa730cda6cba93c23b9d81930ae38e9ac45c69ae6b5d7e4c940e191bfa",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_original-support/complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92606_original-support/complete.json",
+      "original_bytes": 974,
+      "original_sha256": "c7bac0ec17b2c4e43cf65b4d9214b84b597f0f656a73282ec27c305f33a899a5",
+      "bytes": 974,
+      "sha256": "c7bac0ec17b2c4e43cf65b4d9214b84b597f0f656a73282ec27c305f33a899a5",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_original-support/initial.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92606_original-support/initial.json",
+      "original_bytes": 659,
+      "original_sha256": "d811707171e7543dfef6a8633d342fd13f8010b4723e9a3a7100d249dbd7ee90",
+      "bytes": 659,
+      "sha256": "d811707171e7543dfef6a8633d342fd13f8010b4723e9a3a7100d249dbd7ee90",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training_phase_complete.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training_phase_complete.json",
+      "original_bytes": 396,
+      "original_sha256": "c89a4d9a708b1f067ad7727ea0f110267b689b750f1c8774294c51f5427b30b4",
+      "bytes": 396,
+      "sha256": "c89a4d9a708b1f067ad7727ea0f110267b689b750f1c8774294c51f5427b30b4",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001_exports/training_checkpoint_metadata_v1.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training_checkpoint_metadata_v1.json",
+      "original_bytes": 74550,
+      "original_sha256": "24963ad03b7d4098e13612c952897735187acb5823fddd854aded71c04d3c999",
+      "bytes": 74550,
+      "sha256": "24963ad03b7d4098e13612c952897735187acb5823fddd854aded71c04d3c999",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001_exports/training_phase_full_audit_v1.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training_phase_full_audit_v1.json",
+      "original_bytes": 10007,
+      "original_sha256": "1d84d9aefaff35ad86474c3c8584926d96bcf088b14c05dccbaddc9a7e9eb669",
+      "bytes": 10007,
+      "sha256": "1d84d9aefaff35ad86474c3c8584926d96bcf088b14c05dccbaddc9a7e9eb669",
+      "transformations": []
+    },
+    {
+      "source": "artifacts/endpoint_mask_sampler_disentanglement_20261001_exports/training_phase_science_manifest_v1.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training_phase_science_manifest_v1.json",
+      "original_bytes": 42541,
+      "original_sha256": "d2878c8023fef62e181c3faece2b34c48e612c539c48f8e97212caa454273197",
+      "bytes": 42541,
+      "sha256": "d2878c8023fef62e181c3faece2b34c48e612c539c48f8e97212caa454273197",
+      "transformations": []
+    },
+    {
+      "source": "custodian-local-observation/precision.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/technical-history/precision.json",
+      "original_bytes": 2157,
+      "original_sha256": "55610a8674d37938aa256d2222a61b7dbb09ea4ac819926438031fa23022de20",
+      "bytes": 2157,
+      "sha256": "55610a8674d37938aa256d2222a61b7dbb09ea4ac819926438031fa23022de20",
+      "transformations": []
+    },
+    {
+      "source": "custodian-local-observation/restore_diagnosis_v1.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/technical-history/restore_diagnosis_v1.json",
+      "original_bytes": 707,
+      "original_sha256": "842016977ca0282a34869df5407a9860739ad6828f45539a18859c21c76f01d1",
+      "bytes": 707,
+      "sha256": "842016977ca0282a34869df5407a9860739ad6828f45539a18859c21c76f01d1",
+      "transformations": []
+    },
+    {
+      "source": "custodian-local-observation/restore_diagnosis_v2.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/technical-history/restore_diagnosis_v2.json",
+      "original_bytes": 675,
+      "original_sha256": "4c3407aed6ae118d41ee43d96eb960132632cd11ce92e49d993acb9d0155c98d",
+      "bytes": 675,
+      "sha256": "4c3407aed6ae118d41ee43d96eb960132632cd11ce92e49d993acb9d0155c98d",
+      "transformations": []
+    },
+    {
+      "source": "custodian-local-observation/restore_diagnosis_v4.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/technical-history/restore_diagnosis_v4.json",
+      "original_bytes": 13155,
+      "original_sha256": "4fe7f036743e670da1170eea52f8acf5ce490b3e25f51abfd712a687c7644909",
+      "bytes": 13155,
+      "sha256": "4fe7f036743e670da1170eea52f8acf5ce490b3e25f51abfd712a687c7644909",
+      "transformations": []
+    },
+    {
+      "source": "custodian-local-observation/fp32_revision_feasibility_v1_result.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/technical-history/fp32_revision_feasibility_v1_result.json",
+      "original_bytes": 1242,
+      "original_sha256": "f42569ab5440349edeb028f0f5aac936b9b5aa24f2a3dcf1b32886c3f33d5daa",
+      "bytes": 1242,
+      "sha256": "f42569ab5440349edeb028f0f5aac936b9b5aa24f2a3dcf1b32886c3f33d5daa",
+      "transformations": []
+    },
+    {
+      "source": "custodian-local-observation/cpu_prepare_v5_checks.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/technical-history/cpu_prepare_v5_checks.json",
+      "original_bytes": 3047,
+      "original_sha256": "4c398cd1415f06ffc7beb1a45579f366d997072f5a7256450ffc9068ba834e24",
+      "bytes": 3047,
+      "sha256": "4c398cd1415f06ffc7beb1a45579f366d997072f5a7256450ffc9068ba834e24",
+      "transformations": []
+    },
+    {
+      "source": "custodian-local-observation/software_environment.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/technical-history/software_environment.json",
+      "original_bytes": 411,
+      "original_sha256": "b85736c7ea61214f11c89959d6f7e37960b46567924614afa28be95193f0a05d",
+      "bytes": 411,
+      "sha256": "b85736c7ea61214f11c89959d6f7e37960b46567924614afa28be95193f0a05d",
+      "transformations": []
+    },
+    {
+      "source": "custodian-training-closure/training_phase_complete_v1.verification.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training_phase_complete_v1.verification.json",
+      "original_bytes": 609,
+      "original_sha256": "9647d1785cf6d647a0e3f0b13d146477edcfc1db635c7bd521ef89083161458c",
+      "bytes": 623,
+      "sha256": "bf272ef35a00d987dd3e877c47fff4628be520c92e6d20f63251c26c3e5a2ac6",
+      "transformations": [
+        {
+          "kind": "Windows project/backup root redaction",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "source": "custodian-training-closure/training_phase_independent_union_v1.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training_phase_independent_union_v1.json",
+      "original_bytes": 1206,
+      "original_sha256": "4dc5fe67b8ed4d5dc2283ed5f10cdb12920d98ebf43f253ad4040af96830b351",
+      "bytes": 1161,
+      "sha256": "3235595924ef7ab03277e287eb81e3f758a272a0cff82c9aa9cf270a574761eb",
+      "transformations": [
+        {
+          "kind": "Windows project/backup root redaction",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "source": "custodian-training-closure/training_phase_remote_archive_v1.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training_phase_remote_archive_v1.json",
+      "original_bytes": 583,
+      "original_sha256": "eef4609cf87031d5c90798835cb69cc88ec0dec727049def5ffda180bbfb715f",
+      "bytes": 583,
+      "sha256": "eef4609cf87031d5c90798835cb69cc88ec0dec727049def5ffda180bbfb715f",
+      "transformations": []
+    },
+    {
+      "source": "custodian-training-closure/training_phase_complete_v1.manifest.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/evidence/training_phase_complete_v1.manifest.json",
+      "original_bytes": 30320,
+      "original_sha256": "fa94ca45b33f930aa8da1fd235f7af7d62cb7df04192ce034abbac5b801e4a53",
+      "bytes": 30320,
+      "sha256": "fa94ca45b33f930aa8da1fd235f7af7d62cb7df04192ce034abbac5b801e4a53",
+      "transformations": []
+    },
+    {
+      "source": "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_PLAN_20261001_ZH.md",
+      "published": "late-mask-coverage-and-committed-spin-correction/protocol/SCIENTIFIC_PLAN_ZH.md",
+      "original_bytes": 33394,
+      "original_sha256": "1d1dcbfd2b86b3af3f007db695ffec9f52af27fdd4c3e3d1192f3aae67eec4ff",
+      "bytes": 32725,
+      "sha256": "3e98c9f42ccbd0bda614801eb8063ee2010a1db2f9e7c003602ca714c28b661c",
+      "transformations": [
+        {
+          "kind": "private-discussion provenance/timestamp table omitted; scientific design retained"
+        },
+        {
+          "kind": "remove stray non-scientific text in E arm table: 我还是"
+        },
+        {
+          "kind": "historical local link rendered as source identifier",
+          "count": 15
+        },
+        {
+          "kind": "public-copy notice"
+        }
+      ]
+    },
+    {
+      "source": "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_CONFIG_20261001.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/protocol/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_CONFIG_20261001.json",
+      "original_bytes": 7912,
+      "original_sha256": "acd28d68c3a7f597e543a3ebc683a0f23cfa421a0a9e6f2286edbac8317b24ed",
+      "bytes": 7912,
+      "sha256": "acd28d68c3a7f597e543a3ebc683a0f23cfa421a0a9e6f2286edbac8317b24ed",
+      "transformations": []
+    },
+    {
+      "source": "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_BUDGET_20261001.json",
+      "published": "late-mask-coverage-and-committed-spin-correction/protocol/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_BUDGET_20261001.json",
+      "original_bytes": 11036,
+      "original_sha256": "73523784d720705df517e514cb3a7fc591c61b825062fe55cd2fffb62af2b71c",
+      "bytes": 11036,
+      "sha256": "73523784d720705df517e514cb3a7fc591c61b825062fe55cd2fffb62af2b71c",
+      "transformations": []
+    }
+  ]
+}

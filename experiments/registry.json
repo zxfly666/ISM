@@ -254,5 +254,27 @@
     "formal_completed": false,
     "published_files": 11,
     "published_bytes": 53161
+  },
+  {
+    "slug": "late-mask-coverage-and-committed-spin-correction",
+    "public_name": "Late-mask coverage and committed-spin correction",
+    "historical_alias": "A/L/E (training arms)",
+    "experiment_id": "endpoint_mask_sampler_disentanglement_20261001",
+    "date": "2026-10-01",
+    "training_kind": "continued: 18; six I-F lineages",
+    "parents": [
+      "fine-geometry-identification/I-F"
+    ],
+    "new_reference": false,
+    "new_generation": 0,
+    "code": [
+      "scripts/research20261001/run_training_phase.py",
+      "scripts/research20261001/endpoint_training.py"
+    ],
+    "formal_completed": false,
+    "training_completed": true,
+    "status": "training_complete_evaluation_pending",
+    "published_files": 63,
+    "published_bytes": 296000
   }
 ]

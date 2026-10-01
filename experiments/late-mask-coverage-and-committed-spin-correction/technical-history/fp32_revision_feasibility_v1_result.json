@@ -1,0 +1,35 @@
+{
+  "status": "measured_not_yet_launch_qualified",
+  "created": 1790826622.9196198,
+  "started": 1790826508.9957576,
+  "sampler": "monotone-256",
+  "precision": "full_network_FP32_autocast_disabled",
+  "images": 16,
+  "network_calls": 256,
+  "shard_seconds": 113.3809654302895,
+  "w96_monotone_formal_plus_phase0_shards": 168,
+  "partial_forecast_seconds_including_elapsed": 41170.17385773509,
+  "partial_forecast_omits": [
+    "training",
+    "MC",
+    "W96_repair",
+    "W48",
+    "conditional",
+    "analysis",
+    "backup"
+  ],
+  "original_budget": {
+    "started": 1790807357.9482894,
+    "deadline": 1790850557.9482894,
+    "wall_seconds": 43200,
+    "clock_includes_preflight_waits_statistics_backup": true
+  },
+  "formal_started": false,
+  "scientific_results": false,
+  "sources": {
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001_exports/benchmark_fp32_revision_v1.py": "b31f06fd622ac4a5c3dc32120055aaa2e1cd13c8de65dc5283e42852386f58b7",
+    "scripts/research20261001/endpoint_sampling.py": "8bf60dc084d04f0a931568a6640207f0420861f006954093d6047159101ea2cc",
+    "scripts/research20261001/endpoint_training.py": "3f27884f2293e38a904027d9f30806d7f4cfeec84d0f3ffea6e58a4cc5a368c4"
+  },
+  "peak_cuda_bytes": 1180676608
+}

@@ -1,0 +1,6 @@
+{
+  "time": 1790808170.6718512,
+  "exception": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"<PROJECT_ROOT>/scripts/research20261001/run_endpoint.py\", line 205, in <module>\n    try:preflight(a.cpu_receipt,a.fixture_receipt,a.mode==\"preflight_continue\")\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<PROJECT_ROOT>/scripts/research20261001/endpoint_preflight.py\", line 159, in run\n    c.log(\"preflight_restore_start\",continuing_original_clock=continue_existing);restore=exact_restore(val,recovery)\n                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<PROJECT_ROOT>/scripts/research20261001/endpoint_preflight.py\", line 51, in exact_restore\n    assert left==right and same(m.state_dict(),mm.state_dict()) and same(e.state_dict(),ee.state_dict())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "formal_started": false
+}

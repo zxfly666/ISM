@@ -130,3 +130,40 @@ archival storage and are not claimed to be public data hosting.
 
 No serious map-level ambiguity prevents implementation. Remaining access and
 reproducibility limitations are publication facts, not reasons to hide negative work.
+
+## 2026-10-01 addendum: training-stage archive, not a completed efficacy study
+
+The new campaign is `endpoint_mask_sampler_disentanglement_20261001`, publicly
+named **Late-mask coverage and committed-spin correction**. Its directory is
+`experiments/late-mask-coverage-and-committed-spin-correction/`. A/L/E are secondary
+arm aliases, not top-level experiment names. This is one intended training × sampler
+question; do not split its technical preflights or each continuation into experiments.
+
+- **Actual lineage:** all six I-F 12k checkpoints, each continued for 8k in three
+  arms; 18 final models, six paired training lineages. No new fresh training seed.
+- **Executed scope:** training only, 144,000 updates, 18 resumable finals, 36 EMA
+  snapshots. No new MC, formal generation, final conditional evaluation or primary
+  effect estimate. The correct status is `training_complete_evaluation_pending`.
+- **Hierarchy:** tailored README; historical full scientific plan and effective
+  configuration; completion/audit/checkpoint metadata; technical failure records
+  in a labeled subsection; per-path data-availability and provenance records.
+- **Include:** frozen scientific Python modules and config, small machine-readable
+  completion and full-input audit, source/data/final SHA, backup receipts and union
+  coverage. Archive prose must distinguish completed training from proposed P1/P2.
+- **Withhold from ordinary Git:** large final/EMA weights, raw training logs, MC
+  training parent pool and tar archives. Preserve member path/bytes/SHA and archive
+  identity; no new public hosting or LFS objects are implied.
+- **Privacy:** do not publish private conversation/transcription, connection
+  records, transport helpers, credentials or local usernames. Authorization is
+  summarized scientifically rather than publishing private dialogue.
+- **Historical correction:** the original BF16 inference precision gate and full
+  12h feasibility gate failed. Strict continuation recovery subsequently passed,
+  and an explicitly authorized training-only driver ran once. Those facts do not
+  convert the failed whole-pipeline gate to a pass.
+- **Open issue:** formal FP32 inference, fresh reference, generation and final
+  scientific analysis still require a separately defined later execution window.
+  Do not fill missing primary-result fields with training loss or synthetic fixtures.
+
+Before publication, require full training audit, local archive-member verification,
+science-manifest union, link/secret/large-file checks and a normal non-force push.
+This addendum does not alter any frozen scientific source or authorize further compute.

@@ -1,0 +1,27 @@
+{
+  "budget_unchanged": {
+    "started": 1790807357.9482894,
+    "deadline": 1790850557.9482894,
+    "wall_seconds": 43200,
+    "clock_includes_preflight_waits_statistics_backup": true
+  },
+  "results": {
+    "production_bf16": {
+      "before_update_raw_ema_optimizer_exact": true,
+      "row_equal": true,
+      "row_differences": {},
+      "raw_max_abs_diff": 0.0,
+      "ema_max_abs_diff": 0.0,
+      "optimizer_exact": true
+    },
+    "deterministic_fp32_math": {
+      "before_update_raw_ema_optimizer_exact": true,
+      "row_equal": true,
+      "row_differences": {},
+      "raw_max_abs_diff": 0.0,
+      "ema_max_abs_diff": 0.0,
+      "optimizer_exact": true
+    }
+  },
+  "formal_started": false
+}

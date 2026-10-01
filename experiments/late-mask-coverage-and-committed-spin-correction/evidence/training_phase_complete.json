@@ -1,0 +1,12 @@
+{
+  "status": "training_complete_evaluation_pending",
+  "started": 1790827414.8573477,
+  "completed": 1790836856.4571753,
+  "seconds": 9441.599827528,
+  "branches": 18,
+  "updates": 144000,
+  "final_lock_sha256": "ba5fcf833f0f00312ba8dc24fdb48348b6419255033f8227a25350d6ff83292c",
+  "scientific_conclusion_available": false,
+  "generation_analysis_not_executed": true,
+  "backup_pending": true
+}

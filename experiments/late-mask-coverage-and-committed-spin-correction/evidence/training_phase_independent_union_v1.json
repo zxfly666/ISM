@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "time": 1790837872.8541296,
+  "science_paths": 173,
+  "covered": 173,
+  "missing": [],
+  "packages": [
+    "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92601_I-F_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92602_I-F_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92603_I-F_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92604_I-F_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92605_I-F_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92606_I-F_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20261001_endpoint_mask_sampler_disentanglement\\preflight_blocked_precision_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20261001_endpoint_mask_sampler_disentanglement\\training_phase_complete_v1.tar.gz",
+    "<CUSTODIAN_BACKUPS>\\20261001_endpoint_mask_sampler_disentanglement\\training_phase_initial_v1.tar.gz"
+  ],
+  "manifest_sha256": "d2878c8023fef62e181c3faece2b34c48e612c539c48f8e97212caa454273197",
+  "same_disk_not_offsite": true
+}

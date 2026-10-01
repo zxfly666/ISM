@@ -1,0 +1,13 @@
+{
+  "status": "remote_training_stage_archived_needs_local_verify_union",
+  "time": 1790837602.6604733,
+  "elapsed_seconds": 384.1300814151764,
+  "archive": "training_phase_complete_v1.tar.gz",
+  "archive_bytes": 869900945,
+  "archive_sha256": "353d999f6cfe0091cfe9b3dc62088504e3350435f27c31b2699281873a54bea7",
+  "members": 128,
+  "science_manifest_sha256": "d2878c8023fef62e181c3faece2b34c48e612c539c48f8e97212caa454273197",
+  "audit_sha256": "1d84d9aefaff35ad86474c3c8584926d96bcf088b14c05dccbaddc9a7e9eb669",
+  "evaluation_pending": true,
+  "no_new_training_or_inference": true
+}

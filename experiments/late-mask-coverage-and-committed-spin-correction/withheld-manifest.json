@@ -1,0 +1,1528 @@
+{
+  "files": [
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/budget.json",
+      "bytes": 155,
+      "sha256": "09ba6bcac67a87672ad46e534658276a5b21e55c802fd69ee83bf59e66c47a4b",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/budget.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/effective_config.json",
+      "bytes": 10558,
+      "sha256": "aed734e28a2f163e067afa2fc958d0db3372a8a81e261d5009955737123b9987",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/effective_config.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/final_lock.json",
+      "bytes": 3258,
+      "sha256": "ba5fcf833f0f00312ba8dc24fdb48348b6419255033f8227a25350d6ff83292c",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/final_lock.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/formal.stdout",
+      "bytes": 51250,
+      "sha256": "b9cfef5961637cf2eaac888561d97f7b3a32ca39f8ed79afdd61c02aca2e71e1",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/formal_started.json",
+      "bytes": 265,
+      "sha256": "3fe6297ac4d703ff7979314f6d1cdf7cd50c1ea93e1f1fbc407e6c922d5af43c",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/formal_started.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/preflight_blocked_precision.json",
+      "bytes": 7499,
+      "sha256": "4ab662be0b425ccd1047f74056fd59faff5257523767963c9aaddcadd5abc360",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/technical-history/preflight_blocked_precision.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/preflight_failure.json",
+      "bytes": 981,
+      "sha256": "c528126dc63c8bddfeae0c855d38d188e15602ce877e0d1ef97710d33783834f",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/technical-history/preflight_failure.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/preflight_failure_v2.json",
+      "bytes": 1139,
+      "sha256": "f9841ead99b0f412dc83aa1227241fbbda3022740a2e05bbd377edfe5a8fd08b",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/technical-history/preflight_failure_v2.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/preflight_failure_v3.json",
+      "bytes": 1235,
+      "sha256": "afc2772dfbf275cefdf77c8bcbc68f3be27b9f7c6e26d597a41177e5275cac1b",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/technical-history/preflight_failure_v3.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/run.jsonl",
+      "bytes": 51581,
+      "sha256": "841230e3e01db1f0d28acd53ebe69391625ede7f2632c469cc790e8571460554",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/run.lock",
+      "bytes": 171,
+      "sha256": "e0d2672473e6b329f91f51d8a7b5811d5179c281fda01f0ffae9687c7b477198",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/run_protocol.json",
+      "bytes": 8431,
+      "sha256": "aeaf028e05b14b8ad57ed614b6ed397e6b1333cb3f5c7ad54496a21418c34259",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/run_protocol.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/status.json",
+      "bytes": 129,
+      "sha256": "e9cdf1d6893157bcc9d8dd7361d64eaffad4f6ced746e7c8728b7dcc0de3505a",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_explicit-late-mask/complete.json",
+      "bytes": 978,
+      "sha256": "b926a827e99b14654104a9ed5a72ab5b8259489060bcd8fc2f3ff8ca11287278",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92601_explicit-late-mask/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_explicit-late-mask/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "da4756f3c75fb7a8e33c6332b141cc4192ef2828d5e29e7b2c561b639be63065",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_explicit-late-mask/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "3ee026252c2fce38ce85d257950c5dad2328fef3564d43d86f421fe7814dab3d",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_explicit-late-mask/final.pt",
+      "bytes": 31811269,
+      "sha256": "8255656fca5261d86872da2bc63c9722c4775cc53825a306976537a526ee205b",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_explicit-late-mask/initial.json",
+      "bytes": 662,
+      "sha256": "b629489a0ecabda9e32f37763646ccd61c6be8150a278144bb2f274217c9d6ed",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92601_explicit-late-mask/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_explicit-late-mask/log.jsonl",
+      "bytes": 13852739,
+      "sha256": "9d006166adb786e49fc6e15c38caab0b0c8586a70febbb529c35d5c24e463d2e",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_lower-time-floor/complete.json",
+      "bytes": 976,
+      "sha256": "7a99baad9a883e2b8e3873e09a84a5aca43a88f0b1ecd3c1ffb39d8591ee3697",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92601_lower-time-floor/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_lower-time-floor/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "ccb4b847ac2dd6883411ac6db7b3ce701078724b04ced93c112ac2cb4581823c",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_lower-time-floor/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "944976afe4e2fd268dc20f6be1e8570230165be42bc8bebe375c318df7d279a8",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_lower-time-floor/final.pt",
+      "bytes": 31811269,
+      "sha256": "e39306c883e83c5686fb1a71558a28331c0a8114f33f9c62fb2ba0a5ddeb5a0c",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_lower-time-floor/initial.json",
+      "bytes": 660,
+      "sha256": "55b1c57fd094a5707a1b4c25ce2a5242d8662b44f35cf5f1870bc9b7d2696f34",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92601_lower-time-floor/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_lower-time-floor/log.jsonl",
+      "bytes": 14595225,
+      "sha256": "befbf07f2015ad43f5fa34c9b3a8e3aa878caf8512fd299bec5e5347f0333a82",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_original-support/complete.json",
+      "bytes": 976,
+      "sha256": "e14c3360ba3cef7be03c0a7deb8270d9e2cc5221abca4009f1d48720a4e94649",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92601_original-support/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_original-support/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "2fe3e39d49981713d9b7311a9f6736f569fd504f90f3d10a2ab2a7821e321b02",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_original-support/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "85fa60dd6c8621cdf28f4455b8e6f25b346659f7fbee1d42cf95d59529477513",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_original-support/final.pt",
+      "bytes": 31811269,
+      "sha256": "92804a66aacf6d7d34dc67ebcc919ddf4cbafdca2a5aaa729002a0eadbd7a8b0",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_original-support/initial.json",
+      "bytes": 660,
+      "sha256": "310f43d6dc211e843668b1c17530741a57788b3a6a4a528361b2a47e554715ca",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92601_original-support/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_original-support/log.jsonl",
+      "bytes": 14592290,
+      "sha256": "3959f8485a2125ea460bd65486dee83755c7d87635f557c021fe3ef9659e426d",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_explicit-late-mask/complete.json",
+      "bytes": 978,
+      "sha256": "dd7e8d4b80929aca10d154a987afcc2911e43d971c3f77acaa9f991c0453ce00",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92602_explicit-late-mask/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_explicit-late-mask/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "fb66d40a80d2e93f44263440a33e8ed277907c13e6321c49cc94a3dd35d46487",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_explicit-late-mask/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "525182758dec151e8bf9c129af5a691e37633b1da058e8a39d72d5fa5b34a397",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_explicit-late-mask/final.pt",
+      "bytes": 31811333,
+      "sha256": "e7f6545e1fa7580644dec12d323870545f95f525c055bf377d25735fa3b50515",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_explicit-late-mask/initial.json",
+      "bytes": 662,
+      "sha256": "d396e9811e76172ceed8645d0624f29490ecafa41b7e7571562e3525b4677377",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92602_explicit-late-mask/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_explicit-late-mask/log.jsonl",
+      "bytes": 13849672,
+      "sha256": "a5e29649792ed1b4e6e8b77ce79c19331e9a499083275aab9417b0e058256612",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_lower-time-floor/complete.json",
+      "bytes": 976,
+      "sha256": "4079f6cc6ed6a74b701baa16b8a498536c5ff940b8e9535b2bdf6482d0722eed",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92602_lower-time-floor/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_lower-time-floor/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "db01a7a22e79ac5c2563bf91746b6f641b2993a308932fc1b5745cd2e312597f",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_lower-time-floor/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "bd99e00852646c5cf8a197a82d802a1e3393e332680f0e4ad7e67911d4f7f7c2",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_lower-time-floor/final.pt",
+      "bytes": 31811333,
+      "sha256": "a16d4cacec4c17deb26aabd632b98f11785344fee161cfba02a8e0c022aca2d4",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_lower-time-floor/initial.json",
+      "bytes": 659,
+      "sha256": "32667abf25efe4a6345f580385ea12834390fe8fbd62c298b9b1756441f155a9",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92602_lower-time-floor/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_lower-time-floor/log.jsonl",
+      "bytes": 14594659,
+      "sha256": "bf7b0fc8eca56f6bb34d97705d1dcdd4b9a76b860b139a4e8f719be2c83d59d1",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_original-support/complete.json",
+      "bytes": 974,
+      "sha256": "f7bf84406d529932c398433fa15d1e2ad43dcddab62b55e2facf2731f8deabc0",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92602_original-support/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_original-support/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "6be45187cf0d2dfdc1a71de12538c8f9e9191ce47edef0f6b4d880bf21d9ec13",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_original-support/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "4a67701af7ebb085a4efd2d2c3cf0e13a573c39f8530e599dd8b376f496a1bd7",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_original-support/final.pt",
+      "bytes": 31811333,
+      "sha256": "aa9e8db0f60f452280a30e9875a3a5589d0a41415205e37aea33b213d87bfd2f",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_original-support/initial.json",
+      "bytes": 659,
+      "sha256": "83ef94c378d00fd48c10b24ac92279e1896820dbadcf62565b0f0a581a640897",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92602_original-support/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_original-support/log.jsonl",
+      "bytes": 14592311,
+      "sha256": "beb3998aa354c1ace3038df80d8d37e566084be5dcef74233ad150412ea09cd8",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_explicit-late-mask/complete.json",
+      "bytes": 978,
+      "sha256": "1f6bf0a004255b8c77d739575ae08247cc4620ae58c7d669e0f5445d8af44f28",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92603_explicit-late-mask/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_explicit-late-mask/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "e000ba75ac0292081a47198090bc99546fb1807a5220b2db325993d2b7c3dfcc",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_explicit-late-mask/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "d2c603693a560704fd4410236be87190e987573c66fc74f704367c36b1cb5cde",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_explicit-late-mask/final.pt",
+      "bytes": 31811205,
+      "sha256": "129c30b3a462d83ef9bed1cd58c06c21d3d131e446aead81445e111f0c3fb80c",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_explicit-late-mask/initial.json",
+      "bytes": 661,
+      "sha256": "935fd09569ca7569b2353b889c92a24a25ea6dcedcb8d6fbb4f48f2adc4bc31f",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92603_explicit-late-mask/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_explicit-late-mask/log.jsonl",
+      "bytes": 13851682,
+      "sha256": "459dfaee6828a0c1ab5a03993e137c69b76f08287b1f75a427e6d97678f5c95c",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_lower-time-floor/complete.json",
+      "bytes": 976,
+      "sha256": "b38c799b2cb0ae0d2e426cdff311b322e1c9142510c09ab24f682233b3da8cd2",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92603_lower-time-floor/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_lower-time-floor/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "230cc8e70580d37bf4168458cabd4b43180510df391a4c2b668da4926f2d3daf",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_lower-time-floor/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "e698a1a10b3dae71f548fe3e06cb73c0fe1e9c0daa98737d1d67dc634bde49e6",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_lower-time-floor/final.pt",
+      "bytes": 31811205,
+      "sha256": "664508abf1ef38e843acb6ae455554c6bdfa3d76fd3cdfca54a8792ecf98f241",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_lower-time-floor/initial.json",
+      "bytes": 660,
+      "sha256": "9e41f92ee8f270d38191bd2d2c034c10a4faa599f193cb52701c8175e05ca93c",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92603_lower-time-floor/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_lower-time-floor/log.jsonl",
+      "bytes": 14590477,
+      "sha256": "9abb685c55777d8ef3ef49775cdd835eb7cce4c2613e22beb3e333e374ddb06a",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_original-support/complete.json",
+      "bytes": 975,
+      "sha256": "f511ab27e0a5e64154d3a973488d2112ec2f0471c2b1b1106c3fa31844ac12c9",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92603_original-support/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_original-support/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "bf57b9c86a7be59174347af3e290711e9be92dbae8ae9974c2a353f9095d4e9b",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_original-support/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "875d65dd902943d7237d886272d4b04a21aa3988476ce8d37c6216783ba1d76c",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_original-support/final.pt",
+      "bytes": 31811205,
+      "sha256": "aad3fd79c3d32848741c3b6e65a2ef676233e6e83ecd3c52776ce117698dbeee",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_original-support/initial.json",
+      "bytes": 659,
+      "sha256": "c9e421614072833b5462ddc5a6e68301f1be0c69c9ff5dd1bc606d58a6f075b9",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92603_original-support/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_original-support/log.jsonl",
+      "bytes": 14587651,
+      "sha256": "af0766eb3dcf073b98a855eb1001166c335f50695f99fea3c7d6dcffd9a7155d",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_explicit-late-mask/complete.json",
+      "bytes": 978,
+      "sha256": "6d10d8b30763fa370727c7f7c2c391e4ba63e456d1dce81b39c17324f0e1fc5d",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92604_explicit-late-mask/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_explicit-late-mask/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "e8c64bf2996930c39fd69396ae33fba0f8d487190074e653080d315490bc0dd0",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_explicit-late-mask/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "0ade51c2ddf18ec91decc05fc52042ba35fd2dae927d564a47f1241bb6102994",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_explicit-late-mask/final.pt",
+      "bytes": 31811205,
+      "sha256": "320607c62a4804de78c8881ee567cc04d2434b6d4b0e5194c504543ba34a3424",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_explicit-late-mask/initial.json",
+      "bytes": 662,
+      "sha256": "945ecdc46571ed640ab2997d5427da03abf7520dd6474ee734da765aaa8fdc4c",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92604_explicit-late-mask/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_explicit-late-mask/log.jsonl",
+      "bytes": 13854888,
+      "sha256": "89e97a156309f64a06f74eee01de1b6c8f2a37c8cff946f675f5b2aad237fb8d",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_lower-time-floor/complete.json",
+      "bytes": 976,
+      "sha256": "2f4cd923169aa28f3f96bf94b99c7f7d39f2c56ae8dc8dc2ea36f026ca5a9b56",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92604_lower-time-floor/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_lower-time-floor/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "b9eeb4fbd8b64315c1e27a7c0c96972afa7efcd01b723e979b98bf1cd7d88a99",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_lower-time-floor/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "7e0f322b49b3b5f6a87544f1e1bec0e55b82c47ca0378f1d9e34aedfd2bc6389",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_lower-time-floor/final.pt",
+      "bytes": 31811205,
+      "sha256": "6bbfeba36a65353f401c15176ed208fddf84efff6ce75e73e6348d92b2f1f7ce",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_lower-time-floor/initial.json",
+      "bytes": 660,
+      "sha256": "9f64aec4e4a3b63803b7eb9460bd07b2e46cebb5ea7269e7e6c693f7badad825",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92604_lower-time-floor/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_lower-time-floor/log.jsonl",
+      "bytes": 14596677,
+      "sha256": "76951480fb958f835be51d3a1988d2a80ba8bea4a7e119297c39f988e6fb2e17",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_original-support/complete.json",
+      "bytes": 975,
+      "sha256": "f6735ad427e95ff01df434b195ab645bfed0a4d25002d7c105aa3b92909f1816",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92604_original-support/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_original-support/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "105d2a9764a3d48ec6d42a986cc153f56c59f02041568d057f1968b05801e03e",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_original-support/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "2914deaad80b73c44905aa5b3ca2bf78d0f64eebbb81ace6fb277be29899f60a",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_original-support/final.pt",
+      "bytes": 31811205,
+      "sha256": "ac8b9d9326cd770143e5793381d64e8b8168ca6f41b7cc52a8b52e6dec620925",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_original-support/initial.json",
+      "bytes": 659,
+      "sha256": "0acd1409eb1b362630883ba7ba7d3419ee84c709c6666a8f49de74fe00a36c6f",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92604_original-support/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_original-support/log.jsonl",
+      "bytes": 14592943,
+      "sha256": "086d1cebeabb7de927a1c268f817a364f8c8aae9aac8a619b1f7ed0b0c381452",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_explicit-late-mask/complete.json",
+      "bytes": 977,
+      "sha256": "6c92ffcef28e62f4e997b442be628c21e0e361cd30ca9cb26a0d065ff18afa55",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92605_explicit-late-mask/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_explicit-late-mask/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "b4b4362c54190fb3bceabc0788067c75bc309303033dd4c9d50dca99dd2a994b",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_explicit-late-mask/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "1488ecfbd9c200ee7be363835651cc24fc4754ac265d2b3536600cfd0828f049",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_explicit-late-mask/final.pt",
+      "bytes": 31811269,
+      "sha256": "5a0433423b39f64b2ea8369b21ef86624ea9cfc41bb1d789d04b7da4d8491818",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_explicit-late-mask/initial.json",
+      "bytes": 662,
+      "sha256": "f98bcdf75d6eeb544e315d6bd3efba8055181ca5b604bc74bddfcc809fca9cb4",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92605_explicit-late-mask/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_explicit-late-mask/log.jsonl",
+      "bytes": 13851211,
+      "sha256": "48afe0ef70e20ed74d5319ad04ee436e122c12b264262ea617604bd37dd6e40e",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_lower-time-floor/complete.json",
+      "bytes": 975,
+      "sha256": "bf7f40d9cf02ba293498a0aaf125870ffff6b552f5034f671bd29e2ec9268528",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92605_lower-time-floor/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_lower-time-floor/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "7b31456073e82751b14532d9b2aa76cbf7a457c79f0441c2dad85d1f2791272a",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_lower-time-floor/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "1be97a4254ba8fdf59eafb330c52635b71fed9c536212e0413d92e81fa70490f",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_lower-time-floor/final.pt",
+      "bytes": 31811269,
+      "sha256": "d2a023d75560574edebf31fa2bfa7c8d2f17e4569994fb8748fd02b7b70e4103",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_lower-time-floor/initial.json",
+      "bytes": 659,
+      "sha256": "191c80f031e5ce29ac178678a680930e9f8965f9628a74bb79c54ca833928ca6",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92605_lower-time-floor/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_lower-time-floor/log.jsonl",
+      "bytes": 14591948,
+      "sha256": "84a91b1ad402a036e75b3e512a41e03e0461810410f3195b84abcc4d125a7048",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_original-support/complete.json",
+      "bytes": 976,
+      "sha256": "a59da1fa6fc1a09e13b71ddd6c6d2bfd4fcf8326368c4419f21d4fd4636566ab",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92605_original-support/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_original-support/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "71e54305c875f32a913770be36f938683fcb34502602c3a0e20b9de7664c265f",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_original-support/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "a467994793ec3474e32ddac92e187e6b73b36f2e3516f7c5b9b0065527565c3c",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_original-support/final.pt",
+      "bytes": 31811269,
+      "sha256": "ed0043a58ea8b5ea716ac02af1a2634daecd55a30d98cd3420d1ea3873d1d14a",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_original-support/initial.json",
+      "bytes": 660,
+      "sha256": "81629497fbab00e6032c4861dcb159f5e4d73c26ed0e363ad2ec71a58e821081",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92605_original-support/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_original-support/log.jsonl",
+      "bytes": 14589805,
+      "sha256": "9267a8aa44665c632d5050f713f510e1b394fffc99005be416d309c73b82e1cb",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_explicit-late-mask/complete.json",
+      "bytes": 978,
+      "sha256": "583f05a83f9b7879a1df75e772b22dce1d49027b5b11d77bfe9a93023b148538",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92606_explicit-late-mask/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_explicit-late-mask/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "94aa1e4417f85c3fba6ae94ecf74285d26e1089b2c3f4936d274e24d3f5b6ac9",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_explicit-late-mask/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "b22729bd2a62b5f691ca67e8d23705a69e6f167f0c696a67e60bc60d5542e444",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_explicit-late-mask/final.pt",
+      "bytes": 31811333,
+      "sha256": "d60c2caeb70322e19e04dc9a531b4ce0f6d11c9272b2f76dc62e0cd044717058",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_explicit-late-mask/initial.json",
+      "bytes": 662,
+      "sha256": "6cd2f19ab1980e2bc6086e2b6a94c887ecd7a64451724d6de7ac3c5062571945",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92606_explicit-late-mask/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_explicit-late-mask/log.jsonl",
+      "bytes": 13854235,
+      "sha256": "10bd6f900a49028cc3c2bc93f276c0406f0834603268cdf6167643f706e5bd30",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_lower-time-floor/complete.json",
+      "bytes": 975,
+      "sha256": "5aecd489fd703ae926db009cb1ea98065e9fd599246588b1a3ec8853105e7c15",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92606_lower-time-floor/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_lower-time-floor/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "c5b2d2d7522d763ef8aa369120f0d9dc5ad3298be7ad026066190102f455ed7d",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_lower-time-floor/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "c6a859c6b04af40a640f6ca98c6c983423b08b20d1f6c03967b11d9fbdcc7eb1",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_lower-time-floor/final.pt",
+      "bytes": 31811333,
+      "sha256": "93aaa908781c2fddd31efb0bd7c7ce1591ceecab9765e26aca324d47ed912092",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_lower-time-floor/initial.json",
+      "bytes": 660,
+      "sha256": "42253cfa730cda6cba93c23b9d81930ae38e9ac45c69ae6b5d7e4c940e191bfa",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92606_lower-time-floor/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_lower-time-floor/log.jsonl",
+      "bytes": 14597875,
+      "sha256": "fb4e1b2b67b021577c66da4026fdac6bad6ea866aa8aaf49e846ea872aad9c7f",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_original-support/complete.json",
+      "bytes": 974,
+      "sha256": "c7bac0ec17b2c4e43cf65b4d9214b84b597f0f656a73282ec27c305f33a899a5",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92606_original-support/complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_original-support/ema_4000.pt",
+      "bytes": 7946785,
+      "sha256": "04213360e0546169fac38299d8dc29a66c074ea8bcaa0d1546f564e0bbccdf16",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_original-support/ema_6000.pt",
+      "bytes": 7946785,
+      "sha256": "e4ff2a3a0ef016311722618a2ab2689207cc61bce4429018477af592522133b5",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_original-support/final.pt",
+      "bytes": 31811333,
+      "sha256": "f3eddbe635bed1cd346c0aa55c56664636188aa0254ecd82df298ad68953637e",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_original-support/initial.json",
+      "bytes": 659,
+      "sha256": "d811707171e7543dfef6a8633d342fd13f8010b4723e9a3a7100d249dbd7ee90",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training/s92606_original-support/initial.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_original-support/log.jsonl",
+      "bytes": 14594445,
+      "sha256": "e30ce07f8308fb30b8338ec528d6d1c410fdfe504214c2050cf988f9d29efdf2",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training_phase_complete.json",
+      "bytes": 396,
+      "sha256": "c89a4d9a708b1f067ad7727ea0f110267b689b750f1c8774294c51f5427b30b4",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training_phase_complete.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training_phase_initial_backup_confirmation.json",
+      "bytes": 602,
+      "sha256": "7e8a54372d7f321b9529e52d98b98e2ccd27f4b3f4081462c328cdf3cbf48427",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training_phase_initial_export.json",
+      "bytes": 220,
+      "sha256": "9e1ebde1b301f1ff305ad8b2d511714ad84953918619d80f2e1bebcf63539778",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001_exports/close_training_phase_v1.py",
+      "bytes": 6517,
+      "sha256": "06dc7403ee7833f699e4c5e402cc01080af5b67509ceabc499466c98345a0649",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001_exports/training_checkpoint_metadata_v1.json",
+      "bytes": 74550,
+      "sha256": "24963ad03b7d4098e13612c952897735187acb5823fddd854aded71c04d3c999",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training_checkpoint_metadata_v1.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001_exports/training_phase_full_audit_v1.json",
+      "bytes": 10007,
+      "sha256": "1d84d9aefaff35ad86474c3c8584926d96bcf088b14c05dccbaddc9a7e9eb669",
+      "archive": "training_phase_complete_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/evidence/training_phase_full_audit_v1.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "artifacts/geometry_identification_20260926/training/s92601_I-F/final.pt",
+      "bytes": 31811875,
+      "sha256": "dbccca9c1b47ec599ea976996fed2ef0834983163a40765c67b1edd7946d2ed9",
+      "archive": "training_s92601_I-F_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/geometry_identification_20260926/training/s92602_I-F/final.pt",
+      "bytes": 31811939,
+      "sha256": "54f8f6c9f96eaf7a36759723212588bebcdd1c4bcfbd19cef35df87e0f2ce096",
+      "archive": "training_s92602_I-F_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/geometry_identification_20260926/training/s92603_I-F/final.pt",
+      "bytes": 31811875,
+      "sha256": "3b1d0d648e8e36a13650136913d59c1086da690de8ea00f41732c9a9e622e801",
+      "archive": "training_s92603_I-F_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/geometry_identification_20260926/training/s92604_I-F/final.pt",
+      "bytes": 31811811,
+      "sha256": "3cb9fc2575fa10e42c23b400d61c819e99c46999717be7e842dcf3d18dbb409d",
+      "archive": "training_s92604_I-F_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/geometry_identification_20260926/training/s92605_I-F/final.pt",
+      "bytes": 31811939,
+      "sha256": "ada3cda0b5ba134ed8bb1f1046422a079f311786032f03679e4cc6a42895f653",
+      "archive": "training_s92605_I-F_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "artifacts/geometry_identification_20260926/training/s92606_I-F/final.pt",
+      "bytes": 31811939,
+      "sha256": "5ab388bb518f431af80e448f53042e4d3827b5a9110823174d050946e29b6d45",
+      "archive": "training_s92606_I-F_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "data/level1/parents_l1024.npz",
+      "bytes": 129795241,
+      "sha256": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_AUTHORIZATION_20261001_ZH.md",
+      "bytes": 3998,
+      "sha256": "e7eeee9de12ca1293ab2707b67f74d45f28f8ef7cf4f004de6890184a5630c37",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_BUDGET_20261001.json",
+      "bytes": 11036,
+      "sha256": "73523784d720705df517e514cb3a7fc591c61b825062fe55cd2fffb62af2b71c",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/protocol/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_BUDGET_20261001.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_CONFIG_20261001.json",
+      "bytes": 7912,
+      "sha256": "acd28d68c3a7f597e543a3ebc683a0f23cfa421a0a9e6f2286edbac8317b24ed",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "late-mask-coverage-and-committed-spin-correction/protocol/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_CONFIG_20261001.json",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_PLAN_20261001_ZH.md",
+      "bytes": 33385,
+      "sha256": "469a3d1b332592faac690e6ba95f1b65be92f6e6c01a061723bafc6bee43dff8",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "docs/research_reboot_20260921/GEOMETRY_IDENTIFICATION_CONFIG_20260926.json",
+      "bytes": 4273,
+      "sha256": "2db0687e57944499abbcdc53ab1ce6bf65772b3cfd1d2d62f2e0ebc37a440916",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": null,
+      "availability": "custodian-held; not a public download"
+    },
+    {
+      "path": "ism_diffusion/__init__.py",
+      "bytes": 801,
+      "sha256": "af8f1667470d1082432f9efedb939320ce648c62e458666c39f68f003b6b13c3",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/__init__.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/context_repair_core.py",
+      "bytes": 8323,
+      "sha256": "58effac6a4ccdd1a81606f4d8395828c0a12b4ff3909fc8283cf60fdd4747703",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/context_repair_core.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/diagnostics.py",
+      "bytes": 4354,
+      "sha256": "2c87206dcec2ff9dfbd897c4b2c57bddf66d3bdf242404bd74682ead6c986384",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/diagnostics.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/diffusion.py",
+      "bytes": 16127,
+      "sha256": "a70286a41302539b945c8e1bf11a6ca33e9b3475b95dbf4ee1acd79e05b99655",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/diffusion.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/geometry_study.py",
+      "bytes": 17503,
+      "sha256": "f96f3d816453d532fb454355cbd0c50f42b00352c9b37886a8ca6b67aa16e490",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/geometry_study.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/ising.py",
+      "bytes": 13952,
+      "sha256": "657b9e526eaaf6d242d3c89bb5c4cebefa1a5e7879b4a2a4ebef1c2ff4be60f3",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/ising.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/ising_numba.py",
+      "bytes": 8969,
+      "sha256": "918dbe97f568af52789bca3d6a59d5e42c05a0930831a5007f5844b46c6d0a8c",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/ising_numba.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/metrics.py",
+      "bytes": 3271,
+      "sha256": "0c148f86281e76e0f28700c1f5198cfd6b2eeeb10d4a554fb3d2cb5c3353ddfe",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/metrics.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/model.py",
+      "bytes": 7371,
+      "sha256": "f0ba3e8a9ab00afc143c66c5f1c8b6e37981801cf405f15fb67baea36686c1b9",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/model.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/scale_data.py",
+      "bytes": 5162,
+      "sha256": "148ee296c20cd1ae3ebceb6d12a1bd8cb4df76d679e7cf105d3c2df09d7734b3",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/scale_data.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/scale_diffusion.py",
+      "bytes": 7200,
+      "sha256": "6bf4575fe6358dffa74cb6c4bd077eb69120ad6c8edaf9dbf0fc43f615c21f74",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/scale_diffusion.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/scale_evaluation.py",
+      "bytes": 8389,
+      "sha256": "ed5204a2d220b451278e9916b66a3a37fbb08ac8f3bf2e87d2e9a9a98d27bd7d",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/scale_evaluation.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/scale_model.py",
+      "bytes": 7951,
+      "sha256": "3930e9a2ec1ac85edaa525b9562beb21c7a001594dba23726f233a0b9d3d6018",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/scale_model.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/stage2_data.py",
+      "bytes": 8998,
+      "sha256": "db8361ed43a9dc777bf2b1fd62b966b02c54d8160f69acaca646cd79c75b0765",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/stage2_data.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/stage2_model.py",
+      "bytes": 13238,
+      "sha256": "f5db55eacedfaa7272f3dacb97a4dbbbeae4fe57a6fb89b5ee2d89b00564515d",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/stage2_model.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "ism_diffusion/stage2_sampling.py",
+      "bytes": 6825,
+      "sha256": "6723fe70c220fedcdc7d2ce024f28fc13eac0446984482fd8a0c93c71280f5b4",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../ism_diffusion/stage2_sampling.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20260926/identification_common.py",
+      "bytes": 3270,
+      "sha256": "87fa2cc4d9fb13efb7a343618cbeeeec56733c98df2049179cd12cddc0256c6d",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20260926/identification_common.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20260926/identification_data.py",
+      "bytes": 10637,
+      "sha256": "44e552424a14da6dd2204e044352662e78fa2bbc89fd30fad4b3acc15231e9fb",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20260926/identification_data.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20260926/identification_training.py",
+      "bytes": 8728,
+      "sha256": "45557887c25810954127b42bc6764f94cc09754c1460ddaa2c06966db84f0cc6",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20260926/identification_training.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_common.py",
+      "bytes": 5110,
+      "sha256": "f2491ba2bcdfba5aca820ff0999783aac046039da319c2383bc3c782d28b27d1",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/endpoint_common.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_cpu_prepare.py",
+      "bytes": 3426,
+      "sha256": "656af18d8f292cf3f8be17b3d5812391dbd6a0dab1b62210d085ef033593095a",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/endpoint_cpu_prepare.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_data.py",
+      "bytes": 14187,
+      "sha256": "ef742d100d55530cd939d65bf9d4a31ec3f1abb54c6a0201c180511979ed8f62",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/endpoint_data.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_evaluation.py",
+      "bytes": 11304,
+      "sha256": "489d02d0412410d5dc4617e12fd8abcc6937d6378f55a439c2d2a865582e82f8",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/endpoint_evaluation.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_figures.py",
+      "bytes": 10399,
+      "sha256": "6413737acd23cdca3d4d5172c9885b93d2cd114aa40894ef574e60e7e5876d45",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/endpoint_figures.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_fixture.py",
+      "bytes": 4706,
+      "sha256": "1b6c08a8cc5bf0f5c9abb55d25668a91c36154e36832dfecfd8fb6c91a97ae58",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/endpoint_fixture.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_management.py",
+      "bytes": 21197,
+      "sha256": "a1f0c71032ac3cd80f2f29b824c84ee6ad8345df50c0ad7043fbd2829a7e44a7",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/endpoint_management.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_preflight.py",
+      "bytes": 13156,
+      "sha256": "39300d6041e032b57c6f67cfe27d0646ed91f6585f62ef6f714203169f48101d",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/endpoint_preflight.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_sampling.py",
+      "bytes": 8486,
+      "sha256": "8bf60dc084d04f0a931568a6640207f0420861f006954093d6047159101ea2cc",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/endpoint_sampling.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_statistics.py",
+      "bytes": 20861,
+      "sha256": "879b333b6694d12666b41d5474f2d7e947c599c9115198993cb7487c09b978df",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/endpoint_statistics.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_tests.py",
+      "bytes": 8295,
+      "sha256": "2fdab76f937c34d3db1aa1a149db5953a353f786ceba231405656603a894c9a5",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/endpoint_tests.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/endpoint_training.py",
+      "bytes": 9207,
+      "sha256": "3f27884f2293e38a904027d9f30806d7f4cfeec84d0f3ffea6e58a4cc5a368c4",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/endpoint_training.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/run_endpoint.py",
+      "bytes": 14700,
+      "sha256": "22cfd59a01e2b5f49e11e0ddfb2a865a6deec74af698f5a9cc7b56561eaf2cff",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/run_endpoint.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/run_training_phase.py",
+      "bytes": 6694,
+      "sha256": "a6a2f3eacd6dd08dadaa618cd5fccb615ccce0c84e0b05a489851f570c8dbb06",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/run_training_phase.py",
+      "availability": "public evidence/code copy; see provenance"
+    },
+    {
+      "path": "scripts/research20261001/validate_next_stage_design.py",
+      "bytes": 11355,
+      "sha256": "f49a94948916d8adb8e40d671c1d4844984bd96e14c65c9c418a8f19a3b8fa8b",
+      "archive": "training_phase_initial_v1.tar.gz",
+      "public_copy": "../scripts/research20261001/validate_next_stage_design.py",
+      "availability": "public evidence/code copy; see provenance"
+    }
+  ],
+  "archives": [
+    {
+      "archive": "training_phase_complete_v1.tar.gz",
+      "archive_bytes": 869900945,
+      "archive_sha256": "353d999f6cfe0091cfe9b3dc62088504e3350435f27c31b2699281873a54bea7",
+      "manifest_sha256": "fa94ca45b33f930aa8da1fd235f7af7d62cb7df04192ce034abbac5b801e4a53",
+      "members": 128
+    },
+    {
+      "archive": "training_phase_initial_v1.tar.gz",
+      "archive_bytes": 129979542,
+      "archive_sha256": "31377b52fbb6a59d9efe553c7edb93f970e362a6c7a66e9d7ba7185c6a2259f5",
+      "manifest_sha256": "56228cd5a9ae24a340a6370dfdb85890dc54e7912443fa60ba96cb0b52491564",
+      "members": 51
+    },
+    {
+      "archive": "preflight_blocked_precision_v1.tar.gz",
+      "archive_bytes": 42535971,
+      "archive_sha256": "3e525e7e61608529d99eabec945b4ad806598c3192d891940e831ec9a90f6065",
+      "manifest_sha256": "c851719c72a71bcd0d9cf00ed5f52e524cd59d9f6a559d961bc0e8907b864b59",
+      "members": 1238
+    },
+    {
+      "archive": "training_s92601_I-F_v1.tar.gz",
+      "archive_bytes": 45838400,
+      "archive_sha256": "089c5a2f9707b07c1d916aef8cd2f57e9869bf53a0fbe8ea581132dbac737e34",
+      "manifest_sha256": "3bf38eccc850dcb5502fa80a819dd50c344d014fb235dd8f6b06a5b7413550c9",
+      "members": 10
+    },
+    {
+      "archive": "training_s92602_I-F_v1.tar.gz",
+      "archive_bytes": 45837438,
+      "archive_sha256": "c8f2e78e3c5dda6159ab161e15d8b2def1947bf0e6e1777bf5c58980af394857",
+      "manifest_sha256": "ea9fc0b6bd3dd5ebf7b066cc6548b726cbf33da4e6546302311d4c311d3a43cd",
+      "members": 10
+    },
+    {
+      "archive": "training_s92603_I-F_v1.tar.gz",
+      "archive_bytes": 45831619,
+      "archive_sha256": "cd65df1a855f80dc82b46d15e7945f7b03b010cca5c5a0d351e49b75e29dcfc9",
+      "manifest_sha256": "d168762934854c542ff9172c25327129610921e1f14d238bc3d627ef233b6006",
+      "members": 10
+    },
+    {
+      "archive": "training_s92604_I-F_v1.tar.gz",
+      "archive_bytes": 45847131,
+      "archive_sha256": "9721749f485f26fc497d78cfc381c3d766c160bc2754d60c16c8d5fa60d35ac7",
+      "manifest_sha256": "50926896945bda8b9a9a7231e899da771a7e304c4eb9bf1828d5f971dbb44aa3",
+      "members": 10
+    },
+    {
+      "archive": "training_s92605_I-F_v1.tar.gz",
+      "archive_bytes": 45847339,
+      "archive_sha256": "84fddd89aae5cc1b8bc9e35f08b448eb42c69ff32c3f2d1f67ff68bcee9f4878",
+      "manifest_sha256": "166271ce222ae6e528d86354a91347cedfe8a9b778a2581ab54a9bde0241af7b",
+      "members": 10
+    },
+    {
+      "archive": "training_s92606_I-F_v1.tar.gz",
+      "archive_bytes": 45830390,
+      "archive_sha256": "453f6a70b30abf3cef9ff80dba22f83f0c521ffbb3e90c5a86d20eb189ce955e",
+      "manifest_sha256": "04da6aa6a951fd40187657e4399a1cb2568698c99a1a56ad8f529a91ad168182",
+      "members": 10
+    }
+  ],
+  "excludes": [
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_explicit-late-mask/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_lower-time-floor/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_original-support/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_explicit-late-mask/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_lower-time-floor/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_original-support/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_explicit-late-mask/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_lower-time-floor/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_original-support/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_explicit-late-mask/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_lower-time-floor/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_original-support/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_explicit-late-mask/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_lower-time-floor/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_original-support/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_explicit-late-mask/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_lower-time-floor/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    },
+    {
+      "path": "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_original-support/last.pt",
+      "reason": "redundant last checkpoint; final retained"
+    }
+  ],
+  "note": "Manifest-only large weights/data/logs. Request archive/member/SHA through repository issue; no public hosting guarantee."
+}

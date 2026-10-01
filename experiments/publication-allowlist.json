@@ -117,7 +117,22 @@
     "tests/test_fixed_geometry_math.py",
     "tests/test_geometry_study.py",
     "tests/test_diagnostic_math.py",
-    "tests/test_mechanism_design.py"
+    "tests/test_mechanism_design.py",
+    "scripts/research20261001/endpoint_common.py",
+    "scripts/research20261001/endpoint_cpu_prepare.py",
+    "scripts/research20261001/endpoint_data.py",
+    "scripts/research20261001/endpoint_evaluation.py",
+    "scripts/research20261001/endpoint_figures.py",
+    "scripts/research20261001/endpoint_fixture.py",
+    "scripts/research20261001/endpoint_management.py",
+    "scripts/research20261001/endpoint_preflight.py",
+    "scripts/research20261001/endpoint_sampling.py",
+    "scripts/research20261001/endpoint_statistics.py",
+    "scripts/research20261001/endpoint_tests.py",
+    "scripts/research20261001/endpoint_training.py",
+    "scripts/research20261001/run_endpoint.py",
+    "scripts/research20261001/run_training_phase.py",
+    "scripts/research20261001/validate_next_stage_design.py"
   ],
   "effective_config_sources": [
     "docs/research_reboot_20260921/BASIC_CAPABILITY_STAGE12_CONFIG_20260928.json",
@@ -125,7 +140,9 @@
     "docs/research_reboot_20260921/DENSE_MULTISIZE_CONTROL_CONFIG_20260928.json",
     "docs/research_reboot_20260921/DENSE_SIZE_CLOCK_GEOMETRY_12H_CONFIG_20260930.json",
     "docs/research_reboot_20260921/GEOMETRY_IDENTIFICATION_CONFIG_20260926.json",
-    "docs/research_reboot_20260921/OBSERVED_CONTEXT_INTERVENTION_CONFIG_V2_18H_20260927.json"
+    "docs/research_reboot_20260921/OBSERVED_CONTEXT_INTERVENTION_CONFIG_V2_18H_20260927.json",
+    "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_CONFIG_20261001.json",
+    "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_BUDGET_20261001.json"
   ],
   "archive_root": "experiments",
   "excluded": [

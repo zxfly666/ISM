@@ -38,3 +38,10 @@
 5. 计划/预算/软件fixture和正式神经网络产物在目录及README中分开标记。
 
 每轮具体已公开文件见自动生成的`EVIDENCE.md`，未公开文件见各轮清单。
+
+## 2026-10-01训练阶段补充
+
+[末期MASK覆盖](late-mask-coverage-and-committed-spin-correction/README.md)公开训练完成、
+全144k输入审计、18final/36EMA身份、原定协议、effective config、冻结科学源码和技术失败记录。
+新包128成员、联合173路径本地核验通过；权重、原始逐步日志和大训练池仍为manifest-only。
+本阶段没有新MC/正式生成或P1/P2统计，不能把“没有上传”与“尚未计算”混为一谈。

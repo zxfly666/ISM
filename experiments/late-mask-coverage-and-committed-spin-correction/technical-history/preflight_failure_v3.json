@@ -1,0 +1,6 @@
+{
+  "time": 1790809103.034636,
+  "exception": "RuntimeError('BF16 precision gate failed; no automatic precision/protocol change')",
+  "traceback": "Traceback (most recent call last):\n  File \"<PROJECT_ROOT>/scripts/research20261001/run_endpoint.py\", line 211, in <module>\n    try:preflight(a.cpu_receipt,a.fixture_receipt,a.mode==\"preflight_continue\")\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<PROJECT_ROOT>/scripts/research20261001/endpoint_preflight.py\", line 176, in run\n    c.log(\"preflight_precision_start\");precision=prediction_checks(val,out)\n                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<PROJECT_ROOT>/scripts/research20261001/endpoint_preflight.py\", line 114, in prediction_checks\n    if result[\"status\"]!=\"passed\":raise RuntimeError(\"BF16 precision gate failed; no automatic precision/protocol change\")\n                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: BF16 precision gate failed; no automatic precision/protocol change\n",
+  "formal_started": false
+}

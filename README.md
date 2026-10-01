@@ -1,20 +1,30 @@
 # ISM: Critical Ising masked discrete diffusion
 
-## 从研究地图开始：2026-09-30 公共科研档案
+## 从研究地图开始：2026-10-01 公共科研档案
 
 我们研究真实物理坐标、训练尺寸与观测间距，能否帮助条件网络在新布局上准确推断，
 以及这种条件能力是否转化为正确的联合生成。临界 Ising 提供可核对的物理参考，
 但静态 Ising 结果不等于 world model 或完整尺度不变性验证。
 
-- [研究证据地图：12个campaign、谱系与失败门](experiments/README.md)
+- [研究证据地图：12个已完成campaign、最新训练阶段、谱系与失败门](experiments/README.md)
 - [公共综合报告：设计、参数、结果与反例](experiments/REPORT_ZH.md)
 - [最完整的物理因素对照：size × spacing](experiments/size-spacing-factorial/README.md)
 - [最新的精确真值检查：固定clock尺寸泛化](experiments/canonical-context-size-generalization/README.md)
+- [10月1日训练阶段：末期MASK覆盖与已提交自旋纠错](experiments/late-mask-coverage-and-committed-spin-correction/README.md)
 - [历史更正](experiments/CORRECTIONS.md) · [数据公开范围与SHA](experiments/DATA_AVAILABILITY.md) · [复现路线](experiments/REPRODUCING.md)
 
 公共版依据本地162页总报告及机器证据重新组织，不是私人通信/原PDF的原样上传。
 原科学产物不覆盖；大权重、完整MC与生成原数组并非全部公开，具体缺口有逐文件清单。
 **计算完成不等于科学成功，公开摘要也不等于完整原始数据镜像。**
+
+## 2026-10-01：末期 MASK 覆盖训练完成，正式评价待执行
+
+六个旧 I-F 基座各分三条续训分支，18个模型各追加8,000步至global20,000，
+合计144,000更新，保存18个可恢复final和36个EMA快照。
+正式训练12:03:34–14:40:56（UTC+8），实测2小时37分22秒。
+**这不是18个fresh seed；新MC、正式生成与P1/P2分析均未执行。**
+原全流程精度/时间门失败记录保留，不用训练完成改判科学主门。
+设计、谱系、原定检验、完整审计和数据边界见[训练阶段档案](experiments/late-mask-coverage-and-committed-spin-correction/README.md)。
 
 ## 2026-09-30：Dense 多尺寸 6 小时实验正式完成
 

@@ -1,0 +1,300 @@
+{
+  "experiment_id": "endpoint_mask_sampler_disentanglement_20261001",
+  "status": "CPU_design_arithmetic_passed_not_a_GPU_preflight_or_scientific_result",
+  "new_experiment_launched": false,
+  "counts": {
+    "independent_training_lineages": 6,
+    "continued_models": 18,
+    "new_fresh_models": 0,
+    "updates": 144000,
+    "input_tokens": 2654208000,
+    "early_EMA_snapshots": 36,
+    "formal_generation": {
+      "96": 4608,
+      "48": 2304
+    },
+    "diagnostic_generation_w96": 384,
+    "all_generated_final_images": 7296,
+    "prefix_images_not_independent_replicates": 3456,
+    "oracle_images_not_neural_results": 3456,
+    "shards16_by_width_including_phase0": {
+      "96": 312,
+      "48": 144
+    },
+    "image_network_forwards_generation_only": 1867776,
+    "batch16_network_calls_generation_only": 116736,
+    "conditional_image_inputs": {
+      "exact_local": 36864,
+      "neighbor_stress": 2304,
+      "retention": 13824,
+      "learning": 27648,
+      "phase0": 1536
+    },
+    "total_conditional_image_inputs": 82176,
+    "new_MC_parents": 2048
+  },
+  "allowed_late_mask_counts": {
+    "16": [
+      1,
+      2,
+      4
+    ],
+    "24": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "32": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "48": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ]
+  },
+  "scenarios": {
+    "favorable_not_guaranteed": {
+      "component_seconds": {
+        "preflight": 900,
+        "training_and_MC_critical_path": 7920.0,
+        "w96_generation": 10358.400000000001,
+        "w48_generation": 1195.2,
+        "conditional": 1000,
+        "analysis_and_RG": 900,
+        "io": 900,
+        "backup_and_visual": 1800
+      },
+      "training_seconds": 7920.0,
+      "parallel_MC_seconds": 5100,
+      "total_seconds": 24973.600000000002,
+      "total_hours": 6.937111111111112,
+      "slack_to_proposed_12h_seconds": 18226.399999999998,
+      "would_meet_10_5h_forecast_number_only": true,
+      "actual_launch_approved": false
+    },
+    "central": {
+      "component_seconds": {
+        "preflight": 1800,
+        "training_and_MC_critical_path": 8694.468321357857,
+        "w96_generation": 11385.558629950137,
+        "w48_generation": 1839.205624838099,
+        "conditional": 1400,
+        "analysis_and_RG": 1800,
+        "io": 1800,
+        "backup_and_visual": 2700
+      },
+      "training_seconds": 8694.468321357857,
+      "parallel_MC_seconds": 5800,
+      "total_seconds": 31419.232576146092,
+      "total_hours": 8.727564604485025,
+      "slack_to_proposed_12h_seconds": 11780.767423853908,
+      "would_meet_10_5h_forecast_number_only": true,
+      "actual_launch_approved": false
+    },
+    "conservative_not_absolute_bound": {
+      "component_seconds": {
+        "preflight": 1800,
+        "training_and_MC_critical_path": 10800.0,
+        "w96_generation": 13104.0,
+        "w48_generation": 4780.8,
+        "conditional": 2000,
+        "analysis_and_RG": 2400,
+        "io": 2100,
+        "backup_and_visual": 2700
+      },
+      "training_seconds": 10800.0,
+      "parallel_MC_seconds": 6500,
+      "total_seconds": 39684.8,
+      "total_hours": 11.023555555555557,
+      "slack_to_proposed_12h_seconds": 3515.199999999997,
+      "would_meet_10_5h_forecast_number_only": false,
+      "actual_launch_approved": false
+    }
+  },
+  "historical_sampling_completed_records": [
+    {
+      "lineage": 92601,
+      "images": 128,
+      "sampling_seconds": 264.20823846850544
+    },
+    {
+      "lineage": 92602,
+      "images": 128,
+      "sampling_seconds": 264.3723824499175
+    },
+    {
+      "lineage": 92603,
+      "images": 128,
+      "sampling_seconds": 264.6424642484635
+    },
+    {
+      "lineage": 92604,
+      "images": 128,
+      "sampling_seconds": 264.4270472545177
+    },
+    {
+      "lineage": 92605,
+      "images": 128,
+      "sampling_seconds": 264.5518238870427
+    },
+    {
+      "lineage": 92606,
+      "images": 128,
+      "sampling_seconds": 264.66206848062575
+    }
+  ],
+  "historical_mean_seconds_per_w96_image": 2.066229198944105,
+  "archive_JSON_members_reverified": [
+    {
+      "archive_basename": "evaluation_s92601_I-F_v1.tar.gz",
+      "member": "artifacts/geometry_identification_20260926/evaluation/s92601_I-F/generation/complete.json",
+      "member_sha256_verified": "4d6d240b84fc661fe8777c5ce5118a2080b7b13b94607c7d0e291c58f182e04d"
+    },
+    {
+      "archive_basename": "evaluation_s92602_I-F_v1.tar.gz",
+      "member": "artifacts/geometry_identification_20260926/evaluation/s92602_I-F/generation/complete.json",
+      "member_sha256_verified": "02c96e02479d8d6c32b11a03d6e49ee0ff2b36d35d19b12cbb2498bcfcf80529"
+    },
+    {
+      "archive_basename": "evaluation_s92603_I-F_v1.tar.gz",
+      "member": "artifacts/geometry_identification_20260926/evaluation/s92603_I-F/generation/complete.json",
+      "member_sha256_verified": "9f2cc44b0234fbf828e0c4c88e17cec2fff33b3b27aaaeb9f85dd43e98a09d1c"
+    },
+    {
+      "archive_basename": "evaluation_s92604_I-F_v1.tar.gz",
+      "member": "artifacts/geometry_identification_20260926/evaluation/s92604_I-F/generation/complete.json",
+      "member_sha256_verified": "1c748f068e734a10bb56bd6082860f691679765f0611383f510dc6293ca7c578"
+    },
+    {
+      "archive_basename": "evaluation_s92605_I-F_v1.tar.gz",
+      "member": "artifacts/geometry_identification_20260926/evaluation/s92605_I-F/generation/complete.json",
+      "member_sha256_verified": "8b63eb41a4a481a602f11cb082e64b1773f1b90066e0da7c9e014b01e00adff6"
+    },
+    {
+      "archive_basename": "evaluation_s92606_I-F_v1.tar.gz",
+      "member": "artifacts/geometry_identification_20260926/evaluation/s92606_I-F/generation/complete.json",
+      "member_sha256_verified": "9e2f15e1cfeabc9f4a1250574acf28fdb198670393da9b1319ab8447078e2584"
+    },
+    {
+      "archive_basename": "reference_complete_v1.tar.gz",
+      "member": "artifacts/geometry_identification_20260926/reference/complete.json",
+      "member_sha256_verified": "c0e344b44567e164ac4c4ac4f9a747760478b55f758c5307be108721a9eab7ca"
+    }
+  ],
+  "base_final_hashes_from_existing_manifests_not_reloaded_in_this_design_check": [
+    {
+      "lineage": 92601,
+      "manifest_basename": "training_s92601_I-F_v1.manifest.json",
+      "path": "artifacts/geometry_identification_20260926/training/s92601_I-F/final.pt",
+      "bytes": 31811875,
+      "sha256": "dbccca9c1b47ec599ea976996fed2ef0834983163a40765c67b1edd7946d2ed9"
+    },
+    {
+      "lineage": 92602,
+      "manifest_basename": "training_s92602_I-F_v1.manifest.json",
+      "path": "artifacts/geometry_identification_20260926/training/s92602_I-F/final.pt",
+      "bytes": 31811939,
+      "sha256": "54f8f6c9f96eaf7a36759723212588bebcdd1c4bcfbd19cef35df87e0f2ce096"
+    },
+    {
+      "lineage": 92603,
+      "manifest_basename": "training_s92603_I-F_v1.manifest.json",
+      "path": "artifacts/geometry_identification_20260926/training/s92603_I-F/final.pt",
+      "bytes": 31811875,
+      "sha256": "3b1d0d648e8e36a13650136913d59c1086da690de8ea00f41732c9a9e622e801"
+    },
+    {
+      "lineage": 92604,
+      "manifest_basename": "training_s92604_I-F_v1.manifest.json",
+      "path": "artifacts/geometry_identification_20260926/training/s92604_I-F/final.pt",
+      "bytes": 31811811,
+      "sha256": "3cb9fc2575fa10e42c23b400d61c819e99c46999717be7e842dcf3d18dbb409d"
+    },
+    {
+      "lineage": 92605,
+      "manifest_basename": "training_s92605_I-F_v1.manifest.json",
+      "path": "artifacts/geometry_identification_20260926/training/s92605_I-F/final.pt",
+      "bytes": 31811939,
+      "sha256": "ada3cda0b5ba134ed8bb1f1046422a079f311786032f03679e4cc6a42895f653"
+    },
+    {
+      "lineage": 92606,
+      "manifest_basename": "training_s92606_I-F_v1.manifest.json",
+      "path": "artifacts/geometry_identification_20260926/training/s92606_I-F/final.pt",
+      "bytes": 31811939,
+      "sha256": "5ab388bb518f431af80e448f53042e4d3827b5a9110823174d050946e29b6d45"
+    }
+  ],
+  "source_snapshot": [
+    {
+      "path": "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_CONFIG_20261001.json",
+      "bytes": 7912,
+      "sha256": "acd28d68c3a7f597e543a3ebc683a0f23cfa421a0a9e6f2286edbac8317b24ed"
+    },
+    {
+      "path": "docs/research_reboot_20260921/ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_PLAN_20261001_ZH.md",
+      "bytes": 33385,
+      "sha256": "469a3d1b332592faac690e6ba95f1b65be92f6e6c01a061723bafc6bee43dff8"
+    },
+    {
+      "path": "artifacts/geometry_identification_20260926_remote/budget_gate.json",
+      "bytes": 10688,
+      "sha256": "2dff1bfdb27a3750a931cef37dac14cfa319502c16719d04dbeceede59d39509"
+    },
+    {
+      "path": "scripts/research20260926/identification_data.py",
+      "bytes": 10637,
+      "sha256": "44e552424a14da6dd2204e044352662e78fa2bbc89fd30fad4b3acc15231e9fb"
+    },
+    {
+      "path": "scripts/research20260926/identification_training.py",
+      "bytes": 8728,
+      "sha256": "45557887c25810954127b42bc6764f94cc09754c1460ddaa2c06966db84f0cc6"
+    },
+    {
+      "path": "scripts/research20260926/identification_statistics.py",
+      "bytes": 7066,
+      "sha256": "001fd874406c2223d937fc54e148091679475abee63672521ac61ad5af323fdc"
+    },
+    {
+      "path": "experiments/fine-geometry-identification/evidence/run_protocol.json",
+      "bytes": 17294,
+      "sha256": "07a787333e2188ac21f1a989038adaf12e6e83b15931a830dc9235c74e0a748b"
+    },
+    {
+      "path": "scripts/research20261001/validate_next_stage_design.py",
+      "bytes": 11355,
+      "sha256": "f49a94948916d8adb8e40d671c1d4844984bd96e14c65c9c418a8f19a3b8fa8b"
+    }
+  ],
+  "local_links_checked": [
+    "../../scripts/research20260926/identification_data.py",
+    "../../scripts/research20260926/identification_training.py",
+    "../../ism_diffusion/stage2_sampling.py",
+    "../../experiments/canonical-context-size-generalization/README.md",
+    "../../experiments/fine-geometry-identification/evidence/run_protocol.json",
+    "GEOMETRY_IDENTIFICATION_RESULTS_20260926_ZH.md",
+    "ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_CONFIG_20261001.json",
+    "../../scripts/research20260926/identification_training.py",
+    "../../scripts/research20260926/identification_data.py",
+    "../../scripts/research20260926/identification_statistics.py"
+  ],
+  "budget_link_pending_creation": [
+    "ENDPOINT_MASK_SAMPLER_DISENTANGLEMENT_BUDGET_20261001.json"
+  ],
+  "limits": [
+    "Forecasts are scenarios, not measured current-machine speed or bounds.",
+    "Conservative scenario is below12h but above10.5h launch gate: live preflight must resolve this, no automatic launch.",
+    "No fresh model training, GPU evaluation, MC generation, remote access or publishing occurred.",
+    "Plan/config/source checks are not implementation correctness tests."
+  ]
+}

@@ -588,5 +588,80 @@
     "path": "tests/test_mechanism_design.py",
     "bytes": 1890,
     "sha256": "80e36e6982041d9b731748697aa8d2c0653c40fcfb296f1e61686a92d0f6ee7c"
+  },
+  {
+    "path": "scripts/research20261001/endpoint_common.py",
+    "bytes": 5110,
+    "sha256": "f2491ba2bcdfba5aca820ff0999783aac046039da319c2383bc3c782d28b27d1"
+  },
+  {
+    "path": "scripts/research20261001/endpoint_cpu_prepare.py",
+    "bytes": 3426,
+    "sha256": "656af18d8f292cf3f8be17b3d5812391dbd6a0dab1b62210d085ef033593095a"
+  },
+  {
+    "path": "scripts/research20261001/endpoint_data.py",
+    "bytes": 14187,
+    "sha256": "ef742d100d55530cd939d65bf9d4a31ec3f1abb54c6a0201c180511979ed8f62"
+  },
+  {
+    "path": "scripts/research20261001/endpoint_evaluation.py",
+    "bytes": 11304,
+    "sha256": "489d02d0412410d5dc4617e12fd8abcc6937d6378f55a439c2d2a865582e82f8"
+  },
+  {
+    "path": "scripts/research20261001/endpoint_figures.py",
+    "bytes": 10399,
+    "sha256": "6413737acd23cdca3d4d5172c9885b93d2cd114aa40894ef574e60e7e5876d45"
+  },
+  {
+    "path": "scripts/research20261001/endpoint_fixture.py",
+    "bytes": 4706,
+    "sha256": "1b6c08a8cc5bf0f5c9abb55d25668a91c36154e36832dfecfd8fb6c91a97ae58"
+  },
+  {
+    "path": "scripts/research20261001/endpoint_management.py",
+    "bytes": 21197,
+    "sha256": "a1f0c71032ac3cd80f2f29b824c84ee6ad8345df50c0ad7043fbd2829a7e44a7"
+  },
+  {
+    "path": "scripts/research20261001/endpoint_preflight.py",
+    "bytes": 13156,
+    "sha256": "39300d6041e032b57c6f67cfe27d0646ed91f6585f62ef6f714203169f48101d"
+  },
+  {
+    "path": "scripts/research20261001/endpoint_sampling.py",
+    "bytes": 8486,
+    "sha256": "8bf60dc084d04f0a931568a6640207f0420861f006954093d6047159101ea2cc"
+  },
+  {
+    "path": "scripts/research20261001/endpoint_statistics.py",
+    "bytes": 20861,
+    "sha256": "879b333b6694d12666b41d5474f2d7e947c599c9115198993cb7487c09b978df"
+  },
+  {
+    "path": "scripts/research20261001/endpoint_tests.py",
+    "bytes": 8295,
+    "sha256": "2fdab76f937c34d3db1aa1a149db5953a353f786ceba231405656603a894c9a5"
+  },
+  {
+    "path": "scripts/research20261001/endpoint_training.py",
+    "bytes": 9207,
+    "sha256": "3f27884f2293e38a904027d9f30806d7f4cfeec84d0f3ffea6e58a4cc5a368c4"
+  },
+  {
+    "path": "scripts/research20261001/run_endpoint.py",
+    "bytes": 14700,
+    "sha256": "22cfd59a01e2b5f49e11e0ddfb2a865a6deec74af698f5a9cc7b56561eaf2cff"
+  },
+  {
+    "path": "scripts/research20261001/run_training_phase.py",
+    "bytes": 6694,
+    "sha256": "a6a2f3eacd6dd08dadaa618cd5fccb615ccce0c84e0b05a489851f570c8dbb06"
+  },
+  {
+    "path": "scripts/research20261001/validate_next_stage_design.py",
+    "bytes": 11355,
+    "sha256": "f49a94948916d8adb8e40d671c1d4844984bd96e14c65c9c418a8f19a3b8fa8b"
   }
 ]

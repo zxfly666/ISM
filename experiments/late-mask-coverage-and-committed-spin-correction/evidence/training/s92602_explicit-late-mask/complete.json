@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "step": 8000,
+  "global_step": 20000,
+  "final_sha256": "e7f6545e1fa7580644dec12d323870545f95f525c055bf377d25735fa3b50515",
+  "metadata": {
+    "seed": 92602,
+    "arm": "explicit-late-mask",
+    "step": 8000,
+    "global_step": 20000,
+    "base_sha256": "54f8f6c9f96eaf7a36759723212588bebcdd1c4bcfbd19cef35df87e0f2ce096",
+    "base_initial_hash": "098cec05b52ee0283fe8aa8416d14c76838aa60eefe2cb923d75e3f5c9cfea12",
+    "initial_raw_hash": "4efb049b75521a3f0d71eaccc8176b8854d34ebd316c6a95e3a163180b6c9e87",
+    "initial_ema_hash": "5851f2671de918a5c2c726d3522b7acb36088e7addccdb40fcea66fc42f0a777",
+    "physical_digest": "b5d6df7ccc065774102c76e667cd5b52747e606816efd70351e32a2cc626981f",
+    "native_digest": "66ef081c9ee32cc4cd740054314c2a28fd479295d5bc9ec9e4b8ad0cf71c3c87",
+    "supervised_digest": "0e1e8e9141be947d314078629079a9b52be97fd87058ddd65111aef95336d81e",
+    "elapsed_seconds": 521.1722214221954
+  },
+  "time": 1790836066.8357184
+}

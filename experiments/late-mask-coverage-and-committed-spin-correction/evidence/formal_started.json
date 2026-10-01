@@ -1,0 +1,11 @@
+{
+  "started": 1790827414.8573477,
+  "pid": 198226,
+  "pgid": 198225,
+  "parent_pid": 198225,
+  "budget_started": 1790807357.9482894,
+  "deadline": 1790850557.9482894,
+  "execution_scope": "training_first",
+  "expected_branches": 18,
+  "expected_updates": 144000
+}

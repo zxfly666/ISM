@@ -7,7 +7,7 @@
 | 1 项目研究什么？ | 物理坐标/上下文/训练几何与条件推断及联合生成的关系；[总图](README.md) |
 | 2 为什么critical Ising？ | 可独立参考、已知局部规律与长程关联并存，静态非world model；[总图首段](README.md) |
 | 3 核心scientific question？ | 条件网络怎样利用真实几何、如何跨观测布局/容器泛化；条件收益是否足以生成正确系综 |
-| 4 最新实验有哪些？ | 12campaign表，最后J、精确能力、A4/B46、6h；12h预检明确非完成实验 |
+| 4 最新实验有哪些？ | 12个已完成campaign；10月1日末期MASK只完成18续训、评价未做；12h尺寸时钟仅预检 |
 | 5 哪个最强？ | 物理因素分离以[G](size-spacing-factorial/README.md)最完整；精确真值以[6h](canonical-context-size-generalization/README.md)最清晰；不作跨任务单一排行榜 |
 | 6 改了哪些变量？ | 每轮臂表，G尤其分开size、spacing与span-only，J分K/V来源 |
 | 7 fresh/continued/frozen？ | 总图第二个Mermaid与registry；F0分别生T/R，Bridge只冻结 |
@@ -54,3 +54,12 @@ Mermaid均使用GitHub支持的基础flowchart语法，不依赖插件、脚本�
 
 尚未完成或不承诺：所有历史checkpoint从GitHub下载恢复、全部MC/生成原数组公开、
 所有bootstrap从底层重新抽样、对所有软件版本的位级复现、外部独立学术评价。
+
+## 2026-10-01训练阶段增补自查
+
+从root最新入口可以直接回答：为何做末期覆盖/纠错、A/L/E改变什么、六旧I-F如何分支、
+18final和36EMA保存什么、P1/P2为何还没有数值、原精度/预算门为何仍标失败、
+173路径本地覆盖与普通Git公开子集有何区别，以及后续缺少哪些评价。
+该阶段不展示尚不存在的正式结果图，不把预检人工六图冒充训练后能力；
+设计表/阶段验收表/谱系图承担本页可视解释。完整144k输入重建属于CPU完整性审计，
+不是重新训练，也不是科学主效应分析。

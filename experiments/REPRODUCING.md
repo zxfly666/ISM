@@ -61,3 +61,14 @@ protocol固定NumPy、Torch、BLAS/CUDA、线程、精度、RNG和数据。BF16�
 G的三个主CI按原多重性规则，J唯一主属于fresh S，6h主为配对t而非MC bootstrap。
 旧模型重采样、同父场多个query、四种随机坐标、对称/平移副本都不增加training
 seed数。公开bootstrap敏感性不能替代原预定义主决定。
+
+## 2026-10-01训练阶段
+
+[本阶段](late-mask-coverage-and-committed-spin-correction/README.md)的`run_training_phase.py`
+才是实际执行入口；`run_endpoint.py`、MC、sampling和最终统计代码虽保留，但没有正式运行。
+不要对这个阶段调用要求MC/预测/生成齐备的`audit_all`。原训练验收调用的是
+`endpoint_management.audit_training(reconstruct=True)`，仅在CPU上重建输入和读取checkpoint。
+
+公共验证仍可运行上方SHA/链接检查。训练恢复需取回父场、六个I-F基座、原冻结身份材料；
+18个新final与36个EMA见本轮withheld manifest，不能从仅含元数据的JSON恢复模型。
+新的复现运行需要独立目录、协议与预算；本档案不触发第二次训练或后续评价。

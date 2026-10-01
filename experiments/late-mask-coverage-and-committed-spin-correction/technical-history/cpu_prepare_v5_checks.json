@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "cpu_only": true,
+  "cuda_initialized": false,
+  "time": 1790809023.106209,
+  "results": {
+    "data": {
+      "status": "passed",
+      "cpu_only": true,
+      "time": 1790808861.029633,
+      "tests": {
+        "paired_training_192_triplets": "passed",
+        "exact_bank_8_stress2_retention3": "passed",
+        "gibbs_enumeration": [
+          {
+            "interior_side": 2,
+            "states": 16,
+            "stationary_max_error": [
+              8.673617379884035e-19,
+              6.938893903907228e-18
+            ]
+          },
+          {
+            "interior_side": 3,
+            "states": 512,
+            "stationary_max_error": [
+              3.469446951953614e-18,
+              3.469446951953614e-18
+            ]
+          }
+        ],
+        "physical_sums_energy_majority_origin": "passed",
+        "counts": "passed"
+      }
+    },
+    "torch": {
+      "status": "passed",
+      "toy_sampler_independence": true,
+      "committed_repair_replayed": true,
+      "six_base_full_state_CPU_loaded": true,
+      "old_open_energy_exact": true,
+      "cuda_used": false
+    },
+    "old_coverage_adapter": "passed",
+    "software": {
+      "status": "passed",
+      "fixture_not_science": true,
+      "create_seconds": 5.385094261728227,
+      "statistics_seconds": 149.00608791969717,
+      "render_seconds": 5.412675477564335,
+      "full_bootstrap_reps": true,
+      "figures": 6,
+      "expected_negative_primary_signs_verified": true
+    },
+    "archive": {
+      "status": "passed",
+      "member_SHA_verified": 2,
+      "union_paths": 2
+    },
+    "administrative_closure_without_scientific_mutation": "passed"
+  },
+  "source_hashes": {
+    "endpoint_common.py": "f2491ba2bcdfba5aca820ff0999783aac046039da319c2383bc3c782d28b27d1",
+    "endpoint_cpu_prepare.py": "656af18d8f292cf3f8be17b3d5812391dbd6a0dab1b62210d085ef033593095a",
+    "endpoint_data.py": "ef742d100d55530cd939d65bf9d4a31ec3f1abb54c6a0201c180511979ed8f62",
+    "endpoint_evaluation.py": "489d02d0412410d5dc4617e12fd8abcc6937d6378f55a439c2d2a865582e82f8",
+    "endpoint_figures.py": "6413737acd23cdca3d4d5172c9885b93d2cd114aa40894ef574e60e7e5876d45",
+    "endpoint_fixture.py": "1b6c08a8cc5bf0f5c9abb55d25668a91c36154e36832dfecfd8fb6c91a97ae58",
+    "endpoint_management.py": "a1f0c71032ac3cd80f2f29b824c84ee6ad8345df50c0ad7043fbd2829a7e44a7",
+    "endpoint_preflight.py": "39300d6041e032b57c6f67cfe27d0646ed91f6585f62ef6f714203169f48101d",
+    "endpoint_sampling.py": "8bf60dc084d04f0a931568a6640207f0420861f006954093d6047159101ea2cc",
+    "endpoint_statistics.py": "879b333b6694d12666b41d5474f2d7e947c599c9115198993cb7487c09b978df",
+    "endpoint_tests.py": "2fdab76f937c34d3db1aa1a149db5953a353f786ceba231405656603a894c9a5",
+    "endpoint_training.py": "3f27884f2293e38a904027d9f30806d7f4cfeec84d0f3ffea6e58a4cc5a368c4",
+    "run_endpoint.py": "9439f3873a5f6cdcccfb6c4a7c7140e1abb30725a5c1b3952b92a0c5800eac1b",
+    "validate_next_stage_design.py": "f49a94948916d8adb8e40d671c1d4844984bd96e14c65c9c418a8f19a3b8fa8b"
+  }
+}

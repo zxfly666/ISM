@@ -1,0 +1,525 @@
+{
+  "created": 1790808710.0553236,
+  "rows": [
+    {
+      "deterministic": false,
+      "seed": 92601,
+      "arm": "original-support",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": false,
+      "seed": 92601,
+      "arm": "lower-time-floor",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": false,
+      "seed": 92601,
+      "arm": "explicit-late-mask",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": false,
+      "seed": 92602,
+      "arm": "original-support",
+      "rows_equal": false,
+      "row_differences": {
+        "grad_norm": [
+          0.05165742337703705,
+          0.05165063217282295
+        ]
+      },
+      "model_exact": false,
+      "ema_exact": false,
+      "raw_max_diff": 1.6158446669578552e-07,
+      "ema_max_diff": 7.450580596923828e-09,
+      "grad_max_diff": 3.0517578125e-05,
+      "optimizer_exact": false
+    },
+    {
+      "deterministic": false,
+      "seed": 92602,
+      "arm": "lower-time-floor",
+      "rows_equal": false,
+      "row_differences": {
+        "grad_norm": [
+          0.052123863250017166,
+          0.05213112011551857
+        ]
+      },
+      "model_exact": false,
+      "ema_exact": false,
+      "raw_max_diff": 3.916211426258087e-07,
+      "ema_max_diff": 7.450580596923828e-09,
+      "grad_max_diff": 1.52587890625e-05,
+      "optimizer_exact": false
+    },
+    {
+      "deterministic": false,
+      "seed": 92602,
+      "arm": "explicit-late-mask",
+      "rows_equal": false,
+      "row_differences": {
+        "grad_norm": [
+          0.05332654342055321,
+          0.05332503467798233
+        ]
+      },
+      "model_exact": false,
+      "ema_exact": false,
+      "raw_max_diff": 1.4388933777809143e-07,
+      "ema_max_diff": 7.450580596923828e-09,
+      "grad_max_diff": 1.52587890625e-05,
+      "optimizer_exact": false
+    },
+    {
+      "deterministic": false,
+      "seed": 92603,
+      "arm": "original-support",
+      "rows_equal": false,
+      "row_differences": {
+        "grad_norm": [
+          0.11393112689256668,
+          0.11393118649721146
+        ]
+      },
+      "model_exact": false,
+      "ema_exact": false,
+      "raw_max_diff": 5.960464477539063e-08,
+      "ema_max_diff": 3.725290298461914e-09,
+      "grad_max_diff": 3.814697265625e-06,
+      "optimizer_exact": false
+    },
+    {
+      "deterministic": false,
+      "seed": 92603,
+      "arm": "lower-time-floor",
+      "rows_equal": false,
+      "row_differences": {
+        "grad_norm": [
+          0.11424842476844788,
+          0.11424850672483444
+        ]
+      },
+      "model_exact": false,
+      "ema_exact": false,
+      "raw_max_diff": 5.960464477539063e-08,
+      "ema_max_diff": 7.450580596923828e-09,
+      "grad_max_diff": 3.814697265625e-06,
+      "optimizer_exact": false
+    },
+    {
+      "deterministic": false,
+      "seed": 92603,
+      "arm": "explicit-late-mask",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": false,
+      "ema_exact": false,
+      "raw_max_diff": 6.332993507385254e-08,
+      "ema_max_diff": 7.450580596923828e-09,
+      "grad_max_diff": 3.814697265625e-06,
+      "optimizer_exact": false
+    },
+    {
+      "deterministic": false,
+      "seed": 92604,
+      "arm": "original-support",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 1.4551915228366852e-11,
+      "optimizer_exact": false
+    },
+    {
+      "deterministic": false,
+      "seed": 92604,
+      "arm": "lower-time-floor",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 7.275957614183426e-12,
+      "optimizer_exact": false
+    },
+    {
+      "deterministic": false,
+      "seed": 92604,
+      "arm": "explicit-late-mask",
+      "rows_equal": false,
+      "row_differences": {
+        "grad_norm": [
+          0.11759097129106522,
+          0.11759098619222641
+        ]
+      },
+      "model_exact": false,
+      "ema_exact": false,
+      "raw_max_diff": 4.6798959374427795e-08,
+      "ema_max_diff": 7.450580596923828e-09,
+      "grad_max_diff": 7.62939453125e-06,
+      "optimizer_exact": false
+    },
+    {
+      "deterministic": false,
+      "seed": 92605,
+      "arm": "original-support",
+      "rows_equal": false,
+      "row_differences": {
+        "grad_norm": [
+          0.05871472880244255,
+          0.058714788407087326
+        ]
+      },
+      "model_exact": false,
+      "ema_exact": false,
+      "raw_max_diff": 4.0978193283081055e-08,
+      "ema_max_diff": 7.450580596923828e-09,
+      "grad_max_diff": 3.814697265625e-06,
+      "optimizer_exact": false
+    },
+    {
+      "deterministic": false,
+      "seed": 92605,
+      "arm": "lower-time-floor",
+      "rows_equal": false,
+      "row_differences": {
+        "grad_norm": [
+          0.05703602731227875,
+          0.05703623220324516
+        ]
+      },
+      "model_exact": false,
+      "ema_exact": false,
+      "raw_max_diff": 5.960464477539063e-08,
+      "ema_max_diff": 7.450580596923828e-09,
+      "grad_max_diff": 7.62939453125e-06,
+      "optimizer_exact": false
+    },
+    {
+      "deterministic": false,
+      "seed": 92605,
+      "arm": "explicit-late-mask",
+      "rows_equal": false,
+      "row_differences": {
+        "grad_norm": [
+          0.05703623220324516,
+          0.057036250829696655
+        ]
+      },
+      "model_exact": false,
+      "ema_exact": false,
+      "raw_max_diff": 6.51925802230835e-08,
+      "ema_max_diff": 7.450580596923828e-09,
+      "grad_max_diff": 7.62939453125e-06,
+      "optimizer_exact": false
+    },
+    {
+      "deterministic": false,
+      "seed": 92606,
+      "arm": "original-support",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": false,
+      "seed": 92606,
+      "arm": "lower-time-floor",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 1.1641532182693481e-10,
+      "optimizer_exact": false
+    },
+    {
+      "deterministic": false,
+      "seed": 92606,
+      "arm": "explicit-late-mask",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92601,
+      "arm": "original-support",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92601,
+      "arm": "lower-time-floor",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92601,
+      "arm": "explicit-late-mask",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92602,
+      "arm": "original-support",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92602,
+      "arm": "lower-time-floor",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92602,
+      "arm": "explicit-late-mask",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92603,
+      "arm": "original-support",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92603,
+      "arm": "lower-time-floor",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92603,
+      "arm": "explicit-late-mask",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92604,
+      "arm": "original-support",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92604,
+      "arm": "lower-time-floor",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92604,
+      "arm": "explicit-late-mask",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92605,
+      "arm": "original-support",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92605,
+      "arm": "lower-time-floor",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92605,
+      "arm": "explicit-late-mask",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92606,
+      "arm": "original-support",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92606,
+      "arm": "lower-time-floor",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    },
+    {
+      "deterministic": true,
+      "seed": 92606,
+      "arm": "explicit-late-mask",
+      "rows_equal": true,
+      "row_differences": {},
+      "model_exact": true,
+      "ema_exact": true,
+      "raw_max_diff": 0.0,
+      "ema_max_diff": 0.0,
+      "grad_max_diff": 0.0,
+      "optimizer_exact": true
+    }
+  ],
+  "formal_started": false,
+  "budget": {
+    "started": 1790807357.9482894,
+    "deadline": 1790850557.9482894,
+    "wall_seconds": 43200,
+    "clock_includes_preflight_waits_statistics_backup": true
+  }
+}

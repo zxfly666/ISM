@@ -1,0 +1,137 @@
+[
+  {
+    "receipt": "training_phase_complete_v1.verification.json",
+    "original_sha256": "9647d1785cf6d647a0e3f0b13d146477edcfc1db635c7bd521ef89083161458c",
+    "result": {
+      "status": "passed",
+      "time": 1790837828.5491264,
+      "archive": "training_phase_complete_v1.tar.gz",
+      "archive_bytes": 869900945,
+      "archive_path": "<PROJECT_ROOT>\\artifacts\\endpoint_mask_sampler_disentanglement_20261001_remote\\training_phase_complete_v1.tar.gz",
+      "manifest_path": "<PROJECT_ROOT>\\artifacts\\endpoint_mask_sampler_disentanglement_20261001_remote\\training_phase_complete_v1.manifest.json",
+      "archive_sha256": "353d999f6cfe0091cfe9b3dc62088504e3350435f27c31b2699281873a54bea7",
+      "manifest_sha256": "fa94ca45b33f930aa8da1fd235f7af7d62cb7df04192ce034abbac5b801e4a53",
+      "members": 128
+    }
+  },
+  {
+    "receipt": "training_phase_initial_v1.verification.json",
+    "original_sha256": "f577c3078d509b4bf3b29cef3dfbd4b54bdba69cc5c4ccf5d2c132843aec1b5d",
+    "result": {
+      "status": "passed",
+      "time": 1790827332.7022471,
+      "archive": "training_phase_initial_v1.tar.gz",
+      "archive_bytes": 129979542,
+      "archive_path": "<PROJECT_ROOT>\\artifacts\\endpoint_mask_sampler_disentanglement_20261001_remote\\training_phase_initial_v1.tar.gz",
+      "manifest_path": "<PROJECT_ROOT>\\artifacts\\endpoint_mask_sampler_disentanglement_20261001_remote\\training_phase_initial_v1.manifest.json",
+      "archive_sha256": "31377b52fbb6a59d9efe553c7edb93f970e362a6c7a66e9d7ba7185c6a2259f5",
+      "manifest_sha256": "56228cd5a9ae24a340a6370dfdb85890dc54e7912443fa60ba96cb0b52491564",
+      "members": 51
+    }
+  },
+  {
+    "receipt": "preflight_blocked_precision_v1.verification.json",
+    "original_sha256": "b47256ca0ef6e98c91b86d05281e061ee72a26adb43f2d9bc627051dc3e2ff1b",
+    "result": {
+      "status": "passed",
+      "time": 1790809401.9925401,
+      "archive": "preflight_blocked_precision_v1.tar.gz",
+      "archive_bytes": 42535971,
+      "archive_path": "<PROJECT_ROOT>\\artifacts\\endpoint_mask_sampler_disentanglement_20261001_remote\\preflight_blocked_precision_v1.tar.gz",
+      "manifest_path": "<PROJECT_ROOT>\\artifacts\\endpoint_mask_sampler_disentanglement_20261001_remote\\preflight_blocked_precision_v1.manifest.json",
+      "archive_sha256": "3e525e7e61608529d99eabec945b4ad806598c3192d891940e831ec9a90f6065",
+      "manifest_sha256": "c851719c72a71bcd0d9cf00ed5f52e524cd59d9f6a559d961bc0e8907b864b59",
+      "members": 1238
+    }
+  },
+  {
+    "receipt": "base_s92601_reverified_v1.verification.json",
+    "original_sha256": "9b094a70158aaaf4ceb46034fbf31b22d2899ac905d65c7c0fb9e2cd33bf9992",
+    "result": {
+      "status": "passed",
+      "time": 1790806874.8204331,
+      "archive": "training_s92601_I-F_v1.tar.gz",
+      "archive_bytes": 45838400,
+      "archive_path": "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92601_I-F_v1.tar.gz",
+      "manifest_path": "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92601_I-F_v1.manifest.json",
+      "archive_sha256": "089c5a2f9707b07c1d916aef8cd2f57e9869bf53a0fbe8ea581132dbac737e34",
+      "manifest_sha256": "3bf38eccc850dcb5502fa80a819dd50c344d014fb235dd8f6b06a5b7413550c9",
+      "members": 10
+    }
+  },
+  {
+    "receipt": "base_s92602_reverified_v1.verification.json",
+    "original_sha256": "de5b19b8fa5e89bd8aa54501ece89f39112b13886c7e8e926ef4531c950eeac9",
+    "result": {
+      "status": "passed",
+      "time": 1790806916.9312687,
+      "archive": "training_s92602_I-F_v1.tar.gz",
+      "archive_bytes": 45837438,
+      "archive_path": "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92602_I-F_v1.tar.gz",
+      "manifest_path": "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92602_I-F_v1.manifest.json",
+      "archive_sha256": "c8f2e78e3c5dda6159ab161e15d8b2def1947bf0e6e1777bf5c58980af394857",
+      "manifest_sha256": "ea9fc0b6bd3dd5ebf7b066cc6548b726cbf33da4e6546302311d4c311d3a43cd",
+      "members": 10
+    }
+  },
+  {
+    "receipt": "base_s92603_reverified_v1.verification.json",
+    "original_sha256": "20dbabdcd08e9b46279965b1cd1966a99cb7ac6742e3a294bd956a143184dc8e",
+    "result": {
+      "status": "passed",
+      "time": 1790806917.8530822,
+      "archive": "training_s92603_I-F_v1.tar.gz",
+      "archive_bytes": 45831619,
+      "archive_path": "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92603_I-F_v1.tar.gz",
+      "manifest_path": "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92603_I-F_v1.manifest.json",
+      "archive_sha256": "cd65df1a855f80dc82b46d15e7945f7b03b010cca5c5a0d351e49b75e29dcfc9",
+      "manifest_sha256": "d168762934854c542ff9172c25327129610921e1f14d238bc3d627ef233b6006",
+      "members": 10
+    }
+  },
+  {
+    "receipt": "base_s92604_reverified_v1.verification.json",
+    "original_sha256": "2039c450e4d517777b30ffc819508441e58ffb7a92e93cad55baa8eb029155d7",
+    "result": {
+      "status": "passed",
+      "time": 1790806918.6192691,
+      "archive": "training_s92604_I-F_v1.tar.gz",
+      "archive_bytes": 45847131,
+      "archive_path": "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92604_I-F_v1.tar.gz",
+      "manifest_path": "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92604_I-F_v1.manifest.json",
+      "archive_sha256": "9721749f485f26fc497d78cfc381c3d766c160bc2754d60c16c8d5fa60d35ac7",
+      "manifest_sha256": "50926896945bda8b9a9a7231e899da771a7e304c4eb9bf1828d5f971dbb44aa3",
+      "members": 10
+    }
+  },
+  {
+    "receipt": "base_s92605_reverified_v1.verification.json",
+    "original_sha256": "c5d9c2db484714184dd15265883f3b5eaebe047889adb768792cb3cec4bdfd70",
+    "result": {
+      "status": "passed",
+      "time": 1790806919.349045,
+      "archive": "training_s92605_I-F_v1.tar.gz",
+      "archive_bytes": 45847339,
+      "archive_path": "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92605_I-F_v1.tar.gz",
+      "manifest_path": "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92605_I-F_v1.manifest.json",
+      "archive_sha256": "84fddd89aae5cc1b8bc9e35f08b448eb42c69ff32c3f2d1f67ff68bcee9f4878",
+      "manifest_sha256": "166271ce222ae6e528d86354a91347cedfe8a9b778a2581ab54a9bde0241af7b",
+      "members": 10
+    }
+  },
+  {
+    "receipt": "base_s92606_reverified_v1.verification.json",
+    "original_sha256": "572fe2ab70355fd8442c0110591fac175e9074d878b1d3a9be8b9c3a31571c8d",
+    "result": {
+      "status": "passed",
+      "time": 1790806920.1510887,
+      "archive": "training_s92606_I-F_v1.tar.gz",
+      "archive_bytes": 45830390,
+      "archive_path": "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92606_I-F_v1.tar.gz",
+      "manifest_path": "<CUSTODIAN_BACKUPS>\\20260926_geometry_identification\\training_s92606_I-F_v1.manifest.json",
+      "archive_sha256": "453f6a70b30abf3cef9ff80dba22f83f0c521ffbb3e90c5a86d20eb189ce955e",
+      "manifest_sha256": "04da6aa6a951fd40187657e4399a1cb2568698c99a1a56ad8f529a91ad168182",
+      "members": 10
+    }
+  }
+]

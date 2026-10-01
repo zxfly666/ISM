@@ -1,0 +1,16 @@
+{
+  "seed": 92605,
+  "arm": "original-support",
+  "step": 0,
+  "global_step": 12000,
+  "base_sha256": "ada3cda0b5ba134ed8bb1f1046422a079f311786032f03679e4cc6a42895f653",
+  "base_initial_hash": "95775242c2f8c15f5f9c5da475e48e32d5f0db7ac9b805505b1765a2744baf01",
+  "initial_raw_hash": "66b4f3449264576c90de08d96f581a07a581e7bcd9105d24f81d2dbff449b916",
+  "initial_ema_hash": "c41af854137edfd0c01812991b1dd1d1c4dc559614f5b05b9497e38b9664e89d",
+  "physical_digest": "",
+  "native_digest": "",
+  "supervised_digest": "",
+  "elapsed_seconds": 0.0,
+  "protocol_hash": "7aeac13a256c89c0e7f5a615ced83b1cab1c4668463bb5b8d70f350af2c66b2e",
+  "time": 1790828204.2875292
+}

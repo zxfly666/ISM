@@ -1,0 +1,29 @@
+{
+  "experiment_id": "endpoint_mask_sampler_disentanglement_20261001",
+  "public_name": "Late-mask coverage and committed-spin correction",
+  "historical_alias": "A/L/E (training arms)",
+  "date": "2026-10-01",
+  "status": "training_complete_evaluation_pending",
+  "trained_models": 18,
+  "fresh_models": 0,
+  "inherited_training_lineages": 6,
+  "updates": 144000,
+  "tokens": 2654208000,
+  "final_checkpoints": 18,
+  "diagnostic_ema_snapshots": 36,
+  "formal_new_MC_parents": 0,
+  "formal_generated_images": 0,
+  "formal_prediction_files": 0,
+  "primary_effects": {
+    "P1": null,
+    "P2": null
+  },
+  "primary_decision": "not_evaluated",
+  "training_started": 1790827414.8573477,
+  "training_completed": 1790836856.4571753,
+  "training_seconds": 9441.599827528,
+  "local_backup_verified": 1790837872.8541296,
+  "backup_union_paths": 173,
+  "source": "evidence/training_phase_complete.json",
+  "audit": "evidence/training_phase_full_audit_v1.json"
+}

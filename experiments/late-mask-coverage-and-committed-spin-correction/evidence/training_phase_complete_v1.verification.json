@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "time": 1790837828.5491264,
+  "archive": "training_phase_complete_v1.tar.gz",
+  "archive_bytes": 869900945,
+  "archive_path": "<PROJECT_ROOT>\\artifacts\\endpoint_mask_sampler_disentanglement_20261001_remote\\training_phase_complete_v1.tar.gz",
+  "manifest_path": "<PROJECT_ROOT>\\artifacts\\endpoint_mask_sampler_disentanglement_20261001_remote\\training_phase_complete_v1.manifest.json",
+  "archive_sha256": "353d999f6cfe0091cfe9b3dc62088504e3350435f27c31b2699281873a54bea7",
+  "manifest_sha256": "fa94ca45b33f930aa8da1fd235f7af7d62cb7df04192ce034abbac5b801e4a53",
+  "members": 128
+}

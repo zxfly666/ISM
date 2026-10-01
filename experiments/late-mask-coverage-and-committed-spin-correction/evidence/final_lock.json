@@ -1,0 +1,25 @@
+{
+  "files": {
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_original-support/final.pt": "92804a66aacf6d7d34dc67ebcc919ddf4cbafdca2a5aaa729002a0eadbd7a8b0",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_lower-time-floor/final.pt": "e39306c883e83c5686fb1a71558a28331c0a8114f33f9c62fb2ba0a5ddeb5a0c",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92601_explicit-late-mask/final.pt": "8255656fca5261d86872da2bc63c9722c4775cc53825a306976537a526ee205b",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_original-support/final.pt": "aa9e8db0f60f452280a30e9875a3a5589d0a41415205e37aea33b213d87bfd2f",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_lower-time-floor/final.pt": "a16d4cacec4c17deb26aabd632b98f11785344fee161cfba02a8e0c022aca2d4",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92602_explicit-late-mask/final.pt": "e7f6545e1fa7580644dec12d323870545f95f525c055bf377d25735fa3b50515",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_original-support/final.pt": "aad3fd79c3d32848741c3b6e65a2ef676233e6e83ecd3c52776ce117698dbeee",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_lower-time-floor/final.pt": "664508abf1ef38e843acb6ae455554c6bdfa3d76fd3cdfca54a8792ecf98f241",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92603_explicit-late-mask/final.pt": "129c30b3a462d83ef9bed1cd58c06c21d3d131e446aead81445e111f0c3fb80c",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_original-support/final.pt": "ac8b9d9326cd770143e5793381d64e8b8168ca6f41b7cc52a8b52e6dec620925",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_lower-time-floor/final.pt": "6bbfeba36a65353f401c15176ed208fddf84efff6ce75e73e6348d92b2f1f7ce",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92604_explicit-late-mask/final.pt": "320607c62a4804de78c8881ee567cc04d2434b6d4b0e5194c504543ba34a3424",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_original-support/final.pt": "ed0043a58ea8b5ea716ac02af1a2634daecd55a30d98cd3420d1ea3873d1d14a",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_lower-time-floor/final.pt": "d2a023d75560574edebf31fa2bfa7c8d2f17e4569994fb8748fd02b7b70e4103",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92605_explicit-late-mask/final.pt": "5a0433423b39f64b2ea8369b21ef86624ea9cfc41bb1d789d04b7da4d8491818",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_original-support/final.pt": "f3eddbe635bed1cd346c0aa55c56664636188aa0254ecd82df298ad68953637e",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_lower-time-floor/final.pt": "93aaa908781c2fddd31efb0bd7c7ce1591ceecab9765e26aca324d47ed912092",
+    "artifacts/endpoint_mask_sampler_disentanglement_20261001/training/s92606_explicit-late-mask/final.pt": "d60c2caeb70322e19e04dc9a531b4ce0f6d11c9272b2f76dc62e0cd044717058"
+  },
+  "locked": 1790836856.4438517,
+  "training_seconds": 9439.722152233124,
+  "updates": 144000
+}

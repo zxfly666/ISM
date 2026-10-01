@@ -11,6 +11,7 @@ results/scale_aware_context/stage2a_screen/raw/**/*.csv filter=lfs diff=lfs merg
 # Public scientific archive: SHA values refer to exact published bytes.
 /experiments/** -text whitespace=cr-at-eol
 /scripts/research202609*/** -text whitespace=cr-at-eol
+/scripts/research20261001/** -text whitespace=cr-at-eol
 /ism_diffusion/geometry_study.py -text whitespace=cr-at-eol
 /ism_diffusion/context_repair_core.py -text whitespace=cr-at-eol
 /docs/research_reboot_20260921/*.json -text whitespace=cr-at-eol
@@ -25,3 +26,7 @@ results/scale_aware_context/stage2a_screen/raw/**/*.csv filter=lfs diff=lfs merg
 /scripts/research20260927/check_observed_context_design_v2_18h.py whitespace=cr-at-eol,-blank-at-eof
 /scripts/research20260928/capability_common.py whitespace=cr-at-eol,-blank-at-eof
 /scripts/research20260928/capability_model.py whitespace=cr-at-eol,-blank-at-eof
+
+# Two October frozen sources also retain their original final blank line.
+/scripts/research20261001/endpoint_common.py whitespace=cr-at-eol,-blank-at-eof
+/scripts/research20261001/endpoint_training.py whitespace=cr-at-eol,-blank-at-eof

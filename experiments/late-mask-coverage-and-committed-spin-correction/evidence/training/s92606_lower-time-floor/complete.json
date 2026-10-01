@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "step": 8000,
+  "global_step": 20000,
+  "final_sha256": "93aaa908781c2fddd31efb0bd7c7ce1591ceecab9765e26aca324d47ed912092",
+  "metadata": {
+    "seed": 92606,
+    "arm": "lower-time-floor",
+    "step": 8000,
+    "global_step": 20000,
+    "base_sha256": "5ab388bb518f431af80e448f53042e4d3827b5a9110823174d050946e29b6d45",
+    "base_initial_hash": "052e1ef88ff8326754c788a2e1e966b4aef7fd60f1d281e2f9ea357c53cb3cbb",
+    "initial_raw_hash": "ebfaa6ee1a4d5b6fb6dad5d6aa08249356da2fb4c11dd2bdfeadf128574a0c28",
+    "initial_ema_hash": "846186f0a93763c87484eddf31df2d9ed5e32d9e4a078eeeeb8477bea863ca2c",
+    "physical_digest": "676d11895b2ebce1acd5804cb016fec31b487ede42ebc6c4309b6e315f6bd92e",
+    "native_digest": "8f50d7e3fa79c253076d4f9ecea4d1668b714a115e8ee8556faca0ea713ce0b8",
+    "supervised_digest": "ef37b85f432b18fb566f251c2962bc0a552b7027b25478db89d2bd231950f10f",
+    "elapsed_seconds": 524.0113863945007
+  },
+  "time": 1790836789.044511
+}
