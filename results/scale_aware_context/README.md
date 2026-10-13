@@ -1,5 +1,7 @@
 # Scale-aware coordinates 与 Local--Global Ising 实验
 
+> 历史筛选档案，不是当前确认结论。下文旧Stage2B的native-unit比较和GO_FULL_2B必须结合[更正](../../experiments/CORRECTIONS.md)阅读：正确点差约−.004440而非旧−.08238，旧区间不能套用，多seed正式确认未执行。原始表图作为历史保留，不建议直接用于当前汇报。当前结果从[综合报告](../../experiments/REPORT_ZH.md)进入，历史科学价值见[早期说明](../../experiments/HISTORY_ZH.md)。
+
 本目录整理“模型能否根据 context 中 token 之间的真实物理距离进行推断”这一研究
 想法的分阶段证据。目标不是简单延长 Transformer 的位置编码范围，而是让训练样本的
 物理采样几何与传入网络的二维坐标同步变化，再检验模型是否真的利用相对物理尺度。

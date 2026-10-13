@@ -1,5 +1,7 @@
 # 尺度感知坐标与 Local--Global Ising 离散扩散实验报告
 
+> 历史版本提示：本文件是2026年8月报告，不是当前综合结论。Stage2B的native-unit对照后被发现不正确，旧−0.08238及旧区间不能沿用；纠正后的点差约−0.004440，多seed正式确认没有执行。正文保留当时记录，阅读前请先看[历史更正](../experiments/CORRECTIONS.md)。当前汇报使用[综合报告](../experiments/REPORT_ZH.md)和[精读路线](../experiments/STUDY_GUIDE_ZH.md)。
+
 版本：v1.0<br>
 日期：2026-08-19<br>
 实验状态：Level 1、Stage 2A 与 Stage 2B 单训练 seed 因果筛选均已完成<br>

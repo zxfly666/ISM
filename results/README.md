@@ -1,12 +1,11 @@
-# 实验结果索引
+# 早期实验结果入口
 
-本仓库按研究问题分隔实验，避免把早期基线与后续方法验证混为一谈。
+当前完整研究地图和汇报报告已整理在[experiments](../experiments/README.md)。本目录保存早期精选结果，不应将此处的旧GO状态当作最新结论。
 
-| 实验线 | 状态 | 结果入口 | 说明 |
-|---|---|---|---|
-| `L=64` 临界 Ising 离散扩散基线 | 已完成 | [`../artifacts/final_l64/`](../artifacts/final_l64/) | 同分布生成、采样器消融与物理量评估 |
-| `L=64 → L=128` 直接零样本外推 | 已完成，结论 `PARTIAL` | [`../artifacts/final_l128_zero_shot/`](../artifacts/final_l128_zero_shot/) | 冻结基线模型，检验更大晶格上的有限尺寸 scaling |
-| 尺度感知坐标与 Local--Global 因果实验 | 已完成单 seed 筛选，待多 seed 确认 | [`scale_aware_context/`](scale_aware_context/)；[完整中文报告](../docs/SCALE_AWARE_CONTEXT_EXPERIMENT_REPORT_ZH.md) | Level 1、Stage 2A 与 Stage 2B；验证 matched physical coordinates 的独立贡献 |
+| 历史实验线 | 当前阅读方式 | 证据 |
+|---|---|---|
+| L64同分布生成 | 早期pilot有限物理指标通过，采样器修正历史保留；不是后期dense模型 | [机器摘要](../artifacts/final_l64/final_summary.json) |
+| L64到L128直接外推 | 部分局部指标保留，但长程关联过强，作为问题起点 | [机器摘要](../artifacts/final_l128_zero_shot/final_summary.json) |
+| Level1及Local–Global筛选 | 探索性开发证据；Stage2B旧native-unit对照已更正，多seed正式确认未执行 | [历史目录](scale_aware_context/README.md)、[更正](../experiments/CORRECTIONS.md) |
 
-`artifacts/` 保留早期与基线实验的既有组织；`results/` 收录后续研究线的精选、
-可公开复核结果。完整训练缓存、checkpoint 和大规模父场数据不重复提交。
+建议先读[历史起点解释](../experiments/HISTORY_ZH.md)，再按[精读路线](../experiments/STUDY_GUIDE_ZH.md)阅读G、I、N/W与RG。原始科学数组保留在既有路径；整理文档不代表重新训练或重新判定旧结果。

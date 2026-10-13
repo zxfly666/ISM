@@ -1,4 +1,12 @@
-# Observed-only key/value 干预
+# 只允许观测自旋作为K和V的干预
+
+## 阅读定位
+
+本轮问：若未观测MASK参与attention可能造成脆弱性，把它们排除出K/V能否解决问题？继续训练C检验旧模型适应这种改动，从零S检验是否只是初始化不适应；唯一主比较属于S，两个队列不能混成十二个独立配对seed。
+
+固定clock扩容不变性通过，但主改善与局部能力未通过。后续[Basic结构和能力检查](../exact-local-capability/README.md)解释了具体盲点。建议把两轮合并理解：不敏感不等于准确，结构改造还必须保持必要表达能力。主汇报短讲，细节备份；它不是对所有dense方法的否定。
+
+## 参数结果与证据速查
 
 Historical alias **J** · ID `observed_context_intervention_18h_20260927` · 2026-09-27
 

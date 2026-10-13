@@ -1,373 +1,74 @@
-# ISM: Critical Ising masked discrete diffusion
+# ISM 条件推断与尺度外推研究
 
-## 从研究地图开始：2026-10-01 公共科研档案
+本项目用临界二维 Ising 系统研究：训练时覆盖不同上下文尺寸和真实物理距离，能否让模型在未见布局上准确推断，以及这些条件能力能否支持正确的整体生成和跨尺度迁移。
 
-我们研究真实物理坐标、训练尺寸与观测间距，能否帮助条件网络在新布局上准确推断，
-以及这种条件能力是否转化为正确的联合生成。临界 Ising 提供可核对的物理参考，
-但静态 Ising 结果不等于 world model 或完整尺度不变性验证。
+**目前最明确的结论是：指定条件任务上的尺寸与间距覆盖有收益，但可靠的绝对外推、完整联合生成和RG细尺度迁移仍未建立。** 正结果、反例和未通过的判据一起保留。
 
-- [研究证据地图：14个已完成campaign含探索先导、谱系与失败门](experiments/README.md)
-- [公共综合报告：设计、参数、结果与反例](experiments/REPORT_ZH.md)
-- [最完整的物理因素对照：size × spacing](experiments/size-spacing-factorial/README.md)
-- [最新的精确真值检查：固定clock尺寸泛化](experiments/canonical-context-size-generalization/README.md)
-- [10月1日完整评价：末期MASK覆盖与已提交自旋纠错](experiments/late-mask-coverage-and-committed-spin-correction/README.md)
-- [10月1日RG训练先导：粗尺度任务学得更好，细尺度迁移未确定](experiments/rg-coarse-data-training-transfer/README.md)
-- [历史更正](experiments/CORRECTIONS.md) · [数据公开范围与SHA](experiments/DATA_AVAILABILITY.md) · [复现路线](experiments/REPRODUCING.md)
+文档整理日期为2026年10月13日；下列科学结果来自截至2026年10月1日的已完成实验，不是新一轮计算。
 
-公共版依据本地162页总报告及机器证据重新组织，不是私人通信/原PDF的原样上传。
-原科学产物不覆盖；大权重、完整MC与生成原数组并非全部公开，具体缺口有逐文件清单。
-**计算完成不等于科学成功，公开摘要也不等于完整原始数据镜像。**
+## 从哪里开始
 
-## 2026-10-01 RG 训练先导完成
-
-三条旧 I-F EMA 谱系 × fine-only、真实粗尺度训练、等计算细尺度重放，共九模型、30720 更新。
-训练、297 个 FP32 预测、三项 CPU 审计、三图和454路径联合备份均已完成。
-粗尺度 CE 的 RG−replay 为 −.020555，三个谱系一致改善；但细 W96 主 KL 差 −.006254，
-t 与联合 bootstrap 的95%区间都跨零。W48细任务有小幅代价，不能报全面迁移成功。
-这是三谱系探索性先导，没有逆RG或新生成；[完整结果与数据边界](experiments/rg-coarse-data-training-transfer/RESULTS_ZH.md)。
-
-## 2026-10-01：末期 MASK 与纠错评价完成，两主门均未过
-
-六个旧 I-F 基座各分三条续训分支，18个模型各追加8,000步至global20,000，
-合计144,000更新，保存18个可恢复final和36个EMA快照。
-正式训练12:03:34–14:40:56（UTC+8），实测2小时37分22秒。
-这不是18个fresh seed。新增评价15:34:36–19:10:53，实测3小时36分17秒，
-完成2048新MC父场、6912正式图+384基座诊断、546预测及固定统计。
-**P1 E,S−A,S=+.025709；P2 E,R−E,S=−.030331，两者联合97.5%区间均跨0。**
-P2的t区间虽排除0，但没有同时通过联合区间条件，不能报为主门成功。
-E的W96局部KL四门和stress仍失败；三项旧CE保留通过。
-两处逐成员备份及2256/2256路径联合覆盖、六图PNG/PDF实际检查通过；原失败历史不改写。
-完整配置、结果、物理tradeoff和实际公开范围见[科学档案](experiments/late-mask-coverage-and-committed-spin-correction/README.md)。
-
-## 2026-09-30：Dense 多尺寸 6 小时实验正式完成
-
-12 个 fresh 模型各完成 8000 步。固定时间输入下，宽尺寸覆盖 W 相对窄覆盖 N
-在 20×20 G8 测试的平均精确 KL 从 0.092391 降至 0.009247，配对差 −0.083144，
-六 seed 的 95% t 区间为 [−0.089534, −0.076755]，实质改善门通过。
-但 W 的主测试绝对准确性门仍为 **0/6 通过**，所以联合科学成功门未过。
-三个保留任务与结构控制通过；这不代表真实物理距离外推或联合生成已解决。
-
-详细模型、设计、五张正式图、完整审计及备份范围见
-[`固定clock上下文尺寸泛化`](experiments/canonical-context-size-generalization/README.md)。
-本地全部科学数据已核验；公开材料和未托管的大文件分别列出，不混称完整下载包。
-
-## 2026-09-30：Dense尺寸覆盖 × 时间输入的预检
-
-本轮代码、精确真值/恢复检查和两种时间策略的小样本拟合测试已完成。
-**12小时启动门未通过，正式24模型实验没有启动**：实测完整更新均值
-0.108157秒，计划训练按均值约17.3小时，全流程保守投影约26.5小时。
-这不是跨尺寸泛化失败的实验结论，也不能据此否定老师的完整idea。
-
-该预检报告与可复核证据见
-[`未正式启动的size × clock预检`](experiments/preflights/size-clock-factorial/README.md)。
-以下保留各历史阶段结果，其结论不能混用作本轮尚未执行的主检验结果。
-
-## 历史阶段：尺度感知坐标与 Local--Global 因果实验
-
-> 历史记录，已被更正：下文旧 `GO_FULL_2B` 不能作为当前结论。原unit-coordinate
-> 对照不正确，修正后点差约−.004440而不是旧−.08238；旧CI不可沿用，多seed正式
-> 方案未执行。请先读[历史更正](experiments/CORRECTIONS.md)。保留下文是为了追踪原判断。
-
-仓库现已加入针对“模型能否根据 context 中的真实物理距离进行推断”的分阶段实验。
-训练时不只改变位置编号，而是同步改变 Ising 父场的物理采样几何与传入模型的二维
-坐标；随后用 data-only、随机位置编码和坐标置换对照，分离真实坐标的独立贡献。
-
-当时记录的证据链为（非当前确认性结论）：
-
-- Level 1：dense scale-aware 模型改善长程关联，但污染局部 Markov 规律；
-- Stage 2A：Local--Global 架构显著修复局部污染并保留长程收益，标签为
-  `CONDITIONAL_GO`；
-- Stage 2B 单 seed 因果筛选：`LG-Gap-Matched` 同时优于 data-only、RandomPE 和
-  uniform-stride T3，并通过 unit/shuffled coordinate swap，标签为
-  **`GO_FULL_2B`**。
-
-这仍是进入多 seed 正式确认的依据，不是最终论文结论。实验说明、主要数值、图表和
-机器可读逐样本结果见
-[`results/scale_aware_context/README.md`](results/scale_aware_context/README.md)，执行设计见
-[`docs/LEVEL2_SCALE_COORDINATE_LOCAL_GLOBAL_PROTOCOL_ZH.md`](docs/LEVEL2_SCALE_COORDINATE_LOCAL_GLOBAL_PROTOCOL_ZH.md)，
-完整中文报告见
-[`docs/SCALE_AWARE_CONTEXT_EXPERIMENT_REPORT_ZH.md`](docs/SCALE_AWARE_CONTEXT_EXPERIMENT_REPORT_ZH.md)。
-
-## L=64 → L=128 零样本尺度外推
-
-冻结仅在 `L=64` 临界 Ising 系综上训练的 `best.pt`，直接在 `L=128` 上使用
-ancestral sampler 生成 3×1536 张样本，并与 8 条独立 Wolff 链生成的 10,000 张
-`L=128` MC 参考样本比较。实验协议见
-[`docs/L128_ZERO_SHOT_PROTOCOL_ZH.md`](docs/L128_ZERO_SHOT_PROTOCOL_ZH.md)，机器可读结果见
-[`artifacts/final_l128_zero_shot/final_summary.json`](artifacts/final_l128_zero_shot/final_summary.json)。
-
-结论为 **PARTIAL**：
-
-- 局域能量、正负磁化模式平衡、平均绝对磁化和 Binder cumulant 通过 pilot 阈值；
-- `xi/L` 为 model `1.1959`、MC `0.9047`，模型的大尺度关联过强；
-- `G(r)` NRMSE 在 `r=1..32` 为 `12.17%`，在真正外推区间 `r=33..64` 为 `22.09%`；
-- `G_model/G_MC` 从 `r=8` 的 `1.0806` 增至 `r=64` 的 `1.2322`；
-- 三个 sampling seed 呈现一致偏差，故这不是单个随机种子的偶然失败。
-
-因此当前模型已经学到较好的局域临界纹理，但没有正确学会从 `L=64` 到 `L=128`
-的全局有限尺寸 scaling。核心诊断图见
-[`03_correlation_and_structure.png`](artifacts/final_l128_zero_shot/figures/03_correlation_and_structure.png)
-和 [`06_cross_scale_scaling.png`](artifacts/final_l128_zero_shot/figures/06_cross_scale_scaling.png)。
-
-本项目研究二维临界 Ising 构型的吸收态离散扩散模型。仓库保存了完整的
-`L=64` pilot：Monte Carlo 数据、训练代码与配置、训练日志、采样器消融、
-多 seed 评估、关联函数与 scaling 分析。最终书面报告按仓库所有者要求未上传。
-
-## 快速导航
-
-| 目标 | 入口 |
+| 你的目的 | 最短阅读路线 |
 |---|---|
-| 区分各阶段实验结果 | [`results/README.md`](results/README.md) |
-| 查看近期全部实验与继承关系 | [研究证据地图](experiments/README.md) |
-| 查看历史尺度感知坐标与 Local--Global 筛选 | [`results/scale_aware_context/README.md`](results/scale_aware_context/README.md)，并读[更正](experiments/CORRECTIONS.md) |
-| 理解项目设计 | [`docs/TECHNICAL_DESIGN_ZH.md`](docs/TECHNICAL_DESIGN_ZH.md) |
-| 查看正式实验方案 | [`docs/L64_PILOT_EXPERIMENT_PLAN_ZH.md`](docs/L64_PILOT_EXPERIMENT_PLAN_ZH.md) |
-| 复现正式训练 | [`configs/pilot_l64.json`](configs/pilot_l64.json) 与 `train.py` |
-| 查看最终数值摘要 | [`artifacts/final_l64/final_summary.json`](artifacts/final_l64/final_summary.json) |
-| 查看训练与采样产物 | [`artifacts/README.md`](artifacts/README.md) |
-| 理解数据文件 | [`data/README.md`](data/README.md) |
-| 下载大模型权重 | [`CHECKPOINTS.md`](CHECKPOINTS.md) |
+| 首次了解研究 | [综合报告](experiments/REPORT_ZH.md) → [方法与指标](experiments/METHODS_ZH.md) |
+| 准备30分钟以上汇报 | [精读与汇报路线](experiments/STUDY_GUIDE_ZH.md) → 四个重点报告 → [常见追问](experiments/QUESTIONS_ZH.md) |
+| 查看做过哪些实验 | [14个研究单元与权重谱系](experiments/README.md) → [早期基线与筛选](experiments/HISTORY_ZH.md) |
+| 核对某个结论 | 每轮报告 → 原统计JSON/图数据 → EVIDENCE与来源清单 |
+| 重放公开结果或重新训练 | 先读[复现路线](experiments/REPRODUCING.md)与[数据可用性](experiments/DATA_AVAILABILITY.md) |
+| 查看代码与原方案 | [技术文档索引](docs/README.md)；各轮EVIDENCE链接原driver与协议 |
 
-## 正式 `L=64` pilot 概览
+## 四个重点实验
 
-- 临界温度：`T_c = 2.269185...`，周期边界，Wolff cluster Monte Carlo。
-- 训练：60,000 steps，batch size 16，BF16，EMA，约 12.7M 参数。
-- 最佳验证 NELBO：`0.361248`；60k 时为 `0.361257`。
-- 正式采样：ancestral sampler，128 reverse steps，3 个采样 seed，合计 4,608 张。
-- 独立参考：10,000 张 MC 构型、8 条独立链。
-- 关键结果：`G(r)` 在 `r=8,16,32` 的模型/MC 比值分别约为
-  `0.9975/0.9994/0.9978`；全部预设 pilot checks 通过。
+| 实验 | 回答的问题 | 当前结论 | 详细讲解 |
+|---|---|---|---|
+| G 尺寸与间距 | 两种训练覆盖分别是否有用 | H1/H2通过；细几何H3未确认，部分任务反转 | [从对照设计读起](experiments/size-spacing-factorial/REPORT_ZH.md) |
+| I 细几何识别 | 正确位置关系是否超过总跨度或随机对应 | 指定任务F−R实质门通过，F−S仅方向通过；H96有反例 | [理解两个不同对照](experiments/fine-geometry-identification/REPORT_ZH.md) |
+| N/W 精确尺寸泛化 | 真值不变时扩容能否仍准确 | 平均KL约下降90%，W最坏误差门仍0/6 | [同时看均值和最坏误差](experiments/canonical-context-size-generalization/REPORT_ZH.md) |
+| RG 粗尺度训练 | 粗任务学习是否帮助细任务 | 粗CE改善，三旧谱系的细W96迁移未确定 | [学习信号与迁移边界](experiments/rg-coarse-data-training-transfer/REPORT_ZH.md) |
 
-## 正式复现
+这些不是同一个模型连续升级的四站。G、I、N/W分别从零训练；RG由三个旧I-F EMA暖启动并重置优化器。模型身份、独立重复和评价任务不能跨轮混用。
 
-```bash
-pip install -r requirements.txt
-python train.py --config configs/pilot_l64.json
-```
+## 生成结果也必须一起读
 
-如果只做采样评估，可先按 [`CHECKPOINTS.md`](CHECKPOINTS.md) 下载
-`best.pt`，然后执行：
+[T稀疏训练](experiments/sparse-conditioning-training/README.md)有指定局部与生成主指标正结果；[R因素对照](experiments/mask-query-factorial/README.md)和[Bridge独立参考评价](experiments/independent-generation-bridge/README.md)未确认完整生成收益；[末期MASK覆盖与纠错](experiments/late-mask-coverage-and-committed-spin-correction/README.md)两项主门也未过。条件CE、局部KL、关联误差和能量磁化是不同证据，不互相替代。
 
-```bash
-python sample_and_evaluate.py \
-  --checkpoint artifacts/pilot_l64/best.pt \
-  --output-dir artifacts/reproduction_s1234 \
-  --lattice-size 64 --samples 1536 --batch-size 16 \
-  --steps 128 --temperature 1.0 --sampler ancestral \
-  --reference-data data/ising_l64_reference_10k.npz \
-  --device cuda --seed 1234
-```
+## 历史结果怎样使用
 
-```text
-ISM/
-├── ism_diffusion/   # 模型、离散扩散、Ising MC 与物理指标
-├── configs/         # smoke、benchmark 与正式 L=64 配置
-├── data/            # 可直接加载的 MC 训练/参考数据
-├── artifacts/       # 训练日志、采样结果、图表与消融实验
-├── results/         # 精选、可公开复核的阶段性实验结果
-├── experiments/     # 近期科学问题、谱系、结果、反例与来源档案
-├── docs/            # 技术设计、实验方案、诊断与审计记录
-├── scripts/         # 报告构建等辅助工具
-├── tests/           # 核心单元测试
-├── train.py         # 正式训练入口
-└── sample_and_evaluate.py
-```
+早期L64同分布pilot与L64到L128零样本外推是问题起点，模型结构不同于后期dense实验。[历史说明](experiments/HISTORY_ZH.md)把基线、Level1及Stage2筛选分开。
 
-项目早期先在 `L=16/32` 上完成链路和采样器 smoke test，随后将正式 pilot
-改为直接训练 `L=64`；因此早期配置和消融产物仍保留用于审计，但正式结论以
-`configs/pilot_l64.json` 和 `artifacts/final_l64/` 为准。
+**旧Stage2B的native-unit对照已经更正，旧−.08238及其置信区间、GO_FULL_2B不能作为当前确认性结论。** 正确点差约−.004440，多seed正式确认未执行。所有历史更正集中在[CORRECTIONS](experiments/CORRECTIONS.md)，原数据和失败记录保留。
 
-## Method
+[尺寸与clock的12小时方案](experiments/preflights/size-clock-factorial/README.md)只有预检，没有正式模型；后来的N/W不是这项2×2实验的完成版。
 
-This project trains an absorbing-state discrete diffusion model on critical
-two-dimensional Ising configurations.
+## 仓库结构
 
-The implementation adapts the objective in
-[`block_diffusion.py`](https://github.com/suning-git/nanoinfra/blob/main/exemplars/nano_world_model/block_diffusion.py):
+| 目录 | 用途 |
+|---|---|
+| [experiments](experiments/) | 当前阅读入口、语义化实验报告、正式证据、来源和可用性清单 |
+| [docs](docs/README.md) | 技术设计、历史报告与协议；阅读时注意日期和更正 |
+| [results](results/README.md) | 早期精选结果的历史入口，不代表最新主结论 |
+| [ism_diffusion](ism_diffusion/) | 模型、数据与物理指标实现 |
+| [scripts](scripts/) | 各轮训练、评价、分析与管理脚本，原科学路径保留 |
+| [configs](configs/) | 早期配置；后期配置按每轮协议定位 |
+| [artifacts](artifacts/README.md) | 早期已发布产物及原始运行组织；本地未跟踪文件不等于GitHub公开内容 |
+| [tests](tests/) | 实现测试，不把软件测试通过当作科学假设通过 |
 
-- the absorbing state is a third `[MASK]` token;
-- each spin is independently masked with probability `t`;
-- the model predicts the clean token **at the masked position**, not the next token;
-- loss is computed only on masked sites and weighted by `1/t`;
-- validation uses a fixed noise grid and fixed random masks.
+不为整理目录而移动冻结源码、协议、数组或权重。阅读层负责解释，证据层负责提供原始身份和可复核数值。
 
-The language-model-specific clean/noisy two-stream layout and compiled
-large-vocabulary head are intentionally absent. Ising denoising is spatial and
-non-causal, and its output vocabulary has only two classes.
+## 不训练的核对入口
 
-## Model
-
-This section describes the **early L64 pilot**, not the later 1,976,706-parameter
-dense coordinate model. See the [experiment map](experiments/README.md) for the
-architecture and checkpoint lineage of each subsequent campaign.
-
-The denoiser is a size-flexible 2D axial Transformer:
-
-- alternating row and column attention gives global 2D communication without
-  full `L^4` attention;
-- circular convolutions encode local periodic neighbors;
-- the attention bias is a learned function of toroidal distance,
-  `-a_h log(1 + d_periodic)`, so no learned maximum position is tied to `L=32`;
-- continuous diffusion time enters every block through adaptive LayerNorm;
-- the same weights accept `32`, `64`, or `128` without resizing parameters.
-
-Input tokens are `0 = -1`, `1 = +1`, `2 = MASK`. The head produces two clean-spin
-logits per lattice site.
-
-## Objective
-
-For clean configuration `x0`, draw `t` uniformly from `[t_min, 1]` and form `xt`
-by masking each site with probability `t`. The training estimator is
-
-```text
-L = (1 / (B L^2)) sum_i 1[x_t,i = MASK] CE(x0,i, p_theta(.|xt,t)) / t .
-```
-
-An optional small probability mass at exactly `t=1` trains the all-mask endpoint
-used by unconditional generation. This is an endpoint regularizer in addition to
-the continuous-time NELBO.
-
-The default sampler is posterior-consistent ancestral revealing. If `s < t`, a
-site masked at noise level `t` becomes visible with probability `1 - s/t`; its
-spin is sampled from the denoiser prediction. This avoids the strong
-low-temperature selection bias observed with confidence-ranked commits after
-the denoiser is well trained.
-
-Four samplers are exposed for controlled comparisons:
-
-- `ancestral` (default): posterior-consistent stochastic reverse reveals;
-- `ancestral_corrector`: ancestral reveals plus blocked conditional resampling;
-- `confidence_corrector`: confidence decoding plus early backtracking;
-- `confidence`: the irreversible confidence baseline;
-
-Ancestral sampling requires a reasonably trained and calibrated denoiser. In an
-80-step smoke run it can look nearly random, while after 2000 steps the
-confidence sampler collapses to almost uniform-spin configurations and ancestral
-sampling becomes substantially better. Sampler quality must therefore be
-re-evaluated as training progresses and compared across several sampling seeds.
-
-The same sampler can later be used for conditional expansion by fixing a center
-patch and masking only its exterior.
-
-## Environment
-
-Only NumPy, PyTorch, tqdm, and Matplotlib are required. Install the pinned
-project dependencies with:
+以下脚本只读取公开科学证据，不启动GPU、MC或新训练：
 
 ```bash
-pip install -r requirements.txt
+pip install -r experiments/requirements-replay.txt
+python scripts/archive20260930/validate.py
+python scripts/archive20260930/replay.py
 ```
 
-The formal run used CUDA with BF16 on an RTX 5090. CPU is sufficient for unit
-tests and the smallest smoke configuration, but not recommended for the full
-`L=64`, 60k-step training run.
+后者重放选定历史决定，不代表重新分析全部实验。当前文档的链接、引用数字及改动范围另由[文档检查](scripts/reporting20261013/check_docs.py)核查。
 
-## Fast end-to-end smoke run
+完整训练需要按[复现说明](experiments/REPRODUCING.md)获取缺失输入并使用独立输出目录，不能在原run.lock目录再次启动。早期L64实现和smoke命令保留在[实现说明](docs/L64_IMPLEMENTATION_GUIDE.md)。
 
-Generate a small chain-split `16 x 16` dataset:
+## 公开范围
 
-```powershell
-python generate_data.py `
-  --output data/ising_l16_smoke.npz `
-  --lattice-size 16 `
-  --chains 4 --train-chains 2 --val-chains 1 --test-chains 1 `
-  --samples-per-chain 48 --burn-in-sweeps 30 --sweeps-between 2 `
-  --seed 17
-```
-
-Train the small CPU model:
-
-```powershell
-python train.py --config configs/smoke.json
-```
-
-Generate samples and compare with the held-out MC chain:
-
-```powershell
-python sample_and_evaluate.py `
-  --checkpoint artifacts/smoke/best.pt `
-  --output-dir artifacts/smoke_eval `
-  --lattice-size 16 --samples 32 --batch-size 8 --steps 12 `
-  --sampler ancestral --temperature 0.9 `
-  --reference-data data/ising_l16_smoke.npz --device cpu
-```
-
-This run verifies the pipeline; it is not evidence of learned critical physics.
-
-## Phase-one experiment
-
-1. Generate the chain-split training set:
-
-```powershell
-python generate_data.py `
-  --output data/ising_l32_phase1.npz `
-  --lattice-size 32 `
-  --chains 16 --train-chains 12 --val-chains 2 --test-chains 2 `
-  --samples-per-chain 1250 `
-  --burn-in-sweeps 500 --sweeps-between 5 `
-  --seed 20260731
-```
-
-The fixed five-sweep spacing is only an initial value. Run an autocorrelation
-pilot for energy and `|m|`, then increase the spacing to at least roughly five
-integrated autocorrelation times before treating samples as effectively
-independent.
-
-2. Train:
-
-```powershell
-python train.py --config configs/phase1.json
-```
-
-The full config has about 12.7 million parameters and is intended for a CUDA GPU.
-On the tested RTX 5090, an `L=32`, batch-32 capacity run reached about 29.6
-training steps/s after compilation and used about 4.03 GiB peak reserved memory.
-The 60k-step core loop is therefore roughly 34 minutes before validation,
-checkpoint, and data-generation overhead.
-
-3. Evaluate same-size fidelity first, then scale extrapolation:
-
-```powershell
-python sample_and_evaluate.py `
-  --checkpoint artifacts/phase1/best.pt `
-  --output-dir artifacts/eval_l32 `
-  --lattice-size 32 --samples 10000 --batch-size 32 --steps 32 `
-  --reference-data data/ising_l32_phase1.npz
-
-python sample_and_evaluate.py `
-  --checkpoint artifacts/phase1/best.pt `
-  --output-dir artifacts/eval_l64 `
-  --lattice-size 64 --samples 10000 --batch-size 8 --steps 32
-```
-
-For `L=64` and `L=128`, the evaluation command generates an independent same-size
-Wolff reference when `--reference-data` is omitted.
-
-## What constitutes success
-
-Generated samples must match the **distribution** of same-size MC samples, not any
-particular configuration. Report at least:
-
-- full energy and magnetization distributions;
-- real-space connected correlation `G(r)`, especially distances beyond the
-  training window;
-- structure factor `S(k)`, especially the unseen low-wave-number region;
-- dimensionless finite-size quantities `xi_2 / L` and Binder cumulant `U4`;
-- sample-to-sample variance and multiple training seeds to expose mode collapse.
-
-`sample_and_evaluate.py` computes the first-pass versions of these observables and
-saves both `metrics.json` and `comparison.png`. A publication experiment should
-add bootstrap confidence intervals and aggregate at least three training seeds.
-
-## Complete experiment artifacts
-
-The repository includes the training/evaluation code, configurations, Ising
-datasets, logs, plots, sampled lattices, and analysis artifacts from the L=64
-pilot. The approximately 203 MB best checkpoint is managed with Git LFS; see
-[`CHECKPOINTS.md`](CHECKPOINTS.md) for its path and SHA-256 checksum. Resume and
-milestone weights are intentionally kept out of the repository.
-
-The final written report is intentionally excluded from this repository at the
-owner's request. The peer `Hackathon-3` checkout used for comparison is also not
-republished; its public source remains at
-<https://github.com/zdacongming-glitch/Hackathon-3>.
+公开源码、方案、主要预测与统计、正式图及清单；并非所有大权重、完整MC父场、生成spin/RNG轨迹都在普通Git中。历史LFS对象、保管者备份与公开下载是不同概念，详见[数据可用性](experiments/DATA_AVAILABILITY.md)和[CHECKPOINTS](CHECKPOINTS.md)。私人通信、连接信息和凭据不属于公开科研资料。

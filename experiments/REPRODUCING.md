@@ -22,6 +22,14 @@ python scripts/archive20260930/replay.py
 NPZ可读性与来源；第二条从G主bootstrap数组和最新N/W配对效应等机器证据重放
 主结论，输出声明对应的数值而不是凭README文本“验证自己”。
 
+2026年10月13日新增的讲解文档可另外检查：
+
+```bash
+python scripts/reporting20261013/check_docs.py
+```
+
+它只检查阅读入口、公开链接与标题锚点、指定主表的舍入数值和原证据SHA；不运行新分析，也不能代替人工核对全部科学解释。维护者提交前可加`--index --base <整理前提交>`检查暂存内容与文档改动范围，避免把本地未跟踪的私人文件带入发布。
+
 ## 原代码入口与环境
 
 每轮`EVIDENCE.md`链接原driver/analysis；原source文件保持历史路径，

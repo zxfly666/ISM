@@ -1,4 +1,12 @@
-# Sparse mask × query-placement factorial
+# 稀疏掩码与查询位置的因素对照
+
+## 阅读定位
+
+T同时引入稀疏观测和near-query，因此还不知道收益来自哪一项。本轮从F0另分支做2×2对照，将辅助mask和query位置分别控制。它不是T模型继续训练，辅助损失配方也有差异。
+
+局部KL的收益较明确，但原校正区间下的生成门未过。阅读重点是四组表、两个主比较及置信区间，而不是只挑更宽松95%区间。汇报与[T](../sparse-conditioning-training/README.md)和[Bridge](../independent-generation-bridge/README.md)合并，解释“局部收益尚未稳定成为生成确认”。
+
+## 参数结果与证据速查
 
 Historical alias **R00/R01/R10/R11** · ID `mask_query_factorial_20260924` · 2026-09-24
 

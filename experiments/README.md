@@ -1,10 +1,23 @@
-# 研究证据地图 · Critical Ising conditional geometry
+# 实验地图与证据索引
+
+## 阅读入口
+
+首次了解研究先读[综合报告](REPORT_ZH.md)，准备汇报先读[精读路线](STUDY_GUIDE_ZH.md)。共同术语、模型输入、真值和统计判据见[方法说明](METHODS_ZH.md)，追问见[问答](QUESTIONS_ZH.md)。文档讲解更新于2026年10月13日，科学结果截止2026年10月1日。
+
+| 阅读层 | 入口 | 用途 |
+|---|---|---|
+| 重点讲解 | [G](size-spacing-factorial/REPORT_ZH.md)、[I](fine-geometry-identification/REPORT_ZH.md)、[N/W](canonical-context-size-generalization/REPORT_ZH.md)、[RG](rg-coarse-data-training-transfer/REPORT_ZH.md) | 为什么做、对照如何设、过程、主图、反例与问答 |
+| 全部实验 | 本页下方全景与各目录README | 参数速查、研究位置与权重谱系 |
+| 原始证据 | 每轮EVIDENCE、统计JSON、NPZ、正式图、protocol与manifest | 核对全精度数字和运行身份，不用长日志代替结论 |
+| 历史边界 | [早期基线](HISTORY_ZH.md)、[更正](CORRECTIONS.md)、[公开范围](DATA_AVAILABILITY.md) | 避免旧GO、未执行方案和缺失大文件造成误读 |
+
+## 研究问题
 
 本项目问：**一个 masked conditional 网络能否利用真实物理坐标，在训练未覆盖的观测布局和上下文尺寸上做准确推断；这种条件能力是否足以带来正确的联合生成？**
 
 临界二维 Ising 同时有已知物理结构、长程关联和可独立采样的参考分布，适合把“局部预测变好”与“整个分布正确”分开检验。它是静态平衡体系，**不是 world model 验证**。最初的 dense、多 block size、真实 spacing 训练构想在此被拆成可检验的小问题；模型、统计门和后续精确局部任务是本项目的具体操作化，不等同于老师完整 idea。
 
-**先看两轮：**[Size × spacing factorial](size-spacing-factorial/README.md) 是最完整的物理因素对照；[固定 clock 尺寸泛化](canonical-context-size-generalization/README.md) 是精确真值的必要能力检查。两者都有重要负结果。
+**主报告的两个证据锚点：**[尺寸与间距对照G](size-spacing-factorial/REPORT_ZH.md)直接检验两种训练覆盖；[精确尺寸泛化N/W](canonical-context-size-generalization/REPORT_ZH.md)在已知真值下检查必要能力。两者都有明确收益与重要限制。再用[I](fine-geometry-identification/REPORT_ZH.md)细化几何解释，用[RG](rg-coarse-data-training-transfer/REPORT_ZH.md)讨论粗尺度训练与迁移，构成四个重点。
 
 **10月1日新增：**[末期MASK覆盖与已提交自旋纠错](late-mask-coverage-and-committed-spin-correction/README.md) 已完成18条续训分支和全部正式评价；**P1/P2主门均未过，W96局部/stress能力仍失败**，三项旧CE保留通过。
 

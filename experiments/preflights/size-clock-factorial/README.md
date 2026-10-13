@@ -1,4 +1,6 @@
-# Size × clock factorial：预算停止预检
+# 尺寸与时间输入因素方案的预检
+
+本页只记录正确性检查、测速与预算停止，没有正式科学主结果。它的研究问题仍有意义，但不能被列为已完成确认实验，也不能由固定clock的[N/W](../../canonical-context-size-generalization/REPORT_ZH.md)代答native与canonical的比较。准备汇报只需掌握这一状态；详细运行身份保留在下文。
 
 Historical alias **12h** · ID `dense_size_clock_geometry_12h_20260930` · 2026-09-30
 

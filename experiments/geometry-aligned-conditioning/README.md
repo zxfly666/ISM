@@ -1,5 +1,15 @@
 # 几何对齐条件学习与冻结诊断
 
+## 阅读定位
+
+本轮是几何学习线的起点：如果自旋样本相同，只改变模型收到的坐标语义，真实坐标是否一定更有利？六个配对seed的三组从零训练把真实、rank和错误坐标放在同一评价任务上比较。
+
+结果在两项任务间反转，因此它的价值不是宣布“有坐标就成功”，而是说明几何收益依赖测试范围。后续[固定背景诊断](../fixed-background-geometry-response/README.md)检查响应是否符合参考，[G](../size-spacing-factorial/REPORT_ZH.md)和[I](../fine-geometry-identification/REPORT_ZH.md)再把覆盖和细排列拆开。
+
+阅读时掌握三组对照和反转表即可；汇报中作为主实验的动机。附属D/E使用冻结权重，不能计为新的训练重复。术语见[共同方法](../METHODS_ZH.md)，优先级见[精读路线](../STUDY_GUIDE_ZH.md)。
+
+## 参数结果与证据速查
+
 Historical aliases: **A/B/C，D/E诊断** · ID `geometry_alignment_20260921` · 2026-09-21
 
 **Question:** 真实物理坐标是否比 rank 或错误坐标更有助于稀疏条件外推？**Design:** 六seed三组fresh训练，随后在冻结模型上诊断。**Main result:** 任务之间排序反转；没有普遍真实坐标优势。**Status:** 完成，结论限定于具体任务。
