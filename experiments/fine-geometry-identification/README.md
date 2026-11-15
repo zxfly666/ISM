@@ -10,13 +10,13 @@
 
 Historical alias **I-F/I-S/I-R** · ID `geometry_identification_20260926` · 2026-09-26
 
-**Question:** G-H3未决后，真实细排列相对span-only及保留坐标多重集的随机排列，各有多大条件收益？**Design:** 六新seed×三臂fresh12k，共用全部物理训练流。**Main result:** P2实质门通过、P1只有方向；合取失败。
+**Question:** G-H3未决后，真实细排列相对span-only及独立gap排列构造的随机坐标，各有多大条件收益？**Design:** 六新seed×三臂fresh12k，共用全部物理训练流。**Main result:** P2实质门通过、P1只有方向；合取失败。
 
 | 臂 | 物理data/mask/query/t | 坐标 | 训练 |
 |---|---|---|---|
 | I-F | 同seed三臂配对 | 真实细排列 | fresh12k，92601–92606 |
 | I-S | 同上 | 保留总跨度，内部均匀 | 同上 |
-| I-R | 同上 | 独立随机排列，同坐标多重集 | 同上，坐标RNG独立 |
+| I-R | 同上 | 独立排列同一gap多重集，再累积为坐标轴；同跨度，坐标点集合不必相同 | 同上，坐标RNG独立 |
 
 | 主H48 held K512 | CE差 | 原97.5%CI | 上界<−.002实质门 |
 |---|---:|---|---|
@@ -31,7 +31,7 @@ Historical alias **I-F/I-S/I-R** · ID `geometry_identification_20260926` · 202
 flowchart LR
   P[共同物理采样与监督] --> F[真实坐标]
   P --> S[同跨度均匀坐标]
-  P --> R[同多重集随机坐标]
+  P --> R[同gap多重集的独立坐标轴]
   F --> E[冻结final EMA]
   S --> E
   R --> E

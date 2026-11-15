@@ -2,11 +2,12 @@
 
 ## 阅读入口
 
-首次了解研究先读[综合报告](REPORT_ZH.md)，准备汇报先读[精读路线](STUDY_GUIDE_ZH.md)。共同术语、模型输入、真值和统计判据见[方法说明](METHODS_ZH.md)，追问见[问答](QUESTIONS_ZH.md)。文档讲解更新于2026年10月13日，科学结果截止2026年10月1日。
+首次了解研究先读[综合报告](REPORT_ZH.md)，准备汇报先读[精读路线](STUDY_GUIDE_ZH.md)。共同术语、模型输入、真值和统计判据见[方法说明](METHODS_ZH.md)，追问见[问答](QUESTIONS_ZH.md)。核心讲解更新于2026年11月15日，科学结果仍截止2026年10月1日；没有新增或重算实验。
 
 | 阅读层 | 入口 | 用途 |
 |---|---|---|
-| 重点讲解 | [G](size-spacing-factorial/REPORT_ZH.md)、[I](fine-geometry-identification/REPORT_ZH.md)、[N/W](canonical-context-size-generalization/REPORT_ZH.md)、[RG](rg-coarse-data-training-transfer/REPORT_ZH.md) | 为什么做、对照如何设、过程、主图、反例与问答 |
+| 分享与恢复记忆 | [复习资料总入口](STUDY_GUIDE_ZH.md#给合作者的共享入口) · [完整复习计划](../docs/PROJECT_REACTIVATION_AND_ADVISOR_REVIEW_PLAN_20261104_ZH.md) | 合作者实验回顾、每一步时长、核心实验精读、图解、汇报提纲与自测 |
+| 重点讲解 | [G](size-spacing-factorial/REPORT_ZH.md) → [I](fine-geometry-identification/REPORT_ZH.md) → [Basic](exact-local-capability/REPORT_ZH.md) → [N/W](canonical-context-size-generalization/REPORT_ZH.md) → [RG](rg-coarse-data-training-transfer/REPORT_ZH.md) | 研究动机、构造例子、输入和真值、完整对照、执行与统计、读图、反例、自测与证据链接 |
 | 全部实验 | 本页下方全景与各目录README | 参数速查、研究位置与权重谱系 |
 | 原始证据 | 每轮EVIDENCE、统计JSON、NPZ、正式图、protocol与manifest | 核对全精度数字和运行身份，不用长日志代替结论 |
 | 历史边界 | [早期基线](HISTORY_ZH.md)、[更正](CORRECTIONS.md)、[公开范围](DATA_AVAILABILITY.md) | 避免旧GO、未执行方案和缺失大文件造成误读 |

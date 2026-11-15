@@ -1,5 +1,7 @@
 # Hackathon-3 负面结果代码分析
 
+> 历史版本提示（2026年11月15日补充）：本文只分析下列旧提交 `95add7c`，不是后来正式基线的现状。旧文中的120/600更新、8/16步MaskGIT不能套用于 `3f147535389fd489775011469d338e4402eb58cb` 的50k训练、64步absorbing正式结果。准备合作者汇报时先读[双仓库公开指南](AI_READING_GUIDE_TWO_REPOS_PUBLIC_ZH.md)和[完整复习计划](PROJECT_REACTIVATION_AND_ADVISOR_REVIEW_PLAN_20261104_ZH.md)；本页保留为历史诊断记录。
+
 分析对象：
 [`zdacongming-glitch/Hackathon-3`](https://github.com/zdacongming-glitch/Hackathon-3)
 主分支提交 `95add7c`。

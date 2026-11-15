@@ -13,6 +13,7 @@
 | G10h预算门失败后12h执行 | 正式开始前明确版本化的新窗口 | 不隐藏失败，不称原10h门通过；[G协议](size-spacing-factorial/protocol/) |
 | G-H3没有显著性 | 98.333333%CI跨0，也跨−.002 | 未通过，不等效；次要生成阳性不能重新判主假设；[G](size-spacing-factorial/README.md) |
 | I-P1点差小于−.002 | 区间上界−.001332未越实质门 | 仅方向通过，不称完整联合成功；[I](fine-geometry-identification/README.md) |
+| I-R曾被概括成“保留坐标多重集、打乱坐标” | 协议和实际实现是独立排列同一**gap多重集**，再累积为单调坐标轴；坐标点集合可不同 | 2026-11-15修正讲解，不改实验。保留间距统计与跨度，物理自旋仍取自真实轴；B48聚集压力另有边缘分布限制；[详细例子与源码](fine-geometry-identification/REPORT_ZH.md) |
 | J observed-only固定t不变 | 特定K1/同符号K2构造下V缺少位置内容，可几何盲 | 结构不变性≠条件准确；[J](observed-key-value-intervention/README.md)、[精确能力](exact-local-capability/README.md) |
 | J `all_64_backgrounds_independent` | K4局部输入可在不同背景记录中重复 | 字段措辞过强，不是64份独立物理信息；未重跑或覆盖原统计 |
 | A4/B46初始2h门与启动v1路径错误 | 显式3h授权保留原起点；v1在训练lock前报错 | v2只修管理路径，无重复正式训练；[A4/B46](local-context-size-diagnostic/README.md) |
