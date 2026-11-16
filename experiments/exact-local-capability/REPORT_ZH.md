@@ -135,7 +135,7 @@ K4的64条是拟合条件，不是64条独立测试；它的迁移检查是之�
 
 $$
 P(s_q=+1\mid s_{\partial q})
-=\operatorname{sigmoid}\left(2\beta\sum_{j\in\partial q}s_j\right).
+=\frac{1}{1+\exp\left(-2\beta\sum_{j\in\partial q}s_j\right)}.
 $$
 
 它只依赖4个邻居的自旋和。模型可能通过正负计数解决这个任务，不必学会更一般的排列依赖。因此K4通过是基础能力证据，不是充分的几何识别证据；后续N/W使用更难的G8腔体来避免仅计数就能完成。
