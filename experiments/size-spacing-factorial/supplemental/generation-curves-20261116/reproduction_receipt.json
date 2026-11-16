@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "script_sha256": "c1bd7c02508fd27679b569b02edd8dca2808b63ff9e78cae3cd3dc865c381f32",
+  "input_package_sha256": "132dbba1fd666b6213e43f01438a846dbd8f08fbde8b4dcba364cd6f1337d1d3",
+  "frozen_metric_sha256": "515b9368571c4f3e753d90a146143003f20716b2fe8c7eb18ec005d50840b1b9",
+  "max_abs_error_all_210_frozen_metrics": 0.0,
+  "numpy_version": "1.24.3",
+  "matplotlib_version": "3.7.2",
+  "files": [
+    {
+      "path": "curve_summary.json",
+      "bytes": 7523,
+      "sha256": "414d6e66b6b91aa9f5a483b84216272c6100a5be53b64a39677ae46bb3abd0e5"
+    },
+    {
+      "path": "curves_by_distance.csv",
+      "bytes": 34174,
+      "sha256": "596abfeaeee6142353ba4bfba955b048fed1b525d139c1d21015e3e24c3da553"
+    },
+    {
+      "path": "curves_per_seed.csv",
+      "bytes": 206612,
+      "sha256": "59cb09a5da8e7a33127c90ecfd0e68c631e7f4cc578b0fc1ccc5dfacea8a1d86"
+    },
+    {
+      "path": "sufficient_statistics.npz",
+      "bytes": 673502,
+      "sha256": "132dbba1fd666b6213e43f01438a846dbd8f08fbde8b4dcba364cd6f1337d1d3"
+    },
+    {
+      "path": "source_manifest.json",
+      "bytes": 51840,
+      "sha256": "aef0ff80b53804c7dda4dbcc259541d04064aebd8333500729955b3ab865e848"
+    },
+    {
+      "path": "figures/A_W96_correlations.pdf",
+      "bytes": 28088,
+      "sha256": "319eb2e0113aa80d8caa9f0810c6fab2f63ff16ee46066c8b7f9d701553f0dd2"
+    },
+    {
+      "path": "figures/A_W96_correlations.png",
+      "bytes": 467879,
+      "sha256": "7523313038ff09a52572038eff076ec805bca2a07a0ac1bff4888db192ff75f6"
+    },
+    {
+      "path": "figures/B_W96_signed_errors.pdf",
+      "bytes": 24713,
+      "sha256": "2c600ed20e3d9a4b875bcbc11440c460d46af18190436bb6d2766f35d53e129c"
+    },
+    {
+      "path": "figures/B_W96_signed_errors.png",
+      "bytes": 385794,
+      "sha256": "d2736be40d66143cb1347f7137b3e07732ce0df7ec2e8b490f14cbb8add71feb"
+    },
+    {
+      "path": "figures/C_W96_seed_spread.pdf",
+      "bytes": 37835,
+      "sha256": "d67f4a9e1e42bde6fc89b306ae4cf14e5ad78e75400c6e0cb52c88ca7b22af61"
+    },
+    {
+      "path": "figures/C_W96_seed_spread.png",
+      "bytes": 778811,
+      "sha256": "06bbf59b0a59e975b1fb9c89bf5358f5084658e832d397a0bac8c6dd62526c7a"
+    }
+  ]
+}

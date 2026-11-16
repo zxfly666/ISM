@@ -60,3 +60,9 @@
 此目录复用正式PNG/PDF；原统计JSON/CSV、NPZ和plot_data在上表。图的原文件SHA与输入源路径在provenance中。
 原分析代码中的figure/plot函数定义绘图映射。精确局部两轮若没有正式图，则用完整结果表与流程图，不拿人工fixture补作结果图。
 未公开的大数组仍可能是全图重建的输入；公开图不代表所有模型/父场已可下载。
+
+## 2026-11-16逐距离关联补充（不属于原冻结分析）
+
+[补充讲义](supplemental/generation-curves-20261116/README_ZH.md)新增W96完整G(r)、MC叠加/幂律形状参考、逐距离残差及全部seed展示。只重用正式生成统计，不重训、不重新生成，不替换原假设或区间。
+
+该补充独立保存[来源manifest](supplemental/generation-curves-20261116/source_manifest.json)和[复现回执](supplemental/generation-curves-20261116/reproduction_receipt.json)，不改写上表的原文件SHA。31个原归档及151个读取成员经SHA核验；6×5×7=210个原生成指标复算最大绝对误差0.0。小型[充分统计量](supplemental/generation-curves-20261116/sufficient_statistics.npz)、CSV和[CPU重画脚本](supplemental/generation-curves-20261116/reproduce.py)一并公开，不含大权重、私人记录或连接信息。

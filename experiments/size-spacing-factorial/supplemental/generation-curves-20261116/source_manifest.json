@@ -1,0 +1,1104 @@
+{
+  "scope": "Post-hoc descriptive W96 curves, original experiment unchanged",
+  "archives": [
+    {
+      "name": "reference_complete_v1.tar.gz",
+      "bytes": 86833430,
+      "sha256": "599a1b0ab70d05a3e168deb56a76e8459ad75dc8b8293653631faf80e794c649",
+      "manifest_sha256": "b720b53ef38f15d418ef4679db4f716240c8b87a9aa5ffd2866a82ca22ac4316"
+    },
+    {
+      "name": "evaluation_s92501_G00_v1.tar.gz",
+      "bytes": 5251339,
+      "sha256": "eb61822c3d4903ba825b239ee55f8211c1e698e000c467ff0f3ad2d926e7da60",
+      "manifest_sha256": "5efe64de1b9ac64d0902f06f19d0ddcd44e4e5a526f57e9b1e9cc00d9315b8e5"
+    },
+    {
+      "name": "evaluation_s92501_G10_v1.tar.gz",
+      "bytes": 5264037,
+      "sha256": "66fae08e88486b0de2a7d85ec28e8cc3d93bfa818de4a90f9ed5e761d9e8b288",
+      "manifest_sha256": "75afd686e2f503a734e90dd80e20b039aa39282e169c20a1188e2fac5af3fa92"
+    },
+    {
+      "name": "evaluation_s92501_G01_v1.tar.gz",
+      "bytes": 5239135,
+      "sha256": "78b43fa687247e19f789540aa3935f3eebf85a0d0dfe8ba88322632737e1b06d",
+      "manifest_sha256": "e7894e8d0a493306b7d7fa8d5156e7c16c8ecd4c071ad031f5ad06e93d088de0"
+    },
+    {
+      "name": "evaluation_s92501_G11_v1.tar.gz",
+      "bytes": 5251075,
+      "sha256": "dab2a30032ec6a28ec2f4165397c3b49aa0f0307781bbc3838ff29ef18669fb4",
+      "manifest_sha256": "98aef44514bc00caf5be080ea81f2cd82ac9eac58d09bf7a37b2d63ec88eed34"
+    },
+    {
+      "name": "evaluation_s92501_G11S_v1.tar.gz",
+      "bytes": 5244711,
+      "sha256": "f254c1ecd59aecda9ca5ea5952a63a0b198fc979049615f955f29006f47ca475",
+      "manifest_sha256": "87ef030470731352b4d56453105bd994a0ca1a3291bc62b63dd4705b3984aeee"
+    },
+    {
+      "name": "evaluation_s92502_G00_v1.tar.gz",
+      "bytes": 5248802,
+      "sha256": "4ce79e707cd3dc5b086c81a7b4b447c0abc8cf51bb3c329203478fcaa39e6b1b",
+      "manifest_sha256": "7d808e0162e6380c0ff8f763d025dd1e7f73df6ae60f7e7e459f8630f86f13a6"
+    },
+    {
+      "name": "evaluation_s92502_G10_v1.tar.gz",
+      "bytes": 5264580,
+      "sha256": "fe0011b2769cce54b26bb77c7141194ba6f13e82fefb824b8f82dcc7ba3d3cd2",
+      "manifest_sha256": "3196088bab3041e9362e24720b0712355b8579de128d1e27ffe98f1634b7d7c3"
+    },
+    {
+      "name": "evaluation_s92502_G01_v1.tar.gz",
+      "bytes": 5240485,
+      "sha256": "c3b9ae2438cd39d7310d92ebbb714bc967065975a8615def09ae93da9fab86c1",
+      "manifest_sha256": "bc02c9319851a3440d06381da4972c686190c6271bcd180d9c50a819652b533d"
+    },
+    {
+      "name": "evaluation_s92502_G11_v1.tar.gz",
+      "bytes": 5253076,
+      "sha256": "c8c1adfcc860a78fcc6a2a89be04915b6195e4ab045cff2f75f652d40340a67f",
+      "manifest_sha256": "a5c39bca7a5fe875ac426541cfb804e615494d41b5fd6022350edebf2767b8f3"
+    },
+    {
+      "name": "evaluation_s92502_G11S_v1.tar.gz",
+      "bytes": 5250067,
+      "sha256": "c34ced1241935c7fd406a08a638e5fcedbc79bd6bc1c95e7fd9ceceb34c35648",
+      "manifest_sha256": "acab313125f2b0ad5243556b78176dedd1fd918692e374bbf4feece2fc8632a4"
+    },
+    {
+      "name": "evaluation_s92503_G00_v1.tar.gz",
+      "bytes": 5256518,
+      "sha256": "53dfa9cb5900a514bbf45e1946b1d92bbc46974c226d1db5118eb0d1cb511c81",
+      "manifest_sha256": "e0ec52c934cbd0593352c00ec54aa9b389c6ca8bcfd64c2f07a12d3e4bb0d217"
+    },
+    {
+      "name": "evaluation_s92503_G10_v1.tar.gz",
+      "bytes": 5260231,
+      "sha256": "3d01242efd650ddc6f3f2f7c55dd8b75a5e08a2b274010a04d886cdef21f040f",
+      "manifest_sha256": "1ca1a68a9998aa11f210e3272396c8fdfe905278441c662835604ea6737f3342"
+    },
+    {
+      "name": "evaluation_s92503_G01_v1.tar.gz",
+      "bytes": 5240713,
+      "sha256": "99e9129b2ced072b94962340219343b79ec154de47430f453047d090f58b8109",
+      "manifest_sha256": "2914850b280adf9be2029badc971a8b2a84d05fed421c82120ea0979f81fc471"
+    },
+    {
+      "name": "evaluation_s92503_G11_v1.tar.gz",
+      "bytes": 5253967,
+      "sha256": "0838f879034e2a0bc3977b943aee2ac8a4cb48be70a390fa8af8b440c304c009",
+      "manifest_sha256": "29744ff16819e184177e94aac6186978f17db21f05ab673d25c72d19fb31937d"
+    },
+    {
+      "name": "evaluation_s92503_G11S_v1.tar.gz",
+      "bytes": 5252673,
+      "sha256": "f24acc9003e1280eb2d745aaae9b59c5814939d28b3f94ee30970fc429a0af15",
+      "manifest_sha256": "265330d4d502067be247bc7855f0a9a08b6573997e70860c26e82cb427f36f3d"
+    },
+    {
+      "name": "evaluation_s92504_G00_v1.tar.gz",
+      "bytes": 5253213,
+      "sha256": "697be7ad295b372dd30c68efee05f99278b07ba1dde497271dfb478ff52a0fcb",
+      "manifest_sha256": "1fad978ceb9ea4350aa038d3917ac5603eaa04e6b76200021fa24851447a9468"
+    },
+    {
+      "name": "evaluation_s92504_G10_v1.tar.gz",
+      "bytes": 5259656,
+      "sha256": "84aef162671112acf6c165788cbd3044f5782cf52fdae4cdd59fda018e92f7f5",
+      "manifest_sha256": "88063046409d305dc398dd6b29e80948d3bfa1931d9120bfb4aa79fec212cabf"
+    },
+    {
+      "name": "evaluation_s92504_G01_v1.tar.gz",
+      "bytes": 5232998,
+      "sha256": "d85e2d4c291d11a52c8f2f94bb144d8a8ddddf7b56c122a4cf6775abe3707b5a",
+      "manifest_sha256": "05816a84ba60e85f4acdc482a2ac17eb456bf83efc50adf75e593387557d7b89"
+    },
+    {
+      "name": "evaluation_s92504_G11_v1.tar.gz",
+      "bytes": 5250451,
+      "sha256": "70442e5fd147b724cee54161e5a13c8433088d02adee5821ec4cf46e5dec97ee",
+      "manifest_sha256": "3f89cf8cc7e69247fb2ca4de084b18355e14c46740152801abc2683df128019a"
+    },
+    {
+      "name": "evaluation_s92504_G11S_v1.tar.gz",
+      "bytes": 5246551,
+      "sha256": "95388bc811d3b3cac02c277bb48c5042c7793186e19f6ec24b901ace7e28b339",
+      "manifest_sha256": "e1b1028a8cdf26fc789e903935f0cc520c8feb900e561cdd3407771da8ac424e"
+    },
+    {
+      "name": "evaluation_s92505_G00_v1.tar.gz",
+      "bytes": 5244885,
+      "sha256": "a738ac955e0fcb9e637a728d8a5d4177aff5d3f751da27e1e6e482d0ce430231",
+      "manifest_sha256": "c1c868c8ddda7e0089f61a328a564c945fc18929d52a0fd23aea95301901b323"
+    },
+    {
+      "name": "evaluation_s92505_G10_v1.tar.gz",
+      "bytes": 5256814,
+      "sha256": "f56ae908930109d829c2be210499e5d086d44390c213f5362e1ce9eab8f39672",
+      "manifest_sha256": "d26b628ce660598b33ae9b4c30231d3d52ca1149cd7cd2bff30ab4ee15ca5287"
+    },
+    {
+      "name": "evaluation_s92505_G01_v1.tar.gz",
+      "bytes": 5234850,
+      "sha256": "eb0dedbb5f88f8523618887c48573bbeed3d673337739db6a5249fc5de899bd0",
+      "manifest_sha256": "ce7e910eeba6c78fd2d8f8e26d27a2b9881dfa75f2414e357daf402ed83fa2de"
+    },
+    {
+      "name": "evaluation_s92505_G11_v1.tar.gz",
+      "bytes": 5251224,
+      "sha256": "c8bee2abe3dce046e2dc6481cad562300ff30965f85ef0273d5d7471b2c05a6e",
+      "manifest_sha256": "b82e42814ba87e2ca3a189dcb1e1f4fa8993ddc6899690c67566372302642de5"
+    },
+    {
+      "name": "evaluation_s92505_G11S_v1.tar.gz",
+      "bytes": 5242448,
+      "sha256": "daf8a9b5770239cce3ff187d54761524cfda43e6f191b0b4fb54dfc476d2c566",
+      "manifest_sha256": "b99c8bc13dadd6a17bad4de3518b534e37055f95d418ef6b79f81a62d8112249"
+    },
+    {
+      "name": "evaluation_s92506_G00_v1.tar.gz",
+      "bytes": 5247687,
+      "sha256": "d2acaaa946a957603a4e7531f2e96764a48d134644a55c3e2837b0e5a85badc2",
+      "manifest_sha256": "c2df0c91d5ac9d676aad996aa77f8c003c9636862da404a6f8f90f1a1e3fae40"
+    },
+    {
+      "name": "evaluation_s92506_G10_v1.tar.gz",
+      "bytes": 5263021,
+      "sha256": "93908632b04fe1bf740abf225713372e8a81e1053d046bdbd5a7c9013b22cb16",
+      "manifest_sha256": "c214dd86ad2ca3887ab5e51a6fe3a073283953465868fc3268923ca443814226"
+    },
+    {
+      "name": "evaluation_s92506_G01_v1.tar.gz",
+      "bytes": 5238073,
+      "sha256": "cc8e431b369bf93e65fac947585f418e0d6152a386d7324b1a7ddfb309d02b93",
+      "manifest_sha256": "ebbc94160a6d89edd316d4730c8e2cb71fe085766069f80802e6788a7d84ec1a"
+    },
+    {
+      "name": "evaluation_s92506_G11_v1.tar.gz",
+      "bytes": 5255984,
+      "sha256": "8321dfc16b3e25f8b096ec88a57b63582643745dfc561e4c3d8f5b48630baf43",
+      "manifest_sha256": "5cecfb838739754bdeda96fac3d0d77fc74ae14b5ba115714aa13f0d00958876"
+    },
+    {
+      "name": "evaluation_s92506_G11S_v1.tar.gz",
+      "bytes": 5247525,
+      "sha256": "bb187658b83e076d8f563f403830231a95c06f4ebaf8fa282d0d43622dd8d4d3",
+      "manifest_sha256": "af9ea23a3f8fe1374167d833f96296b978412e0e629a2f03ce80097fde58cef6"
+    }
+  ],
+  "members": [
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/reference/generation_reference.npz",
+      "bytes": 240957,
+      "sha256": "799e3e9d22666c0baa7d5a2cab7c813e44ba0f301a396bc6c4edfaed60f8fe19",
+      "archive": "reference_complete_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G00/generation/statistics.npz",
+      "bytes": 42713,
+      "sha256": "cf9149a7663ae43f447760685821df57449759ed48035c6b78f3d367394b4a9d",
+      "archive": "evaluation_s92501_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G00/generation/shard_00000.npz",
+      "bytes": 312764,
+      "sha256": "a014fda2a02a3bd1f4d14cbd7f887dce46f0f9138fe7a3e4224222d183df76f0",
+      "archive": "evaluation_s92501_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G00/generation/shard_00016.npz",
+      "bytes": 312721,
+      "sha256": "92909460e8e7677dd2caf973890e71912f8d1554e82fe195b4b995d9b38c1f69",
+      "archive": "evaluation_s92501_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G00/generation/shard_00032.npz",
+      "bytes": 313562,
+      "sha256": "02573a73e07c4c6e828ffb74840f83b84916c4c32ed451fe619b2eac410ec419",
+      "archive": "evaluation_s92501_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G00/generation/shard_00048.npz",
+      "bytes": 312121,
+      "sha256": "24a5cc243b937d713db185349d6c3f348c86a40042d4801f9ed3ad11ec83dc7e",
+      "archive": "evaluation_s92501_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G10/generation/statistics.npz",
+      "bytes": 42855,
+      "sha256": "29c47a8d5cb53bdb922f3de99dad30c7dbdc5c8d0ab738a0d5854b7a6cefbb36",
+      "archive": "evaluation_s92501_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G10/generation/shard_00000.npz",
+      "bytes": 312737,
+      "sha256": "01a7c4c4b6edd8be5807cff5c9bf5f977d6b318f67058f2029d0d088691ab202",
+      "archive": "evaluation_s92501_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G10/generation/shard_00016.npz",
+      "bytes": 312775,
+      "sha256": "636e162924a1393b3fd12da447d533b342dcc3f8e9bd29d8a6d3d4fcb2a190cf",
+      "archive": "evaluation_s92501_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G10/generation/shard_00032.npz",
+      "bytes": 313133,
+      "sha256": "59d22b6419eeea70b0333cfaae85fc60d3aeb0f563a526ac9b99e485cc028140",
+      "archive": "evaluation_s92501_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G10/generation/shard_00048.npz",
+      "bytes": 311829,
+      "sha256": "5c246b61499c4b788299f9e1bb7f87425d98045463cb4035ce193e427e19b8fa",
+      "archive": "evaluation_s92501_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G01/generation/statistics.npz",
+      "bytes": 42960,
+      "sha256": "a919e807c51f57314fc455d77dfe4114390a536e49b7ef1f22a9e651b8c0dc3c",
+      "archive": "evaluation_s92501_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G01/generation/shard_00000.npz",
+      "bytes": 313995,
+      "sha256": "6d53fb5d989077328d47dc64bece843c56fd74d175e9f6f49bb2488ce980735d",
+      "archive": "evaluation_s92501_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G01/generation/shard_00016.npz",
+      "bytes": 313830,
+      "sha256": "cc1f19d1a8dabb5614d85f4c18b6ef7088287236e70c78822f4f88acc889455d",
+      "archive": "evaluation_s92501_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G01/generation/shard_00032.npz",
+      "bytes": 314127,
+      "sha256": "95a1d96db5ef3424dfd05ef14526f0c0bee1aa03e0eb12021cf43c60cdd9d37a",
+      "archive": "evaluation_s92501_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G01/generation/shard_00048.npz",
+      "bytes": 313431,
+      "sha256": "f16beba7754f7c51bf5e761e2142e1110fce15ba97fcbfad1efcf7b9db839376",
+      "archive": "evaluation_s92501_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G11/generation/statistics.npz",
+      "bytes": 43383,
+      "sha256": "e031a1a1e9982b2c1b5c6888c76f32afcd521e2b594acba8e3c098fc9dedddc7",
+      "archive": "evaluation_s92501_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G11/generation/shard_00000.npz",
+      "bytes": 313829,
+      "sha256": "3c29446ef746ae477a1ae8574b885cdd9f74dd1ff488d5205b2706e5791d612a",
+      "archive": "evaluation_s92501_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G11/generation/shard_00016.npz",
+      "bytes": 314163,
+      "sha256": "9184386db789818afb8370dcb0f0c17b526b816032ccebed1af8740b54825259",
+      "archive": "evaluation_s92501_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G11/generation/shard_00032.npz",
+      "bytes": 314177,
+      "sha256": "bdc13ce635ca3b3f4b7d404c17eb7d62d8976f4e28d02edbd115581d711101af",
+      "archive": "evaluation_s92501_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G11/generation/shard_00048.npz",
+      "bytes": 313799,
+      "sha256": "81245f801b52024128ec6f73e079370b84696b4c931c4538183e8aa9e1cb8c97",
+      "archive": "evaluation_s92501_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G11S/generation/statistics.npz",
+      "bytes": 42906,
+      "sha256": "e3c518b08966132638551075e82f91a76ea035ac3633ae1b860c3aee6f6f1c80",
+      "archive": "evaluation_s92501_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G11S/generation/shard_00000.npz",
+      "bytes": 313843,
+      "sha256": "cc51474151f7b2c1c2eab9f3ac33ad8674be3c715c47e173d91b20fdcf28c056",
+      "archive": "evaluation_s92501_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G11S/generation/shard_00016.npz",
+      "bytes": 313888,
+      "sha256": "7050c04005b10727531f962b93d7cf7d4f05a727b3d53e84612455940ec11e3e",
+      "archive": "evaluation_s92501_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G11S/generation/shard_00032.npz",
+      "bytes": 314061,
+      "sha256": "be8efd12cf167c0c16e79aa0b79ca30db8cba739530adba93573505497ec71f4",
+      "archive": "evaluation_s92501_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92501_G11S/generation/shard_00048.npz",
+      "bytes": 313341,
+      "sha256": "3c7d0c57abe14da1aca18c2975daffaadc677c3e21e401aaf1d31be06b61bec0",
+      "archive": "evaluation_s92501_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G00/generation/statistics.npz",
+      "bytes": 42203,
+      "sha256": "31e6e6ea261ae5a7485fe0ce54f97c26f1638a7b20f35c99ba02778dd6e9c5e6",
+      "archive": "evaluation_s92502_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G00/generation/shard_00000.npz",
+      "bytes": 311968,
+      "sha256": "f7526f3f484b64d5b8e178bd344779c2c8cbb308fd43a8380b8a8c622ada08dd",
+      "archive": "evaluation_s92502_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G00/generation/shard_00016.npz",
+      "bytes": 312818,
+      "sha256": "cb50de61df62607e29e4d186121e4038a6bf56684c5f1acd6c24631a40f628be",
+      "archive": "evaluation_s92502_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G00/generation/shard_00032.npz",
+      "bytes": 312146,
+      "sha256": "0a0796864db76596946790d9329d4a973e4b66512086077d63a648ec059484db",
+      "archive": "evaluation_s92502_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G00/generation/shard_00048.npz",
+      "bytes": 313185,
+      "sha256": "ab1a79db17defe6a4feee92bb66799ae23d279c93a04b34954908035b403f738",
+      "archive": "evaluation_s92502_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G10/generation/statistics.npz",
+      "bytes": 42829,
+      "sha256": "3dee8fc518d13a91bf879353830712d3899075598146017c7bdad9fd4eb0965d",
+      "archive": "evaluation_s92502_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G10/generation/shard_00000.npz",
+      "bytes": 312456,
+      "sha256": "69117126139a2bd2aa4b96966f4d6a5d23f3aba13a656cdbf18445e3a8dc69ed",
+      "archive": "evaluation_s92502_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G10/generation/shard_00016.npz",
+      "bytes": 313254,
+      "sha256": "3390560356a9747eddd69b57f507e299f33db3a173ed63cfbe1c7b9efc664585",
+      "archive": "evaluation_s92502_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G10/generation/shard_00032.npz",
+      "bytes": 313210,
+      "sha256": "25977395a3142aa7192f0214fada35f7c20d0f36e6599761ba7ddecd79d16f21",
+      "archive": "evaluation_s92502_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G10/generation/shard_00048.npz",
+      "bytes": 312989,
+      "sha256": "af078b360be732a7471df479e25f4a5b83d88c74fee0ca06bb96055bd19d4d0f",
+      "archive": "evaluation_s92502_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G01/generation/statistics.npz",
+      "bytes": 42731,
+      "sha256": "c86e1cd3de378ef3a1d34593b36d30c3ce3ded4026c4407797c02194fa5e7c1b",
+      "archive": "evaluation_s92502_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G01/generation/shard_00000.npz",
+      "bytes": 313615,
+      "sha256": "76acb9f11964cdd0be8186472d5e0e3cfc807fc46769da9c642c9291d9227d13",
+      "archive": "evaluation_s92502_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G01/generation/shard_00016.npz",
+      "bytes": 314871,
+      "sha256": "d6bc365aba9e5538a39694245fd94d855b4a2ebd8f35f6b9c22968cd6a85b5a7",
+      "archive": "evaluation_s92502_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G01/generation/shard_00032.npz",
+      "bytes": 314332,
+      "sha256": "5c77c8701d12832dc4a4de6828f818f9be66c9de16c723ebd451c65a66736d6f",
+      "archive": "evaluation_s92502_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G01/generation/shard_00048.npz",
+      "bytes": 314263,
+      "sha256": "46bad3ed1b3664ea750c4c8aaa40e35f2875394c187944899253b54354537551",
+      "archive": "evaluation_s92502_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G11/generation/statistics.npz",
+      "bytes": 43096,
+      "sha256": "0b242cc65c60850611c0a1e9b4a33907b4d41049b2f8a7b61f4fb34cda9ce275",
+      "archive": "evaluation_s92502_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G11/generation/shard_00000.npz",
+      "bytes": 313593,
+      "sha256": "ff382fcad3bf9d46c3a22340b832d38a8ad56cb42c43ce5dcb03d2f4cc88dee7",
+      "archive": "evaluation_s92502_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G11/generation/shard_00016.npz",
+      "bytes": 315052,
+      "sha256": "a207e8580b6988553ab24256cb2f5bc28cc41a542754b5f51c408b94b8ad4e35",
+      "archive": "evaluation_s92502_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G11/generation/shard_00032.npz",
+      "bytes": 314581,
+      "sha256": "0d9fc7348001f88e0e90b8eb759a978245121663aaf15fd13406c78eee4e8b26",
+      "archive": "evaluation_s92502_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G11/generation/shard_00048.npz",
+      "bytes": 313990,
+      "sha256": "7b6164c7e1d9ff96441ff6f755f7890d6cf7d61f7ef2ca4934ebc7b8b4ffdbf8",
+      "archive": "evaluation_s92502_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G11S/generation/statistics.npz",
+      "bytes": 42875,
+      "sha256": "52a773689f85e7e286210b18248a1f058bd36b064df91ebbd6354c3958892f7b",
+      "archive": "evaluation_s92502_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G11S/generation/shard_00000.npz",
+      "bytes": 313736,
+      "sha256": "2c943d6a099778ddc58a5a7ea275f85e93654e81984d6b965a03d57905616dff",
+      "archive": "evaluation_s92502_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G11S/generation/shard_00016.npz",
+      "bytes": 315057,
+      "sha256": "240f6d8f0a6c28cc86ecbe6bb78d573a50c6a71f68c6808c2e2030785ea1a104",
+      "archive": "evaluation_s92502_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G11S/generation/shard_00032.npz",
+      "bytes": 314769,
+      "sha256": "9dd13dbfd57cdb2ca77e7fe5149d36357cae1d38d53f77c051446a708ba1b2cd",
+      "archive": "evaluation_s92502_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92502_G11S/generation/shard_00048.npz",
+      "bytes": 314057,
+      "sha256": "16145ce7701ec2374827efad512a5b9050a5e6da8e5297e90cd99793b2b63585",
+      "archive": "evaluation_s92502_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G00/generation/statistics.npz",
+      "bytes": 43280,
+      "sha256": "54c89bfba1b6c6b38ab6e3a990947a72f8283aed01aa4ad6d8854a04aaa976b8",
+      "archive": "evaluation_s92503_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G00/generation/shard_00000.npz",
+      "bytes": 313044,
+      "sha256": "24cbf3b9f01c33d48d0bd3686ea0839f76f6d0d60e2ec9bcb4863aaad92a25ea",
+      "archive": "evaluation_s92503_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G00/generation/shard_00016.npz",
+      "bytes": 312708,
+      "sha256": "5cfdaeca9c713018b9a9b4af3a270120578a7df39229cf4f9281665b345c8c19",
+      "archive": "evaluation_s92503_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G00/generation/shard_00032.npz",
+      "bytes": 313774,
+      "sha256": "bd8978e8a75c77d0899d8e2e9b709be226770a18ae4b83407cefb49d957f922e",
+      "archive": "evaluation_s92503_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G00/generation/shard_00048.npz",
+      "bytes": 311881,
+      "sha256": "1705c88f675488fa9a6836805942853cdad6ac457dfd2f827238f4458e4fdc48",
+      "archive": "evaluation_s92503_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G10/generation/statistics.npz",
+      "bytes": 43463,
+      "sha256": "35d9cd314949aac088ff7ba804ae34417c6972bdd68d7086dce1351126057a13",
+      "archive": "evaluation_s92503_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G10/generation/shard_00000.npz",
+      "bytes": 313874,
+      "sha256": "91b413c8c2c8f362c190ab99ef616b67d5459178434e9b42bd0e95dc0013866b",
+      "archive": "evaluation_s92503_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G10/generation/shard_00016.npz",
+      "bytes": 314015,
+      "sha256": "644dcfeaad70b3d00a97c70c340260276881e9e9f7fcaacd8f70c0f9d9d0889a",
+      "archive": "evaluation_s92503_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G10/generation/shard_00032.npz",
+      "bytes": 313386,
+      "sha256": "a2c87338ca1b412d3483876473c2d551aff1b835084e8f037caf3ed3a7fbe8d6",
+      "archive": "evaluation_s92503_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G10/generation/shard_00048.npz",
+      "bytes": 311556,
+      "sha256": "4c8e7f74a599b446f692dbfcf4327d4333880afd1d44cb4ba6a005eaf310fb2e",
+      "archive": "evaluation_s92503_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G01/generation/statistics.npz",
+      "bytes": 43456,
+      "sha256": "89f28920cfed19211ea4393829b758cb3dcf75069dc9e516542ab4088643b785",
+      "archive": "evaluation_s92503_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G01/generation/shard_00000.npz",
+      "bytes": 314841,
+      "sha256": "0cf92b1c70f91e70b7046ee242d2af5a287e1d62e849e42a2c7b3182a3264bb3",
+      "archive": "evaluation_s92503_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G01/generation/shard_00016.npz",
+      "bytes": 314806,
+      "sha256": "ab27495563975bb054a7eeb55d6439815a0463a6113506382f439147677b65e1",
+      "archive": "evaluation_s92503_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G01/generation/shard_00032.npz",
+      "bytes": 314553,
+      "sha256": "bd4b9b3d01d49ee39017069a056dd518f4b89b31e917f70ea05f03d99aa33d98",
+      "archive": "evaluation_s92503_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G01/generation/shard_00048.npz",
+      "bytes": 313811,
+      "sha256": "89743561449d2a83d600bd76012fadb5e560d977837ce981bdfff372701d6e75",
+      "archive": "evaluation_s92503_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G11/generation/statistics.npz",
+      "bytes": 43595,
+      "sha256": "a567aa330603cfcf469decdf2ce5651571f4a6d2ee32526c6b67c63aea023e8f",
+      "archive": "evaluation_s92503_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G11/generation/shard_00000.npz",
+      "bytes": 314638,
+      "sha256": "af226b5801b456654f2101a6cbe97c445db43bfa13816781c9d7930d8228f595",
+      "archive": "evaluation_s92503_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G11/generation/shard_00016.npz",
+      "bytes": 315057,
+      "sha256": "b36264c487fff59c3c2b4f6e165b05e0c6207eeabbf7c83d3217b0d743109387",
+      "archive": "evaluation_s92503_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G11/generation/shard_00032.npz",
+      "bytes": 314543,
+      "sha256": "8d2243bd009d86ed7320c02e162b2c865818a6ec972253401ae3d20ce3bb0525",
+      "archive": "evaluation_s92503_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G11/generation/shard_00048.npz",
+      "bytes": 314311,
+      "sha256": "a9f8a6415e4eff2d3c24cd700f387cd628a40852002cdf88a6e1b5024441798a",
+      "archive": "evaluation_s92503_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G11S/generation/statistics.npz",
+      "bytes": 43580,
+      "sha256": "6712553d7d8f31d6be1f5c5b829ab9a3184d3b371d103c22cdf0b8c26bcc56fb",
+      "archive": "evaluation_s92503_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G11S/generation/shard_00000.npz",
+      "bytes": 315041,
+      "sha256": "b3ecdb13f9b66508c623efe786876bb195476b7ed9f5c080e5821a128ad70596",
+      "archive": "evaluation_s92503_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G11S/generation/shard_00016.npz",
+      "bytes": 315399,
+      "sha256": "ef192e14032548a8836426339db8dd0d41d8c1743d3a4ced9ff0acb2fe7d1eeb",
+      "archive": "evaluation_s92503_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G11S/generation/shard_00032.npz",
+      "bytes": 315019,
+      "sha256": "2376925e28b17e1fe6a748385e0ed1e3dea2f886e05676316e203627e4f45fec",
+      "archive": "evaluation_s92503_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92503_G11S/generation/shard_00048.npz",
+      "bytes": 314698,
+      "sha256": "67e47aca15f254c485db225927dc49da8d8868b5acf0534e4719ba20c10609fd",
+      "archive": "evaluation_s92503_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G00/generation/statistics.npz",
+      "bytes": 42782,
+      "sha256": "78a40f45879fac84fe8cc169bd008153aa0660a063e9da995e087de732889900",
+      "archive": "evaluation_s92504_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G00/generation/shard_00000.npz",
+      "bytes": 312429,
+      "sha256": "0d721ea9fc08ea2e4f0d823f0797484a1edca95c62c86c71e34ae5248c211b61",
+      "archive": "evaluation_s92504_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G00/generation/shard_00016.npz",
+      "bytes": 313728,
+      "sha256": "57243f366b2d4ad74d337efb7e9b77e9d165d49d2b12af4b0d0f680957a12a33",
+      "archive": "evaluation_s92504_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G00/generation/shard_00032.npz",
+      "bytes": 313495,
+      "sha256": "f3662b7e7810e6d91db576dc7f282b0e8645923704cd3ea0e7fb03b33835dfc0",
+      "archive": "evaluation_s92504_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G00/generation/shard_00048.npz",
+      "bytes": 312968,
+      "sha256": "f7287057ca27dd1d494e2e54929c6cf472e1181d887303c31364153fa53112f1",
+      "archive": "evaluation_s92504_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G10/generation/statistics.npz",
+      "bytes": 42920,
+      "sha256": "9b84d6b3d3500eb6702592582fece39c980fc6bcdba96f69399cc4553d138762",
+      "archive": "evaluation_s92504_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G10/generation/shard_00000.npz",
+      "bytes": 312865,
+      "sha256": "66978d4d409a9dd4362865144230b89b4f25f1cf6e415444671dcb560d6485b9",
+      "archive": "evaluation_s92504_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G10/generation/shard_00016.npz",
+      "bytes": 313430,
+      "sha256": "edc9a2d7caa802a6442b51499be26506f0a932e8fbfba179a88721c4166e4087",
+      "archive": "evaluation_s92504_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G10/generation/shard_00032.npz",
+      "bytes": 313881,
+      "sha256": "59643ba893f83068a7e592d149c7484d5047e7e72ae63ce3c2c287e97a885311",
+      "archive": "evaluation_s92504_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G10/generation/shard_00048.npz",
+      "bytes": 312525,
+      "sha256": "0cedc302913358aa51bcf7731c44b3dab133382d01a0ceb26f0b0062eca27b09",
+      "archive": "evaluation_s92504_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G01/generation/statistics.npz",
+      "bytes": 42785,
+      "sha256": "0d41f36125eb8acd04534a7011356c2728b53ab9899324abaaca0cee5eea83b3",
+      "archive": "evaluation_s92504_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G01/generation/shard_00000.npz",
+      "bytes": 313481,
+      "sha256": "ffaf8ba4a0a13950e0684201a4f4c42423090612d4d6902683ca5b4f901614ea",
+      "archive": "evaluation_s92504_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G01/generation/shard_00016.npz",
+      "bytes": 313648,
+      "sha256": "5dd2851a207d1e552a25555ef5a3d8574b0431da89ade27a55efc745bb91f0e0",
+      "archive": "evaluation_s92504_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G01/generation/shard_00032.npz",
+      "bytes": 313697,
+      "sha256": "5bc5ae46ab29cd09229f567db3128a0f505f5d5aec18cfd13fc779c15055f02e",
+      "archive": "evaluation_s92504_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G01/generation/shard_00048.npz",
+      "bytes": 313452,
+      "sha256": "2131a8de72d11cadd844b1834c8f558d7ddd3cda250067a9df8fbbeb61d06b20",
+      "archive": "evaluation_s92504_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G11/generation/statistics.npz",
+      "bytes": 43453,
+      "sha256": "38245d252600e83239590a15226fcce0cf6a9685e141c78df13805945b48ae4b",
+      "archive": "evaluation_s92504_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G11/generation/shard_00000.npz",
+      "bytes": 314326,
+      "sha256": "b600476abf8c1e4c92916c3756cf4578cd63d29f817c848e25ff51df876710c4",
+      "archive": "evaluation_s92504_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G11/generation/shard_00016.npz",
+      "bytes": 314431,
+      "sha256": "344bbd2d399e0948d77986a55bd28ad043c081c27f469a5703da0f504edb5a60",
+      "archive": "evaluation_s92504_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G11/generation/shard_00032.npz",
+      "bytes": 314423,
+      "sha256": "75560b9813dcdfd0f0eb2ded34a2c870089650efb41001d0a6609e17875f288b",
+      "archive": "evaluation_s92504_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G11/generation/shard_00048.npz",
+      "bytes": 314405,
+      "sha256": "f790a29ca9bbb57fec060ad764cff7f35e072616d5df34da843658e7a400021d",
+      "archive": "evaluation_s92504_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G11S/generation/statistics.npz",
+      "bytes": 43271,
+      "sha256": "975313bc8de27aaa30a77ed0cc292046fd74d5721e1ab0e55709e1c24099ff5c",
+      "archive": "evaluation_s92504_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G11S/generation/shard_00000.npz",
+      "bytes": 313844,
+      "sha256": "7368499977b3fbd868560937f8ad6e032267115d6d1178d0ae77e208346c58c6",
+      "archive": "evaluation_s92504_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G11S/generation/shard_00016.npz",
+      "bytes": 313926,
+      "sha256": "2a2bc4187dedd65ef703450d656b1a5a83181eef87fd1830d5026edee06c6672",
+      "archive": "evaluation_s92504_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G11S/generation/shard_00032.npz",
+      "bytes": 313887,
+      "sha256": "a0dcfb4d2dfa5a8c3ee945438a5d4bb62fa098ae5bd35034a0547b98ad02f0d3",
+      "archive": "evaluation_s92504_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92504_G11S/generation/shard_00048.npz",
+      "bytes": 313537,
+      "sha256": "3fabfe1fa336362bea08f90ae85d6f1d4c015792afe24bbe4fa403894c732680",
+      "archive": "evaluation_s92504_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G00/generation/statistics.npz",
+      "bytes": 42620,
+      "sha256": "31b653713956ccda578590bce9953461827f42c6d902702e614b847bfaed97ee",
+      "archive": "evaluation_s92505_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G00/generation/shard_00000.npz",
+      "bytes": 312707,
+      "sha256": "9180ca8d0e6e2424d2a1be8b3cf926b8eeb3ab73cc3c035802b7b2eec55d9ddc",
+      "archive": "evaluation_s92505_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G00/generation/shard_00016.npz",
+      "bytes": 311270,
+      "sha256": "98088b280871ba00e4e1b5dad9645391249ce887032e64a4eeb03832d2485c2b",
+      "archive": "evaluation_s92505_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G00/generation/shard_00032.npz",
+      "bytes": 311947,
+      "sha256": "2dace45f76e9fd2d0d1f801f592d5f4ca8dc55908a5f663f73f8c91b0da8af98",
+      "archive": "evaluation_s92505_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G00/generation/shard_00048.npz",
+      "bytes": 312196,
+      "sha256": "055806f6c6af0121eae775fe6dbd095ab7630d8780877c4b47f5d94e0758e7e5",
+      "archive": "evaluation_s92505_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G10/generation/statistics.npz",
+      "bytes": 42546,
+      "sha256": "5cf4846e621552ed023d1b643b3cd9d15b143d33ec48c5276f7ac6d7f9b03a0c",
+      "archive": "evaluation_s92505_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G10/generation/shard_00000.npz",
+      "bytes": 312002,
+      "sha256": "c535748139a2ea9cced8b7631e2e09401aad3229495659ba9b6d2887bebb0999",
+      "archive": "evaluation_s92505_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G10/generation/shard_00016.npz",
+      "bytes": 312319,
+      "sha256": "ca7c1f1dde7642b1734d77225d0d5cc8cf7526d13c8e238a1317641b302163a3",
+      "archive": "evaluation_s92505_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G10/generation/shard_00032.npz",
+      "bytes": 312526,
+      "sha256": "11e5249620f3b39b24378b447ff6c03e1d59d925f211d36a9c9e9648e1fb3690",
+      "archive": "evaluation_s92505_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G10/generation/shard_00048.npz",
+      "bytes": 313136,
+      "sha256": "09fe7e8632a663b5c3d5c5a5b6170be010cb357f649bb10cf582e98a6c50f7b4",
+      "archive": "evaluation_s92505_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G01/generation/statistics.npz",
+      "bytes": 42683,
+      "sha256": "6ce2c38953c1c4317de2c80e0f2711959dfab995ebc2f0b1d2e0833aa8593a5d",
+      "archive": "evaluation_s92505_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G01/generation/shard_00000.npz",
+      "bytes": 313706,
+      "sha256": "c0e4068da5d8a48a7424f34b73ec815e6f2047285fc8de9c7418ba3c3e8ec5cd",
+      "archive": "evaluation_s92505_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G01/generation/shard_00016.npz",
+      "bytes": 313572,
+      "sha256": "d8db9e3f08f748ec5edf00c35d346e8d593a14a3cd985b9c9bcdd045be6e8573",
+      "archive": "evaluation_s92505_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G01/generation/shard_00032.npz",
+      "bytes": 313600,
+      "sha256": "8e924f265876d78799895c1b2bc641527c9d5244d2c5e23c163c9e100a11a2c2",
+      "archive": "evaluation_s92505_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G01/generation/shard_00048.npz",
+      "bytes": 313935,
+      "sha256": "7e6269ba62698455b8eb4d400624a81c9effc252b6a44b8411ca158e8c5ea47c",
+      "archive": "evaluation_s92505_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G11/generation/statistics.npz",
+      "bytes": 43092,
+      "sha256": "3510ba08fa12474c721381f52ef9bf8579c53185f5552b4894f729c2d36480df",
+      "archive": "evaluation_s92505_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G11/generation/shard_00000.npz",
+      "bytes": 313509,
+      "sha256": "e36c6bf65f3fab811afcbd062484cfb938e90a93890685c3d4abc4da0aa4927d",
+      "archive": "evaluation_s92505_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G11/generation/shard_00016.npz",
+      "bytes": 314087,
+      "sha256": "b0e384dd8317a2815190576052f4910c2a7cbcc437492bbb8f11ef9259d49073",
+      "archive": "evaluation_s92505_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G11/generation/shard_00032.npz",
+      "bytes": 314021,
+      "sha256": "461776bcc71d10cdb9497da357cce97b2f355d1079470c3dab4e32bd42136fde",
+      "archive": "evaluation_s92505_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G11/generation/shard_00048.npz",
+      "bytes": 314174,
+      "sha256": "b7def19948e3017359e841df56ba16bc2ae6d99fc8046bc3c7b54f319036e600",
+      "archive": "evaluation_s92505_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G11S/generation/statistics.npz",
+      "bytes": 42719,
+      "sha256": "65ee7081d0623d2c1ec815d19a7be31321c66e0168c4e7aa5ca87aa3559124b0",
+      "archive": "evaluation_s92505_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G11S/generation/shard_00000.npz",
+      "bytes": 313203,
+      "sha256": "21d368341619ac357cfb816915e8f479c6794b38b154ac9ffad190ffdce47354",
+      "archive": "evaluation_s92505_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G11S/generation/shard_00016.npz",
+      "bytes": 313194,
+      "sha256": "ed07aebf4b0165f2676157d090424565abaf717ce18471946689de017f0fcb47",
+      "archive": "evaluation_s92505_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G11S/generation/shard_00032.npz",
+      "bytes": 313411,
+      "sha256": "cc099a9c91f40272aad8c6da055213802b9a4c999520da5dbc1e9bba823f5940",
+      "archive": "evaluation_s92505_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92505_G11S/generation/shard_00048.npz",
+      "bytes": 313809,
+      "sha256": "7d33890aca377674469185ad94143e2df130e7548b6a444d1615ecbce434f64b",
+      "archive": "evaluation_s92505_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G00/generation/statistics.npz",
+      "bytes": 42446,
+      "sha256": "c2eb488d6455936cab2402c518dbfa8fb089d94634bc2ea952c706ec07065cc4",
+      "archive": "evaluation_s92506_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G00/generation/shard_00000.npz",
+      "bytes": 311584,
+      "sha256": "f9f99a2bf66151cf346388e94e4773470b5078f53205eb27172ab7352fe8f3f2",
+      "archive": "evaluation_s92506_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G00/generation/shard_00016.npz",
+      "bytes": 313167,
+      "sha256": "69cc2fdd639025c9572326ab270251eaca53c57900655fe4b733ede5e36622b9",
+      "archive": "evaluation_s92506_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G00/generation/shard_00032.npz",
+      "bytes": 312195,
+      "sha256": "115890c16e08847820cb6a2551aed2b9df56f55062fe29a983cff3390f38716c",
+      "archive": "evaluation_s92506_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G00/generation/shard_00048.npz",
+      "bytes": 311669,
+      "sha256": "5d6e671c65bfcd60b34b923163a5680217931f3d8f78d31f82af56fce6ab2b09",
+      "archive": "evaluation_s92506_G00_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G10/generation/statistics.npz",
+      "bytes": 42899,
+      "sha256": "66e0e7257c5b85f384ce37d0be78f88c8bcbddede940a66e342626fc5822cf4c",
+      "archive": "evaluation_s92506_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G10/generation/shard_00000.npz",
+      "bytes": 312928,
+      "sha256": "02282a6992f32c758dd9c50e793b85a6e4944427175b754eb2bf382f7059e022",
+      "archive": "evaluation_s92506_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G10/generation/shard_00016.npz",
+      "bytes": 313265,
+      "sha256": "f71b717070e1bdab480087cb2bf6c94c3d343acaf8251fb8ad3c67143ee1cf8d",
+      "archive": "evaluation_s92506_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G10/generation/shard_00032.npz",
+      "bytes": 312736,
+      "sha256": "e6732ea1bc955869f4146e7b0c70dcadee342c55022bdef90eed67d910d1111b",
+      "archive": "evaluation_s92506_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G10/generation/shard_00048.npz",
+      "bytes": 312766,
+      "sha256": "8419c7730b4b603e749104327beb4425832766b396adc69bda864dfe07978ed9",
+      "archive": "evaluation_s92506_G10_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G01/generation/statistics.npz",
+      "bytes": 42980,
+      "sha256": "948145827602f1a58485081cadf6a4dcc425d2f96ac8c435296281005e3118ac",
+      "archive": "evaluation_s92506_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G01/generation/shard_00000.npz",
+      "bytes": 313895,
+      "sha256": "616cf1f3d3c81fa01aaf843c9e1a8d250051cb6b05ca9f5ca0d10da89a730da6",
+      "archive": "evaluation_s92506_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G01/generation/shard_00016.npz",
+      "bytes": 314630,
+      "sha256": "6fc880ed930fe0a494f12a85b70dc46447b52e456ae67650fa6d3d19994797c4",
+      "archive": "evaluation_s92506_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G01/generation/shard_00032.npz",
+      "bytes": 314116,
+      "sha256": "61eaf3e46bd501065090aeb71e462a17d0bcf5f0c52124b647015c314a4a0425",
+      "archive": "evaluation_s92506_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G01/generation/shard_00048.npz",
+      "bytes": 313914,
+      "sha256": "8a2705066bcacf98404b3acb51c94b7585e553527ed4079d4b9eaed88a5b5670",
+      "archive": "evaluation_s92506_G01_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G11/generation/statistics.npz",
+      "bytes": 43510,
+      "sha256": "785f2a137733d8f0b5c7caee672ffd4bc04f07c1fc868b73b5c72a5231af28e2",
+      "archive": "evaluation_s92506_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G11/generation/shard_00000.npz",
+      "bytes": 314942,
+      "sha256": "b5b0e56be5c1d53baeb5e93fec4c14cec5ff7cb210a0a14f7c0bd440cfed94b5",
+      "archive": "evaluation_s92506_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G11/generation/shard_00016.npz",
+      "bytes": 314808,
+      "sha256": "5376e8aabfc087d5c6fb842b0d915931cc8b058e43ef8eee133188e24f845ee9",
+      "archive": "evaluation_s92506_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G11/generation/shard_00032.npz",
+      "bytes": 314245,
+      "sha256": "6d37f3b24fcf46b9c77fab6608f05b84c5972b08002344977df855419002d84d",
+      "archive": "evaluation_s92506_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G11/generation/shard_00048.npz",
+      "bytes": 314229,
+      "sha256": "654c5f341a18707cee9d8c315916adc6db32633843fab574b5f276bfc73b6649",
+      "archive": "evaluation_s92506_G11_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G11S/generation/statistics.npz",
+      "bytes": 43292,
+      "sha256": "99aded430e457d2c1c11015225a675d854a3db7270c7aeef21a58488040a95c3",
+      "archive": "evaluation_s92506_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G11S/generation/shard_00000.npz",
+      "bytes": 314320,
+      "sha256": "fb2618b7fcef9b1c4bb9f35301fa854f5bd91fef183fae5ca30eebb33a606846",
+      "archive": "evaluation_s92506_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G11S/generation/shard_00016.npz",
+      "bytes": 314693,
+      "sha256": "7c7304269cb9b171b45ac8d968b72b5844dca922503c334d30b819aa6d40f89a",
+      "archive": "evaluation_s92506_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G11S/generation/shard_00032.npz",
+      "bytes": 314093,
+      "sha256": "54b7ffbecb89b84b68a6f985f6f1a3528ecec6fb224bfae8f167631bf6928907",
+      "archive": "evaluation_s92506_G11S_v1.tar.gz"
+    },
+    {
+      "path": "artifacts/core_geometry_factorial_20260925/evaluation/s92506_G11S/generation/shard_00048.npz",
+      "bytes": 314221,
+      "sha256": "68dc9adbfd7a35121b6efee79c0f99948b5ae048d024d6b71d978596978c17cf",
+      "archive": "evaluation_s92506_G11S_v1.tar.gz"
+    }
+  ],
+  "package": {
+    "name": "sufficient_statistics.npz",
+    "sha256": "132dbba1fd666b6213e43f01438a846dbd8f08fbde8b4dcba364cd6f1337d1d3",
+    "note": "Scientific numeric subset only; no weights, images or private metadata"
+  }
+}
