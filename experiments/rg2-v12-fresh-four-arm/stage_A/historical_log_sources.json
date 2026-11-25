@@ -1,0 +1,38 @@
+[
+  {
+    "file": "D:\\ISM\\artifacts\\rg_data_training_pilot_20261001_remote\\extracted_rgpilot_v1\\artifacts\\rg_data_training_pilot_20261001\\training\\s92601_fine_only\\log.jsonl",
+    "sha256": "b957349fbfce0c39c6f1adcaa4c0bfccdbfb5a548c26969e706d21277b682509"
+  },
+  {
+    "file": "D:\\ISM\\artifacts\\rg_data_training_pilot_20261001_remote\\extracted_rgpilot_v1\\artifacts\\rg_data_training_pilot_20261001\\training\\s92601_fine_plus_rg\\log.jsonl",
+    "sha256": "e1aca8c2b807ea523fe60afcfbb2f89264770739759dbe23665120b2d01fe904"
+  },
+  {
+    "file": "D:\\ISM\\artifacts\\rg_data_training_pilot_20261001_remote\\extracted_rgpilot_v1\\artifacts\\rg_data_training_pilot_20261001\\training\\s92601_fine_replay\\log.jsonl",
+    "sha256": "b4c63744f13cb4fcc4a27e29740f02a1b30779bcef90b03b02233ce5591c442c"
+  },
+  {
+    "file": "D:\\ISM\\artifacts\\rg_data_training_pilot_20261001_remote\\extracted_rgpilot_v1\\artifacts\\rg_data_training_pilot_20261001\\training\\s92602_fine_only\\log.jsonl",
+    "sha256": "ce1859bd0b6dfe2025c1905a0fc5973d87bbf94048e0f48393ca1f43aea35b94"
+  },
+  {
+    "file": "D:\\ISM\\artifacts\\rg_data_training_pilot_20261001_remote\\extracted_rgpilot_v1\\artifacts\\rg_data_training_pilot_20261001\\training\\s92602_fine_plus_rg\\log.jsonl",
+    "sha256": "6b3d10518af23f4b30e0a57253fa652c4b37aca5512e214ba7bf303c68ac17e3"
+  },
+  {
+    "file": "D:\\ISM\\artifacts\\rg_data_training_pilot_20261001_remote\\extracted_rgpilot_v1\\artifacts\\rg_data_training_pilot_20261001\\training\\s92602_fine_replay\\log.jsonl",
+    "sha256": "ead9ffb0dc562278d23c4c4d93da95adbf7fd917c21e618aef3e3c92fc2dd165"
+  },
+  {
+    "file": "D:\\ISM\\artifacts\\rg_data_training_pilot_20261001_remote\\extracted_rgpilot_v1\\artifacts\\rg_data_training_pilot_20261001\\training\\s92603_fine_only\\log.jsonl",
+    "sha256": "df507122bef58e816d34f329d609a5d4db0aaef8fee718a886984479e36d89f5"
+  },
+  {
+    "file": "D:\\ISM\\artifacts\\rg_data_training_pilot_20261001_remote\\extracted_rgpilot_v1\\artifacts\\rg_data_training_pilot_20261001\\training\\s92603_fine_plus_rg\\log.jsonl",
+    "sha256": "75aa9e4d4f0e0cbf53a06a3a1ffebf105354ffb610fc5365434a66f36ee03858"
+  },
+  {
+    "file": "D:\\ISM\\artifacts\\rg_data_training_pilot_20261001_remote\\extracted_rgpilot_v1\\artifacts\\rg_data_training_pilot_20261001\\training\\s92603_fine_replay\\log.jsonl",
+    "sha256": "83366af71b94f85c23106e43edbe82993a7c6baa6b3b92c9221ef1df79d1cd5d"
+  }
+]

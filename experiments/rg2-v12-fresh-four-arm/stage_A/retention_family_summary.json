@@ -1,0 +1,191 @@
+[
+  {
+    "seed": 92601,
+    "arm": "fine_only",
+    "family": "geometry",
+    "n_tasks": 20,
+    "mean_CE_change": 0.000714647804543551
+  },
+  {
+    "seed": 92601,
+    "arm": "fine_only",
+    "family": "container",
+    "n_tasks": 9,
+    "mean_CE_change": -0.0009132031126483495
+  },
+  {
+    "seed": 92601,
+    "arm": "fine_only",
+    "family": "ordinary",
+    "n_tasks": 6,
+    "mean_CE_change": 0.00037767841240745427
+  },
+  {
+    "seed": 92601,
+    "arm": "fine_plus_rg",
+    "family": "geometry",
+    "n_tasks": 20,
+    "mean_CE_change": 0.004370201612586995
+  },
+  {
+    "seed": 92601,
+    "arm": "fine_plus_rg",
+    "family": "container",
+    "n_tasks": 9,
+    "mean_CE_change": -0.00016119484458550716
+  },
+  {
+    "seed": 92601,
+    "arm": "fine_plus_rg",
+    "family": "ordinary",
+    "n_tasks": 6,
+    "mean_CE_change": 4.6754152313800154e-06
+  },
+  {
+    "seed": 92601,
+    "arm": "fine_replay",
+    "family": "geometry",
+    "n_tasks": 20,
+    "mean_CE_change": 0.002125393983230317
+  },
+  {
+    "seed": 92601,
+    "arm": "fine_replay",
+    "family": "container",
+    "n_tasks": 9,
+    "mean_CE_change": -0.0001815053673728815
+  },
+  {
+    "seed": 92601,
+    "arm": "fine_replay",
+    "family": "ordinary",
+    "n_tasks": 6,
+    "mean_CE_change": 0.001303306059378422
+  },
+  {
+    "seed": 92602,
+    "arm": "fine_only",
+    "family": "geometry",
+    "n_tasks": 20,
+    "mean_CE_change": 0.0014513610394373468
+  },
+  {
+    "seed": 92602,
+    "arm": "fine_only",
+    "family": "container",
+    "n_tasks": 9,
+    "mean_CE_change": -0.0006739847308049224
+  },
+  {
+    "seed": 92602,
+    "arm": "fine_only",
+    "family": "ordinary",
+    "n_tasks": 6,
+    "mean_CE_change": 0.00169912106881198
+  },
+  {
+    "seed": 92602,
+    "arm": "fine_plus_rg",
+    "family": "geometry",
+    "n_tasks": 20,
+    "mean_CE_change": 0.003711371122993627
+  },
+  {
+    "seed": 92602,
+    "arm": "fine_plus_rg",
+    "family": "container",
+    "n_tasks": 9,
+    "mean_CE_change": -0.0006784747007843037
+  },
+  {
+    "seed": 92602,
+    "arm": "fine_plus_rg",
+    "family": "ordinary",
+    "n_tasks": 6,
+    "mean_CE_change": 0.002138048253146138
+  },
+  {
+    "seed": 92602,
+    "arm": "fine_replay",
+    "family": "geometry",
+    "n_tasks": 20,
+    "mean_CE_change": 0.0033061247385432375
+  },
+  {
+    "seed": 92602,
+    "arm": "fine_replay",
+    "family": "container",
+    "n_tasks": 9,
+    "mean_CE_change": -0.0010760017786568083
+  },
+  {
+    "seed": 92602,
+    "arm": "fine_replay",
+    "family": "ordinary",
+    "n_tasks": 6,
+    "mean_CE_change": 0.006357106973929997
+  },
+  {
+    "seed": 92603,
+    "arm": "fine_only",
+    "family": "geometry",
+    "n_tasks": 20,
+    "mean_CE_change": 0.00024381057330445194
+  },
+  {
+    "seed": 92603,
+    "arm": "fine_only",
+    "family": "container",
+    "n_tasks": 9,
+    "mean_CE_change": -0.0006461823992227794
+  },
+  {
+    "seed": 92603,
+    "arm": "fine_only",
+    "family": "ordinary",
+    "n_tasks": 6,
+    "mean_CE_change": -0.001469396791059457
+  },
+  {
+    "seed": 92603,
+    "arm": "fine_plus_rg",
+    "family": "geometry",
+    "n_tasks": 20,
+    "mean_CE_change": 0.004338376634751786
+  },
+  {
+    "seed": 92603,
+    "arm": "fine_plus_rg",
+    "family": "container",
+    "n_tasks": 9,
+    "mean_CE_change": -0.00270297419524601
+  },
+  {
+    "seed": 92603,
+    "arm": "fine_plus_rg",
+    "family": "ordinary",
+    "n_tasks": 6,
+    "mean_CE_change": 0.0018328782808581443
+  },
+  {
+    "seed": 92603,
+    "arm": "fine_replay",
+    "family": "geometry",
+    "n_tasks": 20,
+    "mean_CE_change": 0.0017064250175307394
+  },
+  {
+    "seed": 92603,
+    "arm": "fine_replay",
+    "family": "container",
+    "n_tasks": 9,
+    "mean_CE_change": -0.00033525768997436805
+  },
+  {
+    "seed": 92603,
+    "arm": "fine_replay",
+    "family": "ordinary",
+    "n_tasks": 6,
+    "mean_CE_change": -0.00232036918762942
+  }
+]

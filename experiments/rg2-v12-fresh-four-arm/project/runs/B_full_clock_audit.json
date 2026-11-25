@@ -1,0 +1,42 @@
+{
+  "all_12000_updates_per_model_covered": true,
+  "rows": [
+    {
+      "endpoint_fraction": 0.019723076923076923,
+      "endpoint_samples": 3846,
+      "max_ordinary_t": 0.9999927878379822,
+      "min_ordinary_t": 0.002003428293392062,
+      "role": "common",
+      "samples": 195000,
+      "seed": 112501
+    },
+    {
+      "endpoint_fraction": 0.02033333333333333,
+      "endpoint_samples": 3965,
+      "max_ordinary_t": 0.9999940991401672,
+      "min_ordinary_t": 0.002002674387767911,
+      "role": "aux",
+      "samples": 195000,
+      "seed": 112501
+    },
+    {
+      "endpoint_fraction": 0.019897435897435898,
+      "endpoint_samples": 3880,
+      "max_ordinary_t": 0.999998927116394,
+      "min_ordinary_t": 0.0020010049920529127,
+      "role": "common",
+      "samples": 195000,
+      "seed": 112502
+    },
+    {
+      "endpoint_fraction": 0.019712820512820514,
+      "endpoint_samples": 3844,
+      "max_ordinary_t": 0.9999997615814209,
+      "min_ordinary_t": 0.002000227337703109,
+      "role": "aux",
+      "samples": 195000,
+      "seed": 112502
+    }
+  ],
+  "status": "passed"
+}

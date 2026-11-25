@@ -1,0 +1,9 @@
+{
+  "finished": 1795547178.171632,
+  "pid": 3937,
+  "stage": "generation",
+  "stage_started": 1795542844.3544135,
+  "started": 1795539772.1974428,
+  "status": "stage_A_computation_complete_review_required",
+  "worker_pid": 6546
+}

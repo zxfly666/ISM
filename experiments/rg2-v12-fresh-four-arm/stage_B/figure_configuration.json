@@ -1,0 +1,33 @@
+{
+  "colors": {
+    "initial": "#263e41",
+    "fine_only": "#657895",
+    "fine_plus_rg": "#b65322",
+    "fine_replay": "#89568e",
+    "MC": "#263e41",
+    "D": "#1877a3",
+    "M": "#b65322",
+    "F": "#657895",
+    "P": "#89568e"
+  },
+  "styles": {
+    "initial": ":",
+    "fine_only": "--",
+    "fine_plus_rg": "-",
+    "fine_replay": "-.",
+    "F": "--",
+    "P": "-.",
+    "D": ":",
+    "M": "-"
+  },
+  "generated_ids": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "no_post_generation_spin_flips": true,
+  "source_sha256": "c383abbd0dedaa523153fd6e5eb82f40651ee948a7592d5f8e18679cc4d774b9",
+  "common_report_source_sha256": "8ad98aba15c42ef1104f8319655dfc2186f14ef927212dfcd654f25e45efac1c",
+  "supplement_source_sha256": "aaae52887d25c807eadf47821327370806f93eff0a485305e2b8371edafcd7c5"
+}

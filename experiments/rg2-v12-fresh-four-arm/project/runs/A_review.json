@@ -1,0 +1,75 @@
+{
+  "status": "accepted_for_development",
+  "reviewed_utc": "2026-11-24T19:09:56.289519+00:00",
+  "counts": {
+    "A0_exact": 126,
+    "A0_retention": 735,
+    "A2": 396,
+    "A1_samples": 960,
+    "A3_MC_fields": 2048
+  },
+  "independent_audit_sha256": "4b749a90935828bcf1058f01489931dc2c234602020efa5590cfc7cccbd23086",
+  "A1_summary_sha256": "a4d49b2435be8c0139e9829a88ae51b70ae536561306fd3f3cefbeb8868b09ae",
+  "snapshot_sha256": "809ca12ac9496995196305114b79851f2117494dfa0e82ade9efd584016f6948",
+  "verified_snapshot_files": 2401,
+  "old_lineage_generation_contrasts": [
+    {
+      "seed": 92601,
+      "steps": 64,
+      "RG_minus_replay": -0.020117496047436983,
+      "RG_minus_initial": 0.05014364754123544
+    },
+    {
+      "seed": 92602,
+      "steps": 64,
+      "RG_minus_replay": 0.14185586994055321,
+      "RG_minus_initial": 0.16240323032300766
+    },
+    {
+      "seed": 92603,
+      "steps": 64,
+      "RG_minus_replay": 0.031520354379331914,
+      "RG_minus_initial": -0.12013887762786137
+    },
+    {
+      "seed": 92601,
+      "steps": 256,
+      "RG_minus_replay": 0.11054652080717717,
+      "RG_minus_initial": 0.11964573388950339
+    },
+    {
+      "seed": 92602,
+      "steps": 256,
+      "RG_minus_replay": 0.10559649166101043,
+      "RG_minus_initial": 0.04670304043549306
+    },
+    {
+      "seed": 92603,
+      "steps": 256,
+      "RG_minus_replay": 0.28620890041171776,
+      "RG_minus_initial": 0.098298384250735
+    }
+  ],
+  "scientific_findings": [
+    "Old-lineage Fine+RG has larger W96 raw-G error than replay and initial for all three lineages at K256; descriptive only.",
+    "At K64, RG-minus-replay changes sign across lineages. Do not infer a sampling-independent gain.",
+    "Exact conditional quality, joint block quality, direct coarse generation and fine generation remain distinct endpoints.",
+    "Fresh F/P/D/M is scientifically useful to separate initialization history, coordinate changes and collective coarse variables."
+  ],
+  "precision": [
+    "32 generated fields per cell is development screening only.",
+    "Historical MC is independent of the training MC, but is not new confirmation data.",
+    "A3-N n32 MC-vs-MC 95th-percentile relative-G errors are about 0.20; cannot establish a 0.03 effect."
+  ],
+  "numerical_plot_bounds": {
+    "raw_G": [
+      0.24077690972222218,
+      0.8623991935483872
+    ],
+    "ensemble_Gc": [
+      0.23448439728882575,
+      0.8530461716075095
+    ]
+  },
+  "report_status_at_gate": "All raw numerical evidence reviewed; local CPU figure rendering continues in parallel with B."
+}

@@ -4,7 +4,9 @@
 
 **目前最明确的结论是：指定条件任务上的尺寸与间距覆盖有收益，但可靠的绝对外推、完整联合生成和RG细尺度迁移仍未建立。** 正结果、反例和未通过的判据一起保留。
 
-文档整理日期为2026年10月13日；下列科学结果来自截至2026年10月1日的已完成实验，不是新一轮计算。
+**2026年11月25日新增：[RG-2 v1.2 四臂实验报告](experiments/rg2-v12-fresh-four-arm/REPORT_ZH.md)。** A 诊断与 B 的8个从零训练模型已完成，共1,472张新生成图。256步下多数投票训练相对 F/D 有长程收益信号，但 P 更好且存在能量代价；仅两个开发 seed，C 未启动。[图表、原始数据与权重](experiments/rg2-v12-fresh-four-arm/DATA_AVAILABILITY.md)均随报告提供。
+
+下方历史汇总来自截至2026年10月1日的实验；11月25日的新计算单独见上述 RG-2 报告。
 
 ## 从哪里开始
 
@@ -12,7 +14,7 @@
 |---|---|
 | 首次了解研究 | [综合报告](experiments/REPORT_ZH.md) → [方法与指标](experiments/METHODS_ZH.md) |
 | 准备30分钟以上汇报 | [精读与汇报路线](experiments/STUDY_GUIDE_ZH.md) → 四个重点报告 → [常见追问](experiments/QUESTIONS_ZH.md) |
-| 查看做过哪些实验 | [14个研究单元与权重谱系](experiments/README.md) → [早期基线与筛选](experiments/HISTORY_ZH.md) |
+| 查看做过哪些实验 | [实验地图与权重谱系](experiments/README.md) → [早期基线与筛选](experiments/HISTORY_ZH.md) |
 | 核对某个结论 | 每轮报告 → 原统计JSON/图数据 → EVIDENCE与来源清单 |
 | 重放公开结果或重新训练 | 先读[复现路线](experiments/REPRODUCING.md)与[数据可用性](experiments/DATA_AVAILABILITY.md) |
 | 查看代码与原方案 | [技术文档索引](docs/README.md)；各轮EVIDENCE链接原driver与协议 |

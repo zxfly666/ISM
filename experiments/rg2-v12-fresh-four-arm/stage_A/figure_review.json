@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "PNG_files_verified": 74,
+  "unchanged_from_prior_diagnostic_figures": [
+    "A0_retention_changes.png",
+    "A0_training_s92601.png",
+    "A0_training_s92602.png",
+    "A0_training_s92603.png",
+    "A0_trajectory.png",
+    "A2_decomposition_s92601_all_plus.png",
+    "A2_decomposition_s92601_mc_chain0_ord0.png",
+    "A2_decomposition_s92602_all_plus.png",
+    "A2_decomposition_s92602_mc_chain0_ord0.png",
+    "A2_decomposition_s92603_all_plus.png",
+    "A2_decomposition_s92603_mc_chain0_ord0.png",
+    "A2_joint_s92601_all_plus.png",
+    "A2_joint_s92601_mc_chain0_ord0.png",
+    "A2_joint_s92602_all_plus.png",
+    "A2_joint_s92602_mc_chain0_ord0.png",
+    "A2_joint_s92603_all_plus.png",
+    "A2_joint_s92603_mc_chain0_ord0.png",
+    "A3N_noise.png",
+    "A3_W144_chain0.png",
+    "A3_W144_chain1.png",
+    "A3_W144_chain2.png",
+    "A3_W144_chain3.png",
+    "A3_W96_chain0.png",
+    "A3_W96_chain1.png",
+    "A3_W96_chain2.png",
+    "A3_W96_chain3.png"
+  ],
+  "newly_visually_reviewed": [
+    "A1_curves_s92602_K256.png",
+    "A1_samples_s92603_K64_i0.png",
+    "A1_paths_s92602_K256.png"
+  ],
+  "all_A1_ensemble_curve_axis_bounds_checked": true,
+  "scope": "Representative visual checks plus complete file integrity, links and numeric curve-bound checks; no claim of inspecting every panel individually"
+}

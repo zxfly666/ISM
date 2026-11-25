@@ -1,0 +1,149 @@
+[
+  {
+    "coarse_W32_t50": 1.7881393432617188e-07,
+    "model": "s92601_initial_initial",
+    "portable_sha256": "b26261eb83f3f418dc19e69b08d09eb90bf62b2cd35b5cdbdae95231c0ed7ac7",
+    "retention_W48_t50": 5.662441253662109e-07,
+    "source_sha256": "febdd9a50a5a8b9b9ab041e214854f26098f7d609c1b4eff5e902686fef97a8e"
+  },
+  {
+    "coarse_W32_t50": 2.384185791015625e-07,
+    "model": "s92601_fine_only_midpoint",
+    "portable_sha256": "407c362bcf0ed14b174d82a6cfd27818b92b674501c484f73011c45954965f9b",
+    "retention_W48_t50": 4.470348358154297e-07,
+    "source_sha256": "8d83f8a84cf673c2232dbca910e0ba25033a1898d6dd7e7e40237bb46d0b5922"
+  },
+  {
+    "coarse_W32_t50": 1.7881393432617188e-07,
+    "model": "s92601_fine_only_final",
+    "portable_sha256": "22f09deed35099e53bcda1ad46ab815c47c235f92c2879202e0975bc10251cfc",
+    "retention_W48_t50": 2.384185791015625e-07,
+    "source_sha256": "41acdb05377e13a6e2f38a75d7fb32d18cffacab04388b7843a5a1ff53b31fc0"
+  },
+  {
+    "coarse_W32_t50": 4.470348358154297e-07,
+    "model": "s92601_fine_plus_rg_midpoint",
+    "portable_sha256": "632d13f5829bc5c7d67ae8587b737a031335b565bdb418e05ba16d4a35397c81",
+    "retention_W48_t50": 4.76837158203125e-07,
+    "source_sha256": "0709e3e98c8ad927c8c9ed8898d3ad6e493b5eecff55f21ef305a8cdb25db2f5"
+  },
+  {
+    "coarse_W32_t50": 5.662441253662109e-07,
+    "model": "s92601_fine_plus_rg_final",
+    "portable_sha256": "8052a763be7ff8242fcaf753305a7f1c4f05e756c4eac4c1d63d7e1eb8c07c4f",
+    "retention_W48_t50": 6.556510925292969e-07,
+    "source_sha256": "a25846c25d70098bc2e73310a7bbb3e7aea8ee7c766e5601ed089d008408abab"
+  },
+  {
+    "coarse_W32_t50": 2.384185791015625e-07,
+    "model": "s92601_fine_replay_midpoint",
+    "portable_sha256": "636f753f958fd61fe4eec9a79dcf65dc8798b7e15f798729b027cd06cd267caf",
+    "retention_W48_t50": 7.748603820800781e-07,
+    "source_sha256": "0b17a12a73e310a3fa8ff1f7a7c7bcfd35b9d569872393ca6124c724979ad0f0"
+  },
+  {
+    "coarse_W32_t50": 1.7881393432617188e-07,
+    "model": "s92601_fine_replay_final",
+    "portable_sha256": "b66e046bc34faf2150f18fec998eec01dcd43a3fced6988462d4052ef719f538",
+    "retention_W48_t50": 6.258487701416016e-07,
+    "source_sha256": "78f720a8662579829808f78130b91200aa34ca12bb2a9aa5fcb430b48606c862"
+  },
+  {
+    "coarse_W32_t50": 1.7881393432617188e-07,
+    "model": "s92602_initial_initial",
+    "portable_sha256": "6a88bd363693ffcddebb1491723f2242530a243cf26cfe24e2b185a027d63052",
+    "retention_W48_t50": 2.086162567138672e-07,
+    "source_sha256": "26c6916e0a3b41861105f4a6df225058f69a630fed9164d542e862dc5658a9c3"
+  },
+  {
+    "coarse_W32_t50": 1.1920928955078125e-07,
+    "model": "s92602_fine_only_midpoint",
+    "portable_sha256": "8c8d68f07b0904b684eb5deae7f90a006fa3125cdb9854ef09e472a61a2bf8a4",
+    "retention_W48_t50": 4.172325134277344e-07,
+    "source_sha256": "ea498ff80d8f536c23cf0c165cc084e718cb16aa16f45d6aeb21c9584e44da7e"
+  },
+  {
+    "coarse_W32_t50": 2.384185791015625e-07,
+    "model": "s92602_fine_only_final",
+    "portable_sha256": "7266a4aae38f10b688a82ce7eb31eb05b3ac968164e7e030568de746ebd53ca3",
+    "retention_W48_t50": 4.172325134277344e-07,
+    "source_sha256": "abd1b06a7ca7a50c931e499c1fc7b853051f98d10d94a5795144210ffa62c574"
+  },
+  {
+    "coarse_W32_t50": 3.5762786865234375e-07,
+    "model": "s92602_fine_plus_rg_midpoint",
+    "portable_sha256": "c85e09deb973a080f46419d4ffe5bae33e8eedbea2cd68a94bd099266ad460fa",
+    "retention_W48_t50": 4.172325134277344e-07,
+    "source_sha256": "90bf52b07eb9e9dafbd3fc9b59e578b3ec78186b85c02036e91fb93f602d75ea"
+  },
+  {
+    "coarse_W32_t50": 4.76837158203125e-07,
+    "model": "s92602_fine_plus_rg_final",
+    "portable_sha256": "d03347b02d308837d30c746c8f2d391e68ff48a79314ce3b87da36f17f34c18e",
+    "retention_W48_t50": 3.5762786865234375e-07,
+    "source_sha256": "953f9d468463eb033f05337ba9820be8b5eeb46178b592dd4881941c3804cc3b"
+  },
+  {
+    "coarse_W32_t50": 1.7881393432617188e-07,
+    "model": "s92602_fine_replay_midpoint",
+    "portable_sha256": "976eb881b1631fdf8cdcdf16d5187a778c07d5ee8832af9d2bce5ecbe8d97a63",
+    "retention_W48_t50": 2.086162567138672e-07,
+    "source_sha256": "ca93989f8a734f064b966fa148588a652dfe742220b2d96c7b6ace184b9a73be"
+  },
+  {
+    "coarse_W32_t50": 4.76837158203125e-07,
+    "model": "s92602_fine_replay_final",
+    "portable_sha256": "5fb19fdea0431d96ae7e271dd47e3319d1f41851bd2dc316fa0db0113547d950",
+    "retention_W48_t50": 3.725290298461914e-07,
+    "source_sha256": "e74593f2d4217a1e8fdd2b6734f452dd15df6f7fc25739c2d44705e403a05b34"
+  },
+  {
+    "coarse_W32_t50": 2.980232238769531e-07,
+    "model": "s92603_initial_initial",
+    "portable_sha256": "e35df5e18b78baa03b3f4590470ecbc12973a8524cfcc148ef34ef8125d90cb6",
+    "retention_W48_t50": 4.172325134277344e-07,
+    "source_sha256": "b4a6ba981f85adfe62f202a1ff14923b6da1f4d67b19176af4dea2710379a897"
+  },
+  {
+    "coarse_W32_t50": 1.7881393432617188e-07,
+    "model": "s92603_fine_only_midpoint",
+    "portable_sha256": "23921a3b9b86f306617be74498b186f65d3646103651e64ee5b77b43b2876ef4",
+    "retention_W48_t50": 5.662441253662109e-07,
+    "source_sha256": "7fe81fa529bb3680331f1acf8fe286092edc5a6f032239146969e0410f517676"
+  },
+  {
+    "coarse_W32_t50": 2.980232238769531e-07,
+    "model": "s92603_fine_only_final",
+    "portable_sha256": "a2e6cca1782204b9787663f93d435ae127c976417f3f32cfeb25374ce1e3236c",
+    "retention_W48_t50": 5.066394805908203e-07,
+    "source_sha256": "b09c137601563e199c2dbed716e753db0e48bfed3bf859709152e90554ae64bc"
+  },
+  {
+    "coarse_W32_t50": 1.7881393432617188e-07,
+    "model": "s92603_fine_plus_rg_midpoint",
+    "portable_sha256": "cd95343016be5b3a4fd649705b37c7bb2bd4c42808dc13aeed013bb821d11a6b",
+    "retention_W48_t50": 5.662441253662109e-07,
+    "source_sha256": "2d3001385d98e3c9b7ee498cfbfdfc21b98f92330ce18881dacd70d4985bf6df"
+  },
+  {
+    "coarse_W32_t50": 3.5762786865234375e-07,
+    "model": "s92603_fine_plus_rg_final",
+    "portable_sha256": "36f8b326d39051dd336b5bb952182572dcd0cd34bb1be52ad759a343287f846d",
+    "retention_W48_t50": 5.364418029785156e-07,
+    "source_sha256": "5d688e4fc65193c1146325fe6e846e77cd65d65b64d8cbcc16c53f85e26b5015"
+  },
+  {
+    "coarse_W32_t50": 1.7881393432617188e-07,
+    "model": "s92603_fine_replay_midpoint",
+    "portable_sha256": "0004402d7553e7008677da2067de27a115fff18afa145617e8c00a1c0f61b91e",
+    "retention_W48_t50": 8.344650268554688e-07,
+    "source_sha256": "b150fca05dd2b06e7e741439f07bfec0132734255c86ccef91daa4f752595407"
+  },
+  {
+    "coarse_W32_t50": 3.5762786865234375e-07,
+    "model": "s92603_fine_replay_final",
+    "portable_sha256": "601de79e68238658f643e206130f924f3d8278823a73773e99d379dd84ba4ea6",
+    "retention_W48_t50": 5.960464477539062e-07,
+    "source_sha256": "a78bf69c2637014aeff76fb413749c164bb9578c1384e65fbe950b5e187ba478"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "all_120000_saved_contrast_draws_recomputed": true,
+  "distribution_distances_checked": 96,
+  "actual_reference_parents": 256,
+  "maximum_bootstrap_difference": 0.0,
+  "seconds": 14.984000000004016,
+  "implementation": "Independent scalar replicate/seed-slot loops; SciPy Wasserstein distances",
+  "source_sha256": "bf1d35fa0d97654b6d43222ee0a3cde499e4bed16ce1703b3a1743e9dc6fbfe7",
+  "confirmatory": false
+}

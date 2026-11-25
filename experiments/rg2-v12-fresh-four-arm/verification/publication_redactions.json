@@ -1,0 +1,16 @@
+{
+  "project/runs/A_v2/diagnostics.log": {
+    "original_sha256": "269d7fd7f58a1ee0ee71e485adf7430adb09ed56632f35b46f899b60a9953a70",
+    "published_sha256": "0cc9209380f40e80f349005ac4cfb5072ffaf38e1d54e58f415147ecbc25c84b",
+    "field": "host",
+    "replacements": 3,
+    "scientific_values_changed": false
+  },
+  "project/runs/campaign/generation.log": {
+    "original_sha256": "2a7c632c543a5962446c9eaeba63f6040ef1a3485da198c6628fe356feb003cd",
+    "published_sha256": "74bc19135a1456d8344b8e23909344b376893ddb55a001b4ebe4c65fa278d59c",
+    "field": "host",
+    "replacements": 1,
+    "scientific_values_changed": false
+  }
+}

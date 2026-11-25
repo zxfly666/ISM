@@ -1,0 +1,2491 @@
+{
+  "status": "passed",
+  "PNG_files_verified": 33,
+  "numeric_series_checked": 275,
+  "all_ensemble_curves_and_histograms_within_axes": true,
+  "visually_reviewed": [
+    "B_development_effects.png",
+    "A1_curves_s112502_K256.png",
+    "B_learning_s112501.png",
+    "A1_samples_s112501_K256_i0.png",
+    "B_training_s112502.png"
+  ],
+  "scope": "Representative visual checks plus all image integrity and numeric axis bounds; not every panel visually inspected",
+  "numeric_bounds": [
+    {
+      "series": "metrics/s112501_D_final/B_K256.npz/G",
+      "minimum": 0.4980933779761905,
+      "maximum": 0.7676726310483871,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K256.npz/coarse_minus_MC",
+      "minimum": 0.03995243195564513,
+      "maximum": 0.1396636962890625,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K256.npz/m",
+      "minimum": -0.96484375,
+      "maximum": 0.94140625,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 2.75,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K256.npz/abs_m",
+      "minimum": 0.095703125,
+      "maximum": 0.96484375,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 3.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K256.npz/e",
+      "minimum": -0.9435483870967742,
+      "maximum": -0.5181451612903226,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 4.999999999999996,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K64.npz/G",
+      "minimum": 0.37646484374999994,
+      "maximum": 0.7109059979838709,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K64.npz/coarse_minus_MC",
+      "minimum": -0.052170526413690355,
+      "maximum": 0.0271148681640625,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K64.npz/m",
+      "minimum": -0.95703125,
+      "maximum": 0.8203125,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K64.npz/abs_m",
+      "minimum": 0.013671875,
+      "maximum": 0.95703125,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 2.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K64.npz/e",
+      "minimum": -0.9425403225806451,
+      "maximum": -0.5332661290322581,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/B_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 6.249999999999967,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K256.npz/G",
+      "minimum": 0.3545076884920635,
+      "maximum": 0.6438013980263159,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K256.npz/Gc",
+      "minimum": 0.277305745475349,
+      "maximum": 0.5665994550096014,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K256.npz/m",
+      "minimum": -0.8233506944444444,
+      "maximum": 0.7788628472222222,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 2.75,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K256.npz/abs_m",
+      "minimum": 0.0822482638888889,
+      "maximum": 0.8233506944444444,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 5.0,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K256.npz/e",
+      "minimum": -0.7421052631578947,
+      "maximum": -0.49758771929824563,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 7.499999999999994,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K64.npz/G",
+      "minimum": 0.2638726128472222,
+      "maximum": 0.6051912006578946,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K64.npz/Gc",
+      "minimum": 0.2141366196543346,
+      "maximum": 0.555455207465007,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K64.npz/m",
+      "minimum": -0.8159722222222222,
+      "maximum": 0.6631944444444444,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.75,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K64.npz/abs_m",
+      "minimum": 0.018663194444444444,
+      "maximum": 0.8159722222222222,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 3.0,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K64.npz/e",
+      "minimum": -0.7327850877192983,
+      "maximum": -0.4764254385964912,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_D_final/fine_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 6.250000000000022,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K256.npz/G",
+      "minimum": 0.520693824404762,
+      "maximum": 0.8298261088709675,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K256.npz/coarse_minus_MC",
+      "minimum": 0.07810465494791718,
+      "maximum": 0.2196197509765625,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K256.npz/m",
+      "minimum": -0.9609375,
+      "maximum": 0.986328125,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 2.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K256.npz/abs_m",
+      "minimum": 0.16796875,
+      "maximum": 0.986328125,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 4.0,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K256.npz/e",
+      "minimum": -0.9727822580645161,
+      "maximum": -0.6451612903225806,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 6.250000000000022,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K64.npz/G",
+      "minimum": 0.4013671875,
+      "maximum": 0.7917716733870969,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K64.npz/coarse_minus_MC",
+      "minimum": -0.03646187160326059,
+      "maximum": 0.1313629150390625,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K64.npz/m",
+      "minimum": -0.982421875,
+      "maximum": 0.986328125,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K64.npz/abs_m",
+      "minimum": 0.052734375,
+      "maximum": 0.986328125,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 2.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K64.npz/e",
+      "minimum": -0.9747983870967742,
+      "maximum": -0.592741935483871,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/B_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 7.499999999999994,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K256.npz/G",
+      "minimum": 0.38181559244791663,
+      "maximum": 0.699342105263158,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K256.npz/Gc",
+      "minimum": 0.34885429558746606,
+      "maximum": 0.6663808084027074,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K256.npz/m",
+      "minimum": -0.8357204861111112,
+      "maximum": 0.8448350694444444,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 2.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K256.npz/abs_m",
+      "minimum": 0.1232638888888889,
+      "maximum": 0.8448350694444444,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 3.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K256.npz/e",
+      "minimum": -0.7666666666666667,
+      "maximum": -0.6072368421052632,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 9.999999999999991,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K64.npz/G",
+      "minimum": 0.29369099934895837,
+      "maximum": 0.675914884868421,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K64.npz/Gc",
+      "minimum": 0.2729445761644546,
+      "maximum": 0.6551684616839173,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K64.npz/m",
+      "minimum": -0.8485243055555556,
+      "maximum": 0.8459201388888888,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K64.npz/abs_m",
+      "minimum": 0.04210069444444445,
+      "maximum": 0.8485243055555556,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 3.0,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K64.npz/e",
+      "minimum": -0.7608552631578948,
+      "maximum": -0.5746710526315789,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_F_final/fine_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 8.749999999999993,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K256.npz/G",
+      "minimum": 0.3681152343749999,
+      "maximum": 0.7155367943548387,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K256.npz/coarse_minus_MC",
+      "minimum": -0.061052594866071286,
+      "maximum": -0.0015716552734375,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K256.npz/m",
+      "minimum": -0.9296875,
+      "maximum": 0.84765625,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.25,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K256.npz/abs_m",
+      "minimum": 0.015625,
+      "maximum": 0.9296875,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 3.0,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K256.npz/e",
+      "minimum": -0.8981854838709677,
+      "maximum": -0.5645161290322581,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 5.000000000000018,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K64.npz/G",
+      "minimum": 0.28461914062499993,
+      "maximum": 0.6749306955645163,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K64.npz/coarse_minus_MC",
+      "minimum": -0.14154924665178564,
+      "maximum": -0.052789503528225645,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K64.npz/m",
+      "minimum": -0.923828125,
+      "maximum": 0.51171875,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K64.npz/abs_m",
+      "minimum": 0.08203125,
+      "maximum": 0.923828125,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 2.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K64.npz/e",
+      "minimum": -0.9012096774193549,
+      "maximum": -0.5483870967741935,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/B_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 9.999999999999991,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K256.npz/G",
+      "minimum": 0.25807181320621464,
+      "maximum": 0.6226254111842106,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K256.npz/Gc",
+      "minimum": 0.2052556341426296,
+      "maximum": 0.5698092321206255,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K256.npz/m",
+      "minimum": -0.7992621527777778,
+      "maximum": 0.6840277777777778,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.25,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K256.npz/abs_m",
+      "minimum": 0.0032552083333333335,
+      "maximum": 0.7992621527777778,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 2.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K256.npz/e",
+      "minimum": -0.7322368421052632,
+      "maximum": -0.5201754385964912,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 7.500000000000027,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K64.npz/G",
+      "minimum": 0.19900173611111116,
+      "maximum": 0.594764254385965,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K64.npz/Gc",
+      "minimum": 0.16917797145836153,
+      "maximum": 0.5649404897332154,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K64.npz/m",
+      "minimum": -0.7983940972222222,
+      "maximum": 0.4240451388888889,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.75,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K64.npz/abs_m",
+      "minimum": 0.0666232638888889,
+      "maximum": 0.7983940972222222,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 2.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K64.npz/e",
+      "minimum": -0.7320175438596491,
+      "maximum": -0.5143640350877193,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_M_final/fine_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 8.750000000000032,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K256.npz/G",
+      "minimum": 0.375732421875,
+      "maximum": 0.7454007056451611,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K256.npz/coarse_minus_MC",
+      "minimum": -0.0300140380859375,
+      "maximum": 0.032533842941810276,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K256.npz/m",
+      "minimum": -0.92578125,
+      "maximum": 0.78125,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K256.npz/abs_m",
+      "minimum": 0.125,
+      "maximum": 0.92578125,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 2.0,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K256.npz/e",
+      "minimum": -0.9102822580645161,
+      "maximum": -0.6330645161290323,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 7.499999999999994,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K64.npz/G",
+      "minimum": 0.32188585069444453,
+      "maximum": 0.7150957661290323,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K64.npz/coarse_minus_MC",
+      "minimum": -0.09455566406250021,
+      "maximum": -0.01035563151041663,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K64.npz/m",
+      "minimum": -0.91015625,
+      "maximum": 0.810546875,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K64.npz/abs_m",
+      "minimum": 0.015625,
+      "maximum": 0.91015625,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 2.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K64.npz/e",
+      "minimum": -0.8891129032258065,
+      "maximum": -0.5221774193548387,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/B_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 7.500000000000027,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K256.npz/G",
+      "minimum": 0.2682424532312925,
+      "maximum": 0.6353652686403509,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K256.npz/Gc",
+      "minimum": 0.23711409968854075,
+      "maximum": 0.6042369150975991,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K256.npz/m",
+      "minimum": -0.7873263888888888,
+      "maximum": 0.6362847222222222,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K256.npz/abs_m",
+      "minimum": 0.10481770833333333,
+      "maximum": 0.7873263888888888,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 2.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K256.npz/e",
+      "minimum": -0.7327850877192983,
+      "maximum": -0.5677631578947369,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 9.999999999999991,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K64.npz/G",
+      "minimum": 0.22419449550653592,
+      "maximum": 0.615001370614035,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K64.npz/Gc",
+      "minimum": 0.20705256594335503,
+      "maximum": 0.5978594410508541,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K64.npz/m",
+      "minimum": -0.7799479166666666,
+      "maximum": 0.6657986111111112,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K64.npz/abs_m",
+      "minimum": 0.019965277777777776,
+      "maximum": 0.7799479166666666,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 3.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K64.npz/e",
+      "minimum": -0.7242324561403509,
+      "maximum": -0.5331140350877193,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112501_P_final/fine_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 9.999999999999991,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K256.npz/G",
+      "minimum": 0.63994140625,
+      "maximum": 0.8199029737903225,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K256.npz/coarse_minus_MC",
+      "minimum": 0.09218277469758052,
+      "maximum": 0.2732086181640625,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K256.npz/m",
+      "minimum": -0.970703125,
+      "maximum": 0.966796875,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 2.75,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K256.npz/abs_m",
+      "minimum": 0.013671875,
+      "maximum": 0.970703125,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 6.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K256.npz/e",
+      "minimum": -0.9566532258064516,
+      "maximum": -0.53125,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 7.499999999999994,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K64.npz/G",
+      "minimum": 0.5924650493421052,
+      "maximum": 0.7924017137096774,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K64.npz/coarse_minus_MC",
+      "minimum": 0.06468151461693539,
+      "maximum": 0.2271881103515625,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K64.npz/m",
+      "minimum": -0.9765625,
+      "maximum": 0.943359375,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 2.0,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K64.npz/abs_m",
+      "minimum": 0.1796875,
+      "maximum": 0.9765625,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 4.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K64.npz/e",
+      "minimum": -0.9576612903225806,
+      "maximum": -0.4909274193548387,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/B_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 6.249999999999995,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K256.npz/G",
+      "minimum": 0.45458156779661013,
+      "maximum": 0.6656832510964913,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K256.npz/Gc",
+      "minimum": 0.3466572696087773,
+      "maximum": 0.5577589529086585,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K256.npz/m",
+      "minimum": -0.8389756944444444,
+      "maximum": 0.8272569444444444,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 2.75,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K256.npz/abs_m",
+      "minimum": 0.015842013888888888,
+      "maximum": 0.8389756944444444,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 4.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K256.npz/e",
+      "minimum": -0.7610745614035088,
+      "maximum": -0.4961622807017544,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 9.999999999999991,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K64.npz/G",
+      "minimum": 0.41757026760057475,
+      "maximum": 0.6470634594298246,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K64.npz/Gc",
+      "minimum": 0.3455433214900848,
+      "maximum": 0.5750365133193347,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K64.npz/m",
+      "minimum": -0.8328993055555556,
+      "maximum": 0.8068576388888888,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 2.0,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K64.npz/abs_m",
+      "minimum": 0.1410590277777778,
+      "maximum": 0.8328993055555556,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 3.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K64.npz/e",
+      "minimum": -0.7508771929824561,
+      "maximum": -0.4789473684210526,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_D_final/fine_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 8.750000000000032,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K256.npz/G",
+      "minimum": 0.6478794642857143,
+      "maximum": 0.8525390625000002,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K256.npz/coarse_minus_MC",
+      "minimum": 0.12481886340725823,
+      "maximum": 0.3033599853515625,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K256.npz/m",
+      "minimum": -0.966796875,
+      "maximum": 0.978515625,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 2.25,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K256.npz/abs_m",
+      "minimum": 0.27734375,
+      "maximum": 0.978515625,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 5.0,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K256.npz/e",
+      "minimum": -0.9627016129032258,
+      "maximum": -0.6431451612903226,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 6.250000000000022,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K64.npz/G",
+      "minimum": 0.5765713778409093,
+      "maximum": 0.8247542842741935,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K64.npz/coarse_minus_MC",
+      "minimum": 0.09703408518145151,
+      "maximum": 0.2592926025390625,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K64.npz/m",
+      "minimum": -0.9609375,
+      "maximum": 0.970703125,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.75,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K64.npz/abs_m",
+      "minimum": 0.0,
+      "maximum": 0.970703125,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 5.0,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K64.npz/e",
+      "minimum": -0.9556451612903226,
+      "maximum": -0.6542338709677419,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/B_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 6.249999999999995,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K256.npz/G",
+      "minimum": 0.4720052083333333,
+      "maximum": 0.7036458333333333,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K256.npz/Gc",
+      "minimum": 0.4716729058159722,
+      "maximum": 0.7033135308159721,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K256.npz/m",
+      "minimum": -0.8409288194444444,
+      "maximum": 0.8348524305555556,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 2.25,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K256.npz/abs_m",
+      "minimum": 0.232421875,
+      "maximum": 0.8409288194444444,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 5.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K256.npz/e",
+      "minimum": -0.769298245614035,
+      "maximum": -0.6104166666666667,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 9.999999999999991,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K64.npz/G",
+      "minimum": 0.4112091064453124,
+      "maximum": 0.6803796600877193,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K64.npz/Gc",
+      "minimum": 0.4031700752675532,
+      "maximum": 0.6723406289099602,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K64.npz/m",
+      "minimum": -0.83203125,
+      "maximum": 0.8311631944444444,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.75,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K64.npz/abs_m",
+      "minimum": 0.004557291666666667,
+      "maximum": 0.83203125,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 5.0,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K64.npz/e",
+      "minimum": -0.7532894736842105,
+      "maximum": -0.5808114035087719,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_F_final/fine_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 9.999999999999991,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K256.npz/G",
+      "minimum": 0.550244140625,
+      "maximum": 0.7744140624999999,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K256.npz/coarse_minus_MC",
+      "minimum": 0.046693863407257896,
+      "maximum": 0.1881256103515625,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K256.npz/m",
+      "minimum": -0.953125,
+      "maximum": 0.951171875,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.75,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K256.npz/abs_m",
+      "minimum": 0.03125,
+      "maximum": 0.953125,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 3.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K256.npz/e",
+      "minimum": -0.9314516129032258,
+      "maximum": -0.4879032258064516,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 4.999999999999996,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K64.npz/G",
+      "minimum": 0.46328125000000003,
+      "maximum": 0.7300592237903226,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K64.npz/coarse_minus_MC",
+      "minimum": 0.0023390246975806273,
+      "maximum": 0.1026763916015625,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K64.npz/m",
+      "minimum": -0.96484375,
+      "maximum": 0.943359375,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K64.npz/abs_m",
+      "minimum": 0.044921875,
+      "maximum": 0.96484375,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 3.0,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K64.npz/e",
+      "minimum": -0.9455645161290323,
+      "maximum": -0.5030241935483871,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/B_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 5.000000000000018,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K256.npz/G",
+      "minimum": 0.3856428760593221,
+      "maximum": 0.6424067982456141,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K256.npz/Gc",
+      "minimum": 0.37731056983911443,
+      "maximum": 0.6340744920254064,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K256.npz/m",
+      "minimum": -0.814453125,
+      "maximum": 0.8103298611111112,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.75,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K256.npz/abs_m",
+      "minimum": 0.024956597222222224,
+      "maximum": 0.814453125,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 4.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K256.npz/e",
+      "minimum": -0.7343201754385965,
+      "maximum": -0.48969298245614035,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 7.49999999999996,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K64.npz/G",
+      "minimum": 0.321310063844086,
+      "maximum": 0.6155564692982458,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K64.npz/Gc",
+      "minimum": 0.3128185293343094,
+      "maximum": 0.6070649347884692,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K64.npz/m",
+      "minimum": -0.8257378472222222,
+      "maximum": 0.8031684027777778,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K64.npz/abs_m",
+      "minimum": 0.018880208333333332,
+      "maximum": 0.8257378472222222,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 2.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K64.npz/e",
+      "minimum": -0.7442982456140351,
+      "maximum": -0.4903508771929825,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_M_final/fine_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 7.499999999999994,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K256.npz/G",
+      "minimum": 0.5352076480263158,
+      "maximum": 0.7664440524193548,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K256.npz/coarse_minus_MC",
+      "minimum": 0.03872385332661277,
+      "maximum": 0.1447906494140625,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K256.npz/m",
+      "minimum": -0.95703125,
+      "maximum": 0.955078125,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.25,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K256.npz/abs_m",
+      "minimum": 0.10546875,
+      "maximum": 0.95703125,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 2.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K256.npz/e",
+      "minimum": -0.9354838709677419,
+      "maximum": -0.532258064516129,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 6.250000000000022,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K64.npz/G",
+      "minimum": 0.44618626644736853,
+      "maximum": 0.7253024193548386,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K64.npz/coarse_minus_MC",
+      "minimum": -0.0024177797379033583,
+      "maximum": 0.0577545166015625,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K64.npz/m",
+      "minimum": -0.951171875,
+      "maximum": 0.93359375,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.25,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K64.npz/abs_m",
+      "minimum": 0.02734375,
+      "maximum": 0.951171875,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 3.0,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K64.npz/e",
+      "minimum": -0.9233870967741935,
+      "maximum": -0.5110887096774194,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/B_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 6.249999999999995,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K256.npz/G",
+      "minimum": 0.3774029356060606,
+      "maximum": 0.6424821820175439,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K256.npz/Gc",
+      "minimum": 0.3714667397391314,
+      "maximum": 0.6365459861506148,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K256.npz/m",
+      "minimum": -0.82421875,
+      "maximum": 0.8231336805555556,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K256.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K256.npz/abs_m",
+      "minimum": 0.08072916666666667,
+      "maximum": 0.82421875,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K256.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 2.5,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K256.npz/e",
+      "minimum": -0.7502192982456141,
+      "maximum": -0.5052631578947369,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K256.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 7.49999999999996,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K64.npz/G",
+      "minimum": 0.3139255567528736,
+      "maximum": 0.6200006853070175,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K64.npz/Gc",
+      "minimum": 0.31118029025500255,
+      "maximum": 0.6172554188091465,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K64.npz/m",
+      "minimum": -0.8101128472222222,
+      "maximum": 0.7962239583333334,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K64.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.25,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K64.npz/abs_m",
+      "minimum": 0.020833333333333332,
+      "maximum": 0.8101128472222222,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K64.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 4.0,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K64.npz/e",
+      "minimum": -0.7349780701754386,
+      "maximum": -0.5076754385964912,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "metrics/s112502_P_final/fine_K64.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 7.499999999999994,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "MC_reference_W96.npz/G",
+      "minimum": 0.29657151963975686,
+      "maximum": 0.7079277172423242,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "MC_reference_W96.npz/Gc",
+      "minimum": 0.2945137464981755,
+      "maximum": 0.7058699441007429,
+      "limits": [
+        -0.1,
+        1
+      ]
+    },
+    {
+      "series": "MC_reference_W96.npz/m",
+      "minimum": -0.732421875,
+      "maximum": 0.7437065972222222,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "MC_reference_W96.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.5,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "MC_reference_W96.npz/abs_m",
+      "minimum": 0.008029513888888888,
+      "maximum": 0.7437065972222222,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "MC_reference_W96.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 3.625,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "MC_reference_W96.npz/e",
+      "minimum": -0.7482456140350877,
+      "maximum": -0.6634868421052632,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "MC_reference_W96.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 21.093749999999982,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "MC_reference_W32.npz/G",
+      "minimum": 0.4057464599609375,
+      "maximum": 0.727720199092742,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "MC_reference_W32.npz/coarse_minus_MC",
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "limits": [
+        -0.7,
+        0.7
+      ]
+    },
+    {
+      "series": "MC_reference_W32.npz/m",
+      "minimum": -0.84765625,
+      "maximum": 0.861328125,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "MC_reference_W32.npz/m_density",
+      "minimum": 0.0,
+      "maximum": 1.3125,
+      "limits": [
+        0,
+        8
+      ]
+    },
+    {
+      "series": "MC_reference_W32.npz/abs_m",
+      "minimum": 0.009765625,
+      "maximum": 0.861328125,
+      "limits": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "series": "MC_reference_W32.npz/abs_m_density",
+      "minimum": 0.0,
+      "maximum": 3.4375,
+      "limits": [
+        0,
+        16
+      ]
+    },
+    {
+      "series": "MC_reference_W32.npz/e",
+      "minimum": -0.8366935483870968,
+      "maximum": -0.5766129032258065,
+      "limits": [
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "series": "MC_reference_W32.npz/e_density",
+      "minimum": 0.0,
+      "maximum": 8.124999999999993,
+      "limits": [
+        0,
+        45
+      ]
+    },
+    {
+      "series": "training_block_losses",
+      "minimum": 0.3029880929971114,
+      "maximum": 0.5445446895901114,
+      "limits": [
+        0,
+        1
+      ]
+    },
+    {
+      "series": "validation_losses",
+      "minimum": 0.3090473711490631,
+      "maximum": 0.699124813079834,
+      "limits": [
+        0,
+        0.75
+      ]
+    },
+    {
+      "series": "gradient_cosines",
+      "minimum": -0.9856589436531067,
+      "maximum": 0.8873017430305481,
+      "limits": [
+        -1,
+        1
+      ]
+    }
+  ]
+}

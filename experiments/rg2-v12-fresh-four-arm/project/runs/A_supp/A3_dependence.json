@@ -1,0 +1,127 @@
+{
+  "block": 8,
+  "capped": false,
+  "chain_length": 128,
+  "pseudo_chains": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14
+  ],
+  "reference_chains": [
+    1,
+    3,
+    5,
+    7,
+    9,
+    11,
+    13,
+    15
+  ],
+  "reference_n": 256,
+  "reference_note": "independent chains; block resampling preserves chronological parent order",
+  "rule": "smallest power of two >= 2*max pooled within-chain IPS tau, at least 8, capped at 64",
+  "series": {
+    "D144_G1": {
+      "pooled_ESS": 1397.4536467524094,
+      "tau_int": 1.465522670293514
+    },
+    "D144_abs_m": {
+      "pooled_ESS": 1689.085323666182,
+      "tau_int": 1.212490554091601
+    },
+    "D144_longG": {
+      "pooled_ESS": 1687.2974938231625,
+      "tau_int": 1.2137752871069225
+    },
+    "D144_m": {
+      "pooled_ESS": 2015.259871022971,
+      "tau_int": 1.01624610773419
+    },
+    "D96_G1": {
+      "pooled_ESS": 1490.7309301262294,
+      "tau_int": 1.3738227057692989
+    },
+    "D96_abs_m": {
+      "pooled_ESS": 1706.4358706515243,
+      "tau_int": 1.2001623003963606
+    },
+    "D96_longG": {
+      "pooled_ESS": 1713.6266769703473,
+      "tau_int": 1.1951261190802756
+    },
+    "D96_m": {
+      "pooled_ESS": 1993.8321156243326,
+      "tau_int": 1.0271677258838343
+    },
+    "M144_G1": {
+      "pooled_ESS": 1388.027510588411,
+      "tau_int": 1.4754750783951065
+    },
+    "M144_abs_m": {
+      "pooled_ESS": 1710.280302022334,
+      "tau_int": 1.19746453115219
+    },
+    "M144_longG": {
+      "pooled_ESS": 1721.6592361068906,
+      "tau_int": 1.189550148513157
+    },
+    "M144_m": {
+      "pooled_ESS": 2014.3472236258967,
+      "tau_int": 1.0167065419404342
+    },
+    "M96_G1": {
+      "pooled_ESS": 1516.5236387783104,
+      "tau_int": 1.3504570239668927
+    },
+    "M96_abs_m": {
+      "pooled_ESS": 1728.5396219549673,
+      "tau_int": 1.18481518964762
+    },
+    "M96_longG": {
+      "pooled_ESS": 1747.0586081590773,
+      "tau_int": 1.1722560367668677
+    },
+    "M96_m": {
+      "pooled_ESS": 1999.1336598466778,
+      "tau_int": 1.024443758381353
+    },
+    "fine144_G1": {
+      "pooled_ESS": 1280.4005772613825,
+      "tau_int": 1.5994994350755583
+    },
+    "fine144_abs_m": {
+      "pooled_ESS": 1702.356433747085,
+      "tau_int": 1.2030383058453353
+    },
+    "fine144_longG": {
+      "pooled_ESS": 1708.4956163955255,
+      "tau_int": 1.1987153963676764
+    },
+    "fine144_m": {
+      "pooled_ESS": 2017.4655325263727,
+      "tau_int": 1.0151350627712536
+    },
+    "fine96_G1": {
+      "pooled_ESS": 1445.6927707467069,
+      "tau_int": 1.416621872531187
+    },
+    "fine96_abs_m": {
+      "pooled_ESS": 1714.9355592323038,
+      "tau_int": 1.1942139685509778
+    },
+    "fine96_longG": {
+      "pooled_ESS": 1720.568304679828,
+      "tau_int": 1.1903043863063036
+    },
+    "fine96_m": {
+      "pooled_ESS": 1997.4382459001176,
+      "tau_int": 1.025313300275322
+    }
+  },
+  "worst_tau": 1.5994994350755583
+}

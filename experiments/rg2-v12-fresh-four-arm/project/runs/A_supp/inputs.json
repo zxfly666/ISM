@@ -1,0 +1,314 @@
+{
+  "a2_selection": "all plus plus ordinal 0 and 64 in each of 16 archived MC chains; descriptive",
+  "files": {
+    "a2_exteriors.npz": "b3458dc5a2170616d2bd53526e7822bca0fe9f44a318e4e3fd34c5f9358331c0",
+    "banks/container_k2_v0.npz": "51446dbab5a1b2362b444f4f5dde6d560f356b1f1fa8dedd4e407d48ac4e9909",
+    "banks/container_k2_v1.npz": "69b1bd6ad594283ea3310ce73289f28a56c80efcfa9422d69a85c69a3f0d9cfd",
+    "banks/container_k2_v2.npz": "5ba5150d1a5276798703e9444b37f63fdf227c97ef724ebbb340182554b6fb2c",
+    "banks/container_k32_v0.npz": "f857f87ad1109d827e95623a80419c983c4131bdb0987605a4057d0e4c444c4b",
+    "banks/container_k32_v1.npz": "3728b2ac476bc08686e8ac620169d7972f223dafb277df2ffd9214662215c829",
+    "banks/container_k32_v2.npz": "3fa3c466a8d6d6dc51cad3fa64b0e1e2ea60a869c2bccff5377ea00ca3efd119",
+    "banks/container_k512_v0.npz": "0d7d84013cbb095cb7f85404175436c1bb018f444298fe05c09fd57b01d130e7",
+    "banks/container_k512_v1.npz": "dcaf1b2251a6b48e84b13e5acafa110fa86a2323047cc81a52330e0ac80911f0",
+    "banks/container_k512_v2.npz": "934be419fbcdcebcd1c2cf39ac482d6ad6eb324340252b01f2ff7645b052ab8a",
+    "banks/geometry_B48_k2.npz": "11228584317daff2e175513c24572b712b263817aacb759ec965e952960f6c7c",
+    "banks/geometry_B48_k32.npz": "63a6ee72ac9514a7b95a3c6023b1e0c6bd39149e08c63fa6e5cc4a370c5b8137",
+    "banks/geometry_B48_k512.npz": "fc9555f071a60a0a63597b26db26c54d0a1ed4536907e140973cab4786022452",
+    "banks/geometry_C48_k2.npz": "e2a91b2d99de1183a8df737106da708ba6a7d658603d8e20aafb768353d87ec1",
+    "banks/geometry_C48_k32.npz": "946ff3daceb4c4769cdc8ac7ddbc15b592a598e09e2a53354dbceedd385d34f0",
+    "banks/geometry_C48_k512.npz": "530201ece89c7b71bee236a8384a6216a31ba6703c092d340d05d984915d9f7a",
+    "banks/geometry_C96_k2.npz": "efe867ca25af7b65d3548eaa4dea0b16daa831327fd2968e350f352a7bbf6e07",
+    "banks/geometry_C96_k32.npz": "96b8c58f6b9817fb421bed64b7524aefc4cc3e82463fa36c8dc29f4191ed9d78",
+    "banks/geometry_C96_k4608.npz": "d030ce97f2dea2b9bbb55b6357fefc5bbdb42cecd6dcb240c0c36a7e3e9fc647",
+    "banks/geometry_C96_k512.npz": "6a5427f2c6400464443eec3271666239388cbebdd46dafca7e9c0a066c584120",
+    "banks/geometry_H48_k2.npz": "cd14314a12d068bd97786d87cddafabc9fc357a5c7775b636123c76bd4960aa8",
+    "banks/geometry_H48_k32.npz": "aa17b2f059ae664b9707fe6b1952cbfc7d417330d0460b5741778754185b0696",
+    "banks/geometry_H48_k512.npz": "7c7d092992132e7bc244f2dfc00aff8d56948ebe7f70f4f3bf4d666e9267dbb4",
+    "banks/geometry_H96_k2.npz": "58cb1b925a8c16b27ab6aadc4a63a540d8b7d278b64425bcd0a2e30cd9f4d738",
+    "banks/geometry_H96_k32.npz": "9d81d5b17890fa644c531512dcc25a8ad23209b0e2c0178e66dd1fe4c30ad5a7",
+    "banks/geometry_H96_k4608.npz": "32b31f3245647472d50c4cc318fb532076f5290b0128a536646cd642a1f3f8cd",
+    "banks/geometry_H96_k512.npz": "b1dcfa6d2b533bb66f8d1de6ae3bbfaa31d20b37f48e449b472d6735868bc98d",
+    "banks/geometry_U48_k2.npz": "0f99a2ecd8e9a14cd217d8812924643fdf3b6846553b775780da26821dc65e3a",
+    "banks/geometry_U48_k32.npz": "3251171fc88fe52b3b0a0d396529fb7c92a47b5a8700d882630b8a9a0d32cce8",
+    "banks/geometry_U48_k512.npz": "76daece68c108ad65ce9f0af39c1f7fe7932fced5d1448c94da3c2e5c5003791",
+    "banks/ordinary_W48_t10.npz": "d10600ea49ec3de6e4eb92d9142416893c9f4b8405a660a9265f891f6bcd8467",
+    "banks/ordinary_W48_t50.npz": "f48c29b32ef54f0b1478f3f0ed99c313a7d278999d92aaac83832b5c29a7b984",
+    "banks/ordinary_W48_t90.npz": "ff9af6e8b66e5bdee8ee45d28480ed2d0a189b9488b4524b9e959280b125e0ea",
+    "banks/ordinary_W96_t10.npz": "e16ded4061fc3656d57cdf1f7df91092dd0cee582c7e65e93c800070d9fc0dae",
+    "banks/ordinary_W96_t50.npz": "dee91edeae1f0648b1e2c0a6c15a20dd8a8fa835c8498ff28849af84b0df099d",
+    "banks/ordinary_W96_t90.npz": "f2d018bcc11fca3710556a070d484e1c57d35f84483bd5ef6af13675e6d1cfae"
+  },
+  "protocol": "RG-2 v1.2",
+  "provenance": [
+    {
+      "n": 256,
+      "name": "geometry_C48_k2",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "a6e3343def800d8f6ce14beb7bb86cd0d7050bc79af69b5ea7de778e6b311d52",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/C48_k2.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_C48_k32",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "b5fa79379aaa9b457734ee09778b10c36191d7e2d54fc97cc65b9000df1d7e5e",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/C48_k32.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_C48_k512",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "66a1b5e9b555a6f8992e0584c6c13b686cc966c0ea354f2217b73d0d1e18e40d",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/C48_k512.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_U48_k2",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "5a8f694c1aa4c152034b8fc651351fc504baaedbb1bf3f349acc2f8b45d9e3ae",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/U48_k2.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_U48_k32",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "1ec9c5c9629f52e23f808bf3287d8a75f4df2f26cce4e69273e8fb752dbd400e",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/U48_k32.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_U48_k512",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "3d9619d00a8d0b2d63282489bc8000096264d786e8a2d81e123eee34ea4ae1be",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/U48_k512.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_H48_k2",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "d5975029dc9f2843df2c1b91ed85699a209ba6bbe3a59e796b69eb0029cc594c",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/H48_k2.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_H48_k32",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "b41de709cd8e987cc8abdc4c52397572861b5895b3e5dc7aa45c0fa403d9474a",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/H48_k32.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_H48_k512",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "8c9304770609856780ebcf1da237ee0c0bef09fec6c04d8af422842274ae5d5d",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/H48_k512.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_B48_k2",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "cc6e4a9facd51833afe97bb198f64497b7e1cd1c3e6d8820cdff87eb34f2d102",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/B48_k2.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_B48_k32",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "f13919305fcfd975925fb6e441c4246e66eb9a133e7c273bb3727a2869e8b609",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/B48_k32.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_B48_k512",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "71755afee1626026d2f2784f2dd5580cdbe9fb6810f1e62c4b98bcaa7224a066",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/B48_k512.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_C96_k2",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "61ae6b7c564c726bcb5c84e838f3cc439d601d12e8b7c030337283a7a7c15e43",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/C96_k2.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_C96_k32",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "9bd3a31af042b406352485b874a49c151b80df7d25877701305abae24fdc146b",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/C96_k32.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_C96_k512",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "a68862733a165571b85e70a6b52a60924d712b9085d2d1cf8d435c47e1dc77e5",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/C96_k512.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_C96_k4608",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "892fec78c1b7d4b4e76c6306845e784ba3c346e084c3834d0db8350fdea61b23",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/C96_k4608.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_H96_k2",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "958c346e6111551c350eb3d59dfde4deedf19d5427f40de404f628d1c108e38e",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/H96_k2.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_H96_k32",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "60e5060cc7b837e226fb6b5032066d4b3e628cde59ceb0f77f3acb39f626d71e",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/H96_k32.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_H96_k512",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "597217195ef8a512c98d6db818f3a576fbefebe4ef5548f44660aef607eb46e8",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/H96_k512.npz"
+    },
+    {
+      "n": 256,
+      "name": "geometry_H96_k4608",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "902d6649897233996e3b63f2a9a05e7527a7926f7447fcc524bf10c08e6831b6",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/banks/H96_k4608.npz"
+    },
+    {
+      "n": 256,
+      "name": "container_k2_v0",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "a5df143ea456824bc3ae06085a0c762c89d1d109d7385738f9faf3c88113530a",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/padding_banks/k2_v0.npz"
+    },
+    {
+      "n": 256,
+      "name": "container_k2_v1",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "dcd994b3882c75c866f9628297e806f2ff570054dde7917efbcef2d9f0d86722",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/padding_banks/k2_v1.npz"
+    },
+    {
+      "n": 256,
+      "name": "container_k2_v2",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "a550fe8c45f89140831733f80433f613f983b175382d6bb6a87c0da27623a387",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/padding_banks/k2_v2.npz"
+    },
+    {
+      "n": 256,
+      "name": "container_k32_v0",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "66dd3040bbb47f4413ac2dc4b300f1d35ca0d1a7bdcd58272dec13b25a6311cf",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/padding_banks/k32_v0.npz"
+    },
+    {
+      "n": 256,
+      "name": "container_k32_v1",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "911bf11adb2c4acfb1336fc40d2f49c81a6758c596ae643bdd47fb24328a8c66",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/padding_banks/k32_v1.npz"
+    },
+    {
+      "n": 256,
+      "name": "container_k32_v2",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "29f03283d3d312ef584f96252b72748619249c28ef90229d000d61809cf1217b",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/padding_banks/k32_v2.npz"
+    },
+    {
+      "n": 256,
+      "name": "container_k512_v0",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "9405d56ed6d5d970f70452bf8fa1886036a8b02b75f8b2e954c40659c0b0c685",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/padding_banks/k512_v0.npz"
+    },
+    {
+      "n": 256,
+      "name": "container_k512_v1",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "06a89d107b51cce180d41c658c5cb4e7f87e45f2a7f40782b70537cf67e68783",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/padding_banks/k512_v1.npz"
+    },
+    {
+      "n": 256,
+      "name": "container_k512_v2",
+      "selection": "first 16 consecutive parents per chain",
+      "sha256": "0b80d1a757125e131b8d87ff878357f6908e2724d4d9461c55e15930fa86426e",
+      "source": "/root/shared-nvme/ISM_research_20260921/artifacts/geometry_identification_20260926/padding_banks/k512_v2.npz"
+    },
+    {
+      "mask": "Bernoulli; 64 hidden queries uniformly without replacement",
+      "n": 256,
+      "name": "ordinary_W48_t10",
+      "seed": [
+        2026112502,
+        48,
+        10
+      ],
+      "source": "inputs/mc_W144_centered.npz"
+    },
+    {
+      "mask": "Bernoulli; 64 hidden queries uniformly without replacement",
+      "n": 256,
+      "name": "ordinary_W48_t50",
+      "seed": [
+        2026112502,
+        48,
+        50
+      ],
+      "source": "inputs/mc_W144_centered.npz"
+    },
+    {
+      "mask": "Bernoulli; 64 hidden queries uniformly without replacement",
+      "n": 256,
+      "name": "ordinary_W48_t90",
+      "seed": [
+        2026112502,
+        48,
+        90
+      ],
+      "source": "inputs/mc_W144_centered.npz"
+    },
+    {
+      "mask": "Bernoulli; 64 hidden queries uniformly without replacement",
+      "n": 256,
+      "name": "ordinary_W96_t10",
+      "seed": [
+        2026112502,
+        96,
+        10
+      ],
+      "source": "inputs/mc_W144_centered.npz"
+    },
+    {
+      "mask": "Bernoulli; 64 hidden queries uniformly without replacement",
+      "n": 256,
+      "name": "ordinary_W96_t50",
+      "seed": [
+        2026112502,
+        96,
+        50
+      ],
+      "source": "inputs/mc_W144_centered.npz"
+    },
+    {
+      "mask": "Bernoulli; 64 hidden queries uniformly without replacement",
+      "n": 256,
+      "name": "ordinary_W96_t90",
+      "seed": [
+        2026112502,
+        96,
+        90
+      ],
+      "source": "inputs/mc_W144_centered.npz"
+    }
+  ],
+  "seed": 2026112502
+}

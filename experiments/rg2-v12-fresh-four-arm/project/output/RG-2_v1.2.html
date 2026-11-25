@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="原 ISM 模型的 F/P/D/M 四臂预定实验，包含三条粗场路径、采样配对、确认性统计及导师汇报图版交付规范。" name="description"/>
+<title>RG-2 v1.2 实验协议｜临界 Ising 模型的重整化训练与跨尺度生成</title>
+<style>
+:root{--ink:#1b3032;--soft:#476065;--green:#105451;--line:#c7d5d1;--light:#e9f1ec;--paper:#fbfaf7;--warm:#faf1e5;--warmline:#b57539;--serif:"STIX Two Text","Noto Serif CJK SC","Source Han Serif SC","Songti SC",serif;--sans:"Source Sans 3","Noto Sans CJK SC","Microsoft YaHei","PingFang SC",sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.8 var(--sans);color:var(--ink);background:var(--paper)}a{color:var(--green);text-underline-offset:3px}a:focus-visible{outline:3px solid #b57539;outline-offset:3px}header{background:#173b3b;color:#f2f5ed}.inner,main{max-width:1110px;margin:auto}.hero{padding:42px 35px 36px}.meta{color:#c2d9cd;font-size:14px;margin:0 0 9px;letter-spacing:.055em}.hero h1{font:650 clamp(28px,4.2vw,48px)/1.33 var(--serif);margin:0 0 13px}.hero p:last-child{font-size:18px;line-height:1.75;max-width:925px;color:#e5efe9;margin:0}nav{background:white;border-bottom:1px solid var(--line)}nav .inner{padding:12px 35px;display:flex;gap:4px 22px;flex-wrap:wrap}nav a{font-size:14px;font-weight:650;text-decoration:none}main{padding:4px 35px 35px}section{padding:26px 0 17px;border-bottom:1px solid var(--line);scroll-margin:10px}h2{font:650 clamp(23px,3vw,32px)/1.48 var(--serif);color:#173e3b;margin:0 0 12px}h3{font-size:19px;line-height:1.52;margin:20px 0 5px;color:#194542}p{margin:7px 0 11px}strong{color:#154541}.wrap{overflow-x:auto;max-width:100%;margin:10px 0 13px}table{width:100%;border-collapse:collapse;background:white;font-size:15px;line-height:1.62}th,td{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:8px 12px}th{color:#234b46;background:#e4eeea;font-weight:700}td:first-child{font-weight:620;color:#264d48}.wide{min-width:630px}.medium{min-width:470px}.num td:not(:first-child),.num th:not(:first-child){text-align:right;font-variant-numeric:tabular-nums}.notice,.eq{padding:10px 15px;margin:13px 0;background:var(--light);border-left:4px solid var(--green)}.notice p,.eq p{margin:2px 0}.note{background:var(--warm);border-color:var(--warmline)}.eq{background:#f0f3ef;border-left-width:2px;font:500 17px/1.75 "STIX Two Text","Cambria Math",var(--sans);overflow-wrap:anywhere}.sub,.refs,figcaption{color:var(--soft);font-size:14px}.twocol{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:12px 0}.item{background:white;border:1px solid var(--line);border-radius:5px;padding:12px 15px}.item h3,.item p:first-child{margin-top:0}.item p:last-child{margin-bottom:0}.demo{display:flex;gap:19px;align-items:center;flex-wrap:wrap}.spins{display:grid;grid-template-columns:repeat(3,25px);gap:2px}.spins span{width:25px;height:25px;background:#d2e7dd;color:#174d44;display:grid;place-items:center;font:700 20px/1 var(--sans)}.spins .neg{color:#733c1c;background:#f0ddc7}.spins .centre{outline:2px solid #684826;outline-offset:-2px}.demo p{flex:1;min-width:180px}ul,ol{padding-left:1.45em;margin:6px 0 13px}li{margin:4px 0}code{font:.91em "IBM Plex Mono",Consolas,monospace;overflow-wrap:anywhere}.refs li{margin:6px 0}.task{display:inline-block;white-space:nowrap}footer .inner{padding:13px 35px 29px;color:var(--soft);font-size:14px}.back{float:right}
+@media(max-width:650px){.hero{padding:28px 17px}.hero p:last-child{font-size:16px}main{padding:3px 16px 24px}nav .inner{padding:9px 16px;gap:4px 14px}nav a{font-size:13px}.twocol{grid-template-columns:1fr}section{padding:21px 0 13px}th,td{padding:7px 9px}.eq{font-size:15px}footer .inner{padding:12px 16px}}
+@media print{@page{size:A4;margin:14mm}html{scroll-behavior:auto}body{font-size:10pt;line-height:1.58;background:white}.hero,main,footer .inner{padding:0}.hero{padding:0 0 8pt}.hero h1{font-size:23pt}header{background:transparent;color:#173b3b}.hero p:last-child{color:var(--ink);font-size:11.5pt}.meta{color:var(--soft)}nav,.back{display:none}section{padding:11pt 0 6pt}h2{font-size:16.5pt}h3{font-size:12pt}h2,h3{break-after:avoid}.wrap{overflow:visible}table,.wide,.medium{min-width:0;font-size:9pt}tr,.notice,.item,.eq,figure{break-inside:avoid}thead{display:table-header-group}td,th{padding:4pt 6pt}.sub,.refs,figcaption{font-size:9pt}.eq{font-size:11pt}.twocol{gap:8pt}.notice,.item,.eq,td,th,.spins span{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+
+.chapter-lead{font-size:1.05em;color:#334f4d}.anchor-note{font-size:14px;color:#49645f}
+.band{border:1px solid #c2d4c8;border-radius:5px;padding:11px 15px;background:#f1f5ee;margin:14px 0}
+.band p{margin:3px 0}.tight-list li{margin:4px 0}.figure-id{white-space:nowrap}
+.wide td:first-child{min-width:6.8em}.subhead{font-weight:700;color:#1e4b43}
+details{background:white;border:1px solid #cad6cf;padding:9px 14px;margin:10px 0;border-radius:4px}
+summary{cursor:pointer;color:#214c43;font-weight:650}
+@media print{.wide td:first-child{min-width:0}.band{break-inside:avoid}}
+</style>
+</head><body id="top">
+<header><div class="inner hero"><p class="meta">临界 Ising 模型的重整化训练与跨尺度生成研究 · 2026 年 11 月 24 日</p>
+<h1>RG-2 v1.2 实验协议</h1>
+<p>在同一模型与训练预算下，3×3 块的多数方向能否比中心抽点或纯位置编码增强，更好地训练大尺寸细场生成器？主任务在单位格距上生成 96×96 细场，并检验同一张图经投票得到的 32×32 粗场。</p></div></header>
+<nav aria-label="方案目录"><div class="inner"><a href="#scope">目标与起点</a><a href="#model">模型与物理</a><a href="#diagnose">阶段 A</a><a href="#fourarm">阶段 B</a><a href="#confirm">阶段 C</a><a href="#statistics">统计判读</a><a href="#figures">预定图版</a><a href="#delivery">执行与冻结</a><a href="#sources">依据</a></div></nav>
+<main>
+<section id="scope"><h2>判断 RG 训练有价值，需要哪几层证据？</h2>
+<div class="band"><p><strong>执行顺序</strong>　A0 与 A3/A3-N 先行，依据测量精度和吞吐启动 A1；A2 可同步进行。通过诊断后，B 用两个配对 seed 从零训练 F/P/D/M，C 用新 seed 和新 MC 链独立确认。</p><p>本次锁定三条粗场路径、两套 clock、跨步数随机数耦合、M−P 的正式主张，以及确认性统计的判定顺序。图版在实验完成后按<a href="#figures">预定规范</a>绘制。</p></div><div class="wrap"><table class="wide"><thead><tr><th>层次</th><th>要回答的问题</th><th>能给出答案的比较</th></tr></thead><tbody>
+<tr><td>物理统计</td><td>从同一 3×3 块取中心或取多数，保留的统计有多大差异？</td><td>对同一批 MC 父场施加两种粗化，逐块配对；独立 MC 链校准有限样本波动。</td></tr>
+<tr><td>表示学习</td><td>相同坐标、相同物理覆盖下，集体变量是否提供有用的训练信号？</td><td>Majority 与 Decimation 在相同细任务上比较。只放大 RoPE 和额外细场重放提供两个参照。</td></tr>
+<tr><td>尺寸泛化</td><td>只训练到 W48，能否改善 W96 细场联合生成并保留条件推断能力？</td><td>所有模型从全 MASK 自由生成连续细场。用精确局部 KL 和普通条件 CE 追踪能力保留。</td></tr>
+<tr><td>跨尺度保真</td><td>生成的大场投票缩小以后，还保留了真实粗场的统计吗？</td><td>给生成细图和真实细图施加完全相同的多数投票，比较两批粗图；同时检查细图。</td></tr>
+</tbody></table></div>
+<p>老师在 9 月 30 日讨论过 192×192→64×64 的多数投票，还提出用可靠的小模型判断生成的大图缩小后是否合理。另一段录音追问只取一个代表点能保留多少物理统计。本轮先用独立 MC 直接评判，把相同的三倍操作缩为 96→32；192→64 留作可选扩展。</p>
+<p>已有 RG pilot 表明粗任务可以学会，但对等预算细场重放的 W96 局部 KL 差为 −0.00625，三条旧谱系的 95% 配对区间为 [−0.04440, +0.03189]。旧 G/I 提供有关真实间距和条件推断的证据；合作者 Stage 3 提供纯 RoPE 对照的先例。本轮的大尺寸联合生成需要独立检验。</p>
+</section>
+<section id="model"><h2>全程使用原 ISM 模型及同一物理母分布</h2>
+<div class="wrap"><table class="medium"><thead><tr><th>项目</th><th>冻结设置</th></tr></thead><tbody>
+<tr><td>模型</td><td>7 个 Transformer blocks，hidden 128，4 heads，每头 32 维，MLP ratio 4。全双向稠密注意力，AdaLN 与 Q/K LayerNorm，dropout 0。</td></tr>
+<tr><td>坐标与参数</td><td>显式物理坐标的轴向二维 RoPE，底数 10,000。新四臂均有共同／辅助两个任务嵌入。协议参数量 1,976,962；预检以实际可训练参数计数及权重形状核对。旧 I-F 使用其历史构造与级别接口。</td></tr>
+<tr><td>物理系统</td><td>二维最近邻方格，J=1，h=0，β<sub>c</sub>=log(1+√2)/2。优先复用既有 L=1024 的周期 Wolff 父场。窗口边缘分布保留父场环境，统计窗口内点对和键时不连接窗口两端。</td></tr>
+<tr><td>划分</td><td>按独立 MC 链和父场身份划分训练、开发、确认。一个父场的不同原点、平移、旋转、抽点与投票视图均属于同一分区。C 的测试链独立新建，保存哈希及抽样清单。</td></tr>
+</tbody></table></div>
+<div class="eq">D₃(X)<sub>ij</sub> = X<sub>3i+1,3j+1</sub>　　R₃(X)<sub>ij</sub> = sign(∑<sub>a,b∈{0,1,2}</sub> X<sub>3i+a,3j+b</sub>)</div>
+<p class="sub">可手算的例子是一个中心为 −1、九点中六个为 +1 的块。抽点得到 −1，多数投票得到 +1。两个结果位于同一物理中心 (3i+1,3j+1)。粗尺度的真值由相应算子作用于真实细场获得。</p>
+</section>
+<section id="diagnose"><h2>阶段 A · 用现有权重和 MC 找到问题出现的位置</h2>
+<p>先做 A0、A3 和 A3-N。A3-N 校准小样本的噪声，同机采样预检另测吞吐，二者共同决定 A1 的样本数。A2 可独立进行。A 阶段使用已有模型。</p>
+<h3>A0　检验旧微调是否保留初始能力</h3>
+<div class="wrap"><table class="medium num"><thead><tr><th>项目已有汇总，W96 精确局部 KL</th><th>初始 I-F EMA</th><th>Fine-only</th><th>Fine + RG</th><th>Fine replay</th></tr></thead><tbody><tr><td>均值，越小越好</td><td>0.018442</td><td>0.022135</td><td>0.023217</td><td>0.029471</td></tr></tbody></table></div>
+<p>重评 3 个初始 EMA、9 个中点 EMA、9 个终点 EMA，共 21 份权重。每个旧谱系在相同父场、可见布局、query 和 mask 下做配对。在 W48/W96 测精确局部 KL 和普通条件 CE；另复查原 I-F 非均匀几何任务、稀疏可见任务，以及只扩大 MASK 容器而保持可见自旋、物理位置、query 和真值固定的测试。局部 KL 取目标的四个最近邻均可见的内部格点；精确单点概率由邻居和给出。</p>
+<p>按初始→中点→终点画每条谱系轨迹，标出相对初始或相对 replay 的差。同步检查开发损失、原始梯度范数和裁剪率；旧日志缺失的量单独标记。仅在 raw 与 EMA 的差异能解释特定异常时追加 final raw。由均值可见 Fine+RG 较 replay 好，也低于初始权重的表现；退化机制留待上述配对定位。</p>
+<h3>A3 / A3-N　直接测物理差异及 MC 的测量精度</h3>
+<ol><li>在同一张 96×96 和 144×144 细场上，同时构造 D₃ 和 R₃，分别得到 W32 与 W48。报告同块分歧率、开窗口两点关联、粗格最近邻乘积、有符号磁化分布。轴向位移 k 的 D₃ 关联应等于原细场在相同点对及原点上的 3k 位移关联。这给出逐点实现检验。多数投票的真值另由 R₃(MC) 估计。</li>
+<li>区分以粗格为单位的 k 与细格物理距离 3k。相关衰减指数仅作探索，记录拟合区间、有限尺寸和不确定性；有余力再用相同远区目标比较互信息。</li>
+<li>以相互分离的链组作为“伪生成”和参考。对 n=16、32、64、128、256、512 各做 2,000 次固定规则重抽样，保留同链的连续父场块。逐一报告细／粗误差的中位数、5% 与 95% 分位数；同图的两种粗化保持配对。参考库规模与 A1、C 对齐。MC–MC 提供有限样本波动参照，同一库上的重复抽样不增加物理独立性。</li></ol>
+<h3>A1　旧模型从全遮盖生成 W96，再投票得到 W32</h3>
+<p>主生成矩阵使用三条旧谱系的 3 个初始、9 个 final EMA。12 个模型均从全 MASK、level 0、单位坐标生成 W96 细场，64／256 步各一格，每格初拟 32 张。采用 absorbing diffusion、cosine-squared 时间表、温度 1，模型的 nominal clock 下限为 0.01。</p>
+<h3>A1 的三条粗场路径</h3>
+<div class="wrap"><table class="wide"><thead><tr><th>路径</th><th>输入和操作</th><th>判断依据</th></tr></thead><tbody>
+<tr><td>A · 物理参考</td><td>独立 MC 的 W96 开窗口，做非重叠 R₃ 多数投票，得 W32。原点、边界和位移定义与 B 一致。</td><td>给出真实粗场分布，以及相同张数和参考库规模下的 MC–MC 波动。</td></tr>
+<tr><td>B · 先细后粗</td><td>上述 12 份权重逐份生成 W96，对每一张原图直接投票形成 W32。保存父图及块原点。</td><td>B 对 A 衡量细场生成在粗视角下的真实性。细图仍单独测长程关联、磁化与能量。</td></tr>
+<tr><td>C · 直接粗生成</td><td>仅用训练过多数投票任务的 3 个 Fine+RG 终点 EMA，在 level 1、块中心坐标 (3i+1,3j+1) 上，从全 MASK 直接生成 W32。64／256 步、温度、clock 下限及每格张数与 B 匹配。</td><td>C 对 A 衡量模型自身的粗生成能力。B 对 C 只比较同一 Fine+RG 权重两条生成路径的分布；连同两者各自对 A 的距离一起汇报。</td></tr>
+</tbody></table></div>
+<p>统一报告粗格完整 G(k)、k=9…16 的误差、有符号 P(m) 和近邻自旋乘积。A、B、C 的图按样本身份记录；独立抽样的粗图之间比较分布。两条生成路径可能共同偏离 MC。原 Fine-only、Fine replay 与初始 I-F 保留在 B 路径，它们缺少同样的多数投票训练任务。</p>
+<p class="sub">C 路径给老师的小尺度模型构想增加了可实测的分布参照。若后续研究要让小模型为单张粗图打分或提供训练损失，还需用真实粗 MC 与被破坏的粗图单独校准评分器。</p>
+<h3>跨 64／256 步复用同一个物理位置的随机数</h3>
+<p>为每个有效位置 i 生成两个独立的开区间均匀数 Uᵢ、Vᵢ，分别决定何时揭示和自旋取值。随机键包含协议种子、配对训练谱系、样本 ID、宽度、任务及位置；U 与 V 各设独立子流。跨实验臂和步数复用相同的键，键中排除臂名和步数。W96 细生成与 W32 直接粗生成使用不同宽度及任务子流。</p>
+<div class="eq">K∈{64,256}，tⱼ=cos²(πj/2K)，t₀=1，t<sub>K</sub>=0。第 j 步将满足 t<sub>j+1</sub>&lt;Uᵢ≤tⱼ 的未揭示位置一次性揭示。用更新前的相同状态求 pᵢ；当 Vᵢ&lt;pᵢ(+1) 时置 +1，否则置 −1。</div>
+<p>单个步数设置下，存留位置当步的揭示概率为 1−t<sub>j+1</sub>/tⱼ，与原外生单调采样律一致。64 步的第 j 个网格时刻对应 256 步的第 4j 个时刻，可直接用 256 步表每四项取一项以消除舍入差异；在这些时刻已揭示位置的集合相同，已生成的符号可以不同。模型输入 t<sub>model</sub>=max(tⱼ,0.01)，clock 下限只作用于模型输入。</p>
+<p class="sub">预检逐位置恰好揭示一次、终点无 MASK、嵌套时刻集合一致、换批次不改变 U/V，并检查各步遮盖率与原转移律相符。存储基础随机键、算法版本、阈值或其可重建哈希、时间表及揭示计数。历史生成可用于另列复核；共享种子本身不足以恢复这套配对。</p><p>逐谱系比较 Fine+RG 对初始 I-F 和等预算 Fine replay 的变化，另报 Fine-only。将 A0 的局部能力变化与 B 路径的自由生成对读，细、粗误差均给出自己的 MC 分母和噪声参照。可选 A1+ 固定谱系 92601，对初始及三个终点各生成 8 张 1,024 步 W96 图，用于探索步数敏感性。</p>
+<h3>A2　用 512 种确切答案拆解并行采样误差</h3>
+<p>取真实 MC 给出的 3×3 隐藏块和完整相互作用边界（12 个外部最近邻）。枚举 2⁹ 种内态，逐边计内部键和边界键一次，归一化得到 P。对每个边界固定外生揭示顺序，oracle 用精确单点条件边缘，原 Transformer 用自身条件边缘；同组位置独立抽取。枚举每条内态的生成概率，核对 ∑Q=1，再算 forward KL、总变差 TV 和“多数为正”的概率差。</p>
+<div class="wrap"><table class="medium"><thead><tr><th>揭示方案</th><th>固定操作</th><th>比较含义</th></tr></thead><tbody><tr><td>逐点</td><td>九次单点揭示。</td><td>精确条件的逐点采样应重建 P。</td></tr><tr><td>相邻三点／同色三点</td><td>首次并行揭示选定三点，剩余六点逐个揭示。两种分组均用七轮。</td><td>在相同轮数和预测点数下比较被边缘化的依赖。</td></tr><tr><td>全部九点</td><td>一次并行揭示九点。</td><td>测量该条件下强因子化的代价。</td></tr><tr><td>同色点独立性控制</td><td>选三个互不相邻的同色点，让其余六点及完整边界都可见。</td><td>最近邻 Ising 的三个条件变量此时独立，oracle 并行误差应为零。</td></tr></tbody></table></div>
+<h3>A2 的条件时间与边界</h3>
+<p>主设置固定 W16×W16 的连续有效细网格、level 0、单位物理坐标。3×3 隐藏块位于按 0 起算的第 6–8 行及第 6–8 列。其余有效自旋含 12 个相互作用边界自旋均可见。固定每个 MC 案例的容器、边界、完整外部可见状态及坐标。每种分组先锁定揭示顺序；所有组内点用揭示前的一次模型条件预测。</p>
+<div class="eq">t<sub>model</sub>(H)=max(M<sub>remaining</sub>(H)/N<sub>valid</sub>, 0.01)。N<sub>valid</sub> 为有效容器内全部位置数，剔除 padding；M<sub>remaining</sub> 为该状态仍隐藏的有效位置数。主设置 N<sub>valid</sub>=256。</div>
+<p>例如剩 9 点时取 9/256，剩 3 点时取 3/256，剩 2 点时取 0.01。相同的部分揭示状态 H 在所有方案中收到相同 clock。精确 oracle 由边界给定，无需神经网络时间输入。A2 保存每轮隐藏数、有效点数与实际 clock；A1 和正式自由生成保留 nominal clock，二者分别标注。</p><p>设某轮要揭示 S，H 为固定边界及此前已揭示点。在真实 P 下对每个 H 加权后，各轮相加，有下式。</p>
+<div class="eq"><p>KL(P‖Q) = Σ E<sub>H</sub> [ KL(P(S|H) ‖ ∏<sub>i∈S</sub>P(i|H)) + Σ<sub>i∈S</sub> KL(P(i|H) ‖ q<sub>θ</sub>(i|H)) ]。</p></div>
+<p>第一项量化并行抽样丢失的组内依赖，第二项量化单点条件预测误差。报告每个边界的两项分解，并对 MC 边界作链级汇总。该恒等式适用于给定的外生分组；对实际带自适应选点的生成轨迹，另行验证其揭示机制。</p>
+<p class="sub">数学验算示例：固定外边界全为 +，按行给内点编号 0–8。用精确边缘，首次并行揭示 (0,1,2) 与 (0,2,4) 的联合 KL 分别为 0.015298 和 0.003272 nats，后续均逐点揭示。把其余六点先固定为 +，后一组的 KL 在舍入精度内为零。这里只验算一个边界，没有估计任何训练权重的效果。</p>
+</section>
+<section id="fourarm"><h2>阶段 B · 从零训练，做四臂等预算机制对照</h2>
+<p>四臂的共同流逐位使用相同的连续细场、单位坐标和共同任务嵌入。每次辅助更新共享同一个 3W×3W 物理父窗口、原点、对称变换、任务嵌入角色、宽度、掩码及噪声。每个配对 seed 使用同一初始参数，臂间训练独立。预存或按键生成这些随机身份，防止某个数据分支额外抽取随机数造成错位。</p>
+<div class="wrap"><table class="wide"><thead><tr><th>辅助流</th><th>给模型的 W×W 自旋</th><th>给模型的物理坐标</th><th>直接可解释的比较</th></tr></thead><tbody>
+<tr><td>F · Fine replay</td><td>父窗口的中央连续细场。</td><td>(i,j)</td><td>等预算细训练参照；F 的辅助标记与其余组参数量相同。</td></tr>
+<tr><td>P · RoPE-only</td><td>与 F 逐位相同。</td><td>(3i+1,3j+1)</td><td>P−F 测单纯扩大编码间距的训练效果。</td></tr>
+<tr><td>D · Decimation</td><td>每个 3×3 块的中央细自旋。</td><td>与 P 逐位相同。</td><td>D−P 测改用真实抽点后的整套效果，包含更大的物理覆盖和相应数据分布。</td></tr>
+<tr><td>M · Majority</td><td>同一批 3×3 块的多数方向。</td><td>与 D、P 逐位相同。</td><td><strong>M−D</strong> 测固定覆盖与坐标后的集体变量增益。<strong>M−F</strong> 测相对标准细训练的实际收益。</td></tr></tbody></table></div>
+<p><strong>M−D、M−F 是两个主比较，M−P 是预定的直接次级确认比较。</strong> 三项均对相同的 W96 细场任务逐 seed 计算。正式声称“多数投票也超过纯 RoPE”需要 M−P 通过<a href="#decision">下述判定</a>。真实抽点数据配单位坐标的 D1 留给后续关于坐标独立作用的研究。</p>
+<h3>开发起始配方</h3>
+<div class="wrap"><table class="medium"><thead><tr><th>项目</th><th>建议值与执行口径</th></tr></thead><tbody>
+<tr><td>规模与更新</td><td>2 个配对开发 seed × 4 臂＝8 个模型。每模型初拟 12,000 次优化器更新，共同和辅助 1:1，即各 6,000 次。按配对周期轮换共同/辅助，预固定四个 W 等频的调度。每次 18,432 个 token。</td></tr>
+<tr><td>宽度与批量</td><td>W=16/24/32/48 对应 batch=72/32/18/8。每个 batch 的 B×W² 均为 18,432。每模型合计 221,184,000 token，其中共同细场 110,592,000。</td></tr>
+<tr><td>遮盖与损失</td><td>普通样本 t∼U[0.002,1)，以概率 t 遮盖。另以 2% 概率使用 t=1 的全 MASK 端点。沿用逆 t 加权的 masked CE，按全批所有位置归一。显式端点属于混合训练目标。</td></tr>
+<tr><td>优化</td><td>AdamW，β=(0.9,0.95)，weight decay=0.05，峰值 LR 初拟 3×10<sup>−4</sup>，最低 3×10<sup>−5</sup>，预热 750 个优化器更新。固定调度公式，EMA=0.999，梯度裁剪范数 1，BF16 autocast。</td></tr>
+<tr><td>权重与诊断</td><td>4k/8k/12k 保存 raw 与 EMA；主评价只取预定 final EMA。梯度诊断在同一 raw 参数状态下计算，两流使用固定诊断批次，共享参数集排除任务专属嵌入，记录归一化与精度。</td></tr></tbody></table></div>
+<div class="eq">L<sub>普通</sub> = (BN)<sup>−1</sup> ∑<sub>b</sub> t<sub>b</sub><sup>−1</sup> ∑<sub>i∈M<sub>b</sub></sub> −log p<sub>θ</sub>(s<sub>bi</sub> | X<sub>b,t</sub>, C<sub>b</sub>)，其中 N=W²。</div>
+<p>在固定周期和 4k/8k/12k 额外测 g<sub>f</sub>、g<sub>a</sub> 的余弦、范数比、实际裁剪率、共同细任务验证损失。两次诊断反传之间不更新参数，测完清空梯度；零范数时记录缺失。第一轮采用普通 AdamW。暖启动仅用于解释 A0、A1 暴露的旧谱系现象。</p>
+</section>
+<section id="confirm"><h2>阶段 C · 用新的种子与 MC 链验证 W96 及 96→32</h2>
+<p>复制阶段 B 已冻结的 Fresh 配方，训练权重、训练 RNG 与确认用 MC 及采样 RNG 重新独立。开发 seed 不并入确认。所有臂均以相同 level 0、单位坐标、全 MASK 和固定采样器生成，考察最初的细场任务。主采样步数在 B 后一次冻结；64／256 步的另一个设置可保留为敏感性分析。</p>
+<div class="wrap"><table class="medium"><thead><tr><th>同一张细图及其投票粗图</th><th>用途</th><th>事先规定的长距离区间</th></tr></thead><tbody>
+<tr><td>W48 → W16</td><td>训练内保留，检查短程、能量和局部 KL。</td><td>保留指标的短程区间和非劣界限在开发后冻结。</td></tr>
+<tr><td><strong>W96 → W32</strong></td><td><strong>主外推与关键跨尺度评价。</strong></td><td>细场 r=25…48；粗场 k=9…16，对应细格物理距离 27…48。</td></tr>
+<tr><td>W144 → W48</td><td>更长上下文压力测试。</td><td>细场 r=37…72；粗曲线按冻结的分箱汇报。</td></tr>
+<tr><td>W192 → W64</td><td>预算允许时，复现老师录音中的宽度。</td><td>作为可选扩展单列。</td></tr></tbody></table></div>
+<p><strong>主指标采用原始两点关联 G。</strong> 主估计量固定为开窗水平与垂直两个轴向的等距自旋乘积，按有效点对合并，不跨越裁剪边界。每张场先求同距均值，每个 seed 下对图等权。下式对距离等权，细、粗场使用各自的 MC 分母。历史诊断若使用其他分箱则另列。</p>
+<div class="eq">E<sub>G</sub>(I) = √[ Σ<sub>r∈I</sub>(G<sub>gen</sub>(r)−G<sub>MC</sub>(r))² ／ Σ<sub>r∈I</sub>G<sub>MC</sub>(r)² ]。</div>
+<p>粗指标使用 R₃(生成 W96) 对 R₃(真实 W96)。例子中 W48 训练确实限制了 token 数，但 D/M 辅助流的最大轴向中心跨度达 3×47=141 个细格。W96 的 r=25…48 是生成窗口的远段，不能整体解释为模型第一次遇到这些物理距离。</p>
+<div class="wrap"><table class="wide"><thead><tr><th>证据</th><th>冻结与判定办法</th></tr></thead><tbody><tr><td>主比较 · W96</td><td>M−D 和 M−F 均用长程原始 G 的相对误差差值，越小越好。δ<sub>G</sub> 候选为 0.03，即相对误差降低 3 个百分点。两项区间上界都小于 −δ<sub>G</sub>，方可进入次级确认。</td></tr>
+<tr><td>直接对照纯 RoPE</td><td>M−P 与主比较使用相同的 W96 终点及实质改善界限。无论主比较如何，都展示逐 seed 数值；正式主张按预定顺序判定。</td></tr>
+<tr><td>粗尺度真实性</td><td>以 R₃(MC W96) 为参考，比较 M−D 和 M−F 在 R₃(生成 W96) 上的 W32 粗 G 误差。此处预定最小界限为 0，检验改善方向，另报实际幅度；每个模型同时展示绝对误差。</td></tr>
+<tr><td>磁化与近程物理</td><td>报告有符号 P(m)、平均 m、正负质量、W48/W96 能量与短程 G、精确局部 KL。相对 F 预定每个保留量允许的退化幅度；磁化和能量可用对 MC 的一维 Wasserstein 距离。明确区分细格的物理每键能量与粗格上的近邻乘积负值。</td></tr>
+<tr><td>连通关联与条件预测</td><td>G<sub>c</sub>(r)=G(r)−m̄²，m̄ 取同一模型的整个系综均值。同时报告独立图间磁化乘积的有限样本校正，MC 用独立链间乘积。逐图先减 m² 会消去临界零模。普通条件 CE 按 mask 档位分列。</td></tr></tbody></table></div>
+<p>完整的核心结论需要两项细主比较、两项粗比较及磁化和局部保留门槛均通过。对纯编码增广的优越性另由 M−P 决定。各层证据单列；若只有长程指标改善，报告其范围。Binder、四点函数、完整频谱以及多层 RG 流保留作后续研究。</p>
+</section>
+<section id="statistics"><h2>统计推断与结果解释</h2>
+<p>规划从 6 个独立配对确认 seed、每模型每条件 128–256 张生成图起步。A3 的噪声、B 的吞吐和配对方差共同决定最终数量。开发只有两个 seed 时方差估计很不稳，预算评估应覆盖数个合理方差并检查区间宽度。一次 MC–MC 差值不能充当效应门槛。</p>
+<ol><li><strong>每个训练 seed 先算一个臂差。</strong> 同 seed 四臂成套保留，先分别计算该模型的曲线、非线性 E 和臂差，再对 seed 等权汇总。把生成样本混成一个跨模型的大样本，会掩盖训练变异。</li>
+<li><strong>联合 bootstrap 使用三个层次。</strong> 顶层重抽完整配对训练 seed；在其中按共享随机身份配对抽生成场；独立重抽 MC 参考链和链内连续父场块，同一次抽到的参考用于所有臂和 seed。保留每张细图与其粗图的对应。每次从原始统计重算 G、m̄、分母、E 和全部对比。预先冻结块长、重复次数、区间算法和 RNG，公开逐 seed 图及留一 seed 敏感性。</li>
+<li><strong>事先决定判定方法。</strong> 以配对层级联合 bootstrap 百分位区间承担主推断，50,000 次重抽样。主样本按配对训练 seed 等权；正式 MC 链数、链内块长、配对生成单位及随机种子在 C 启动前归档。逐 seed 配对 t 区间、留一 seed、MC 链内块长敏感性只检查稳健性，不在结果出来后切换判据。</li></ol>
+<h3 id="decision">正式判定顺序</h3>
+<ol class="tight-list"><li><strong>第一层</strong>　在 W96 的 M−D 和 M−F 上各取 97.5% 双侧联合区间（分位数 0.0125、0.9875）。两项上界均小于 −δ<sub>G</sub>，进入下一层。若仅一项通过，可报告该项的主比较结果，次级比较保留描述性地位。</li>
+<li><strong>第二层</strong>　把名义 5% 的家族错误预算在两个问题间平分。M−P 取 97.5% 双侧区间，上界小于 −δ<sub>G</sub> 才支持优于纯 RoPE。粗 M−D、M−F 各取 98.75% 双侧区间（分位数 0.00625、0.99375）；两项上界均小于 0 才支持对两个对照均改善。两个问题在这一层并行判定。</li>
+<li><strong>能力保留</strong>　从 W48/W96 和预列观测量建立固定的非劣清单，对每一项取 M 相对 F 的单侧 95% 上界。全部低于各自预定的容许代价才作整体非劣声明。公布每项绝对值和容许界限。</li>
+<li><strong>敏感性与精度</strong>　配对 t 按相同比较的区间等级另报。若 t 与主区间方向或过门结论不一致，按主方法判定并标注对方法敏感，两者无需同时通过。点与阈值重合或区间跨阈值均不算通过。seed 很少时联合 bootstrap 的尾分位可能不稳定；B 后用候选方差做精度检查并一次锁定 C 样本量。留一 seed 不改变主检验。</li></ol><div class="wrap"><table class="wide"><thead><tr><th>观察到的情形</th><th>研究结论</th></tr></thead><tbody>
+<tr><td>M 优于 D 和 F，且粗统计与保留判据通过</td><td>在该协议下，集体变量对细生成有额外的、可迁移的价值，并改善所测跨尺度统计。M 与 P 的优劣仍依据直接比较。</td></tr>
+<tr><td>M 与 D 接近，两者优于 P</td><td>与真实取样覆盖对训练有益相容。M/D 的差值精度决定能否进一步谈等效。</td></tr>
+<tr><td>P 优于或弱于 F</td><td>确定这套纯编码增广的方向。物理坐标错配、尺度频率等机制需要其他对照。</td></tr>
+<tr><td>粗预测改善，细生成未改善；或只胜旧 replay</td><td>分别报告粗任务学习、相对退化基线的缓解；绝对提升需比较初始权重或 Fresh 细训练。</td></tr>
+<tr><td>步数改变排序；或细长程改善但磁化／能量恶化</td><td>前者提示训练与采样交互，后者只支持受限的长程收益。</td></tr>
+<tr><td>粗统计正确，细图错误</td><td>粗化会丢失块内信息。例如将每个粗自旋复制为九个同号细自旋，投票能还原粗图，细图块内键却全部同号。</td></tr></tbody></table></div>
+</section>
+<section id="figures"><h2>导师汇报与预定图版交付规范</h2>
+<p class="chapter-lead">主体汇报先给真实自旋构型和物理曲线，再逐个训练 seed 检查可重复性，最后交代主检验允许下多强的结论。以下是实验前的图版规范，等相应数据取得后再绘图。</p>
+<div class="wrap"><table class="wide"><thead><tr><th>预定图版</th><th>画面和数据</th><th>导师读图时应能判断什么</th></tr></thead><tbody>
+<tr><td class="figure-id">图 1 · 同一块的两种代表</td><td>A3。a 原始 W96 MC；b 同图 D₃；c 同图 R₃；d 逐块标示 D₃≠R₃；e 两种粗图的完整原始 G，以粗距 k 和物理距离 3k 双刻度表示；f 两种粗图的有符号磁化分布。W144→48 使用相同布局。</td><td>先看前四张图，再看关联振幅和磁化涨落。若讨论分歧集中在边界，事先定义边界并公布分子、分母。可定义投票粗图中至少一个窗口内四邻与中心异号的位置为边界。保留绝对振幅。</td></tr>
+<tr><td class="figure-id">图 2 · 每条旧谱系的轨迹</td><td>A0。92601、92602、92603 一列一谱系，共享 W96 精确局部 KL 纵轴。从同一初始 I-F EMA 出发，分别标 Fine-only、Fine+RG、Fine replay 的中点和终点。横轴注明共同细更新和各臂实际总更新。</td><td>看每条谱系何时开始退化，区分优于 replay 和超过初始能力。仅有两个已测端点时画散点，中点留空；不得用中点的其他 CE 代替该点的 W96 KL。</td></tr>
+<tr><td class="figure-id">图 3 · 核心生成构型</td><td>B/C。每个 seed 一组 2 行 × 5 列，列序 MC、F、P、D、M。上行真实或生成 W96，下行由正上方同一张图实际多数投票得到 W32。每条谱系使用预登记的 4 个生成样本 ID（0、1、2、3）；另冻结独立 MC 对照 ID。图注可标 m 和每键能量口径。</td><td>同一细图的团簇缩小后保留了什么，四种训练是否出现可见差异。MC 与各臂独立构型的空间位置无需一一对应，不计算这两张图的像素误差。A1 的直接粗生成另列，避免误认作上方细图的投票。</td></tr>
+<tr><td class="figure-id">图 4 · 关联随距离的变化</td><td>B/C。a W96 原始 G(r)，r=1…48；b 同距连通 Gc(r)；c W32 原始 G(k)，k=1…16；d 粗 G−G<sub>MC</sub> 对 3k。每格均画 MC、F、P、D、M，d 中 MC 定义为零基线。细主区间 25…48、粗主区间 9…16（物理 27…48）用浅色背景标记。</td><td>指出偏差起始距离、方向及其在重复间的变化。先陈列“训练 seed × 尺度”的分面，跨 seed 使用同量同轴，再给逐 seed 等权汇总。每条原始曲线保留自身振幅。</td></tr>
+<tr><td class="figure-id">图 5 · 磁化与能量分布</td><td>分 W96 细图／W32 投票粗图绘制有符号 m 直方图、经验累积分布、|m| 分布、每键能量或粗格最近邻乘积负值分布。m=ΣX/W²，细 e=−Σ<sub>窗口内最近邻键</sub> XᵢXⱼ / [2W(W−1)]。同量统一分箱、坐标及面积归一。小样本优先读 ECDF。</td><td>考查正负模式、整体有序程度与局部物理能否同时保持。生成结果保留原有正负号。粗格近邻统计报告其操作性定义。</td></tr>
+<tr><td class="figure-id">图 6 · 小块联合采样</td><td>A2。标清逐点、相邻三点、同色三点、九点并行四种揭示组；按固定边界显示 512 个构型的 P(x) 对 Q(x) 及 y=x、正自旋数量分布、P(多数为正)、不同边界下的因子化 KL。oracle 与 Transformer 的坐标轴一致，分别标示。附全可见同色控制。</td><td>在同一边界读出预测误差与分组独立化的代价。全正边界的两个已核算 oracle KL 为 0.015298、0.003272 nats。固定边界精确枚举无需抽样区间；随机 MC 边界另作链级汇总。</td></tr>
+</tbody></table></div>
+<h3>各阶段交付及报告位置</h3>
+<div class="wrap"><table class="medium"><thead><tr><th>阶段</th><th>主体或诊断附页必须提供</th></tr></thead><tbody>
+<tr><td>A0</td><td>图 2 的三条谱系；W48/W96 的其他保留能力单列。</td></tr>
+<tr><td>A3</td><td>图 1，包括同源分歧图、关联及磁化分布。</td></tr>
+<tr><td>A3-N</td><td>每个 n 的 MC–MC 误差散点，叠加 5%、50%、95% 分位数；标出参考张数、链划分、块长。技术附录保留 2,000 次全部数值。</td></tr>
+<tr><td>A1</td><td>原 MC 与旧模型的细图及配对粗图，完整关联、磁化；A/B/C 三路径粗场对照按谱系与采样步数分开。</td></tr>
+<tr><td>A2</td><td>图 6 及边界和状态 clock。固定边界的精确值与 MC 边界的统计分别注明。</td></tr>
+<tr><td>B</td><td>四臂训练／验证曲线，4k/8k/12k 与学习状态，图 3 构型、逐 seed 图 4，梯度及次要量另页。</td></tr>
+<tr><td>C</td><td>图 3、4、5 的独立确认版；每一训练 seed 的 M−D、M−F、M−P 点估计及预设门槛。主区间和保留检验列入统计附录。</td></tr></tbody></table></div>
+<h3>绘图前冻结，出图时可复核</h3>
+<ul><li><strong>身份与配色。</strong> C 启动前记录四个构型 ID、MC 父场／链／裁剪原点及对照规则。各臂、宽度、seed 全部采用同一自旋配色（+1 深青、−1 浅米）。曲线颜色固定为 MC 炭黑、F 灰蓝、P 紫、D 蓝、M 赭橙，同时用线型或点型区分。若固定样本缺失，在原位标注缺失原因。</li>
+<li><strong>尺度与轴。</strong> 图像以最近邻显示，细粗图保持朝向和物理覆盖。关联不各自归一；磁化 m 的完整支持为 [−1,1]。同一物理量、尺度、所有 seed 共享分箱和坐标范围。需要放大局部时同时保留全幅。曲线先按模型独立计算，再按训练 seed 等权汇总。</li>
+<li><strong>原始数值与脚本。</strong> 每图保存可无损重画的二进制数组或 CSV/NPZ、绘图脚本和配置。自旋图存细场、粗场、算子、父图 ID；曲线存每个构型每个距离的乘积和及有效点对数；分布存逐图 m、|m|、e；A0 存逐谱系／阶段／任务数值；A2 存边界、分组、全部 P/Q、揭示状态与 clock。生成文件带训练 seed、checkpoint SHA、生成随机键、宽度、步数。保存 MC 链／父场及样本索引、输入校验值、正式分箱、脚本版本和图注。</li>
+<li><strong>归档与陈述。</strong> 实测历史、固定边界精确值、开发和独立确认分别标明来源。导师正文写“看到了什么、哪些 seed 重复、支持哪一级结论”；附录提供逐 seed 数值、配对效应、联合区间、敏感性、非劣门槛和完整配置。在数据到位前保留图版说明。</li></ul>
+</section><section id="delivery"><h2>开工顺序、资源和阶段冻结</h2>
+<div class="wrap"><table class="wide"><thead><tr><th>任务与优先级</th><th>启动时检查什么</th><th>这一项应交付什么</th></tr></thead><tbody>
+<tr><td>A0 · P0</td><td>21 份权重的来源、SHA、构造、strict load，以及固定输入预测复现。逐任务清点历史银行和日志。</td><td>按谱系画初始／中点／终点能力图；区分相对初始和相对 replay。</td></tr>
+<tr><td>A3 · P0</td><td>优先使用 CPU。全正、中心与多数异号、整体翻转、旋转、块原点和 D₃ 位移恒等式。</td><td>96→32 和 144→48 的配对物理曲线、分歧率和按链区间。</td></tr>
+<tr><td>A3-N · P0</td><td>参考与伪生成来自不相交链组；测量自相关，冻结链内块长规则。</td><td>样本量–误差曲线，并给出 A1/C 的样本量选择依据。</td></tr>
+<tr><td>A1 · P0</td><td>每种步数做吞吐预检，核对全 MASK 起点、最低 clock、无残余 MASK、生成种子和精度。</td><td>24 格 W96 初始／终点矩阵，加 6 格 Fine+RG W32 直接粗生成；三路径并列。A1+ 单列。</td></tr>
+<tr><td>A2 · P0</td><td>核验 512 态归一、逐点 oracle、同色条件独立、KL 分解和同状态 clock 一致。</td><td>不同 MC 边界与分组的 KL、TV、多数概率差，列出预测误差和因子化误差。</td></tr>
+<tr><td>B · P1</td><td>预检四组共同流哈希、F/P 自旋、P/D/M 坐标、输入 token、初始化及优化器恢复；核对断点续训与连续运行的一致性。</td><td>8 个开发模型、逐臂学习曲线、梯度诊断、初步效应、吞吐与预算表。</td></tr>
+<tr><td>C · P1</td><td>在查看新测试链与确认生成前冻结数据身份、采样、模型和完整统计协议。</td><td>两项主比较的区间、粗尺度及保留判据、逐 seed 与留一结果，同时公布阴性或不确定结果。</td></tr>
+<tr><td>D · P2</td><td>根据已识别的物理或采样问题，选择一个有可检验预期的扩展。</td><td>后续可选跨尺度一致性损失、逆 RG 或层次化生成。本轮使用原网络与原优化方法。</td></tr>
+</tbody></table></div>
+<h3>把预算落实到能量测的单位</h3>
+<p>A1 若每格 32 张，W96 的 24 格共 768 张、122,880 个单图反向步。新增 3 权重 × 2 步数的 W32 直接粗生成共 192 张、30,720 个单图反向步。两种宽度合计 30 格、960 张直接生成的图。由 W96 投票所得粗图复用原图；A1+ 的 32 张另计。同 batch、层数、头数和采样步数下，稠密注意力中二次项的理论比例为 (32/96)⁴=1/81，线性项比例为 1/9，实际耗时按两个宽度分别预检。</p>
+<p>B 的 8 个开发模型初拟合计 1,769,472,000 token。若 C 采用同样 12k 更新、6 seed × 4 臂，则为 5,308,416,000 token；每臂每 seed 生成 128–256 张时，单个 W96 采样设置共 3,072–6,144 张。GPU 小时以实测吞吐换算，W144 和可选 W192 单列。</p>
+<div class="notice"><p><strong>先验收，再推进。</strong> A→B 看资产可靠性、终点可辨识度及可承担的成本。B→C 看 Fresh 细训练基线是否学会、四臂信号有无科学价值和是否由单个 seed 主导。若开发未出现可追踪的信号，记录结论和精度，重新评价假设。C→D 由已得到的机制证据决定。</p></div>
+<div class="notice note"><p><strong>现在锁定</strong>　原 ISM 架构、F/P/D/M 与 Fresh 路线、W96 及 96→32、A1 三路径与随机数耦合、A2 clock、C 的主次比较和统计判定、图形交付规范。</p><p><strong>C 前填写并冻结</strong>　正式训练更新数、确认 seed 数、各格生成张数、主采样步数、测试链身份、bootstrap 的链内块长、δ<sub>G</sub>、保留量非劣界限和绘图清单。δ<sub>G</sub>=0.03 是候选。配置与理由随版本存档，确认数据只在冻结后启封。</p></div>
+</section>
+<section id="sources"><h2>录音、项目证据与口径</h2>
+<ul class="refs">
+<li>9 月 30 日录音 19:36–21:55 讲解 192→64 的多数投票与中心间距，27:38–28:46 提出由小模型评判粗图。《关于分布自由度的讨论》19:24–21:25 比较改变间距和分块，59:51–1:01:03 追问代表点与块多数能否保留同样的统计。<a href="https://chatgpt.com/library?file_id=libfile_fde3_f-55becd7e3d988191a5b226cbcf6338d9_d6a1872c10c881918c669cfffd1b49c9&amp;account_id=personal">两次讨论的录音摘录</a></li>
+<li>原 ISM 项目历史记录可从 <code>experiments/rg-coarse-data-training-transfer/RESULTS_ZH.md</code> 与该目录的 <code>protocol/RG_DATA_TRAINING_PILOT_CONFIG_20261001.json</code> 对照复核。G/I 的证据分别见 <code>experiments/size-spacing-factorial/REPORT_ZH.md</code>、<code>experiments/fine-geometry-identification/REPORT_ZH.md</code>。A0 初始与终点四项汇总采用本次给出的数值，A0 再用同一评价接口逐谱系核验。</li>
+<li>合作者 11 月 24 日已完成等 50,000 步的固定／分组 RoPE 交叉对照。该实验使用另一套骨干，结果用于理解编码对照的作用。<a href="https://github.com/zdacongming-glitch/Hackathon-3/blob/f2dbd3789508b33aab08b8e0b681a5cf580c5642/results/stage3_multiscale/README.md">Stage 3 固定版本</a></li>
+<li>块自旋变换、尺度变化和有效哈密顿量的物理背景。<a href="https://clark.physics.illinois.edu/html/Ising/RG.html">University of Illinois · The Renormalization Group</a></li>
+</ul>
+<p class="sub">本版沿用 v1.1 的 7 层 ISM、物理设置及诊断结果口径。归档参照另见 <code>scripts/research20260921/diagnostic_math.py</code>（开窗轴向关联及精确枚举）、<code>ism_diffusion/scale_diffusion.py</code>（历史采样律）与 RG pilot 的逐谱系预测文件。导师汇报提纲规定结果回来后的讲述顺序。<a href="RG-2_v1.2_advisor_outline.html">RG-2 导师汇报提纲</a></p>
+</section>
+</main><footer><div class="inner">RG-2 v1.2 · 实验协议 <a class="back" href="#top">返回开头 ↑</a></div></footer></body></html>

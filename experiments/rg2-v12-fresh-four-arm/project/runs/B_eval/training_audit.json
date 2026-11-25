@@ -1,0 +1,193 @@
+{
+  "all_96000_update_records_checked": true,
+  "all_pairing_hashes_checked": true,
+  "checkpoint_optimizer_and_EMA_checks": true,
+  "models": [
+    {
+      "arm": "F",
+      "aux": 6000,
+      "checkpoints": [
+        {
+          "sha256": "825bb9d96e05c6c5badf23692d050030084d338af2e887ecea7c613b34ca214a",
+          "step": 4000
+        },
+        {
+          "sha256": "28901471196c259b62b465a464694fb835ff511298e29a205bbf4520500c1926",
+          "step": 8000
+        },
+        {
+          "sha256": "7acc48eea15473a423877df8bb531b64cd74f3095b174f746afc1a6103a0f79f",
+          "step": 12000
+        }
+      ],
+      "common": 6000,
+      "initial_hash": "a072c3f405863d94e610a416295880e2de1e7f13349669a8a5513f3d90c2132e",
+      "seed": 112501,
+      "tokens": 221184000,
+      "updates": 12000
+    },
+    {
+      "arm": "P",
+      "aux": 6000,
+      "checkpoints": [
+        {
+          "sha256": "345afa4f8c205f3ed8bb62bfb3f4e608a811af09661a25a7cb57eeb2dbf3f7e1",
+          "step": 4000
+        },
+        {
+          "sha256": "86dd6f99388ef5f3ddf28fc0a74cf8ac8864e4d2893b9662d00f874d45a5c647",
+          "step": 8000
+        },
+        {
+          "sha256": "54cb909aede9b0f06ca90b9a00f7668828365cc86decf3c21d975a12692fba65",
+          "step": 12000
+        }
+      ],
+      "common": 6000,
+      "initial_hash": "a072c3f405863d94e610a416295880e2de1e7f13349669a8a5513f3d90c2132e",
+      "seed": 112501,
+      "tokens": 221184000,
+      "updates": 12000
+    },
+    {
+      "arm": "D",
+      "aux": 6000,
+      "checkpoints": [
+        {
+          "sha256": "c4dd70727bd382faba9ad82d1c6d1f1af64129ac9ab3ab57fe23432bc2efbd49",
+          "step": 4000
+        },
+        {
+          "sha256": "ce74037b76216ab9440b4f15c637106d75cade3acc5d817c0f5b86cb439e5985",
+          "step": 8000
+        },
+        {
+          "sha256": "8f04dfa3fd646035d7dda7d210f6e5b55e99b73b512c1d88e2d1244ad3b3f798",
+          "step": 12000
+        }
+      ],
+      "common": 6000,
+      "initial_hash": "a072c3f405863d94e610a416295880e2de1e7f13349669a8a5513f3d90c2132e",
+      "seed": 112501,
+      "tokens": 221184000,
+      "updates": 12000
+    },
+    {
+      "arm": "M",
+      "aux": 6000,
+      "checkpoints": [
+        {
+          "sha256": "4c3439b56625706c8aa57a081e050d4fd94898fa0380d2017e14b7e141ecfc5b",
+          "step": 4000
+        },
+        {
+          "sha256": "1e4c01206288b133b548ec791b942d459adde72586de2fb865c022c14ac712f5",
+          "step": 8000
+        },
+        {
+          "sha256": "921eb2b05f950944b48d2383dc5fc1578e8d8f581c2e41dd8c8509ad72595e45",
+          "step": 12000
+        }
+      ],
+      "common": 6000,
+      "initial_hash": "a072c3f405863d94e610a416295880e2de1e7f13349669a8a5513f3d90c2132e",
+      "seed": 112501,
+      "tokens": 221184000,
+      "updates": 12000
+    },
+    {
+      "arm": "F",
+      "aux": 6000,
+      "checkpoints": [
+        {
+          "sha256": "d0c7c6371d8804e6602917f0f89c8f48359c3e02e28ad6403fdf2d5c4b6d26ad",
+          "step": 4000
+        },
+        {
+          "sha256": "f5a7a32b3f2dc800c9088636bd98820fa30e456ffb2117233c9ad264c95103cb",
+          "step": 8000
+        },
+        {
+          "sha256": "4c899f721b6fece56b723fd9c12bcd3e7e887862c770843de6aaa6d639210a89",
+          "step": 12000
+        }
+      ],
+      "common": 6000,
+      "initial_hash": "e3208a7478704786d6a66b526e3071eb7d82c1ce73c0465b555dbae220305fd9",
+      "seed": 112502,
+      "tokens": 221184000,
+      "updates": 12000
+    },
+    {
+      "arm": "P",
+      "aux": 6000,
+      "checkpoints": [
+        {
+          "sha256": "966241c179463bc0695549ac83a68a6b5506800138358afdd66d35043301f7dc",
+          "step": 4000
+        },
+        {
+          "sha256": "b2f392d613f7bffdd0e8d3de021df03f5baf8185d01babcb6f62205a4ee9a583",
+          "step": 8000
+        },
+        {
+          "sha256": "54305fa0032ad7ae3f3a02279cdfbb436c0aad0fb2deb67a703c21fe83171e5f",
+          "step": 12000
+        }
+      ],
+      "common": 6000,
+      "initial_hash": "e3208a7478704786d6a66b526e3071eb7d82c1ce73c0465b555dbae220305fd9",
+      "seed": 112502,
+      "tokens": 221184000,
+      "updates": 12000
+    },
+    {
+      "arm": "D",
+      "aux": 6000,
+      "checkpoints": [
+        {
+          "sha256": "a5624ed094b3246d1b392912146df06fa74c5da37c6f3e46ebfa2f80bc2f2ce3",
+          "step": 4000
+        },
+        {
+          "sha256": "9bdb04c554723e678575d6bb741edd2cc63a41ed3c562a7d7873f10bb57ce55e",
+          "step": 8000
+        },
+        {
+          "sha256": "ee3d8ebea3674706fe8f325c2cef7183b575d376672af2bff5cc35e64021dc33",
+          "step": 12000
+        }
+      ],
+      "common": 6000,
+      "initial_hash": "e3208a7478704786d6a66b526e3071eb7d82c1ce73c0465b555dbae220305fd9",
+      "seed": 112502,
+      "tokens": 221184000,
+      "updates": 12000
+    },
+    {
+      "arm": "M",
+      "aux": 6000,
+      "checkpoints": [
+        {
+          "sha256": "c922881ba60c6f5ae83728b937d7deba2391d34de3d81643282bf88cac6f8148",
+          "step": 4000
+        },
+        {
+          "sha256": "cb86122c8bcf6ef6d7afdf558baebbb7f1fb39709eaaa00396e23af2f6752b84",
+          "step": 8000
+        },
+        {
+          "sha256": "96619250a175b2593f7f8cd3b1063a007de62f63418e2b4659f480ebeff6f2c7",
+          "step": 12000
+        }
+      ],
+      "common": 6000,
+      "initial_hash": "e3208a7478704786d6a66b526e3071eb7d82c1ce73c0465b555dbae220305fd9",
+      "seed": 112502,
+      "tokens": 221184000,
+      "updates": 12000
+    }
+  ],
+  "paired_initializations_checked": true,
+  "status": "passed"
+}

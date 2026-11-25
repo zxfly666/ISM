@@ -1,0 +1,10 @@
+{
+  "direct_parent_site_checks": 72,
+  "includes_periodic_origins": true,
+  "operators": [
+    "central_fine_crop",
+    "block_center",
+    "majority_9"
+  ],
+  "status": "passed"
+}

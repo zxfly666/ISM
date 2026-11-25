@@ -1,0 +1,15 @@
+{
+  "protocol": "RG-2 v1.2",
+  "A": "complete_and_independently_audited",
+  "B": "complete_and_independently_audited",
+  "B_models": 8,
+  "B_updates": 96000,
+  "A_generated_images": 960,
+  "B_generated_images": 512,
+  "independent_confirmation": false,
+  "C_launched": false,
+  "B_finished_UTC8": "2026-11-25T07:57:54+08:00",
+  "B_training_seconds": 7299.677095651627,
+  "B_evaluation_seconds": 2806.058258533478,
+  "recommendation": "Defer an unchanged large C campaign; freeze the energy/local-retention tradeoff and precision plan, retaining all four arms."
+}

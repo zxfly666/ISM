@@ -1,0 +1,438 @@
+{
+  "status": "passed",
+  "cells": 72,
+  "checks": [
+    {
+      "model": "s92601_initial_initial",
+      "bank": "fine_W48_M1",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.5959455978986625e-16
+    },
+    {
+      "model": "s92601_initial_initial",
+      "bank": "fine_W48_M32",
+      "max_probability_error": 0.0,
+      "max_KL_error": 8.153200337090993e-17
+    },
+    {
+      "model": "s92601_initial_initial",
+      "bank": "fine_W48_M8",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.0256552551712872e-16
+    },
+    {
+      "model": "s92601_initial_initial",
+      "bank": "fine_W96_M1",
+      "max_probability_error": 4.76837158203125e-07,
+      "max_KL_error": 5.539822581501763e-07
+    },
+    {
+      "model": "s92601_initial_initial",
+      "bank": "fine_W96_M32",
+      "max_probability_error": 1.1324882507324219e-06,
+      "max_KL_error": 6.479527913522132e-08
+    },
+    {
+      "model": "s92601_initial_initial",
+      "bank": "fine_W96_M8",
+      "max_probability_error": 8.344650268554688e-07,
+      "max_KL_error": 1.1139553141720215e-07
+    },
+    {
+      "model": "s92601_fine_only_final",
+      "bank": "fine_W48_M1",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.4224732503009818e-16
+    },
+    {
+      "model": "s92601_fine_only_final",
+      "bank": "fine_W48_M32",
+      "max_probability_error": 0.0,
+      "max_KL_error": 8.131516293641283e-17
+    },
+    {
+      "model": "s92601_fine_only_final",
+      "bank": "fine_W48_M8",
+      "max_probability_error": 0.0,
+      "max_KL_error": 9.194034422677078e-17
+    },
+    {
+      "model": "s92601_fine_only_final",
+      "bank": "fine_W96_M1",
+      "max_probability_error": 7.152557373046875e-07,
+      "max_KL_error": 7.366571062594751e-07
+    },
+    {
+      "model": "s92601_fine_only_final",
+      "bank": "fine_W96_M32",
+      "max_probability_error": 1.0728836059570312e-06,
+      "max_KL_error": 4.881790768851424e-08
+    },
+    {
+      "model": "s92601_fine_only_final",
+      "bank": "fine_W96_M8",
+      "max_probability_error": 9.834766387939453e-07,
+      "max_KL_error": 1.374639751056117e-07
+    },
+    {
+      "model": "s92601_fine_plus_rg_final",
+      "bank": "fine_W48_M1",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.457167719820518e-16
+    },
+    {
+      "model": "s92601_fine_plus_rg_final",
+      "bank": "fine_W48_M32",
+      "max_probability_error": 0.0,
+      "max_KL_error": 6.765421556309548e-17
+    },
+    {
+      "model": "s92601_fine_plus_rg_final",
+      "bank": "fine_W48_M8",
+      "max_probability_error": 0.0,
+      "max_KL_error": 7.849623728795052e-17
+    },
+    {
+      "model": "s92601_fine_plus_rg_final",
+      "bank": "fine_W96_M1",
+      "max_probability_error": 1.0132789611816406e-06,
+      "max_KL_error": 7.302637435313564e-07
+    },
+    {
+      "model": "s92601_fine_plus_rg_final",
+      "bank": "fine_W96_M32",
+      "max_probability_error": 1.1026859283447266e-06,
+      "max_KL_error": 5.605818970133569e-08
+    },
+    {
+      "model": "s92601_fine_plus_rg_final",
+      "bank": "fine_W96_M8",
+      "max_probability_error": 9.834766387939453e-07,
+      "max_KL_error": 2.5054782799849296e-07
+    },
+    {
+      "model": "s92601_fine_replay_final",
+      "bank": "fine_W48_M1",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.3877787807814457e-16
+    },
+    {
+      "model": "s92601_fine_replay_final",
+      "bank": "fine_W48_M32",
+      "max_probability_error": 0.0,
+      "max_KL_error": 7.35089072945172e-17
+    },
+    {
+      "model": "s92601_fine_replay_final",
+      "bank": "fine_W48_M8",
+      "max_probability_error": 0.0,
+      "max_KL_error": 8.7061434450586e-17
+    },
+    {
+      "model": "s92601_fine_replay_final",
+      "bank": "fine_W96_M1",
+      "max_probability_error": 5.960464477539062e-07,
+      "max_KL_error": 4.273784079689147e-07
+    },
+    {
+      "model": "s92601_fine_replay_final",
+      "bank": "fine_W96_M32",
+      "max_probability_error": 8.046627044677734e-07,
+      "max_KL_error": 1.4054630652349243e-07
+    },
+    {
+      "model": "s92601_fine_replay_final",
+      "bank": "fine_W96_M8",
+      "max_probability_error": 7.748603820800781e-07,
+      "max_KL_error": 1.607551791751871e-07
+    },
+    {
+      "model": "s92602_initial_initial",
+      "bank": "fine_W48_M1",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.5959455978986625e-16
+    },
+    {
+      "model": "s92602_initial_initial",
+      "bank": "fine_W48_M32",
+      "max_probability_error": 0.0,
+      "max_KL_error": 9.8879238130678e-17
+    },
+    {
+      "model": "s92602_initial_initial",
+      "bank": "fine_W48_M8",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.1449174941446927e-16
+    },
+    {
+      "model": "s92602_initial_initial",
+      "bank": "fine_W96_M1",
+      "max_probability_error": 5.364418029785156e-07,
+      "max_KL_error": 7.684171960120612e-07
+    },
+    {
+      "model": "s92602_initial_initial",
+      "bank": "fine_W96_M32",
+      "max_probability_error": 9.5367431640625e-07,
+      "max_KL_error": 4.624770431893577e-08
+    },
+    {
+      "model": "s92602_initial_initial",
+      "bank": "fine_W96_M8",
+      "max_probability_error": 7.152557373046875e-07,
+      "max_KL_error": 1.0474923978903705e-07
+    },
+    {
+      "model": "s92602_fine_only_final",
+      "bank": "fine_W48_M1",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.6653345369377348e-16
+    },
+    {
+      "model": "s92602_fine_only_final",
+      "bank": "fine_W48_M32",
+      "max_probability_error": 0.0,
+      "max_KL_error": 9.063930161978817e-17
+    },
+    {
+      "model": "s92602_fine_only_final",
+      "bank": "fine_W48_M8",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.0148132334464322e-16
+    },
+    {
+      "model": "s92602_fine_only_final",
+      "bank": "fine_W96_M1",
+      "max_probability_error": 5.960464477539062e-07,
+      "max_KL_error": 6.204985023849918e-07
+    },
+    {
+      "model": "s92602_fine_only_final",
+      "bank": "fine_W96_M32",
+      "max_probability_error": 8.940696716308594e-07,
+      "max_KL_error": 1.0772453902518908e-07
+    },
+    {
+      "model": "s92602_fine_only_final",
+      "bank": "fine_W96_M8",
+      "max_probability_error": 7.748603820800781e-07,
+      "max_KL_error": 1.8274709499832564e-07
+    },
+    {
+      "model": "s92602_fine_plus_rg_final",
+      "bank": "fine_W48_M1",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.5265566588595902e-16
+    },
+    {
+      "model": "s92602_fine_plus_rg_final",
+      "bank": "fine_W48_M32",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.0755285551056204e-16
+    },
+    {
+      "model": "s92602_fine_plus_rg_final",
+      "bank": "fine_W48_M8",
+      "max_probability_error": 0.0,
+      "max_KL_error": 8.326672684688674e-17
+    },
+    {
+      "model": "s92602_fine_plus_rg_final",
+      "bank": "fine_W96_M1",
+      "max_probability_error": 5.960464477539062e-07,
+      "max_KL_error": 6.552871682496964e-07
+    },
+    {
+      "model": "s92602_fine_plus_rg_final",
+      "bank": "fine_W96_M32",
+      "max_probability_error": 1.1026859283447266e-06,
+      "max_KL_error": 6.190626778562747e-08
+    },
+    {
+      "model": "s92602_fine_plus_rg_final",
+      "bank": "fine_W96_M8",
+      "max_probability_error": 1.519918441772461e-06,
+      "max_KL_error": 1.0930965436972695e-07
+    },
+    {
+      "model": "s92602_fine_replay_final",
+      "bank": "fine_W48_M1",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.249000902703301e-16
+    },
+    {
+      "model": "s92602_fine_replay_final",
+      "bank": "fine_W48_M32",
+      "max_probability_error": 0.0,
+      "max_KL_error": 8.890457814381136e-17
+    },
+    {
+      "model": "s92602_fine_replay_final",
+      "bank": "fine_W48_M8",
+      "max_probability_error": 0.0,
+      "max_KL_error": 7.849623728795052e-17
+    },
+    {
+      "model": "s92602_fine_replay_final",
+      "bank": "fine_W96_M1",
+      "max_probability_error": 4.76837158203125e-07,
+      "max_KL_error": 6.798798675156092e-07
+    },
+    {
+      "model": "s92602_fine_replay_final",
+      "bank": "fine_W96_M32",
+      "max_probability_error": 8.344650268554688e-07,
+      "max_KL_error": 7.591353951008628e-08
+    },
+    {
+      "model": "s92602_fine_replay_final",
+      "bank": "fine_W96_M8",
+      "max_probability_error": 8.940696716308594e-07,
+      "max_KL_error": 2.03674653809216e-07
+    },
+    {
+      "model": "s92603_initial_initial",
+      "bank": "fine_W48_M1",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.8041124150158794e-16
+    },
+    {
+      "model": "s92603_initial_initial",
+      "bank": "fine_W48_M32",
+      "max_probability_error": 0.0,
+      "max_KL_error": 7.979727989493313e-17
+    },
+    {
+      "model": "s92603_initial_initial",
+      "bank": "fine_W48_M8",
+      "max_probability_error": 0.0,
+      "max_KL_error": 8.673617379884035e-17
+    },
+    {
+      "model": "s92603_initial_initial",
+      "bank": "fine_W96_M1",
+      "max_probability_error": 5.364418029785156e-07,
+      "max_KL_error": 3.8950561714878873e-07
+    },
+    {
+      "model": "s92603_initial_initial",
+      "bank": "fine_W96_M32",
+      "max_probability_error": 8.046627044677734e-07,
+      "max_KL_error": 5.266688808680531e-08
+    },
+    {
+      "model": "s92603_initial_initial",
+      "bank": "fine_W96_M8",
+      "max_probability_error": 6.258487701416016e-07,
+      "max_KL_error": 9.890299218495713e-08
+    },
+    {
+      "model": "s92603_fine_only_final",
+      "bank": "fine_W48_M1",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.457167719820518e-16
+    },
+    {
+      "model": "s92603_fine_only_final",
+      "bank": "fine_W48_M32",
+      "max_probability_error": 0.0,
+      "max_KL_error": 9.8879238130678e-17
+    },
+    {
+      "model": "s92603_fine_only_final",
+      "bank": "fine_W48_M8",
+      "max_probability_error": 0.0,
+      "max_KL_error": 9.410874857174178e-17
+    },
+    {
+      "model": "s92603_fine_only_final",
+      "bank": "fine_W96_M1",
+      "max_probability_error": 4.76837158203125e-07,
+      "max_KL_error": 2.5992172941746716e-07
+    },
+    {
+      "model": "s92603_fine_only_final",
+      "bank": "fine_W96_M32",
+      "max_probability_error": 8.344650268554688e-07,
+      "max_KL_error": 4.1107065099077467e-08
+    },
+    {
+      "model": "s92603_fine_only_final",
+      "bank": "fine_W96_M8",
+      "max_probability_error": 8.046627044677734e-07,
+      "max_KL_error": 1.2260037737799045e-07
+    },
+    {
+      "model": "s92603_fine_plus_rg_final",
+      "bank": "fine_W48_M1",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.5265566588595902e-16
+    },
+    {
+      "model": "s92603_fine_plus_rg_final",
+      "bank": "fine_W48_M32",
+      "max_probability_error": 0.0,
+      "max_KL_error": 9.107298248878237e-17
+    },
+    {
+      "model": "s92603_fine_plus_rg_final",
+      "bank": "fine_W48_M8",
+      "max_probability_error": 0.0,
+      "max_KL_error": 7.39425881635114e-17
+    },
+    {
+      "model": "s92603_fine_plus_rg_final",
+      "bank": "fine_W96_M1",
+      "max_probability_error": 5.662441253662109e-07,
+      "max_KL_error": 4.2435988484301745e-07
+    },
+    {
+      "model": "s92603_fine_plus_rg_final",
+      "bank": "fine_W96_M32",
+      "max_probability_error": 8.940696716308594e-07,
+      "max_KL_error": 4.756844601550014e-08
+    },
+    {
+      "model": "s92603_fine_plus_rg_final",
+      "bank": "fine_W96_M8",
+      "max_probability_error": 6.258487701416016e-07,
+      "max_KL_error": 1.1382728919151486e-07
+    },
+    {
+      "model": "s92603_fine_replay_final",
+      "bank": "fine_W48_M1",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.222980050563649e-16
+    },
+    {
+      "model": "s92603_fine_replay_final",
+      "bank": "fine_W48_M32",
+      "max_probability_error": 0.0,
+      "max_KL_error": 7.003946034256359e-17
+    },
+    {
+      "model": "s92603_fine_replay_final",
+      "bank": "fine_W48_M8",
+      "max_probability_error": 0.0,
+      "max_KL_error": 1.0278236595162582e-16
+    },
+    {
+      "model": "s92603_fine_replay_final",
+      "bank": "fine_W96_M1",
+      "max_probability_error": 6.854534149169922e-07,
+      "max_KL_error": 5.948465390814839e-07
+    },
+    {
+      "model": "s92603_fine_replay_final",
+      "bank": "fine_W96_M32",
+      "max_probability_error": 8.642673492431641e-07,
+      "max_KL_error": 4.860739186152152e-08
+    },
+    {
+      "model": "s92603_fine_replay_final",
+      "bank": "fine_W96_M8",
+      "max_probability_error": 7.152557373046875e-07,
+      "max_KL_error": 1.5521560349507357e-07
+    }
+  ]
+}

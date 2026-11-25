@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "scientific_payload_files_verified": 3443,
+  "relative_links_checked": 367,
+  "text_files_scanned": 203,
+  "credential_patterns_found": 0,
+  "ordinary_git_files_below_100MiB": true,
+  "checkpoint_files_in_release_only": true,
+  "source_phase_b_sha256": "39adbf695d4a5e20c602972648e20c186ec57a3c113fcf2cceccf4808cc8aee7"
+}

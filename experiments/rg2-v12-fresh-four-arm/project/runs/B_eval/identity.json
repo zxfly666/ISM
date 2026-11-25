@@ -1,0 +1,88 @@
+{
+  "batch": 1,
+  "models": [
+    {
+      "arm": "F",
+      "file": "runs/B_v2/s112501_F/final_ema.pt",
+      "key": "s112501_F_final",
+      "seed": 112501,
+      "sha256": "d248e547adb49f83c5cd5eacec113ff065d54e8a3bbc4ae6165edde8e854ff9a",
+      "source_sha256": "d248e547adb49f83c5cd5eacec113ff065d54e8a3bbc4ae6165edde8e854ff9a",
+      "stage": "final"
+    },
+    {
+      "arm": "P",
+      "file": "runs/B_v2/s112501_P/final_ema.pt",
+      "key": "s112501_P_final",
+      "seed": 112501,
+      "sha256": "9e079a9124c830a0a73eb9a76471795dfc54d52b6c292234b212856fc8338470",
+      "source_sha256": "9e079a9124c830a0a73eb9a76471795dfc54d52b6c292234b212856fc8338470",
+      "stage": "final"
+    },
+    {
+      "arm": "D",
+      "file": "runs/B_v2/s112501_D/final_ema.pt",
+      "key": "s112501_D_final",
+      "seed": 112501,
+      "sha256": "3e7e2e2f093735b6b9d5657c33fef1d37af45646c4c30760c2d99db7f0c44f34",
+      "source_sha256": "3e7e2e2f093735b6b9d5657c33fef1d37af45646c4c30760c2d99db7f0c44f34",
+      "stage": "final"
+    },
+    {
+      "arm": "M",
+      "file": "runs/B_v2/s112501_M/final_ema.pt",
+      "key": "s112501_M_final",
+      "seed": 112501,
+      "sha256": "39875e644a366862d39166b25c21f46bd656086e48fcd5d3d9c0bba589df2f50",
+      "source_sha256": "39875e644a366862d39166b25c21f46bd656086e48fcd5d3d9c0bba589df2f50",
+      "stage": "final"
+    },
+    {
+      "arm": "F",
+      "file": "runs/B_v2/s112502_F/final_ema.pt",
+      "key": "s112502_F_final",
+      "seed": 112502,
+      "sha256": "be144e743c9678680c243573337a93bf333bd3caf77949628cfb1a279d381d6b",
+      "source_sha256": "be144e743c9678680c243573337a93bf333bd3caf77949628cfb1a279d381d6b",
+      "stage": "final"
+    },
+    {
+      "arm": "P",
+      "file": "runs/B_v2/s112502_P/final_ema.pt",
+      "key": "s112502_P_final",
+      "seed": 112502,
+      "sha256": "8b12245f6bb2fdc48c24980897a882b25add2fac77df101e12e2837278aad6c6",
+      "source_sha256": "8b12245f6bb2fdc48c24980897a882b25add2fac77df101e12e2837278aad6c6",
+      "stage": "final"
+    },
+    {
+      "arm": "D",
+      "file": "runs/B_v2/s112502_D/final_ema.pt",
+      "key": "s112502_D_final",
+      "seed": 112502,
+      "sha256": "122b5d9497d7edbbf0bce666e45857490361470c99acce9f4be8f935631d3511",
+      "source_sha256": "122b5d9497d7edbbf0bce666e45857490361470c99acce9f4be8f935631d3511",
+      "stage": "final"
+    },
+    {
+      "arm": "M",
+      "file": "runs/B_v2/s112502_M/final_ema.pt",
+      "key": "s112502_M_final",
+      "seed": 112502,
+      "sha256": "e30dfda06535a9b2ef99e6f3c52f4bc0118b6ab5e5bc5a6d8edf353fae331ec2",
+      "source_sha256": "e30dfda06535a9b2ef99e6f3c52f4bc0118b6ab5e5bc5a6d8edf353fae331ec2",
+      "stage": "final"
+    }
+  ],
+  "n": 32,
+  "phase_a_source": "bf8d44af4bc0eded7527bced0733b6172dd8bfdf02c9fdaaf5b3125541743e87",
+  "precision": "FP32, TF32 disabled",
+  "rng_root": 2026112501,
+  "source": "deacb71024b24e0c6d2b2356ebe864e8c78a2afdfc172aa9f463cf72d7791894",
+  "stage": "B development",
+  "steps": [
+    64,
+    256
+  ],
+  "torch": "2.7.0a0+7c8ec84dab.nv25.03"
+}

@@ -1,0 +1,25 @@
+{
+  "exact_cells": 126,
+  "retention_cells": 735,
+  "A2": {
+    "cases": 396,
+    "largest_KL_identity_residual": 1.9984014443252818e-14,
+    "independent_Hamiltonian_truth": true,
+    "normalized": true,
+    "state_clock_verified": true
+  },
+  "generation": {
+    "samples": 960,
+    "metric_cells": 54,
+    "largest_direct_pair_sum_difference": 1.1102230246251565e-16,
+    "per_sample_identity_verified": true,
+    "same_image_majority_verified": true,
+    "MC_reference": "odd historical chains, first 32 each; 256 fields",
+    "inference": "descriptive"
+  },
+  "stage": "A",
+  "status": "passed",
+  "seconds": 29.187000000005355,
+  "audit_source_sha256": "a6c551c08d17b49274dcb1014fd12045f0034a73288451bea362b1cb4509c716",
+  "independent_implementation": "NumPy integer axis-pair sums and direct 3x3 Hamiltonian"
+}

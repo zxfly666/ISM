@@ -1,0 +1,10 @@
+{
+  "rng": 2026112510,
+  "repeats": 10000,
+  "independent_chains": 16,
+  "fields_per_chain": 128,
+  "resampling": "whole MC chains with replacement, preserving all within-chain chronological fields and paired transforms",
+  "interval": "pointwise percentile 95%; not simultaneous bands",
+  "scope": "descriptive historical MC",
+  "data_sha256": "e54372c6d8e207e2ff2fbc010286cdcc0eed7bc25126773b00717cae7a436f60"
+}

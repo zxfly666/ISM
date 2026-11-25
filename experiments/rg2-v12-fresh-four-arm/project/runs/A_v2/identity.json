@@ -1,0 +1,15 @@
+{
+  "block_batch": 8,
+  "device": "cuda",
+  "eval_batch": 8,
+  "generation_batch": 1,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "input_manifest": "76653db48cf37137d919c77e8802fb7a3d9502c2f2f4b231492f085306042d75",
+  "n": 32,
+  "numpy": "1.26.4",
+  "precision": "FP32, TF32 disabled",
+  "protocol": "RG-2 v1.2",
+  "rng": 2026112501,
+  "runner": "bf8d44af4bc0eded7527bced0733b6172dd8bfdf02c9fdaaf5b3125541743e87",
+  "torch": "2.7.0a0+7c8ec84dab.nv25.03"
+}

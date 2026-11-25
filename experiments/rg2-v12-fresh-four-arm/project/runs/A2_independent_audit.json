@@ -1,0 +1,7 @@
+{
+  "cases": 396,
+  "largest_KL_identity_residual": 1.9984014443252818e-14,
+  "independent_Hamiltonian_truth": true,
+  "normalized": true,
+  "state_clock_verified": true
+}

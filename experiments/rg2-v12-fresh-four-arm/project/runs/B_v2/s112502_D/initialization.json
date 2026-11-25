@@ -1,0 +1,10 @@
+{
+  "arm": "D",
+  "ema_hash": "e3208a7478704786d6a66b526e3071eb7d82c1ce73c0465b555dbae220305fd9",
+  "model_hash": "e3208a7478704786d6a66b526e3071eb7d82c1ce73c0465b555dbae220305fd9",
+  "optimizer_state_entries": 0,
+  "seed": 112502,
+  "shared_initial_checkpoint": "initial/s112502.pt",
+  "step": 0,
+  "training_data_sha256": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934"
+}

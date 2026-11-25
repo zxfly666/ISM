@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "archive_sha256": "809ca12ac9496995196305114b79851f2117494dfa0e82ade9efd584016f6948",
+  "archive_bytes": 72764368,
+  "verified_files": 2401,
+  "stage": "A_final",
+  "archive": "D:\\ISM\\results\\rg2_v12_20261125\\stageA_final.tar.gz",
+  "extracted": "D:\\ISM\\results\\rg2_v12_20261125\\snapshot_A_final"
+}

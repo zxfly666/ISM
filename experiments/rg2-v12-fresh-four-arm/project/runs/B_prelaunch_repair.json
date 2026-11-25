@@ -1,0 +1,153 @@
+{
+  "status": "repaired_before_any_training_update",
+  "formal_updates_before_repair": 0,
+  "reason": "Validation arrays use local chain labels 0,1; physical IDs are 6,7 in split_manifest.",
+  "fix": "Map stored local chain IDs through the frozen split manifest; validate sample counts and physical train/validation disjointness.",
+  "unchanged": [
+    "training/validation spin arrays",
+    "all training numerical settings",
+    "batch construction",
+    "loss",
+    "optimizer",
+    "RNG streams",
+    "seeds"
+  ],
+  "changed_functions": [
+    "parent",
+    "preflight"
+  ],
+  "old_source_sha256": "6bb48160815e83c2bcb1c3583b5ee8bf8e6b8f8300ccc2fb1653dc326856b0ef",
+  "new_source_sha256": "39adbf695d4a5e20c602972648e20c186ec57a3c113fcf2cceccf4808cc8aee7",
+  "prior_status": {
+    "C_launched": false,
+    "exit_code": 1,
+    "pid": 8535,
+    "stage": "training",
+    "started": 1795547437.5056887,
+    "status": "failed",
+    "worker_pid": 8600
+  },
+  "prior_trace": "Traceback (most recent call last):\n  File \"/root/shared-nvme/RG2_v12_20261125_run01/project/scripts/rg2_v12/phase_b.py\", line 285, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/root/shared-nvme/RG2_v12_20261125_run01/project/scripts/rg2_v12/phase_b.py\", line 283, in main\n    train(out,args.gate)\n  File \"/root/shared-nvme/RG2_v12_20261125_run01/project/scripts/rg2_v12/phase_b.py\", line 221, in train\n    fields,_,_=parent('train');validation,_,_=parent('val')\n                                              ^^^^^^^^^^^^^\n  File \"/root/shared-nvme/RG2_v12_20261125_run01/project/scripts/rg2_v12/phase_b.py\", line 50, in parent\n    assert np.array_equal(np.unique(chain),CONFIG['train_chains' if split=='train' else 'validation_chains'])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "prior_preflight": {
+    "eight_model_training_forecast_hours": 3.3962889416822386,
+    "forecast_note": "25% reserve for validation, gradients, inputs, checkpoint I/O; generation separate",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "initial_state_hash": "a072c3f405863d94e610a416295880e2de1e7f13349669a8a5513f3d90c2132e",
+    "paired_stream_cases": 16,
+    "resume": [
+      {
+        "arm": "F",
+        "status": "bitwise_equal",
+        "updates": 8
+      },
+      {
+        "arm": "P",
+        "status": "bitwise_equal",
+        "updates": 8
+      },
+      {
+        "arm": "D",
+        "status": "bitwise_equal",
+        "updates": 8
+      },
+      {
+        "arm": "M",
+        "status": "bitwise_equal",
+        "updates": 8
+      }
+    ],
+    "seconds": 16.568780948000494,
+    "status": "passed",
+    "torch": "2.7.0a0+7c8ec84dab.nv25.03",
+    "training_chain_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "training_data_sha256": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934",
+    "update_seconds_by_width": {
+      "16": 0.08406325776013546,
+      "24": 0.08364112452545669,
+      "32": 0.09027463423262816,
+      "48": 0.14957565648364834
+    }
+  },
+  "new_preflight": {
+    "chain_identity": "array-local labels mapped through metadata.split_manifest",
+    "eight_model_training_forecast_hours": 2.4126837020351863,
+    "forecast_note": "25% reserve for validation, gradients, inputs, checkpoint I/O; generation separate",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "initial_state_hash": "a072c3f405863d94e610a416295880e2de1e7f13349669a8a5513f3d90c2132e",
+    "paired_stream_cases": 16,
+    "resume": [
+      {
+        "arm": "F",
+        "status": "bitwise_equal",
+        "updates": 8
+      },
+      {
+        "arm": "P",
+        "status": "bitwise_equal",
+        "updates": 8
+      },
+      {
+        "arm": "D",
+        "status": "bitwise_equal",
+        "updates": 8
+      },
+      {
+        "arm": "M",
+        "status": "bitwise_equal",
+        "updates": 8
+      }
+    ],
+    "seconds": 10.266826396982651,
+    "status": "passed",
+    "torch": "2.7.0a0+7c8ec84dab.nv25.03",
+    "training_chain_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "training_data_sha256": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934",
+    "update_seconds_by_width": {
+      "16": 0.06795475698891096,
+      "24": 0.06783678225474432,
+      "32": 0.06784553450415842,
+      "48": 0.08588497049640864
+    },
+    "validation_chain_ids": [
+      6,
+      7
+    ],
+    "validation_smoke": [
+      {
+        "input_hash": "44624d6c45571a64116e4f23dc3bbf796141841c041b85d5e71bea37fb40d969",
+        "loss": 0.6805259585380554,
+        "width": 16
+      },
+      {
+        "input_hash": "36abec4001dbb1e4714685dcbb75d1de7326578bae9eb00ac582b19f6da6d1ac",
+        "loss": 0.6967991590499878,
+        "width": 24
+      },
+      {
+        "input_hash": "12214d53697ae9601eb1853bed5f047193a535d053e43742e02161494e77f77d",
+        "loss": 0.6991223096847534,
+        "width": 32
+      },
+      {
+        "input_hash": "59c80925a62d2da1ed66ab33923063262c962c2176f87c058ca094a5a0a49927",
+        "loss": 0.6931357979774475,
+        "width": 48
+      }
+    ]
+  },
+  "UTC": "2026-11-24T21:09:26.406637+00:00"
+}

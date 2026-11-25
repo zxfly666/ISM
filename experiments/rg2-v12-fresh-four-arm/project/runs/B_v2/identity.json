@@ -1,0 +1,65 @@
+{
+  "config": {
+    "arms": [
+      "F",
+      "P",
+      "D",
+      "M"
+    ],
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "checkpoint_interval": 500,
+    "clip": 1.0,
+    "ema": 0.999,
+    "generation_n": 32,
+    "generation_steps": [
+      64,
+      256
+    ],
+    "gradient_interval": 1000,
+    "learning_rate": "linear 0 to peak over 750 optimizer updates, then cosine to lr_min at 12000",
+    "lr_min": 3e-05,
+    "lr_peak": 0.0003,
+    "precision": "BF16 autocast, FP32 parameters and loss",
+    "protocol": "RG-2 v1.2",
+    "rng_root": 2026112503,
+    "seeds": [
+      112501,
+      112502
+    ],
+    "stage": "B_development",
+    "task_embedding": "0 common, 1 auxiliary for all four arms",
+    "tokens": 18432,
+    "train_chains": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "training_data_sha256": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934",
+    "updates": 12000,
+    "validation_chains": [
+      6,
+      7
+    ],
+    "validation_seed": 2026112504,
+    "warmup": 750,
+    "weight_decay": 0.05,
+    "width_schedule": "cycle through 16/24/32/48; common then auxiliary within every cycle",
+    "widths": [
+      16,
+      24,
+      32,
+      48
+    ]
+  },
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "model_source": "59f800bcdc9c3752be8b8c0cf4fa1e9b4c1b846348360aa318de303a6f274971",
+  "numpy": "1.26.4",
+  "source_sha256": "39adbf695d4a5e20c602972648e20c186ec57a3c113fcf2cceccf4808cc8aee7",
+  "torch": "2.7.0a0+7c8ec84dab.nv25.03"
+}

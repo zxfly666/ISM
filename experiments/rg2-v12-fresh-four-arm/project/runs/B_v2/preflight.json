@@ -1,0 +1,74 @@
+{
+  "chain_identity": "array-local labels mapped through metadata.split_manifest",
+  "eight_model_training_forecast_hours": 2.4126837020351863,
+  "forecast_note": "25% reserve for validation, gradients, inputs, checkpoint I/O; generation separate",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "initial_state_hash": "a072c3f405863d94e610a416295880e2de1e7f13349669a8a5513f3d90c2132e",
+  "paired_stream_cases": 16,
+  "resume": [
+    {
+      "arm": "F",
+      "status": "bitwise_equal",
+      "updates": 8
+    },
+    {
+      "arm": "P",
+      "status": "bitwise_equal",
+      "updates": 8
+    },
+    {
+      "arm": "D",
+      "status": "bitwise_equal",
+      "updates": 8
+    },
+    {
+      "arm": "M",
+      "status": "bitwise_equal",
+      "updates": 8
+    }
+  ],
+  "seconds": 10.266826396982651,
+  "status": "passed",
+  "torch": "2.7.0a0+7c8ec84dab.nv25.03",
+  "training_chain_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "training_data_sha256": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934",
+  "update_seconds_by_width": {
+    "16": 0.06795475698891096,
+    "24": 0.06783678225474432,
+    "32": 0.06784553450415842,
+    "48": 0.08588497049640864
+  },
+  "validation_chain_ids": [
+    6,
+    7
+  ],
+  "validation_smoke": [
+    {
+      "input_hash": "44624d6c45571a64116e4f23dc3bbf796141841c041b85d5e71bea37fb40d969",
+      "loss": 0.6805259585380554,
+      "width": 16
+    },
+    {
+      "input_hash": "36abec4001dbb1e4714685dcbb75d1de7326578bae9eb00ac582b19f6da6d1ac",
+      "loss": 0.6967991590499878,
+      "width": 24
+    },
+    {
+      "input_hash": "12214d53697ae9601eb1853bed5f047193a535d053e43742e02161494e77f77d",
+      "loss": 0.6991223096847534,
+      "width": 32
+    },
+    {
+      "input_hash": "59c80925a62d2da1ed66ab33923063262c962c2176f87c058ca094a5a0a49927",
+      "loss": 0.6931357979774475,
+      "width": 48
+    }
+  ]
+}

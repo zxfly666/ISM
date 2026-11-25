@@ -1,0 +1,190 @@
+{"action": "preflight", "host": "[redacted-server]", "gpu": "NVIDIA GeForce RTX 4090"}
+PASS strict loading, archived probabilities and 64/256 reveal-grid coupling 21
+{"action": "a0", "host": "[redacted-server]", "gpu": "NVIDIA GeForce RTX 4090"}
+A0 s92601_initial_initial fine_W48_M1 0.0019926218077256372
+A0 s92601_initial_initial fine_W48_M8 0.0021489976469755796
+A0 s92601_initial_initial fine_W48_M32 0.0019267948111394563
+A0 s92601_initial_initial fine_W96_M1 0.014914432679677146
+A0 s92601_initial_initial fine_W96_M8 0.018020770475825308
+A0 s92601_initial_initial fine_W96_M32 0.018696308547471105
+A0 s92601_fine_only_midpoint fine_W48_M1 0.0016621737843593143
+A0 s92601_fine_only_midpoint fine_W48_M8 0.0018383157429476618
+A0 s92601_fine_only_midpoint fine_W48_M32 0.0016391920798082742
+A0 s92601_fine_only_midpoint fine_W96_M1 0.016496950423032043
+A0 s92601_fine_only_midpoint fine_W96_M8 0.019218641742825695
+A0 s92601_fine_only_midpoint fine_W96_M32 0.0202480641107353
+A0 s92601_fine_only_final fine_W48_M1 0.0016402717614344702
+A0 s92601_fine_only_final fine_W48_M8 0.0017477598465645415
+A0 s92601_fine_only_final fine_W48_M32 0.0015534863384404703
+A0 s92601_fine_only_final fine_W96_M1 0.01847178490311275
+A0 s92601_fine_only_final fine_W96_M8 0.021081117338936264
+A0 s92601_fine_only_final fine_W96_M32 0.022343297326119282
+A0 s92601_fine_plus_rg_midpoint fine_W48_M1 0.002211273567594647
+A0 s92601_fine_plus_rg_midpoint fine_W48_M8 0.002403721447594578
+A0 s92601_fine_plus_rg_midpoint fine_W48_M32 0.002144132651959949
+A0 s92601_fine_plus_rg_midpoint fine_W96_M1 0.015340730808909037
+A0 s92601_fine_plus_rg_midpoint fine_W96_M8 0.016921793478857264
+A0 s92601_fine_plus_rg_midpoint fine_W96_M32 0.01779172595141932
+A0 s92601_fine_plus_rg_final fine_W48_M1 0.0019454815928399505
+A0 s92601_fine_plus_rg_final fine_W48_M8 0.0020242204409588876
+A0 s92601_fine_plus_rg_final fine_W48_M32 0.001886559782345974
+A0 s92601_fine_plus_rg_final fine_W96_M1 0.015723560112266506
+A0 s92601_fine_plus_rg_final fine_W96_M8 0.01764618341927117
+A0 s92601_fine_plus_rg_final fine_W96_M32 0.01858804791315754
+A0 s92601_fine_replay_midpoint fine_W48_M1 0.0013523910669541045
+A0 s92601_fine_replay_midpoint fine_W48_M8 0.0015876038969012446
+A0 s92601_fine_replay_midpoint fine_W48_M32 0.0013680701267449727
+A0 s92601_fine_replay_midpoint fine_W96_M1 0.019304972111905457
+A0 s92601_fine_replay_midpoint fine_W96_M8 0.021779931797353005
+A0 s92601_fine_replay_midpoint fine_W96_M32 0.02340963119927869
+A0 s92601_fine_replay_final fine_W48_M1 0.0014223665048175606
+A0 s92601_fine_replay_final fine_W48_M8 0.0014671951187437198
+A0 s92601_fine_replay_final fine_W48_M32 0.0011627426267247758
+A0 s92601_fine_replay_final fine_W96_M1 0.022732367931901518
+A0 s92601_fine_replay_final fine_W96_M8 0.02553129287394898
+A0 s92601_fine_replay_final fine_W96_M32 0.02746519513109089
+A0 s92602_initial_initial fine_W48_M1 0.0035201030495122113
+A0 s92602_initial_initial fine_W48_M8 0.0034875256488257848
+A0 s92602_initial_initial fine_W48_M32 0.002655787169824368
+A0 s92602_initial_initial fine_W96_M1 0.01615983553564948
+A0 s92602_initial_initial fine_W96_M8 0.019340223541693922
+A0 s92602_initial_initial fine_W96_M32 0.019815228142075106
+A0 s92602_fine_only_midpoint fine_W48_M1 0.002893741661567033
+A0 s92602_fine_only_midpoint fine_W48_M8 0.0030711429482193015
+A0 s92602_fine_only_midpoint fine_W48_M32 0.0023652542720380117
+A0 s92602_fine_only_midpoint fine_W96_M1 0.019541968665270464
+A0 s92602_fine_only_midpoint fine_W96_M8 0.023755584608723776
+A0 s92602_fine_only_midpoint fine_W96_M32 0.025384831308145298
+A0 s92602_fine_only_final fine_W48_M1 0.0026644679714983724
+A0 s92602_fine_only_final fine_W48_M8 0.0028660259332418466
+A0 s92602_fine_only_final fine_W48_M32 0.0022327314961991637
+A0 s92602_fine_only_final fine_W96_M1 0.02108744309139577
+A0 s92602_fine_only_final fine_W96_M8 0.027825525871786102
+A0 s92602_fine_only_final fine_W96_M32 0.030288914723603046
+A0 s92602_fine_plus_rg_midpoint fine_W48_M1 0.004423944600797314
+A0 s92602_fine_plus_rg_midpoint fine_W48_M8 0.003930739420990038
+A0 s92602_fine_plus_rg_midpoint fine_W48_M32 0.002728499176752377
+A0 s92602_fine_plus_rg_midpoint fine_W96_M1 0.02128752591413594
+A0 s92602_fine_plus_rg_midpoint fine_W96_M8 0.02010496535777109
+A0 s92602_fine_plus_rg_midpoint fine_W96_M32 0.020968483269526716
+A0 s92602_fine_plus_rg_final fine_W48_M1 0.0038553057596517116
+A0 s92602_fine_plus_rg_final fine_W48_M8 0.003552596748706051
+A0 s92602_fine_plus_rg_final fine_W48_M32 0.0025319131121408355
+A0 s92602_fine_plus_rg_final fine_W96_M1 0.023742164214940107
+A0 s92602_fine_plus_rg_final fine_W96_M8 0.02178862763036226
+A0 s92602_fine_plus_rg_final fine_W96_M32 0.023337622624976004
+A0 s92602_fine_replay_midpoint fine_W48_M1 0.002689783793419144
+A0 s92602_fine_replay_midpoint fine_W48_M8 0.0028840815211170767
+A0 s92602_fine_replay_midpoint fine_W48_M32 0.0021002815643224007
+A0 s92602_fine_replay_midpoint fine_W96_M1 0.02973938975290661
+A0 s92602_fine_replay_midpoint fine_W96_M8 0.03501525535788155
+A0 s92602_fine_replay_midpoint fine_W96_M32 0.03897684714130269
+A0 s92602_fine_replay_final fine_W48_M1 0.0017850937311037086
+A0 s92602_fine_replay_final fine_W48_M8 0.0021622351306864428
+A0 s92602_fine_replay_final fine_W48_M32 0.0017212884060794692
+A0 s92602_fine_replay_final fine_W96_M1 0.03571280176303368
+A0 s92602_fine_replay_final fine_W96_M8 0.044935537774878256
+A0 s92602_fine_replay_final fine_W96_M32 0.050334357254421355
+A0 s92603_initial_initial fine_W48_M1 0.0026372720880555585
+A0 s92603_initial_initial fine_W48_M8 0.0030585557956030905
+A0 s92603_initial_initial fine_W48_M32 0.0027752060493359213
+A0 s92603_initial_initial fine_W96_M1 0.018313117334061848
+A0 s92603_initial_initial fine_W96_M8 0.020631857993538897
+A0 s92603_initial_initial fine_W96_M32 0.020082567460664467
+A0 s92603_fine_only_midpoint fine_W48_M1 0.0023057876648705936
+A0 s92603_fine_only_midpoint fine_W48_M8 0.0027706378848195304
+A0 s92603_fine_only_midpoint fine_W48_M32 0.002459941579663327
+A0 s92603_fine_only_midpoint fine_W96_M1 0.01884930729390869
+A0 s92603_fine_only_midpoint fine_W96_M8 0.020393179883751077
+A0 s92603_fine_only_midpoint fine_W96_M32 0.02005193313363314
+A0 s92603_fine_only_final fine_W48_M1 0.0019582749339153707
+A0 s92603_fine_only_final fine_W48_M8 0.0022864585001375042
+A0 s92603_fine_only_final fine_W48_M32 0.002072539896713512
+A0 s92603_fine_only_final fine_W96_M1 0.01936808515764449
+A0 s92603_fine_only_final fine_W96_M8 0.019387885529957995
+A0 s92603_fine_only_final fine_W96_M32 0.01935950012688554
+A0 s92603_fine_plus_rg_midpoint fine_W48_M1 0.003326098357894527
+A0 s92603_fine_plus_rg_midpoint fine_W48_M8 0.0036166497254790757
+A0 s92603_fine_plus_rg_midpoint fine_W48_M32 0.0029749505976480253
+A0 s92603_fine_plus_rg_midpoint fine_W96_M1 0.025666217624456936
+A0 s92603_fine_plus_rg_midpoint fine_W96_M8 0.02752695684099357
+A0 s92603_fine_plus_rg_midpoint fine_W96_M32 0.02731572076996094
+A0 s92603_fine_plus_rg_final fine_W48_M1 0.0030149801451299697
+A0 s92603_fine_plus_rg_final fine_W48_M8 0.0032404402780108017
+A0 s92603_fine_plus_rg_final fine_W48_M32 0.002621319482757743
+A0 s92603_fine_plus_rg_final fine_W96_M1 0.0286395401841718
+A0 s92603_fine_plus_rg_final fine_W96_M8 0.030006390391878426
+A0 s92603_fine_plus_rg_final fine_W96_M32 0.029484756878928084
+A0 s92603_fine_replay_midpoint fine_W48_M1 0.001962707429282478
+A0 s92603_fine_replay_midpoint fine_W48_M8 0.0022875961867391092
+A0 s92603_fine_replay_midpoint fine_W48_M32 0.0020843483329153873
+A0 s92603_fine_replay_midpoint fine_W96_M1 0.018891646360959802
+A0 s92603_fine_replay_midpoint fine_W96_M8 0.018691669023275806
+A0 s92603_fine_replay_midpoint fine_W96_M32 0.01911251794192864
+A0 s92603_fine_replay_final fine_W48_M1 0.002024759501509944
+A0 s92603_fine_replay_final fine_W48_M8 0.0022411630720524244
+A0 s92603_fine_replay_final fine_W48_M32 0.001684805073672532
+A0 s92603_fine_replay_final fine_W96_M1 0.020256515191498965
+A0 s92603_fine_replay_final fine_W96_M8 0.01870429777100714
+A0 s92603_fine_replay_final fine_W96_M32 0.019568994956287188
+{"action": "a2", "host": "[redacted-server]", "gpu": "NVIDIA GeForce RTX 4090"}
+A2 s92601_initial_initial all_plus
+A2 s92601_initial_initial mc_chain0_ord0
+A2 s92601_initial_initial mc_chain1_ord0
+A2 s92601_initial_initial mc_chain2_ord0
+A2 s92601_initial_initial mc_chain3_ord0
+A2 s92601_fine_only_final all_plus
+A2 s92601_fine_only_final mc_chain0_ord0
+A2 s92601_fine_only_final mc_chain1_ord0
+A2 s92601_fine_only_final mc_chain2_ord0
+A2 s92601_fine_only_final mc_chain3_ord0
+A2 s92601_fine_plus_rg_final all_plus
+A2 s92601_fine_plus_rg_final mc_chain0_ord0
+A2 s92601_fine_plus_rg_final mc_chain1_ord0
+A2 s92601_fine_plus_rg_final mc_chain2_ord0
+A2 s92601_fine_plus_rg_final mc_chain3_ord0
+A2 s92601_fine_replay_final all_plus
+A2 s92601_fine_replay_final mc_chain0_ord0
+A2 s92601_fine_replay_final mc_chain1_ord0
+A2 s92601_fine_replay_final mc_chain2_ord0
+A2 s92601_fine_replay_final mc_chain3_ord0
+A2 s92602_initial_initial all_plus
+A2 s92602_initial_initial mc_chain0_ord0
+A2 s92602_initial_initial mc_chain1_ord0
+A2 s92602_initial_initial mc_chain2_ord0
+A2 s92602_initial_initial mc_chain3_ord0
+A2 s92602_fine_only_final all_plus
+A2 s92602_fine_only_final mc_chain0_ord0
+A2 s92602_fine_only_final mc_chain1_ord0
+A2 s92602_fine_only_final mc_chain2_ord0
+A2 s92602_fine_only_final mc_chain3_ord0
+A2 s92602_fine_plus_rg_final all_plus
+A2 s92602_fine_plus_rg_final mc_chain0_ord0
+A2 s92602_fine_plus_rg_final mc_chain1_ord0
+A2 s92602_fine_plus_rg_final mc_chain2_ord0
+A2 s92602_fine_plus_rg_final mc_chain3_ord0
+A2 s92602_fine_replay_final all_plus
+A2 s92602_fine_replay_final mc_chain0_ord0
+A2 s92602_fine_replay_final mc_chain1_ord0
+A2 s92602_fine_replay_final mc_chain2_ord0
+A2 s92602_fine_replay_final mc_chain3_ord0
+A2 s92603_initial_initial all_plus
+A2 s92603_initial_initial mc_chain0_ord0
+A2 s92603_initial_initial mc_chain1_ord0
+A2 s92603_initial_initial mc_chain2_ord0
+A2 s92603_initial_initial mc_chain3_ord0
+A2 s92603_fine_only_final all_plus
+A2 s92603_fine_only_final mc_chain0_ord0
+A2 s92603_fine_only_final mc_chain1_ord0
+A2 s92603_fine_only_final mc_chain2_ord0
+A2 s92603_fine_only_final mc_chain3_ord0
+A2 s92603_fine_plus_rg_final all_plus
+A2 s92603_fine_plus_rg_final mc_chain0_ord0
+A2 s92603_fine_plus_rg_final mc_chain1_ord0
+A2 s92603_fine_plus_rg_final mc_chain2_ord0
+A2 s92603_fine_plus_rg_final mc_chain3_ord0
+A2 s92603_fine_replay_final all_plus
+A2 s92603_fine_replay_final mc_chain0_ord0
+A2 s92603_fine_replay_final mc_chain1_ord0
+A2 s92603_fine_replay_final mc_chain2_ord0
+A2 s92603_fine_replay_final mc_chain3_ord0

@@ -1,0 +1,102 @@
+{
+  "cases": [
+    {
+      "cycle": 1,
+      "seed": 112501,
+      "status": "passed",
+      "width": 16
+    },
+    {
+      "cycle": 2,
+      "seed": 112501,
+      "status": "passed",
+      "width": 24
+    },
+    {
+      "cycle": 3,
+      "seed": 112501,
+      "status": "passed",
+      "width": 32
+    },
+    {
+      "cycle": 4,
+      "seed": 112501,
+      "status": "passed",
+      "width": 48
+    },
+    {
+      "cycle": 5,
+      "seed": 112501,
+      "status": "passed",
+      "width": 16
+    },
+    {
+      "cycle": 6,
+      "seed": 112501,
+      "status": "passed",
+      "width": 24
+    },
+    {
+      "cycle": 7,
+      "seed": 112501,
+      "status": "passed",
+      "width": 32
+    },
+    {
+      "cycle": 8,
+      "seed": 112501,
+      "status": "passed",
+      "width": 48
+    },
+    {
+      "cycle": 1,
+      "seed": 112502,
+      "status": "passed",
+      "width": 16
+    },
+    {
+      "cycle": 2,
+      "seed": 112502,
+      "status": "passed",
+      "width": 24
+    },
+    {
+      "cycle": 3,
+      "seed": 112502,
+      "status": "passed",
+      "width": 32
+    },
+    {
+      "cycle": 4,
+      "seed": 112502,
+      "status": "passed",
+      "width": 48
+    },
+    {
+      "cycle": 5,
+      "seed": 112502,
+      "status": "passed",
+      "width": 16
+    },
+    {
+      "cycle": 6,
+      "seed": 112502,
+      "status": "passed",
+      "width": 24
+    },
+    {
+      "cycle": 7,
+      "seed": 112502,
+      "status": "passed",
+      "width": 32
+    },
+    {
+      "cycle": 8,
+      "seed": 112502,
+      "status": "passed",
+      "width": 48
+    }
+  ],
+  "data_sha256": "1f7de1ec81e82ebcfcbc4134d5670ee35711230f05d00cd037c7b9e575ef8934",
+  "status": "passed"
+}

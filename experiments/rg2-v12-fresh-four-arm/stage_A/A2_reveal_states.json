@@ -1,0 +1,12 @@
+{
+  "boundaries": 33,
+  "conditional_states_per_boundary": 1522,
+  "codes": {
+    "minus": 0,
+    "plus": 1,
+    "MASK": 2
+  },
+  "coordinates": "unit physical coordinates on W16; task level 0",
+  "convention": "all possible pre-reveal input states for the frozen exogenous groups; terminal states are the 512 bits in each original result",
+  "source_sha256": "b3458dc5a2170616d2bd53526e7822bca0fe9f44a318e4e3fd34c5f9358331c0"
+}

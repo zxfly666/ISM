@@ -1,0 +1,10 @@
+{
+  "arm": "P",
+  "auxiliary_updates": 6000,
+  "common_updates": 6000,
+  "ema_sha": "9e079a9124c830a0a73eb9a76471795dfc54d52b6c292234b212856fc8338470",
+  "seconds_this_session": 900.2591732980218,
+  "seed": 112501,
+  "tokens": 221184000,
+  "updates": 12000
+}

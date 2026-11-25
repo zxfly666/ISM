@@ -1,0 +1,44 @@
+{
+  "code": {
+    "/root/shared-nvme/RG2_v12_20261125_run01/project/scripts/rg2_v12/campaign_queue.py": "d2ab8224c26c3d853e1964a5737b1e7503e681dfacae70e7bb11c821a65f17d8",
+    "/root/shared-nvme/RG2_v12_20261125_run01/project/scripts/rg2_v12/phase_a.py": "bf8d44af4bc0eded7527bced0733b6172dd8bfdf02c9fdaaf5b3125541743e87",
+    "/root/shared-nvme/RG2_v12_20261125_run01/project/scripts/rg2_v12/stage_a_supplement.py": "1024a070fdae4d4cdd56ae5fefcdde59bbe1ee88d369b0660b44df4588d9b6d2"
+  },
+  "inputs": "76653db48cf37137d919c77e8802fb7a3d9502c2f2f4b231492f085306042d75",
+  "jobs": [
+    [
+      "retention",
+      [
+        "stage_a_supplement.py",
+        "retention",
+        "--out",
+        "/root/shared-nvme/RG2_v12_20261125_run01/project/runs/A_supp"
+      ]
+    ],
+    [
+      "exact_blocks",
+      [
+        "stage_a_supplement.py",
+        "a2",
+        "--out",
+        "/root/shared-nvme/RG2_v12_20261125_run01/project/runs/A_supp"
+      ]
+    ],
+    [
+      "generation",
+      [
+        "phase_a.py",
+        "a1",
+        "--device",
+        "cuda",
+        "--n",
+        "32",
+        "--out",
+        "/root/shared-nvme/RG2_v12_20261125_run01/project/runs/A_v2"
+      ]
+    ]
+  ],
+  "protocol": "RG-2 v1.2",
+  "stage_B_authorized_by_this_queue": false,
+  "supplement_inputs": "6d82cd9e9810143c14d981c20082004a952471be4e83b042918ef3c7154578f6"
+}

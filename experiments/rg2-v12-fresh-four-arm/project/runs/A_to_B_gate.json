@@ -1,0 +1,46 @@
+{
+  "A_to_B": "accepted",
+  "C_to_be_decided_after_B": true,
+  "C_launched": false,
+  "review_sha256": "072250182d9a1f2e01fd706bcc788375748b7f9aa83c0aca07c257dce9c173d5",
+  "audit_sha256": "4b749a90935828bcf1058f01489931dc2c234602020efa5590cfc7cccbd23086",
+  "A1_summary_sha256": "a4d49b2435be8c0139e9829a88ae51b70ae536561306fd3f3cefbeb8868b09ae",
+  "backup": {
+    "sha256": "809ca12ac9496995196305114b79851f2117494dfa0e82ade9efd584016f6948",
+    "verified_files": 2401
+  },
+  "authorized_scope": "Complete A and B, then decide C from results",
+  "numerical_acceptance": {
+    "A0_exact": 126,
+    "A0_retention": 735,
+    "A2": 396,
+    "A1_samples": 960,
+    "A3_MC_fields": 2048
+  },
+  "precision_limitations": [
+    "32 generated fields per cell is development screening only.",
+    "Historical MC is independent of the training MC, but is not new confirmation data.",
+    "A3-N n32 MC-vs-MC 95th-percentile relative-G errors are about 0.20; cannot establish a 0.03 effect."
+  ],
+  "B": {
+    "training_directory": "runs/B_v2",
+    "seeds": [
+      112501,
+      112502
+    ],
+    "arms": [
+      "F",
+      "P",
+      "D",
+      "M"
+    ],
+    "updates_per_model": 12000,
+    "preflight": "passed; bitwise continuous/resumed raw parameters, EMA and AdamW for all four arms",
+    "forecast_training_hours": 2.4126837020351863,
+    "generation_cost_separate": true,
+    "free_disk_GiB_at_gate": 7.03,
+    "source_sha256": "39adbf695d4a5e20c602972648e20c186ec57a3c113fcf2cceccf4808cc8aee7",
+    "prelaunch_repair_sha256": "cfd510715ce8696275bd131c10142de40ee15b41d48d706c6a9f8424b91801be"
+  },
+  "accepted_utc": "2026-11-24T19:09:56.289519+00:00"
+}
