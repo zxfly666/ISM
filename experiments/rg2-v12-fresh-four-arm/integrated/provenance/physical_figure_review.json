@@ -1,0 +1,793 @@
+{
+  "created_utc": "2026-11-25T05:38:09.784245+00:00",
+  "status": "passed",
+  "scope": "31 real-data figure pairs; method schematics excluded; no new training or model generation",
+  "source_commit": "5516370b3ae6e98160d9468668acdcbf851dc902",
+  "script_sha256": "34c8474b0e44c10fa7fe9f80dcc6cdd64f5ba26657a91414a2069dfcb2b04da2",
+  "provenance_script_hash_matches": true,
+  "integrity": {
+    "png_count": 31,
+    "pdf_count": 31,
+    "png_decoded_and_verified": true,
+    "pdf_headers_and_eof_verified": true,
+    "pdf_raster_render_not_repeated": true
+  },
+  "numerical_crosscheck": {
+    "path": "integrated/data/physical_numerical_checks.json",
+    "sha256": "e1da79822eb8f9083ed3935086c5c98019db5489c05d6f8fe39a1a215151e61c",
+    "checks": 5000,
+    "maximum_absolute_difference": 1.9984014443252818e-14,
+    "status": "passed",
+    "scope": "All fresh saved samples and fine/coarse metrics, SciPy distances, MC magnetization and selected direct integer displacements plus all stored sufficient-statistic identities, all 396 small-block KL decompositions"
+  },
+  "numeric_display_bounds": [
+    {
+      "label": "Fresh fine mean raw G(r>0)",
+      "observed_min": 0.19900173611111116,
+      "observed_max": 0.7079277172423242,
+      "display_limits": [
+        0,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fine energy zoom; every generation and reference sample",
+      "observed_min": -0.769298245614035,
+      "observed_max": -0.4764254385964912,
+      "display_limits": [
+        -0.85,
+        -0.45
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fine signed-m histogram density, 16 fixed bins",
+      "observed_min": 0.0,
+      "observed_max": 2.75,
+      "display_limits": [
+        0,
+        4.5
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fresh B mean raw G(r>0)",
+      "observed_min": 0.28461914062499993,
+      "observed_max": 0.8525390625000002,
+      "display_limits": [
+        0,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fixed-boundary 92601 joint P/Q scatter",
+      "observed_min": 7.583562026122694e-09,
+      "observed_max": 0.36325088412523077,
+      "display_limits": [
+        1e-10,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fixed-boundary 92601 forward KL",
+      "observed_min": 0.019367801635216217,
+      "observed_max": 0.5593485638814756,
+      "display_limits": [
+        0,
+        0.7
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fixed-boundary 92601 block-majority probabilities",
+      "observed_min": 0.9140904212840788,
+      "observed_max": 0.9947439275981947,
+      "display_limits": [
+        0,
+        1.03
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fixed-boundary 92602 joint P/Q scatter",
+      "observed_min": 2.849971730720944e-09,
+      "observed_max": 0.34962724029406,
+      "display_limits": [
+        1e-10,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fixed-boundary 92602 forward KL",
+      "observed_min": 0.04098106455082304,
+      "observed_max": 0.5894977615295238,
+      "display_limits": [
+        0,
+        0.7
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fixed-boundary 92602 block-majority probabilities",
+      "observed_min": 0.9140904212840788,
+      "observed_max": 0.9961374641087746,
+      "display_limits": [
+        0,
+        1.03
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fixed-boundary 92603 joint P/Q scatter",
+      "observed_min": 1.056842340569246e-09,
+      "observed_max": 0.4223845629784542,
+      "display_limits": [
+        1e-10,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fixed-boundary 92603 forward KL",
+      "observed_min": 0.0582623416542031,
+      "observed_max": 0.6390385099677058,
+      "display_limits": [
+        0,
+        0.7
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fixed-boundary 92603 block-majority probabilities",
+      "observed_min": 0.9140904212840788,
+      "observed_max": 0.9977566397980763,
+      "display_limits": [
+        0,
+        1.03
+      ],
+      "passed": true
+    },
+    {
+      "label": "All displayed old Fine+RG MC-boundary forward KL",
+      "observed_min": 0.0015011067301781375,
+      "observed_max": 0.8616585724621186,
+      "display_limits": [
+        0,
+        0.95
+      ],
+      "passed": true
+    },
+    {
+      "label": "Old local W48 mean KL",
+      "observed_min": 0.0013507680834286854,
+      "observed_max": 0.0036943943995132425,
+      "display_limits": [
+        0,
+        0.0045
+      ],
+      "passed": true
+    },
+    {
+      "label": "Old local W96 mean KL",
+      "observed_min": 0.016684750079728538,
+      "observed_max": 0.043660898930777764,
+      "display_limits": [
+        0,
+        0.05
+      ],
+      "passed": true
+    },
+    {
+      "label": "MC calibration displayed 5th/50th/95th percentiles",
+      "observed_min": 0.006400036679442069,
+      "observed_max": 0.2632470511364605,
+      "display_limits": [
+        0,
+        0.32
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fixed-probe gradient cosine",
+      "observed_min": -0.9856589436531067,
+      "observed_max": 0.8873017430305481,
+      "display_limits": [
+        -1,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "label": "Fixed-probe auxiliary/common norm ratio",
+      "observed_min": 0.16433870129899872,
+      "observed_max": 1.6635273736981653,
+      "display_limits": [
+        0,
+        1.8
+      ],
+      "passed": true
+    },
+    {
+      "label": "Plotted common and auxiliary training loss chunk means",
+      "observed_min": 0.3029880929971114,
+      "observed_max": 0.5445446895901114,
+      "display_limits": [
+        0,
+        0.8
+      ],
+      "passed": true
+    },
+    {
+      "label": "Common-fine EMA validation loss",
+      "observed_min": 0.3248886317014694,
+      "observed_max": 0.6923994421958923,
+      "display_limits": [
+        0,
+        0.75
+      ],
+      "passed": true
+    },
+    {
+      "label": "Actual gradient clipping chunk fractions",
+      "observed_min": 0.0,
+      "observed_max": 0.464,
+      "display_limits": [
+        0,
+        1
+      ],
+      "passed": true
+    }
+  ],
+  "visual_review": {
+    "contact_sheets_reviewed": [
+      "physical_contact_01.png",
+      "physical_contact_02.png",
+      "physical_contact_03.png",
+      "physical_contact_04.png",
+      "physical_contact_05.png",
+      "physical_contact_06.png",
+      "physical_contact_07.png",
+      "physical_contact_08.png"
+    ],
+    "contact_sheet_scope": "Initial 29 figures after figure-level legend spacing fix; later two additional plots reviewed at full resolution",
+    "full_resolution_reviewed": [
+      "F07_fine_correlations",
+      "F10_energy_longrange_tradeoff",
+      "F09_fine_energy_zoom",
+      "F09_fine_m_histogram",
+      "F14_fixed_probe_gradients",
+      "F14_training_s112501",
+      "F14_training_s112502",
+      "F12_joint_s92603",
+      "F06_samples_s112501_S256",
+      "F08_coarse_correlations"
+    ],
+    "final_revision_review": "Final two training plots and representative final F12 seed92603 viewed at full resolution; all F12 panels share fixed limits in the same rendering function",
+    "findings": "Legends, axis labels and data are readable. No unresolved overlap or numerical-range truncation found in reviewed coverage. This is contact-sheet coverage plus the listed full-resolution views, not an assertion of individual full-resolution inspection of every panel.",
+    "fixes_resolved": [
+      "Reserved top area for figure-level legends",
+      "Expanded joint scatter range to 1e-10 through 1",
+      "Unified fixed-boundary KL axis to 0 through 0.7",
+      "Expanded all-boundary KL axis to 0.95",
+      "Split training streams and fixed-probe diagnostics into distinct panels",
+      "Removed spurious MC legend from training and gradient plots",
+      "Expanded gradient norm ratio to 1.8",
+      "Added energy zoom while retaining full-support ECDF",
+      "Added fixed-bin signed-m histogram while retaining ECDF",
+      "Added upper marker margin to majority-probability panels to avoid cutting off near-one points"
+    ],
+    "interpretation_controls": [
+      "Same model color and line style across fresh figures",
+      "Same seed/S axes across corresponding panels",
+      "No cherry-picked spin images: generation ID 0 and fixed first MC parent",
+      "No post-generation spin sign flips",
+      "Old direct coarse paths explicitly labelled as old Fine+RG",
+      "Coarse neighbor product described as operational statistic",
+      "Histogram bin count fixed before plotting; ECDF preferred for inference"
+    ],
+    "publication_recheck": "F06 sample sheet seed112501 S256, F07, F08 and F10 inspected again at full resolution during publication preparation; no unresolved overlap or data clipping found.",
+    "caption_only_revision": "Removed generic preserve-sign wording from shared F09 ECDF caption because absolute magnetization intentionally removes the sign; plotted arrays and output files unchanged."
+  },
+  "files": {
+    "F01_mc_fields": {
+      "png": {
+        "path": "integrated/figures/F01_mc_fields.png",
+        "sha256": "d0082838724268c6d9d3c542afeb903001b102456799044212432cd1393e31b6",
+        "dimensions": [
+          3680,
+          1024
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F01_mc_fields.pdf",
+        "sha256": "d40bee96cfc790962020d0f88e9a5f0df5e8c3903a28f8cdf5da36aa6ef1f459",
+        "header_and_eof": "passed"
+      }
+    },
+    "F02_mc_statistics_W144": {
+      "png": {
+        "path": "integrated/figures/F02_mc_statistics_W144.png",
+        "sha256": "d002b09f2ac0884bc965ec227c5f3b92409776dcf44d851cb6c66d57e684da16",
+        "dimensions": [
+          3290,
+          2382
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F02_mc_statistics_W144.pdf",
+        "sha256": "e76277317678a077f0906dae8a4ab1920773ed9dd612659f29233b4cf00f80ab",
+        "header_and_eof": "passed"
+      }
+    },
+    "F02_mc_statistics_W96": {
+      "png": {
+        "path": "integrated/figures/F02_mc_statistics_W96.png",
+        "sha256": "92d243cefcdb934c82f8ac1b11696a213b001b6fe464d3f113b17ee86dd54472",
+        "dimensions": [
+          3290,
+          2382
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F02_mc_statistics_W96.pdf",
+        "sha256": "ac27d733daf51fd19608643a4e3c1faa6e6378d67cbd0a1604f896c81912db98",
+        "header_and_eof": "passed"
+      }
+    },
+    "F05_old_local_trajectories": {
+      "png": {
+        "path": "integrated/figures/F05_old_local_trajectories.png",
+        "sha256": "28f2c62eecd28af46a24cdfc3ba54918346e9c224aa34408f2a8e5b67327051f",
+        "dimensions": [
+          3680,
+          2328
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F05_old_local_trajectories.pdf",
+        "sha256": "8ad47e1d61fb14a4e5a203598bef412dcffc8847ea89cd46c629f8fed856a902",
+        "header_and_eof": "passed"
+      }
+    },
+    "F06_samples_s112501_S256": {
+      "png": {
+        "path": "integrated/figures/F06_samples_s112501_S256.png",
+        "sha256": "2ec0961c7892127c1973862a0c7b77e5d97efeeb6c15efd07025f95e8cfa29d7",
+        "dimensions": [
+          3877,
+          1730
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F06_samples_s112501_S256.pdf",
+        "sha256": "412fc29e8eca9fcfff518b5ca0cffd176eae2327d8775e5a29880473d4dba662",
+        "header_and_eof": "passed"
+      }
+    },
+    "F06_samples_s112501_S64": {
+      "png": {
+        "path": "integrated/figures/F06_samples_s112501_S64.png",
+        "sha256": "66454490ad31904d0901804fb0f9520688db85c7ed0c5d92527a499c94bfac54",
+        "dimensions": [
+          3877,
+          1730
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F06_samples_s112501_S64.pdf",
+        "sha256": "33ff31e12868492243066ed1e903f164387f0634901953d7ba78d1fe6b879cf5",
+        "header_and_eof": "passed"
+      }
+    },
+    "F06_samples_s112502_S256": {
+      "png": {
+        "path": "integrated/figures/F06_samples_s112502_S256.png",
+        "sha256": "7245a7ed760724b09f3c93b78d1a8277791202d96485e33de7a748a521ddbd1b",
+        "dimensions": [
+          3877,
+          1730
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F06_samples_s112502_S256.pdf",
+        "sha256": "80b5cf4d0230be791ca8171e6feeae4ddfcc4969d2fdc53e35ee486acd227c54",
+        "header_and_eof": "passed"
+      }
+    },
+    "F06_samples_s112502_S64": {
+      "png": {
+        "path": "integrated/figures/F06_samples_s112502_S64.png",
+        "sha256": "24ca11f9817e117b32da54954992bb248e8eb5ad0dbe2f95694c24da1adc43ec",
+        "dimensions": [
+          3877,
+          1730
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F06_samples_s112502_S64.pdf",
+        "sha256": "8eab480b188327ccdb17cb7f5f650603f904de40c3bdbc169f284a2e665b2023",
+        "header_and_eof": "passed"
+      }
+    },
+    "F07_fine_correlations": {
+      "png": {
+        "path": "integrated/figures/F07_fine_correlations.png",
+        "sha256": "1a9f6566c5b8b6d03d9316958b8e4a76482c2f42ee560c32185c42cb7d36c553",
+        "dimensions": [
+          3420,
+          2401
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F07_fine_correlations.pdf",
+        "sha256": "d6e6584806bed017746e1b2dd6a08d1f1886609debb2cfb7c39be6e47668ae19",
+        "header_and_eof": "passed"
+      }
+    },
+    "F08_coarse_correlations": {
+      "png": {
+        "path": "integrated/figures/F08_coarse_correlations.png",
+        "sha256": "339b3897b142995a62206f4128ccd475cede9b6ca189bd5a10469a0947d768a6",
+        "dimensions": [
+          3420,
+          2401
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F08_coarse_correlations.pdf",
+        "sha256": "fe2564ef6c704a37602ac47e1d9e4607face8b8e7adc9ba6c3f04c330a009542",
+        "header_and_eof": "passed"
+      }
+    },
+    "F09_coarse_abs_m": {
+      "png": {
+        "path": "integrated/figures/F09_coarse_abs_m.png",
+        "sha256": "6371c5f147a5a9b473f6a3aa931507f1a05978b3637151d4b3ded8299de2f076",
+        "dimensions": [
+          3420,
+          2401
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F09_coarse_abs_m.pdf",
+        "sha256": "47b8070f401e64fb8d7227a61e13b394fde3c7a7a1c222f3c3297207abc7c24d",
+        "header_and_eof": "passed"
+      }
+    },
+    "F09_coarse_energy": {
+      "png": {
+        "path": "integrated/figures/F09_coarse_energy.png",
+        "sha256": "c0071a6c45e7c8d9c6fdb832369578b012a7559c89c69c145a774fbfd897a1e0",
+        "dimensions": [
+          3420,
+          2401
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F09_coarse_energy.pdf",
+        "sha256": "c6be78795f0bd0712d4ea829483cc9f73f1e4bdd3f6bd3f04b71661c647426c4",
+        "header_and_eof": "passed"
+      }
+    },
+    "F09_coarse_m": {
+      "png": {
+        "path": "integrated/figures/F09_coarse_m.png",
+        "sha256": "278e94329cf2ed79f15d0713271d612ede45770d9343fe92ae3a7d3a53e086aa",
+        "dimensions": [
+          3420,
+          2401
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F09_coarse_m.pdf",
+        "sha256": "90b6121c5620c6fa59a11c5f5aee7ce3e1d2787c7447d6f12f3b0d6106f3fea6",
+        "header_and_eof": "passed"
+      }
+    },
+    "F09_fine_abs_m": {
+      "png": {
+        "path": "integrated/figures/F09_fine_abs_m.png",
+        "sha256": "2a107cae1777b4da635dfcfdfc31827d3db773bc31fbc4ab2e3e3ed4696df604",
+        "dimensions": [
+          3420,
+          2401
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F09_fine_abs_m.pdf",
+        "sha256": "eacc2400ce15f5b3f17fe718748eb235a535c00abc5601fe5ad089c245a2d702",
+        "header_and_eof": "passed"
+      }
+    },
+    "F09_fine_energy": {
+      "png": {
+        "path": "integrated/figures/F09_fine_energy.png",
+        "sha256": "7de1618b6f43d3333afd52b7adf6ca24b59e83175e2daaf6da060c09091eb43f",
+        "dimensions": [
+          3420,
+          2401
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F09_fine_energy.pdf",
+        "sha256": "ee996508924fb1c229324ae3ba4f9df1c3771b108b47a2a9f233d04b9ad28bf0",
+        "header_and_eof": "passed"
+      }
+    },
+    "F09_fine_energy_zoom": {
+      "png": {
+        "path": "integrated/figures/F09_fine_energy_zoom.png",
+        "sha256": "c621812291b4b9defe7fa9b6f4cb440f7407da3caa532109c6d8314c9e8baff0",
+        "dimensions": [
+          3420,
+          2401
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F09_fine_energy_zoom.pdf",
+        "sha256": "b751fc689517ec566f0f198d1e711412422fc166f0852f39e8e02014c763c7a9",
+        "header_and_eof": "passed"
+      }
+    },
+    "F09_fine_m": {
+      "png": {
+        "path": "integrated/figures/F09_fine_m.png",
+        "sha256": "c6b7d15227577b29be2823261a52e8434c617218630fbd19971e644088d0a11d",
+        "dimensions": [
+          3420,
+          2401
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F09_fine_m.pdf",
+        "sha256": "29edb119a3ca9ef6395a68676c96aebed83c9788bd6f627a31540e80fe54d5dc",
+        "header_and_eof": "passed"
+      }
+    },
+    "F09_fine_m_histogram": {
+      "png": {
+        "path": "integrated/figures/F09_fine_m_histogram.png",
+        "sha256": "db6212d08c3cfde70f3ae6a87ec4879c3ec96a46e0029040197f06e16c0b36a0",
+        "dimensions": [
+          3420,
+          2401
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F09_fine_m_histogram.pdf",
+        "sha256": "e138812586f78ffae924785fd3e3865c2529e610dccba2c514ffa528a40284a8",
+        "header_and_eof": "passed"
+      }
+    },
+    "F10_energy_longrange_tradeoff": {
+      "png": {
+        "path": "integrated/figures/F10_energy_longrange_tradeoff.png",
+        "sha256": "84f6b12e7daeea846871c0c9b2dd50d38ef1f55eda1f68da4c1c3c4074aabb5e",
+        "dimensions": [
+          3420,
+          1531
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F10_energy_longrange_tradeoff.pdf",
+        "sha256": "284e6417fe6885085d52ecd764d93e01149b86540f8412de89c6d016fbddd8f3",
+        "header_and_eof": "passed"
+      }
+    },
+    "F11_old_three_paths_S256": {
+      "png": {
+        "path": "integrated/figures/F11_old_three_paths_S256.png",
+        "sha256": "407568932a0140daad3326a83eb0c08dd3971e318c1e19e6c61e5a73eb1fe993",
+        "dimensions": [
+          3680,
+          3227
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F11_old_three_paths_S256.pdf",
+        "sha256": "a86dd864abb863fd1589803f2bba37c2f8b99250cfe029b868938a286aea400d",
+        "header_and_eof": "passed"
+      }
+    },
+    "F11_old_three_paths_S64": {
+      "png": {
+        "path": "integrated/figures/F11_old_three_paths_S64.png",
+        "sha256": "8cf04f2e36313071e2e93c864f2070727de90a8becbc26ea87bcc106ca81e2ba",
+        "dimensions": [
+          3680,
+          3227
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F11_old_three_paths_S64.pdf",
+        "sha256": "f08e42f9ea0ac2b91a92f1e4beaabefeec771e67d3e7bdf0ed3bce306cdbb68f",
+        "header_and_eof": "passed"
+      }
+    },
+    "F12_decomposition_all_boundaries": {
+      "png": {
+        "path": "integrated/figures/F12_decomposition_all_boundaries.png",
+        "sha256": "590d5489d9e368054d28f3f392aa78c89f4ab4f2373d3949fc1dbac365d89eab",
+        "dimensions": [
+          3680,
+          1393
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F12_decomposition_all_boundaries.pdf",
+        "sha256": "7e4f7c4131547aa95c1097c3f782654c6f09db0d5c3e99107dcb1208dbc71a70",
+        "header_and_eof": "passed"
+      }
+    },
+    "F12_joint_s92601": {
+      "png": {
+        "path": "integrated/figures/F12_joint_s92601.png",
+        "sha256": "7db3b3c08d123f396e4c2003c8ddba3c88e3d0d3966a5eb7738d05b8cfab1117",
+        "dimensions": [
+          3290,
+          2380
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F12_joint_s92601.pdf",
+        "sha256": "5a17573a18a4bd7f830dd25f974806c16543326b15a3cc1ca680f0fa3ac2c425",
+        "header_and_eof": "passed"
+      }
+    },
+    "F12_joint_s92602": {
+      "png": {
+        "path": "integrated/figures/F12_joint_s92602.png",
+        "sha256": "84bdda3619408ebe0900eef8fa1799c29fc9fbfcdb523e10957d20e75b6a06fa",
+        "dimensions": [
+          3290,
+          2380
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F12_joint_s92602.pdf",
+        "sha256": "836ba109146442586f134e1f4655a16dbc07a01758edfa3d49fdc6e402bdc989",
+        "header_and_eof": "passed"
+      }
+    },
+    "F12_joint_s92603": {
+      "png": {
+        "path": "integrated/figures/F12_joint_s92603.png",
+        "sha256": "7c437709fdc323f7855af8dc8a9f96b91d7c7eae18182a9e91913c32ccb93567",
+        "dimensions": [
+          3290,
+          2380
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F12_joint_s92603.pdf",
+        "sha256": "4337c4f57ffb221f72f21187ebc4c1f26e88cf27b4adedc4833e5d518c8733b0",
+        "header_and_eof": "passed"
+      }
+    },
+    "F13_mc_precision": {
+      "png": {
+        "path": "integrated/figures/F13_mc_precision.png",
+        "sha256": "4251c09153dad8bee8a97b85dc74f9eeb98db2b486e84fbb56c0b282b5fe0cf2",
+        "dimensions": [
+          3290,
+          1314
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F13_mc_precision.pdf",
+        "sha256": "04708a0808ba8ef0bda89de831fbbb99e8b4429275823a168314372252abe70a",
+        "header_and_eof": "passed"
+      }
+    },
+    "F14_fixed_probe_gradients": {
+      "png": {
+        "path": "integrated/figures/F14_fixed_probe_gradients.png",
+        "sha256": "3d836559a0f7c7a0cddf2c868ee2fd9775c5d747b59518febf22e3531af3240a",
+        "dimensions": [
+          3290,
+          2322
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F14_fixed_probe_gradients.pdf",
+        "sha256": "4338cbbe59d297a71e2cdf8a89af95a3959ce6d068695c08b3829c860472fd4d",
+        "header_and_eof": "passed"
+      }
+    },
+    "F14_training_s112501": {
+      "png": {
+        "path": "integrated/figures/F14_training_s112501.png",
+        "sha256": "acf6233d061f2db9c3fc61ab1b8752087b6306aceff2556be5b98c6e14d72128",
+        "dimensions": [
+          3290,
+          2322
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F14_training_s112501.pdf",
+        "sha256": "e07501f8d626aa8e34601a158ef14e99e49ce4046d8c8fd5683e19e0057d78d1",
+        "header_and_eof": "passed"
+      }
+    },
+    "F14_training_s112502": {
+      "png": {
+        "path": "integrated/figures/F14_training_s112502.png",
+        "sha256": "38ad4049f86379772999ea808cf522a37260b1c95ffacf9e4da4457ca29d61ba",
+        "dimensions": [
+          3290,
+          2322
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F14_training_s112502.pdf",
+        "sha256": "5de8737c9d1183d2037f2ee1d6898fe59b62608a3f67cd3fbddce2e43ab3ed7c",
+        "header_and_eof": "passed"
+      }
+    },
+    "F15_connected_correlations": {
+      "png": {
+        "path": "integrated/figures/F15_connected_correlations.png",
+        "sha256": "b723d02d9a8bf94f55c294fbd6de1469227351459b8eb73fac0a29c14dfbf542",
+        "dimensions": [
+          3420,
+          2401
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F15_connected_correlations.pdf",
+        "sha256": "cd92197958f267387c00c77c04cdad70d105ec9e4d2fc742c34465760e5c46e9",
+        "header_and_eof": "passed"
+      }
+    },
+    "F15_local_bonds": {
+      "png": {
+        "path": "integrated/figures/F15_local_bonds.png",
+        "sha256": "67031d06b71f26dd0359d6ae577c32995bd5f1c2cb8fe23d6173c984fdc1252a",
+        "dimensions": [
+          3420,
+          1463
+        ],
+        "decode": "passed"
+      },
+      "pdf": {
+        "path": "integrated/figures/F15_local_bonds.pdf",
+        "sha256": "6b15c38c517bb265544c8e9cfe314f362eb018cf27a83a7fe66a9b176af1145b",
+        "header_and_eof": "passed"
+      }
+    }
+  }
+}

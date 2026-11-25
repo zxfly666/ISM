@@ -1,0 +1,24 @@
+{
+  "repository": "zdacongming-glitch/Hackathon-3",
+  "commit": "f2dbd3789508b33aab08b8e0b681a5cf580c5642",
+  "retrieval": "GitHub connector at immutable commit",
+  "sources": [
+    {
+      "url": "https://github.com/zdacongming-glitch/Hackathon-3/blob/f2dbd3789508b33aab08b8e0b681a5cf580c5642/scripts/run_stage3_controls.py",
+      "reviewed_text_sha256": "c28e75aa3467bd6084ec1d35c27bfe98fa6c79e0bc2552540c20c4261d8be151",
+      "lines": 301
+    },
+    {
+      "url": "https://github.com/zdacongming-glitch/Hackathon-3/blob/f2dbd3789508b33aab08b8e0b681a5cf580c5642/configs/stage3_multiscale.json",
+      "reviewed_text_sha256": "2b348fdf0d37c55668d86dacf1f923cb0a104d781c37e3acf929ac9bed05482e",
+      "lines": 40
+    },
+    {
+      "url": "https://github.com/zdacongming-glitch/Hackathon-3/blob/f2dbd3789508b33aab08b8e0b681a5cf580c5642/results/stage3_multiscale/stage3_summary.csv",
+      "reviewed_text_sha256": "b44e5bb249f5467951122b5ccb0df97fd340ebc16c3e0611762aa5d91745383b",
+      "lines": 8
+    }
+  ],
+  "readme_url": "https://github.com/zdacongming-glitch/Hackathon-3/blob/f2dbd3789508b33aab08b8e0b681a5cf580c5642/results/stage3_multiscale/README.md",
+  "scope": "External contextual evidence only; one training seed, different backbone and metrics; no pooled effect and no reanalysis of unavailable control sample arrays"
+}

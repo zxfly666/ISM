@@ -1,0 +1,123 @@
+{
+  "created_utc": "2026-11-25T06:01:27.403684+00:00",
+  "reviewer": "history_audit",
+  "source_commit": "5516370b3ae6e98160d9468668acdcbf851dc902",
+  "report": "REPORT_ZH.md",
+  "report_sha256": "3c75b770f323f28a682bc0b52e7c0bc083b1736547518dd0ff19682f3317eb2c",
+  "status": "passed",
+  "scope": "Scientific/history and statistical review of final sections 9-12 and appendices A-D, with earlier sections 1-8 read and reviewed in the drafting phase.",
+  "checks": [
+    {
+      "id": "historical_pilot",
+      "status": "passed",
+      "detail": "Three old training seeds, warm-started EMA, unequal Fine-only budget, old replay level 0, no 2% endpoint atom, coarse CE learning, and nonuniform/continuous retention split are explicitly distinguished."
+    },
+    {
+      "id": "A0_reproduction",
+      "status": "passed",
+      "detail": "Saved-probability CPU recalculation is distinguished from approximately 1.52e-6 network-forward tolerance; trajectory values use the A0 reevaluation CSV."
+    },
+    {
+      "id": "A1_old_generation",
+      "status": "passed",
+      "detail": "Fine+RG old checkpoints alone are used for direct coarse generation; three-path values match physical_old_three_paths.csv and are not attributed to Fresh M."
+    },
+    {
+      "id": "A2_distribution",
+      "status": "passed",
+      "detail": "Hamiltonian normalization defines the 512-state conditional joint for fixed exterior; 12 weights times 33 boundaries and MC versus all-plus separation are stated."
+    },
+    {
+      "id": "A2_grouping_clock",
+      "status": "passed",
+      "detail": "Adjacent [0,1,2] and checker [0,2,4] are first-group-only; remaining six spins are serial; model clock is max(n_mask/256,0.01)."
+    },
+    {
+      "id": "A2_exact_decomposition",
+      "status": "passed",
+      "detail": "Both forward-KL terms are nonnegative and all prefix expectations use P, not model or oracle-generated prefix distributions. Conditional total correlation and checker marginal dependence are explained correctly."
+    },
+    {
+      "id": "F12_scope",
+      "status": "passed",
+      "detail": "Fixed-boundary examples and all-32-MC-boundary summary use the three old Fine+RG final models, not a mean across all twelve checkpoints. New numerical decomposition audit covers all 396 model-boundary cases."
+    },
+    {
+      "id": "A3_uncertainty",
+      "status": "passed",
+      "detail": "Whole-chain 10000-draw pointwise intervals are distinguished from the 2000-draw circular-block MC-MC calibration. The latter figure uses a central 90% quantile band and is not a universal noise floor."
+    },
+    {
+      "id": "B_bootstrap",
+      "status": "passed",
+      "detail": "The twelve saved M-D/M-F/M-P intervals cross zero; the report distinguishes five point contrasts from three bootstrapped contrasts and preserves the actual 256-field reference with block length eight."
+    },
+    {
+      "id": "archived_bootstrap_recheck",
+      "status": "passed",
+      "detail": "The 120000-draw maximum-zero-difference claim is linked to the original archived independent audits; the text no longer calls it a newly executed review experiment."
+    },
+    {
+      "id": "data_chain_identity",
+      "status": "passed",
+      "detail": "Training and validation use the same training-file global chain map 0-5 and 6-7, while physical-reference chains 0-15 belong to a different MC library."
+    },
+    {
+      "id": "mechanism_scope",
+      "status": "passed",
+      "detail": "Sections 10-12 label observations, hypotheses and proposed controls; no unrun Fresh direct-coarse sampling, new training, W144 generation, or independent stage C is claimed."
+    },
+    {
+      "id": "source_table",
+      "status": "passed",
+      "detail": "History, trajectory, retention, generation, three-path and 396-case joint links resolve to the intended files. Historical audit counts agree with stored audit JSON."
+    },
+    {
+      "id": "A2_print_formula_equivalence",
+      "status": "passed",
+      "detail": "The long normalized Hamiltonian fraction was replaced by a definition of B_c(x) containing exactly the same internal and boundary spin products, followed by exp(beta_c B_c(x)) normalization. Algebraically identical; reversing only this change exactly restores the previously reviewed report SHA.",
+      "prior_report_sha256": "49f95213cc80ad3778c2bf030cc1470d699b30254cf03e7c4c96faf363199cc3",
+      "reverse_reconstruction_sha256": "49f95213cc80ad3778c2bf030cc1470d699b30254cf03e7c4c96faf363199cc3",
+      "new_numerical_checks_run": false
+    }
+  ],
+  "findings": [
+    {
+      "id": "C4_M_minus_P_threshold",
+      "severity": "required",
+      "status": "resolved",
+      "detail": "Frozen protocol line 125 requires the secondary M-P 97.5% interval upper endpoint below -delta_G. Only coarse M-D/M-F use threshold zero.",
+      "source": "protocol/RG-2_v1.2.html:125"
+    }
+  ],
+  "recommendations": [
+    {
+      "status": "resolved",
+      "detail": "A.1 now links chain identity directly to B_training_data_metadata.json and MC_reference_metadata.json."
+    },
+    {
+      "status": "resolved",
+      "detail": "Figure 12d caption states the mean-bar and individual-boundary-point meanings; all-plus results are kept in data and excluded from MC figures."
+    }
+  ],
+  "reviewed_sources": {
+    "protocol/RG-2_v1.2.html": "b840c836ed6c65bfa9356cfcd93b5f2a4ba5131ef3abbb4942be61116ac381a9",
+    "project/scripts/rg2_v12/phase_a.py": "bf8d44af4bc0eded7527bced0733b6172dd8bfdf02c9fdaaf5b3125541743e87",
+    "project/scripts/rg2_v12/phase_b.py": "39adbf695d4a5e20c602972648e20c186ec57a3c113fcf2cceccf4808cc8aee7",
+    "project/scripts/rg2_v12/phase_b_evaluate.py": "deacb71024b24e0c6d2b2356ebe864e8c78a2afdfc172aa9f463cf72d7791894",
+    "project/runs/B_training_data_metadata.json": "8e4160429d20ac3ef0fba0537b9b6968f85ce4887d779a726c893291cbbfd5e0",
+    "project/runs/MC_reference_metadata.json": "2b500cdc33d199013a9e8094e928bf6ee26dfee4b4035b88f078ab7ee3f8dae8",
+    "stage_B/development_statistics.json": "734e38e7a0aa83c4333cbefe2210b10b0fbccc0ba8917a9e22ba675854117077",
+    "verification/B_independent_statistics_audit.json": "ce80bb0a73c2712ac4483d4a18fc5e87836966de3bf5b3eb2105d5536ed7559e",
+    "verification/public_statistics_recheck.json": "4b4565818a2064a3b50699f715ff5c996020724ea804ca2560c06bfd63636bb9",
+    "integrated/provenance/history_audit.json": "adef7f832d4d1cd53ad8cee0fae158bc299e5e0ebaa0565c1a7e51257281c4a1",
+    "integrated/data/history_pilot_metrics.csv": "1800642202b8affd4632d471fe78f0880738830c9d352525a79d46f232c81bf4",
+    "integrated/data/history_exact_trajectory.csv": "5a4bfdb7d2360800616b1f8ab691172da435ea4bb55bbf9634abe376807f52c1",
+    "integrated/data/history_retention_families.csv": "ce2065dd0caa2d5c940c2f14514f5814f54ae7f9b0f2b2bc06749e91c5db2748",
+    "integrated/data/history_joint_decomposition.csv": "0c8900d68bb52685958435d567d77db51fa4b61ba149e7d5e73258601dad67ab",
+    "integrated/data/physical_old_three_paths.csv": "6c7efbfa261a47662773a7b4c9314676a1039c0780a6d74fc33a3ecde33f9842",
+    "integrated/data/physical_training_summary.csv": "589a2cba83a0c2d80fcf271156606290aac6e9aaf981b795d5127f922a25b421",
+    "integrated/scripts/physical_figures.py": "34c8474b0e44c10fa7fe9f80dcc6cdd64f5ba26657a91414a2069dfcb2b04da2"
+  },
+  "limitations": "This review does not add independent scientific replications or prove large-field joint correctness. No training, network inference, or new generated samples were run by this review."
+}

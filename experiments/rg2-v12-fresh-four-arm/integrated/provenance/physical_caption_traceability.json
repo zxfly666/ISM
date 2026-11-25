@@ -1,0 +1,565 @@
+{
+  "created_utc": "2026-11-25T06:02:20.220427+00:00",
+  "status": "passed",
+  "scope": "Manual semantic check of all31 real-data figure captions against source records and plotting transformations; structural and numerical checks are separately recorded. No browser layout claim.",
+  "report_sha256_at_review": "3c75b770f323f28a682bc0b52e7c0bc083b1736547518dd0ff19682f3317eb2c",
+  "source_provenance_sha256": "0bc2a8a71410d5c252419a76f87c60720e4338cb316052c51a16fd80aefb70e9",
+  "figure_count": 31,
+  "captions": {
+    "F01_mc_fields": {
+      "report_image_line": 72,
+      "report_caption_markdown": "**图1｜真实物理构型，而非模型生成。** 使用历史参考 MC 的预先固定父场（chain 0、ordinal 0），展示中心 $W96$ 细窗口、对应 $W32$ 中心抽点和多数投票，以及逐块分歧图。两种粗图来自同一细图，颜色方向一致，不进行事后全局翻转。图像展示具体映射，整体统计则使用全部 16 条链、2,048 个父场。",
+      "report_caption_sha256": "c7e91ae91148d075cf62737a46d5bfadfbeb2b0b723122e9430f833047524d8e",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F01_mc_fields",
+      "source_caption_zh": "同一真实 MC 构型：chain=0、ordinal=0、parent=0，W96 裁剪的全局原点 (464,464)。浅色 −1、深色 +1；右图橙色表示该块的中心抽点与多数投票不同。选择身份预先固定；这张构型不是 2048 场的总体统计。",
+      "setting": {
+        "MC_parent": 0,
+        "chain": 0,
+        "ordinal": 0,
+        "W": 96,
+        "crop_origin": [
+          464,
+          464
+        ]
+      },
+      "recorded_input_file_count": 549,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F02_mc_statistics_W96": {
+      "report_image_line": 80,
+      "report_caption_markdown": "**图2a｜真实 $W96\\rightarrow W32$ 的分布变化。** 2,048 个父场、16 条链；细场按细格距离 $r$，粗场按对应物理距离 $3k$ 比较，并保留有符号和绝对磁化统计。D 的中心点对只覆盖特定余数子格，不能在有限样本上要求其平均值与全体细格点对的 $G(3k)$ 逐位相等。",
+      "report_caption_sha256": "919eabf7dd2b98e084eef7314c3bb12adfe1ee031660a60b4d0c6c25c7d9717c",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F02_mc_statistics_W96",
+      "source_caption_zh": "真实 W96 MC 的细场、中心抽点 D 和多数投票 M，使用全部 2048 场、16 条独立链。左上按各输出格距作图，右上把粗格距离 k 换为细格物理距离 3k；下排为有符号与绝对磁化的完整 ECDF。曲线无误差条；链间不确定性保留于统计附录。D 与 M 的总体块分歧率为 8.2523%。",
+      "setting": {
+        "parent_W": 96,
+        "n_MC": 2048,
+        "chains": 16
+      },
+      "recorded_input_file_count": 549,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F02_mc_statistics_W144": {
+      "report_image_line": 84,
+      "report_caption_markdown": "**图2b｜更大真实窗口中的同类现象。** 相同 2,048 个父场，$W144\\rightarrow W48$。这是真实 MC 的物理诊断，不是模型在 $W144$ 上的生成实验；本轮 Fresh 模型没有执行 $W144$ 生成。",
+      "report_caption_sha256": "106a3912ff800c735b8b60da8ec519bf498f3b9b15975c7c187b0d8f536e76cf",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F02_mc_statistics_W144",
+      "source_caption_zh": "真实 W144 MC 的细场、中心抽点 D 和多数投票 M，使用全部 2048 场、16 条独立链。左上按各输出格距作图，右上把粗格距离 k 换为细格物理距离 3k；下排为有符号与绝对磁化的完整 ECDF。曲线无误差条；链间不确定性保留于统计附录。D 与 M 的总体块分歧率为 8.2719%。",
+      "setting": {
+        "parent_W": 144,
+        "n_MC": 2048,
+        "chains": 16
+      },
+      "recorded_input_file_count": 549,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F05_old_local_trajectories": {
+      "report_image_line": 118,
+      "report_caption_markdown": "**图5｜旧权重在训练内与外推窗口中的条件能力。** 三个 seed 分别展示；横轴按共同细更新对齐，0、1,024、2,048 对应初始、中点、终点。Fine-only 的总更新与横轴一致，另外两臂总更新为横轴的两倍。每个点对 $n_{\\mathrm{mask}}=1,8,32$ 三种精确局部任务等权平均；真值与预测来自实际保存的概率数组。",
+      "report_caption_sha256": "e06b9c3b25d27dc87cad7e68e6a542b5e40bda9353373b6a644a1f79336c947b",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F05_old_local_trajectories",
+      "source_caption_zh": "旧 I-F EMA 暖启动的三个 seed 分别展示。每点为 n_mask=1/8/32 三个条件任务的等权平均，每任务使用相同 256 个父场；上排 W48，下排 W96。横轴为共同细任务更新 0/1024/2048；Fine-only 总更新相同，另外两臂总更新为其两倍。因此图中三臂并非等总更新比较，Fine+RG 对 Fine replay 才是等预算辅助任务对照。",
+      "setting": {
+        "seeds": [
+          92601,
+          92602,
+          92603
+        ],
+        "widths": [
+          48,
+          96
+        ],
+        "n_per_task": 256
+      },
+      "recorded_input_file_count": 676,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F06_samples_s112501_S64": {
+      "report_image_line": 391,
+      "report_caption_markdown": "**图6a｜seed 112501，$S=64$。** MC、F、P、D、M 使用相同配色和方向；模型间共享随机身份。此单图用于观察空间结构，分布结论使用每臂全部 32 图。",
+      "report_caption_sha256": "1aef6c6d1fb6f399bb2c926737cd0992ad7e8536096f1dd0623817ce54e327f9",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F06_samples_s112501_S64",
+      "source_caption_zh": "训练 seed=112501，反向采样 S=64，预登记生成 ID=0。上排是 W96 细场，下排是同一图的 3×3 多数投票 W32；MC 固定为参考池第一张 parent=128。每格注明实际有符号磁化 m 和每键负近邻乘积 e，粗格 e 仅为操作性统计。浅色 −1、深色 +1，未事后翻转。",
+      "setting": {
+        "seed": 112501,
+        "S": 64,
+        "generation_id": 0,
+        "MC_parent": 128,
+        "n_gen_per_model": 32
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F06_samples_s112501_S256": {
+      "report_image_line": 395,
+      "report_caption_markdown": "**图6b｜seed 112501，$S=256$。** 与图6a 使用相同生成 ID 和配对随机场，日程不同，因此构型可以不同。没有按外观选择较有利的一张图。",
+      "report_caption_sha256": "36df9d8c0b092720365dd90dfafffb6f6fadf621a56e1eaed3bd892720d033cd",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F06_samples_s112501_S256",
+      "source_caption_zh": "训练 seed=112501，反向采样 S=256，预登记生成 ID=0。上排是 W96 细场，下排是同一图的 3×3 多数投票 W32；MC 固定为参考池第一张 parent=128。每格注明实际有符号磁化 m 和每键负近邻乘积 e，粗格 e 仅为操作性统计。浅色 −1、深色 +1，未事后翻转。",
+      "setting": {
+        "seed": 112501,
+        "S": 256,
+        "generation_id": 0,
+        "MC_parent": 128,
+        "n_gen_per_model": 32
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F06_samples_s112502_S64": {
+      "report_image_line": 399,
+      "report_caption_markdown": "**图6c｜seed 112502，$S=64$。** 与第一训练 seed 分开展示，避免将构型差异误当成更多独立训练重复。",
+      "report_caption_sha256": "8ba73a1b3ebbe57653713fd297fd3d95c5a2e02303d69a0030f3aae20fab919e",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F06_samples_s112502_S64",
+      "source_caption_zh": "训练 seed=112502，反向采样 S=64，预登记生成 ID=0。上排是 W96 细场，下排是同一图的 3×3 多数投票 W32；MC 固定为参考池第一张 parent=128。每格注明实际有符号磁化 m 和每键负近邻乘积 e，粗格 e 仅为操作性统计。浅色 −1、深色 +1，未事后翻转。",
+      "setting": {
+        "seed": 112502,
+        "S": 64,
+        "generation_id": 0,
+        "MC_parent": 128,
+        "n_gen_per_model": 32
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F06_samples_s112502_S256": {
+      "report_image_line": 403,
+      "report_caption_markdown": "**图6d｜seed 112502，$S=256$。** 粗图严格来自正上方细图。完整原图版还保留预登记 ID 1、2、3；本次没有更换样本选择规则。",
+      "report_caption_sha256": "aaa3dbaabb7cb27ce8bd2583fe4982fc05081e3db0e5a4a2d5fc4f339db0b923",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F06_samples_s112502_S256",
+      "source_caption_zh": "训练 seed=112502，反向采样 S=256，预登记生成 ID=0。上排是 W96 细场，下排是同一图的 3×3 多数投票 W32；MC 固定为参考池第一张 parent=128。每格注明实际有符号磁化 m 和每键负近邻乘积 e，粗格 e 仅为操作性统计。浅色 −1、深色 +1，未事后翻转。",
+      "setting": {
+        "seed": 112502,
+        "S": 256,
+        "generation_id": 0,
+        "MC_parent": 128,
+        "n_gen_per_model": 32
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F07_fine_correlations": {
+      "report_image_line": 411,
+      "report_caption_markdown": "**图7｜细场原始两点关联。** 行为两个训练 seed，列为 $S=64,256$；每条模型曲线使用 32 张 $W96$ 图，MC 使用独立于训练的 8 条历史奇数链各前 32 场，共 256 场。五条曲线使用统一颜色／线型和共同纵轴，阴影标记主距离 $r=25\\ldots48$。不显示含义不明的误差条，训练重复直接分面呈现。",
+      "report_caption_sha256": "92186e04decabc611d019716fdbde6c218c559f2e5e11a5fd050c315a8d7e222",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F07_fine_correlations",
+      "source_caption_zh": "完整原始关联保留绝对幅度；两行分别为两个训练 seed，两列为 S=64/256。每个模型 n_gen=32；MC 为固定的 8 条奇数链各 32 场，共 256 场。阴影为长程评价范围 r=25–48。均采用开窗口内的轴向有效点对。",
+      "setting": {
+        "W": 96,
+        "n_gen": 32,
+        "n_MC": 256,
+        "connected": false
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F08_coarse_correlations": {
+      "report_image_line": 449,
+      "report_caption_markdown": "**图8｜$W96\\rightarrow W32$ 的粗关联。** 布局与图7一致；每个粗样本来自对应细样本，MC 参考也执行相同多数投票。粗格距离 $k=9\\ldots16$ 对应细格物理距离 $3k=27\\ldots48$。不能以未经粗化的 $W32$ 细窗口充当这里的真值。",
+      "report_caption_sha256": "c18a686e6aa433829a7c0327fcf23c55d233824cbf9693b5ad5a0af42e13ca48",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F08_coarse_correlations",
+      "source_caption_zh": "完整原始关联保留绝对幅度；两行分别为两个训练 seed，两列为 S=64/256。每个模型 n_gen=32；MC 为固定的 8 条奇数链各 32 场，共 256 场。阴影为长程评价范围 k=9–16；对应细格物理距离 3k=27–48。均采用开窗口内的轴向有效点对。",
+      "setting": {
+        "W": 32,
+        "n_gen": 32,
+        "n_MC": 256,
+        "connected": false
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F09_coarse_m": {
+      "report_image_line": 462,
+      "report_caption_markdown": "**图9a｜粗场磁化经验分布。** 每个分面分别保留训练 seed 与采样步数，比较真实细场粗化和各模型细场粗化后的磁化，不对各图做正负翻转。",
+      "report_caption_sha256": "068dafec9569a3dcd89482164e4526c76155584f65dc7e8157b3c4c15390d980",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F09_coarse_m",
+      "source_caption_zh": "W32 同一细生成场经多数投票得到的粗场的完整经验累积分布。每臂每 seed 每 S 有 32 张图，MC 参考 256 场；各面板使用相同完整支持区间，没有丢弃极端值。ECDF 逐点显示所有样本，避免小样本直方图分箱造成假象。",
+      "setting": {
+        "W": 32,
+        "metric": "m",
+        "full_support": true,
+        "n_gen": 32,
+        "n_MC": 256
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F09_coarse_abs_m": {
+      "report_image_line": 466,
+      "report_caption_markdown": "**图9b｜粗场有序程度。** 与图9a使用完全相同样本，显示 $|m|$ 的经验分布。粗图压缩了块内信息，统计接近参考不能据此证明细图的局部物理已经正确。",
+      "report_caption_sha256": "178cff1f0c72c4792f1331681fe54d3e6790bb8df040039eaca5712c90bce8ba",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F09_coarse_abs_m",
+      "source_caption_zh": "W32 同一细生成场经多数投票得到的粗场的完整经验累积分布。每臂每 seed 每 S 有 32 张图，MC 参考 256 场；各面板使用相同完整支持区间，没有丢弃极端值。ECDF 逐点显示所有样本，避免小样本直方图分箱造成假象。",
+      "setting": {
+        "W": 32,
+        "metric": "abs_m",
+        "full_support": true,
+        "n_gen": 32,
+        "n_MC": 256
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F15_local_bonds": {
+      "report_image_line": 476,
+      "report_caption_markdown": "**图15a｜局部物理的直接量。** 按 seed、采样步数和实验臂展示 $G(1)$ 及由同一图像精确推得的异号键比例 $(1-G(1))/2$；MC 水平线来自实际用于模型比较的 256 场。两项是同一近邻统计的不同表达，不应当作两个独立成功指标。",
+      "report_caption_sha256": "0769886ae1b5248017509c97f60a1a352ab1c167b3f21f828850ca0e8de19647",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F15_local_bonds",
+      "source_caption_zh": "直接测量的最近邻异号键比例 p_wall=(1−G(1))/2；右轴为完全等价的 G(1)。纵轴为清楚标出的局部范围，所有 16 个模型／采样设置的均值都在图中。此统计说明局部异号键增多与否，不直接识别团簇破碎机制。",
+      "setting": {
+        "W": 96,
+        "n_gen": 32,
+        "displayed_quantity": "mean opposite-bond fraction",
+        "local_axis_range": [
+          0.13,
+          0.22
+        ]
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F09_fine_energy": {
+      "report_image_line": 482,
+      "report_caption_markdown": "**图9c｜每键能量的完整取值范围。** 横轴保留理论范围 $[-1,1]$，比较全部生成样本和 MC，不只比较均值。",
+      "report_caption_sha256": "5fd28186303bd3d157887cca7031d680f4b7402f2d5f07b7b03ff56f5f9084e3",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F09_fine_energy",
+      "source_caption_zh": "W96 细生成场的完整经验累积分布。每臂每 seed 每 S 有 32 张图，MC 参考 256 场；各面板使用相同完整支持区间，没有丢弃极端值。ECDF 逐点显示所有样本，避免小样本直方图分箱造成假象。",
+      "setting": {
+        "W": 96,
+        "metric": "energy",
+        "full_support": true,
+        "n_gen": 32,
+        "n_MC": 256
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F09_fine_energy_zoom": {
+      "report_image_line": 486,
+      "report_caption_markdown": "**图9d｜能量分布局部放大。** 明确标注放大区间 $[-0.85,-0.45]$，覆盖本轮所有生成与参考样本的实际能量；图9c同时保留完整范围。读者可以看到不同实验臂的分布位置与形状，而非只看一项距离。",
+      "report_caption_sha256": "3f97895627730f734efa786d27ae16280b33c7a997406b2d918f4a36a7904b10",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F09_fine_energy_zoom",
+      "source_caption_zh": "W96 细场能量 ECDF 的明确局部放大：横轴 −0.85 至 −0.45。已逐值核验，该范围覆盖全部 512 张生成图和 256 张 MC 参考的实际能量，没有排除极端样本。完整理论支持区间 [−1,1] 的版本另保留为 F09_fine_energy；本图只为看清分布位移。",
+      "setting": {
+        "W": 96,
+        "zoom_range": [
+          -0.85,
+          -0.45
+        ],
+        "all_observed_values_inside": true,
+        "full_support_figure": "F09_fine_energy"
+      },
+      "recorded_input_file_count": 1111,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F09_fine_m": {
+      "report_image_line": 494,
+      "report_caption_markdown": "**图9e｜保留符号的磁化分布。** 每条曲线使用完整 32 图；MC 为 256 场。零外场的对称性是总体分布性质，有限参考本身的平均磁化也不严格为零。",
+      "report_caption_sha256": "3ee7ab133f800f19952ad6bdcfa5b0dca81c5b1a9f51acae4c439c59671110d2",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F09_fine_m",
+      "source_caption_zh": "W96 细生成场的完整经验累积分布。每臂每 seed 每 S 有 32 张图，MC 参考 256 场；各面板使用相同完整支持区间，没有丢弃极端值。ECDF 逐点显示所有样本，避免小样本直方图分箱造成假象。",
+      "setting": {
+        "W": 96,
+        "metric": "m",
+        "full_support": true,
+        "n_gen": 32,
+        "n_MC": 256
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F09_fine_abs_m": {
+      "report_image_line": 498,
+      "report_caption_markdown": "**图9f｜有序程度与符号偏置分开检查。** $|m|$ 消去符号但保留磁化幅度；结合图9e区分“过度有序”和“正负质量不平衡”。",
+      "report_caption_sha256": "8a2080b2cd96c357e2d27effd7ac7d096431f9d25b68732d51504018bf646a50",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F09_fine_abs_m",
+      "source_caption_zh": "W96 细生成场的完整经验累积分布。每臂每 seed 每 S 有 32 张图，MC 参考 256 场；各面板使用相同完整支持区间，没有丢弃极端值。ECDF 逐点显示所有样本，避免小样本直方图分箱造成假象。",
+      "setting": {
+        "W": 96,
+        "metric": "abs_m",
+        "full_support": true,
+        "n_gen": 32,
+        "n_MC": 256
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F15_connected_correlations": {
+      "report_image_line": 504,
+      "report_caption_markdown": "**图15b｜均值扣除改变了哪些曲线。** 与图7使用同一系综，按 $G_c=G-\\bar m^2$ 计算，不能逐图中心化。D 的较大样本磁化均值会造成更大的扣除，因此原始关联与连通关联可能给出不同的数值排序；这种变化不能单独证明 D 的联合分布更好。",
+      "report_caption_sha256": "b015b3866e1b71a8fff83e3adb5a81e37c32771cfaccd0be01e3ab5e05f41fda",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F15_connected_correlations",
+      "source_caption_zh": "系综连通关联按各方法的全体样本平均磁化平方扣除，并非逐图扣除。两行分别为两个训练 seed，两列为 S=64/256。每个模型 n_gen=32；MC 为固定的 8 条奇数链各 32 场，共 256 场。阴影为长程评价范围 r=25–48。均采用开窗口内的轴向有效点对。",
+      "setting": {
+        "W": 96,
+        "n_gen": 32,
+        "n_MC": 256,
+        "connected": true
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F10_energy_longrange_tradeoff": {
+      "report_image_line": 510,
+      "report_caption_markdown": "**图10｜每个点是一臂下的一次训练重复。** 横轴为 $W_1(e)$，纵轴为细场 $E_G(25\\!:\\!48)$，分别显示两档 $S$；圆点和三角区分两个训练 seed。左下方向同时改善两类物理统计。每个点的统计基于 32 图，但不是 32 个独立训练重复；图中没有人为合成总分。",
+      "report_caption_sha256": "0f0b90a7c04249608ef7a69197e3cdabe22ae1d9c531b431eee820a8e93e778f",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F10_energy_longrange_tradeoff",
+      "source_caption_zh": "每个点代表一个训练 seed 下的一个实验臂，左右分别为 S=64/256，全部为 W96 细生成。横轴为每键能量分布相对独立 MC 的 Wasserstein 距离，纵轴为 r=25–48 的原始关联相对 L2 误差；越靠近左下越好。圆点和三角分别表示两组训练重复，不将 32 张生成图误当作训练重复；没有合成综合评分。",
+      "setting": {
+        "n_gen": 32,
+        "axes": [
+          "W1_energy",
+          "G_error"
+        ]
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F11_old_three_paths_S64": {
+      "report_image_line": 541,
+      "report_caption_markdown": "**图11a｜旧 Fine+RG 的三路径，$S=64$。** 三行对应旧训练 seed，逐行展示完整粗关联、磁化与负近邻乘积的经验分布。真实参考始终来自真实细场的多数投票；直接粗生成的坐标间隔为 3，不能改用单位间隔细场作参考。",
+      "report_caption_sha256": "ca1ad612fccb45c2ee3dbf2e070aedc1d0d4e0ca1d65b9d05bc0b3034270cec0",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F11_old_three_paths_S64",
+      "source_caption_zh": "仅使用旧 Fine+RG 终点 EMA，S=64。三行分别为三个旧训练 seed；三列是 W32 原始关联、有符号磁化和负近邻乘积 ECDF。真实路径从 256 张 MC W96 场粗化；模型的细生成粗化和直接粗生成各 32 张。直接粗生成采用任务 level 1 与间距 3 的块中心坐标。本图不属于 Fresh M，不证明逆 RG；两个模型路径相近也不等于均符合真实分布。",
+      "setting": {
+        "S": 64,
+        "weights": "old Fine+RG final EMA",
+        "n_model_path": 32,
+        "n_MC": 256
+      },
+      "recorded_input_file_count": 683,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F11_old_three_paths_S256": {
+      "report_image_line": 545,
+      "report_caption_markdown": "**图11b｜同一批旧权重的 $S=256$ 诊断。** 对比细生成后粗化与直接粗生成，保留与图11a相同的行、列和颜色语义。粗图的负近邻乘积仅为统计量，不是原细格 Hamiltonian 的每键能量。",
+      "report_caption_sha256": "db0dab9a13ca38f9aa6fad79b8f9d04d34653be099fd332031f27abc04f3701e",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F11_old_three_paths_S256",
+      "source_caption_zh": "仅使用旧 Fine+RG 终点 EMA，S=256。三行分别为三个旧训练 seed；三列是 W32 原始关联、有符号磁化和负近邻乘积 ECDF。真实路径从 256 张 MC W96 场粗化；模型的细生成粗化和直接粗生成各 32 张。直接粗生成采用任务 level 1 与间距 3 的块中心坐标。本图不属于 Fresh M，不证明逆 RG；两个模型路径相近也不等于均符合真实分布。",
+      "setting": {
+        "S": 256,
+        "weights": "old Fine+RG final EMA",
+        "n_model_path": 32,
+        "n_MC": 256
+      },
+      "recorded_input_file_count": 689,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F12_joint_s92601": {
+      "report_image_line": 570,
+      "report_caption_markdown": "**图12a｜旧 Fine+RG、seed 92601 的联合分布诊断。** 选用固定边界 mc_chain0_ord0 的旧 Fine+RG 终点，分别展示四种揭示方案下的 512 态概率对照、块内正自旋数分布与多数为正的概率。Oracle 使用精确单点条件边缘，Transformer 使用实际网络概率；两者均按相同揭示分组独立抽取组内自旋。",
+      "report_caption_sha256": "16b26677247ccd39258d937cb52ab9ae1e86d79eb0b1d54b5c68aa6b3ff13589",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F12_joint_s92601",
+      "source_caption_zh": "旧 Fine+RG seed=92601，固定 MC 边界 chain 0、ordinal 0；W16 容器内只隐藏中心 3×3。512 状态的精确 P 与四种揭示分组的模型 Q 均归一。上排展示联合概率散点与正自旋数量分布；下排展示块多数为正概率和 forward KL 的两部分。每次计划仅首组并行，其余自旋逐点揭示；同色组三点在其余内部变量仍隐藏时并不保证条件独立。该固定边界为预先固定案例，不作为总体均值。",
+      "setting": {
+        "seed": 92601,
+        "boundary": "mc_chain0_ord0",
+        "internal_states": 512,
+        "weights": "old Fine+RG final EMA"
+      },
+      "recorded_input_file_count": 1111,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F12_joint_s92602": {
+      "report_image_line": 574,
+      "report_caption_markdown": "**图12b｜旧 Fine+RG、seed 92602。** 与图12a采用同一边界选择及布局，保留训练重复之间的差异。散点离开对角线表示联合概率不匹配；即使少数汇总量接近，仍不保证 512 态分布正确。",
+      "report_caption_sha256": "9f77428429569a6f177bdac1b364ca39220e5368c92333c16a6f87fb026990a0",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F12_joint_s92602",
+      "source_caption_zh": "旧 Fine+RG seed=92602，固定 MC 边界 chain 0、ordinal 0；W16 容器内只隐藏中心 3×3。512 状态的精确 P 与四种揭示分组的模型 Q 均归一。上排展示联合概率散点与正自旋数量分布；下排展示块多数为正概率和 forward KL 的两部分。每次计划仅首组并行，其余自旋逐点揭示；同色组三点在其余内部变量仍隐藏时并不保证条件独立。该固定边界为预先固定案例，不作为总体均值。",
+      "setting": {
+        "seed": 92602,
+        "boundary": "mc_chain0_ord0",
+        "internal_states": 512,
+        "weights": "old Fine+RG final EMA"
+      },
+      "recorded_input_file_count": 1111,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F12_joint_s92603": {
+      "report_image_line": 578,
+      "report_caption_markdown": "**图12c｜旧 Fine+RG、seed 92603。** 多数概率轴保留接近 1 的真实数值；这里所有概率都来自精确枚举或保存的模型条件概率，没有用重复采样估计散点。",
+      "report_caption_sha256": "12b17f9d146dd577f76c93f614895114c9892d8741c7e6295e79285aa8974aa5",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F12_joint_s92603",
+      "source_caption_zh": "旧 Fine+RG seed=92603，固定 MC 边界 chain 0、ordinal 0；W16 容器内只隐藏中心 3×3。512 状态的精确 P 与四种揭示分组的模型 Q 均归一。上排展示联合概率散点与正自旋数量分布；下排展示块多数为正概率和 forward KL 的两部分。每次计划仅首组并行，其余自旋逐点揭示；同色组三点在其余内部变量仍隐藏时并不保证条件独立。该固定边界为预先固定案例，不作为总体均值。",
+      "setting": {
+        "seed": 92603,
+        "boundary": "mc_chain0_ord0",
+        "internal_states": 512,
+        "weights": "old Fine+RG final EMA"
+      },
+      "recorded_input_file_count": 1111,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F12_decomposition_all_boundaries": {
+      "report_image_line": 608,
+      "report_caption_markdown": "**图12d｜不依赖单一边界的机制证据。** 图中使用32个MC边界，展示各旧训练 seed 的 Fine+RG 终点及四种揭示方案，不对12个权重混合平均，也不包含全正边界。柱为32边界的平均分解，点为单个边界的总KL，点的散布不是误差条。精确 Oracle 因子化项与网络条件预测项分别显示；数值复核覆盖全部396组，最大分解残差约 $2.01\\times10^{-14}$。",
+      "report_caption_sha256": "bc27dd5aff6a9b97dbdcd501c569c9837243fbbad95c521f238f34898bec8d06",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F12_decomposition_all_boundaries",
+      "source_caption_zh": "旧 Fine+RG 三个 seed 在全部 32 个预定 MC 边界上的小块 forward KL。柱高为均值，灰蓝与赭橙分别是 oracle 因子化项和条件预测项；每个黑点为一个边界的总 KL，不是误差条。全正边界单独保留在数据表中，未混入 MC 均值。九点并行的因子化项对模型无关，不能直接作为 W96 全图误差的定量解释。",
+      "setting": {
+        "boundaries": 32,
+        "excluded_from_mean": "all_plus",
+        "weights": "old Fine+RG final EMA"
+      },
+      "recorded_input_file_count": 1111,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F14_training_s112501": {
+      "report_image_line": 618,
+      "report_caption_markdown": "**图14a｜seed 112501 的训练记录。** 上排为每256次流内更新的共同与辅助损失均值，另展示固定共同验证和每500次优化器更新分块的实际梯度裁剪比例；宽度轮换和逆时间加权会使单批训练值波动，图中训练曲线不是逐批原值。横轴为真实优化器更新数，不把共同／辅助一对更新合并成一步。",
+      "report_caption_sha256": "fc25b3ee08346c88d56daea4e0f9729f51078e86bdfbf9b515f2bbae3a9c2d7b",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F14_training_s112501",
+      "source_caption_zh": "Fresh seed=112501。上排分别为共同／辅助训练流按 256 次流内更新分块的损失均值，末块保留剩余更新。下排是四个宽度等权共同细任务固定验证，以及 500 次总更新分块的实际裁剪比例。线型和颜色在全部面板均对应实验臂。辅助目标随实验臂不同，辅助损失不能直接用于跨臂同任务优劣判断；训练与验证均为 inverse-t masked CE、按全部 token 归一。",
+      "setting": {
+        "seed": 112501,
+        "updates": 12000,
+        "loss_normalization": "inverse-t masked CE over all tokens"
+      },
+      "recorded_input_file_count": 1111,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F14_training_s112502": {
+      "report_image_line": 622,
+      "report_caption_markdown": "**图14b｜seed 112502，使用相同坐标尺度与布局。** 两个 seed 分开展示。主评估使用预定 12k EMA 权重，没有从曲线中事后挑选生成效果较好的 checkpoint。",
+      "report_caption_sha256": "c1af78d51d75aaee39ffcc3cdb3f318482b0d2ab03ae39e9ff25dd18da584159",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F14_training_s112502",
+      "source_caption_zh": "Fresh seed=112502。上排分别为共同／辅助训练流按 256 次流内更新分块的损失均值，末块保留剩余更新。下排是四个宽度等权共同细任务固定验证，以及 500 次总更新分块的实际裁剪比例。线型和颜色在全部面板均对应实验臂。辅助目标随实验臂不同，辅助损失不能直接用于跨臂同任务优劣判断；训练与验证均为 inverse-t masked CE、按全部 token 归一。",
+      "setting": {
+        "seed": 112502,
+        "updates": 12000,
+        "loss_normalization": "inverse-t masked CE over all tokens"
+      },
+      "recorded_input_file_count": 1111,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F14_fixed_probe_gradients": {
+      "report_image_line": 628,
+      "report_caption_markdown": "**图14c｜固定 $W48$ probe 的梯度余弦与范数比。** 每次在同一 raw 权重上分别对一批共同输入和一批辅助输入反传，排除任务嵌入后比较共享参数梯度；范数比为辅助／共同。这不是整个训练分布的梯度均值，也不是 EMA 生成权重的直接诊断。",
+      "report_caption_sha256": "9de9c0b54474416fd700fb1788c9f31e5dfa451f76cfe11f2824b8eda7ee5b7f",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F14_fixed_probe_gradients",
+      "source_caption_zh": "每个训练时点只使用一对固定 W48 验证 probe，分别计算共同流和辅助流在同一 raw 参数状态上的梯度；两次反传之间没有更新，参数集合排除任务嵌入。左列为余弦，右列为辅助／共同梯度范数比；两行分别为两个训练 seed。本图不能直接代表全训练分布上的梯度冲突；这里的 probe 诊断不等于实际训练梯度裁剪。",
+      "setting": {
+        "seeds": [
+          112501,
+          112502
+        ],
+        "gradient_probe": "one fixed W48 pair",
+        "excluded_parameter": "scale_embedding.weight"
+      },
+      "recorded_input_file_count": 1111,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F13_mc_precision": {
+      "report_image_line": 636,
+      "report_caption_markdown": "**图13｜MC–MC 校准，而非模型实验。** 历史 16 条链分为互不重叠的 8 条伪生成链和 8 条参考链，参考数固定 256；伪生成样本量从 16 到 512。曲线展示 2,000 次链与循环块重抽样下的误差分布摘要；阴影为5%–95%经验分位（中央90%范围），虚线为95%分位，不是95%置信带；块长 8 为主方案，4、16 为敏感性分析。它描述的是这份有限 MC 库及抽样算法的精度。",
+      "report_caption_sha256": "73a5d31d659697753babc91f886e20a00491fb019328540d3fba11b7783f9e35",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F13_mc_precision",
+      "source_caption_zh": "真实 MC 对真实 MC 的有限样本校准：偶数链充当伪生成，奇数链提供独立 256 场参考，按冻结链／循环块长 8 方案，每个样本量有 2000 次重抽样。阴影是该校准误差的 5%–95% 分位范围，橙线为中位数；0.03 仅为候选效应尺度。此图不是严格误差下界，也不是模型配对差的显著性门槛。",
+      "setting": {
+        "block": 8,
+        "repeats": 2000,
+        "n_reference": 256
+      },
+      "recorded_input_file_count": 1087,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F09_fine_m_histogram": {
+      "report_image_line": 851,
+      "report_caption_markdown": "**附图B1｜两档S、两个seed的完整有符号磁化。** 所有方法使用相同分箱和范围，MC保留其实际256样本分布；不以正负翻转强制对称。",
+      "report_caption_sha256": "70850c53873dd962b958ba098184ae5bb90b32487ad5469aad97fd26246b30eb",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F09_fine_m_histogram",
+      "source_caption_zh": "W96 有符号磁化直方图，用固定 16 个等宽分箱覆盖 [−1,1]，不同 seed 与 S 使用相同横纵范围。每臂仅 32 张图，因此局部峰形依赖分箱；完整 ECDF 另见 F09_fine_m，不能仅据本图确认模式缺失或自旋对称性破缺。",
+      "setting": {
+        "W": 96,
+        "bins": [
+          -1.0,
+          -0.875,
+          -0.75,
+          -0.625,
+          -0.5,
+          -0.375,
+          -0.25,
+          -0.125,
+          0.0,
+          0.125,
+          0.25,
+          0.375,
+          0.5,
+          0.625,
+          0.75,
+          0.875,
+          1.0
+        ],
+        "n_gen": 32,
+        "n_MC": 256
+      },
+      "recorded_input_file_count": 1111,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    },
+    "F09_coarse_energy": {
+      "report_image_line": 855,
+      "report_caption_markdown": "**附图B2｜同图粗化后的近邻统计。** 与图8、图9a–b是同一组粗图；该量用于比较粗分布形状，不被解释成原Hamiltonian的能量。",
+      "report_caption_sha256": "0e9011abe192705c17a9082c6d9d5eeef9b0d89336abd36aa3963a5f93824b1b",
+      "source_record": "integrated/provenance/physical_figure_sources.json",
+      "source_figure_key": "F09_coarse_energy",
+      "source_caption_zh": "W32 同一细生成场经多数投票得到的粗场的完整经验累积分布。每臂每 seed 每 S 有 32 张图，MC 参考 256 场；各面板使用相同完整支持区间，没有丢弃极端值。ECDF 逐点显示所有样本，避免小样本直方图分箱造成假象。粗格近邻乘积不等于原 Ising Hamiltonian 能量。",
+      "setting": {
+        "W": 32,
+        "metric": "energy",
+        "full_support": true,
+        "n_gen": 32,
+        "n_MC": 256
+      },
+      "recorded_input_file_count": 548,
+      "semantic_review": "consistent with stored arrays, plotting transformation, source caption and stated scope"
+    }
+  },
+  "group_review_notes": {
+    "F01/F02": "Fixed MC identity and all-field statistics are kept distinct; the 2048-field population is not confused with the 256-field generation reference.",
+    "F05": "Old lineage and equal common-update axis are explicit; the different total-update budgets are disclosed.",
+    "F06": "All four seed/S examples use ID0; the previous gallery IDs 0,1,2,3 are independently supported by stage_B/figure_configuration.json and stage_B/captions.json.",
+    "F07/F08": "Two training seeds, S64/S256, n_gen32 and independent n_MC256 are explicit; r25:48 and coarse k9:16 are distinguished.",
+    "F09": "Signed m, absolute m, fine energy and coarse neighbor product are distinguished; zoom includes every observed energy; shared plotting-caption wording was corrected for absolute magnetization.",
+    "F10/F15": "Training repetitions are not confused with image counts; energy/G tradeoff, raw versus connected G and the wall-fraction identity are accurately described.",
+    "F11": "Old Fine+RG direct coarse generation is not attributed to Fresh M, and the three paths retain their distinct targets.",
+    "F12": "Fixed-boundary plots and 32-MC-boundary aggregation are distinct; all-plus is excluded from displayed means and separately retained in the full table; 396-case audit coverage is broader than the plotted three final weights.",
+    "F13": "Displayed 5th–95th percentiles are described as a central90% empirical range, not a 95% confidence band or significance threshold.",
+    "F14": "Training losses are stream-wise256-update averages, clipping uses500 optimizer updates, and fixed raw-weight probe gradients are kept separate from EMA model generation."
+  },
+  "supporting_legacy_sample_identity_files": {
+    "stage_B/figure_configuration.json": "cdf6ee185db1e34c52639d53f094776e90c3a1cd95a66e20cfbc3e1ab2d68439",
+    "stage_B/captions.json": "7a5ff8bc7f4a4563a05a6895175369883e708370ae64a0a3edbdd75c990e47e7"
+  },
+  "limitation": "Input lists in the original figure-source provenance accumulate previously read files and can be broader than the minimal inputs for a particular figure; every actual plotting input is nevertheless included and hashed.",
+  "final_binding": "Final authoritative Markdown fingerprint bound after confirming all31 reviewed caption texts are unchanged."
+}

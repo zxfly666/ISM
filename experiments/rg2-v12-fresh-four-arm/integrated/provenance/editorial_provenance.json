@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "date": "2026-11-25",
+  "science_commit": "5516370b3ae6e98160d9468668acdcbf851dc902",
+  "historical_commit": "7e608a594c06ead3c484cdd5b38e1d8f2c4d56e3",
+  "baseline_manifest": {
+    "bytes": 659568,
+    "sha256": "eec996c291f9c69c65b8686078d441f6ea407dfd88639981bd7792fe480c0fad"
+  },
+  "original_inventory_files": 3457,
+  "original_files_byte_identical": 3455,
+  "editorial_changes": [
+    {
+      "path": "README.md",
+      "before": {
+        "bytes": 1174,
+        "sha256": "fc174c5e32d650f0da8d1ce3a2ea41a597b643bf90ff56d3eff0f2b07cb7ee08"
+      },
+      "after": {
+        "bytes": 2340,
+        "sha256": "1f7ac4877d00da84516f8c635cbf06efaf930fe413616d7e66055b05b028d8cd"
+      },
+      "exact_archive": "README.initial-20261125.md"
+    },
+    {
+      "path": "REPORT_ZH.md",
+      "before": {
+        "bytes": 12906,
+        "sha256": "d237542aa26aac981b00e45ad015172e9bd0521ae5834f827ac48ce16eb09d49"
+      },
+      "after": {
+        "bytes": 98392,
+        "sha256": "3c75b770f323f28a682bc0b52e7c0bc083b1736547518dd0ff19682f3317eb2c"
+      },
+      "exact_archive": "REPORT_ZH.initial-20261125.md"
+    }
+  ],
+  "no_original_scientific_payload_changed": true,
+  "no_new_training_or_generation": true,
+  "data_manifest_unchanged": true,
+  "authoritative_prose": "REPORT_ZH.md",
+  "html_generated_from_same_markdown": true,
+  "scope": "Only README and REPORT are replaced; exact originals archived at their original relative-link depth. All other additions are derived report materials, auditing code or offline reading assets.",
+  "excluded_from_manifest": [
+    "publication-manifest.json",
+    "git-ignored caches"
+  ],
+  "publication_script_sha256": "41b7b6334bdca2ab6ee424e0d812c6a8d8311cefcb4e0c3830d473e5b57c68ff"
+}

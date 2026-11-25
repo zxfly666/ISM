@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "scope": "All five method schematics visually inspected for labels, arrows, cropping and correct example values; images and PDF presence verified",
+  "figures": [
+    {
+      "name": "F03a_four_arm_construction",
+      "pixels": [
+        4121,
+        2292
+      ],
+      "png_integrity": "passed",
+      "PDF_present": true,
+      "visually_reviewed": true
+    },
+    {
+      "name": "F03b_hand_example",
+      "pixels": [
+        4121,
+        2172
+      ],
+      "png_integrity": "passed",
+      "PDF_present": true,
+      "visually_reviewed": true
+    },
+    {
+      "name": "F04a_model",
+      "pixels": [
+        4121,
+        2412
+      ],
+      "png_integrity": "passed",
+      "PDF_present": true,
+      "visually_reviewed": true
+    },
+    {
+      "name": "F04b_mask_training",
+      "pixels": [
+        4121,
+        2471
+      ],
+      "png_integrity": "passed",
+      "PDF_present": true,
+      "visually_reviewed": true
+    },
+    {
+      "name": "F04c_generation",
+      "pixels": [
+        4121,
+        2441
+      ],
+      "png_integrity": "passed",
+      "PDF_present": true,
+      "visually_reviewed": true
+    }
+  ],
+  "corrections": [
+    "Raised central crop outline above 3x3 block grid",
+    "Named the top construction a training cycle to avoid implying paired common/aux physical samples"
+  ]
+}

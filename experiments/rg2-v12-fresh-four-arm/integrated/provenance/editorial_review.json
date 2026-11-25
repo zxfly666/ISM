@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-25",
+  "status": "passed_with_documented_display_limit",
+  "scope": "Scientific completeness, editorial coherence, artifact provenance, and final delivery boundaries",
+  "authoritative_input": "REPORT_ZH.md",
+  "report_sha256": "3c75b770f323f28a682bc0b52e7c0bc083b1736547518dd0ff19682f3317eb2c",
+  "coverage": {
+    "twelve_chapters_and_four_appendices": true,
+    "self_contained_training_and_generation": true,
+    "actual_tensor_shapes_and_four_arm_example": true,
+    "all_two_seeds_and_two_sampling_schedules": true,
+    "raw_and_connected_correlations_separated": true,
+    "local_energy_magnetization_and_long_range_tradeoff": true,
+    "strict_P_prefix_KL_decomposition": true,
+    "ten_competing_explanations_with_distinguishing_controls": true,
+    "negative_results_and_old_retention_losses_preserved": true,
+    "future_C_not_presented_as_completed": true,
+    "no_new_training_or_generation": true
+  },
+  "independent_reviews": [
+    "method_review.json",
+    "history_review.json",
+    "physical_figure_review.json",
+    "report_validation.json"
+  ],
+  "root_additional_full_size_figure_views": [
+    "F07_fine_correlations",
+    "F10_energy_longrange_tradeoff"
+  ],
+  "display_verification": {
+    "figure_visual_review": "Recorded per figure in method_figure_review.json and physical_figure_review.json; root also viewed the two listed core plots at full size.",
+    "html_formulas_and_links": "Build-time KaTeX strict parsing and static HTML/resource audit.",
+    "browser_desktop_mobile_print": "NOT performed. The available browser rejected local file protocol. No alternate browser or indirect route was used to circumvent that rejection.",
+    "remaining_limit": "Responsive and print CSS is statically reviewed; live browser layout and print pagination are not certified."
+  },
+  "scientific_limits": [
+    "Only two Fresh development training seeds and 32 generated fields per arm/sampling setting.",
+    "Finite MC reference and fixed gradient probe.",
+    "No D1, auxiliary-ratio ablation, Fresh direct-coarse generation, or Fresh exact joint diagnostic.",
+    "No independent confirmatory phase C; physical non-inferiority tolerances are not frozen."
+  ],
+  "delivery": {
+    "branch": "codex/rg2-integrated-report-20261125",
+    "merge_main": false,
+    "workspace_policy": "Only the isolated publication checkout is edited or staged; the user's original workspace is untouched."
+  }
+}

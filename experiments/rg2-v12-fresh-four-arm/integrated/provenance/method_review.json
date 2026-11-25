@@ -1,0 +1,333 @@
+{
+  "review_type": "Source-grounded method and mathematics review of the complete integrated report",
+  "review_date": "2026-11-25",
+  "reviewer_role": "methods_audit",
+  "status": "passed_with_scoped_limits",
+  "source_identity": {
+    "rg2_commit": "5516370b3ae6e98160d9468668acdcbf851dc902",
+    "historical_commit": "7e608a594c06ead3c484cdd5b38e1d8f2c4d56e3",
+    "reviewed_report": "REPORT_ZH.md",
+    "reviewed_report_sha256": "3c75b770f323f28a682bc0b52e7c0bc083b1736547518dd0ff19682f3317eb2c",
+    "reviewed_sections": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "Appendix A",
+      "Appendix B",
+      "Appendix C",
+      "Appendix D"
+    ],
+    "scope_note": "The full report methods and mathematical interpretations were reviewed. Raw historical values and physical figure data are covered by separately linked audits. This review does not certify every numerical entry or final browser layout."
+  },
+  "five_dimension_evidence_map": [
+    {
+      "dimension": "贡献与论证范围",
+      "status": "pass_within_scope",
+      "evidence": [
+        "Report 1.2 separates token count, encoded span, physical sampling and coarse/fine variable transfer.",
+        "Report 4.1 treats the common fine task as an experimental design choice, not a mathematical prerequisite of RG.",
+        "Report 4.3 explicitly bounds all five comparisons and identifies the missing D1 control.",
+        "Report 4.4 separates warm-start transfer from fresh training.",
+        "Report 5.5 limits the implemented M method to shared-parameter coarse-variable auxiliary training.",
+        "Sections 9-12 separate finite-block mechanisms from full-image generation and limit claims to the implemented auxiliary-training strategy.",
+        "All ten M-P explanations distinguish observations, indirect evidence, untested mechanisms and future controls."
+      ],
+      "sources": [
+        "project/scripts/rg2_v12/phase_b.py",
+        "project/scripts/rg2_v12/phase_b_evaluate.py"
+      ],
+      "limits": "This methods review does not establish exhaustive novelty relative to external literature. Scientific conclusions remain developmental, not independently confirmatory."
+    },
+    {
+      "dimension": "表达完整性与独立可读性",
+      "status": "pass_within_scope",
+      "evidence": [
+        "Report 4.2 defines the W32 physical samples, encoded coordinates, token count and parent-window coverage for all four arms.",
+        "Report 5.1-5.5 supplies the architecture, all input/target tensor shapes, augmentation, actual loss and training configuration.",
+        "F03a, F03b, F04a and F04b distinguish method schematics from measurements and have passed separate visual inspection.",
+        "The report includes generation, physical metrics, the exact 512-state law and forward-KL decomposition in one reading entry.",
+        "R1-R3 and the hand-computable block example were incorporated.",
+        "HTML comes solely from the same Markdown, with 294 rendered formulas and no missing local images or links."
+      ],
+      "sources": [
+        "integrated/provenance/method_figure_review.json",
+        "integrated/provenance/method_figure_sources.json",
+        "integrated/data/method_example.json",
+        "integrated/provenance/html_build.json"
+      ],
+      "requested_revisions": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "optional_improvements": [
+        "I1",
+        "I2"
+      ],
+      "limits": "No actual desktop, mobile or print browser visual validation was performed. The available browser rejected local-file access, and no alternate or indirect route was used. CSS syntax and overflow rules were reviewed statically; the remaining two long KL expressions may require source-level line breaks if a future print check finds overflow."
+    },
+    {
+      "dimension": "实验强度及因果识别",
+      "status": "pass_for_accurate_scope_not_confirmatory_strength",
+      "evidence": [
+        "Report 4.2 correctly locates pairing across arms within the same seed/cycle/role; common and auxiliary samples are not obligatorily paired to each other.",
+        "Report 4.3 does not interpret D-P as a single physical-coverage effect or M-D as proof of greater information about all environments.",
+        "Report 5.5 reports 12,000 independent optimizer updates per model, equal token budgets and fixed final EMA evaluation.",
+        "The opening identifies two fresh development seeds and states that independent stage C confirmation has not occurred.",
+        "Sections 9.4 and 11 distinguish generation uncertainty, reference uncertainty and independent-training variability.",
+        "Appendix A.1 separates training/validation global chain IDs from another historical MC reference generator.",
+        "Appendix C.3 correctly preserves sampling-step pairing through arrays generated outside the S/path loops."
+      ],
+      "sources": [
+        "project/scripts/rg2_v12/phase_b.py",
+        "runs/B_v2/identity.json",
+        "runs/B_eval/training_audit.json",
+        "project/runs/data_partition_audit.json",
+        "project/scripts/rg2_v12/phase_b_evaluate.py"
+      ],
+      "limits": "Two development training seeds and 32 generated fields per model/sampling setting limit scientific confirmation. Code verification does not increase the number of independent training replications."
+    },
+    {
+      "dimension": "评价完整性与证据覆盖",
+      "status": "pass_within_method_review_scope",
+      "evidence": [
+        "Report 1 distinguishes local conditional prediction from joint generation.",
+        "Report 2 separates physical MC diagnostics from generated model samples and distinguishes 2,048-field diagnostics from the 256-field evaluation reference.",
+        "Report 3 preserves both conditional-learning success and generation/geometry-retention limitations, subject to separate historical numerical verification.",
+        "Report 5.5 states fixed-width validation and restricted gradient probes, rather than treating the probe as a distribution-wide gradient measure.",
+        "Sections 6-9 define open-axis correlations, global-mean connected estimates, per-bond energy, wall fraction, Wasserstein distance and exact local KL.",
+        "Sections 7-8 preserve both seeds, both S values, fine/coarse curves and local physical costs.",
+        "Appendix C retains descriptive intervals and distinguishes the unexecuted confirmation rules, including the corrected R4 threshold."
+      ],
+      "sources": [
+        "project/scripts/rg2_v12/phase_a.py",
+        "project/scripts/rg2_v12/phase_b.py",
+        "project/scripts/rg2_v12/report.py",
+        "protocol/RG-2_v1.2.html",
+        "integrated/provenance/report_values_audit.json",
+        "integrated/provenance/history_audit.json"
+      ],
+      "limits": "Raw numerical data are cross-referenced to separate numerical and history audits. No new GPU training or generation was performed."
+    },
+    {
+      "dimension": "方法正确性与可复现性",
+      "status": "pass_within_scope",
+      "evidence": [
+        "CPU source-function audit passed 64 synthetic batch cases and 6,240 direct parent-site checks, including majority-before-mask, center extraction and cross-arm pairing.",
+        "D4 coordinate transformations were checked against their literal matrix equivalents; spin arrays are not rearranged by those transformations.",
+        "Parameter total 1,976,962 was independently derived from the source architecture.",
+        "Inverse-time masked CE normalization, alternating AdamW updates, shared task optimizer state, precision and EMA selection match source.",
+        "Sixteen paired reveal-schedule cases confirmed the 64/256 nesting identity without executing any trained model.",
+        "The 512-state law includes internal and cavity-to-exterior bonds; exterior-only terms cancel.",
+        "Grouped forward-KL uses true-P prefix weights and separates conditional total correlation from prediction error.",
+        "Adjacent/checker use one initial three-site group followed by singletons, as correctly stated.",
+        "The C.4 M-P threshold now matches the frozen -delta_G requirement."
+      ],
+      "sources": [
+        "integrated/provenance/method_mechanics_audit.json",
+        "integrated/scripts/audit_method_mechanics.py",
+        "project/scripts/rg2_v12/phase_b.py",
+        "project/scripts/rg2_v12/phase_a.py",
+        "project/scripts/rg2_v12/pilot_net.py",
+        "project/ism_diffusion/scale_model.py",
+        "project/ism_diffusion/model.py",
+        "project/scripts/research20260921/diagnostic_math.py",
+        "protocol/RG-2_v1.2.html"
+      ],
+      "requested_revisions": [
+        "R1",
+        "R4"
+      ],
+      "limits": "Synthetic CPU checks validate mechanics only; they do not reproduce GPU training, assess a trained checkpoint, or independently confirm the scientific hypothesis."
+    }
+  ],
+  "requested_revisions": [
+    {
+      "id": "R1",
+      "severity": "minor",
+      "section": "5.5",
+      "issue": "The configuration row groups validation and gradient diagnostics as every 1,000 steps, omitting the initial step-0 validation.",
+      "suggested_text": "验证在 step 0 及每 1,000 步；梯度诊断每 1,000 步（首次 1,000）。验证是四个宽度的固定共同流批次，梯度诊断仅一对固定 W48 批次。",
+      "source": "project/scripts/rg2_v12/phase_b.py",
+      "status": "resolved_and_verified_in_reviewed_report",
+      "verified_report_sha256": "3c75b770f323f28a682bc0b52e7c0bc083b1736547518dd0ff19682f3317eb2c"
+    },
+    {
+      "id": "R2",
+      "severity": "minor",
+      "section": "1.2",
+      "issue": "The statement about the W48 encoded span names D and M but omits P, although P has the same encoded span.",
+      "suggested_text": "P、D、M 在训练 W48 时的辅助编码轴跨度均为 141；D/M 对应真实 144×144 块布局，而 P 的真实连续细窗仍为 48×48。",
+      "source": "project/scripts/rg2_v12/phase_b.py:40-85",
+      "status": "resolved_and_verified_in_reviewed_report",
+      "verified_report_sha256": "3c75b770f323f28a682bc0b52e7c0bc083b1736547518dd0ff19682f3317eb2c"
+    },
+    {
+      "id": "R3",
+      "severity": "minor_notational",
+      "section": "2.2",
+      "issue": "M_i is used as a coarse spin despite section 1.3 reserving M for the Majority experimental arm. The displayed bound itself is mathematically correct.",
+      "suggested_text": "Use R_i=D_i eta_i and G_R consistently for the R3 coarse variable in the disagreement identity and bound, leaving M for the experimental arm.",
+      "source": "Draft sections 1.3 and 2.1-2.2",
+      "status": "resolved_and_verified_in_reviewed_report",
+      "verified_report_sha256": "3c75b770f323f28a682bc0b52e7c0bc083b1736547518dd0ff19682f3317eb2c"
+    },
+    {
+      "id": "R4",
+      "severity": "required_protocol_correction",
+      "section": "C.4",
+      "issue": "The draft assigned the stage-C M-P secondary comparison a zero threshold. The frozen protocol requires its upper interval limit below -delta_G; only the two coarse comparisons use zero.",
+      "source": "protocol/RG-2_v1.2.html:125",
+      "corrected_text": "M−P 的97.5%双侧区间上界须低于 -delta_G；粗尺度 M−D/M−F 各使用98.75%双侧区间，两项上界均须低于0。",
+      "status": "resolved_and_verified_in_reviewed_report",
+      "verified_report_sha256": "3c75b770f323f28a682bc0b52e7c0bc083b1736547518dd0ff19682f3317eb2c"
+    }
+  ],
+  "optional_improvements": [
+    {
+      "id": "I1",
+      "section": "4.2",
+      "suggestion": "Add a short inline matrix example from figure F03b so readers can verify the mapping without leaving the main report.",
+      "F_and_P": [
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          -1,
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1,
+          -1
+        ]
+      ],
+      "D": [
+        [
+          -1,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          1,
+          -1
+        ]
+      ],
+      "M": [
+        [
+          1,
+          1,
+          -1
+        ],
+        [
+          1,
+          -1,
+          1
+        ],
+        [
+          -1,
+          1,
+          1
+        ]
+      ],
+      "block_positive_votes": [
+        [
+          5,
+          9,
+          4
+        ],
+        [
+          6,
+          3,
+          7
+        ],
+        [
+          2,
+          8,
+          5
+        ]
+      ],
+      "F_axis_coordinates": [
+        0,
+        1,
+        2
+      ],
+      "P_D_M_axis_coordinates": [
+        1,
+        4,
+        7
+      ],
+      "interpretation": "The upper-left block has a 5:4 positive majority but a negative center; the upper-middle block has 9:0 positive votes. Both produce the same positive M token despite their different majority margins.",
+      "source": "integrated/data/method_example.json",
+      "data_status": "Artificial explanatory example, not a Monte Carlo observation or generated model sample.",
+      "status": "implemented_in_main_report"
+    },
+    {
+      "id": "I2",
+      "section": "Appendix A",
+      "suggestion": "For an exact architecture specification, record that the time-feature phase uses 1000t with frequencies spanning 1 to 1e-4; the main text already contains sufficient conceptual detail.",
+      "source": "project/ism_diffusion/model.py:35-50",
+      "status": "optional_detail_not_required_for_scientific_validity"
+    }
+  ],
+  "mutation_boundary": "The reviewer updated its provenance and offline HTML build products. The coordinating author alone edited the scientific Markdown, including the equivalent B_c(x) notation; the frozen scientific payload was not changed.",
+  "review_history": [
+    {
+      "scope": "Draft sections 1-5",
+      "input": "unpublished-authoring-draft/report_body.md",
+      "sha256": "129e36ec00ae76cbe489ddc3d97e1892b5ca877d11938294dba98228eb34a21c",
+      "result": "Three minor revisions requested; later verified in the final report."
+    }
+  ],
+  "final_review_focus": {
+    "training_reference_pools": {
+      "status": "verified",
+      "training_rng": 20260818,
+      "reference_rng": 2026100111,
+      "source": "project/runs/data_partition_audit.json",
+      "interpretation": "Distinct source generators; overlapping local integer labels do not imply shared physical chains."
+    },
+    "bootstrap_sampling_step_pairing": {
+      "status": "verified",
+      "source": "project/scripts/rg2_v12/phase_b_evaluate.py:77-127",
+      "interpretation": "seed_draw, sample_draw and mcids are generated once before the steps/path loops and reused across S and fine/coarse summaries."
+    },
+    "required_changes_remaining": [],
+    "no_new_model_execution": true,
+    "last_mathematical_edit": {
+      "section": "9.2",
+      "status": "verified_equivalent",
+      "description": "The exact 512-state conditional law now names B_c(x) as the internal plus cavity-to-exterior bond sum, then normalizes exp(beta_c B_c(x)); the distribution is unchanged."
+    },
+    "html_static_layout_review": {
+      "status": "static_checks_only",
+      "CSS_parser": "tinycss2 parsed all top-level and media rules/declarations without syntax errors",
+      "screen_math": "inline and display wrappers have bounded horizontal overflow; display content remains reachable from its left edge",
+      "screen_tables": "border-box width and max-width 100% with local horizontal scrolling",
+      "print": "fixed-width tables, wrapping cells, repeated headers and KaTeX legal breakpoints; no hidden formula cropping introduced",
+      "remaining_risk": "The two long KL expressions in section 9.2 remain fully expanded. Their actual fit and page breaks cannot be guaranteed without a real print layout check.",
+      "desktop_visual_verified": false,
+      "mobile_visual_verified": false,
+      "print_visual_verified": false,
+      "reason": "The available browser rejected local-file access; no alternate browser or indirect route was used."
+    }
+  }
+}

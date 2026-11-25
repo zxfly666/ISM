@@ -1,0 +1,56 @@
+{
+  "source_commit": "5516370b3ae6e98160d9468668acdcbf851dc902",
+  "script": "integrated/scripts/method_figures.py",
+  "script_sha256": "1ed82b502411e799b2fba931abac360bce7f95e3738b80b17c003738b1bc6276",
+  "source_sha256": {
+    "project/scripts/rg2_v12/phase_b.py": "39adbf695d4a5e20c602972648e20c186ec57a3c113fcf2cceccf4808cc8aee7",
+    "project/scripts/rg2_v12/phase_a.py": "bf8d44af4bc0eded7527bced0733b6172dd8bfdf02c9fdaaf5b3125541743e87",
+    "project/scripts/rg2_v12/pilot_net.py": "59f800bcdc9c3752be8b8c0cf4fa1e9b4c1b846348360aa318de303a6f274971",
+    "project/ism_diffusion/scale_model.py": "3930e9a2ec1ac85edaa525b9562beb21c7a001594dba23726f233a0b9d3d6018",
+    "project/ism_diffusion/model.py": "f0ba3e8a9ab00afc143c66c5f1c8b6e37981801cf405f15fb67baea36686c1b9"
+  },
+  "toy_data": "integrated/data/method_example.json",
+  "toy_data_sha256": "c839fbcc2b6edb390b2d4aea8a144bcd970baa1445fdf8aa36ddbacff19e65b6",
+  "figures": {
+    "F03a_four_arm_construction": {
+      "caption_zh": "方法示意（非实测图）。以W32为例，每周期先执行共同细流更新，再执行辅助流更新。共同与辅助使用不同role随机键重新选择父场和原点；同一role内四臂严格配对。辅助F/P仅取96×96父窗中央32×32细自旋，D抽中心，M投票；所有辅助输入仅含32×32二值token、同一level1角色。物理覆盖与编码坐标不可混用。",
+      "kind": "method_schematic",
+      "png": "integrated/figures/F03a_four_arm_construction.png",
+      "pdf": "integrated/figures/F03a_four_arm_construction.pdf",
+      "png_sha256": "b2bc68f3cfd710ced01a0ca5ea578649b5dec339445abc74362a2f06161b0859",
+      "pdf_sha256": "02ed88c11bef0417a55cab081068795bd8caec0ab6054d75a4abcfdfa2a03561"
+    },
+    "F03b_hand_example": {
+      "caption_zh": "可手算方法示例，数值为人为固定构造，不是MC或模型输出。9×9父窗中的橙框为F/P取出的中央3×3；P只改变编码轴刻度。D取九个块中心，M取九块多数；每块正自旋数记录在图下。左上块5:4与上中块9:0都映射成M的同一正token，说明投票强度被丢弃。图中展示D4增强前坐标；示例完整数组保存在method_example.json。",
+      "kind": "method_schematic",
+      "png": "integrated/figures/F03b_hand_example.png",
+      "pdf": "integrated/figures/F03b_hand_example.pdf",
+      "png_sha256": "f943bbfaf5bc897b14958e66b0bab693451c6d8656aa5d983fd4e1280dfc5b6c",
+      "pdf_sha256": "2aaa95b000593f5aa4efd63594a65ad4a84d1a5356721e721b0fb9a183325ed1"
+    },
+    "F04a_model": {
+      "caption_zh": "实际模型结构的方法示意。token含负、正、MASK、PAD四类，本轮无PAD；七个全双向稠密注意力block共享同一时间/任务context。坐标只直接旋转Q、K，不直接注入V或残差流；MASK位置也参与注意力。AdaLN的scale/shift层与最终分类输出线性层零初始化，两个任务嵌入也零初始化。输出是每位置两类logits，不是联合自旋分布表。",
+      "kind": "method_schematic",
+      "png": "integrated/figures/F04a_model.png",
+      "pdf": "integrated/figures/F04a_model.pdf",
+      "png_sha256": "0387f32bf979683cd938b857f51b56cd669bbc00008a7fd33bf5c7dbc713a279",
+      "pdf_sha256": "704edbe6423f78a428e04dd05577cdb72d5b447d55d343ecb75d5cd7362ae8da"
+    },
+    "F04b_mask_training": {
+      "caption_zh": "遮盖与优化方法示意；顶部6×6数组仅用于展示规则，正式示例W32时batch为18。先构造clean目标，再做全局自旋翻转及坐标D4，最后独立Bernoulli遮盖；t是样本级随机时间，另有2%全MASK端点。右侧只在隐藏位置监督，损失除以t并按整个batch所有token归一。共同与辅助分别进行独立优化器更新，而不是两loss相加后一次更新；两任务共享主干与同一AdamW状态。",
+      "kind": "method_schematic",
+      "png": "integrated/figures/F04b_mask_training.png",
+      "pdf": "integrated/figures/F04b_mask_training.pdf",
+      "png_sha256": "e0ea5acb29af343945a26a3ebe642c1e44670ba1a36b82c3291e0ff01bd750a6",
+      "pdf_sha256": "12bde052f006ee003f0478f7f4da14cb12dd3ab9bf5b33c440871c5e4704b196"
+    },
+    "F04c_generation": {
+      "caption_zh": "从全MASK生成的规则示意，顶部6×6状态与符号仅为说明揭示过程的人为示例，不是训练模型生成结果。正式Fresh评价为W96、level0、单位坐标、64/256步、每设置32张，使用12k最终EMA。每位置预置独立U/V，U决定日程区间，V与当前条件概率比较决定自旋；组内并行揭示且不回改已揭示位。模型时钟下限0.01不截断揭示日程至0的进程。跨臂和步数复用随机身份，但不会保证最终图相同。",
+      "kind": "method_schematic",
+      "png": "integrated/figures/F04c_generation.png",
+      "pdf": "integrated/figures/F04c_generation.pdf",
+      "png_sha256": "108d69222023aa1b71eb1e44f390042bc43b25bd00bb2a735943dbbb3ab11371",
+      "pdf_sha256": "1116ff5f7db7af92b2303069eca677b80e9849868388903b9bd506c9a1471c09"
+    }
+  }
+}
